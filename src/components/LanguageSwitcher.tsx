@@ -7,11 +7,13 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { Globe } from 'lucide-react';
-
+import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '@/lib/i18n';
 
 const LanguageSwitcher: React.FC = () => {
+  const { i18n } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = React.useState(
-    i18n.changeLanguage()
+    i18n.language || 'en'
   );
 
   React.useEffect(() => {

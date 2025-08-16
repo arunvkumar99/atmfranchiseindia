@@ -18,7 +18,7 @@ const Home = () => {
             {/* Optimized Logo */}
             <div className="flex-shrink-0 animate-float-3d">
               <OptimizedImage
-                src="/lovable-uploads/66055441-3af8-4124-9186-55a3967c791e.png"
+                src="/assets/atm-franchise-logo.png"
                 alt="ATM Franchise India Logo"
                 className="w-60 h-auto object-contain drop-shadow-2xl"
                 width={240}

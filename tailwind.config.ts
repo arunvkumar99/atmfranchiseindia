@@ -147,6 +147,10 @@ export default {
 						transform: 'scale(1.05) rotateX(2deg)',
 						textShadow: '0 0 40px rgba(255, 255, 255, 0.8)'
 					}
+				},
+				'shimmer': {
+					'0%': { backgroundPosition: '-1000px 0' },
+					'100%': { backgroundPosition: '1000px 0' }
 				}
 			},
 			animation: {
@@ -155,7 +159,8 @@ export default {
 				'count-up': 'count-up 0.8s ease-out 0.3s both',
 				'glow': 'glow 2s ease-in-out infinite',
 				'float-3d': 'float-3d 3s ease-in-out infinite',
-				'pulse-3d': 'pulse-3d 2s ease-in-out infinite'
+				'pulse-3d': 'pulse-3d 2s ease-in-out infinite',
+				'shimmer': 'shimmer 2s linear infinite'
 			}
 		}
 	},

@@ -19,7 +19,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { Loader2, CheckCircle, AlertCircle, WifiOff } from 'lucide-react';
+import { Loader2, CheckCircle, AlertCircle, WifiOff, Shield, Lock, CheckCircle2 } from 'lucide-react';
 
 // Form validation schema
 const formSchema = z.object({
@@ -136,10 +136,26 @@ export function DirectSheetsForm({
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto p-6">
-      <div className="mb-8">
-        <h2 className="text-3xl font-bold mb-2">{title}</h2>
-        <p className="text-gray-600">{description}</p>
+    <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl mx-auto p-4 sm:p-6">
+      <div className="mb-6 sm:mb-8">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-2">{title}</h2>
+        <p className="text-sm sm:text-base text-gray-600">{description}</p>
+      </div>
+
+      {/* Security Badges */}
+      <div className="flex flex-wrap items-center gap-3 mb-6 p-3 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
+        <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
+          <Shield className="h-4 w-4" />
+          <span className="font-medium">SSL Secured</span>
+        </div>
+        <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
+          <Lock className="h-4 w-4" />
+          <span className="font-medium">Data Encrypted</span>
+        </div>
+        <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
+          <CheckCircle2 className="h-4 w-4" />
+          <span className="font-medium">GDPR Compliant</span>
+        </div>
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
@@ -270,7 +286,7 @@ export function DirectSheetsForm({
         <Button 
           type="submit" 
           disabled={!isValid || isSubmitting}
-          className="w-full"
+          className="w-full h-12 sm:h-11 text-base sm:text-sm font-semibold"
         >
           {isSubmitting ? (
             <>
