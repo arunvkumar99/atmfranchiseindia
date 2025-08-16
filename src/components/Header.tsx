@@ -5,6 +5,8 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 import SearchComponent from "@/components/SearchComponent";
 import SEOMetaTags from "@/components/SEOMetaTags";
+import { SUPPORTED_LANGUAGES } from "@/lib/i18n";
+import { useTranslation } from "react-i18next";
 
 
 const Header = () => {
@@ -23,6 +25,7 @@ const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, isAdmin, signOut } = useAuth();
+  const { i18n } = useTranslation();
 
   // Enhanced dropdown handlers
   const handleDropdownEnter = useCallback(() => {
@@ -54,16 +57,14 @@ const Header = () => {
     }, 300);
   }, []);
 
-  // Translation function using the enterprise translation system
+  // Translation function using i18n
   const handleLanguageChange = async (languageCode: string) => {
-    console.log(`🌍 Header: Language change requested: ${languageCode}`);
-    await enterpriseTranslationSystem.switchToLanguage(languageCode);
+    await i18n.changeLanguage(languageCode);
+    setCurrentLanguage(languageCode);
   };
 
   const translateToLanguage = useCallback((languageCode: string) => {
-    console.log(`🌍 Header: Translating to ${languageCode}`);
     handleLanguageChange(languageCode);
-    setCurrentLanguage(languageCode);
     setIsLanguageDropdownOpen(false);
   }, []);
 
@@ -87,16 +88,18 @@ const Header = () => {
 
   // Check translation system readiness on mount
   useEffect(() => {
-    setCurrentLanguage(enterpriseTranslationSystem.getCurrentLanguage());
+    setCurrentLanguage(i18n.language || 'en');
     
     // Listen for language changes
-    const handleLanguageChange = (event: any) => {
-      setCurrentLanguage(event.detail.language);
+    const handleLanguageChanged = (lng: string) => {
+      setCurrentLanguage(lng);
     };
 
-    window.addEventListener('languageChanged', handleLanguageChange);
-    return () => window.removeEventListener('languageChanged', handleLanguageChange);
-  }, []);
+    i18n.on('languageChanged', handleLanguageChanged);
+    return () => {
+      i18n.off('languageChanged', handleLanguageChanged);
+    };
+  }, [i18n]);
 
   // Check if current path is in About section
   const isAboutActive = location.pathname === "/about-us" || 
