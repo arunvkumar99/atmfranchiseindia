@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/lovable-uploads/66055441-3af8-4124-9186-55a3967c791e.png" type="image/png">
+    <title>ATM Franchise India - Start Your Passive Income Business in Rural India</title>
+    <meta name="description" content="Start your ATM franchise business in rural India. Earn up to 50% ROI with RBI licensed partners. Zero loss, fully transparent business opportunity for small business owners." />
+    <meta name="author" content="ATM Franchise India" />
+    <meta name="keywords" content="ATM franchise, passive income, rural business, India, RBI licensed, WLA operators, small business" />
+
+    <meta property="og:title" content="ATM Franchise India - Start Your Passive Income Business in Rural India" />
+    <meta property="og:description" content="Start your ATM franchise business in rural India. Earn up to 50% ROI with RBI licensed partners. Zero loss, fully transparent business opportunity." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@atmfranchiseindia" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ATM Franchise India",
+      "url": "https://atmfranchiseindia.com",
+      "logo": "https://atmfranchiseindia.com/lovable-uploads/66055441-3af8-4124-9186-55a3967c791e.png",
+      "sameAs": [
+        "https://www.facebook.com/atmfranchiseindia",
+        "https://www.linkedin.com/company/atmfranchiseindia"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9072380076",
+        "contactType": "customer service"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ATM Franchise India",
+      "url": "https://atmfranchiseindia.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://atmfranchiseindia.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx?t=1752747318822"></script>
+  </body>
+</html>

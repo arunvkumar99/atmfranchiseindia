@@ -1,0 +1,567 @@
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
+import { useFormAnalytics } from "@/hooks/useFormAnalytics";
+import { CaptchaProtection } from "@/components/ui/captcha-protection";
+
+import { useFileUploadManager } from "@/components/ui/file-upload-manager";
+import { uploadFile } from "@/lib/fileUpload";
+import { useFormValidation, FULL_NAME_VALIDATION, EMAIL_VALIDATION, PHONE_VALIDATION } from "@/hooks/useFormValidation";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Send, Loader2 } from "lucide-react";
+
+interface JobApplicationSinglePageProps {
+  jobs: Array<{
+    id: string;
+    title: string;
+    location: string;
+    type: string;
+    experience: string;
+    salary: string;
+  }>;
+  selectedJobId?: string;
+}
+
+export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplicationSinglePageProps) {
+  const { toast } = useToast();
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    jobTitle: selectedJobId ? jobs.find(j => j.id === selectedJobId)?.title || "" : "",
+    candidateName: "",
+    phone: "",
+    email: "",
+    experience: "",
+    currentLocation: "",
+    expectedSalary: "",
+    noticePeriod: "",
+    cvFile: null as File | null
+  });
+
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+
+  const { trackFieldError, trackFormSubmit } = useFormAnalytics({
+    formType: 'job_application',
+    formData
+  });
+
+  // Form validation setup
+  const validationRules = [
+    { field: 'jobTitle', required: true, errorMessage: 'Please select a job position' },
+    { ...FULL_NAME_VALIDATION, field: 'candidateName' },
+    { ...PHONE_VALIDATION, field: 'phone' },
+    { ...EMAIL_VALIDATION, field: 'email' },
+    { field: 'experience', required: true, errorMessage: 'Please enter your experience' },
+    { field: 'currentLocation', required: true, errorMessage: 'Please enter your current location' },
+    { field: 'expectedSalary', required: true, errorMessage: 'Please enter expected salary' },
+    { field: 'noticePeriod', required: true, errorMessage: 'Please select notice period' }
+  ];
+
+  const { errors, validateForm, validateSingleField, clearFieldError } = useFormValidation({
+    rules: validationRules
+  });
+
+  // Unified file upload manager for CV
+  const cvFileManager = useFileUploadManager({ 
+    maxSizeInMB: 10,
+    acceptedTypes: ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'image/jpeg', 'image/jpg', 'image/png'],
+    onFileChange: (file) => {
+      console.log('📁 CV file updated:', file?.name);
+      setFormData(prev => ({ ...prev, cvFile: file }));
+    }
+  });
+
+  const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+    
+    // Real-time validation when user types
+    if (value.trim()) {
+      validateSingleField(field, value);
+    } else if (errors[field]) {
+      clearFieldError(field);
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    // CRITICAL FIX: Force blur any focused element before submission (fixes mobile camera focus trap)
+    if (document.activeElement instanceof HTMLElement) {
+      console.log('🔄 Blurring focused element:', document.activeElement.tagName);
+      document.activeElement.blur();
+    }
+    
+    // Add small delay to ensure blur is processed
+    await new Promise(resolve => setTimeout(resolve, 50));
+
+    if (!isCaptchaVerified) {
+      toast({
+        title: "Security Verification Required",
+        description: "Please complete the security verification before submitting.",
+        variant: "destructive"
+      });
+      return;
+    }
+
+    console.log('🚀 Starting job application form submission...');
+    
+    // Validate required fields
+    const formDataForValidation = {
+      jobTitle: formData.jobTitle,
+      candidateName: formData.candidateName,
+      phone: formData.phone,
+      email: formData.email,
+      experience: formData.experience,
+      currentLocation: formData.currentLocation,
+      expectedSalary: formData.expectedSalary,
+      noticePeriod: formData.noticePeriod
+    };
+
+    const isValid = validateForm(formDataForValidation);
+
+    if (!cvFileManager.uploadState.file) {
+      toast({
+        title: "❌ Missing CV File",
+        description: "Please upload your CV/Resume file.",
+        variant: "destructive",
+        duration: 8000
+      });
+      return;
+    }
+
+    if (!isValid) {
+      const errorFields = Object.keys(errors).filter(key => errors[key]);
+      const errorMessage = errorFields.length > 0 
+        ? `Please correct the following fields: ${errorFields.join(', ')}`
+        : 'Please fill all required fields correctly';
+      
+      toast({
+        title: "❌ Validation Failed",
+        description: errorMessage,
+        variant: "destructive",
+        duration: 8000
+      });
+      return;
+    }
+
+    try {
+      setIsSubmitting(true);
+      
+      console.log('📤 Uploading CV file...');
+      const cvUpload = await uploadFile(cvFileManager.uploadState.file!, 'atmfranchiseforms', 'job-applications');
+      
+      const submissionData = {
+        job_title: formData.jobTitle,
+        candidate_name: formData.candidateName,
+        phone: formData.phone,
+        email: formData.email,
+        experience: formData.experience,
+        current_location: formData.currentLocation,
+        expected_salary: formData.expectedSalary,
+        notice_period: formData.noticePeriod,
+        cv_file_url: cvUpload.url,
+      };
+
+      console.log('📤 Submitting job application...');
+      
+      const { data, error } = await supabase.functions.invoke('form-submission', {
+        body: {
+          formType: 'job_applications',
+          data: submissionData,
+          userAgent: navigator.userAgent,
+          ipAddress: undefined
+        }
+      });
+
+      if (error || data?.error) {
+        throw new Error(error?.message || data?.error || 'Submission failed');
+      }
+
+      trackFormSubmit(true);
+      setIsSubmitted(true);
+      
+      // Scroll to top and focus on success message
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        const successElement = document.querySelector('[data-success-message]');
+        if (successElement) {
+          successElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 100);
+      
+      // Reset form
+      setFormData({
+        jobTitle: "",
+        candidateName: "",
+        phone: "",
+        email: "",
+        experience: "",
+        currentLocation: "",
+        expectedSalary: "",
+        noticePeriod: "",
+        cvFile: null
+      });
+      cvFileManager.clearFile();
+      setIsCaptchaVerified(false);
+
+    } catch (error) {
+      console.error('❌ Error submitting job application:', error);
+      trackFormSubmit(false, error.message);
+      
+      toast({
+        title: "Submission Failed ❌",
+        description: "Please try again or contact us directly.",
+        variant: "destructive",
+        duration: 8000
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  // Success modal component
+  if (isSubmitted) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-14">
+        <div className="container mx-auto px-4 py-12">
+          <div className="max-w-2xl mx-auto">
+            <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-professional animate-fade-in" data-success-message>
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <CardTitle className="text-2xl font-bold text-green-600">Job Application Submitted!</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6 text-center">
+                <p className="text-muted-foreground">
+                  Thank you for applying! We'll review your application and get back to you soon.
+                </p>
+                <div className="space-y-3">
+                  <h4 className="font-semibold">Next Steps:</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>✓ Application review by HR team</li>
+                    <li>✓ Initial screening call (if shortlisted)</li>
+                    <li>✓ Technical/HR interviews</li>
+                    <li>✓ Final decision and offer letter</li>
+                  </ul>
+                </div>
+                <Button 
+                  onClick={() => {
+                    setIsSubmitted(false);
+                    window.location.href = '/';
+                  }}
+                  className="w-full"
+                >
+                  Continue
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-14">
+      <div className="bg-white border-b border-gray-100 shadow-sm">
+        <div className="container mx-auto px-4 py-4">
+          <h1 className="text-xl font-bold">Job Application Form</h1>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">
+              Apply for <span className="text-gradient">Job Position</span>
+            </h2>
+            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
+              Join our team and build your career with us
+            </p>
+          </div>
+
+          <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-professional">
+            <CardContent className="p-8">
+              <form onSubmit={handleSubmit} className="space-y-8">
+                {/* Job Information */}
+                <div className="space-y-6">
+                  <div className="border-b pb-3">
+                    <h3 className="text-xl font-semibold text-foreground">Job Information</h3>
+                    <p className="text-sm text-muted-foreground mt-1">Select the position you're applying for</p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="jobTitle">Position Applying For *</Label>
+                    <Select value={formData.jobTitle} onValueChange={(value) => handleInputChange('jobTitle', value)}>
+                      <SelectTrigger className={errors.jobTitle ? 'border-red-500' : ''}>
+                        <SelectValue placeholder="Select a job position" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {jobs.map((job) => (
+                          <SelectItem key={job.id} value={job.title}>
+                            {job.title} - {job.location}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                    {errors.jobTitle && (
+                      <p className="text-sm text-red-600 flex items-center gap-1">
+                        <span className="text-red-500">⚠</span>
+                        {errors.jobTitle}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {/* Personal Information */}
+                <div className="space-y-6">
+                  <div className="border-b pb-3">
+                    <h3 className="text-xl font-semibold text-foreground">Personal Information</h3>
+                    <p className="text-sm text-muted-foreground mt-1">Your contact details and basic information</p>
+                  </div>
+
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <Label htmlFor="candidateName">Full Name *</Label>
+                      <Input 
+                        id="candidateName" 
+                        value={formData.candidateName}
+                        onChange={(e) => handleInputChange('candidateName', e.target.value)}
+                        placeholder="Enter your full name" 
+                        className={errors.candidateName ? 'border-red-500 focus-visible:ring-red-500' : ''}
+                        required
+                      />
+                      {errors.candidateName && (
+                        <p className="text-sm text-red-600 flex items-center gap-1">
+                          <span className="text-red-500">⚠</span>
+                          {errors.candidateName}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="email">Email Address *</Label>
+                      <Input 
+                        id="email" 
+                        type="email"
+                        value={formData.email}
+                        onChange={(e) => handleInputChange('email', e.target.value)}
+                        placeholder="your.email@example.com" 
+                        className={errors.email ? 'border-red-500 focus-visible:ring-red-500' : ''}
+                        required
+                      />
+                      {errors.email && (
+                        <p className="text-sm text-red-600 flex items-center gap-1">
+                          <span className="text-red-500">⚠</span>
+                          {errors.email}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <Label htmlFor="phone">Phone Number *</Label>
+                      <Input 
+                        id="phone" 
+                        value={formData.phone}
+                        onChange={(e) => handleInputChange('phone', e.target.value)}
+                        placeholder="Your contact number" 
+                        className={errors.phone ? 'border-red-500 focus-visible:ring-red-500' : ''}
+                        required
+                      />
+                      {errors.phone && (
+                        <p className="text-sm text-red-600 flex items-center gap-1">
+                          <span className="text-red-500">⚠</span>
+                          {errors.phone}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="currentLocation">Current Location *</Label>
+                      <Input 
+                        id="currentLocation" 
+                        value={formData.currentLocation}
+                        onChange={(e) => handleInputChange('currentLocation', e.target.value)}
+                        placeholder="City, State" 
+                        className={errors.currentLocation ? 'border-red-500 focus-visible:ring-red-500' : ''}
+                        required
+                      />
+                      {errors.currentLocation && (
+                        <p className="text-sm text-red-600 flex items-center gap-1">
+                          <span className="text-red-500">⚠</span>
+                          {errors.currentLocation}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Professional Information */}
+                <div className="space-y-6">
+                  <div className="border-b pb-3">
+                    <h3 className="text-xl font-semibold text-foreground">Professional Information</h3>
+                    <p className="text-sm text-muted-foreground mt-1">Your work experience and career details</p>
+                  </div>
+
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <Label htmlFor="experience">Total Experience *</Label>
+                      <Input 
+                        id="experience" 
+                        value={formData.experience}
+                        onChange={(e) => handleInputChange('experience', e.target.value)}
+                        placeholder="e.g., 3 years, Fresher, etc." 
+                        className={errors.experience ? 'border-red-500 focus-visible:ring-red-500' : ''}
+                        required
+                      />
+                      {errors.experience && (
+                        <p className="text-sm text-red-600 flex items-center gap-1">
+                          <span className="text-red-500">⚠</span>
+                          {errors.experience}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="expectedSalary">Expected Salary *</Label>
+                      <Input 
+                        id="expectedSalary" 
+                        value={formData.expectedSalary}
+                        onChange={(e) => handleInputChange('expectedSalary', e.target.value)}
+                        placeholder="e.g., ₹5,00,000 per annum" 
+                        className={errors.expectedSalary ? 'border-red-500 focus-visible:ring-red-500' : ''}
+                        required
+                      />
+                      {errors.expectedSalary && (
+                        <p className="text-sm text-red-600 flex items-center gap-1">
+                          <span className="text-red-500">⚠</span>
+                          {errors.expectedSalary}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="noticePeriod">Notice Period *</Label>
+                    <Select value={formData.noticePeriod} onValueChange={(value) => handleInputChange('noticePeriod', value)}>
+                      <SelectTrigger className={errors.noticePeriod ? 'border-red-500' : ''}>
+                        <SelectValue placeholder="Select notice period" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="immediate">Immediate</SelectItem>
+                        <SelectItem value="15-days">15 Days</SelectItem>
+                        <SelectItem value="1-month">1 Month</SelectItem>
+                        <SelectItem value="2-months">2 Months</SelectItem>
+                        <SelectItem value="3-months">3 Months</SelectItem>
+                        <SelectItem value="more-than-3-months">More than 3 Months</SelectItem>
+                      </SelectContent>
+                    </Select>
+                    {errors.noticePeriod && (
+                      <p className="text-sm text-red-600 flex items-center gap-1">
+                        <span className="text-red-500">⚠</span>
+                        {errors.noticePeriod}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {/* CV Upload */}
+                <div className="space-y-6">
+                  <div className="border-b pb-3">
+                    <h3 className="text-xl font-semibold text-foreground">Resume/CV Upload</h3>
+                    <p className="text-sm text-muted-foreground mt-1">Upload your latest resume or CV</p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <Label htmlFor="cvFile" className="flex items-center gap-2">
+                      Upload CV/Resume
+                      <span className="text-destructive">*</span>
+                    </Label>
+                    <div className="flex gap-2">
+                      <Button
+                        type="button"
+                        variant="outline"
+                        onClick={cvFileManager.openFileSelector}
+                        className="flex-1"
+                      >
+                        Choose File
+                      </Button>
+                      <Button
+                        type="button"
+                        variant="outline"
+                        onClick={cvFileManager.openCameraSelector}
+                        className="flex-1"
+                      >
+                        Take Photo
+                      </Button>
+                    </div>
+                    {cvFileManager.uploadState.file && (
+                      <div className="p-2 bg-green-50 border border-green-200 rounded">
+                        <p className="text-sm text-green-700">✅ {cvFileManager.uploadState.file.name}</p>
+                      </div>
+                    )}
+                    <input
+                      ref={cvFileManager.fileInputRef}
+                      type="file"
+                      accept=".pdf,.doc,.docx"
+                      className="hidden"
+                      onChange={(e) => cvFileManager.setFile(e.target.files?.[0] || null)}
+                    />
+                    <input
+                      ref={cvFileManager.cameraInputRef}
+                      type="file"
+                      accept="image/*"
+                      capture="environment"
+                      className="hidden"
+                      onChange={(e) => cvFileManager.setFile(e.target.files?.[0] || null)}
+                    />
+                  </div>
+                </div>
+
+                {/* Security Verification */}
+                <div className="space-y-6">
+                  <div className="border-b pb-3">
+                    <h3 className="text-xl font-semibold text-foreground">Security Verification</h3>
+                    <p className="text-sm text-muted-foreground mt-1">Complete security verification to submit</p>
+                  </div>
+                  <CaptchaProtection 
+                    onVerify={setIsCaptchaVerified}
+                  />
+                </div>
+
+                <Button 
+                  type="submit" 
+                  disabled={isSubmitting || !isCaptchaVerified}
+                  className="w-full bg-primary hover:bg-primary/90 min-h-[48px] font-semibold" 
+                  size="lg"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                      Submitting Application...
+                    </>
+                  ) : (
+                    <>
+                      <Send className="w-4 h-4 mr-2" />
+                      Submit Job Application
+                    </>
+                  )}
+                </Button>
+              </form>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </div>
+  );
+}

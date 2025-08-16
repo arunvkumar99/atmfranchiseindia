@@ -1,0 +1,356 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { MapPin, Phone, Mail, ArrowRight, CheckCircle } from "lucide-react";
+import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
+import familyBusiness from "@/assets/family-business.jpg";
+import successfulBusinessman from "@/assets/successful-businessman.jpg";
+
+const GetStarted = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    location: "",
+    investment: "",
+    message: ""
+  });
+  
+  const { toast } = useToast();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    console.log('🚀 Starting get started form submission...');
+    
+    try {
+      const submissionData = {
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        location: formData.location,
+        investment: formData.investment,
+        message: formData.message || null
+      };
+
+      console.log('🚀 Submitting form to edge function...');
+      console.log('📋 Submission data:', submissionData);
+
+      // Submit through the form-submission edge function
+      const { data, error } = await supabase.functions.invoke('form-submission', {
+        body: {
+          formType: 'get_started_submissions',
+          data: submissionData,
+          userAgent: navigator.userAgent,
+          ipAddress: undefined // Will be determined server-side
+        }
+      });
+      
+      console.log('📡 Edge function response:', { data, error });
+
+      if (error) {
+        console.error('Form submission error:', error);
+        throw error;
+      }
+
+      toast({
+        title: "Form Submitted!",
+        description: "Our team will contact you within 24 hours to discuss your ATM franchise opportunity.",
+      });
+      
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        location: "",
+        investment: "",
+        message: ""
+      });
+    } catch (error) {
+      console.error('Error submitting get started form:', error);
+      toast({
+        title: "Submission Failed",
+        description: "Please try again or contact us directly.",
+        variant: "destructive"
+      });
+    }
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    setFormData(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value
+    }));
+  };
+
+  const processSteps = [
+    {
+      step: "1",
+      title: "Submit Application",
+      description: "Fill out our simple form with your details and preferred location for ATM installation."
+    },
+    {
+      step: "2", 
+      title: "Consultation Call",
+      description: "Our experts will call you within 24 hours to discuss opportunities and answer your questions."
+    },
+    {
+      step: "3",
+      title: "Site Evaluation",
+      description: "We'll help you identify the best locations and evaluate foot traffic and business potential."
+    },
+    {
+      step: "4",
+      title: "Partner Selection", 
+      description: "Choose from our verified WLA operators based on your investment capacity and business goals."
+    },
+    {
+      step: "5",
+      title: "Setup & Launch",
+      description: "Complete documentation, ATM installation, and training to start earning passive income."
+    }
+  ];
+
+  return (
+    <section id="get-started" className="py-20 bg-muted/30">
+      <div className="container mx-auto px-4">
+        {/* Header */}
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            Start Your
+            <span className="bg-gradient-hero bg-clip-text text-transparent"> ATM Business </span>
+            Today
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Take the first step towards financial freedom. Join hundreds of successful franchisees 
+            earning passive income through ATM business in rural India.
+          </p>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-16 mb-16">
+          {/* Form Section */}
+          <div>
+            <Card className="bg-gradient-card border-0 shadow-professional animate-slide-in-left">
+              <CardContent className="p-8">
+                <h3 className="text-2xl font-bold text-foreground mb-6">Get Free Consultation</h3>
+                
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                        Full Name *
+                      </label>
+                      <Input
+                        id="name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        placeholder="Enter your full name"
+                        required
+                        className="border-border focus:border-primary"
+                      />
+                    </div>
+                    
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
+                        Phone Number *
+                      </label>
+                      <Input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        placeholder="+91 98765 43210"
+                        required
+                        className="border-border focus:border-primary"
+                      />
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                      Email Address *
+                    </label>
+                    <Input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      placeholder="your.email@example.com"
+                      required
+                      className="border-border focus:border-primary"
+                    />
+                  </div>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label htmlFor="location" className="block text-sm font-medium text-foreground mb-2">
+                        Preferred Location *
+                      </label>
+                      <Input
+                        id="location"
+                        name="location"
+                        value={formData.location}
+                        onChange={handleChange}
+                        placeholder="City, State"
+                        required
+                        className="border-border focus:border-primary"
+                      />
+                    </div>
+                    
+                    <div>
+                      <label htmlFor="investment" className="block text-sm font-medium text-foreground mb-2">
+                        Investment Capacity
+                      </label>
+                      <select
+                        id="investment"
+                        name="investment"
+                        value={formData.investment}
+                        onChange={handleChange}
+                        className="w-full p-3 border border-border rounded-md focus:border-primary focus:outline-none bg-background text-foreground"
+                      >
+                        <option value="">Select Range</option>
+                        <option value="2-3-lakhs">₹2-3 Lakhs</option>
+                        <option value="3-4-lakhs">₹3-4 Lakhs</option>
+                        <option value="4-5-lakhs">₹4-5 Lakhs</option>
+                        <option value="5-plus-lakhs">₹5+ Lakhs</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                      Additional Information
+                    </label>
+                    <Textarea
+                      id="message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      placeholder="Tell us about your business goals, timeline, or any specific questions..."
+                      rows={4}
+                      className="border-border focus:border-primary"
+                    />
+                  </div>
+                  
+                  <Button type="submit" size="lg" className="w-full bg-gradient-hero text-primary-foreground shadow-professional">
+                    Get Free Consultation
+                    <ArrowRight className="w-5 h-5 ml-2" />
+                  </Button>
+                </form>
+                
+                <div className="mt-6 flex items-center justify-center space-x-6 text-sm text-muted-foreground">
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-secondary" />
+                    <span>100% Free</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-secondary" />
+                    <span>No Obligations</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-secondary" />
+                    <span>Expert Guidance</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Process & Image Section */}
+          <div className="space-y-8 animate-slide-in-right">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="relative overflow-hidden rounded-2xl shadow-lg">
+                <img
+                  src={familyBusiness}
+                  alt="Rural Family ATM Business"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                  <div className="p-4 text-white">
+                    <h4 className="text-lg font-bold mb-1">Family Business Success</h4>
+                    <p className="text-sm opacity-90">Building generational wealth</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="relative overflow-hidden rounded-2xl shadow-lg">
+                <img
+                  src={successfulBusinessman}
+                  alt="Successful ATM Franchise Owner"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                  <div className="p-4 text-white">
+                    <h4 className="text-lg font-bold mb-1">Individual Success</h4>
+                    <p className="text-sm opacity-90">Your entrepreneurial journey</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold text-foreground mb-6">Simple 5-Step Process</h3>
+              <div className="space-y-4">
+                {processSteps.map((step, index) => (
+                  <div key={index} className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm flex-shrink-0">
+                      {step.step}
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-foreground mb-1">{step.title}</h4>
+                      <p className="text-muted-foreground text-sm">{step.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact Info */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 animate-slide-up">
+          <Card className="bg-gradient-card border-0 shadow-soft text-center hover:shadow-professional transition-all">
+            <CardContent className="p-6">
+              <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center mx-auto mb-4">
+                <Phone className="w-6 h-6 text-primary-foreground" />
+              </div>
+              <h4 className="font-semibold text-foreground mb-2">Call Us</h4>
+              <p className="text-muted-foreground text-sm mb-2">Speak with our experts</p>
+              <p className="font-medium text-primary">+91 9072380076</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="bg-gradient-card border-0 shadow-soft text-center hover:shadow-success transition-all">
+            <CardContent className="p-6">
+              <div className="w-12 h-12 bg-gradient-success rounded-full flex items-center justify-center mx-auto mb-4">
+                <Mail className="w-6 h-6 text-secondary-foreground" />
+              </div>
+              <h4 className="font-semibold text-foreground mb-2">Email Us</h4>
+              <p className="text-muted-foreground text-sm mb-2">Get detailed information</p>
+              <p className="font-medium text-primary">atmfranchise@pixellpay.com</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="bg-gradient-card border-0 shadow-soft text-center hover:shadow-professional transition-all">
+            <CardContent className="p-6">
+              <div className="w-12 h-12 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <MapPin className="w-6 h-6 text-accent-foreground" />
+              </div>
+              <h4 className="font-semibold text-foreground mb-2">Visit Office</h4>
+              <p className="text-muted-foreground text-sm mb-2">Meet our team</p>
+              <p className="font-medium text-primary">Bangalore, Karnataka</p>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default GetStarted;
