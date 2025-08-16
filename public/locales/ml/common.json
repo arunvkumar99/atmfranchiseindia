@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "വീട്",
+    "aboutUs": "ഞങ്ങളേക്കുറിച്ച്",
+    "ourProducts": "ഞങ്ങളുടെ ഉല്പന്നങ്ങൾ",
+    "becomeAgent": "ഒരു ഏജന്റാകുക",
+    "submitLocation": "സ്ഥലം സമർപ്പിക്കുക",
+    "contactUs": "ഞങ്ങളെ സമീപിക്കുക",
+    "joinUs": "ഞങ്ങൾക്കൊപ്പം ചേരുക",
+    "blog": "ബ്ലോഗ്",
+    "language": "ഭാഷ"
+  },
+  "buttons": {
+    "submit": "സമർപ്പിക്കുക",
+    "cancel": "റദ്ദാക്കുക",
+    "save": "രക്ഷിക്കും",
+    "delete": "ഇല്ലാതാക്കുക",
+    "edit": "എഡിറ്റ് ചെയ്യുക",
+    "viewMore": "കൂടുതൽ കാണു",
+    "learnMore": "കൂടുതലറിയുക",
+    "getStarted": "ആരംഭിക്കുക",
+    "apply": "ഇപ്പോൾ പ്രയോഗിക്കുക",
+    "download": "ഇറക്കുമതി",
+    "share": "പങ്കിടുക",
+    "back": "തിരികെ",
+    "next": "അടുത്തത്",
+    "previous": "മുമ്പത്തേത്",
+    "close": "അടയ്ക്കുക",
+    "confirm": "സ്ഥിരീകരിക്കുക",
+    "viewDetails": "വിശദാംശങ്ങൾ കാണുക"
+  },
+  "forms": {
+    "required": "ഈ ഫീൽഡ് പൂരിപ്പിക്കേണ്ടതുണ്ട്",
+    "invalidEmail": "സാധുവായ ഒരു ഇമെയിൽ വിലാസം നൽകുക",
+    "invalidPhone": "ദയവായി സാധുവായ ഒരു ഫോൺ നമ്പർ നൽകുക.",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "ഫോം വിജയകരമായി സമർപ്പിച്ചു!",
+    "submitError": "ഫോം സമർപ്പിക്കുന്നതിൽ പിശക്. വീണ്ടും ശ്രമിക്കുക.",
+    "uploading": "അപ്‌ലോഡ് ചെയ്യുന്നു...",
+    "uploadSuccess": "ഫയൽ വിജയകരമായി അപ്‌ലോഡ് ചെയ്തു",
+    "uploadError": "ഫയൽ അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പിശക്"
+  },
+  "footer": {
+    "quickLinks": "ദ്രുത ലിങ്കുകൾ",
+    "services": "സേവനങ്ങള്‍",
+    "legal": "നിയമപരമായ",
+    "followUs": "ഞങ്ങളെ പിന്തുടരുക",
+    "privacyPolicy": "സ്വകാര്യതാ നയം",
+    "termsConditions": "നിബന്ധനകളും വ്യവസ്ഥകളും",
+    "refundPolicy": "റീഫണ്ട് നയം",
+    "accessibility": "പ്രവേശനക്ഷമത പ്രസ്താവന",
+    "copyright": "© 2024 പിക്സൽപേ. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം.",
+    "poweredBy": "PixellPay നൽകുന്നത്"
+  },
+  "errors": {
+    "pageNotFound": "പേജ് കണ്ടെത്തിയില്ല",
+    "somethingWentWrong": "എന്തോ കുഴപ്പം സംഭവിച്ചു.",
+    "tryAgain": "വീണ്ടും ശ്രമിക്കുക",
+    "goHome": "ഹോംപേജിലേക്ക് പോകുക",
+    "networkError": "നെറ്റ്‌വർക്ക് പിശക്. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.",
+    "unauthorized": "ഈ പേജ് കാണാൻ നിങ്ങൾക്ക് അധികാരമില്ല.",
+    "serverError": "സെർവർ പിശക്. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+  },
+  "loading": {
+    "pleaseWait": "കാത്തിരിക്കൂ...",
+    "loading": "ലോഡ് ചെയ്യുന്നു...",
+    "processing": "പ്രോസസ്സ് ചെയ്യുന്നു...",
+    "submitting": "സമർപ്പിക്കുന്നു...",
+    "saving": "സംരക്ഷിക്കുന്നു...",
+    "deleting": "ഇല്ലാതാക്കുന്നു...",
+    "updating": "അപ്ഡേറ്റ് ചെയ്യുന്നു..."
+  },
+  "search": {
+    "placeholder": "തിരയുക...",
+    "noResults": "ഫലങ്ങളൊന്നും കണ്ടെത്തിയില്ല",
+    "results": "{{count}} results found",
+    "clearSearch": "തിരയൽ മായ്ക്കുക"
+  },
+  "pagination": {
+    "page": "പേജ്",
+    "of": "യുടെ",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "പേജിലെ വരികൾ",
+    "first": "ആദ്യം",
+    "last": "അവസാനത്തെ"
+  },
+  "contact": {
+    "phone": "ഫോൺ",
+    "email": "ഇമെയിൽ",
+    "address": "വിലാസം",
+    "workingHours": "പ്രവൃത്തി സമയം",
+    "getInTouch": "ബന്ധപ്പെടുക",
+    "sendMessage": "സന്ദേശം അയയ്ക്കുക"
+  },
+  "social": {
+    "facebook": "ഫേസ്ബുക്ക്",
+    "twitter": "ട്വിറ്റർ",
+    "linkedin": "ലിങ്ക്ഡ്ഇൻ",
+    "instagram": "ഇൻസ്റ്റാഗ്രാം",
+    "youtube": "യൂട്യൂബ്",
+    "whatsapp": "ആപ്പ്"
+  }
+}

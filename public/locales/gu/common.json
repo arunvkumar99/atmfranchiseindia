@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "ઘર",
+    "aboutUs": "અમારા વિશે",
+    "ourProducts": "અમારા ઉત્પાદનો",
+    "becomeAgent": "એજન્ટ બનો",
+    "submitLocation": "સ્થાન સબમિટ કરો",
+    "contactUs": "અમારો સંપર્ક કરો",
+    "joinUs": "અમારી સાથે જોડાઓ",
+    "blog": "બ્લોગ",
+    "language": "ભાષા"
+  },
+  "buttons": {
+    "submit": "સબમિટ કરો",
+    "cancel": "રદ કરો",
+    "save": "સાચવો",
+    "delete": "કાઢી નાખો",
+    "edit": "સંપાદિત કરો",
+    "viewMore": "વધુ જુઓ",
+    "learnMore": "વધુ જાણો",
+    "getStarted": "શરૂ કરો",
+    "apply": "હવે અરજી કરો",
+    "download": "ડાઉનલોડ કરો",
+    "share": "શેર કરો",
+    "back": "પાછળ",
+    "next": "આગળ",
+    "previous": "પાછલું",
+    "close": "બંધ કરો",
+    "confirm": "પુષ્ટિ કરો",
+    "viewDetails": "વિગતો જુઓ"
+  },
+  "forms": {
+    "required": "આ ક્ષેત્ર જરૂરી છે",
+    "invalidEmail": "કૃપા કરીને માન્ય ઇમેઇલ સરનામું દાખલ કરો.",
+    "invalidPhone": "કૃપા કરીને માન્ય ફોન નંબર દાખલ કરો.",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "ફોર્મ સફળતાપૂર્વક સબમિટ થયું!",
+    "submitError": "ફોર્મ સબમિટ કરવામાં ભૂલ. કૃપા કરીને ફરી પ્રયાસ કરો.",
+    "uploading": "અપલોડ કરી રહ્યું છે...",
+    "uploadSuccess": "ફાઇલ સફળતાપૂર્વક અપલોડ થઈ",
+    "uploadError": "ફાઇલ અપલોડ કરવામાં ભૂલ"
+  },
+  "footer": {
+    "quickLinks": "ઝડપી લિંક્સ",
+    "services": "સેવાઓ",
+    "legal": "કાનૂની",
+    "followUs": "અમને અનુસરો",
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "termsConditions": "શરતો અને નિયમો",
+    "refundPolicy": "રિફંડ નીતિ",
+    "accessibility": "સુલભતા નિવેદન",
+    "copyright": "© 2024 PixellPay. બધા હકો અમારી પાસે રાખેલા છે.",
+    "poweredBy": "PixellPay દ્વારા સંચાલિત"
+  },
+  "errors": {
+    "pageNotFound": "પેજ મળ્યું નથી",
+    "somethingWentWrong": "કંઈક ખોટું થયું.",
+    "tryAgain": "ફરી પ્રયાસ કરો",
+    "goHome": "હોમપેજ પર જાઓ",
+    "networkError": "નેટવર્ક ભૂલ. કૃપા કરીને તમારું કનેક્શન તપાસો.",
+    "unauthorized": "તમે આ પૃષ્ઠ જોવા માટે અધિકૃત નથી.",
+    "serverError": "સર્વર ભૂલ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો."
+  },
+  "loading": {
+    "pleaseWait": "કૃપા કરીને રાહ જુઓ...",
+    "loading": "લોડ કરી રહ્યું છે...",
+    "processing": "પ્રક્રિયા કરી રહ્યું છે...",
+    "submitting": "સબમિટ કરી રહ્યું છે...",
+    "saving": "સાચવી રહ્યું છે...",
+    "deleting": "કાઢી નાખી રહ્યું છે...",
+    "updating": "અપડેટ કરી રહ્યું છે..."
+  },
+  "search": {
+    "placeholder": "શોધો...",
+    "noResults": "કોઈ પરિણામ મળ્યું નથી.",
+    "results": "{{count}} results found",
+    "clearSearch": "શોધ સાફ કરો"
+  },
+  "pagination": {
+    "page": "પાનું",
+    "of": "ના",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "પ્રતિ પૃષ્ઠ પંક્તિઓ",
+    "first": "પ્રથમ",
+    "last": "છેલ્લા"
+  },
+  "contact": {
+    "phone": "ફોન",
+    "email": "ઇમેઇલ",
+    "address": "સરનામું",
+    "workingHours": "કામના કલાકો",
+    "getInTouch": "સંપર્કમાં રહો",
+    "sendMessage": "સંદેશ મોકલો"
+  },
+  "social": {
+    "facebook": "ફેસબુક",
+    "twitter": "ટ્વિટર",
+    "linkedin": "લિંક્ડઇન",
+    "instagram": "ઇન્સ્ટાગ્રામ",
+    "youtube": "યુટ્યુબ",
+    "whatsapp": "વોટ્સએપ"
+  }
+}

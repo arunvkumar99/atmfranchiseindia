@@ -1,6 +1,6 @@
 // Enterprise Translation Status Component
 import React, { useState, useEffect } from 'react';
-import { enterpriseTranslationSystem } from '@/lib/enterpriseTranslationSystem';
+
 import { Button } from '@/components/ui/button';
 import { supabase } from '@/integrations/supabase/client';
 import { RefreshCw, CheckCircle, AlertCircle } from 'lucide-react';

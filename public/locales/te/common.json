@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "హొమ్ పేజ్",
+    "aboutUs": "మా గురించి",
+    "ourProducts": "మా ఉత్పత్తులు",
+    "becomeAgent": "ఏజెంట్ అవ్వండి",
+    "submitLocation": "స్థానాన్ని సమర్పించండి",
+    "contactUs": "మమ్మల్ని సంప్రదించండి",
+    "joinUs": "మాతో చేరండి",
+    "blog": "బ్లాగు",
+    "language": "భాష"
+  },
+  "buttons": {
+    "submit": "సమర్పించండి",
+    "cancel": "రద్దు చేయి",
+    "save": "సేవ్ చేయండి",
+    "delete": "తొలగించు",
+    "edit": "సవరించు",
+    "viewMore": "మరిన్ని చూడండి",
+    "learnMore": "మరింత తెలుసుకోండి",
+    "getStarted": "ప్రారంభించడానికి",
+    "apply": "ఇప్పుడు దరఖాస్తు చేసుకోండి",
+    "download": "డౌన్¬లోడ్ చేయండి",
+    "share": "షేర్ చేయి",
+    "back": "వెనుకకు",
+    "next": "తరువాతి",
+    "previous": "మునుపటి",
+    "close": "ముగింపు / ముగింపు",
+    "confirm": "నిర్ధారించండి",
+    "viewDetails": "వివరాలు చూడండి"
+  },
+  "forms": {
+    "required": "ఈ ఫీల్డ్ తప్పనిసరి",
+    "invalidEmail": "దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి.",
+    "invalidPhone": "దయచేసి చెల్లుబాటు అయ్యే ఫోన్ నంబర్‌ను నమోదు చేయండి.",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "ఫారమ్ విజయవంతంగా సమర్పించబడింది!",
+    "submitError": "ఫారమ్‌ను సమర్పించడంలో లోపం ఏర్పడింది. దయచేసి మళ్ళీ ప్రయత్నించండి.",
+    "uploading": "అప్‌లోడ్ చేస్తోంది...",
+    "uploadSuccess": "ఫైల్ విజయవంతంగా అప్‌లోడ్ చేయబడింది",
+    "uploadError": "ఫైల్‌ను అప్‌లోడ్ చేయడంలో లోపం ఏర్పడింది."
+  },
+  "footer": {
+    "quickLinks": "త్వరిత లింకులు",
+    "services": "సేవలు",
+    "legal": "చట్టపరమైన",
+    "followUs": "మమ్మల్ని అనుసరించు",
+    "privacyPolicy": "గోప్యతా విధానం",
+    "termsConditions": "నిబంధనలు & షరతులు",
+    "refundPolicy": "రీఫండ్ పాలసీ",
+    "accessibility": "యాక్సెసిబిలిటీ స్టేట్‌మెంట్",
+    "copyright": "© 2024 PixellPay. అన్ని హక్కులూ ప్రత్యేకించుకోవడమైనది.",
+    "poweredBy": "PixellPay ద్వారా ఆధారితం"
+  },
+  "errors": {
+    "pageNotFound": "పేజీ కనుగొనబడలేదు",
+    "somethingWentWrong": "ఏదో తప్పు జరిగింది.",
+    "tryAgain": "మళ్ళీ ప్రయత్నించండి",
+    "goHome": "హోమ్‌పేజీకి వెళ్లండి",
+    "networkError": "నెట్‌వర్క్ లోపం. దయచేసి మీ కనెక్షన్‌ను తనిఖీ చేయండి.",
+    "unauthorized": "ఈ పేజీని వీక్షించడానికి మీకు అధికారం లేదు.",
+    "serverError": "సర్వర్ లోపం. దయచేసి తర్వాత మళ్ళీ ప్రయత్నించండి."
+  },
+  "loading": {
+    "pleaseWait": "దయచేసి వేచి ఉండండి...",
+    "loading": "లోడ్ అవుతోంది...",
+    "processing": "ప్రాసెస్ చేస్తోంది...",
+    "submitting": "సమర్పిస్తోంది...",
+    "saving": "సేవ్ చేస్తోంది...",
+    "deleting": "తొలగిస్తోంది...",
+    "updating": "నవీకరిస్తోంది..."
+  },
+  "search": {
+    "placeholder": "వెతకండి...",
+    "noResults": "ఫలితాలు కనుగొనబడలేదు",
+    "results": "{{count}} results found",
+    "clearSearch": "శోధనను క్లియర్ చేయి"
+  },
+  "pagination": {
+    "page": "పేజీ",
+    "of": "యొక్క",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "పేజీకి వరుసలు",
+    "first": "ముందుగా",
+    "last": "చివరిది"
+  },
+  "contact": {
+    "phone": "ఫోన్",
+    "email": "ఇ-మెయిల్",
+    "address": "చిరునామా",
+    "workingHours": "పని వేళలు",
+    "getInTouch": "అందుబాటులో ఉండు",
+    "sendMessage": "సందేశం పంపండి"
+  },
+  "social": {
+    "facebook": "ఫేస్బుక్",
+    "twitter": "ట్విట్టర్",
+    "linkedin": "లింక్డ్ఇన్",
+    "instagram": "ఇన్స్టాగ్రామ్",
+    "youtube": "యూట్యూబ్",
+    "whatsapp": "వాట్సాప్"
+  }
+}

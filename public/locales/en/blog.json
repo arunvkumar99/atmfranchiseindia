@@ -1,0 +1,57 @@
+{
+  "title": "Blog & Resources",
+  "subtitle": "Latest insights and updates from PixellPay",
+  "categories": {
+    "all": "All Posts",
+    "business": "Business Tips",
+    "success": "Success Stories",
+    "guides": "How-to Guides",
+    "news": "News & Updates",
+    "financial": "Financial Literacy"
+  },
+  "post": {
+    "readMore": "Read More",
+    "readTime": "{{minutes}} min read",
+    "author": "By {{author}}",
+    "published": "Published on {{date}}",
+    "updated": "Updated on {{date}}",
+    "share": "Share this post",
+    "related": "Related Posts",
+    "tags": "Tags",
+    "comments": "Comments"
+  },
+  "search": {
+    "placeholder": "Search blog posts...",
+    "noResults": "No posts found for your search"
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "subtitle": "Get latest updates and business tips directly in your inbox",
+    "placeholder": "Enter your email",
+    "button": "Subscribe",
+    "success": "Successfully subscribed to newsletter!",
+    "error": "Error subscribing. Please try again."
+  },
+  "posts": {
+    "fiveStepGuide": {
+      "title": "5 Step Guide to Start Your ATM Business",
+      "excerpt": "A comprehensive guide to starting your ATM franchise business with PixellPay"
+    },
+    "passiveIncome": {
+      "title": "ATM Franchise: Your Path to Passive Income",
+      "excerpt": "Learn how ATM franchise can generate consistent passive income"
+    },
+    "perfectTime": {
+      "title": "Why 2025 is the Perfect Time for a Side Hustle",
+      "excerpt": "Discover why starting an ATM franchise in 2025 is a smart business decision"
+    },
+    "financialFreedom": {
+      "title": "Achieving Financial Freedom Through Passive Income",
+      "excerpt": "Understanding the role of passive income in achieving financial independence"
+    },
+    "truthAbout": {
+      "title": "The Truth About Passive Income Ideas",
+      "excerpt": "Separating myths from reality in the world of passive income opportunities"
+    }
+  }
+}

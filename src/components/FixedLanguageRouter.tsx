@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { unifiedTranslationSystem } from '@/lib/unifiedTranslationSystem';
+
 
 const SUPPORTED_LANGUAGE_CODES = ['hi', 'bn', 'ta', 'te', 'mr', 'gu', 'ur', 'kn', 'or', 'pa', 'as', 'ml'];
 
@@ -23,7 +23,7 @@ const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children
         console.log(`🌍 Detected language: ${langCode} for path: ${path}`);
         
         // Apply translation using unified system
-        unifiedTranslationSystem.switchToLanguage(langCode);
+        i18n.changeLanguage(langCode);
       } else {
         // Invalid language code - redirect to clean URL
         console.log(`❌ Invalid language code: ${langCode}, redirecting to clean URL`);
@@ -44,7 +44,7 @@ const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children
       }
       
       // Apply English as default
-      unifiedTranslationSystem.switchToLanguage('en');
+      i18n.changeLanguage('en');
     }
   }, [location.pathname, navigate]);
 

@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "முகப்புப் பக்கம்",
+    "aboutUs": "எங்களை பற்றி",
+    "ourProducts": "எங்கள் தயாரிப்புகள்",
+    "becomeAgent": "முகவராகுங்கள்",
+    "submitLocation": "இருப்பிடத்தைச் சமர்ப்பிக்கவும்",
+    "contactUs": "எங்களை தொடர்பு கொள்ள",
+    "joinUs": "எங்களுடன் சேருங்கள்",
+    "blog": "வலைப்பதிவு",
+    "language": "மொழி"
+  },
+  "buttons": {
+    "submit": "சமர்ப்பிக்கவும்",
+    "cancel": "ரத்துசெய்",
+    "save": "சேமிக்கவும்",
+    "delete": "நீக்கு",
+    "edit": "திருத்து",
+    "viewMore": "மேலும் காண்க",
+    "learnMore": "மேலும் அறிக",
+    "getStarted": "தொடங்குங்கள்",
+    "apply": "இப்பொழுது விண்ணப்பியுங்கள்",
+    "download": "பதிவிறக்கவும்",
+    "share": "பகிர்",
+    "back": "மீண்டும்",
+    "next": "அடுத்து",
+    "previous": "முந்தையது",
+    "close": "மூடு",
+    "confirm": "உறுதிப்படுத்தவும்",
+    "viewDetails": "விவரங்களைப் பார்"
+  },
+  "forms": {
+    "required": "இந்தப் புலம் அவசியம்",
+    "invalidEmail": "தயவுசெய்து ஒரு செல்லுபடியாகும் மின்னஞ்சல் முகவரியை உள்ளிடவும்.",
+    "invalidPhone": "தயவுசெய்து ஒரு செல்லுபடியாகும் தொலைபேசி எண்ணை உள்ளிடவும்.",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "படிவம் வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!",
+    "submitError": "படிவத்தைச் சமர்ப்பிப்பதில் பிழை. மீண்டும் முயற்சிக்கவும்.",
+    "uploading": "பதிவேற்றுகிறது...",
+    "uploadSuccess": "கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது.",
+    "uploadError": "கோப்பை பதிவேற்றுவதில் பிழை"
+  },
+  "footer": {
+    "quickLinks": "விரைவு இணைப்புகள்",
+    "services": "சேவைகள்",
+    "legal": "சட்டம் சார்ந்தது",
+    "followUs": "எங்களை பின்தொடரவும்",
+    "privacyPolicy": "தனியுரிமைக் கொள்கை",
+    "termsConditions": "விதிமுறைகளும் நிபந்தனைகளும்",
+    "refundPolicy": "பணத்தைத் திரும்பப்பெறும் கொள்கை",
+    "accessibility": "அணுகல்தன்மை அறிக்கை",
+    "copyright": "© 2024 PixellPay. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+    "poweredBy": "PixellPay ஆல் இயக்கப்படுகிறது"
+  },
+  "errors": {
+    "pageNotFound": "பக்கம் கிடைக்கவில்லை",
+    "somethingWentWrong": "ஏதோ தவறாகிவிட்டது.",
+    "tryAgain": "மீண்டும் முயற்சிக்கவும்",
+    "goHome": "முகப்புப் பக்கத்திற்குச் செல்",
+    "networkError": "நெட்வொர்க் பிழை. உங்கள் இணைப்பைச் சரிபார்க்கவும்.",
+    "unauthorized": "இந்தப் பக்கத்தைப் பார்க்க உங்களுக்கு அங்கீகாரம் இல்லை.",
+    "serverError": "சர்வர் பிழை. பிறகு முயற்சிக்கவும்."
+  },
+  "loading": {
+    "pleaseWait": "தயவுசெய்து காத்திருங்கள்...",
+    "loading": "ஏற்றுகிறது...",
+    "processing": "செயலாக்குகிறது...",
+    "submitting": "சமர்ப்பிக்கிறது...",
+    "saving": "சேமிக்கிறது...",
+    "deleting": "நீக்குகிறது...",
+    "updating": "புதுப்பிக்கிறது..."
+  },
+  "search": {
+    "placeholder": "தேடு...",
+    "noResults": "முடிவுகள் எதுவும் கிடைக்கவில்லை",
+    "results": "{{count}} results found",
+    "clearSearch": "தேடலை அழி"
+  },
+  "pagination": {
+    "page": "பக்கம்",
+    "of": "இன்",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "பக்கத்திற்கு வரிசைகள்",
+    "first": "முதலில்",
+    "last": "கடைசியாக"
+  },
+  "contact": {
+    "phone": "தொலைபேசி",
+    "email": "மின்னஞ்சல்",
+    "address": "முகவரி",
+    "workingHours": "வேலை நேரம்",
+    "getInTouch": "தொடர்புகளுக்கு",
+    "sendMessage": "செய்தி அனுப்பு"
+  },
+  "social": {
+    "facebook": "பேஸ்புக்",
+    "twitter": "ட்விட்டர்",
+    "linkedin": "லிங்க்ட்இன்",
+    "instagram": "இன்ஸ்டாகிராம்",
+    "youtube": "யூடியூப்",
+    "whatsapp": "வாட்ஸ்அப்"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "fields": {
+    "fullName": "ਪੂਰਾ ਨਾਂਮ",
+    "firstName": "ਪਹਿਲਾ ਨਾਂ",
+    "lastName": "ਆਖਰੀ ਨਾਂਮ",
+    "email": "ਈਮੇਲ ਪਤਾ",
+    "phone": "ਫੋਨ ਨੰਬਰ",
+    "alternatePhone": "ਵਿਕਲਪਿਕ ਫ਼ੋਨ ਨੰਬਰ",
+    "whatsapp": "ਵਟਸਐਪ ਨੰਬਰ",
+    "address": "ਪਤਾ",
+    "street": "ਸੜਕ ਦਾ ਪਤਾ",
+    "city": "ਸ਼ਹਿਰ",
+    "state": "ਰਾਜ",
+    "pincode": "ਪਿੰਨ ਕੋਡ",
+    "country": "ਦੇਸ਼",
+    "message": "ਸੁਨੇਹਾ",
+    "comments": "ਟਿੱਪਣੀਆਂ",
+    "experience": "ਅਨੁਭਵ",
+    "qualification": "ਯੋਗਤਾ",
+    "occupation": "ਮੌਜੂਦਾ ਕਿੱਤਾ",
+    "businessType": "ਕਾਰੋਬਾਰ ਦੀ ਕਿਸਮ",
+    "investment": "ਨਿਵੇਸ਼ ਸਮਰੱਥਾ",
+    "preferredLocation": "ਪਸੰਦੀਦਾ ਸਥਾਨ",
+    "shopName": "ਦੁਕਾਨ/ਕਾਰੋਬਾਰ ਦਾ ਨਾਮ",
+    "shopAddress": "ਦੁਕਾਨ ਦਾ ਪਤਾ",
+    "monthlyIncome": "ਮਾਸਿਕ ਆਮਦਨ",
+    "businessExperience": "ਕਾਰੋਬਾਰੀ ਤਜਰਬਾ (ਸਾਲ)",
+    "howDidYouHear": "ਤੁਹਾਨੂੰ ਸਾਡੇ ਬਾਰੇ ਕਿਵੇਂ ਪਾ ਲੱਗਿਆ?",
+    "agreeTerms": "ਮੈਂ ਨਿਯਮਾਂ ਅਤੇ ਸ਼ਰਤਾਂ ਨਾਲ ਸਹਿਮਤ ਹਾਂ।",
+    "newsletter": "ਨਿਊਜ਼ਲੈਟਰ ਦੇ ਗਾਹਕ ਬਣੋ",
+    "captcha": "ਕੈਪਚਾ ਦਰਜ ਕਰੋ"
+  },
+  "placeholders": {
+    "fullName": "ਆਪਣਾ ਪੂਰਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+    "email": "example@email.com",
+    "phone": "+91 98765 43210",
+    "message": "ਆਪਣਾ ਸੁਨੇਹਾ ਇੱਥੇ ਟਾਈਪ ਕਰੋ...",
+    "city": "ਆਪਣਾ ਸ਼ਹਿਰ ਚੁਣੋ",
+    "state": "ਆਪਣਾ ਰਾਜ ਚੁਣੋ",
+    "searchCity": "ਸ਼ਹਿਰ ਖੋਜੋ...",
+    "selectOption": "ਕੋਈ ਵਿਕਲਪ ਚੁਣੋ",
+    "uploadFile": "ਫਾਈਲ ਚੁਣੋ ਜਾਂ ਇੱਥੇ ਘਸੀਟੋ",
+    "pincode": "6-ਅੰਕਾਂ ਵਾਲਾ ਪਿੰਨ ਕੋਡ"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "emailInvalid": "ਇੱਕ ਜਾਇਜ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ",
+    "phoneInvalid": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ 10-ਅੰਕਾਂ ਵਾਲਾ ਫ਼ੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ।",
+    "pincodeInvalid": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ 6-ਅੰਕਾਂ ਵਾਲਾ ਪਿੰਨ ਕੋਡ ਦਾਖਲ ਕਰੋ।",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "maxLength": "{{field}} must not exceed {{max}} characters",
+    "numberOnly": "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ਼ ਨੰਬਰ ਦਰਜ ਕਰੋ",
+    "lettersOnly": "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ਼ ਅੱਖਰ ਹੀ ਦਰਜ ਕਰੋ",
+    "fileSize": "File size must be less than {{size}}MB",
+    "fileType": "Only {{types}} files are allowed",
+    "agreeRequired": "ਤੁਹਾਨੂੰ ਨਿਯਮਾਂ ਅਤੇ ਸ਼ਰਤਾਂ ਨਾਲ ਸਹਿਮਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "captchaRequired": "ਕਿਰਪਾ ਕਰਕੇ ਕੈਪਚਾ ਤਸਦੀਕ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
+  },
+  "options": {
+    "occupation": {
+      "employed": "ਨੌਕਰੀ ਕਰਦਾ ਹੈ",
+      "selfEmployed": "ਆਪਣੇ ਆਪ ਨੌਕਰੀ ਪੇਸ਼ਾ",
+      "business": "ਕਾਰੋਬਾਰੀ ਮਾਲਕ",
+      "student": "ਵਿਦਿਆਰਥੀ",
+      "retired": "ਸੇਵਾਮੁਕਤ",
+      "other": "ਹੋਰ"
+    },
+    "investment": {
+      "below1": "₹1 ਲੱਖ ਤੋਂ ਘੱਟ",
+      "1to5": "₹1-5 ਲੱਖ",
+      "5to10": "₹5-10 ਲੱਖ",
+      "10to25": "₹10-25 ਲੱਖ",
+      "above25": "₹25 ਲੱਖ ਤੋਂ ਵੱਧ"
+    },
+    "hearAbout": {
+      "google": "ਗੂਗਲ ਸਰਚ",
+      "facebook": "ਫੇਸਬੁੱਕ",
+      "instagram": "ਇੰਸਟਾਗ੍ਰਾਮ",
+      "friend": "ਦੋਸਤ/ਹਵਾਲਾ",
+      "newspaper": "ਅਖ਼ਬਾਰ",
+      "other": "ਹੋਰ"
+    },
+    "businessType": {
+      "retail": "ਪ੍ਰਚੂਨ ਦੁਕਾਨ",
+      "service": "ਸੇਵਾ ਕੇਂਦਰ",
+      "grocery": "ਕਰਿਆਨੇ ਦੀ ਦੁਕਾਨ",
+      "medical": "ਮੈਡੀਕਲ ਸਟੋਰ",
+      "restaurant": "ਰੈਸਟੋਰੈਂਟ/ਕੈਫੇ",
+      "other": "ਹੋਰ"
+    }
+  },
+  "locationForm": {
+    "title": "ATM ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
+    "subtitle": "ਨਵੇਂ ATM ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਸਥਾਨਾਂ ਦੀ ਪਛਾਣ ਕਰਨ ਵਿੱਚ ਸਾਡੀ ਮਦਦ ਕਰੋ।",
+    "sections": {
+      "personal": "ਵਿਅਕਤੀਗਤ ਜਾਣਕਾਰੀ",
+      "location": "ਸਥਾਨ ਵੇਰਵੇ",
+      "business": "ਕਾਰੋਬਾਰੀ ਜਾਣਕਾਰੀ",
+      "additional": "ਵਧੀਕ ਜਾਣਕਾਰੀ"
+    },
+    "success": "ਟਿਕਾਣਾ ਸਫਲਤਾਪੂਰਵਕ ਸਪੁਰਦ ਕੀਤਾ ਗਿਆ! ਅਸੀਂ ਜਲਦੀ ਹੀ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।",
+    "error": "ਟਿਕਾਣਾ ਸਪੁਰਦ ਕਰਨ ਵਿੱਚ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+  },
+  "agentForm": {
+    "title": "PixellPay ਏਜੰਟ ਬਣੋ",
+    "subtitle": "ਸਾਡੇ ਸਫਲ ਏਜੰਟਾਂ ਦੇ ਨੈੱਟਵਰਕ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
+    "sections": {
+      "personal": "ਨਿੱਜੀ ਵੇਰਵੇ",
+      "professional": "ਪੇਸ਼ੇਵਰ ਜਾਣਕਾਰੀ",
+      "documents": "ਦਸਤਾਵੇਜ਼ ਅੱਪਲੋਡ",
+      "agreement": "ਨਿਯਮ ਅਤੇ ਇਕਰਾਰਨਾਮਾ"
+    },
+    "success": "ਅਰਜ਼ੀ ਸਫਲਤਾਪੂਰਵਕ ਜਮ੍ਹਾਂ ਹੋ ਗਈ! ਸਾਡੀ ਟੀਮ 48 ਘੰਟਿਆਂ ਦੇ ਅੰਦਰ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੇਗੀ।",
+    "error": "ਅਰਜ਼ੀ ਜਮ੍ਹਾਂ ਕਰਨ ਵਿੱਚ ਗੜਬੜ। ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਖੇਤਰਾਂ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+  },
+  "enquiryForm": {
+    "title": "ਫਰੈਂਚਾਈਜ਼ ਪੁੱਛਗਿੱਛ ਫਾਰਮ",
+    "subtitle": "ਆਪਣੀ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "success": "ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਲਈ ਧੰਨਵਾਦ! ਅਸੀਂ ਜਲਦੀ ਹੀ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।",
+    "error": "ਪੁੱਛਗਿੱਛ ਸਪੁਰਦ ਕਰਨ ਵਿੱਚ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+  },
+  "contactForm": {
+    "title": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
+    "subtitle": "ਅਸੀਂ ਮਦਦ ਲਈ ਇੱਥੇ ਹਾਂ।",
+    "success": "ਸੁਨੇਹਾ ਸਫਲਤਾਪੂਰਵਕ ਭੇਜਿਆ ਗਿਆ!",
+    "error": "ਸੁਨੇਹਾ ਭੇਜਣ ਵਿੱਚ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "title": "India's Most Trusted ATM Franchise",
+    "subtitle": "Start your journey with PixellPay - Your gateway to financial success",
+    "description": "Join thousands of successful franchise partners across India. Low investment, high returns, complete support.",
+    "cta": {
+      "primary": "Start Your ATM Business",
+      "secondary": "Learn More"
+    },
+    "stats": {
+      "franchises": "5000+ Active Franchises",
+      "transactions": "10M+ Monthly Transactions",
+      "coverage": "Pan India Coverage",
+      "support": "24/7 Support"
+    }
+  },
+  "features": {
+    "title": "Why Choose PixellPay ATM Franchise?",
+    "subtitle": "Comprehensive support for your business success",
+    "items": {
+      "lowInvestment": {
+        "title": "Low Investment",
+        "description": "Start your ATM business with minimal capital investment"
+      },
+      "highReturns": {
+        "title": "High Returns",
+        "description": "Earn attractive commissions on every transaction"
+      },
+      "training": {
+        "title": "Complete Training",
+        "description": "Comprehensive training and ongoing support"
+      },
+      "technology": {
+        "title": "Advanced Technology",
+        "description": "State-of-the-art ATM machines with latest features"
+      },
+      "security": {
+        "title": "100% Secure",
+        "description": "Bank-grade security for all transactions"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical and business support"
+      }
+    }
+  },
+  "process": {
+    "title": "Start Your ATM Business in 5 Simple Steps",
+    "subtitle": "Quick and hassle-free onboarding process",
+    "steps": {
+      "apply": {
+        "title": "Apply Online",
+        "description": "Fill out the simple online application form"
+      },
+      "verification": {
+        "title": "Document Verification",
+        "description": "Submit required documents for verification"
+      },
+      "agreement": {
+        "title": "Sign Agreement",
+        "description": "Review and sign the franchise agreement"
+      },
+      "setup": {
+        "title": "ATM Setup",
+        "description": "We handle complete ATM installation and setup"
+      },
+      "earn": {
+        "title": "Start Earning",
+        "description": "Begin earning from day one of operations"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Partners Say",
+    "subtitle": "Success stories from across India"
+  },
+  "locations": {
+    "title": "Our Presence Across India",
+    "subtitle": "Find ATM franchise opportunities in your city",
+    "searchPlaceholder": "Search your city...",
+    "viewAll": "View All Locations"
+  },
+  "cta": {
+    "title": "Ready to Start Your ATM Franchise?",
+    "subtitle": "Join India's fastest growing ATM network",
+    "button": "Apply Now",
+    "contact": "Or call us at"
+  },
+  "benefits": {
+    "title": "Benefits of ATM Franchise",
+    "items": {
+      "passive": "Passive Income Stream",
+      "scalable": "Scalable Business Model",
+      "proven": "Proven Business Model",
+      "flexible": "Flexible Working Hours",
+      "noInventory": "No Inventory Management",
+      "digitalIndia": "Part of Digital India Mission"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about ATM franchise"
+  },
+  "stats": {
+    "title": "PixellPay by Numbers",
+    "activeFranchises": "Active Franchises",
+    "monthlyTransactions": "Monthly Transactions",
+    "citiesCovered": "Cities Covered",
+    "yearsExperience": "Years of Experience"
+  }
+}

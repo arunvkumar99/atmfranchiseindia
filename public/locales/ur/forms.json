@@ -1,0 +1,128 @@
+{
+  "fields": {
+    "fullName": "پورا نام",
+    "firstName": "پہلا نام",
+    "lastName": "آخری نام",
+    "email": "ای میل ایڈریس",
+    "phone": "فون نمبر",
+    "alternatePhone": "متبادل فون نمبر",
+    "whatsapp": "واٹس ایپ نمبر",
+    "address": "پتہ",
+    "street": "گلی کا پتہ",
+    "city": "شہر",
+    "state": "ریاست",
+    "pincode": "پن کوڈ",
+    "country": "ملک",
+    "message": "پیغام",
+    "comments": "تبصرے",
+    "experience": "تجربہ",
+    "qualification": "قابلیت",
+    "occupation": "موجودہ پیشہ",
+    "businessType": "کاروبار کی قسم",
+    "investment": "سرمایہ کاری کی صلاحیت",
+    "preferredLocation": "ترجیحی مقام",
+    "shopName": "دکان/کاروبار کا نام",
+    "shopAddress": "دکان کا پتہ",
+    "monthlyIncome": "ماہانہ آمدنی",
+    "businessExperience": "کاروباری تجربہ (سال)",
+    "howDidYouHear": "آپ نے ہمارے بارے میں کیسے سنا؟",
+    "agreeTerms": "میں شرائط و ضوابط سے اتفاق کرتا ہوں۔",
+    "newsletter": "نیوز لیٹر کو سبسکرائب کریں۔",
+    "captcha": "کیپچا درج کریں۔"
+  },
+  "placeholders": {
+    "fullName": "اپنا پورا نام درج کریں۔",
+    "email": "example@email.com",
+    "phone": "+91 98765 43210",
+    "message": "اپنا پیغام یہاں ٹائپ کریں...",
+    "city": "اپنا شہر منتخب کریں۔",
+    "state": "اپنی ریاست منتخب کریں۔",
+    "searchCity": "شہر تلاش کریں...",
+    "selectOption": "ایک آپشن منتخب کریں۔",
+    "uploadFile": "فائل کا انتخاب کریں یا یہاں گھسیٹیں۔",
+    "pincode": "6 ہندسوں کا پن کوڈ"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "emailInvalid": "براہ کرم ایک درست ای میل ایڈریس درج کریں۔",
+    "phoneInvalid": "براہ کرم ایک درست 10 ہندسوں والا فون نمبر درج کریں۔",
+    "pincodeInvalid": "براہ کرم ایک درست 6 ہندسوں والا پن کوڈ درج کریں۔",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "maxLength": "{{field}} must not exceed {{max}} characters",
+    "numberOnly": "براہ کرم صرف نمبر درج کریں۔",
+    "lettersOnly": "براہ کرم صرف حروف درج کریں۔",
+    "fileSize": "File size must be less than {{size}}MB",
+    "fileType": "Only {{types}} files are allowed",
+    "agreeRequired": "آپ کو شرائط و ضوابط سے اتفاق کرنا ہوگا۔",
+    "captchaRequired": "براہ کرم کیپچا کی توثیق مکمل کریں۔"
+  },
+  "options": {
+    "occupation": {
+      "employed": "ملازم",
+      "selfEmployed": "سیلف ایمپلائیڈ",
+      "business": "کاروبار کا مالک",
+      "student": "طالب علم",
+      "retired": "ریٹائرڈ",
+      "other": "دیگر"
+    },
+    "investment": {
+      "below1": "₹1 لاکھ سے کم",
+      "1to5": "₹1-5 لاکھ",
+      "5to10": "₹5-10 لاکھ",
+      "10to25": "₹10-25 لاکھ",
+      "above25": "₹25 لاکھ سے زیادہ"
+    },
+    "hearAbout": {
+      "google": "گوگل سرچ",
+      "facebook": "فیس بک",
+      "instagram": "انسٹاگرام",
+      "friend": "دوست/حوالہ",
+      "newspaper": "اخبار",
+      "other": "دیگر"
+    },
+    "businessType": {
+      "retail": "پرچون کی دکان",
+      "service": "سروس سینٹر",
+      "grocery": "گروسری اسٹور",
+      "medical": "میڈیکل سٹور",
+      "restaurant": "ریستوراں/کیفے",
+      "other": "دیگر"
+    }
+  },
+  "locationForm": {
+    "title": "اے ٹی ایم کی تنصیب کے لیے مقام جمع کروائیں۔",
+    "subtitle": "نئے ATMs کے لیے بہترین مقامات کی نشاندہی کرنے میں ہماری مدد کریں۔",
+    "sections": {
+      "personal": "ذاتی معلومات",
+      "location": "مقام کی تفصیلات",
+      "business": "کاروباری معلومات",
+      "additional": "اضافی معلومات"
+    },
+    "success": "مقام کامیابی کے ساتھ جمع کرایا گیا! ہم جلد ہی آپ سے رابطہ کریں گے۔",
+    "error": "مقام جمع کرانے میں خرابی۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+  "agentForm": {
+    "title": "PixellPay ایجنٹ بنیں۔",
+    "subtitle": "ہمارے کامیاب ایجنٹوں کے نیٹ ورک میں شامل ہوں۔",
+    "sections": {
+      "personal": "ذاتی تفصیلات",
+      "professional": "پیشہ ورانہ معلومات",
+      "documents": "دستاویز اپ لوڈ کریں۔",
+      "agreement": "شرائط اور معاہدہ"
+    },
+    "success": "درخواست کامیابی کے ساتھ جمع کرائی گئی! ہماری ٹیم 48 گھنٹوں کے اندر آپ سے رابطہ کرے گی۔",
+    "error": "درخواست جمع کرانے میں خرابی۔ براہ کرم تمام فیلڈز کو چیک کریں اور دوبارہ کوشش کریں۔"
+  },
+  "enquiryForm": {
+    "title": "فرنچائز انکوائری فارم",
+    "subtitle": "اپنے ATM فرنچائز کے سفر کے ساتھ شروع کریں۔",
+    "success": "آپ کی دلچسپی کا شکریہ! ہم جلد ہی آپ سے رابطہ کریں گے۔",
+    "error": "انکوائری جمع کرانے میں خرابی۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+  "contactForm": {
+    "title": "ہم سے رابطہ کریں۔",
+    "subtitle": "ہم مدد کے لیے حاضر ہیں۔",
+    "success": "پیغام کامیابی سے بھیج دیا گیا!",
+    "error": "پیغام بھیجنے میں خرابی۔ براہ کرم دوبارہ کوشش کریں۔"
+  }
+}

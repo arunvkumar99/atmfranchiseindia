@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "গৃহ",
+    "aboutUs": "আমাৰ বিষয়ে",
+    "ourProducts": "আমাৰ প্ৰডাক্টসমূহ",
+    "becomeAgent": "এজেন্ট হৈ যাওক",
+    "submitLocation": "স্থান জমা দিয়ক",
+    "contactUs": "আমাৰ সৈতে যোগাযোগ কৰক",
+    "joinUs": "আমাৰ সৈতে যোগদান কৰক",
+    "blog": "ব্লগ",
+    "language": "ভাষা"
+  },
+  "buttons": {
+    "submit": "দাখিল কৰক",
+    "cancel": "বাতিল কৰক",
+    "save": "সঞ্চয় কৰা",
+    "delete": "বিলোপ",
+    "edit": "সম্পাদনা কৰক",
+    "viewMore": "অধিক চাওক",
+    "learnMore": "অধিক জানক",
+    "getStarted": "আৰম্ভ কৰক",
+    "apply": "এতিয়াই আবেদন কৰক",
+    "download": "ডাউনল’ড",
+    "share": "ভাগ-বতৰা কৰা",
+    "back": "পিছলৈ",
+    "next": "পৰৱৰ্তী",
+    "previous": "পূৰ্ৱবৰ্তী",
+    "close": "বন্ধ",
+    "confirm": "নিশ্চিত",
+    "viewDetails": "বিৱৰণ চাওক"
+  },
+  "forms": {
+    "required": "এই ক্ষেত্ৰখন প্ৰয়োজনীয়",
+    "invalidEmail": "অনুগ্ৰহ কৰি এটা বৈধ ইমেইল ঠিকনা দিয়ক",
+    "invalidPhone": "অনুগ্ৰহ কৰি এটা বৈধ ফোন নম্বৰ দিব",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "সফলতাৰে প্ৰ-পত্ৰ জমা দিয়া হ'ল!",
+    "submitError": "প্ৰ-পত্ৰ জমা দিয়াত ত্ৰুটি। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।",
+    "uploading": "আপলোড কৰি আছে...",
+    "uploadSuccess": "ফাইলটো সফলতাৰে আপলোড কৰা হৈছে",
+    "uploadError": "ফাইল আপলোড কৰাত ত্ৰুটি"
+  },
+  "footer": {
+    "quickLinks": "দ্ৰুত লিংক",
+    "services": "সেৱাসমূহ",
+    "legal": "আইনী",
+    "followUs": "আমাক অনুসৰণ কৰক",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsConditions": "চৰ্ত আৰু নিয়ম",
+    "refundPolicy": "ৰিফাণ্ড নীতি",
+    "accessibility": "অভিগম্যতা বিবৃতি",
+    "copyright": "© ২০২৪ পিক্সেলপে। সকলো অধিকাৰ সংৰক্ষিত।",
+    "poweredBy": "PixellPay দ্বাৰা চালিত"
+  },
+  "errors": {
+    "pageNotFound": "পৃষ্ঠা পোৱা নগ'ল",
+    "somethingWentWrong": "কিবা এটা ভুল হ’ল",
+    "tryAgain": "আকৌ চেষ্টা কৰক",
+    "goHome": "হোমপেজলৈ যাওক",
+    "networkError": "নেটৱৰ্ক ত্ৰুটি। অনুগ্ৰহ কৰি আপোনাৰ সংযোগ পৰীক্ষা কৰক।",
+    "unauthorized": "এই পৃষ্ঠাটো চাবলৈ আপোনাৰ অনুমোদিত নহয়",
+    "serverError": "চাৰ্ভাৰৰ ত্ৰুটি। অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক।"
+  },
+  "loading": {
+    "pleaseWait": "অনুগ্ৰহ কৰি অপেক্ষা কৰক...",
+    "loading": "লোড হচ্ছে...",
+    "processing": "প্ৰচেছিং...",
+    "submitting": "জমা দি আছে...",
+    "saving": "সঞ্চয়...",
+    "deleting": "ডিলিট কৰা হৈছে...",
+    "updating": "আপডেট কৰা হৈছে..."
+  },
+  "search": {
+    "placeholder": "সন্ধান...",
+    "noResults": "কোনো ফলাফল পোৱা নগ’ল",
+    "results": "{{count}} results found",
+    "clearSearch": "সন্ধান পৰিষ্কাৰ কৰক"
+  },
+  "pagination": {
+    "page": "পৃষ্ঠা",
+    "of": "ৰ",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "প্ৰতি পৃষ্ঠাত শাৰী",
+    "first": "প্ৰথম",
+    "last": "অন্তিম"
+  },
+  "contact": {
+    "phone": "ফোন",
+    "email": "ইমেইল",
+    "address": "ঠিকনা",
+    "workingHours": "কৰ্মৰ সময়",
+    "getInTouch": "স্পৰ্শ কৰক",
+    "sendMessage": "বাৰ্তা প্ৰেৰণ কৰক"
+  },
+  "social": {
+    "facebook": "ফেচবুক",
+    "twitter": "টুইটাৰ",
+    "linkedin": "লিংকডইন",
+    "instagram": "ইনষ্টাগ্ৰাম",
+    "youtube": "ইউটিউব",
+    "whatsapp": "হোৱাটছএপ"
+  }
+}

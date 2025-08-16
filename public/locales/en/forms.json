@@ -1,0 +1,128 @@
+{
+  "fields": {
+    "fullName": "Full Name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "alternatePhone": "Alternate Phone Number",
+    "whatsapp": "WhatsApp Number",
+    "address": "Address",
+    "street": "Street Address",
+    "city": "City",
+    "state": "State",
+    "pincode": "PIN Code",
+    "country": "Country",
+    "message": "Message",
+    "comments": "Comments",
+    "experience": "Experience",
+    "qualification": "Qualification",
+    "occupation": "Current Occupation",
+    "businessType": "Business Type",
+    "investment": "Investment Capacity",
+    "preferredLocation": "Preferred Location",
+    "shopName": "Shop/Business Name",
+    "shopAddress": "Shop Address",
+    "monthlyIncome": "Monthly Income",
+    "businessExperience": "Business Experience (Years)",
+    "howDidYouHear": "How did you hear about us?",
+    "agreeTerms": "I agree to the terms and conditions",
+    "newsletter": "Subscribe to newsletter",
+    "captcha": "Enter captcha"
+  },
+  "placeholders": {
+    "fullName": "Enter your full name",
+    "email": "example@email.com",
+    "phone": "+91 98765 43210",
+    "message": "Type your message here...",
+    "city": "Select your city",
+    "state": "Select your state",
+    "searchCity": "Search city...",
+    "selectOption": "Select an option",
+    "uploadFile": "Choose file or drag here",
+    "pincode": "6-digit PIN code"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "emailInvalid": "Please enter a valid email address",
+    "phoneInvalid": "Please enter a valid 10-digit phone number",
+    "pincodeInvalid": "Please enter a valid 6-digit PIN code",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "maxLength": "{{field}} must not exceed {{max}} characters",
+    "numberOnly": "Please enter numbers only",
+    "lettersOnly": "Please enter letters only",
+    "fileSize": "File size must be less than {{size}}MB",
+    "fileType": "Only {{types}} files are allowed",
+    "agreeRequired": "You must agree to the terms and conditions",
+    "captchaRequired": "Please complete the captcha verification"
+  },
+  "options": {
+    "occupation": {
+      "employed": "Employed",
+      "selfEmployed": "Self Employed",
+      "business": "Business Owner",
+      "student": "Student",
+      "retired": "Retired",
+      "other": "Other"
+    },
+    "investment": {
+      "below1": "Below ₹1 Lakh",
+      "1to5": "₹1-5 Lakhs",
+      "5to10": "₹5-10 Lakhs",
+      "10to25": "₹10-25 Lakhs",
+      "above25": "Above ₹25 Lakhs"
+    },
+    "hearAbout": {
+      "google": "Google Search",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "friend": "Friend/Reference",
+      "newspaper": "Newspaper",
+      "other": "Other"
+    },
+    "businessType": {
+      "retail": "Retail Shop",
+      "service": "Service Center",
+      "grocery": "Grocery Store",
+      "medical": "Medical Store",
+      "restaurant": "Restaurant/Cafe",
+      "other": "Other"
+    }
+  },
+  "locationForm": {
+    "title": "Submit Location for ATM Installation",
+    "subtitle": "Help us identify the best locations for new ATMs",
+    "sections": {
+      "personal": "Personal Information",
+      "location": "Location Details",
+      "business": "Business Information",
+      "additional": "Additional Information"
+    },
+    "success": "Location submitted successfully! We'll contact you soon.",
+    "error": "Error submitting location. Please try again."
+  },
+  "agentForm": {
+    "title": "Become a PixellPay Agent",
+    "subtitle": "Join our network of successful agents",
+    "sections": {
+      "personal": "Personal Details",
+      "professional": "Professional Information",
+      "documents": "Document Upload",
+      "agreement": "Terms & Agreement"
+    },
+    "success": "Application submitted successfully! Our team will contact you within 48 hours.",
+    "error": "Error submitting application. Please check all fields and try again."
+  },
+  "enquiryForm": {
+    "title": "Franchise Enquiry Form",
+    "subtitle": "Get started with your ATM franchise journey",
+    "success": "Thank you for your interest! We'll get back to you soon.",
+    "error": "Error submitting enquiry. Please try again."
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
+  }
+}

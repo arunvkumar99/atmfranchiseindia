@@ -5,7 +5,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 import SearchComponent from "@/components/SearchComponent";
 import SEOMetaTags from "@/components/SEOMetaTags";
-import { enterpriseTranslationSystem, SUPPORTED_LANGUAGES } from '@/lib/enterpriseTranslationSystem';
+
 
 const Header = () => {
   // State management

@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "घर",
+    "aboutUs": "हमारे बारे में",
+    "ourProducts": "हमारे उत्पाद",
+    "becomeAgent": "एजेंट बनें",
+    "submitLocation": "स्थान सबमिट करें",
+    "contactUs": "हमसे संपर्क करें",
+    "joinUs": "हमसे जुड़ें",
+    "blog": "ब्लॉग",
+    "language": "भाषा"
+  },
+  "buttons": {
+    "submit": "जमा करना",
+    "cancel": "रद्द करना",
+    "save": "बचाना",
+    "delete": "मिटाना",
+    "edit": "संपादन करना",
+    "viewMore": "और देखें",
+    "learnMore": "और अधिक जानें",
+    "getStarted": "शुरू हो जाओ",
+    "apply": "अभी अप्लाई करें",
+    "download": "डाउनलोड करना",
+    "share": "शेयर करना",
+    "back": "पीछे",
+    "next": "अगला",
+    "previous": "पहले का",
+    "close": "बंद करना",
+    "confirm": "पुष्टि करना",
+    "viewDetails": "विवरण देखें"
+  },
+  "forms": {
+    "required": "यह फ़ील्ड आवश्यक है",
+    "invalidEmail": "कृपया एक मान्य ईमेल पता प्रविष्ट करें",
+    "invalidPhone": "एक मान्य दूरभाष क्रमांक दर्ज करे",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "फॉर्म सफलतापूर्वक सबमिट किया गया!",
+    "submitError": "फॉर्म सबमिट करने में त्रुटि, कृपया फिर से प्रयास करें।",
+    "uploading": "अपलोड हो रहा है...",
+    "uploadSuccess": "फ़ाइल सफलतापूर्वक अपलोड की गई",
+    "uploadError": "फ़ाइल अपलोड करने में त्रुटि"
+  },
+  "footer": {
+    "quickLinks": "त्वरित सम्पक",
+    "services": "सेवाएं",
+    "legal": "कानूनी",
+    "followUs": "हमारे पर का पालन करें",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsConditions": "नियम एवं शर्तें",
+    "refundPolicy": "भुगतान वापसी की नीति",
+    "accessibility": "पहुँच योग्यता विवरण",
+    "copyright": "© 2024 पिक्सेलपे। सर्वाधिकार सुरक्षित।",
+    "poweredBy": "पिक्सेलपे द्वारा संचालित"
+  },
+  "errors": {
+    "pageNotFound": "पृष्ठ नहीं मिला",
+    "somethingWentWrong": "कुछ गलत हो गया",
+    "tryAgain": "पुनः प्रयास करें",
+    "goHome": "मुखपृष्ठ प्र जाएं",
+    "networkError": "नेटवर्क त्रुटि. कृपया अपना कनेक्शन जांचें.",
+    "unauthorized": "आप इस पृष्ठ को देखने के लिए अधिकृत नहीं हैं",
+    "serverError": "सर्वर त्रुटि. कृपया बाद में पुनः प्रयास करें."
+  },
+  "loading": {
+    "pleaseWait": "कृपया प्रतीक्षा करें...",
+    "loading": "लोड हो रहा है...",
+    "processing": "प्रसंस्करण...",
+    "submitting": "सबमिट किया जा रहा है...",
+    "saving": "बचत...",
+    "deleting": "हटा रहा है...",
+    "updating": "अद्यतन हो रहा है..."
+  },
+  "search": {
+    "placeholder": "खोज...",
+    "noResults": "कोई परिणाम नहीं मिला",
+    "results": "{{count}} results found",
+    "clearSearch": "खोज साफ़ करें"
+  },
+  "pagination": {
+    "page": "पृष्ठ",
+    "of": "का",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "प्रति पृष्ठ पंक्तियाँ",
+    "first": "पहला",
+    "last": "अंतिम"
+  },
+  "contact": {
+    "phone": "फ़ोन",
+    "email": "ईमेल",
+    "address": "पता",
+    "workingHours": "कार्य के घंटे",
+    "getInTouch": "संपर्क में रहो",
+    "sendMessage": "मेसेज भेजें"
+  },
+  "social": {
+    "facebook": "फेसबुक",
+    "twitter": "ट्विटर",
+    "linkedin": "Linkedin",
+    "instagram": "Instagram",
+    "youtube": "यूट्यूब",
+    "whatsapp": "WhatsApp"
+  }
+}

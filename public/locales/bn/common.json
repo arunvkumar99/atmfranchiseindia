@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "হোম",
+    "aboutUs": "আমাদের সম্পর্কে",
+    "ourProducts": "আমাদের পণ্য",
+    "becomeAgent": "এজেন্ট হন",
+    "submitLocation": "অবস্থান জমা দিন",
+    "contactUs": "আমাদের সাথে যোগাযোগ করুন",
+    "joinUs": "আমাদের সাথে যোগদান করুন",
+    "blog": "ব্লগ",
+    "language": "ভাষা"
+  },
+  "buttons": {
+    "submit": "জমা দিন",
+    "cancel": "বাতিল করুন",
+    "save": "সংরক্ষণ করুন",
+    "delete": "মুছে ফেলুন",
+    "edit": "সম্পাদনা",
+    "viewMore": "আরও দেখুন",
+    "learnMore": "আরও জানুন",
+    "getStarted": "শুরু করুন",
+    "apply": "এখনই আবেদন করুন",
+    "download": "ডাউনলোড করুন",
+    "share": "শেয়ার করুন",
+    "back": "পিছনে",
+    "next": "পরবর্তী",
+    "previous": "পূর্ববর্তী",
+    "close": "বন্ধ করা",
+    "confirm": "নিশ্চিত করুন",
+    "viewDetails": "বিস্তারিত দেখুন"
+  },
+  "forms": {
+    "required": "এই ক্ষেত্রটি আবশ্যক",
+    "invalidEmail": "দয়া করে একটি বৈধ ইমেল ঠিকানা লিখুন।",
+    "invalidPhone": "দয়া করে একটি বৈধ ফোন নম্বর লিখুন।",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "ফর্মটি সফলভাবে জমা দেওয়া হয়েছে!",
+    "submitError": "ফর্ম জমা দেওয়ার সময় ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "uploading": "আপলোড হচ্ছে...",
+    "uploadSuccess": "ফাইলটি সফলভাবে আপলোড করা হয়েছে",
+    "uploadError": "ফাইল আপলোড করার সময় ত্রুটি হয়েছে"
+  },
+  "footer": {
+    "quickLinks": "দ্রুত লিংক",
+    "services": "সেবা",
+    "legal": "আইনি",
+    "followUs": "আমাদের অনুসরণ করো",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsConditions": "শর্তাবলী",
+    "refundPolicy": "রিফান্ড নীতি",
+    "accessibility": "অ্যাক্সেসিবিলিটি স্টেটমেন্ট",
+    "copyright": "© ২০২৪ পিক্সেলপে। সর্বস্বত্ব সংরক্ষিত।",
+    "poweredBy": "PixellPay দ্বারা চালিত"
+  },
+  "errors": {
+    "pageNotFound": "পৃষ্ঠাটি খুঁজে পাওয়া যায়নি",
+    "somethingWentWrong": "কিছু সমস্যা হয়েছে।",
+    "tryAgain": "আবার চেষ্টা করো",
+    "goHome": "হোমপেজে যান",
+    "networkError": "নেটওয়ার্ক ত্রুটি। অনুগ্রহ করে আপনার সংযোগ পরীক্ষা করুন।",
+    "unauthorized": "আপনি এই পৃষ্ঠাটি দেখার জন্য অনুমোদিত নন।",
+    "serverError": "সার্ভার ত্রুটি। অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+  },
+  "loading": {
+    "pleaseWait": "অনুগ্রহ করে অপেক্ষা করুন...",
+    "loading": "লোড হচ্ছে...",
+    "processing": "প্রক্রিয়াজাতকরণ...",
+    "submitting": "জমা দেওয়া হচ্ছে...",
+    "saving": "সংরক্ষণ করা হচ্ছে...",
+    "deleting": "মুছে ফেলা হচ্ছে...",
+    "updating": "আপডেট করা হচ্ছে..."
+  },
+  "search": {
+    "placeholder": "অনুসন্ধান...",
+    "noResults": "কোন ফলাফল পাওয়া যায়নি",
+    "results": "{{count}} results found",
+    "clearSearch": "অনুসন্ধান সাফ করুন"
+  },
+  "pagination": {
+    "page": "পৃষ্ঠা",
+    "of": "এর",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "প্রতি পৃষ্ঠায় সারি",
+    "first": "প্রথম",
+    "last": "শেষ"
+  },
+  "contact": {
+    "phone": "ফোন",
+    "email": "ইমেইল",
+    "address": "জানুন",
+    "workingHours": "কর্মঘণ্টা",
+    "getInTouch": "যোগাযোগ করুন",
+    "sendMessage": "বার্তা পাঠান"
+  },
+  "social": {
+    "facebook": "ফেসবুক",
+    "twitter": "টুইটার",
+    "linkedin": "লিঙ্কডইন",
+    "instagram": "ইনস্টাগ্রাম",
+    "youtube": "ইউটিউব",
+    "whatsapp": "হোয়াটসঅ্যাপ"
+  }
+}

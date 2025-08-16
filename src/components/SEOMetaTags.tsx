@@ -4,7 +4,7 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
-import { SUPPORTED_LANGUAGES } from '@/lib/instantTranslationSystem';
+import { SUPPORTED_LANGUAGES } from '@/lib/i18n';
 
 interface SEOMetaTagsProps {
   title?: string;
@@ -31,7 +31,7 @@ export const SEOMetaTags: React.FC<SEOMetaTagsProps> = ({
     
     return SUPPORTED_LANGUAGES.map(language => ({
       ...language,
-      url: `${baseUrl}${language.path}${basePath === '/' ? '' : basePath}`
+      url: `${baseUrl}${language.code === 'en' ? '' : '/' + language.code}${basePath === '/' ? '' : basePath}`
     }));
   };
 

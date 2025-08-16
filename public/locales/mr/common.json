@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "मुखपृष्ठ",
+    "aboutUs": "आमच्याबद्दल",
+    "ourProducts": "आमची उत्पादने",
+    "becomeAgent": "एजंट बना",
+    "submitLocation": "स्थान सबमिट करा",
+    "contactUs": "आमच्याशी संपर्क साधा",
+    "joinUs": "आमच्यात सामील व्हा",
+    "blog": "ब्लॉग",
+    "language": "भाषा"
+  },
+  "buttons": {
+    "submit": "सबमिट करा",
+    "cancel": "रद्द करा",
+    "save": "जतन करा",
+    "delete": "हटवा",
+    "edit": "संपादित करा",
+    "viewMore": "अधिक पहा",
+    "learnMore": "अधिक जाणून घ्या",
+    "getStarted": "सुरुवात करा",
+    "apply": "आत्ताच अर्ज करा",
+    "download": "डाउनलोड करा",
+    "share": "शेअर करा",
+    "back": "मागे",
+    "next": "पुढे",
+    "previous": "मागील",
+    "close": "बंद करा",
+    "confirm": "पुष्टी करा",
+    "viewDetails": "तपशील पहा"
+  },
+  "forms": {
+    "required": "हे फील्ड आवश्यक आहे.",
+    "invalidEmail": "कृपया एक वैध ईमेल पत्ता प्रविष्ट करा.",
+    "invalidPhone": "कृपया एक वैध फोन नंबर एंटर करा.",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "फॉर्म यशस्वीरित्या सबमिट झाला!",
+    "submitError": "फॉर्म सबमिट करताना एरर आली. कृपया पुन्हा प्रयत्न करा.",
+    "uploading": "अपलोड करत आहे...",
+    "uploadSuccess": "फाइल यशस्वीरित्या अपलोड केली",
+    "uploadError": "फाइल अपलोड करताना त्रुटी आली."
+  },
+  "footer": {
+    "quickLinks": "द्रुत दुवे",
+    "services": "सेवा",
+    "legal": "कायदेशीर",
+    "followUs": "आमच्या मागे या",
+    "privacyPolicy": "गोपनीयता धोरण",
+    "termsConditions": "अटी आणि शर्ती",
+    "refundPolicy": "परतावा धोरण",
+    "accessibility": "प्रवेशयोग्यता विधान",
+    "copyright": "© २०२४ पिक्सेलपे. सर्व हक्क राखीव.",
+    "poweredBy": "पिक्सेलपे द्वारे समर्थित"
+  },
+  "errors": {
+    "pageNotFound": "पेज सापडले नाही",
+    "somethingWentWrong": "काहीतरी चूक झाली.",
+    "tryAgain": "पुन्हा प्रयत्न करा",
+    "goHome": "मुख्यपृष्ठावर जा",
+    "networkError": "नेटवर्क एरर. कृपया तुमचे कनेक्शन तपासा.",
+    "unauthorized": "तुम्हाला हे पेज पाहण्याची परवानगी नाही.",
+    "serverError": "सर्व्हर त्रुटी. कृपया नंतर पुन्हा प्रयत्न करा."
+  },
+  "loading": {
+    "pleaseWait": "कृपया वाट पहा...",
+    "loading": "लोड होत आहे...",
+    "processing": "प्रक्रिया करत आहे...",
+    "submitting": "सबमिट करत आहे...",
+    "saving": "जतन करत आहे...",
+    "deleting": "हटवत आहे...",
+    "updating": "अपडेट करत आहे..."
+  },
+  "search": {
+    "placeholder": "शोधा...",
+    "noResults": "कोणतेही निष्कर्ष सापडले नाहीत",
+    "results": "{{count}} results found",
+    "clearSearch": "शोध साफ करा"
+  },
+  "pagination": {
+    "page": "पृष्ठ",
+    "of": "च्या",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "प्रति पृष्ठ पंक्ती",
+    "first": "पहिला",
+    "last": "शेवटचा"
+  },
+  "contact": {
+    "phone": "फोन",
+    "email": "ईमेल",
+    "address": "पत्ता",
+    "workingHours": "कामाचे तास",
+    "getInTouch": "संपर्कात रहाण्यासाठी",
+    "sendMessage": "संदेश पाठवा"
+  },
+  "social": {
+    "facebook": "फेसबुक",
+    "twitter": "ट्विटर",
+    "linkedin": "लिंक्डइन",
+    "instagram": "इंस्टाग्राम",
+    "youtube": "यूट्यूब",
+    "whatsapp": "व्हॉट्सअॅप"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "ଘର",
+    "aboutUs": "ଆମ ବିଷୟରେ",
+    "ourProducts": "ଆମର ଉତ୍ପାଦଗୁଡିକ",
+    "becomeAgent": "ଜଣେ ଏଜେଣ୍ଟ ହୁଅନ୍ତୁ",
+    "submitLocation": "ଲୋକେସନ୍ ଦାଖଲ କରନ୍ତୁ",
+    "contactUs": "ଆମ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ",
+    "joinUs": "ଆମ ସହିତ ଯୋଗଦାନ କରନ୍ତୁ",
+    "blog": "ବ୍ଲଗ୍",
+    "language": "ଭାଷା"
+  },
+  "buttons": {
+    "submit": "ଦାଖଲ କରନ୍ତୁ",
+    "cancel": "ବାତିଲ କରନ୍ତୁ",
+    "save": "ସେଭ୍ କରନ୍ତୁ",
+    "delete": "ଡିଲିଟ୍ କରନ୍ତୁ",
+    "edit": "ସମ୍ପାଦନ କରନ୍ତୁ",
+    "viewMore": "ଅଧିକ ଦେଖନ୍ତୁ",
+    "learnMore": "ଅଧିକ ଜାଣନ୍ତୁ",
+    "getStarted": "ଆରମ୍ଭ କରନ୍ତୁ",
+    "apply": "ଏବେ ଆବେଦନ କରନ୍ତୁ",
+    "download": "ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "share": "ସେୟାର୍‍ କରନ୍ତୁ",
+    "back": "ପଛକୁ",
+    "next": "ପରବର୍ତ୍ତୀ",
+    "previous": "ପୂର୍ବବର୍ତ୍ତୀ",
+    "close": "ବନ୍ଦ କରନ୍ତୁ",
+    "confirm": "ସୁନିଶ୍ଚିତ କରନ୍ତୁ",
+    "viewDetails": "ବିବରଣୀ ଦେଖନ୍ତୁ"
+  },
+  "forms": {
+    "required": "ଏହି କ୍ଷେତ୍ରଟି ଆବଶ୍ୟକ।",
+    "invalidEmail": "ଦୟାକରି ଏକ ବୈଧ ଇମେଲ୍ ଠିକଣା ଲେଖନ୍ତୁ।",
+    "invalidPhone": "ଦୟାକରି ଏକ ବୈଧ ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ ।",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "ଫର୍ମ ସଫଳତାର ସହ ଦାଖଲ ହୋଇଛି!",
+    "submitError": "ଫର୍ମ ଦାଖଲ କରିବାରେ ତ୍ରୁଟି। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+    "uploading": "ଅପଲୋଡ୍ ହେଉଛି...",
+    "uploadSuccess": "ଫାଇଲ୍ ସଫଳତାର ସହ ଅପଲୋଡ୍ ହୋଇଛି",
+    "uploadError": "ଫାଇଲ୍ ଅପଲୋଡ୍ କରିବାରେ ତ୍ରୁଟି"
+  },
+  "footer": {
+    "quickLinks": "ଦୃତ ଲିଙ୍କ୍ଗୁଡିକ",
+    "services": "ସେବା",
+    "legal": "ଆଇନଗତ",
+    "followUs": "ଆମକୁ ଅନୁସରଣ କରନ୍ତୁ",
+    "privacyPolicy": "ଗୋପନୀୟତା ନୀତି",
+    "termsConditions": "ନିୟମ ଏବଂ ସର୍ତ୍ତାବଳୀ",
+    "refundPolicy": "ଫେରସ୍ତ ନୀତି",
+    "accessibility": "ଆକ୍ସେସିବିଲିଟୀ ବିବୃତ୍ତି",
+    "copyright": "© 2024 PixellPay। ସର୍ବସତ୍ତ୍ଵ ସଂରକ୍ଷିତ।",
+    "poweredBy": "PixellPay ଦ୍ୱାରା ପରିଚାଳିତ"
+  },
+  "errors": {
+    "pageNotFound": "ପୃଷ୍ଠା ମିଳିଲା ନାହିଁ",
+    "somethingWentWrong": "କିଛି ତ୍ରୁଟି ହୋଇଗଲା",
+    "tryAgain": "ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",
+    "goHome": "ମୂଳପୃଷ୍ଠାକୁ ଯାଆନ୍ତୁ",
+    "networkError": "ନେଟ୍‌ୱର୍କରେ ତ୍ରୁଟି। ଦୟାକରି ଆପଣଙ୍କର ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ।",
+    "unauthorized": "ଆପଣ ଏହି ପୃଷ୍ଠା ଦେଖିବା ପାଇଁ ଅଧିକୃତ ନୁହଁନ୍ତି।",
+    "serverError": "ସର୍ଭର୍ ତ୍ରୁଟି। ଦୟାକରି ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"
+  },
+  "loading": {
+    "pleaseWait": "ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ...",
+    "loading": "ଲୋଡ୍ ହେଉଛି...",
+    "processing": "ପ୍ରକ୍ରିୟାକରଣ ହେଉଛି...",
+    "submitting": "ଦାଖଲ କରାଯାଉଛି...",
+    "saving": "ସଞ୍ଚୟ କରୁଛି...",
+    "deleting": "ଡିଲିଟ୍ କରାଯାଉଛି...",
+    "updating": "ଅପଡେଟ୍ ହେଉଛି..."
+  },
+  "search": {
+    "placeholder": "ଖୋଜନ୍ତୁ...",
+    "noResults": "କୌଣସି ଫଳାଫଳ ମିଳିଲା ନାହିଁ",
+    "results": "{{count}} results found",
+    "clearSearch": "ସନ୍ଧାନ ଖାଲି କରନ୍ତୁ"
+  },
+  "pagination": {
+    "page": "ପୃଷ୍ଠା",
+    "of": "ର",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "ପ୍ରତି ପୃଷ୍ଠା ଧାଡ଼ିଗୁଡ଼ିକ",
+    "first": "ପ୍ରଥମେ",
+    "last": "ଶେଷ"
+  },
+  "contact": {
+    "phone": "ଫୋନ୍",
+    "email": "ଇମେଲ୍",
+    "address": "ଠିକଣା",
+    "workingHours": "କାର୍ଯ୍ୟସମୟ",
+    "getInTouch": "ସମ୍ପର୍କରେ ରୁହନ୍ତୁ",
+    "sendMessage": "ମେସେଜ୍ ପଠାନ୍ତୁ"
+  },
+  "social": {
+    "facebook": "ଫେସବୁକ୍",
+    "twitter": "ଟ୍ଵିଟର୍",
+    "linkedin": "ଲିଙ୍କଡିନ୍",
+    "instagram": "ଇନଷ୍ଟାଗ୍ରାମ୍",
+    "youtube": "ୟୁଟ୍ୟୁବ୍",
+    "whatsapp": "ହ୍ୱାଟ୍ସଆପ୍"
+  }
+}

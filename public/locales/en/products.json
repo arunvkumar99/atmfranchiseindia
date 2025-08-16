@@ -1,0 +1,137 @@
+{
+  "title": "Our Products & Services",
+  "subtitle": "Comprehensive financial solutions for your success",
+  "atm": {
+    "title": "ATM Franchise",
+    "description": "Complete ATM franchise solution with installation, maintenance, and support",
+    "features": {
+      "installation": "Free Installation & Setup",
+      "maintenance": "Regular Maintenance",
+      "cash": "Cash Management Support",
+      "monitoring": "24/7 Remote Monitoring",
+      "insurance": "Comprehensive Insurance",
+      "branding": "Custom Branding Options"
+    },
+    "benefits": {
+      "title": "Benefits",
+      "passive": "Passive Income Generation",
+      "commission": "Attractive Commission Structure",
+      "footfall": "Increased Footfall to Your Business",
+      "community": "Service to Community",
+      "support": "Complete Technical Support"
+    }
+  },
+  "microAtm": {
+    "title": "Micro ATM Services",
+    "description": "Portable banking solution for rural and semi-urban areas",
+    "features": {
+      "portable": "Portable Device",
+      "biometric": "Biometric Authentication",
+      "cardless": "Cardless Transactions",
+      "multilingual": "Multi-lingual Support",
+      "offline": "Offline Transaction Capability"
+    }
+  },
+  "aeps": {
+    "title": "AEPS Services",
+    "description": "Aadhaar Enabled Payment System for inclusive banking",
+    "services": {
+      "withdrawal": "Cash Withdrawal",
+      "deposit": "Cash Deposit",
+      "balance": "Balance Enquiry",
+      "miniStatement": "Mini Statement",
+      "transfer": "Fund Transfer"
+    }
+  },
+  "dmt": {
+    "title": "Domestic Money Transfer",
+    "description": "Instant money transfer services across India",
+    "features": {
+      "instant": "Instant Transfer",
+      "secure": "100% Secure",
+      "panIndia": "Pan India Coverage",
+      "limits": "High Transaction Limits",
+      "tracking": "Real-time Tracking"
+    }
+  },
+  "billPayment": {
+    "title": "Bill Payment Services",
+    "description": "One-stop solution for all utility payments",
+    "services": {
+      "electricity": "Electricity Bills",
+      "water": "Water Bills",
+      "gas": "Gas Bills",
+      "mobile": "Mobile Recharge",
+      "dth": "DTH Recharge",
+      "broadband": "Broadband Bills"
+    }
+  },
+  "insurance": {
+    "title": "Insurance Services",
+    "description": "Comprehensive insurance solutions",
+    "types": {
+      "life": "Life Insurance",
+      "health": "Health Insurance",
+      "vehicle": "Vehicle Insurance",
+      "shop": "Shop Insurance"
+    }
+  },
+  "packages": {
+    "title": "Franchise Packages",
+    "subtitle": "Choose the package that suits your needs",
+    "basic": {
+      "name": "Basic Package",
+      "price": "₹50,000",
+      "features": [
+        "Single ATM Installation",
+        "Basic Training",
+        "Standard Support",
+        "Monthly Maintenance"
+      ]
+    },
+    "silver": {
+      "name": "Silver Package",
+      "price": "₹1,50,000",
+      "features": [
+        "2 ATM Installations",
+        "Advanced Training",
+        "Priority Support",
+        "Marketing Support",
+        "Bi-weekly Maintenance"
+      ]
+    },
+    "gold": {
+      "name": "Gold Package",
+      "price": "₹3,00,000",
+      "features": [
+        "3+ ATM Installations",
+        "Comprehensive Training",
+        "Dedicated Support Manager",
+        "Full Marketing Support",
+        "Weekly Maintenance",
+        "Additional Services Integration"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise Package",
+      "price": "Custom",
+      "features": [
+        "Multiple ATM Network",
+        "Custom Solutions",
+        "Dedicated Team",
+        "White Label Options",
+        "API Integration",
+        "Revenue Sharing Model"
+      ]
+    }
+  },
+  "comparison": {
+    "title": "Compare Packages",
+    "features": "Features",
+    "investment": "Investment",
+    "returns": "Expected Returns",
+    "support": "Support Level",
+    "training": "Training Duration",
+    "maintenance": "Maintenance Frequency"
+  }
+}

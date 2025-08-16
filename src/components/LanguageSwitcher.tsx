@@ -7,11 +7,11 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { Globe } from 'lucide-react';
-import { unifiedTranslationSystem, SUPPORTED_LANGUAGES } from '@/lib/unifiedTranslationSystem';
+
 
 const LanguageSwitcher: React.FC = () => {
   const [currentLanguage, setCurrentLanguage] = React.useState(
-    unifiedTranslationSystem.getCurrentLanguage()
+    i18n.changeLanguage()
   );
 
   React.useEffect(() => {
@@ -27,7 +27,7 @@ const LanguageSwitcher: React.FC = () => {
   }, []);
 
   const handleLanguageSwitch = async (languageCode: string) => {
-    await unifiedTranslationSystem.switchToLanguage(languageCode);
+    await i18n.changeLanguage(languageCode);
     setCurrentLanguage(languageCode);
   };
 

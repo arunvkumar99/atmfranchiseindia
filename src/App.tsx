@@ -1,4 +1,5 @@
 import React, { useEffect, useState, Suspense, lazy } from "react";
+import { useTranslation } from 'react-i18next';
 import { useMonitoring } from "@/hooks/useMonitoring";
 import { useAccessibility } from "@/hooks/useAccessibility";
 import { Toaster } from "@/components/ui/toaster";
@@ -16,7 +17,6 @@ import Footer from "./components/Footer";
 import FixedLanguageRouter from "./components/FixedLanguageRouter";
 import AccessibilityWrapper from "@/components/AccessibilityWrapper";
 import { SecurityHeaders } from "@/components/ui/security-headers";
-import { unifiedTranslationSystem } from "@/lib/unifiedTranslationSystem";
 import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
 
 // Lazy load all pages for optimal performance
@@ -100,13 +100,14 @@ const ScrollToTop = () => {
 // Component to handle language-prefixed routes
 const LanguageWrappedRoutes = () => {
   const { lang } = useParams<{ lang: string }>();
+  const { i18n } = useTranslation();
   
   useEffect(() => {
     if (lang && lang !== 'en') {
       // Set language in translation system
-      unifiedTranslationSystem.switchToLanguage(lang);
+      i18n.changeLanguage(lang);
     }
-  }, [lang]);
+  }, [lang, i18n]);
   
   // Render the same routes but with language context
   return (
@@ -149,6 +150,7 @@ const isDevelopment = import.meta.env.DEV;
 
 const TranslationDebugPanel = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const { i18n } = useTranslation();
   
   if (!isDevelopment) return null;
   
@@ -162,7 +164,7 @@ const TranslationDebugPanel = () => {
   
   const runComprehensiveTest = () => {
     console.log('🧪 UNIFIED TEST: Testing unified translation system...');
-    unifiedTranslationSystem.switchToLanguage('hi');
+    i18n.changeLanguage('hi');
   };
   
   const preTranslateAllLanguages = async () => {
@@ -216,7 +218,7 @@ const TranslationDebugPanel = () => {
               {testLanguages.map(lang => (
                 <button
                   key={lang.code}
-                  onClick={() => unifiedTranslationSystem.switchToLanguage(lang.code)}
+                  onClick={() => i18n.changeLanguage(lang.code)}
                   className="block w-full text-left px-2 py-1 text-sm hover:bg-gray-100 rounded"
                 >
                   {lang.name} ({lang.code})
@@ -226,7 +228,7 @@ const TranslationDebugPanel = () => {
           
             <div className="mt-4 text-xs text-gray-600">
               <p>Status: ✅ Ready</p>
-              <p>Current: {unifiedTranslationSystem.getCurrentLanguage()}</p>
+              <p>Current: {i18n.language}</p>
             </div>
         </div>
       )}

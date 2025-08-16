@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "گھر",
+    "aboutUs": "ہمارے بارے میں",
+    "ourProducts": "ہماری مصنوعات",
+    "becomeAgent": "ایجنٹ بنیں۔",
+    "submitLocation": "مقام جمع کروائیں۔",
+    "contactUs": "ہم سے رابطہ کریں۔",
+    "joinUs": "ہمارے ساتھ شامل ہوں۔",
+    "blog": "بلاگ",
+    "language": "زبان"
+  },
+  "buttons": {
+    "submit": "جمع کروائیں۔",
+    "cancel": "منسوخ کریں۔",
+    "save": "محفوظ کریں۔",
+    "delete": "حذف کریں۔",
+    "edit": "ترمیم کریں۔",
+    "viewMore": "مزید دیکھیں",
+    "learnMore": "مزید جانیں",
+    "getStarted": "شروع کریں",
+    "apply": "ابھی اپلائی کریں۔",
+    "download": "ڈاؤن لوڈ کریں۔",
+    "share": "شیئر کریں۔",
+    "back": "پیچھے",
+    "next": "اگلا",
+    "previous": "پچھلا",
+    "close": "بند",
+    "confirm": "تصدیق کریں۔",
+    "viewDetails": "تفصیلات دیکھیں"
+  },
+  "forms": {
+    "required": "یہ فیلڈ درکار ہے۔",
+    "invalidEmail": "براہ کرم ایک درست ای میل ایڈریس درج کریں۔",
+    "invalidPhone": "براہ کرم ایک درست فون نمبر درج کریں۔",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "فارم کامیابی کے ساتھ جمع ہو گیا!",
+    "submitError": "فارم جمع کرانے میں خرابی۔ براہ کرم دوبارہ کوشش کریں۔",
+    "uploading": "اپ لوڈ ہو رہا ہے...",
+    "uploadSuccess": "فائل کامیابی کے ساتھ اپ لوڈ ہو گئی۔",
+    "uploadError": "فائل اپ لوڈ کرنے میں خرابی۔"
+  },
+  "footer": {
+    "quickLinks": "فوری لنکس",
+    "services": "خدمات",
+    "legal": "قانونی",
+    "followUs": "ہمیں فالو کریں۔",
+    "privacyPolicy": "رازداری کی پالیسی",
+    "termsConditions": "شرائط و ضوابط",
+    "refundPolicy": "رقم کی واپسی کی پالیسی",
+    "accessibility": "رسائی کا بیان",
+    "copyright": "© 2024 PixellPay۔ جملہ حقوق محفوظ ہیں۔",
+    "poweredBy": "PixellPay کے ذریعے تقویت یافتہ"
+  },
+  "errors": {
+    "pageNotFound": "صفحہ نہیں ملا",
+    "somethingWentWrong": "کچھ غلط ہو گیا۔",
+    "tryAgain": "دوبارہ کوشش کریں۔",
+    "goHome": "ہوم پیج پر جائیں۔",
+    "networkError": "نیٹ ورک کی خرابی۔ براہ کرم اپنا کنکشن چیک کریں۔",
+    "unauthorized": "آپ اس صفحہ کو دیکھنے کے مجاز نہیں ہیں۔",
+    "serverError": "سرور کی خرابی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔"
+  },
+  "loading": {
+    "pleaseWait": "برائے مہربانی انتظار کریں...",
+    "loading": "لوڈ ہو رہا ہے...",
+    "processing": "پروسیسنگ...",
+    "submitting": "جمع کر رہا ہے...",
+    "saving": "محفوظ کر رہا ہے...",
+    "deleting": "حذف ہو رہا ہے...",
+    "updating": "اپ ڈیٹ ہو رہا ہے..."
+  },
+  "search": {
+    "placeholder": "تلاش کریں...",
+    "noResults": "کوئی نتیجہ نہیں ملا",
+    "results": "{{count}} results found",
+    "clearSearch": "تلاش صاف کریں۔"
+  },
+  "pagination": {
+    "page": "صفحہ",
+    "of": "کی",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "قطار فی صفحہ",
+    "first": "سب سے پہلے",
+    "last": "آخری"
+  },
+  "contact": {
+    "phone": "فون",
+    "email": "ای میل",
+    "address": "پتہ",
+    "workingHours": "کام کے اوقات",
+    "getInTouch": "رابطے میں رہیں",
+    "sendMessage": "پیغام بھیجیں۔"
+  },
+  "social": {
+    "facebook": "فیس بک",
+    "twitter": "ٹویٹر",
+    "linkedin": "LinkedIn",
+    "instagram": "انسٹاگرام",
+    "youtube": "یوٹیوب",
+    "whatsapp": "واٹس ایپ"
+  }
+}

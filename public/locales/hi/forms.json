@@ -1,0 +1,128 @@
+{
+  "fields": {
+    "fullName": "पूरा नाम",
+    "firstName": "पहला नाम",
+    "lastName": "उपनाम",
+    "email": "मेल पता",
+    "phone": "फ़ोन नंबर",
+    "alternatePhone": "वैकल्पिक फ़ोन नंबर",
+    "whatsapp": "व्हाट्सएप नंबर",
+    "address": "पता",
+    "street": "सड़क का पता",
+    "city": "शहर",
+    "state": "राज्य",
+    "pincode": "पिन कोड",
+    "country": "देश",
+    "message": "संदेश",
+    "comments": "टिप्पणियाँ",
+    "experience": "अनुभव",
+    "qualification": "योग्यता",
+    "occupation": "वर्तमान व्यवसाय",
+    "businessType": "व्यापार के प्रकार",
+    "investment": "निवेश क्षमता",
+    "preferredLocation": "पसंदीदा स्थान",
+    "shopName": "दुकान/व्यवसाय का नाम",
+    "shopAddress": "दुकान का पता",
+    "monthlyIncome": "मासिक आय",
+    "businessExperience": "व्यावसायिक अनुभव (वर्ष)",
+    "howDidYouHear": "आपको हमारे बारे में कैसे पता चला?",
+    "agreeTerms": "मैं नियमों और शर्तों से सहमत हूं",
+    "newsletter": "समाचार पत्रिका के लिए सदस्यता लें",
+    "captcha": "कैप्चा दर्ज करें"
+  },
+  "placeholders": {
+    "fullName": "अपना पूरा नाम भरें",
+    "email": "example@email.com",
+    "phone": "+91 98765 43210",
+    "message": "यहाँ आपके संदेश लिखें...",
+    "city": "अपना शहर चुनें",
+    "state": "अपना राज्य चुनें",
+    "searchCity": "शहर खोजें...",
+    "selectOption": "कोई विकल्प चुनें",
+    "uploadFile": "फ़ाइल चुनें या यहाँ खींचें",
+    "pincode": "6-अंकीय पिन कोड"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "emailInvalid": "कृपया एक मान्य ईमेल पता प्रविष्ट करें",
+    "phoneInvalid": "कृपया एक मान्य 10-अंकीय फ़ोन नंबर दर्ज करें",
+    "pincodeInvalid": "कृपया एक मान्य 6-अंकीय पिन कोड दर्ज करें",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "maxLength": "{{field}} must not exceed {{max}} characters",
+    "numberOnly": "कृपया केवल संख्याएं दर्ज करें",
+    "lettersOnly": "कृपया केवल अक्षर दर्ज करें",
+    "fileSize": "File size must be less than {{size}}MB",
+    "fileType": "Only {{types}} files are allowed",
+    "agreeRequired": "आपको नियम और शर्तों से सहमत होना होगा",
+    "captchaRequired": "कृपया कैप्चा सत्यापन पूरा करें"
+  },
+  "options": {
+    "occupation": {
+      "employed": "कार्यरत",
+      "selfEmployed": "स्वनियोजित",
+      "business": "व्यवसाय के मालिक",
+      "student": "विद्यार्थी",
+      "retired": "सेवानिवृत्त",
+      "other": "अन्य"
+    },
+    "investment": {
+      "below1": "₹1 लाख से कम",
+      "1to5": "₹1-5 लाख",
+      "5to10": "₹5-10 लाख",
+      "10to25": "₹10-25 लाख",
+      "above25": "₹25 लाख से अधिक"
+    },
+    "hearAbout": {
+      "google": "गूगल खोज",
+      "facebook": "फेसबुक",
+      "instagram": "Instagram",
+      "friend": "मित्र/संदर्भ",
+      "newspaper": "समाचार पत्र",
+      "other": "अन्य"
+    },
+    "businessType": {
+      "retail": "खुदरा दुकान",
+      "service": "सर्विस सेंटर",
+      "grocery": "किराने की दुकान",
+      "medical": "मेडिकल स्टोर",
+      "restaurant": "रेस्तरां/कैफे",
+      "other": "अन्य"
+    }
+  },
+  "locationForm": {
+    "title": "एटीएम स्थापना के लिए स्थान सबमिट करें",
+    "subtitle": "नए एटीएम के लिए सर्वोत्तम स्थानों की पहचान करने में हमारी सहायता करें",
+    "sections": {
+      "personal": "व्यक्तिगत जानकारी",
+      "location": "स्थान विवरण",
+      "business": "व्यावसायिक जानकारी",
+      "additional": "अतिरिक्त जानकारी"
+    },
+    "success": "स्थान सफलतापूर्वक सबमिट कर दिया गया! हम जल्द ही आपसे संपर्क करेंगे।",
+    "error": "स्थान सबमिट करने में त्रुटि हुई. कृपया पुनः प्रयास करें."
+  },
+  "agentForm": {
+    "title": "पिक्सेलपे एजेंट बनें",
+    "subtitle": "हमारे सफल एजेंटों के नेटवर्क में शामिल हों",
+    "sections": {
+      "personal": "व्यक्तिगत विवरण",
+      "professional": "व्यावसायिक जानकारी",
+      "documents": "दस्तावेज़ अपलोड",
+      "agreement": "नियम एवं शर्तें"
+    },
+    "success": "आवेदन सफलतापूर्वक सबमिट हो गया! हमारी टीम 48 घंटों के भीतर आपसे संपर्क करेगी।",
+    "error": "आवेदन सबमिट करते समय त्रुटि हुई। कृपया सभी फ़ील्ड जाँचें और पुनः प्रयास करें।"
+  },
+  "enquiryForm": {
+    "title": "फ्रैंचाइज़ी पूछताछ फॉर्म",
+    "subtitle": "अपनी एटीएम फ्रैंचाइज़ी यात्रा शुरू करें",
+    "success": "आपकी रुचि के लिए धन्यवाद! हम जल्द ही आपसे संपर्क करेंगे।",
+    "error": "पूछताछ सबमिट करने में त्रुटि हुई. कृपया पुनः प्रयास करें."
+  },
+  "contactForm": {
+    "title": "हमसे संपर्क करें",
+    "subtitle": "हम आपकी मदद के लिए यहाँ हैं",
+    "success": "संदेश सफलतापूर्वक भेजा गया!",
+    "error": "संदेश भेजने में त्रुटि हुई. कृपया पुनः प्रयास करें."
+  }
+}

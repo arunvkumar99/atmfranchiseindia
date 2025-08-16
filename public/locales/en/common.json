@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "ourProducts": "Our Products",
+    "becomeAgent": "Become an Agent",
+    "submitLocation": "Submit Location",
+    "contactUs": "Contact Us",
+    "joinUs": "Join Us",
+    "blog": "Blog",
+    "language": "Language"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "viewMore": "View More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "apply": "Apply Now",
+    "download": "Download",
+    "share": "Share",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "confirm": "Confirm",
+    "viewDetails": "View Details"
+  },
+  "forms": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "submitSuccess": "Form submitted successfully!",
+    "submitError": "Error submitting form. Please try again.",
+    "uploading": "Uploading...",
+    "uploadSuccess": "File uploaded successfully",
+    "uploadError": "Error uploading file"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "legal": "Legal",
+    "followUs": "Follow Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "refundPolicy": "Refund Policy",
+    "accessibility": "Accessibility Statement",
+    "copyright": "© 2024 PixellPay. All rights reserved.",
+    "poweredBy": "Powered by PixellPay"
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "somethingWentWrong": "Something went wrong",
+    "tryAgain": "Try Again",
+    "goHome": "Go to Homepage",
+    "networkError": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to view this page",
+    "serverError": "Server error. Please try again later."
+  },
+  "loading": {
+    "pleaseWait": "Please wait...",
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "submitting": "Submitting...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "updating": "Updating..."
+  },
+  "search": {
+    "placeholder": "Search...",
+    "noResults": "No results found",
+    "results": "{{count}} results found",
+    "clearSearch": "Clear search"
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "rowsPerPage": "Rows per page",
+    "first": "First",
+    "last": "Last"
+  },
+  "contact": {
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "getInTouch": "Get in Touch",
+    "sendMessage": "Send Message"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "whatsapp": "WhatsApp"
+  }
+}

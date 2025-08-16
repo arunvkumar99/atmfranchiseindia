@@ -1,0 +1,128 @@
+{
+  "fields": {
+    "fullName": "पूर्ण नाव",
+    "firstName": "पहिले नाव",
+    "lastName": "आडनाव",
+    "email": "ईमेल पत्ता",
+    "phone": "फोन नंबर",
+    "alternatePhone": "पर्यायी फोन नंबर",
+    "whatsapp": "व्हॉट्सअ‍ॅप नंबर",
+    "address": "पत्ता",
+    "street": "रस्त्याचा पत्ता",
+    "city": "शहर",
+    "state": "राज्य",
+    "pincode": "पिन कोड",
+    "country": "देश",
+    "message": "संदेश",
+    "comments": "टिप्पण्या",
+    "experience": "अनुभव",
+    "qualification": "पात्रता",
+    "occupation": "सध्याचा व्यवसाय",
+    "businessType": "व्यवसाय प्रकार",
+    "investment": "गुंतवणूक क्षमता",
+    "preferredLocation": "पसंतीचे स्थान",
+    "shopName": "दुकान/व्यवसायाचे नाव",
+    "shopAddress": "दुकानाचा पत्ता",
+    "monthlyIncome": "मासिक उत्पन्न",
+    "businessExperience": "व्यवसाय अनुभव (वर्षे)",
+    "howDidYouHear": "तुम्हाला आमच्याबद्दल कसे कळले?",
+    "agreeTerms": "मी अटी आणि शर्तींशी सहमत आहे.",
+    "newsletter": "वृत्तपत्राची सदस्यता घ्या",
+    "captcha": "कॅप्चा एंटर करा"
+  },
+  "placeholders": {
+    "fullName": "तुमचे पूर्ण नाव एंटर करा.",
+    "email": "example@email.com वर ईमेल करा",
+    "phone": "+९१ ९८७६५ ४३२१०",
+    "message": "तुमचा संदेश येथे टाइप करा...",
+    "city": "तुमचे शहर निवडा",
+    "state": "तुमचे राज्य निवडा",
+    "searchCity": "शहर शोधा...",
+    "selectOption": "एक पर्याय निवडा",
+    "uploadFile": "फाइल निवडा किंवा येथे ड्रॅग करा",
+    "pincode": "६-अंकी पिन कोड"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "emailInvalid": "कृपया एक वैध ईमेल पत्ता प्रविष्ट करा.",
+    "phoneInvalid": "कृपया एक वैध १०-अंकी फोन नंबर एंटर करा.",
+    "pincodeInvalid": "कृपया वैध ६-अंकी पिन कोड एंटर करा.",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "maxLength": "{{field}} must not exceed {{max}} characters",
+    "numberOnly": "कृपया फक्त संख्या एंटर करा",
+    "lettersOnly": "कृपया फक्त अक्षरे प्रविष्ट करा",
+    "fileSize": "File size must be less than {{size}}MB",
+    "fileType": "Only {{types}} files are allowed",
+    "agreeRequired": "तुम्ही अटी आणि शर्तींशी सहमत असणे आवश्यक आहे.",
+    "captchaRequired": "कृपया कॅप्चा पडताळणी पूर्ण करा."
+  },
+  "options": {
+    "occupation": {
+      "employed": "नोकरीला",
+      "selfEmployed": "स्वयंरोजगार",
+      "business": "व्यवसाय मालक",
+      "student": "विद्यार्थी",
+      "retired": "निवृत्त",
+      "other": "इतर"
+    },
+    "investment": {
+      "below1": "₹१ लाखांपेक्षा कमी",
+      "1to5": "₹१-५ लाख",
+      "5to10": "₹५-१० लाख",
+      "10to25": "₹१०-२५ लाख",
+      "above25": "₹२५ लाखांपेक्षा जास्त"
+    },
+    "hearAbout": {
+      "google": "गुगल शोध",
+      "facebook": "फेसबुक",
+      "instagram": "इंस्टाग्राम",
+      "friend": "मित्र/संदर्भ",
+      "newspaper": "वर्तमानपत्र",
+      "other": "इतर"
+    },
+    "businessType": {
+      "retail": "किरकोळ दुकान",
+      "service": "सेवा केंद्र",
+      "grocery": "किराणा दुकान",
+      "medical": "मेडिकल स्टोअर",
+      "restaurant": "रेस्टॉरंट/कॅफे",
+      "other": "इतर"
+    }
+  },
+  "locationForm": {
+    "title": "एटीएम बसवण्याचे ठिकाण सबमिट करा",
+    "subtitle": "नवीन एटीएमसाठी सर्वोत्तम ठिकाणे ओळखण्यास आम्हाला मदत करा.",
+    "sections": {
+      "personal": "वैयक्तिक माहिती",
+      "location": "स्थान तपशील",
+      "business": "व्यवसाय माहिती",
+      "additional": "अतिरिक्त माहिती"
+    },
+    "success": "स्थान यशस्वीरित्या सबमिट केले! आम्ही लवकरच तुमच्याशी संपर्क साधू.",
+    "error": "स्थान सबमिट करताना त्रुटी. कृपया पुन्हा प्रयत्न करा."
+  },
+  "agentForm": {
+    "title": "पिक्सेलपे एजंट बना",
+    "subtitle": "आमच्या यशस्वी एजंट्सच्या नेटवर्कमध्ये सामील व्हा",
+    "sections": {
+      "personal": "वैयक्तिक माहिती",
+      "professional": "व्यावसायिक माहिती",
+      "documents": "दस्तऐवज अपलोड",
+      "agreement": "अटी आणि करार"
+    },
+    "success": "अर्ज यशस्वीरित्या सबमिट झाला! आमची टीम ४८ तासांच्या आत तुमच्याशी संपर्क साधेल.",
+    "error": "अर्ज सबमिट करताना एरर आली. कृपया सर्व फील्ड तपासा आणि पुन्हा प्रयत्न करा."
+  },
+  "enquiryForm": {
+    "title": "फ्रँचायझी चौकशी फॉर्म",
+    "subtitle": "तुमच्या एटीएम फ्रँचायझी प्रवासाला सुरुवात करा",
+    "success": "तुमच्या रसाबद्दल धन्यवाद! आम्ही लवकरच तुमच्याशी संपर्क साधू.",
+    "error": "चौकशी सबमिट करताना एरर आली. कृपया पुन्हा प्रयत्न करा."
+  },
+  "contactForm": {
+    "title": "आमच्याशी संपर्क साधा",
+    "subtitle": "आम्ही मदत करण्यासाठी येथे आहोत.",
+    "success": "संदेश यशस्वीरित्या पाठवला!",
+    "error": "संदेश पाठवताना त्रुटी आली. कृपया पुन्हा प्रयत्न करा."
+  }
+}
