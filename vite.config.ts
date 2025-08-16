@@ -40,7 +40,6 @@ export default defineConfig(({ mode }) => ({
             '@radix-ui/react-select',
             '@radix-ui/react-accordion'
           ],
-          'supabase-vendor': ['@supabase/supabase-js'],
           'form-vendor': ['react-hook-form', '@hookform/resolvers', 'zod'],
           'animation-vendor': ['framer-motion'],
         },
@@ -55,7 +54,6 @@ export default defineConfig(({ mode }) => ({
       'react', 
       'react-dom', 
       'react-router-dom',
-      '@supabase/supabase-js',
       'framer-motion'
     ]
   }
