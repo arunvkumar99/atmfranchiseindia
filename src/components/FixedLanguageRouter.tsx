@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 
 const SUPPORTED_LANGUAGE_CODES = ['hi', 'bn', 'ta', 'te', 'mr', 'gu', 'ur', 'kn', 'or', 'pa', 'as', 'ml'];
 
@@ -8,6 +8,7 @@ const SUPPORTED_LANGUAGE_CODES = ['hi', 'bn', 'ta', 'te', 'mr', 'gu', 'ur', 'kn'
 const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const location = useLocation();
   const navigate = useNavigate();
+  const { i18n } = useTranslation();
 
   useEffect(() => {
     const path = location.pathname;
