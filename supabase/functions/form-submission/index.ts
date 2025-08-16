@@ -2,9 +2,27 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
-const corsHeaders = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+// Restrict CORS to specific origins
+const allowedOrigins = [
+  'https://atmfranchiseindia.com',
+  'https://www.atmfranchiseindia.com',
+  'http://localhost:8080',
+  'http://localhost:5173'
+];
+
+function getCorsHeaders(origin: string | null) {
+  const corsHeaders: Record<string, string> = {
+    'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  };
+  
+  if (origin && allowedOrigins.includes(origin)) {
+    corsHeaders['Access-Control-Allow-Origin'] = origin;
+  } else if (Deno.env.get('ENVIRONMENT') === 'development') {
+    corsHeaders['Access-Control-Allow-Origin'] = '*';
+  }
+  
+  return corsHeaders;
 }
 
 interface FormSubmissionRequest {
@@ -17,6 +35,9 @@ interface FormSubmissionRequest {
 }
 
 serve(async (req) => {
+  const origin = req.headers.get('origin');
+  const corsHeaders = getCorsHeaders(origin);
+  
   // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
     return new Response(null, { headers: corsHeaders });

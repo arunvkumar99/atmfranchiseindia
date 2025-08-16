@@ -177,10 +177,25 @@ function formatFormData(formType: string, data: any): string[] {
 
 // Main handler
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // CORS headers
-  res.setHeader('Access-Control-Allow-Origin', process.env.ALLOWED_ORIGINS || '*');
+  // CORS headers - Restrict to specific origins in production
+  const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(',') || [
+    'https://atmfranchiseindia.com',
+    'https://www.atmfranchiseindia.com',
+    'http://localhost:8080',
+    'http://localhost:5173'
+  ];
+  
+  const origin = req.headers.origin || '';
+  
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  } else if (process.env.NODE_ENV === 'development') {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+  }
+  
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end();

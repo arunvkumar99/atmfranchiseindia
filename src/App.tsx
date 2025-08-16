@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route, useLocation, useParams } from "react-rout
 import { HelmetProvider } from "react-helmet-async";
 import { AuthProvider } from "@/hooks/useAuth";
 import ProtectedRoute from "@/components/ProtectedRoute";
+import { ErrorBoundary, AsyncErrorBoundary } from "@/components/ErrorBoundary";
 import TranslationStatus from "@/components/TranslationStatus";
 import Header from "./components/Header";
 import { BreadcrumbNavigation } from "./components/BreadcrumbNavigation";
@@ -241,24 +242,27 @@ const App = () => {
   useMonitoring();
   useAccessibility();
   return (
-    <HelmetProvider>
-      <QueryClientProvider client={queryClient}>
-        <TooltipProvider>
-          <Toaster />
-          <Sonner />
-          <SecurityHeaders>
-            <span />
-          </SecurityHeaders>
-          <BrowserRouter>
-          <AuthProvider>
-            <AccessibilityWrapper>
-              <FixedLanguageRouter>
-                <ScrollToTop />
-                <div className="flex flex-col min-h-screen bg-background">
-                  <Header />
-                  <main className="flex-1 pt-16" role="main">
-                    <BreadcrumbNavigation />
-                    <Routes>
+    <ErrorBoundary>
+      <AsyncErrorBoundary>
+        <HelmetProvider>
+          <QueryClientProvider client={queryClient}>
+            <TooltipProvider>
+              <Toaster />
+              <Sonner />
+              <SecurityHeaders>
+                <span />
+              </SecurityHeaders>
+              <BrowserRouter>
+              <AuthProvider>
+                <AccessibilityWrapper>
+                  <FixedLanguageRouter>
+                    <ScrollToTop />
+                    <div className="flex flex-col min-h-screen bg-background">
+                      <Header />
+                      <main className="flex-1 pt-16" role="main">
+                        <BreadcrumbNavigation />
+                        <ErrorBoundary>
+                          <Routes>
                       {/* Language-prefixed routes */}
                       <Route path="/:lang/*" element={<LanguageWrappedRoutes />} />
                       
@@ -298,6 +302,7 @@ const App = () => {
                       {/* 404 page */}
                       <Route path="*" element={<LazyNotFound />} />
                     </Routes>
+                        </ErrorBoundary>
                   </main>
                   <Footer />
                   <TranslationDebugPanel />
@@ -310,6 +315,8 @@ const App = () => {
       </TooltipProvider>
     </QueryClientProvider>
     </HelmetProvider>
+      </AsyncErrorBoundary>
+    </ErrorBoundary>
   );
 };
 
