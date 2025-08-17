@@ -1,41 +1,44 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { TrendingUp, Users, Banknote, Target } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const WhyATM = () => {
+  const { t } = useTranslation('home');
+  
   const stats = [
     {
       icon: TrendingUp,
       value: "50%",
-      prefix: "upto",
-      label: "Return On Investment",
-      description: "All Payout Received by RBI Licensed WLA ATM Partners",
+      prefix: t('whyAtm.stats.roi.prefix', 'upto'),
+      label: t('whyAtm.stats.roi.label', 'Return On Investment'),
+      description: t('whyAtm.stats.roi.description', 'All Payout Received by RBI Licensed WLA ATM Partners'),
       gradient: "bg-gradient-accent-blue"
     },
     {
       icon: Users,
       value: "15",
       prefix: "",
-      suffix: "Per Lac",
-      label: "Only 15 ATMs per 1Lac People",
-      description: "ATM Penetration in India is very Low",
+      suffix: t('whyAtm.stats.penetration.suffix', 'Per Lac'),
+      label: t('whyAtm.stats.penetration.label', 'Only 15 ATMs per 1Lac People'),
+      description: t('whyAtm.stats.penetration.description', 'ATM Penetration in India is very Low'),
       gradient: "bg-gradient-accent-purple"
     },
     {
       icon: Banknote,
       value: "75%",
       prefix: "",
-      suffix: "Cash",
-      label: "Cash Circulation",
-      description: "Indian Economy is still Largely Cash based",
+      suffix: t('whyAtm.stats.cash.suffix', 'Cash'),
+      label: t('whyAtm.stats.cash.label', 'Cash Circulation'),
+      description: t('whyAtm.stats.cash.description', 'Indian Economy is still Largely Cash based'),
       gradient: "bg-gradient-accent-green"
     },
     {
       icon: Target,
       value: "90%",
       prefix: "",
-      suffix: "Potential",
-      label: "90% of Banks Offsite ATMs are closing down",
-      description: "Banks Offsite ATM Closure creates a Large market for ATMs",
+      suffix: t('whyAtm.stats.potential.suffix', 'Potential'),
+      label: t('whyAtm.stats.potential.label', '90% of Banks Offsite ATMs are closing down'),
+      description: t('whyAtm.stats.potential.description', 'Banks Offsite ATM Closure creates a Large market for ATMs'),
       gradient: "bg-gradient-accent-blue"
     }
   ];
@@ -53,13 +56,13 @@ const WhyATM = () => {
         {/* Header */}
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-4xl md:text-6xl font-black text-white mb-8 leading-tight">
-            Why ATM Business
+            {t('whyAtm.title', 'Why ATM Business')}
             <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
               ?
             </span>
           </h2>
           <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed opacity-90">
-            Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies
+            {t('whyAtm.subtitle', 'Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies')}
           </p>
         </div>
 
@@ -111,14 +114,14 @@ const WhyATM = () => {
         <div className="text-center mt-20">
           <div className="inline-flex items-center gap-6 bg-gradient-glass backdrop-blur-md rounded-3xl px-12 py-8 border border-white/20 shadow-glass">
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-white mb-4">Perfect Time for ATM Business in Rural India</p>
+              <p className="text-2xl md:text-3xl font-bold text-white mb-4">{t('whyAtm.cta.title', 'Perfect Time for ATM Business in Rural India')}</p>
               <div className="flex flex-wrap justify-center gap-4 text-sm text-blue-100 mb-6">
-                <span className="bg-white/20 px-4 py-2 rounded-full">• Digital Adoption Growing</span>
-                <span className="bg-white/20 px-4 py-2 rounded-full">• Government Push for Financial Inclusion</span>
-                <span className="bg-white/20 px-4 py-2 rounded-full">• Bank Branch Closures</span>
+                <span className="bg-white/20 px-4 py-2 rounded-full">• {t('whyAtm.cta.points.digital', 'Digital Adoption Growing')}</span>
+                <span className="bg-white/20 px-4 py-2 rounded-full">• {t('whyAtm.cta.points.government', 'Government Push for Financial Inclusion')}</span>
+                <span className="bg-white/20 px-4 py-2 rounded-full">• {t('whyAtm.cta.points.branches', 'Bank Branch Closures')}</span>
               </div>
               <p className="text-xl font-bold bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
-                Investment Range: ₹2-5 Lakhs
+                {t('whyAtm.cta.investment', 'Investment Range: ₹2-5 Lakhs')}
               </p>
             </div>
           </div>

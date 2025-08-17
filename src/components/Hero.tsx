@@ -56,6 +56,7 @@ const Hero = () => {
 
 // Value-Props Strip Component
 export const ValuePropsStrip = () => {
+  const { t } = useTranslation('home');
   const features = [
     {
       icon: TrendingUp,

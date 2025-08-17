@@ -66,14 +66,14 @@
       "other": "अन्य"
     },
     "investment": {
-      "below1": "₹1 लाख से कम",
-      "1to5": "₹1-5 लाख",
-      "5to10": "₹5-10 लाख",
-      "10to25": "₹10-25 लाख",
-      "above25": "₹25 लाख से अधिक"
+      "below1": "Below ₹1 Lakh",
+      "1to5": "₹1-5 Lakhs",
+      "5to10": "₹5-10 Lakhs",
+      "10to25": "₹10-25 Lakhs",
+      "above25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
-      "google": "गूगल खोज",
+      "google": "Google Search",
       "facebook": "फेसबुक",
       "instagram": "Instagram",
       "friend": "मित्र/संदर्भ",

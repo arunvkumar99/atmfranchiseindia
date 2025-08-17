@@ -2,22 +2,25 @@ import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { CONTACT_INFO } from "@/lib/contactInfo";
+import { useAppTranslation } from "@/hooks/useAppTranslation";
 
 const Footer = () => {
+  const { t } = useAppTranslation('common');
+  
   const quickLinks = [
-    { label: "Home", href: "#home" },
-    { label: "Why ATM Business", href: "#why-atm" },
-    { label: "Our Services", href: "#services" },
-    { label: "Get Started", href: "#get-started" },
+    { label: t('footer.quickLinks.home', 'Home'), href: "#home" },
+    { label: t('footer.quickLinks.whyAtm', 'Why ATM Business'), href: "#why-atm" },
+    { label: t('footer.quickLinks.services', 'Our Services'), href: "#services" },
+    { label: t('footer.quickLinks.getStarted', 'Get Started'), href: "#get-started" },
   ];
 
   const services = [
-    "ATM Franchise Consultation",
-    "WLA Operator Comparison", 
-    "Site Evaluation",
-    "Training & Support",
-    "Digital Marketing",
-    "Technical Assistance"
+    t('footer.services.consultation', 'ATM Franchise Consultation'),
+    t('footer.services.comparison', 'WLA Operator Comparison'), 
+    t('footer.services.evaluation', 'Site Evaluation'),
+    t('footer.services.training', 'Training & Support'),
+    t('footer.services.marketing', 'Digital Marketing'),
+    t('footer.services.technical', 'Technical Assistance')
   ];
 
   return (
@@ -35,13 +38,12 @@ const Footer = () => {
                   className="h-12 w-auto object-contain"
                 />
                 <div>
-                  <h3 className="font-bold text-lg">ATM Franchise India</h3>
-                  <p className="text-xs text-background/70">Trusted Business Partner</p>
+                  <h3 className="font-bold text-lg">{t('footer.company.name', 'ATM Franchise India')}</h3>
+                  <p className="text-xs text-background/70">{t('footer.company.tagline', 'Trusted Business Partner')}</p>
                 </div>
               </div>
               <p className="text-background/80 leading-relaxed">
-                Empowering rural entrepreneurs with transparent ATM franchise opportunities. 
-                Building passive income streams while serving communities across India.
+                {t('footer.company.description', 'Empowering rural entrepreneurs with transparent ATM franchise opportunities. Building passive income streams while serving communities across India.')}
               </p>
             </div>
             
@@ -56,14 +58,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span className="text-background/90">Bangalore, Karnataka, India</span>
+                <span className="text-background/90">{t('footer.contact.location', 'Bangalore, Karnataka, India')}</span>
               </div>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Quick Links</h4>
+            <h4 className="font-bold text-lg mb-6">{t('footer.quickLinksTitle', 'Quick Links')}</h4>
             <div className="space-y-3">
               <Link to="/submit-location" className="block text-background/80 hover:text-primary transition-colors">
                 Submit ATM Location
@@ -82,7 +84,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Our Services</h4>
+            <h4 className="font-bold text-lg mb-6">{t('footer.servicesTitle', 'Our Services')}</h4>
             <div className="space-y-3">
               {services.map((service) => (
                 <div key={service} className="text-background/80 text-sm">
@@ -94,7 +96,7 @@ const Footer = () => {
 
           {/* Legal */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Legal</h4>
+            <h4 className="font-bold text-lg mb-6">{t('footer.legalTitle', 'Legal')}</h4>
             <div className="space-y-3">
               <Link to="/privacy-policy" className="block text-background/80 hover:text-primary transition-colors">
                 Privacy Policy

@@ -5,7 +5,7 @@
     "ourProducts": "हमारे उत्पाद",
     "becomeAgent": "एजेंट बनें",
     "submitLocation": "एटीएम स्थान सबमिट करें",
-    "becomeFranchise": "फ्रेंचाइजी बनें",
+    "becomeFranchise": "फ्रैंचाइज़ी बनें",
     "pixellpayAdvantage": "पिक्सेलपे लाभ",
     "contactUs": "हमसे संपर्क करें",
     "joinUs": "हमसे जुड़ें",
@@ -52,8 +52,8 @@
     "termsConditions": "नियम एवं शर्तें",
     "refundPolicy": "भुगतान वापसी की नीति",
     "accessibility": "पहुँच योग्यता विवरण",
-    "copyright": "© 2024 पिक्सेलपे। सर्वाधिकार सुरक्षित।",
-    "poweredBy": "पिक्सेलपे द्वारा संचालित"
+    "copyright": "© 2024 PixellPay. All rights reserved.",
+    "poweredBy": "Powered by PixellPay"
   },
   "errors": {
     "pageNotFound": "पृष्ठ नहीं मिला",

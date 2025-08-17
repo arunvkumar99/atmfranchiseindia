@@ -98,8 +98,65 @@
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Everything you need to know about ATM franchise"
+    "badge": "Frequently Asked Questions",
+    "title": "Everything You Need to Know",
+    "subtitle": "Get answers to the most common questions about starting your ATM franchise business.",
+    "items": {
+      "investment": {
+        "question": "What is the minimum investment required for an ATM franchise?",
+        "answer": "The investment typically ranges from ₹3-8 lakhs depending on the WLA partner and location. This includes machine cost, installation, and initial working capital. We provide detailed cost breakdowns for each partner."
+      },
+      "income": {
+        "question": "How much monthly income can I expect?",
+        "answer": "Our partners typically earn ₹35,000-60,000 monthly. Income depends on location, footfall, and transaction volume. Rural areas often see ₹25-40K while urban locations can generate ₹50-80K monthly."
+      },
+      "roi": {
+        "question": "How long does it take to get ROI?",
+        "answer": "Most partners achieve ROI within 12-18 months. High-traffic locations can see returns in 8-12 months, while smaller towns typically take 15-20 months. We provide location analysis to optimize returns."
+      },
+      "costs": {
+        "question": "What are the ongoing operational costs?",
+        "answer": "Monthly costs include electricity (₹3-5K), cash loading (2-3% of transactions), maintenance (₹2-3K), and internet (₹1-2K). Total operational costs are typically 15-20% of gross revenue."
+      },
+      "technical": {
+        "question": "Do I need technical knowledge to operate an ATM?",
+        "answer": "No technical expertise required. WLA partners provide complete training, 24/7 technical support, and remote monitoring. You mainly handle cash loading and basic maintenance coordination."
+      },
+      "cash": {
+        "question": "How is cash management handled?",
+        "answer": "You'll load cash based on usage patterns (typically every 2-4 days). WLA partners provide cash forecasting tools and some offer cash logistics services. Insurance covers cash-in-transit risks."
+      },
+      "location": {
+        "question": "What locations work best for ATM placement?",
+        "answer": "High-footfall areas like markets, bus stands, hospitals, colleges, and commercial complexes work best. We conduct detailed location surveys and provide site approval guidance from our experience."
+      },
+      "hidden": {
+        "question": "Are there any hidden costs or fees?",
+        "answer": "We ensure complete transparency. All costs are disclosed upfront including machine cost, installation, annual maintenance, and revenue sharing. No hidden charges - what you see is what you pay."
+      },
+      "support": {
+        "question": "What support do you provide after franchise setup?",
+        "answer": "We offer ongoing business consultation, performance optimization tips, troubleshooting support, and assistance with WLA partner coordination. Our relationship continues beyond just setup."
+      },
+      "multiple": {
+        "question": "Can I operate multiple ATM franchises?",
+        "answer": "Yes, many successful partners operate 2-5 ATMs. After your first ATM stabilizes (6-12 months), we can help identify additional locations and streamline multi-location operations."
+      }
+    },
+    "stats": {
+      "transparent": {
+        "title": "100% Transparent",
+        "description": "No hidden costs or surprise fees. Complete transparency in all dealings."
+      },
+      "proven": {
+        "title": "Proven Results",
+        "description": "95% partner success rate with average ROI in 12-18 months."
+      },
+      "quick": {
+        "title": "Quick Setup",
+        "description": "Fast-track approval and installation within 30-45 days."
+      }
+    }
   },
   "stats": {
     "title": "PixellPay by Numbers",
@@ -107,5 +164,140 @@
     "monthlyTransactions": "Monthly Transactions",
     "citiesCovered": "Cities Covered",
     "yearsExperience": "Years of Experience"
+  },
+  "whyAtm": {
+    "title": "Why ATM Business",
+    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
+    "stats": {
+      "roi": {
+        "prefix": "upto",
+        "label": "Return On Investment",
+        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      },
+      "penetration": {
+        "suffix": "Per Lac",
+        "label": "Only 15 ATMs per 1Lac People",
+        "description": "ATM Penetration in India is very Low"
+      },
+      "cash": {
+        "suffix": "Cash",
+        "label": "Cash Circulation",
+        "description": "Indian Economy is still Largely Cash based"
+      },
+      "potential": {
+        "suffix": "Potential",
+        "label": "90% of Banks Offsite ATMs are closing down",
+        "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
+      }
+    },
+    "cta": {
+      "title": "Perfect Time for ATM Business in Rural India",
+      "points": {
+        "digital": "Digital Adoption Growing",
+        "government": "Government Push for Financial Inclusion",
+        "branches": "Bank Branch Closures"
+      },
+      "investment": "Investment Range: ₹2-5 Lakhs"
+    }
+  },
+  "services": {
+    "title": "Why Choose",
+    "titleHighlight": "ATM Franchise India?",
+    "subtitle": "With 4+ years of experience across all WLA brands, we provide end-to-end support to ensure your ATM business success in rural India.",
+    "items": {
+      "trusted": {
+        "title": "Trusted ATM Franchise Information",
+        "description": "Get accurate, verified insights into the regulated ATM industry. Our experts cut through misinformation to provide fact-based guidance for informed franchise decisions.",
+        "benefits": {
+          "compliance": "RBI compliance verification",
+          "analysis": "Transparent business model analysis",
+          "risk": "Risk assessment and mitigation",
+          "legal": "Legal documentation support"
+        },
+        "cta": "Get Verified Info"
+      },
+      "guidance": {
+        "title": "Expert WLA Operator Guidance",
+        "description": "Choose the right White Label ATM partner with confidence. We provide unbiased comparisons of major operators, highlighting strengths and weaknesses.",
+        "benefits": {
+          "comparison": "Operator comparison reports",
+          "revenue": "Revenue sharing analysis",
+          "technical": "Technical support evaluation",
+          "contract": "Contract negotiation assistance"
+        },
+        "cta": "Compare Operators"
+      },
+      "digital": {
+        "title": "Digital Presence Boost",
+        "description": "Already running an ATM franchise? Enhance your online visibility and connect with more customers through our digital marketing services.",
+        "benefits": {
+          "branding": "Online branding development",
+          "seo": "Local SEO optimization",
+          "acquisition": "Customer acquisition strategies",
+          "analytics": "Performance analytics"
+        },
+        "cta": "Boost Visibility"
+      }
+    },
+    "support": {
+      "onboarding": "Franchise onboarding & setup",
+      "training": "Comprehensive training programs",
+      "marketing": "Local marketing & promotions",
+      "technical": "24/7 technical support",
+      "settlement": "Bank settlement assistance",
+      "consultation": "Ongoing business consultation"
+    },
+    "supportSection": {
+      "title": "Complete Franchise Support",
+      "description": "From initial setup to ongoing operations, we handle everything so you can focus on growing your passive income from your ATM business."
+    },
+    "cta": {
+      "title": "Ready to Start?",
+      "description": "Join our network of successful ATM franchise owners across rural India",
+      "franchisees": "Happy Franchisees",
+      "button": "Start Your Journey"
+    }
+  },
+  "trustSignals": {
+    "title": "Trusted by Businesses Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM business operations",
+    "metrics": {
+      "partners": "Active Partners",
+      "uptime": "Uptime Guarantee",
+      "experience": "Industry Experience",
+      "support": "Customer Support"
+    }
+  },
+  "testimonials": {
+    "badge": "Success Stories",
+    "title": "Real Results from Our Partners",
+    "subtitle": "Don't just take our word for it. Here are genuine success stories from our franchise partners across India.",
+    "items": {
+      "rajesh": {
+        "name": "Rajesh Kumar",
+        "location": "Mumbai, Maharashtra",
+        "business": "EPS ATM Franchise",
+        "testimonial": "ATM Franchise India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
+      },
+      "priya": {
+        "name": "Priya Sharma",
+        "location": "Bangalore, Karnataka",
+        "business": "Vakrangee Partnership",
+        "testimonial": "The team's expertise in WLA partnerships is unmatched. My ATM is generating consistent ₹38,000 monthly income in just 6 months."
+      },
+      "amit": {
+        "name": "Amit Patel",
+        "location": "Ahmedabad, Gujarat",
+        "business": "Indicash Franchise",
+        "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
+      }
+    },
+    "monthsLabel": "in {{months}} months",
+    "performance": {
+      "title": "Average Partner Performance",
+      "income": "Avg Monthly Income",
+      "roi": "Months to ROI",
+      "success": "Success Rate"
+    }
   }
 }

@@ -4,7 +4,9 @@
     "aboutUs": "எங்களை பற்றி",
     "ourProducts": "எங்கள் தயாரிப்புகள்",
     "becomeAgent": "முகவராகுங்கள்",
-    "submitLocation": "இருப்பிடத்தைச் சமர்ப்பிக்கவும்",
+    "submitLocation": "ஏடிஎம் இருப்பிடத்தைச் சமர்ப்பிக்கவும்",
+    "becomeFranchise": "உரிமையாளராகுங்கள்",
+    "pixellpayAdvantage": "PixellPay நன்மை",
     "contactUs": "எங்களை தொடர்பு கொள்ள",
     "joinUs": "எங்களுடன் சேருங்கள்",
     "blog": "வலைப்பதிவு",
@@ -50,8 +52,8 @@
     "termsConditions": "விதிமுறைகளும் நிபந்தனைகளும்",
     "refundPolicy": "பணத்தைத் திரும்பப்பெறும் கொள்கை",
     "accessibility": "அணுகல்தன்மை அறிக்கை",
-    "copyright": "© 2024 PixellPay. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-    "poweredBy": "PixellPay ஆல் இயக்கப்படுகிறது"
+    "copyright": "© 2024 PixellPay. All rights reserved.",
+    "poweredBy": "Powered by PixellPay"
   },
   "errors": {
     "pageNotFound": "பக்கம் கிடைக்கவில்லை",
