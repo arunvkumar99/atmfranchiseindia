@@ -213,6 +213,7 @@ export const ValuePropsStrip = () => {
 
 // Why ATM Franchise India Section
 export const WhyATMFranchiseIndia = () => {
+  const { t } = useTranslation('home');
   const franchiseFeatures = [
     {
       icon: Shield,

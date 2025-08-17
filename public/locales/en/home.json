@@ -1,7 +1,9 @@
 {
   "hero": {
-    "title": "India's Most Trusted ATM Franchise",
-    "subtitle": "Start your journey with PixellPay - Your gateway to financial success",
+    "title": "Your ATM – Your Income",
+    "subtitle": "Start your own ATM franchise business with minimal investment and maximum returns. Partner with RBI licensed operators across India.",
+    "submitLocation": "Submit ATM Location",
+    "becomeFranchise": "Become Franchise",
     "description": "Join thousands of successful franchise partners across India. Low investment, high returns, complete support.",
     "cta": {
       "primary": "Start Your ATM Business",
@@ -95,6 +97,35 @@
       "flexible": "Flexible Working Hours",
       "noInventory": "No Inventory Management",
       "digitalIndia": "Part of Digital India Mission"
+    }
+  },
+  "stats": {
+    "atmsAcrossIndia": "ATMs across India",
+    "andCounting": "and counting..."
+  },
+  "whyAtm": {
+    "title": "Why ATM Business?",
+    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
+    "stats": {
+      "roi": {
+        "label": "Return On Investment",
+        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      },
+      "penetration": {
+        "label": "ATM Penetration",
+        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+      },
+      "cash": {
+        "label": "Cash Circulation",
+        "description": "Indian Economy is still Largely Cash based"
+      },
+      "market": {
+        "label": "Market Opportunity",
+        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+      }
+    },
+    "cta": {
+      "title": "Perfect Time for ATM Business in Rural India"
     }
   },
   "faq": {

@@ -20,6 +20,7 @@ import { SecurityHeaders } from "@/components/ui/security-headers";
 import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 import { TranslationDebug } from "@/components/TranslationDebug";
+import { TranslationValidator } from "@/components/TranslationValidator";
 
 // Lazy load all pages for optimal performance
 const Home = lazy(() => import("./pages/Home"));
@@ -44,6 +45,7 @@ const JobsPage = lazy(() => import("./pages/JobsPage"));
 
 // Blog pages - separate chunk
 const BlogPage = lazy(() => import("./pages/BlogPage"));
+const TranslationTest = lazy(() => import("./pages/TranslationTest"));
 const PerfectTimeSideHustle2025 = lazy(() => import("./pages/blog/PerfectTimeSideHustle2025"));
 const PassiveIncomeFinancialFreedom = lazy(() => import("./pages/blog/PassiveIncomeFinancialFreedom"));
 const TruthAboutPassiveIncomeIdeas = lazy(() => import("./pages/blog/TruthAboutPassiveIncomeIdeas"));
@@ -71,6 +73,7 @@ const LazyRefundPolicy = withLazyLoading(RefundPolicy);
 const LazyPixellpayAdvantage = withLazyLoading(PixellpayAdvantage);
 const LazyJobsPage = withLazyLoading(JobsPage);
 const LazyBlogPage = withLazyLoading(BlogPage);
+const LazyTranslationTest = withLazyLoading(TranslationTest);
 const LazyPerfectTimeSideHustle2025 = withLazyLoading(PerfectTimeSideHustle2025);
 const LazyPassiveIncomeFinancialFreedom = withLazyLoading(PassiveIncomeFinancialFreedom);
 const LazyTruthAboutPassiveIncomeIdeas = withLazyLoading(TruthAboutPassiveIncomeIdeas);
@@ -205,6 +208,9 @@ const App = () => {
                       <Route path="/blog/atm-franchise-passive-income" element={<LazyATMFranchisePassiveIncome />} />
                       <Route path="/blog/five-step-guide-atm-business" element={<LazyFiveStepGuideATMBusiness />} />
                       
+                      {/* Test route */}
+                      {import.meta.env.DEV && <Route path="/test-translations" element={<LazyTranslationTest />} />}
+                      
                       {/* Admin routes */}
                       <Route path="/admin" element={<ProtectedRoute><LazyAdminExport /></ProtectedRoute>} />
                       <Route path="/admin/users" element={<ProtectedRoute><LazyAdminUserManagement /></ProtectedRoute>} />
@@ -218,6 +224,7 @@ const App = () => {
                   <Footer />
                   <StickyMobileCTA />
                   {import.meta.env.DEV && <TranslationDebug />}
+                  {import.meta.env.DEV && <TranslationValidator />}
                 </div>
               </FixedLanguageRouter>
             </AccessibilityWrapper>
