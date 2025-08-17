@@ -12,15 +12,15 @@ const Home = () => {
       <WhyATMFranchiseIndia />
       
       {/* Stats Banner */}
-      <section className="bg-primary py-16 overflow-hidden">
+      <section className="bg-primary py-12 sm:py-16 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center gap-16 animate-slide-up">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12 md:gap-16 animate-slide-up">
             {/* Optimized Logo */}
             <div className="flex-shrink-0 animate-float-3d">
               <OptimizedImage
                 src="/assets/atm-franchise-logo.png"
                 alt="ATM Franchise India Logo"
-                className="w-60 h-auto object-contain drop-shadow-2xl"
+                className="w-40 sm:w-48 md:w-60 h-auto object-contain drop-shadow-2xl"
                 width={240}
                 height={120}
                 priority={true}
@@ -28,14 +28,14 @@ const Home = () => {
             </div>
             
             {/* Stats text */}
-            <div className="text-left">
-              <div className="text-6xl md:text-8xl font-heading font-black text-primary-foreground mb-4 animate-pulse-3d tracking-wide">
+            <div className="text-center sm:text-left">
+              <div className="text-5xl sm:text-6xl md:text-8xl font-heading font-black text-primary-foreground mb-2 sm:mb-4 animate-pulse-3d tracking-wide">
                 200<span className="text-accent animate-glow">+</span>
               </div>
-              <div className="text-2xl md:text-3xl font-heading font-bold text-primary-foreground/95 mb-2">
+              <div className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary-foreground/95 mb-1 sm:mb-2">
                 ATMs across India
               </div>
-              <div className="text-lg font-body font-medium text-primary-foreground/85">
+              <div className="text-base sm:text-lg font-body font-medium text-primary-foreground/85">
                 and counting...
               </div>
             </div>

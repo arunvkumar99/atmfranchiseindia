@@ -165,8 +165,8 @@ export function DirectSheetsForm({
           <Input
             id="fullName"
             {...register('fullName')}
-            placeholder="John Doe"
-            className={errors.fullName ? 'border-red-500' : ''}
+            placeholder="Enter your full name"
+            className={errors.fullName ? 'border-red-500 focus:border-red-500' : ''}
           />
           {errors.fullName && (
             <p className="text-red-500 text-sm mt-1">{errors.fullName.message}</p>
@@ -183,7 +183,7 @@ export function DirectSheetsForm({
             id="email"
             type="email"
             {...register('email')}
-            placeholder="john@example.com"
+            placeholder="your.email@example.com"
             className={errors.email ? 'border-red-500' : ''}
           />
           {errors.email && (
@@ -200,7 +200,7 @@ export function DirectSheetsForm({
           <Input
             id="phone"
             {...register('phone')}
-            placeholder="9876543210"
+            placeholder="10-digit mobile number"
             maxLength={10}
             className={errors.phone ? 'border-red-500' : ''}
           />
@@ -218,7 +218,7 @@ export function DirectSheetsForm({
           <Input
             id="city"
             {...register('city')}
-            placeholder="Mumbai"
+            placeholder="Enter your city"
             className={errors.city ? 'border-red-500' : ''}
           />
           {errors.city && (
@@ -232,7 +232,7 @@ export function DirectSheetsForm({
           <Input
             id="state"
             {...register('state')}
-            placeholder="Maharashtra"
+            placeholder="Select your state"
             className={errors.state ? 'border-red-500' : ''}
           />
           {errors.state && (

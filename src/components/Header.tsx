@@ -119,10 +119,10 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 flex-shrink-0">
               <img 
-                src="/lovable-uploads/381f354a-0796-4433-a08e-2b6a875f288f.png" 
+                src="/assets/atm-franchise-logo.png" 
                 alt="ATM Franchise India Logo" 
-                className="h-16 w-auto object-contain"
-                style={{ imageRendering: 'crisp-edges' }}
+                className="h-12 sm:h-14 md:h-16 w-auto object-contain transition-transform hover:scale-105"
+                loading="eager"
               />
             </Link>
 
