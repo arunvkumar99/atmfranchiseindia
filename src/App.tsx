@@ -19,6 +19,7 @@ import AccessibilityWrapper from "@/components/AccessibilityWrapper";
 import { SecurityHeaders } from "@/components/ui/security-headers";
 import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
+import { TranslationDebug } from "@/components/TranslationDebug";
 
 // Lazy load all pages for optimal performance
 const Home = lazy(() => import("./pages/Home"));
@@ -216,6 +217,7 @@ const App = () => {
                   </main>
                   <Footer />
                   <StickyMobileCTA />
+                  {import.meta.env.DEV && <TranslationDebug />}
                 </div>
               </FixedLanguageRouter>
             </AccessibilityWrapper>

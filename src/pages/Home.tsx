@@ -2,7 +2,9 @@ import { Suspense } from "react";
 import Hero, { ValuePropsStrip, WhyATMFranchiseIndia } from "@/components/Hero";
 import { OptimizedImage } from "@/components/ui/optimized-image";
 import TrustSignals from "@/components/TrustSignals";
+import { useTranslation } from "react-i18next";
 const Home = () => {
+  const { t } = useTranslation('home');
   
   return (
     <div className="min-h-screen pt-24">
@@ -33,10 +35,10 @@ const Home = () => {
                 200<span className="text-accent animate-glow">+</span>
               </div>
               <div className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary-foreground/95 mb-1 sm:mb-2">
-                ATMs across India
+                {t('stats.atmsAcrossIndia', 'ATMs across India')}
               </div>
               <div className="text-base sm:text-lg font-body font-medium text-primary-foreground/85">
-                and counting...
+                {t('stats.andCounting', 'and counting...')}
               </div>
             </div>
           </div>

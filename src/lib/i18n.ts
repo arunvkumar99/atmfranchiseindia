@@ -81,7 +81,7 @@ i18n
     
     // React specific configuration
     react: {
-      useSuspense: true,
+      useSuspense: false, // Disable suspense to avoid loading issues
       bindI18n: 'languageChanged loaded',
       bindI18nStore: 'added removed',
       transEmptyNodeValue: '',

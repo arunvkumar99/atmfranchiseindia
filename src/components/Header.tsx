@@ -25,7 +25,7 @@ const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, isAdmin, signOut } = useAuth();
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   // Enhanced dropdown handlers
   const handleDropdownEnter = useCallback(() => {
@@ -68,22 +68,22 @@ const Header = () => {
     setIsLanguageDropdownOpen(false);
   }, []);
 
-  // Navigation items
+  // Navigation items with translations
   const navItems = [
-    { label: "Home", href: "/" },
+    { label: t('nav.home'), href: "/" },
     { 
-      label: "About Us", 
+      label: t('nav.aboutUs'), 
       href: "/about-us",
       hasDropdown: true,
       dropdownItems: [
-        { label: "Blog", href: "/blog" },
-        { label: "PixellPay Advantage", href: "/pixellpay-advantage" },
-        { label: "Contact Us", href: "/contact-us" },
+        { label: t('nav.blog'), href: "/blog" },
+        { label: t('nav.pixellpayAdvantage', 'PixellPay Advantage'), href: "/pixellpay-advantage" },
+        { label: t('nav.contactUs'), href: "/contact-us" },
       ]
     },
-    { label: "Our Products", href: "/our-products" },
-    { label: "Submit ATM Location", href: "/submit-location" },
-    { label: "Become Franchise", href: "/become-franchise" },
+    { label: t('nav.ourProducts'), href: "/our-products" },
+    { label: t('nav.submitLocation', 'Submit ATM Location'), href: "/submit-location" },
+    { label: t('nav.becomeFranchise', 'Become Franchise'), href: "/become-franchise" },
   ];
 
   // Check translation system readiness on mount

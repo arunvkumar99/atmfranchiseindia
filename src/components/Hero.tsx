@@ -3,8 +3,10 @@ import { TrendingUp, Users, Banknote, Building2, Shield, Navigation, Megaphone, 
 import { Link } from "react-router-dom";
 import { OptimizedImage } from "@/components/ui/optimized-image";
 import heroRuralATM from "@/assets/hero-rural-atm.jpg";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation('home');
   return (
     <section className="relative min-h-screen flex items-center">
       {/* Full-bleed hero image with dark overlay */}
@@ -23,11 +25,10 @@ const Hero = () => {
       {/* Hero content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
-          Your ATM – Your Income
+          {t('hero.title', 'Your ATM – Your Income')}
         </h1>
         <p className="font-body text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-95">
-          Start your own ATM franchise business with minimal investment and maximum returns. 
-          Partner with RBI licensed operators across India.
+          {t('hero.subtitle', 'Start your own ATM franchise business with minimal investment and maximum returns. Partner with RBI licensed operators across India.')}
         </p>
         
         {/* Primary CTAs - side by side */}
@@ -37,7 +38,7 @@ const Hero = () => {
             className="bg-primary text-primary-foreground hover:bg-primary/90 font-heading font-semibold min-h-[44px] px-8"
             asChild
           >
-            <Link to="/submit-location">Submit ATM Location</Link>
+            <Link to="/submit-location">{t('hero.submitLocation', 'Submit ATM Location')}</Link>
           </Button>
           <Button 
             variant="outline" 
@@ -45,7 +46,7 @@ const Hero = () => {
             className="border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground font-heading font-semibold min-h-[44px] px-8"
             asChild
           >
-            <Link to="/become-franchise">Become Franchise</Link>
+            <Link to="/become-franchise">{t('hero.becomeFranchise', 'Become Franchise')}</Link>
           </Button>
         </div>
       </div>
