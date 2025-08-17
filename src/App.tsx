@@ -11,7 +11,6 @@ import { HelmetProvider } from "react-helmet-async";
 import { AuthProvider } from "@/hooks/useAuth";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import { ErrorBoundary, AsyncErrorBoundary } from "@/components/ErrorBoundary";
-import TranslationStatus from "@/components/TranslationStatus";
 import Header from "./components/Header";
 import { BreadcrumbNavigation } from "./components/BreadcrumbNavigation";
 import Footer from "./components/Footer";
@@ -147,96 +146,6 @@ const LanguageWrappedRoutes = () => {
   );
 };
 
-// Development mode translation testing
-const isDevelopment = import.meta.env.DEV;
-
-const TranslationDebugPanel = () => {
-  const [isVisible, setIsVisible] = useState(false);
-  const { i18n } = useTranslation();
-  
-  if (!isDevelopment) return null;
-  
-  const testLanguages = [
-    { code: 'hi', name: 'Hindi' },
-    { code: 'bn', name: 'Bengali' },
-    { code: 'ta', name: 'Tamil' },
-    { code: 'te', name: 'Telugu' },
-    { code: 'mr', name: 'Marathi' }
-  ];
-  
-  const runComprehensiveTest = () => {
-    console.log('🧪 UNIFIED TEST: Testing unified translation system...');
-    i18n.changeLanguage('hi');
-  };
-  
-  const preTranslateAllLanguages = async () => {
-    console.log('🚀 UNIFIED REFRESH: Refreshing translations...');
-    // No auto-refresh to avoid API calls
-  };
-  
-  const clearAllTranslations = async () => {
-    console.log('🗑️ CLEAR: This would clear all translations...');
-    // Note: We would need to add this method to the comprehensive system
-  };
-  
-  return (
-    <div className="fixed bottom-4 right-4 z-50">
-      <button
-        onClick={() => setIsVisible(!isVisible)}
-        className="bg-red-500 text-white px-3 py-2 rounded-lg text-sm font-medium"
-      >
-        🧪 Translation Debug
-      </button>
-      
-      {isVisible && (
-        <div className="absolute bottom-12 right-0 bg-white border border-gray-300 rounded-lg shadow-lg p-4 w-80">
-          <h3 className="font-bold mb-3">Translation Debug Panel</h3>
-          
-          <div className="space-y-2 mb-4">
-            <button
-              onClick={runComprehensiveTest}
-              className="w-full bg-blue-500 text-white px-3 py-2 rounded text-sm"
-            >
-              🧪 Run Comprehensive Test
-            </button>
-            
-            <button
-              onClick={preTranslateAllLanguages}
-              className="w-full bg-green-500 text-white px-3 py-2 rounded text-sm"
-            >
-              🚀 Pre-translate All Languages
-            </button>
-            
-            <button
-              onClick={clearAllTranslations}
-              className="w-full bg-red-500 text-white px-3 py-2 rounded text-sm"
-            >
-              🗑️ Clear All Translations
-            </button>
-          </div>
-          
-            <div className="space-y-1">
-              <p className="text-sm font-medium">Quick Test Languages:</p>
-              {testLanguages.map(lang => (
-                <button
-                  key={lang.code}
-                  onClick={() => i18n.changeLanguage(lang.code)}
-                  className="block w-full text-left px-2 py-1 text-sm hover:bg-gray-100 rounded"
-                >
-                  {lang.name} ({lang.code})
-                </button>
-              ))}
-            </div>
-          
-            <div className="mt-4 text-xs text-gray-600">
-              <p>Status: ✅ Ready</p>
-              <p>Current: {i18n.language}</p>
-            </div>
-        </div>
-      )}
-    </div>
-  );
-};
 
 const App = () => {
   // Initialize monitoring and accessibility
@@ -307,8 +216,6 @@ const App = () => {
                   </main>
                   <Footer />
                   <StickyMobileCTA />
-                  <TranslationDebugPanel />
-                  <TranslationStatus />
                 </div>
               </FixedLanguageRouter>
             </AccessibilityWrapper>
