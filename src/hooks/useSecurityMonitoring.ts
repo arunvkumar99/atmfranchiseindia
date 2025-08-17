@@ -1,9 +1,8 @@
 import { useEffect } from 'react';
-import { supabase } from '@/integrations/supabase/client';
 
 export const useSecurityMonitoring = () => {
   useEffect(() => {
-    // Monitor for suspicious activity patterns
+    // Monitor for suspicious activity patterns - now logs to console only
     const monitorSuspiciousActivity = () => {
       // Track page navigation patterns
       let pageViews = 0;
@@ -17,7 +16,7 @@ export const useSecurityMonitoring = () => {
         
         // Detect rapid page navigation (potential bot behavior)
         if (timeSinceLastView < 100 && pageViews > 10) {
-          supabase.rpc('log_security_event', {
+          console.warn('Security Alert: Suspicious navigation detected', {
             event_type: 'suspicious_navigation',
             event_details: {
               page_views: pageViews,
@@ -49,7 +48,7 @@ export const useSecurityMonitoring = () => {
               suspiciousFillTime++;
               
               if (suspiciousFillTime > 2) {
-                supabase.rpc('log_security_event', {
+                console.warn('Security Alert: Suspicious form behavior detected', {
                   event_type: 'suspicious_form_behavior',
                   event_details: {
                     fill_time: fillTime,
@@ -82,7 +81,7 @@ export const useSecurityMonitoring = () => {
               window.outerWidth - window.innerWidth > threshold) {
             if (!devtools) {
               devtools = true;
-              supabase.rpc('log_security_event', {
+              console.info('Security Info: Developer tools detected', {
                 event_type: 'developer_tools_detected',
                 event_details: {
                   screen_dimensions: {
@@ -107,7 +106,7 @@ export const useSecurityMonitoring = () => {
         document.addEventListener('paste', (e) => {
           const target = e.target as HTMLElement;
           if (target.tagName === 'INPUT' && target.getAttribute('type') === 'password') {
-            supabase.rpc('log_security_event', {
+            console.warn('Security Alert: Password paste detected', {
               event_type: 'password_paste_detected',
               event_details: {
                 timestamp: new Date().toISOString()
@@ -127,7 +126,7 @@ export const useSecurityMonitoring = () => {
       // Monitor visibility changes (potential tab switching during forms)
       document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
-          supabase.rpc('log_security_event', {
+          console.info('Security Info: Tab hidden during session', {
             event_type: 'tab_hidden_during_session',
             event_details: {
               timestamp: new Date().toISOString()

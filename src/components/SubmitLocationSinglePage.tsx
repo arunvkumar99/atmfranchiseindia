@@ -17,7 +17,7 @@ import { useFormProgress } from "@/hooks/useFormProgress";
 import { useFormValidation, FULL_NAME_VALIDATION, EMAIL_VALIDATION, PHONE_VALIDATION, WHATSAPP_VALIDATION, CITY_VALIDATION, STATE_VALIDATION, PINCODE_VALIDATION } from "@/hooks/useFormValidation";
 import { useRateLimitedSubmission } from "@/hooks/useRateLimitedSubmission";
 import { useFormAnalytics } from "@/hooks/useFormAnalytics";
-import { supabase } from "@/integrations/supabase/client";
+// Supabase integration removed - now uses Google Sheets
 import { uploadFile } from "@/lib/fileUpload";
 import { INDIAN_STATES } from "@/lib/stateOptions";
 

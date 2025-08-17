@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+// Supabase integration removed - now uses Google Sheets
 import { useFormAnalytics } from "@/hooks/useFormAnalytics";
 import { CaptchaProtection } from "@/components/ui/captcha-protection";
 

@@ -1,6 +1,5 @@
 
 import { useState, useEffect, useCallback } from 'react';
-import { supabase } from '@/integrations/supabase/client';
 
 interface UseFormAutoSaveOptions {
   formType: string;
@@ -21,55 +20,26 @@ export function useFormAutoSave({
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
   const [hasDraft, setHasDraft] = useState(false);
 
-  // Auto-save function - simplified to avoid unique constraint issues
+  // Auto-save function - now uses localStorage
   const saveDraft = useCallback(async () => {
     if (!enabled || Object.keys(data).length === 0) return;
 
     try {
       setIsAutoSaving(true);
       
-      // First, try to update existing draft
-      const { data: existingDraft } = await supabase
-        .from('form_drafts')
-        .select('id')
-        .eq('session_id', sessionId)
-        .eq('form_type', formType)
-        .maybeSingle();
-
-      if (existingDraft) {
-        // Update existing draft
-        const { error } = await supabase
-          .from('form_drafts')
-          .update({
-            draft_data: data,
-            updated_at: new Date().toISOString()
-          })
-          .eq('id', existingDraft.id);
-
-        if (!error) {
-          setLastSaved(new Date());
-          setHasDraft(true);
-        } else {
-          console.warn('Auto-save update failed:', error);
-        }
-      } else {
-        // Insert new draft
-        const { error } = await supabase
-          .from('form_drafts')
-          .insert({
-            session_id: sessionId,
-            form_type: formType,
-            draft_data: data,
-            updated_at: new Date().toISOString()
-          });
-
-        if (!error) {
-          setLastSaved(new Date());
-          setHasDraft(true);
-        } else {
-          console.warn('Auto-save insert failed:', error);
-        }
-      }
+      const draftKey = `form_draft_${formType}_${sessionId}`;
+      const draftData = {
+        formType,
+        sessionId,
+        data,
+        updated_at: new Date().toISOString()
+      };
+      
+      localStorage.setItem(draftKey, JSON.stringify(draftData));
+      setLastSaved(new Date());
+      setHasDraft(true);
+      
+      console.log('Draft saved to localStorage:', draftKey);
     } catch (error) {
       console.warn('Auto-save error:', error);
     } finally {
@@ -82,17 +52,14 @@ export function useFormAutoSave({
     if (!enabled) return null;
 
     try {
-      const { data: draft, error } = await supabase
-        .from('form_drafts')
-        .select('draft_data, updated_at')
-        .eq('session_id', sessionId)
-        .eq('form_type', formType)
-        .maybeSingle();
-
-      if (!error && draft) {
+      const draftKey = `form_draft_${formType}_${sessionId}`;
+      const storedDraft = localStorage.getItem(draftKey);
+      
+      if (storedDraft) {
+        const draft = JSON.parse(storedDraft);
         setHasDraft(true);
         setLastSaved(new Date(draft.updated_at));
-        return draft.draft_data;
+        return draft.data;
       }
     } catch (error) {
       console.warn('Load draft error:', error);
@@ -103,14 +70,11 @@ export function useFormAutoSave({
   // Clear draft after successful submission
   const clearDraft = useCallback(async () => {
     try {
-      await supabase
-        .from('form_drafts')
-        .delete()
-        .eq('session_id', sessionId)
-        .eq('form_type', formType);
-      
+      const draftKey = `form_draft_${formType}_${sessionId}`;
+      localStorage.removeItem(draftKey);
       setHasDraft(false);
       setLastSaved(null);
+      console.log('Draft cleared from localStorage:', draftKey);
     } catch (error) {
       console.warn('Clear draft error:', error);
     }

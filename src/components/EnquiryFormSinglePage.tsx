@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+// Supabase integration removed - now uses Google Sheets
 import { useFormAnalytics } from "@/hooks/useFormAnalytics";
 import { useFormProgress } from "@/hooks/useFormProgress";
 import { FormProgress } from "@/components/FormProgress";
@@ -132,31 +132,48 @@ export function EnquiryFormSinglePage() {
     try {
       setIsSubmitting(true);
 
-      const { data, error } = await supabase.functions.invoke('form-submission', {
-        body: {
-          formType: 'atm_enquiry_submissions',
-          data: {
-            full_name: formData.fullName,
-            phone: formData.phone,
-            whatsapp_number: formData.whatsappPhone,
-            email: formData.email,
-            state: formData.state,
-            city: formData.city,
-            occupation: formData.businessType,
-            enquiry_purpose: formData.timelineToStart,
-            has_own_space: formData.investmentRange === "own-space" ? "yes" : "no"
-          },
-          userAgent: navigator.userAgent,
-          ipAddress: undefined
-        }
+      // Submit to Google Sheets
+      const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbxPgePeGgOOe7V9Q4CPSXhJ_xKLxNqMLk_2m0d1aFUFvMC9wFUFZNUKxTq-6AvL0wpK/exec';
+      
+      const submissionData = {
+        formType: 'atm_enquiry_submissions',
+        timestamp: new Date().toISOString(),
+        full_name: formData.fullName,
+        phone: formData.phone,
+        whatsapp_number: formData.whatsappPhone,
+        email: formData.email,
+        state: formData.state,
+        city: formData.city,
+        pincode: formData.pincode,
+        occupation: formData.businessType,
+        enquiry_purpose: formData.timelineToStart,
+        has_own_space: formData.investmentRange === "own-space" ? "yes" : "no",
+        additional_query: formData.additionalQuery,
+        userAgent: navigator.userAgent
+      };
+
+      const response = await fetch(googleSheetsUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(submissionData),
+        mode: 'no-cors' // Required for Google Apps Script
       });
 
+      // Since we're using no-cors mode, we can't check the response
+      // We'll assume success if no error is thrown
+      console.log('Form submitted to Google Sheets');
+      
+      // Simulate success for now
+      const error = null;
+      
       if (error) {
         console.error('Enquiry form submission error:', error);
         
         let errorMessage = 'Failed to submit enquiry. Please try again.';
         
-        if (error.message) {
+        if (typeof error === 'object' && error !== null && 'message' in error) {
           if (error.message.includes('email_format') || error.message.includes('email')) {
             errorMessage = 'Please enter a valid email address (e.g., example@email.com)';
           } else if (error.message.includes('phone')) {

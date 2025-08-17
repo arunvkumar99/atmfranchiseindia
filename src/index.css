@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import micro-animations */
+@import './styles/animations.css';
+
 /* Google Translate Styling */
 .goog-te-banner-frame.skiptranslate, 
 .goog-te-gadget-icon {

@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+// Supabase integration removed - now uses Google Sheets
 import { DirectFileUpload } from "@/components/ui/direct-file-upload";
 import { uploadFile } from "@/lib/fileUpload";
 import { EnhancedFormWrapper } from "./EnhancedFormWrapper";
@@ -197,16 +197,24 @@ export function AgentFormEnhanced() {
         photo_url: photoUpload.url,
       };
 
-      const { data, error } = await supabase.functions.invoke('form-submission', {
-        body: {
+      // Submit to Google Sheets
+      const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbxPgePeGgOOe7V9Q4CPSXhJ_xKLxNqMLk_2m0d1aFUFvMC9wFUFZNUKxTq-6AvL0wpK/exec';
+      
+      const response = await fetch(googleSheetsUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           formType: 'agent_submissions',
-          data: submissionData,
-          userAgent: navigator.userAgent,
-          ipAddress: undefined
-        }
+          timestamp: new Date().toISOString(),
+          ...submissionData,
+          userAgent: navigator.userAgent
+        }),
+        mode: 'no-cors'
       });
 
-      if (error) throw error;
+      console.log('Agent form submitted to Google Sheets');
 
       trackFormSubmit(true);
       

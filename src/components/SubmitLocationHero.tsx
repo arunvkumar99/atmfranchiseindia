@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { MapPin, CheckCircle, TrendingUp, Shield, Award, Star, Users, Zap, Target, BarChart3, ArrowRight, Phone, Mail } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+// Supabase integration removed - now uses Google Sheets
 import passiveIncomeIcon from "@/assets/passive-income-icon.jpg";
 
 const SubmitLocationHero = () => {

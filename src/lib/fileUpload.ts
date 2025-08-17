@@ -1,5 +1,3 @@
-import { supabase } from '@/integrations/supabase/client';
-
 export interface FileUploadResult {
   url: string;
   path: string;
@@ -11,7 +9,7 @@ export const uploadFile = async (
   folder: string = 'documents'
 ): Promise<FileUploadResult> => {
   try {
-    console.log(`🔄 Starting file upload: ${file.name} (${file.size} bytes) to bucket: ${bucket}`);
+    console.log(`File upload disabled: ${file.name} (${file.size} bytes)`);
     
     // Validate file
     if (!file) {
@@ -26,7 +24,7 @@ export const uploadFile = async (
       throw new Error('File size exceeds 10MB limit');
     }
 
-    // Generate unique filename
+    // Generate unique filename for reference
     const fileExt = file.name.split('.').pop()?.toLowerCase();
     if (!fileExt) {
       throw new Error('File has no extension');
@@ -36,36 +34,38 @@ export const uploadFile = async (
     const randomId = Math.random().toString(36).substring(2);
     const fileName = `${folder}/${timestamp}-${randomId}.${fileExt}`;
 
-    console.log(`📤 Uploading to path: ${fileName}`);
+    console.log(`File upload simulation: would upload to ${fileName}`);
 
-    // Upload file to Supabase storage
-    const { data, error } = await supabase.storage
-      .from(bucket)
-      .upload(fileName, file, {
-        cacheControl: '3600',
-        upsert: false
-      });
+    // For demo purposes, create a data URL from the file
+    const dataUrl = await new Promise<string>((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result as string);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
 
-    if (error) {
-      console.error('❌ Storage upload error:', error);
-      throw new Error(`Upload failed: ${error.message}`);
-    }
+    console.log('File converted to data URL for local storage');
 
-    console.log('✅ File uploaded successfully:', data);
+    // Store file info in localStorage for demo
+    const fileInfo = {
+      name: file.name,
+      size: file.size,
+      type: file.type,
+      dataUrl,
+      path: fileName,
+      uploadedAt: new Date().toISOString()
+    };
 
-    // Get public URL
-    const { data: urlData } = supabase.storage
-      .from(bucket)
-      .getPublicUrl(fileName);
-
-    console.log('📋 Public URL generated:', urlData.publicUrl);
+    const storedFiles = JSON.parse(localStorage.getItem('uploaded_files') || '[]');
+    storedFiles.push(fileInfo);
+    localStorage.setItem('uploaded_files', JSON.stringify(storedFiles));
 
     return {
-      url: urlData.publicUrl,
+      url: dataUrl, // Return data URL instead of public URL
       path: fileName
     };
   } catch (error) {
-    console.error('💥 File upload error:', error);
+    console.error('File upload error:', error);
     throw error;
   }
 };
@@ -75,13 +75,14 @@ export const deleteFile = async (
   bucket: string = 'atmfranchiseforms'
 ): Promise<void> => {
   try {
-    const { error } = await supabase.storage
-      .from(bucket)
-      .remove([path]);
-
-    if (error) {
-      throw new Error(`Delete failed: ${error.message}`);
-    }
+    console.log(`File deletion disabled for: ${path}`);
+    
+    // Remove from localStorage for demo
+    const storedFiles = JSON.parse(localStorage.getItem('uploaded_files') || '[]');
+    const updatedFiles = storedFiles.filter((file: any) => file.path !== path);
+    localStorage.setItem('uploaded_files', JSON.stringify(updatedFiles));
+    
+    console.log('File removed from local storage');
   } catch (error) {
     console.error('File delete error:', error);
     throw error;

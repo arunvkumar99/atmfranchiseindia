@@ -19,6 +19,7 @@ import FixedLanguageRouter from "./components/FixedLanguageRouter";
 import AccessibilityWrapper from "@/components/AccessibilityWrapper";
 import { SecurityHeaders } from "@/components/ui/security-headers";
 import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
+import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 
 // Lazy load all pages for optimal performance
 const Home = lazy(() => import("./pages/Home"));
@@ -305,6 +306,7 @@ const App = () => {
                         </ErrorBoundary>
                   </main>
                   <Footer />
+                  <StickyMobileCTA />
                   <TranslationDebugPanel />
                   <TranslationStatus />
                 </div>

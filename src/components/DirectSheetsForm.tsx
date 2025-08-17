@@ -20,15 +20,17 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2, CheckCircle, AlertCircle, WifiOff, Shield, Lock, CheckCircle2 } from 'lucide-react';
+import { ERROR_MESSAGES, getUserFriendlyError } from '@/lib/errorMessages';
+import { ErrorMessage, FieldError } from '@/components/ui/error-message';
 
-// Form validation schema
+// Form validation schema with improved error messages
 const formSchema = z.object({
-  fullName: z.string().min(2, 'Name must be at least 2 characters'),
-  email: z.string().email('Invalid email address'),
-  phone: z.string().regex(/^[6-9]\d{9}$/, 'Enter valid 10-digit phone number'),
-  city: z.string().min(2, 'City is required'),
-  state: z.string().min(2, 'State is required'),
-  message: z.string().min(10, 'Message must be at least 10 characters')
+  fullName: z.string().min(2, ERROR_MESSAGES.FORM.MIN_LENGTH(2)),
+  email: z.string().email(ERROR_MESSAGES.FORM.INVALID_EMAIL),
+  phone: z.string().regex(/^[6-9]\d{9}$/, ERROR_MESSAGES.FORM.INVALID_PHONE),
+  city: z.string().min(2, ERROR_MESSAGES.FORM.REQUIRED_FIELD),
+  state: z.string().min(2, ERROR_MESSAGES.FORM.REQUIRED_FIELD),
+  message: z.string().min(10, ERROR_MESSAGES.FORM.MIN_LENGTH(10))
 });
 
 type FormData = z.infer<typeof formSchema>;
@@ -74,8 +76,8 @@ export function DirectSheetsForm({
       // Check rate limiting
       if (!googleSheetsService.canSubmit(data.email, formType)) {
         toast({
-          title: 'Submission Limit Reached',
-          description: 'You can only submit 3 times per hour. Please try again later.',
+          title: 'Please Wait',
+          description: ERROR_MESSAGES.NETWORK.RATE_LIMIT,
           variant: 'destructive'
         });
         setSubmissionStatus('error');
@@ -86,7 +88,7 @@ export function DirectSheetsForm({
       const validation = googleSheetsService.validateFormData(formType, data);
       if (!validation.valid) {
         toast({
-          title: 'Validation Error',
+          title: 'Please Check Your Information',
           description: validation.errors.join(', '),
           variant: 'destructive'
         });
@@ -104,30 +106,30 @@ export function DirectSheetsForm({
         setSubmissionStatus('success');
         toast({
           title: 'Success!',
-          description: 'Your form has been submitted successfully.',
+          description: ERROR_MESSAGES.SUCCESS.FORM_SUBMITTED,
         });
         reset();
         onSuccess?.();
       } else if (result.error === 'OFFLINE') {
         setSubmissionStatus('offline');
         toast({
-          title: 'Offline Mode',
-          description: 'Your submission will be sent when you\'re back online.',
+          title: 'Saved Offline',
+          description: ERROR_MESSAGES.NETWORK.OFFLINE,
           variant: 'default'
         });
       } else {
         setSubmissionStatus('error');
         toast({
-          title: 'Submission Failed',
-          description: result.message,
+          title: 'Unable to Submit',
+          description: getUserFriendlyError(result.message),
           variant: 'destructive'
         });
       }
     } catch (error) {
       setSubmissionStatus('error');
       toast({
-        title: 'Error',
-        description: 'An unexpected error occurred. Please try again.',
+        title: 'Something Went Wrong',
+        description: getUserFriendlyError(error),
         variant: 'destructive'
       });
     } finally {
@@ -168,9 +170,7 @@ export function DirectSheetsForm({
             placeholder="Enter your full name"
             className={errors.fullName ? 'border-red-500 focus:border-red-500' : ''}
           />
-          {errors.fullName && (
-            <p className="text-red-500 text-sm mt-1">{errors.fullName.message}</p>
-          )}
+          <FieldError error={errors.fullName?.message} />
           {!errors.fullName && watchedValues.fullName && (
             <p className="text-green-500 text-sm mt-1">✓ Valid name</p>
           )}
@@ -186,9 +186,7 @@ export function DirectSheetsForm({
             placeholder="your.email@example.com"
             className={errors.email ? 'border-red-500' : ''}
           />
-          {errors.email && (
-            <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
-          )}
+          <FieldError error={errors.email?.message} />
           {!errors.email && watchedValues.email && (
             <p className="text-green-500 text-sm mt-1">✓ Valid email</p>
           )}
@@ -204,9 +202,7 @@ export function DirectSheetsForm({
             maxLength={10}
             className={errors.phone ? 'border-red-500' : ''}
           />
-          {errors.phone && (
-            <p className="text-red-500 text-sm mt-1">{errors.phone.message}</p>
-          )}
+          <FieldError error={errors.phone?.message} />
           {!errors.phone && watchedValues.phone && (
             <p className="text-green-500 text-sm mt-1">✓ Valid phone number</p>
           )}
@@ -221,9 +217,7 @@ export function DirectSheetsForm({
             placeholder="Enter your city"
             className={errors.city ? 'border-red-500' : ''}
           />
-          {errors.city && (
-            <p className="text-red-500 text-sm mt-1">{errors.city.message}</p>
-          )}
+          <FieldError error={errors.city?.message} />
         </div>
 
         {/* State Field */}
@@ -235,9 +229,7 @@ export function DirectSheetsForm({
             placeholder="Select your state"
             className={errors.state ? 'border-red-500' : ''}
           />
-          {errors.state && (
-            <p className="text-red-500 text-sm mt-1">{errors.state.message}</p>
-          )}
+          <FieldError error={errors.state?.message} />
         </div>
 
         {/* Message Field */}
@@ -250,9 +242,7 @@ export function DirectSheetsForm({
             rows={4}
             className={errors.message ? 'border-red-500' : ''}
           />
-          {errors.message && (
-            <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>
-          )}
+          <FieldError error={errors.message?.message} />
           {watchedValues.message && (
             <p className="text-gray-500 text-sm mt-1">
               {watchedValues.message.length}/500 characters
@@ -262,24 +252,25 @@ export function DirectSheetsForm({
 
         {/* Status Messages */}
         {submissionStatus === 'success' && (
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 flex items-center gap-2">
-            <CheckCircle className="h-5 w-5 text-green-600" />
-            <span className="text-green-800">Form submitted successfully!</span>
-          </div>
+          <ErrorMessage 
+            message={ERROR_MESSAGES.SUCCESS.FORM_SUBMITTED}
+            type="info"
+            className="bg-green-50 border-green-200 text-green-800"
+          />
         )}
 
         {submissionStatus === 'offline' && (
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 flex items-center gap-2">
-            <WifiOff className="h-5 w-5 text-yellow-600" />
-            <span className="text-yellow-800">You're offline. Form will be sent when connected.</span>
-          </div>
+          <ErrorMessage 
+            message={ERROR_MESSAGES.NETWORK.OFFLINE}
+            type="warning"
+          />
         )}
 
         {submissionStatus === 'error' && (
-          <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center gap-2">
-            <AlertCircle className="h-5 w-5 text-red-600" />
-            <span className="text-red-800">Submission failed. Please try again.</span>
-          </div>
+          <ErrorMessage 
+            message={ERROR_MESSAGES.SUBMISSION.GENERIC}
+            type="error"
+          />
         )}
 
         {/* Submit Button */}

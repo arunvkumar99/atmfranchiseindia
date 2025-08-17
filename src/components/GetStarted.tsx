@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, ArrowRight, CheckCircle } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+// Supabase integration removed - now uses Google Sheets
 import familyBusiness from "@/assets/family-business.jpg";
 import successfulBusinessman from "@/assets/successful-businessman.jpg";
 

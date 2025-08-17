@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { supabase } from '@/integrations/supabase/client';
 
 interface MonitoringEvent {
   type: 'error' | 'navigation' | 'performance' | 'user_action';
@@ -101,28 +100,22 @@ export function useMonitoring() {
   }, []);
 }
 
-// Helper function to log events
-async function logEvent(event: MonitoringEvent) {
+// Helper function to log events - now only uses console logging
+function logEvent(event: MonitoringEvent) {
   try {
     console.log('📊 Monitoring Event:', event);
     
-    // Log to Supabase audit_logs for analysis
-    const { error } = await supabase
-      .from('audit_logs')
-      .insert({
-        action: `monitoring_${event.type}`,
-        table_name: 'monitoring_events',
-        new_values: {
-          event_type: event.type,
-          event_data: event.data,
-          timestamp: event.timestamp,
-          user_agent: event.userAgent,
-          url: event.url
-        }
-      });
-
-    if (error) {
-      console.warn('Failed to log monitoring event:', error);
+    // Store locally for debugging purposes
+    if (typeof window !== 'undefined') {
+      const monitoringLogs = JSON.parse(localStorage.getItem('monitoring_logs') || '[]');
+      monitoringLogs.push(event);
+      
+      // Keep only last 100 events to prevent localStorage bloat
+      if (monitoringLogs.length > 100) {
+        monitoringLogs.splice(0, monitoringLogs.length - 100);
+      }
+      
+      localStorage.setItem('monitoring_logs', JSON.stringify(monitoringLogs));
     }
   } catch (error) {
     console.warn('Monitoring log error:', error);
