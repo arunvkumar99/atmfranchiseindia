@@ -3,7 +3,6 @@
  */
 
 import { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 import { usePerformanceStore } from '@/stores';
 import { logger } from '@/lib/logger';
 
@@ -22,7 +21,6 @@ export const PerformanceMonitor: React.FC = () => {
   useEffect(() => {
     // Track page load performance
     const measurePageLoad = () => {
-  const { t } = useTranslation('forms');
       if (typeof window !== 'undefined' && window.performance) {
         const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
         
