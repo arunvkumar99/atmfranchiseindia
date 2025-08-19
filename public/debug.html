@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug React App</title>
+</head>
+<body>
+    <h1>Debug Information</h1>
+    <div id="debug-info"></div>
+    
+    <h2>Testing React App in iFrame:</h2>
+    <iframe id="app-frame" src="/" width="100%" height="500" style="border: 2px solid #000;"></iframe>
+    
+    <script>
+        const info = document.getElementById('debug-info');
+        
+        // Check if we can access the main page
+        fetch('/')
+            .then(response => response.text())
+            .then(html => {
+                // Check for root element
+                const hasRoot = html.includes('id="root"');
+                const hasScript = html.includes('/src/main.tsx');
+                
+                info.innerHTML += `<p>✓ Root element found: ${hasRoot}</p>`;
+                info.innerHTML += `<p>✓ Main script found: ${hasScript}</p>`;
+                
+                // Check specific script tags
+                const scriptMatch = html.match(/<script[^>]*src="([^"]+)"/g);
+                if (scriptMatch) {
+                    info.innerHTML += `<p>Scripts found: ${scriptMatch.length}</p>`;
+                }
+            })
+            .catch(err => {
+                info.innerHTML += `<p style="color: red;">Error fetching main page: ${err}</p>`;
+            });
+        
+        // Wait for iframe to load
+        setTimeout(() => {
+            const iframe = document.getElementById('app-frame');
+            try {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const root = iframeDoc.getElementById('root');
+                
+                if (root) {
+                    const hasContent = root.children.length > 0;
+                    info.innerHTML += `<p>Root element in iframe: ${hasContent ? '✓ Has content' : '✗ Empty'}</p>`;
+                    
+                    if (!hasContent) {
+                        // Check for errors in iframe console
+                        const iframeWindow = iframe.contentWindow;
+                        if (iframeWindow.console && iframeWindow.console.error) {
+                            info.innerHTML += `<p style="color: red;">Check browser console for errors in the iframe</p>`;
+                        }
+                    }
+                } else {
+                    info.innerHTML += `<p style="color: red;">✗ No root element in iframe</p>`;
+                }
+            } catch (e) {
+                info.innerHTML += `<p>Cannot access iframe: ${e.message}</p>`;
+            }
+        }, 3000);
+        
+        // Listen for console errors
+        window.addEventListener('error', function(e) {
+            info.innerHTML += `<p style="color: red;">Error: ${e.message} at ${e.filename}:${e.lineno}</p>`;
+        });
+    </script>
+</body>
+</html>

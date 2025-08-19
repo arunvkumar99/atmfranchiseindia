@@ -1,5 +1,4 @@
 import React, { Suspense } from 'react';
-import { useTranslation } from 'react-i18next';
 
 // Loading component for route transitions
 const PageLoader = () => (
@@ -52,7 +51,7 @@ class LazyLoadErrorBoundary extends React.Component<
 
 // Higher-order component for lazy loading with error boundary
 export const withLazyLoading = (Component: React.LazyExoticComponent<React.ComponentType<any>>) => {
-  const { t } = useTranslation('forms');
+  // Don't call hooks here - return a component instead
   return (props: any) => (
     <LazyLoadErrorBoundary>
       <Suspense fallback={<PageLoader />}>
