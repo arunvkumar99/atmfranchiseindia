@@ -6,12 +6,12 @@ import { Phone, ArrowRight } from 'lucide-react';
 import { CONTACT_INFO } from '@/lib/contactInfo';
 
 export function StickyMobileCTA() {
+  const { t } = useTranslation('forms');
   const [isVisible, setIsVisible] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-  const { t } = useTranslation('forms');
       // Show after scrolling 100px
       const scrolled = window.scrollY > 100;
       setHasScrolled(scrolled);
