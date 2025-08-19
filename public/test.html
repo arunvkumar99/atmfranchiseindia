@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Test Page Working</h1>
+    <p>If you can see this, the server is working but React is not mounting.</p>
+    <script>
+        // Check if the main app loads
+        fetch('/')
+            .then(response => response.text())
+            .then(html => {
+                const hasRoot = html.includes('id="root"');
+                const hasReact = html.includes('main.tsx');
+                document.body.innerHTML += `
+                    <h2>Debug Info:</h2>
+                    <p>Root div found: ${hasRoot}</p>
+                    <p>React script found: ${hasReact}</p>
+                `;
+                
+                // Try to get console errors
+                console.log('Checking for React errors...');
+            });
+    </script>
+</body>
+</html>

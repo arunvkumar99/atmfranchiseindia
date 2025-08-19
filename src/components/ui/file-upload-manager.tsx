@@ -1,4 +1,5 @@
 import { useState, useCallback, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export interface FileUploadState {
   file: File | null;
@@ -19,6 +20,7 @@ export const useFileUploadManager = ({
   acceptedTypes = ['image/jpeg', 'image/jpg', 'image/png', 'application/pdf'],
   onFileChange
 }: UseFileUploadManagerProps = {}) => {
+  const { t } = useTranslation('forms');
   const [uploadState, setUploadState] = useState<FileUploadState>({
     file: null,
     preview: null,

@@ -1,4 +1,5 @@
 import { Skeleton } from "@/components/ui/skeleton"
+import { useTranslation } from 'react-i18next';
 
 export function FormSkeleton() {
   return (

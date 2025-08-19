@@ -19,6 +19,7 @@ import { CaptchaProtection } from "@/components/ui/captcha-protection";
 import { useFormValidation, FULL_NAME_VALIDATION, EMAIL_VALIDATION, PHONE_VALIDATION, WHATSAPP_VALIDATION, PAN_VALIDATION, AADHAAR_VALIDATION } from "@/hooks/useFormValidation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Send, Loader2 } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 export function InfluencerFormSinglePage() {
   const { toast } = useToast();
@@ -134,6 +135,7 @@ export function InfluencerFormSinglePage() {
   const progress = useFormProgress({ fields });
 
   const handleInputChange = (field: string, value: string) => {
+  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     
     // Real-time validation when user types
@@ -453,7 +455,7 @@ export function InfluencerFormSinglePage() {
                         id="fullName" 
                         value={formData.fullName}
                         onChange={(e) => handleInputChange('fullName', e.target.value)}
-                        placeholder="Enter your full name" 
+                        placeholder={t('placeholders.fullName', 'Enter your full name')} 
                         className={errors.fullName ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -509,7 +511,7 @@ export function InfluencerFormSinglePage() {
                       </Select>
                       <Select value={formData.dateOfBirth.month} onValueChange={(value) => handleDateChange('month', value)}>
                         <SelectTrigger className={errors['dateOfBirth.month'] ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Month" />
+                          <SelectValue placeholder={t('time.month', 'Month')} />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="1">January</SelectItem>
@@ -528,7 +530,7 @@ export function InfluencerFormSinglePage() {
                       </Select>
                       <Select value={formData.dateOfBirth.year} onValueChange={(value) => handleDateChange('year', value)}>
                         <SelectTrigger className={errors['dateOfBirth.year'] ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Year" />
+                          <SelectValue placeholder={t('time.year', 'Year')} />
                         </SelectTrigger>
                         <SelectContent>
                            {Array.from({length: 70}, (_, i) => (

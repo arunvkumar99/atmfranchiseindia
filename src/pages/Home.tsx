@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Hero, { ValuePropsStrip, WhyATMFranchiseIndia } from "@/components/Hero";
 import { OptimizedImage } from "@/components/ui/optimized-image";
 import TrustSignals from "@/components/TrustSignals";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 const Home = () => {
   const { t } = useTranslation('home');
   
@@ -21,7 +21,7 @@ const Home = () => {
             <div className="flex-shrink-0 animate-float-3d">
               <OptimizedImage
                 src="/assets/atm-franchise-logo.png"
-                alt="ATM Franchise India Logo"
+                alt={t('alt.atm_franchise_india_logo', 'ATM Franchise India Logo')}
                 className="w-40 sm:w-48 md:w-60 h-auto object-contain drop-shadow-2xl"
                 width={240}
                 height={120}

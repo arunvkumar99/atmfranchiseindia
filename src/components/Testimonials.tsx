@@ -11,7 +11,7 @@ const Testimonials = () => {
       location: t('testimonials.items.rajesh.location', 'Mumbai, Maharashtra'),
       business: t('testimonials.items.rajesh.business', 'EPS ATM Franchise'),
       rating: 5,
-      revenue: "₹45,000/month",
+      revenue: t('testimonials.items.rajesh.revenue', '₹45,000/month'),
       testimonial: t('testimonials.items.rajesh.testimonial', 'ATM Franchise India guided me through every step. Within 8 months, I\'m earning ₹45,000 monthly with minimal effort. Best investment decision ever!'),
       months: 8
     },
@@ -20,8 +20,8 @@ const Testimonials = () => {
       location: t('testimonials.items.priya.location', 'Bangalore, Karnataka'),
       business: t('testimonials.items.priya.business', 'Vakrangee Partnership'),
       rating: 5,
-      revenue: "₹38,000/month",
-      testimonial: t('testimonials.items.priya.testimonial', 'The team\'s expertise in WLA partnerships is unmatched. My ATM is generating consistent ₹38,000 monthly income in just 6 months.'),
+      revenue: t('testimonials.items.priya.revenue', '₹38,000/month'),
+      testimonial: t('testimonials.items.priya.testimonial', "The team's expertise in WLA partnerships is unmatched. My ATM is generating consistent ₹38,000 monthly income in just 6 months."),
       months: 6
     },
     {
@@ -29,9 +29,18 @@ const Testimonials = () => {
       location: t('testimonials.items.amit.location', 'Ahmedabad, Gujarat'),
       business: t('testimonials.items.amit.business', 'Indicash Franchise'),
       rating: 5,
-      revenue: "₹52,000/month",
+      revenue: t('testimonials.items.amit.revenue', '₹52,000/month'),
       testimonial: t('testimonials.items.amit.testimonial', 'Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!'),
       months: 14
+    },
+    {
+      name: t('testimonials.items.sanjay.name', 'Sanjay Verma'),
+      location: t('testimonials.items.sanjay.location', 'Pune, Maharashtra'),
+      business: t('testimonials.items.sanjay.business', 'Hitachi ATM Partner'),
+      rating: 5,
+      revenue: t('testimonials.items.sanjay.revenue', '₹42,000/month'),
+      testimonial: t('testimonials.items.sanjay.testimonial', 'Excellent support from start to finish. The team helped me select the perfect location and WLA partner. Now earning steady passive income with minimal daily involvement.'),
+      months: 10
     }
   ];
 
@@ -51,7 +60,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index} 

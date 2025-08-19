@@ -18,6 +18,7 @@ const LanguageSwitcher: React.FC = () => {
 
   React.useEffect(() => {
     const handleLanguageChange = (event: CustomEvent) => {
+  const { t } = useTranslation('forms');
       setCurrentLanguage(event.detail.language);
     };
 

@@ -2,6 +2,7 @@
 // Automatically generates hreflang tags and language-specific meta data
 
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 import { SUPPORTED_LANGUAGES } from '@/lib/i18n';
@@ -25,6 +26,7 @@ export const SEOMetaTags: React.FC<SEOMetaTagsProps> = ({
 
   // Generate URLs for all languages
   const generateLanguageURLs = () => {
+  const { t } = useTranslation('forms');
     const baseUrl = typeof window !== 'undefined' ? window.location.origin : '';
     const currentPath = location.pathname;
     const basePath = currentPath.replace(/^\/[a-z]{2}(\/|$)/, '/');

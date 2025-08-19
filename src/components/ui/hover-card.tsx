@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useTranslation } from 'react-i18next';
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card"
 
 import { cn } from "@/lib/utils"

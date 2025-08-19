@@ -22,6 +22,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Loader2, CheckCircle, AlertCircle, WifiOff, Shield, Lock, CheckCircle2 } from 'lucide-react';
 import { ERROR_MESSAGES, getUserFriendlyError } from '@/lib/errorMessages';
 import { ErrorMessage, FieldError } from '@/components/ui/error-message';
+import { useTranslation } from 'react-i18next';
 
 // Form validation schema with improved error messages
 const formSchema = z.object({
@@ -167,7 +168,7 @@ export function DirectSheetsForm({
           <Input
             id="fullName"
             {...register('fullName')}
-            placeholder="Enter your full name"
+            placeholder={t('placeholders.fullName', 'Enter your full name')}
             className={errors.fullName ? 'border-red-500 focus:border-red-500' : ''}
           />
           <FieldError error={errors.fullName?.message} />
@@ -183,7 +184,7 @@ export function DirectSheetsForm({
             id="email"
             type="email"
             {...register('email')}
-            placeholder="your.email@example.com"
+            placeholder={t('placeholders.email', 'your.email@example.com')}
             className={errors.email ? 'border-red-500' : ''}
           />
           <FieldError error={errors.email?.message} />
@@ -198,7 +199,7 @@ export function DirectSheetsForm({
           <Input
             id="phone"
             {...register('phone')}
-            placeholder="10-digit mobile number"
+            placeholder={t('placeholders.phone', '10-digit mobile number')}
             maxLength={10}
             className={errors.phone ? 'border-red-500' : ''}
           />
@@ -214,7 +215,7 @@ export function DirectSheetsForm({
           <Input
             id="city"
             {...register('city')}
-            placeholder="Enter your city"
+            placeholder={t('placeholders.city', 'Enter your city')}
             className={errors.city ? 'border-red-500' : ''}
           />
           <FieldError error={errors.city?.message} />
@@ -226,7 +227,7 @@ export function DirectSheetsForm({
           <Input
             id="state"
             {...register('state')}
-            placeholder="Select your state"
+            placeholder={t('placeholders.state', 'Select your state')}
             className={errors.state ? 'border-red-500' : ''}
           />
           <FieldError error={errors.state?.message} />

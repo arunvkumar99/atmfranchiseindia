@@ -1,8 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Eye, Ear, Hand, Brain, Monitor, Accessibility } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
+import { useTranslation } from 'react-i18next';
 
 const AccessibilityStatement = () => {
+  const { t } = useTranslation('accessibility');
   return (
     <div className="min-h-screen bg-background pt-14">
       {/* Hero Section */}
@@ -47,7 +49,7 @@ const AccessibilityStatement = () => {
                       <Monitor className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Web Accessibility</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.web_accessibility', 'Web Accessibility')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -82,7 +84,7 @@ const AccessibilityStatement = () => {
                       <Eye className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Visual Accessibility</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.visual_accessibility', 'Visual Accessibility')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -117,7 +119,7 @@ const AccessibilityStatement = () => {
                        <Hand className="w-6 h-6 text-white" />
                      </div>
                      <div>
-                       <h2 className="text-2xl font-bold text-gray-900 mb-2">Motor and Cognitive Accessibility</h2>
+                       <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.motor_and_cognitive_accessibil', 'Motor and Cognitive Accessibility')}</h2>
                      </div>
                    </div>
                    <p className="text-gray-700 mb-4">
@@ -152,7 +154,7 @@ const AccessibilityStatement = () => {
                        <Ear className="w-6 h-6 text-white" />
                      </div>
                      <div>
-                       <h2 className="text-2xl font-bold text-gray-900 mb-2">Hearing Accessibility</h2>
+                       <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.hearing_accessibility', 'Hearing Accessibility')}</h2>
                      </div>
                    </div>
                    <p className="text-gray-700 mb-4">
@@ -183,15 +185,15 @@ const AccessibilityStatement = () => {
                       <Accessibility className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Feedback and Support</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.feedback_and_support', 'Feedback and Support')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     We welcome your feedback on the accessibility of ATM Franchise India. Please let us know if you encounter accessibility barriers:
                   </p>
                   <div className="space-y-3 text-gray-700 mb-4">
-                    <p><strong>Email:</strong> <a href="mailto:atmfranchise@pixellpay.com" className="text-blue-600 hover:text-blue-700">atmfranchise@pixellpay.com</a></p>
-                    <p><strong>Phone:</strong> <a href="tel:+919072380076" className="text-blue-600 hover:text-blue-700">+91 9072380076</a></p>
+                    <p><strong>{t('content.email', 'Email:')}</strong> <a href="mailto:atmfranchise@pixellpay.com" className="text-blue-600 hover:text-blue-700">atmfranchise@pixellpay.com</a></p>
+                    <p><strong>{t('content.phone', 'Phone:')}</strong> <a href="tel:+919072380076" className="text-blue-600 hover:text-blue-700">+91 9072380076</a></p>
                   </div>
                   <p className="text-gray-700">
                     We try to respond to accessibility feedback within 5 business days.

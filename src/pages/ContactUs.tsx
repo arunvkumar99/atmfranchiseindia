@@ -3,14 +3,16 @@ import { DirectSheetsForm } from "@/components/DirectSheetsForm";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { CONTACT_INFO } from "@/lib/contactInfo";
+import { useTranslation } from 'react-i18next';
 
 const ContactUs = () => {
+  const { t } = useTranslation(['contact', 'common']);
   return (
     <div className="min-h-screen pt-24 pb-16 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Get in Touch
+            {t('contact:title', 'Get in Touch')}
           </h1>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -20,12 +22,12 @@ const ContactUs = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Phone className="h-5 w-5 text-blue-600" />
-                    Phone
+                    {t('contact:phone.title', 'Phone')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-lg font-semibold">{CONTACT_INFO.phone}</p>
-                  <p className="text-sm text-gray-600">Mon-Sat: 9 AM - 6 PM IST</p>
+                  <p className="text-sm text-gray-600">{t('contact:phone.hours', 'Mon-Sat: 9 AM - 6 PM IST')}</p>
                 </CardContent>
               </Card>
 
@@ -33,12 +35,12 @@ const ContactUs = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Mail className="h-5 w-5 text-blue-600" />
-                    Email
+                    {t('contact:email.title', 'Email')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-lg font-semibold">{CONTACT_INFO.email}</p>
-                  <p className="text-sm text-gray-600">We reply within 24 hours</p>
+                  <p className="text-sm text-gray-600">{t('contact:email.response', 'We reply within 24 hours')}</p>
                 </CardContent>
               </Card>
 
@@ -46,7 +48,7 @@ const ContactUs = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <MapPin className="h-5 w-5 text-blue-600" />
-                    Office Address
+                    {t('contact:office.title', 'Office Address')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -58,15 +60,15 @@ const ContactUs = () => {
               <div className="flex items-center gap-4 p-4 bg-blue-50 rounded-lg">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-600">100%</div>
-                  <div className="text-xs text-gray-600">Secure</div>
+                  <div className="text-xs text-gray-600">{t('content.secure', 'Secure')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-600">24hr</div>
-                  <div className="text-xs text-gray-600">Response</div>
+                  <div className="text-xs text-gray-600">{t('content.response', 'Response')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-600">200+</div>
-                  <div className="text-xs text-gray-600">Happy Clients</div>
+                  <div className="text-xs text-gray-600">{t('content.happy_clients', 'Happy Clients')}</div>
                 </div>
               </div>
             </div>
@@ -76,7 +78,7 @@ const ContactUs = () => {
               <CardContent className="pt-6">
                 <DirectSheetsForm
                   formType="contact_submissions"
-                  title="Send us a Message"
+                  title={t('titles.send_us_a_message', 'Send us a Message')}
                   description="Fill out the form below and we'll get back to you within 24 hours."
                 />
               </CardContent>

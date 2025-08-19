@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button } from './button';
 import { Input } from './input';
 import { Label } from './label';
@@ -52,6 +53,7 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
 
   useEffect(() => {
     const checkMobile = () => {
+  const { t } = useTranslation('forms');
       const userAgent = navigator.userAgent.toLowerCase();
       const mobileKeywords = ['android', 'webos', 'iphone', 'ipad', 'ipod', 'blackberry', 'windows phone'];
       return mobileKeywords.some(keyword => userAgent.includes(keyword)) || 

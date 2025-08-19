@@ -8,8 +8,10 @@ import { useToast } from "@/hooks/use-toast";
 // Supabase integration removed - now uses Google Sheets
 import familyBusiness from "@/assets/family-business.jpg";
 import successfulBusinessman from "@/assets/successful-businessman.jpg";
+import { useTranslation } from 'react-i18next';
 
 const GetStarted = () => {
+  const { t } = useTranslation('home');
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -89,7 +91,7 @@ const GetStarted = () => {
   const processSteps = [
     {
       step: "1",
-      title: "Submit Application",
+      title: t('buttons.submit', 'Submit Application'),
       description: "Fill out our simple form with your details and preferred location for ATM installation."
     },
     {
@@ -148,7 +150,7 @@ const GetStarted = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="Enter your full name"
+                        placeholder={t('placeholders.fullName', 'Enter your full name')}
                         required
                         className="border-border focus:border-primary"
                       />
@@ -164,7 +166,7 @@ const GetStarted = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+91 98765 43210"
+                        placeholder={t('placeholders.phone', '+91 98765 43210')}
                         required
                         className="border-border focus:border-primary"
                       />
@@ -181,7 +183,7 @@ const GetStarted = () => {
                       type="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="your.email@example.com"
+                      placeholder={t('placeholders.email', 'your.email@example.com')}
                       required
                       className="border-border focus:border-primary"
                     />
@@ -344,7 +346,7 @@ const GetStarted = () => {
               </div>
               <h4 className="font-semibold text-foreground mb-2">Visit Office</h4>
               <p className="text-muted-foreground text-sm mb-2">Meet our team</p>
-              <p className="font-medium text-primary">Bangalore, Karnataka</p>
+              <p className="font-medium text-primary">{t('testimonials.items.priya.location', 'Bangalore, Karnataka')}</p>
             </CardContent>
           </Card>
         </div>

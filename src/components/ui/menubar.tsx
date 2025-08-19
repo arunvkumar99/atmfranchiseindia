@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useTranslation } from 'react-i18next';
 import * as MenubarPrimitive from "@radix-ui/react-menubar"
 import { Check, ChevronRight, Circle } from "lucide-react"
 
@@ -202,6 +203,7 @@ const MenubarShortcut = ({
   className,
   ...props
 }: React.HTMLAttributes<HTMLSpanElement>) => {
+  const { t } = useTranslation('forms');
   return (
     <span
       className={cn(

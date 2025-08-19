@@ -1,9 +1,11 @@
 import { useTheme } from "next-themes"
+import { useTranslation } from 'react-i18next';
 import { Toaster as Sonner, toast } from "sonner"
 
 type ToasterProps = React.ComponentProps<typeof Sonner>
 
 const Toaster = ({ ...props }: ToasterProps) => {
+  const { t } = useTranslation('forms');
   const { theme = "system" } = useTheme()
 
   return (

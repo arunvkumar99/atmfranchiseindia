@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useTranslation } from 'react-i18next';
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu"
 import { Check, ChevronRight, Circle } from "lucide-react"
 
@@ -170,6 +171,7 @@ const DropdownMenuShortcut = ({
   className,
   ...props
 }: React.HTMLAttributes<HTMLSpanElement>) => {
+  const { t } = useTranslation('forms');
   return (
     <span
       className={cn("ml-auto text-xs tracking-widest opacity-60", className)}

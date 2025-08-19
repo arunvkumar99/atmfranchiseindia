@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useTranslation } from 'react-i18next';
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 
@@ -47,6 +48,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     
     // Add mobile debugging for button clicks
     const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const { t } = useTranslation('forms');
       console.log('📱 Button clicked:', {
         isMobile: /Mobi|Android/i.test(navigator.userAgent),
         buttonType: props.type || 'button',

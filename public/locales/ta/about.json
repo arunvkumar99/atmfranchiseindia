@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "badge": "எங்கள் கதை",
+    "title": {
+      "prefix": "எங்களைப் பற்றி",
+      "highlight": "ஏடிஎம் பிரான்சைஸ் இந்தியா"
+    },
+    "subtitle": "இந்தியாவில் ஏடிஎம் உரிமை வணிகத்திற்கான உங்கள் நம்பகமான பங்குதாரர்",
+    "buttons": {
+      "expertise": "Our Expertise",
+      "companies": "Group Companies"
+    }
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "subtitle": "Empowering entrepreneurs with trusted ATM franchise opportunities",
+    "description": "ATM Franchise India is a pioneering platform that bridges the gap between aspiring entrepreneurs and RBI-licensed White Label ATM operators. Since 2020, we've been transforming lives by providing accurate information, expert guidance, and comprehensive support for ATM franchise businesses across India.",
+    "stats": {
+      "partners": {
+        "number": "5000+",
+        "label": "Franchise Partners"
+      },
+      "transactions": {
+        "number": "10M+",
+        "label": "Monthly Transactions"
+      },
+      "coverage": {
+        "number": "28",
+        "label": "States Covered"
+      },
+      "experience": {
+        "number": "4+",
+        "label": "Years Experience"
+      }
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "items": {
+      "accurate": {
+        "title": "Accurate Information",
+        "description": "Provide verified and transparent information about ATM franchise opportunities"
+      },
+      "simplify": {
+        "title": "Simplify Process",
+        "description": "Make the ATM franchise journey simple and accessible for everyone"
+      },
+      "support": {
+        "title": "Continuous Support",
+        "description": "Offer ongoing guidance from setup to successful operation"
+      },
+      "growth": {
+        "title": "Enable Growth",
+        "description": "Help partners achieve sustainable income and business growth"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "consultation": {
+      "title": "Franchise Consultation",
+      "description": "Expert guidance on choosing the right WLA partner and location"
+    },
+    "training": {
+      "title": "Training & Support",
+      "description": "Comprehensive training programs and ongoing operational support"
+    },
+    "digital": {
+      "title": "Digital Marketing",
+      "description": "Boost your ATM's visibility with our digital marketing services"
+    },
+    "technical": {
+      "title": "Technical Assistance",
+      "description": "24/7 technical support and troubleshooting assistance"
+    }
+  },
+  "companies": {
+    "title": "Our Group Companies",
+    "subtitle": "Part of a trusted business ecosystem",
+    "pixellweb": {
+      "name": "Pixellweb",
+      "description": "Premium web development and digital solutions provider",
+      "link": "Visit Website"
+    },
+    "pixellpay": {
+      "name": "Pixellpay Advantage",
+      "description": "Financial technology solutions and payment services",
+      "link": "Learn More"
+    }
+  },
+  "values": {
+    "title": "Our Values",
+    "transparency": {
+      "title": "Transparency",
+      "description": "Complete transparency in all business dealings"
+    },
+    "integrity": {
+      "title": "Integrity",
+      "description": "Honest and ethical business practices"
+    },
+    "excellence": {
+      "title": "Excellence",
+      "description": "Commitment to service excellence"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Continuous improvement and innovation"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Your ATM Franchise Journey?",
+    "subtitle": "Join thousands of successful franchise partners across India",
+    "button": "Get Started Today"
+  }
+}

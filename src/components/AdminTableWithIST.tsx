@@ -2,6 +2,7 @@
 // Demonstrates proper timezone handling for Indian users
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { formatToIST, formatDateForAdmin, getRelativeTime } from '@/lib/indianTimezone';
 
 interface AdminTableProps {

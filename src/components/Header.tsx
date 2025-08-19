@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X, Shield, LogOut, ChevronDown, Search, Globe } from "lucide-react";
+import { Menu, X, ChevronDown, Search, Globe } from "lucide-react";
 import { useState, useRef, useCallback, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useAuth } from "@/hooks/useAuth";
+import { useLocation } from "react-router-dom";
+import { Link, useNavigate } from "@/hooks/useLanguageRouter";
 import SearchComponent from "@/components/SearchComponent";
 import SEOMetaTags from "@/components/SEOMetaTags";
 import { SUPPORTED_LANGUAGES } from "@/lib/i18n";
@@ -24,7 +24,6 @@ const Header = () => {
   // Hooks
   const location = useLocation();
   const navigate = useNavigate();
-  const { user, isAdmin, signOut } = useAuth();
   const { i18n, t } = useTranslation();
 
   // Enhanced dropdown handlers
@@ -57,10 +56,23 @@ const Header = () => {
     }, 300);
   }, []);
 
-  // Translation function using i18n
+  // Translation function using i18n with navigation
   const handleLanguageChange = async (languageCode: string) => {
     await i18n.changeLanguage(languageCode);
     setCurrentLanguage(languageCode);
+    
+    // Store in localStorage for persistence
+    localStorage.setItem('i18nextLng', languageCode);
+    
+    // Update the URL to reflect language change
+    const currentPath = location.pathname;
+    const pathWithoutLang = currentPath.replace(/^\/[a-z]{2}(\/|$)/, '/');
+    
+    if (languageCode === 'en') {
+      navigate(pathWithoutLang);
+    } else {
+      navigate(`/${languageCode}${pathWithoutLang === '/' ? '' : pathWithoutLang}`);
+    }
   };
 
   const translateToLanguage = useCallback((languageCode: string) => {
@@ -86,20 +98,31 @@ const Header = () => {
     { label: t('nav.becomeFranchise', 'Become Franchise'), href: "/become-franchise" },
   ];
 
-  // Check translation system readiness on mount
+  // Check translation system readiness on mount and persist language
   useEffect(() => {
-    setCurrentLanguage(i18n.language || 'en');
+    // Check localStorage first for persisted language
+    const savedLang = localStorage.getItem('i18nextLng');
+    const urlLang = location.pathname.match(/^\/([a-z]{2})(\/|$)/)?.[1];
+    
+    // Priority: URL > localStorage > browser default
+    const targetLang = urlLang || savedLang || i18n.language || 'en';
+    
+    if (targetLang !== i18n.language) {
+      i18n.changeLanguage(targetLang);
+    }
+    setCurrentLanguage(targetLang);
     
     // Listen for language changes
     const handleLanguageChanged = (lng: string) => {
       setCurrentLanguage(lng);
+      localStorage.setItem('i18nextLng', lng);
     };
 
     i18n.on('languageChanged', handleLanguageChanged);
     return () => {
       i18n.off('languageChanged', handleLanguageChanged);
     };
-  }, [i18n]);
+  }, [i18n, location.pathname]);
 
   // Check if current path is in About section
   const isAboutActive = location.pathname === "/about-us" || 
@@ -120,7 +143,7 @@ const Header = () => {
             <Link to="/" className="flex items-center space-x-3 flex-shrink-0">
               <img 
                 src="/assets/atm-franchise-logo.png" 
-                alt="ATM Franchise India Logo" 
+                alt={t('alt.atm_franchise_india_logo', 'ATM Franchise India Logo')} 
                 className="h-12 sm:h-14 md:h-16 w-auto object-contain transition-transform hover:scale-105"
                 loading="eager"
               />
@@ -250,39 +273,11 @@ const Header = () => {
                 )}
               </div>
 
-              {/* Admin buttons */}
-              {user && isAdmin && (
-                <div className="flex space-x-2">
-                  <Button variant="outline" size="sm" asChild>
-                    <Link to="/admin-export">
-                      <Shield className="w-4 h-4 mr-1" />
-                      Export
-                    </Link>
-                  </Button>
-                  <Button variant="outline" size="sm" asChild>
-                    <Link to="/admin-users">
-                      <Shield className="w-4 h-4 mr-1" />
-                      Users
-                    </Link>
-                  </Button>
-                </div>
-              )}
               
-              {/* Auth buttons */}
-              {user ? (
-                <Button 
-                  variant="outline" 
-                  onClick={signOut}
-                  className="bg-destructive/10 text-destructive hover:bg-destructive hover:text-destructive-foreground"
-                >
-                  <LogOut className="w-4 h-4 mr-2" />
-                  Sign Out
-                </Button>
-              ) : (
-                <Button className="bg-gradient-primary text-primary-foreground hover:bg-gradient-accent-crimson transition-all duration-300 min-h-[44px] px-lg" asChild>
-                  <Link to="/join-us">Join Us</Link>
-                </Button>
-              )}
+              {/* Join Us button */}
+              <Button className="bg-gradient-primary text-primary-foreground hover:bg-gradient-accent-crimson transition-all duration-300 min-h-[44px] px-lg" asChild>
+                <Link to="/join-us">{t('cta.joinUs', 'Join Us')}</Link>
+              </Button>
               
               {/* Search Button */}
               <Button
@@ -290,7 +285,7 @@ const Header = () => {
                 size="sm"
                 onClick={() => setIsSearchOpen(true)}
                 className="text-foreground hover:text-primary ml-2"
-                aria-label="Search"
+                aria-label={t('aria.search', 'Search')}
               >
                 <Search className="h-4 w-4" />
               </Button>
@@ -300,7 +295,7 @@ const Header = () => {
             <button
               className="md:hidden p-2 min-h-[44px] min-w-[44px] flex items-center justify-center"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="Toggle menu"
+              aria-label={t('aria.toggle_menu', 'Toggle menu')}
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -329,7 +324,7 @@ const Header = () => {
                           <button
                             onClick={() => setIsAboutDropdownOpen(!isAboutDropdownOpen)}
                             className="p-2 -mr-2"
-                            aria-label="Toggle About Us menu"
+                            aria-label={t('aria.toggle_about_us_menu', 'Toggle About Us menu')}
                           >
                             <ChevronDown className={`w-4 h-4 transition-transform ${isAboutDropdownOpen ? 'rotate-180' : ''}`} />
                           </button>
@@ -407,40 +402,10 @@ const Header = () => {
                   )}
                 </div>
                 
-                {user && isAdmin && (
-                  <div className="flex flex-col space-y-2 pt-4 border-t border-border">
-                    <Button variant="outline" size="sm" asChild>
-                      <Link to="/admin-export" onClick={() => setIsMenuOpen(false)}>
-                        <Shield className="w-4 h-4 mr-1" />
-                        Export
-                      </Link>
-                    </Button>
-                    <Button variant="outline" size="sm" asChild>
-                      <Link to="/admin-users" onClick={() => setIsMenuOpen(false)}>
-                        <Shield className="w-4 h-4 mr-1" />
-                        Users
-                      </Link>
-                    </Button>
-                  </div>
-                )}
-                
-                {user ? (
-                  <Button 
-                    variant="outline" 
-                    onClick={() => {
-                      signOut();
-                      setIsMenuOpen(false);
-                    }}
-                    className="bg-destructive/10 text-destructive hover:bg-destructive hover:text-destructive-foreground justify-start"
-                  >
-                    <LogOut className="w-4 h-4 mr-2" />
-                    Sign Out
-                  </Button>
-                ) : (
-                  <Button className="bg-gradient-primary text-primary-foreground hover:bg-gradient-accent-crimson transition-all duration-300 min-h-[44px] px-lg justify-start" asChild>
-                    <Link to="/join-us" onClick={() => setIsMenuOpen(false)}>Join Us</Link>
-                  </Button>
-                )}
+                {/* Join Us button for mobile */}
+                <Button className="bg-gradient-primary text-primary-foreground hover:bg-gradient-accent-crimson transition-all duration-300 min-h-[44px] px-lg justify-start" asChild>
+                  <Link to="/join-us" onClick={() => setIsMenuOpen(false)}>{t('cta.joinUs', 'Join Us')}</Link>
+                </Button>
               </div>
             </div>
           )}
@@ -456,6 +421,7 @@ const Header = () => {
         /* Hide Google Translate top banner */
         .goog-te-banner-frame {
           display: none !important;
+import { useTranslation } from 'react-i18next';
         }
         
         /* Hide Google Translate attribution */

@@ -1,9 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Mail, FileText, Shield, Eye, Users, Clock, Database, Key } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
+import { useTranslation } from 'react-i18next';
 
 const PrivacyPolicy = () => {
+  const { t } = useTranslation('privacy');
   return (
     <div className="min-h-screen bg-background pt-14">
       {/* Hero Section */}
@@ -48,14 +50,14 @@ const PrivacyPolicy = () => {
                       <Database className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Information We Collect</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.information_we_collect', 'Information We Collect')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     We collect information you provide directly to us, such as when you create an account, submit a franchise application, or contact us for support.
                   </p>
                   <div className="space-y-2 mb-4">
-                    <h4 className="font-semibold text-gray-900">Personal Information includes:</h4>
+                    <h4 className="font-semibold text-gray-900">{t('content.personal_information_includes', 'Personal Information includes:')}</h4>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2"></div>
@@ -86,14 +88,14 @@ const PrivacyPolicy = () => {
                       <Eye className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">How We Use Your Information</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.how_we_use_your_information', 'How We Use Your Information')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     We use the information we collect to provide, maintain, and improve our services.
                   </p>
                   <div className="space-y-2 mb-4">
-                    <h4 className="font-semibold text-gray-900">We use your information to:</h4>
+                    <h4 className="font-semibold text-gray-900">{t('content.we_use_your_information_to', 'We use your information to:')}</h4>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2"></div>
@@ -128,14 +130,14 @@ const PrivacyPolicy = () => {
                       <Users className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Information Sharing</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.information_sharing', 'Information Sharing')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.
                   </p>
                   <div className="space-y-2 mb-4">
-                    <h4 className="font-semibold text-gray-900">We may share information with:</h4>
+                    <h4 className="font-semibold text-gray-900">{t('content.we_may_share_information_with', 'We may share information with:')}</h4>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2"></div>
@@ -166,14 +168,14 @@ const PrivacyPolicy = () => {
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Data Security</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.data_security', 'Data Security')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
                   </p>
                   <div className="space-y-2 mb-4">
-                    <h4 className="font-semibold text-gray-900">Security measures include:</h4>
+                    <h4 className="font-semibold text-gray-900">{t('content.security_measures_include', 'Security measures include:')}</h4>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 bg-purple-500 rounded-full mt-2"></div>
@@ -204,14 +206,14 @@ const PrivacyPolicy = () => {
                       <Key className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Your Rights</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.your_rights', 'Your Rights')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     You have certain rights regarding your personal information, subject to applicable laws.
                   </p>
                   <div className="space-y-2 mb-4">
-                    <h4 className="font-semibold text-gray-900">Your rights include:</h4>
+                    <h4 className="font-semibold text-gray-900">{t('content.your_rights_include', 'Your rights include:')}</h4>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 bg-teal-500 rounded-full mt-2"></div>
@@ -246,15 +248,15 @@ const PrivacyPolicy = () => {
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Contact Us</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('cta.contactUs', 'Contact Us')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     If you have any questions about this Privacy Policy or our data practices, please contact us:
                   </p>
                   <div className="space-y-3 text-gray-700 mb-4">
-                    <p><strong>Email:</strong> <a href="mailto:atmfranchise@pixellpay.com" className="text-blue-600 hover:text-blue-700">atmfranchise@pixellpay.com</a></p>
-                    <p><strong>Phone:</strong> <a href="tel:+919072380076" className="text-blue-600 hover:text-blue-700">+91 9072380076</a></p>
+                    <p><strong>{t('content.email', 'Email:')}</strong> <a href="mailto:atmfranchise@pixellpay.com" className="text-blue-600 hover:text-blue-700">atmfranchise@pixellpay.com</a></p>
+                    <p><strong>{t('content.phone', 'Phone:')}</strong> <a href="tel:+919072380076" className="text-blue-600 hover:text-blue-700">+91 9072380076</a></p>
                   </div>
                   <p className="text-gray-700">
                     We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.

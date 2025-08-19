@@ -1,11 +1,13 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import { useTranslation } from 'react-i18next';
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { Calendar, Clock, ArrowLeft, DollarSign, HelpCircle, CheckCircle } from "lucide-react";
 
 const PassiveIncomeFinancialFreedom = () => {
+  const { t } = useTranslation('forms');
   const questions = [
     {
       question: "What am I good at?",

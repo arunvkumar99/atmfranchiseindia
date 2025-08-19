@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useTranslation } from 'react-i18next';
 import * as RechartsPrimitive from "recharts"
 
 import { cn } from "@/lib/utils"
@@ -66,6 +67,7 @@ const ChartContainer = React.forwardRef<
 ChartContainer.displayName = "Chart"
 
 const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
+  const { t } = useTranslation('forms');
   const colorConfig = Object.entries(config).filter(
     ([_, config]) => config.theme || config.color
   )

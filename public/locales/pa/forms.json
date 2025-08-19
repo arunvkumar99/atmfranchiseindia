@@ -50,7 +50,7 @@
     "minLength": "{{field}} must be at least {{min}} characters",
     "maxLength": "{{field}} must not exceed {{max}} characters",
     "numberOnly": "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ਼ ਨੰਬਰ ਦਰਜ ਕਰੋ",
-    "lettersOnly": "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ਼ ਅੱਖਰ ਹੀ ਦਰਜ ਕਰੋ",
+    "lettersOnly": "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ਼ ਅੱਖਰ ਦਰਜ ਕਰੋ",
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
     "agreeRequired": "ਤੁਹਾਨੂੰ ਨਿਯਮਾਂ ਅਤੇ ਸ਼ਰਤਾਂ ਨਾਲ ਸਹਿਮਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",

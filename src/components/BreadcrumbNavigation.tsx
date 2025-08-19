@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
+import { useLocation } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import {
   Breadcrumb,
   BreadcrumbList,

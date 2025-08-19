@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "badge": "Trusted ATM Franchise Partner",
+    "title": {
+      "line1": "Become an",
+      "line2": "ATM Franchise",
+      "line3": "Partner"
+    },
+    "description": {
+      "part1": "Join",
+      "successfulPartners": "200+ successful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM business",
+      "part3": "today with",
+      "minimalInvestment": "minimal investment"
+    },
+    "cta": {
+      "apply": "Apply for Franchise",
+      "learnMore": "Learn More"
+    },
+    "benefits": {
+      "quickRoi": {
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven business model"
+      },
+      "support": {
+        "title": "Dedicated Support",
+        "description": "24/7 technical and business support from our expert team"
+      },
+      "network": {
+        "title": "Proven Network",
+        "description": "Join 500+ successful franchise partners across India"
+      },
+      "training": {
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
+      }
+    },
+    "process": {
+      "title": "How to Get Started",
+      "steps": {
+        "apply": {
+          "title": "Apply",
+          "description": "Submit your franchise application online"
+        },
+        "agreement": {
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
+        },
+        "installation": {
+          "title": "Installation",
+          "description": "We handle ATM setup and installation"
+        },
+        "earn": {
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
+        }
+      }
+    },
+    "stats": {
+      "partners": "Active Partners",
+      "atms": "ATMs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
+    }
+  },
+  "enquiryForm": {
+    "title": "Start Your ATM Franchise Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about ATM franchise opportunities in your area.",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "state": "State",
+      "city": "City",
+      "investment": "Investment Capacity",
+      "experience": "Business Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about franchise opportunities"
+    },
+    "submit": "Submit Enquiry",
+    "submitting": "Submitting...",
+    "success": "Thank you! We'll contact you within 24 hours.",
+    "error": "Something went wrong. Please try again."
+  },
+  "whyAtm": {
+    "title": "Why Choose ATM Franchise?",
+    "subtitle": "Discover the benefits of partnering with India's leading ATM franchise network",
+    "benefits": {
+      "highReturns": {
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your investment"
+      },
+      "passiveIncome": {
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
+      },
+      "lowMaintenance": {
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
+      },
+      "governmentSupport": {
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
+      },
+      "growingMarket": {
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
+      },
+      "brandValue": {
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven business model"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful ATM franchise",
+    "items": {
+      "siteSelection": {
+        "title": "Site Selection",
+        "description": "Expert assistance in identifying high-traffic locations"
+      },
+      "installation": {
+        "title": "Installation",
+        "description": "Complete ATM setup and configuration"
+      },
+      "cashManagement": {
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
+      },
+      "compliance": {
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
+      },
+      "marketing": {
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Franchise Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capacity",
+    "models": {
+      "basic": {
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 ATMs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
+        "features": [
+          "Single location setup",
+          "Basic training program",
+          "Monthly maintenance",
+          "Regional support team"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 ATMs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
+        "features": [
+          "Multiple location setup",
+          "Advanced training program",
+          "Bi-weekly maintenance",
+          "Dedicated account manager",
+          "Marketing support"
+        ],
+        "popular": true
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ ATMs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
+        "features": [
+          "Unlimited locations",
+          "Executive training program",
+          "Weekly maintenance",
+          "Personal relationship manager",
+          "Complete marketing package",
+          "Priority placement"
+        ]
+      }
+    },
+    "cta": "Choose Your Plan"
+  },
+  "wlaOperators": {
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in ATM operations",
+    "description": "We work with all major White Label ATM operators to provide you the best opportunities"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about ATM franchise",
+    "questions": {
+      "investment": {
+        "question": "What is the minimum investment required?",
+        "answer": "The minimum investment starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
+      },
+      "returns": {
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
+      },
+      "support": {
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site selection, installation, maintenance, cash management, and 24/7 technical assistance."
+      },
+      "experience": {
+        "question": "Do I need prior experience?",
+        "answer": "No prior experience is required. We provide comprehensive training and ongoing support."
+      },
+      "locations": {
+        "question": "Can I choose my ATM locations?",
+        "answer": "Yes, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
+      },
+      "contract": {
+        "question": "What is the contract duration?",
+        "answer": "The standard franchise agreement is for 5 years with an option to renew."
+      }
+    }
+  },
+  "getStarted": {
+    "title": "Ready to Start Your ATM Franchise?",
+    "subtitle": "Join India's fastest growing ATM network today",
+    "cta": {
+      "apply": "Apply Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -22,6 +23,7 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
   }, [query]);
 
   const handleResultClick = (result: SearchContent) => {
+  const { t } = useTranslation('forms');
     let path = result.path;
     
     // Add anchor/section navigation if available

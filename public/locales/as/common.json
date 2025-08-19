@@ -4,7 +4,9 @@
     "aboutUs": "আমাৰ বিষয়ে",
     "ourProducts": "আমাৰ প্ৰডাক্টসমূহ",
     "becomeAgent": "এজেন্ট হৈ যাওক",
-    "submitLocation": "স্থান জমা দিয়ক",
+    "submitLocation": "এটিএমৰ স্থান জমা দিয়ক",
+    "becomeFranchise": "ফ্ৰেঞ্চাইজি হৈ যাওক",
+    "pixellpayAdvantage": "PixellPay সুবিধা",
     "contactUs": "আমাৰ সৈতে যোগাযোগ কৰক",
     "joinUs": "আমাৰ সৈতে যোগদান কৰক",
     "blog": "ব্লগ",
@@ -42,16 +44,55 @@
     "uploadError": "ফাইল আপলোড কৰাত ত্ৰুটি"
   },
   "footer": {
-    "quickLinks": "দ্ৰুত লিংক",
-    "services": "সেৱাসমূহ",
-    "legal": "আইনী",
+    "company": {
+      "name": "এটিএম ফ্ৰেঞ্চাইজি ইণ্ডিয়া",
+      "tagline": "বিশ্বাসযোগ্য ব্যৱসায়িক অংশীদাৰ",
+      "description": "স্বচ্ছ এটিএম ফ্ৰেঞ্চাইজিৰ সুযোগেৰে গ্ৰাম্য উদ্যোগীসকলক সবলীকৰণ কৰা। সমগ্ৰ ভাৰতৰ জনগোষ্ঠীসমূহক সেৱা আগবঢ়োৱাৰ লগতে নিষ্ক্ৰিয় আয়ৰ ধাৰা গঢ়ি তোলা।"
+    },
+    "contact": {
+      "location": "বাংগালুৰু, কৰ্ণাটক, ভাৰত"
+    },
+    "quickLinksTitle": "দ্ৰুত লিংক",
+    "quickLinks": {
+      "whyAtm": "কিয় এ টি এম ব্যৱসায়",
+      "services": "আমাৰ সেৱাসমূহ",
+      "getStarted": "আৰম্ভ কৰক"
+    },
+    "links": {
+      "submitLocation": "এটিএমৰ স্থান জমা দিয়ক",
+      "becomeFranchise": "ফ্ৰেঞ্চাইজি হৈ যাওক",
+      "agent": "এজেণ্ট",
+      "influencer": "প্ৰভাৱশালী"
+    },
+    "servicesTitle": "আমাৰ সেৱাসমূহ",
+    "services": {
+      "consultation": "এটিএম ফ্ৰেঞ্চাইজি পৰামৰ্শ",
+      "comparison": "WLA অপাৰেটৰ তুলনা",
+      "evaluation": "ছাইট মূল্যায়ন",
+      "training": "প্ৰশিক্ষণ আৰু সহায়",
+      "marketing": "ডিজিটেল মাৰ্কেটিং",
+      "technical": "কাৰিকৰী সহায়"
+    },
+    "legalTitle": "আইনী",
+    "legal": {
+      "privacy": "গোপনীয়তা নীতি",
+      "terms": "চৰ্ত আৰু নিয়ম",
+      "refund": "ৰিফাণ্ড নীতি",
+      "accessibility": "অভিগম্যতা বিবৃতি"
+    },
     "followUs": "আমাক অনুসৰণ কৰক",
-    "privacyPolicy": "গোপনীয়তা নীতি",
-    "termsConditions": "চৰ্ত আৰু নিয়ম",
-    "refundPolicy": "ৰিফাণ্ড নীতি",
-    "accessibility": "অভিগম্যতা বিবৃতি",
-    "copyright": "© ২০২৪ পিক্সেলপে। সকলো অধিকাৰ সংৰক্ষিত।",
-    "poweredBy": "PixellPay দ্বাৰা চালিত"
+    "newsletter": {
+      "title": "আপডেট হৈ থাকক",
+      "description": "এটিএম ফ্ৰেঞ্চাইজিৰ সুযোগৰ শেহতীয়া আপডেট লাভ কৰক",
+      "placeholder": "আপোনাৰ ইমেইল দিয়ক",
+      "button": "চাবস্ক্ৰাইব কৰক"
+    },
+    "copyright": "© ২০২৫ এটিএম ফ্ৰেঞ্চাইজি ইণ্ডিয়া। সকলো অধিকাৰ সংৰক্ষিত।",
+    "poweredBy": "Pixellweb দ্বাৰা চালিত",
+    "partners": {
+      "title": "আমাৰ অংশীদাৰসকল",
+      "trusted": "সমগ্ৰ ভাৰতৰ ৫০০+ ফ্ৰেঞ্চাইজি অংশীদাৰৰ বিশ্বাস"
+    }
   },
   "errors": {
     "pageNotFound": "পৃষ্ঠা পোৱা নগ'ল",

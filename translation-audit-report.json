@@ -1,0 +1,3290 @@
+{
+  "timestamp": "2025-08-19T02:59:03.241Z",
+  "summary": {
+    "averageCompletion": 90,
+    "languages": {
+      "hi": {
+        "percentage": 90,
+        "totalStrings": 810,
+        "translatedStrings": 732
+      },
+      "bn": {
+        "percentage": 91,
+        "totalStrings": 810,
+        "translatedStrings": 740
+      },
+      "ta": {
+        "percentage": 91,
+        "totalStrings": 810,
+        "translatedStrings": 736
+      },
+      "te": {
+        "percentage": 91,
+        "totalStrings": 810,
+        "translatedStrings": 736
+      },
+      "mr": {
+        "percentage": 90,
+        "totalStrings": 810,
+        "translatedStrings": 726
+      },
+      "gu": {
+        "percentage": 90,
+        "totalStrings": 810,
+        "translatedStrings": 725
+      },
+      "ur": {
+        "percentage": 89,
+        "totalStrings": 810,
+        "translatedStrings": 720
+      },
+      "kn": {
+        "percentage": 89,
+        "totalStrings": 810,
+        "translatedStrings": 721
+      },
+      "or": {
+        "percentage": 90,
+        "totalStrings": 810,
+        "translatedStrings": 725
+      },
+      "pa": {
+        "percentage": 89,
+        "totalStrings": 810,
+        "translatedStrings": 721
+      },
+      "as": {
+        "percentage": 90,
+        "totalStrings": 810,
+        "translatedStrings": 725
+      },
+      "ml": {
+        "percentage": 89,
+        "totalStrings": 810,
+        "translatedStrings": 721
+      }
+    },
+    "files": {
+      "about.json": {
+        "hi": 7,
+        "bn": 7,
+        "ta": 7,
+        "te": 7,
+        "mr": 7,
+        "gu": 7,
+        "ur": 7,
+        "kn": 7,
+        "or": 7,
+        "pa": 7,
+        "as": 7,
+        "ml": 7
+      },
+      "accessibility.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "agent.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "blog.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "common.json": {
+        "hi": 93,
+        "bn": 96,
+        "ta": 96,
+        "te": 96,
+        "mr": 96,
+        "gu": 96,
+        "ur": 95,
+        "kn": 96,
+        "or": 96,
+        "pa": 96,
+        "as": 96,
+        "ml": 96
+      },
+      "contact.json": {
+        "hi": 20,
+        "bn": 20,
+        "ta": 20,
+        "te": 20,
+        "mr": 20,
+        "gu": 20,
+        "ur": 20,
+        "kn": 20,
+        "or": 20,
+        "pa": 20,
+        "as": 20,
+        "ml": 20
+      },
+      "forms.json": {
+        "hi": 92,
+        "bn": 94,
+        "ta": 93,
+        "te": 93,
+        "mr": 95,
+        "gu": 94,
+        "ur": 93,
+        "kn": 93,
+        "or": 95,
+        "pa": 93,
+        "as": 95,
+        "ml": 93
+      },
+      "franchise.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 89,
+        "gu": 89,
+        "ur": 89,
+        "kn": 89,
+        "or": 88,
+        "pa": 89,
+        "as": 89,
+        "ml": 89
+      },
+      "home.json": {
+        "hi": 99,
+        "bn": 99,
+        "ta": 99,
+        "te": 99,
+        "mr": 99,
+        "gu": 99,
+        "ur": 99,
+        "kn": 99,
+        "or": 99,
+        "pa": 99,
+        "as": 99,
+        "ml": 99
+      },
+      "influencer.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "jobs.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "notFound.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "pixellpay.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "privacy.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "products.json": {
+        "hi": 97,
+        "bn": 100,
+        "ta": 97,
+        "te": 97,
+        "mr": 100,
+        "gu": 100,
+        "ur": 97,
+        "kn": 97,
+        "or": 100,
+        "pa": 97,
+        "as": 100,
+        "ml": 97
+      },
+      "refund.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "startAtm.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      },
+      "terms.json": {
+        "hi": 100,
+        "bn": 100,
+        "ta": 100,
+        "te": 100,
+        "mr": 100,
+        "gu": 100,
+        "ur": 100,
+        "kn": 100,
+        "or": 100,
+        "pa": 100,
+        "as": 100,
+        "ml": 100
+      }
+    }
+  },
+  "detailed": {
+    "hi": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 100,
+        "englishCount": 7,
+        "emptyCount": 0,
+        "percentage": 93,
+        "hasNativeScript": 100,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing",
+          "social.linkedin"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 90,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 92,
+        "hasNativeScript": 90,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "placeholders.phone",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 131,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 131,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 86,
+        "englishCount": 3,
+        "emptyCount": 0,
+        "percentage": 97,
+        "hasNativeScript": 86,
+        "untranslatedPaths": [
+          "packages.basic.price",
+          "packages.silver.price",
+          "packages.gold.price"
+        ],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "bn": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 92,
+        "englishCount": 6,
+        "emptyCount": 0,
+        "percentage": 94,
+        "hasNativeScript": 92,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength",
+          "validation.fileSize"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 131,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 131,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 89,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 89,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "ta": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 91,
+        "englishCount": 7,
+        "emptyCount": 0,
+        "percentage": 93,
+        "hasNativeScript": 91,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "placeholders.phone",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 131,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 131,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 86,
+        "englishCount": 3,
+        "emptyCount": 0,
+        "percentage": 97,
+        "hasNativeScript": 86,
+        "untranslatedPaths": [
+          "packages.basic.price",
+          "packages.silver.price",
+          "packages.gold.price"
+        ],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "te": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 91,
+        "englishCount": 7,
+        "emptyCount": 0,
+        "percentage": 93,
+        "hasNativeScript": 91,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "placeholders.phone",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 131,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 131,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 86,
+        "englishCount": 3,
+        "emptyCount": 0,
+        "percentage": 97,
+        "hasNativeScript": 86,
+        "untranslatedPaths": [
+          "packages.basic.price",
+          "packages.silver.price",
+          "packages.gold.price"
+        ],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "mr": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 93,
+        "englishCount": 5,
+        "emptyCount": 0,
+        "percentage": 95,
+        "hasNativeScript": 93,
+        "untranslatedPaths": [
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength",
+          "validation.fileSize",
+          "validation.fileType"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 116,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 89,
+        "hasNativeScript": 116,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 89,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 89,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "gu": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 92,
+        "englishCount": 6,
+        "emptyCount": 0,
+        "percentage": 94,
+        "hasNativeScript": 92,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength",
+          "validation.fileSize"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 116,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 89,
+        "hasNativeScript": 116,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 89,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 89,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "ur": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 102,
+        "englishCount": 5,
+        "emptyCount": 0,
+        "percentage": 95,
+        "hasNativeScript": 102,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing",
+          "social.linkedin"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 91,
+        "englishCount": 7,
+        "emptyCount": 0,
+        "percentage": 93,
+        "hasNativeScript": 91,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "placeholders.phone",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 116,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 89,
+        "hasNativeScript": 116,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 86,
+        "englishCount": 3,
+        "emptyCount": 0,
+        "percentage": 97,
+        "hasNativeScript": 86,
+        "untranslatedPaths": [
+          "packages.basic.price",
+          "packages.silver.price",
+          "packages.gold.price"
+        ],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "kn": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 91,
+        "englishCount": 7,
+        "emptyCount": 0,
+        "percentage": 93,
+        "hasNativeScript": 91,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "placeholders.phone",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 116,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 89,
+        "hasNativeScript": 116,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 86,
+        "englishCount": 3,
+        "emptyCount": 0,
+        "percentage": 97,
+        "hasNativeScript": 86,
+        "untranslatedPaths": [
+          "packages.basic.price",
+          "packages.silver.price",
+          "packages.gold.price"
+        ],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "or": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 93,
+        "englishCount": 5,
+        "emptyCount": 0,
+        "percentage": 95,
+        "hasNativeScript": 93,
+        "untranslatedPaths": [
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength",
+          "validation.fileSize",
+          "validation.fileType"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 115,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 88,
+        "hasNativeScript": 115,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.enterprise.atms",
+            "english": "6+ ATMs",
+            "translated": "6+ ATM",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 89,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 89,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "pa": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 91,
+        "englishCount": 7,
+        "emptyCount": 0,
+        "percentage": 93,
+        "hasNativeScript": 91,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "placeholders.phone",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 116,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 89,
+        "hasNativeScript": 116,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 86,
+        "englishCount": 3,
+        "emptyCount": 0,
+        "percentage": 97,
+        "hasNativeScript": 86,
+        "untranslatedPaths": [
+          "packages.basic.price",
+          "packages.silver.price",
+          "packages.gold.price"
+        ],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "as": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 93,
+        "englishCount": 5,
+        "emptyCount": 0,
+        "percentage": 95,
+        "hasNativeScript": 93,
+        "untranslatedPaths": [
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength",
+          "validation.fileSize",
+          "validation.fileType"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 116,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 89,
+        "hasNativeScript": 116,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 173,
+        "englishCount": 2,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 173,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel",
+          "whyAtm.stats.roi.prefix"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 89,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 89,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    },
+    "ml": {
+      "about.json": {
+        "fileName": "about.json",
+        "totalStrings": 55,
+        "translatedCount": 4,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 7,
+        "hasNativeScript": 4,
+        "untranslatedPaths": [
+          "cta.button"
+        ],
+        "suspiciousTranslations": [
+          {
+            "path": "hero.subtitle",
+            "english": "Your trusted partner in the ATM franchise business",
+            "translated": "Our Expertise",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.expertise",
+            "english": "Our Expertise",
+            "translated": "Group Companies",
+            "issue": "No native script"
+          },
+          {
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
+            "translated": "Who We Are",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "accessibility.json": {
+        "fileName": "accessibility.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "agent.json": {
+        "fileName": "agent.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "blog.json": {
+        "fileName": "blog.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "common.json": {
+        "fileName": "common.json",
+        "totalStrings": 107,
+        "translatedCount": 103,
+        "englishCount": 4,
+        "emptyCount": 0,
+        "percentage": 96,
+        "hasNativeScript": 103,
+        "untranslatedPaths": [
+          "forms.minLength",
+          "forms.maxLength",
+          "search.results",
+          "pagination.showing"
+        ],
+        "suspiciousTranslations": []
+      },
+      "contact.json": {
+        "fileName": "contact.json",
+        "totalStrings": 10,
+        "translatedCount": 2,
+        "englishCount": 8,
+        "emptyCount": 0,
+        "percentage": 20,
+        "hasNativeScript": 2,
+        "untranslatedPaths": [
+          "phone.title",
+          "phone.hours",
+          "email.title",
+          "email.response",
+          "office.title"
+        ],
+        "suspiciousTranslations": []
+      },
+      "forms.json": {
+        "fileName": "forms.json",
+        "totalStrings": 98,
+        "translatedCount": 91,
+        "englishCount": 7,
+        "emptyCount": 0,
+        "percentage": 93,
+        "hasNativeScript": 91,
+        "untranslatedPaths": [
+          "placeholders.email",
+          "placeholders.phone",
+          "validation.required",
+          "validation.minLength",
+          "validation.maxLength"
+        ],
+        "suspiciousTranslations": []
+      },
+      "franchise.json": {
+        "fileName": "franchise.json",
+        "totalStrings": 131,
+        "translatedCount": 116,
+        "englishCount": 15,
+        "emptyCount": 0,
+        "percentage": 89,
+        "hasNativeScript": 116,
+        "untranslatedPaths": [
+          "comparison.models.basic.features[0]",
+          "comparison.models.basic.features[1]",
+          "comparison.models.basic.features[2]",
+          "comparison.models.basic.features[3]",
+          "comparison.models.professional.features[0]"
+        ],
+        "suspiciousTranslations": []
+      },
+      "home.json": {
+        "fileName": "home.json",
+        "totalStrings": 175,
+        "translatedCount": 174,
+        "englishCount": 1,
+        "emptyCount": 0,
+        "percentage": 99,
+        "hasNativeScript": 174,
+        "untranslatedPaths": [
+          "testimonials.monthsLabel"
+        ],
+        "suspiciousTranslations": []
+      },
+      "influencer.json": {
+        "fileName": "influencer.json",
+        "totalStrings": 13,
+        "translatedCount": 13,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 13,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "jobs.json": {
+        "fileName": "jobs.json",
+        "totalStrings": 15,
+        "translatedCount": 15,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 15,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "notFound.json": {
+        "fileName": "notFound.json",
+        "totalStrings": 6,
+        "translatedCount": 6,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 6,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "pixellpay.json": {
+        "fileName": "pixellpay.json",
+        "totalStrings": 16,
+        "translatedCount": 16,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 16,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "privacy.json": {
+        "fileName": "privacy.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "products.json": {
+        "fileName": "products.json",
+        "totalStrings": 89,
+        "translatedCount": 86,
+        "englishCount": 3,
+        "emptyCount": 0,
+        "percentage": 97,
+        "hasNativeScript": 86,
+        "untranslatedPaths": [
+          "packages.basic.price",
+          "packages.silver.price",
+          "packages.gold.price"
+        ],
+        "suspiciousTranslations": []
+      },
+      "refund.json": {
+        "fileName": "refund.json",
+        "totalStrings": 8,
+        "translatedCount": 8,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 8,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "startAtm.json": {
+        "fileName": "startAtm.json",
+        "totalStrings": 18,
+        "translatedCount": 18,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 18,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "terms.json": {
+        "fileName": "terms.json",
+        "totalStrings": 11,
+        "translatedCount": 11,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 11,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      }
+    }
+  }
+}

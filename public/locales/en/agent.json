@@ -1,0 +1,21 @@
+{
+  "title": "Become an Agent",
+  "subtitle": "Partner with us as an ATM agent and earn commission",
+  "hero": {
+    "badge": "Agent Partnership Program",
+    "heading": "Become an ATM Agent",
+    "description": "Join our network of successful agents earning steady commission",
+    "cta": "Apply Now"
+  },
+  "benefits": {
+    "title": "Agent Benefits",
+    "commission": "High Commission",
+    "support": "Full Support",
+    "training": "Free Training",
+    "flexible": "Flexible Hours"
+  },
+  "form": {
+    "title": "Agent Application Form",
+    "submit": "Submit Application"
+  }
+}

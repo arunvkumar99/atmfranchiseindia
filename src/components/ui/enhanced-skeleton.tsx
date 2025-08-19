@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { useTranslation } from 'react-i18next';
 
 interface SkeletonProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: 'text' | 'circular' | 'rectangular' | 'card';

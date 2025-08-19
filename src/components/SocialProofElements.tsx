@@ -2,6 +2,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, Quote, Users, TrendingUp, Shield, Award } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 interface TestimonialProps {
   name: string;
@@ -41,6 +42,8 @@ interface SocialProofElementsProps {
 }
 
 export function SocialProofElements({ variant = 'testimonials', className = "" }: SocialProofElementsProps) {
+  const { t } = useTranslation('common');
+  
   if (variant === 'testimonials') {
     return (
       <div className={`space-y-4 ${className}`}>
@@ -109,23 +112,23 @@ export function SocialProofElements({ variant = 'testimonials', className = "" }
   if (variant === 'stats') {
     return (
       <div className={`bg-gradient-card rounded-xl p-6 border border-border ${className}`}>
-        <h3 className="text-lg font-semibold text-foreground mb-4 text-center">Our Impact</h3>
+        <h3 className="text-lg font-semibold text-foreground mb-4 text-center">{t('content.our_impact', 'Our Impact')}</h3>
         <div className="grid grid-cols-2 gap-4 text-center">
           <div>
             <div className="text-2xl font-bold text-primary">500+</div>
-            <div className="text-sm text-muted-foreground">Active ATMs</div>
+            <div className="text-sm text-muted-foreground">{t('content.active_atms', 'Active ATMs')}</div>
           </div>
           <div>
             <div className="text-2xl font-bold text-secondary">₹50L+</div>
-            <div className="text-sm text-muted-foreground">Monthly Transactions</div>
+            <div className="text-sm text-muted-foreground">{t('content.monthly_transactions', 'Monthly Transactions')}</div>
           </div>
           <div>
             <div className="text-2xl font-bold text-accent">95%</div>
-            <div className="text-sm text-muted-foreground">Uptime</div>
+            <div className="text-sm text-muted-foreground">{t('content.uptime', 'Uptime')}</div>
           </div>
           <div>
             <div className="text-2xl font-bold text-primary">4.8★</div>
-            <div className="text-sm text-muted-foreground">Partner Rating</div>
+            <div className="text-sm text-muted-foreground">{t('content.partner_rating', 'Partner Rating')}</div>
           </div>
         </div>
       </div>
@@ -137,7 +140,7 @@ export function SocialProofElements({ variant = 'testimonials', className = "" }
       <div className={`bg-blue-50 border border-blue-200 rounded-lg p-3 ${className}`}>
         <div className="flex items-center gap-2 text-sm">
           <Shield className="w-4 h-4 text-blue-600" />
-          <span className="text-blue-700 font-medium">Trusted by 500+ partners</span>
+          <span className="text-blue-700 font-medium">{t('content.trusted_by_500_partners', 'Trusted by 500+ partners')}</span>
           <span className="text-blue-600">• RBI Licensed • ISO Certified</span>
         </div>
       </div>

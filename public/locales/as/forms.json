@@ -38,7 +38,7 @@
     "city": "আপোনাৰ চহৰ নিৰ্বাচন কৰক",
     "state": "আপোনাৰ ৰাজ্য নিৰ্বাচন কৰক",
     "searchCity": "অনুসন্ধান শহর...",
-    "selectOption": "এটা বিকল্প নিৰ্ব্বাচন কৰক",
+    "selectOption": "এটা বিকল্প নিৰ্বাচন কৰক",
     "uploadFile": "ফাইল বাছক বা ইয়াত টানিব",
     "pincode": "৬ অংকৰ পিন ক’ড"
   },
@@ -50,7 +50,7 @@
     "minLength": "{{field}} must be at least {{min}} characters",
     "maxLength": "{{field}} must not exceed {{max}} characters",
     "numberOnly": "অনুগ্ৰহ কৰি কেৱল নম্বৰ দিব",
-    "lettersOnly": "অনুগ্ৰহ কৰি কেৱল আখৰ প্ৰৱেশ কৰক",
+    "lettersOnly": "অনুগ্ৰহ কৰি কেৱল আখৰ দিব",
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
     "agreeRequired": "আপুনি চৰ্ত আৰু নিয়মত সন্মতি দিব লাগিব",

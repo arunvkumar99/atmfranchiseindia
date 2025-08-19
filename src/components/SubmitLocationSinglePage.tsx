@@ -20,8 +20,10 @@ import { useFormAnalytics } from "@/hooks/useFormAnalytics";
 // Supabase integration removed - now uses Google Sheets
 import { uploadFile } from "@/lib/fileUpload";
 import { INDIAN_STATES } from "@/lib/stateOptions";
+import { useTranslation } from 'react-i18next';
 
 const SubmitLocationSinglePage = () => {
+  const { t } = useTranslation('forms');
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
   const [formData, setFormData] = useState({
@@ -469,7 +471,7 @@ const SubmitLocationSinglePage = () => {
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleInputChange('email', e.target.value)}
-                      placeholder="your.email@example.com"
+                      placeholder={t('placeholders.email', 'your.email@example.com')}
                       className="w-full"
                       required
                     />
@@ -525,7 +527,7 @@ const SubmitLocationSinglePage = () => {
                     </Label>
                     <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                       <SelectTrigger className="w-full">
-                        <SelectValue placeholder="Select your state" />
+                        <SelectValue placeholder={t('placeholders.state', 'Select your state')} />
                       </SelectTrigger>
                       <SelectContent>
                         {INDIAN_STATES.map((state) => (

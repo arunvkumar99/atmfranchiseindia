@@ -14,6 +14,7 @@ import { SUPPORTED_LANGUAGES, changeLanguage } from '@/lib/i18n';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 export const LanguageSwitcherNew = () => {
+  const { t } = useTranslation('forms');
   const { i18n, t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();

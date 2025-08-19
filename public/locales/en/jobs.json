@@ -1,0 +1,23 @@
+{
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
+  "hero": {
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
+  },
+  "positions": {
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
+  },
+  "benefits": {
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
+  }
+}

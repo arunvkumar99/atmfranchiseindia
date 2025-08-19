@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { AlertCircle, XCircle, WifiOff, Clock, Shield } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -16,6 +17,7 @@ export function ErrorMessage({
   className 
 }: ErrorMessageProps) {
   const getIcon = () => {
+  const { t } = useTranslation('forms');
     if (message.toLowerCase().includes('offline') || message.toLowerCase().includes('network')) {
       return <WifiOff className="h-4 w-4" />;
     }

@@ -16,6 +16,7 @@ import { EnhancedFormWrapper } from "./EnhancedFormWrapper";
 import { CaptchaProtection } from "./ui/captcha-protection";
 import { SocialProofElements } from "./SocialProofElements";
 import { useFormAnalytics } from "@/hooks/useFormAnalytics";
+import { useTranslation } from 'react-i18next';
 
 export function AgentFormEnhanced() {
   const { toast } = useToast();
@@ -70,6 +71,7 @@ export function AgentFormEnhanced() {
   ];
 
   const handleInputChange = (field: string, value: string) => {
+  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
@@ -348,7 +350,7 @@ export function AgentFormEnhanced() {
                     </Select>
                     <Select value={formData.dateOfBirth.month} onValueChange={(value) => handleDateChange('month', value)}>
                       <SelectTrigger className="w-full">
-                        <SelectValue placeholder="Month" />
+                        <SelectValue placeholder={t('time.month', 'Month')} />
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="1">January</SelectItem>
@@ -367,7 +369,7 @@ export function AgentFormEnhanced() {
                     </Select>
                     <Select value={formData.dateOfBirth.year} onValueChange={(value) => handleDateChange('year', value)}>
                       <SelectTrigger className="w-full">
-                        <SelectValue placeholder="Year" />
+                        <SelectValue placeholder={t('time.year', 'Year')} />
                       </SelectTrigger>
                       <SelectContent>
                          {Array.from({length: 70}, (_, i) => (

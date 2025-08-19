@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Test</title>
+</head>
+<body>
+    <h1>Testing React App</h1>
+    <div id="test-output"></div>
+    
+    <script>
+        const output = document.getElementById('test-output');
+        
+        // Check what's happening
+        window.addEventListener('DOMContentLoaded', () => {
+            output.innerHTML += '<p>DOM Content Loaded</p>';
+            
+            // Check if root element exists
+            const root = document.getElementById('root');
+            if (root) {
+                output.innerHTML += '<p>✓ Root element exists</p>';
+                
+                // Check if React is rendering
+                setTimeout(() => {
+                    if (root.children.length > 0) {
+                        output.innerHTML += '<p>✓ React has rendered content</p>';
+                        output.innerHTML += '<p>Content: ' + root.innerHTML.substring(0, 100) + '...</p>';
+                    } else {
+                        output.innerHTML += '<p style="color: red;">✗ React has NOT rendered (root is empty)</p>';
+                    }
+                }, 2000);
+            } else {
+                output.innerHTML += '<p style="color: red;">✗ Root element NOT found</p>';
+            }
+        });
+        
+        // Check for errors
+        window.addEventListener('error', (e) => {
+            output.innerHTML += `<p style="color: red;">JavaScript Error: ${e.message} at ${e.filename}:${e.lineno}</p>`;
+        });
+        
+        // Try to fetch the main page
+        fetch('/')
+            .then(response => response.text())
+            .then(html => {
+                const hasRoot = html.includes('id="root"');
+                const hasScript = html.includes('src="/src/main.tsx"');
+                output.innerHTML += `<p>Main page has root: ${hasRoot}</p>`;
+                output.innerHTML += `<p>Main page has script: ${hasScript}</p>`;
+                
+                // Create an iframe to test the main app
+                const iframe = document.createElement('iframe');
+                iframe.src = '/';
+                iframe.style.width = '100%';
+                iframe.style.height = '400px';
+                iframe.style.border = '1px solid #ccc';
+                iframe.style.marginTop = '20px';
+                document.body.appendChild(iframe);
+                
+                // Check iframe after loading
+                iframe.onload = () => {
+                    setTimeout(() => {
+                        try {
+                            const iframeRoot = iframe.contentDocument.getElementById('root');
+                            if (iframeRoot && iframeRoot.children.length > 0) {
+                                output.innerHTML += '<p>✓ App loaded in iframe</p>';
+                            } else {
+                                output.innerHTML += '<p style="color: red;">✗ App NOT loaded in iframe</p>';
+                            }
+                        } catch (e) {
+                            output.innerHTML += '<p>Cannot access iframe content: ' + e.message + '</p>';
+                        }
+                    }, 3000);
+                };
+            });
+    </script>
+</body>
+</html>

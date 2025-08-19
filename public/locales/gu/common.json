@@ -4,7 +4,9 @@
     "aboutUs": "અમારા વિશે",
     "ourProducts": "અમારા ઉત્પાદનો",
     "becomeAgent": "એજન્ટ બનો",
-    "submitLocation": "સ્થાન સબમિટ કરો",
+    "submitLocation": "ATM સ્થાન સબમિટ કરો",
+    "becomeFranchise": "ફ્રેન્ચાઇઝ બનો",
+    "pixellpayAdvantage": "પિક્સેલપે એડવાન્ટેજ",
     "contactUs": "અમારો સંપર્ક કરો",
     "joinUs": "અમારી સાથે જોડાઓ",
     "blog": "બ્લોગ",
@@ -42,16 +44,55 @@
     "uploadError": "ફાઇલ અપલોડ કરવામાં ભૂલ"
   },
   "footer": {
-    "quickLinks": "ઝડપી લિંક્સ",
-    "services": "સેવાઓ",
-    "legal": "કાનૂની",
+    "company": {
+      "name": "એટીએમ ફ્રેન્ચાઇઝ ઇન્ડિયા",
+      "tagline": "વિશ્વસનીય વ્યવસાયિક ભાગીદાર",
+      "description": "પારદર્શક ATM ફ્રેન્ચાઇઝી તકો સાથે ગ્રામીણ ઉદ્યોગસાહસિકોને સશક્ત બનાવવું. ભારતભરના સમુદાયોની સેવા કરતી વખતે નિષ્ક્રિય આવકના સ્ત્રોતોનું નિર્માણ કરવું."
+    },
+    "contact": {
+      "location": "બેંગ્લોર, કર્ણાટક, ભારત"
+    },
+    "quickLinksTitle": "ઝડપી લિંક્સ",
+    "quickLinks": {
+      "whyAtm": "એટીએમ વ્યવસાય શા માટે?",
+      "services": "અમારી સેવાઓ",
+      "getStarted": "શરૂ કરો"
+    },
+    "links": {
+      "submitLocation": "ATM સ્થાન સબમિટ કરો",
+      "becomeFranchise": "ફ્રેન્ચાઇઝ બનો",
+      "agent": "એજન્ટ",
+      "influencer": "પ્રભાવક"
+    },
+    "servicesTitle": "અમારી સેવાઓ",
+    "services": {
+      "consultation": "એટીએમ ફ્રેન્ચાઇઝ કન્સલ્ટેશન",
+      "comparison": "WLA ઓપરેટર સરખામણી",
+      "evaluation": "સાઇટ મૂલ્યાંકન",
+      "training": "તાલીમ અને સહાય",
+      "marketing": "ડિજિટલ માર્કેટિંગ",
+      "technical": "ટેકનિકલ સહાય"
+    },
+    "legalTitle": "કાનૂની",
+    "legal": {
+      "privacy": "ગોપનીયતા નીતિ",
+      "terms": "શરતો અને નિયમો",
+      "refund": "રિફંડ નીતિ",
+      "accessibility": "સુલભતા નિવેદન"
+    },
     "followUs": "અમને અનુસરો",
-    "privacyPolicy": "ગોપનીયતા નીતિ",
-    "termsConditions": "શરતો અને નિયમો",
-    "refundPolicy": "રિફંડ નીતિ",
-    "accessibility": "સુલભતા નિવેદન",
-    "copyright": "© 2024 PixellPay. બધા હકો અમારી પાસે રાખેલા છે.",
-    "poweredBy": "PixellPay દ્વારા સંચાલિત"
+    "newsletter": {
+      "title": "અપડેટ રહો",
+      "description": "ATM ફ્રેન્ચાઇઝ તકો વિશે નવીનતમ અપડેટ્સ મેળવો",
+      "placeholder": "તમારું ઇમેઇલ દાખલ કરો",
+      "button": "સબ્સ્ક્રાઇબ કરો"
+    },
+    "copyright": "© ૨૦૨૫ એટીએમ ફ્રેન્ચાઇઝ ઇન્ડિયા. બધા હકો અમારી પાસે રાખેલા છે.",
+    "poweredBy": "પિક્સેલવેબ દ્વારા સંચાલિત",
+    "partners": {
+      "title": "અમારા ભાગીદારો",
+      "trusted": "ભારતભરના 500+ ફ્રેન્ચાઇઝ ભાગીદારો દ્વારા વિશ્વસનીય"
+    }
   },
   "errors": {
     "pageNotFound": "પેજ મળ્યું નથી",
@@ -68,7 +109,7 @@
     "processing": "પ્રક્રિયા કરી રહ્યું છે...",
     "submitting": "સબમિટ કરી રહ્યું છે...",
     "saving": "સાચવી રહ્યું છે...",
-    "deleting": "કાઢી નાખી રહ્યું છે...",
+    "deleting": "કાઢી રહ્યું છે...",
     "updating": "અપડેટ કરી રહ્યું છે..."
   },
   "search": {

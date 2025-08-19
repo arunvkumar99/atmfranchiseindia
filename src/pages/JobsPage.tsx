@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -16,6 +17,7 @@ import {
 import { JobApplicationProgressive } from "@/components/JobApplicationProgressive";
 
 const JobsPage = () => {
+  const { t } = useTranslation('jobs');
   const jobListings = [
     {
       id: "1",
@@ -58,7 +60,7 @@ const JobsPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-blue-600/10 rounded-full px-6 py-3 mb-6">
               <Users className="w-5 h-5 text-blue-600" />
-              <span className="text-sm font-medium text-blue-800">Join Our Growing Team</span>
+              <span className="text-sm font-medium text-blue-800">{t('content.join_our_growing_team', 'Join Our Growing Team')}</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -98,7 +100,7 @@ const JobsPage = () => {
         {/* Current Openings */}
         <div className="mb-16">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Current Job Openings</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('content.current_job_openings', 'Current Job Openings')}</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Explore exciting career opportunities in India's growing ATM franchise sector
             </p>
@@ -143,7 +145,7 @@ const JobsPage = () => {
                   </div>
 
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-3">Key Requirements:</h4>
+                    <h4 className="font-semibold text-gray-900 mb-3">{t('content.key_requirements', 'Key Requirements:')}</h4>
                     <ul className="space-y-2">
                       {job.requirements.map((req, index) => (
                         <li key={index} className="flex items-start gap-2 text-sm text-gray-700">
@@ -155,7 +157,7 @@ const JobsPage = () => {
                   </div>
 
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-3">Key Responsibilities:</h4>
+                    <h4 className="font-semibold text-gray-900 mb-3">{t('content.key_responsibilities', 'Key Responsibilities:')}</h4>
                     <ul className="space-y-2">
                       {job.responsibilities.map((resp, index) => (
                         <li key={index} className="flex items-start gap-2 text-sm text-gray-700">
@@ -167,7 +169,7 @@ const JobsPage = () => {
                   </div>
 
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-3">Benefits & Perks:</h4>
+                    <h4 className="font-semibold text-gray-900 mb-3">{t('content.benefits_perks', 'Benefits & Perks:')}</h4>
                     <ul className="space-y-2">
                       {job.benefits.map((benefit, index) => (
                         <li key={index} className="flex items-start gap-2 text-sm text-gray-700">
@@ -198,18 +200,18 @@ const JobsPage = () => {
         <div className="mb-12">
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 text-center">
             <MessageCircle className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-blue-900 mb-2">Have Questions?</h3>
+            <h3 className="text-xl font-bold text-blue-900 mb-2">{t('content.have_questions', 'Have Questions?')}</h3>
             <p className="text-blue-700 mb-6">
               Contact our HR team for more information about career opportunities
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <div className="flex items-center justify-center gap-2 text-blue-800">
                 <Phone className="w-4 h-4" />
-                <span className="font-medium">Contact HR Team</span>
+                <span className="font-medium">{t('content.contact_hr_team', 'Contact HR Team')}</span>
               </div>
               <div className="flex items-center justify-center gap-2 text-blue-800">
                 <Mail className="w-4 h-4" />
-                <span className="font-medium">Apply through the form below</span>
+                <span className="font-medium">{t('content.apply_through_the_form_below', 'Apply through the form below')}</span>
               </div>
             </div>
           </div>

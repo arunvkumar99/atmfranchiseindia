@@ -14,6 +14,7 @@ import { uploadFile } from "@/lib/fileUpload";
 import { useFormValidation, FULL_NAME_VALIDATION, EMAIL_VALIDATION, PHONE_VALIDATION } from "@/hooks/useFormValidation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Send, Loader2 } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 interface JobApplicationSinglePageProps {
   jobs: Array<{
@@ -77,6 +78,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
   });
 
   const handleInputChange = (field: string, value: string) => {
+  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     
     // Real-time validation when user types
@@ -335,7 +337,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                         id="candidateName" 
                         value={formData.candidateName}
                         onChange={(e) => handleInputChange('candidateName', e.target.value)}
-                        placeholder="Enter your full name" 
+                        placeholder={t('placeholders.fullName', 'Enter your full name')} 
                         className={errors.candidateName ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -354,7 +356,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                         type="email"
                         value={formData.email}
                         onChange={(e) => handleInputChange('email', e.target.value)}
-                        placeholder="your.email@example.com" 
+                        placeholder={t('placeholders.email', 'your.email@example.com')} 
                         className={errors.email ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />

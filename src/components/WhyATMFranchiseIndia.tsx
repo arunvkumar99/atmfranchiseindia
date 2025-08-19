@@ -1,10 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { Shield, Users, TrendingUp, Headphones, ArrowRight } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const WhyATMFranchiseIndia = () => {
+  const { t } = useTranslation('common');
   const reasons = [
     {
       number: "1",
@@ -100,10 +102,10 @@ const WhyATMFranchiseIndia = () => {
              <div className="flex items-center justify-center gap-4 mb-4">
                <img 
                  src="/lovable-uploads/56a47420-a61b-4533-8c38-19991c252f62.png" 
-                 alt="ATM Franchise India Logo" 
+                 alt={t('alt.atm_franchise_india_logo', 'ATM Franchise India Logo')} 
                  className="h-16 w-auto object-contain"
                />
-               <span className="text-2xl font-bold">Entering New Horizons with 200+ ATM across South India</span>
+               <span className="text-2xl font-bold">{t('content.entering_new_horizons_with_200', 'Entering New Horizons with 200+ ATM across South India')}</span>
              </div>
             <p className="text-xl mb-6 opacity-90">
               Start, Grow, and Succeed with ATM Franchise India!

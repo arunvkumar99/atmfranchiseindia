@@ -1,4 +1,5 @@
 import { GripVertical } from "lucide-react"
+import { useTranslation } from 'react-i18next';
 import * as ResizablePrimitive from "react-resizable-panels"
 
 import { cn } from "@/lib/utils"

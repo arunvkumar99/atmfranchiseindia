@@ -44,16 +44,55 @@
     "uploadError": "ফাইল আপলোড করার সময় ত্রুটি হয়েছে"
   },
   "footer": {
-    "quickLinks": "দ্রুত লিংক",
-    "services": "সেবা",
-    "legal": "আইনি",
+    "company": {
+      "name": "এটিএম ফ্র্যাঞ্চাইজি ভারত",
+      "tagline": "বিশ্বস্ত ব্যবসায়িক অংশীদার",
+      "description": "স্বচ্ছ এটিএম ফ্র্যাঞ্চাইজি সুযোগের মাধ্যমে গ্রামীণ উদ্যোক্তাদের ক্ষমতায়ন করা। ভারত জুড়ে সম্প্রদায়ের সেবা করার সময় প্যাসিভ আয়ের উৎস তৈরি করা।"
+    },
+    "contact": {
+      "location": "বেঙ্গালুরু, কর্ণাটক, ভারত"
+    },
+    "quickLinksTitle": "দ্রুত লিংক",
+    "quickLinks": {
+      "whyAtm": "কেন এটিএম ব্যবসা",
+      "services": "আমাদের সেবাসমূহ",
+      "getStarted": "শুরু করুন"
+    },
+    "links": {
+      "submitLocation": "এটিএম লোকেশন জমা দিন",
+      "becomeFranchise": "ফ্র্যাঞ্চাইজি হন",
+      "agent": "এজেন্ট",
+      "influencer": "প্রভাবশালী"
+    },
+    "servicesTitle": "আমাদের সেবাসমূহ",
+    "services": {
+      "consultation": "এটিএম ফ্র্যাঞ্চাইজি পরামর্শ",
+      "comparison": "WLA অপারেটর তুলনা",
+      "evaluation": "সাইট মূল্যায়ন",
+      "training": "প্রশিক্ষণ ও সহায়তা",
+      "marketing": "ডিজিটাল মার্কেটিং",
+      "technical": "কারিগরি সহায়তা"
+    },
+    "legalTitle": "আইনি",
+    "legal": {
+      "privacy": "গোপনীয়তা নীতি",
+      "terms": "শর্তাবলী",
+      "refund": "রিফান্ড নীতি",
+      "accessibility": "অ্যাক্সেসিবিলিটি স্টেটমেন্ট"
+    },
     "followUs": "আমাদের অনুসরণ করো",
-    "privacyPolicy": "গোপনীয়তা নীতি",
-    "termsConditions": "শর্তাবলী",
-    "refundPolicy": "রিফান্ড নীতি",
-    "accessibility": "অ্যাক্সেসিবিলিটি স্টেটমেন্ট",
-    "copyright": "© 2024 PixellPay. All rights reserved.",
-    "poweredBy": "Powered by PixellPay"
+    "newsletter": {
+      "title": "হালনাগাদ থাকা",
+      "description": "এটিএম ফ্র্যাঞ্চাইজির সুযোগ সম্পর্কে সর্বশেষ আপডেট পান",
+      "placeholder": "আপনার ইমেল লিখুন",
+      "button": "সাবস্ক্রাইব"
+    },
+    "copyright": "© ২০২৫ এটিএম ফ্র্যাঞ্চাইজি ইন্ডিয়া। সর্বস্বত্ব সংরক্ষিত।",
+    "poweredBy": "Pixellweb দ্বারা চালিত",
+    "partners": {
+      "title": "আমাদের অংশীদাররা",
+      "trusted": "ভারত জুড়ে ৫০০+ ফ্র্যাঞ্চাইজি অংশীদারদের দ্বারা বিশ্বস্ত"
+    }
   },
   "errors": {
     "pageNotFound": "পৃষ্ঠাটি খুঁজে পাওয়া যায়নি",

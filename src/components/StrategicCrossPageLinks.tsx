@@ -1,7 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { ArrowRight, Building, Users, Target, Briefcase, Phone, FileText } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 interface StrategicLinksProps {
   currentPage: 'home' | 'about' | 'franchise' | 'agent' | 'influencer' | 'contact' | 'blog';
@@ -10,6 +11,7 @@ interface StrategicLinksProps {
 
 export function StrategicCrossPageLinks({ currentPage, variant = 'detailed' }: StrategicLinksProps) {
   const getRecommendedLinks = () => {
+  const { t } = useTranslation('common');
     switch (currentPage) {
       case 'home':
         return [
@@ -191,7 +193,7 @@ export function StrategicCrossPageLinks({ currentPage, variant = 'detailed' }: S
 
   return (
     <div className="space-y-4">
-      <h3 className="text-lg font-semibold text-foreground">Related Opportunities</h3>
+      <h3 className="text-lg font-semibold text-foreground">{t('content.related_opportunities', 'Related Opportunities')}</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {displayLinks.map((link, index) => {
           const IconComponent = link.icon;
@@ -211,7 +213,7 @@ export function StrategicCrossPageLinks({ currentPage, variant = 'detailed' }: S
                         {link.description}
                       </p>
                       <div className="flex items-center gap-1 mt-2 text-primary text-sm">
-                        <span>Learn more</span>
+                        <span>{t('content.learn_more', 'Learn more')}</span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                       </div>
                     </div>

@@ -4,7 +4,9 @@
     "aboutUs": "ਸਾਡੇ ਬਾਰੇ",
     "ourProducts": "ਸਾਡੇ ਉਤਪਾਦ",
     "becomeAgent": "ਏਜੰਟ ਬਣੋ",
-    "submitLocation": "ਟਿਕਾਣਾ ਸਪੁਰਦ ਕਰੋ",
+    "submitLocation": "ATM ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
+    "becomeFranchise": "ਫਰੈਂਚਾਇਜ਼ੀ ਬਣੋ",
+    "pixellpayAdvantage": "PixellPay ਦਾ ਫਾਇਦਾ",
     "contactUs": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
     "joinUs": "ਸਾਡੇ ਨਾਲ ਸ਼ਾਮਲ",
     "blog": "ਬਲੌਗ",
@@ -42,16 +44,55 @@
     "uploadError": "ਫਾਈਲ ਅੱਪਲੋਡ ਕਰਨ ਵਿੱਚ ਗਲਤੀ ਆਈ"
   },
   "footer": {
-    "quickLinks": "ਤੇਜ਼ ਲਿੰਕ",
-    "services": "ਸੇਵਾਵਾਂ",
-    "legal": "ਕਾਨੂੰਨੀ",
+    "company": {
+      "name": "ਏਟੀਐਮ ਫਰੈਂਚਾਈਜ਼ ਇੰਡੀਆ",
+      "tagline": "ਭਰੋਸੇਯੋਗ ਵਪਾਰਕ ਸਾਥੀ",
+      "description": "ਪਾਰਦਰਸ਼ੀ ਏਟੀਐਮ ਫਰੈਂਚਾਇਜ਼ੀ ਮੌਕਿਆਂ ਨਾਲ ਪੇਂਡੂ ਉੱਦਮੀਆਂ ਨੂੰ ਸਸ਼ਕਤ ਬਣਾਉਣਾ। ਭਾਰਤ ਭਰ ਦੇ ਭਾਈਚਾਰਿਆਂ ਦੀ ਸੇਵਾ ਕਰਦੇ ਹੋਏ ਪੈਸਿਵ ਆਮਦਨੀ ਦੇ ਸਰੋਤ ਬਣਾਉਣਾ।"
+    },
+    "contact": {
+      "location": "ਬੰਗਲੌਰ, ਕਰਨਾਟਕ, ਭਾਰਤ"
+    },
+    "quickLinksTitle": "ਤੇਜ਼ ਲਿੰਕ",
+    "quickLinks": {
+      "whyAtm": "ਏਟੀਐਮ ਕਾਰੋਬਾਰ ਕਿਉਂ",
+      "services": "ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ",
+      "getStarted": "ਸ਼ੁਰੂ ਕਰੋ"
+    },
+    "links": {
+      "submitLocation": "ATM ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
+      "becomeFranchise": "ਫਰੈਂਚਾਇਜ਼ੀ ਬਣੋ",
+      "agent": "ਏਜੰਟ",
+      "influencer": "ਪ੍ਰਭਾਵਕ"
+    },
+    "servicesTitle": "ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ",
+    "services": {
+      "consultation": "ਏਟੀਐਮ ਫਰੈਂਚਾਈਜ਼ ਸਲਾਹ-ਮਸ਼ਵਰਾ",
+      "comparison": "WLA ਆਪਰੇਟਰ ਤੁਲਨਾ",
+      "evaluation": "ਸਾਈਟ ਮੁਲਾਂਕਣ",
+      "training": "ਸਿਖਲਾਈ ਅਤੇ ਸਹਾਇਤਾ",
+      "marketing": "ਡਿਜੀਟਲ ਮਾਰਕੀਟਿੰਗ",
+      "technical": "ਤਕਨੀਕੀ ਸਹਾਇਤਾ"
+    },
+    "legalTitle": "ਕਾਨੂੰਨੀ",
+    "legal": {
+      "privacy": "ਪਰਾਈਵੇਟ ਨੀਤੀ",
+      "terms": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
+      "refund": "ਰਿਫੰਡ ਨੀਤੀ",
+      "accessibility": "ਪਹੁੰਚਯੋਗਤਾ ਬਿਆਨ"
+    },
     "followUs": "ਸਾਡੇ ਪਿਛੇ ਆਓ",
-    "privacyPolicy": "ਪਰਾਈਵੇਟ ਨੀਤੀ",
-    "termsConditions": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
-    "refundPolicy": "ਰਿਫੰਡ ਨੀਤੀ",
-    "accessibility": "ਪਹੁੰਚਯੋਗਤਾ ਬਿਆਨ",
-    "copyright": "© 2024 PixellPay। ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ।",
-    "poweredBy": "PixellPay ਦੁਆਰਾ ਸੰਚਾਲਿਤ"
+    "newsletter": {
+      "title": "ਅੱਪਡੇਟ ਰਹੋ",
+      "description": "ATM ਫਰੈਂਚਾਇਜ਼ੀ ਦੇ ਮੌਕਿਆਂ ਬਾਰੇ ਨਵੀਨਤਮ ਅਪਡੇਟਸ ਪ੍ਰਾਪਤ ਕਰੋ",
+      "placeholder": "ਆਪਣਾ ਈਮੇਲ ਦਰਜ ਕਰੋ",
+      "button": "ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ"
+    },
+    "copyright": "© 2025 ਏਟੀਐਮ ਫਰੈਂਚਾਈਜ਼ ਇੰਡੀਆ। ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ।",
+    "poweredBy": "Pixellweb ਦੁਆਰਾ ਸੰਚਾਲਿਤ",
+    "partners": {
+      "title": "ਸਾਡੇ ਸਾਥੀ",
+      "trusted": "ਭਾਰਤ ਭਰ ਵਿੱਚ 500+ ਫ੍ਰੈਂਚਾਇਜ਼ੀ ਭਾਈਵਾਲਾਂ ਦੁਆਰਾ ਭਰੋਸੇਯੋਗ"
+    }
   },
   "errors": {
     "pageNotFound": "ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ",

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug React App</title>
+</head>
+<body>
+    <h1>Debug Info</h1>
+    <div id="debug-output"></div>
+    
+    <script>
+        const output = document.getElementById('debug-output');
+        
+        // Try to load the main app
+        fetch('/')
+            .then(response => response.text())
+            .then(html => {
+                // Check if basic requirements exist
+                const hasRoot = html.includes('id="root"');
+                const hasMainScript = html.includes('src="/src/main.tsx"');
+                const hasViteClient = html.includes('@vite/client');
+                
+                output.innerHTML += `
+                    <p>✓ Root div found: ${hasRoot}</p>
+                    <p>✓ Main script found: ${hasMainScript}</p>
+                    <p>✓ Vite client found: ${hasViteClient}</p>
+                `;
+                
+                // Check if we can access the i18n resources
+                return fetch('/locales/en/common.json');
+            })
+            .then(response => {
+                output.innerHTML += `<p>✓ Translation files accessible: ${response.ok}</p>`;
+                return response.json();
+            })
+            .then(data => {
+                output.innerHTML += `<p>✓ Translation data loaded: ${Object.keys(data).length} keys found</p>`;
+            })
+            .catch(error => {
+                output.innerHTML += `<p style="color: red;">✗ Error: ${error.message}</p>`;
+            });
+            
+        // Check for console errors
+        window.addEventListener('error', function(e) {
+            output.innerHTML += `<p style="color: red;">JavaScript Error: ${e.message} at ${e.filename}:${e.lineno}</p>`;
+        });
+    </script>
+</body>
+</html>

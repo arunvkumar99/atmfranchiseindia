@@ -8,14 +8,15 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation, useParams } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
-import { AuthProvider } from "@/hooks/useAuth";
-import ProtectedRoute from "@/components/ProtectedRoute";
 import { ErrorBoundary, AsyncErrorBoundary } from "@/components/ErrorBoundary";
 import Header from "./components/Header";
 import { BreadcrumbNavigation } from "./components/BreadcrumbNavigation";
 import Footer from "./components/Footer";
 import FixedLanguageRouter from "./components/FixedLanguageRouter";
 import AccessibilityWrapper from "@/components/AccessibilityWrapper";
+import { AccessibilityEnhancements, SkipNavigationLinks, KeyboardNavigationProvider } from "@/components/AccessibilityEnhancements";
+import { ResourceHints } from "@/components/PerformanceOptimizations";
+import { PerformanceMonitor } from "@/components/PerformanceMonitor";
 import { SecurityHeaders } from "@/components/ui/security-headers";
 import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
@@ -33,8 +34,6 @@ const ContactUs = lazy(() => import("./pages/ContactUs"));
 const AboutUs = lazy(() => import("./pages/AboutUs"));
 const OurProducts = lazy(() => import("./pages/OurProducts"));
 const StartATMPage = lazy(() => import("./pages/StartATMPage"));
-const AdminExport = lazy(() => import("./pages/AdminExport"));
-const AdminUserManagement = lazy(() => import("./pages/AdminUserManagement"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const TermsConditions = lazy(() => import("./pages/TermsConditions"));
@@ -46,6 +45,8 @@ const JobsPage = lazy(() => import("./pages/JobsPage"));
 // Blog pages - separate chunk
 const BlogPage = lazy(() => import("./pages/BlogPage"));
 const TranslationTest = lazy(() => import("./pages/TranslationTest"));
+const TranslationVerify = lazy(() => import("./pages/TranslationVerify"));
+const DesignAudit = lazy(() => import("./pages/DesignAudit"));
 const PerfectTimeSideHustle2025 = lazy(() => import("./pages/blog/PerfectTimeSideHustle2025"));
 const PassiveIncomeFinancialFreedom = lazy(() => import("./pages/blog/PassiveIncomeFinancialFreedom"));
 const TruthAboutPassiveIncomeIdeas = lazy(() => import("./pages/blog/TruthAboutPassiveIncomeIdeas"));
@@ -63,8 +64,6 @@ const LazyContactUs = withLazyLoading(ContactUs);
 const LazyAboutUs = withLazyLoading(AboutUs);
 const LazyOurProducts = withLazyLoading(OurProducts);
 const LazyStartATMPage = withLazyLoading(StartATMPage);
-const LazyAdminExport = withLazyLoading(AdminExport);
-const LazyAdminUserManagement = withLazyLoading(AdminUserManagement);
 const LazyNotFound = withLazyLoading(NotFound);
 const LazyPrivacyPolicy = withLazyLoading(PrivacyPolicy);
 const LazyTermsConditions = withLazyLoading(TermsConditions);
@@ -74,6 +73,9 @@ const LazyPixellpayAdvantage = withLazyLoading(PixellpayAdvantage);
 const LazyJobsPage = withLazyLoading(JobsPage);
 const LazyBlogPage = withLazyLoading(BlogPage);
 const LazyTranslationTest = withLazyLoading(TranslationTest);
+const LazyTranslationVerify = withLazyLoading(TranslationVerify);
+const LazyDesignAudit = withLazyLoading(DesignAudit);
+const LazyVisualShowcase = withLazyLoading(lazy(() => import('@/pages/VisualShowcase')));
 const LazyPerfectTimeSideHustle2025 = withLazyLoading(PerfectTimeSideHustle2025);
 const LazyPassiveIncomeFinancialFreedom = withLazyLoading(PassiveIncomeFinancialFreedom);
 const LazyTruthAboutPassiveIncomeIdeas = withLazyLoading(TruthAboutPassiveIncomeIdeas);
@@ -167,13 +169,17 @@ const App = () => {
                 <span />
               </SecurityHeaders>
               <BrowserRouter>
-              <AuthProvider>
-                <AccessibilityWrapper>
-                  <FixedLanguageRouter>
+                <KeyboardNavigationProvider>
+                  <AccessibilityWrapper>
+                    <SkipNavigationLinks />
+                    <AccessibilityEnhancements />
+                    <ResourceHints />
+                    {import.meta.env.DEV && <PerformanceMonitor />}
+                    <FixedLanguageRouter>
                     <ScrollToTop />
                     <div className="flex flex-col min-h-screen bg-background">
                       <Header />
-                      <main className="flex-1 pt-16" role="main">
+                      <main id="main-content" className="flex-1 pt-16" role="main" tabIndex={-1}>
                         <BreadcrumbNavigation />
                         <ErrorBoundary>
                           <Routes>
@@ -210,11 +216,9 @@ const App = () => {
                       
                       {/* Test route */}
                       {import.meta.env.DEV && <Route path="/test-translations" element={<LazyTranslationTest />} />}
-                      
-                      {/* Admin routes */}
-                      <Route path="/admin" element={<ProtectedRoute><LazyAdminExport /></ProtectedRoute>} />
-                      <Route path="/admin/users" element={<ProtectedRoute><LazyAdminUserManagement /></ProtectedRoute>} />
-                      
+                      {import.meta.env.DEV && <Route path="/verify-translations" element={<LazyTranslationVerify />} />}
+                      {import.meta.env.DEV && <Route path="/design-audit" element={<LazyDesignAudit />} />}
+                      {import.meta.env.DEV && <Route path="/visual-showcase" element={<LazyVisualShowcase />} />}
                       
                       {/* 404 page */}
                       <Route path="*" element={<LazyNotFound />} />
@@ -225,10 +229,11 @@ const App = () => {
                   <StickyMobileCTA />
                   {import.meta.env.DEV && <TranslationDebug />}
                   {import.meta.env.DEV && <TranslationValidator />}
+                  <PerformanceMonitor />
                 </div>
               </FixedLanguageRouter>
             </AccessibilityWrapper>
-          </AuthProvider>
+          </KeyboardNavigationProvider>
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>

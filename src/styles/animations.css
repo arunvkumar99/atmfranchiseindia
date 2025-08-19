@@ -1,4 +1,8 @@
-/* Micro-animations for enhanced UX */
+/* Premium micro-animations and visual polish */
+
+/* ============================================
+   Button Animations
+   ============================================ */
 
 /* Button press effect */
 .btn-press {
@@ -8,6 +12,59 @@
 .btn-press:active {
   transform: scale(0.98);
 }
+
+/* Premium button hover effect */
+.btn-premium {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.btn-premium::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.btn-premium:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Glow effect for primary buttons */
+.btn-glow::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  border-radius: inherit;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+  background-size: 400%;
+  animation: glowShift 3s linear infinite;
+}
+
+.btn-glow:hover::after {
+  opacity: 1;
+}
+
+@keyframes glowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ============================================
+   Card Animations
+   ============================================ */
 
 /* Card hover effect */
 .card-hover {
@@ -19,6 +76,34 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+/* 3D card tilt effect */
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.card-3d:hover {
+  transform: rotateY(5deg) rotateX(-5deg) translateZ(10px);
+}
+
+/* Glass morphism card */
+.card-glass {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.card-glass:hover {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+/* ============================================
+   Form Animations
+   ============================================ */
+
 /* Form field focus animation */
 .input-focus {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
@@ -28,6 +113,67 @@
   border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
+
+/* ============================================
+   Text Animations
+   ============================================ */
+
+/* Gradient text animation */
+.text-gradient-animate {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #667eea 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 3s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* ============================================
+   Loading Animations
+   ============================================ */
+
+/* Skeleton loading pulse */
+.skeleton-pulse {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeletonPulse 1.5s infinite;
+}
+
+@keyframes skeletonPulse {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Shimmer loading effect */
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.shimmer {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: shimmer;
+  animation-timing-function: linear;
+  background: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+  background-size: 800px 100px;
+}
+
+/* ============================================
+   Scroll Animations
+   ============================================ */
 
 /* Fade in animation */
 @keyframes fadeIn {
@@ -60,6 +206,22 @@
 .slide-up {
   animation: slideUp 0.5s ease forwards;
 }
+
+/* Fade in on scroll */
+.fade-in-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-in-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================
+   Interactive Elements
+   ============================================ */
 
 /* Pulse animation for CTAs */
 @keyframes pulse {
@@ -108,25 +270,131 @@
   animation: bounce 0.5s ease;
 }
 
-/* Shimmer loading effect */
-@keyframes shimmer {
-  0% {
-    background-position: -468px 0;
-  }
-  100% {
-    background-position: 468px 0;
+/* Ripple effect */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(0);
+  animation: rippleAnimation 0.6s ease-out;
+}
+
+@keyframes rippleAnimation {
+  to {
+    transform: scale(4);
+    opacity: 0;
   }
 }
 
-.shimmer {
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: shimmer;
-  animation-timing-function: linear;
-  background: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
-  background-size: 800px 100px;
+/* ============================================
+   Background Animations
+   ============================================ */
+
+/* Animated gradient background */
+.bg-gradient-animate {
+  background: linear-gradient(135deg, #667eea, #764ba2, #f093fb, #667eea);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
 }
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Floating shapes */
+.shape-float {
+  animation: shapeFloat 6s ease-in-out infinite;
+}
+
+@keyframes shapeFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-20px) rotate(120deg); }
+  66% { transform: translateY(20px) rotate(240deg); }
+}
+
+/* ============================================
+   Page Transitions
+   ============================================ */
+
+/* Page fade transition */
+.page-transition-fade {
+  animation: pageFade 0.4s ease-out;
+}
+
+@keyframes pageFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Page slide transition */
+.page-transition-slide {
+  animation: pageSlide 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes pageSlide {
+  from { 
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ============================================
+   Utility Animations
+   ============================================ */
+
+/* Hover lift effect */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Focus glow effect */
+.focus-glow {
+  transition: box-shadow 0.3s ease;
+}
+
+.focus-glow:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  outline: none;
+}
+
+/* Smooth transitions for all interactive elements */
+.smooth-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* GPU acceleration for smooth animations */
+.gpu-accelerate {
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Smooth font rendering */
+.smooth-text {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* ============================================
+   Performance & Accessibility
+   ============================================ */
 
 /* Smooth scroll behavior */
 html {

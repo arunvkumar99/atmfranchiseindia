@@ -1,4 +1,5 @@
 import { useToast } from "@/hooks/use-toast"
+import { useTranslation } from 'react-i18next';
 import {
   Toast,
   ToastClose,

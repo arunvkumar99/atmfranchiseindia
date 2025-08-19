@@ -1,5 +1,6 @@
 
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { useTranslation } from 'react-i18next';
 import { Button } from "@/components/ui/button";
 import { CheckCircle, ArrowRight, Phone, Mail, MessageSquare } from "lucide-react";
 import { CONTACT_INFO } from "@/lib/contactInfo";

@@ -18,6 +18,7 @@ import { useFormProgress } from "@/hooks/useFormProgress";
 import { useFormValidation, FULL_NAME_VALIDATION, EMAIL_VALIDATION, PHONE_VALIDATION, WHATSAPP_VALIDATION, PAN_VALIDATION, AADHAAR_VALIDATION } from "@/hooks/useFormValidation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader2, Send } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 export function AgentFormSinglePage() {
   const { toast } = useToast();
@@ -126,6 +127,7 @@ export function AgentFormSinglePage() {
   const progress = useFormProgress({ fields });
 
   const handleInputChange = (field: string, value: string) => {
+  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     // Real-time validation when user types
     if (value.trim()) {
@@ -644,7 +646,7 @@ export function AgentFormSinglePage() {
                       </Select>
                       <Select value={formData.dateOfBirth.month} onValueChange={(value) => handleDateChange('month', value)}>
                         <SelectTrigger className={errors['dateOfBirth.month'] ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Month" />
+                          <SelectValue placeholder={t('time.month', 'Month')} />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="1">January</SelectItem>
@@ -663,7 +665,7 @@ export function AgentFormSinglePage() {
                       </Select>
                       <Select value={formData.dateOfBirth.year} onValueChange={(value) => handleDateChange('year', value)}>
                         <SelectTrigger className={errors['dateOfBirth.year'] ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Year" />
+                          <SelectValue placeholder={t('time.year', 'Year')} />
                         </SelectTrigger>
                         <SelectContent>
                            {Array.from({length: 70}, (_, i) => (

@@ -1,0 +1,10 @@
+{
+  "title": "Page Not Found",
+  "heading": "404 - Page Not Found",
+  "message": "Sorry, the page you are looking for doesn't exist.",
+  "suggestion": "You may have mistyped the address or the page may have moved.",
+  "cta": {
+    "home": "Go to Homepage",
+    "contact": "Contact Support"
+  }
+}

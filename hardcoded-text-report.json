@@ -1,0 +1,952 @@
+{
+  "timestamp": "2025-08-19T03:04:10.629Z",
+  "statistics": {
+    "totalFiles": 151,
+    "filesUsingTranslation": 151,
+    "filesWithHardcoded": 97,
+    "totalHardcoded": 477,
+    "totalTCalls": 577,
+    "coveragePercent": 55
+  },
+  "filesToFix": [
+    {
+      "file": "src\\components\\JoinUs.tsx",
+      "hardcoded": 39,
+      "samples": [
+        "₹10-25 Lakhs",
+        "₹25+ Lakhs",
+        "₹2-3 Lakhs",
+        "₹3-4 Lakhs",
+        "₹4-5 Lakhs",
+        "₹5+ Lakhs",
+        "House/Building number, Street name",
+        "Area, Landmark",
+        "Enter city",
+        "Select business type"
+      ]
+    },
+    {
+      "file": "src\\components\\InfluencerFormSinglePage.tsx",
+      "hardcoded": 27,
+      "samples": [
+        "Primary contact number",
+        "WhatsApp number",
+        "Enter your email address",
+        "ABCDE1234F",
+        "Choose your state",
+        "Enter your district",
+        "Enter your permanent address",
+        "Enter your current address",
+        "https://facebook.com/yourprofile",
+        "https://instagram.com/yourprofile"
+      ]
+    },
+    {
+      "file": "src\\components\\AgentFormEnhanced.tsx",
+      "hardcoded": 26,
+      "samples": [
+        "Enter your full name as per PAN card",
+        "Primary contact number",
+        "WhatsApp active number",
+        "Enter your email address",
+        "ABCDE1234F",
+        "Upload Front Side of your PAN Card *",
+        "123456789012 (12 digits only)",
+        "Upload Aadhaar Front Side *",
+        "Upload Aadhaar Back Side *",
+        "Enter your permanent address here"
+      ]
+    },
+    {
+      "file": "src\\components\\EnquiryFormSinglePage.tsx",
+      "hardcoded": 26,
+      "samples": [
+        "₹5 - 10 Lakhs",
+        "₹10 - 15 Lakhs",
+        "₹15 - 25 Lakhs",
+        "Above ₹25 Lakhs",
+        "Primary contact number",
+        "WhatsApp contact number",
+        "Your city",
+        "Choose your state",
+        "6-digit pincode",
+        "Select business type"
+      ]
+    },
+    {
+      "file": "src\\components\\AgentFormSinglePage.tsx",
+      "hardcoded": 24,
+      "samples": [
+        "Enter your full name as per PAN card",
+        "Enter your email address",
+        "Primary contact number",
+        "WhatsApp active number",
+        "ABCDE1234F",
+        "Choose your state",
+        "Enter your district",
+        "Enter your permanent address here",
+        "Enter your current address here",
+        "Tell us about your motivation and goals as an agent"
+      ]
+    },
+    {
+      "file": "src\\components\\SubmitLocationSinglePage.tsx",
+      "hardcoded": 24,
+      "samples": [
+        "Enter agent code provided to you",
+        "Your complete name",
+        "Your 10-digit phone number",
+        "WhatsApp number (if different from phone)",
+        "Your city name",
+        "District name",
+        "6-digit pincode",
+        "Complete address with landmarks",
+        "What do you call this location?",
+        "https://maps.google.com/..."
+      ]
+    },
+    {
+      "file": "src\\components\\JobApplicationSinglePage.tsx",
+      "hardcoded": 19,
+      "samples": [
+        "Select a job position",
+        "Your contact number",
+        "City, State",
+        "e.g., 3 years, Fresher, etc.",
+        "e.g., ₹5,00,000 per annum",
+        "Select notice period",
+        "Submit",
+        "Add",
+        "Error",
+        "Success"
+      ]
+    },
+    {
+      "file": "src\\components\\GetStarted.tsx",
+      "hardcoded": 15,
+      "samples": [
+        "₹2-3 Lakhs",
+        "₹3-4 Lakhs",
+        "₹4-5 Lakhs",
+        "₹5+ Lakhs",
+        "City, State",
+        "Tell us about your business goals, timeline, or any specific questions...",
+        "Rural Family ATM Business",
+        "Successful ATM Franchise Owner",
+        "Submit",
+        "Add"
+      ]
+    },
+    {
+      "file": "src\\components\\UnifiedForm.tsx",
+      "hardcoded": 9,
+      "samples": [
+        "Submit",
+        "Add",
+        "Please wait",
+        "Error",
+        "Success",
+        "Required",
+        "Select",
+        "Apply",
+        "Reset"
+      ]
+    },
+    {
+      "file": "src\\components\\SubmitLocationHero.tsx",
+      "hardcoded": 8,
+      "samples": [
+        "ATM Location Success",
+        "Enter your email address",
+        "Describe your proposed ATM location with details about footfall, nearby businesses, accessibility, and why you think it",
+        "Submit",
+        "Add",
+        "Error",
+        "Success",
+        "Select"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\direct-file-upload.tsx",
+      "hardcoded": 8,
+      "samples": [
+        "Preview",
+        "Error",
+        "Required",
+        "Select",
+        "Choose",
+        "Reset",
+        "Clear",
+        "Upload"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\enhanced-file-upload.tsx",
+      "hardcoded": 8,
+      "samples": [
+        "Preview",
+        "Cancel",
+        "Error",
+        "Required",
+        "Select",
+        "Choose",
+        "Reset",
+        "Upload"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\standard-file-uploads.tsx",
+      "hardcoded": 8,
+      "samples": [
+        "PAN Document Upload",
+        "Passport Size Photo",
+        "Aadhaar Front Side",
+        "Aadhaar Back Side",
+        "Error",
+        "Select",
+        "Back",
+        "Upload"
+      ]
+    },
+    {
+      "file": "src\\components\\DirectSheetsForm.tsx",
+      "hardcoded": 7,
+      "samples": [
+        "Tell us about your requirements...",
+        "Submit",
+        "Save",
+        "Error",
+        "Success",
+        "Select",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ProgressiveFormWrapper.tsx",
+      "hardcoded": 7,
+      "samples": [
+        "Submit",
+        "Save",
+        "Success",
+        "Next",
+        "Previous",
+        "Continue",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\file-upload.tsx",
+      "hardcoded": 7,
+      "samples": [
+        "Preview",
+        "Add",
+        "Required",
+        "Select",
+        "Choose",
+        "Back",
+        "Upload"
+      ]
+    },
+    {
+      "file": "src\\components\\AccessibilityEnhancements.tsx",
+      "hardcoded": 6,
+      "samples": [
+        "required",
+        "Add",
+        "Loading",
+        "Select",
+        "No",
+        "Clear"
+      ]
+    },
+    {
+      "file": "src\\components\\OptimizedImage.tsx",
+      "hardcoded": 6,
+      "samples": [
+        "Close lightbox",
+        "Loading",
+        "Error",
+        "Select",
+        "Back",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\StickyHeader.tsx",
+      "hardcoded": 6,
+      "samples": [
+        "ATM Franchise India Logo",
+        "Search",
+        "Toggle menu",
+        "Submit",
+        "No",
+        "Export"
+      ]
+    },
+    {
+      "file": "src\\components\\EnhancedFormWrapper.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "Submit",
+        "Save",
+        "Success",
+        "Continue",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\SubmitLocationProgressive.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "Submit",
+        "Save",
+        "Success",
+        "Select",
+        "Upload"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\button-enhanced.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "Loading",
+        "Success",
+        "Warning",
+        "Required",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\file-upload-manager.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "Error",
+        "Select",
+        "No",
+        "Clear",
+        "Upload"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\pagination.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "pagination",
+        "Go to previous page",
+        "Go to next page",
+        "Next",
+        "Previous"
+      ]
+    },
+    {
+      "file": "src\\pages\\DesignAudit.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "Add",
+        "Error",
+        "Success",
+        "Warning",
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\pages\\SubmitLocation.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "₹50K",
+        "Submit",
+        "Success",
+        "Back",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\pages\\VisualShowcase.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "Email Address",
+        "Submit",
+        "Add",
+        "Loading",
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\test\\utils.tsx",
+      "hardcoded": 5,
+      "samples": [
+        "Loading",
+        "Error",
+        "Select",
+        "Finish",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\App.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Submit",
+        "Loading",
+        "Error",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\BecomefranchiseHero.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Submit",
+        "Back",
+        "No",
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\components\\FormSuccessModal.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Submit",
+        "Success",
+        "Next",
+        "Continue"
+      ]
+    },
+    {
+      "file": "src\\components\\FranchiseModelsComparison.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Error",
+        "Select",
+        "Choose",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\Header.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Submit",
+        "Choose",
+        "Search",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\Hero.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Submit",
+        "Choose",
+        "Back",
+        "Register"
+      ]
+    },
+    {
+      "file": "src\\components\\OptimizedComponents.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Error",
+        "No",
+        "Clear",
+        "Export"
+      ]
+    },
+    {
+      "file": "src\\components\\SearchComponent.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Search for ATM franchise, WLA ATMs, agent program...",
+        "Add",
+        "Search",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\carousel.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Error",
+        "Select",
+        "Next",
+        "Previous"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\sidebar.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Toggle Sidebar",
+        "Add",
+        "Error",
+        "OK"
+      ]
+    },
+    {
+      "file": "src\\pages\\AboutUs.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "Success",
+        "Next",
+        "Back",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "hardcoded": 4,
+      "samples": [
+        "₹25k-30k",
+        "Success",
+        "Back",
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\components\\ErrorBoundary.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Error",
+        "No",
+        "Reset"
+      ]
+    },
+    {
+      "file": "src\\components\\LazyLoadingWrapper.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Loading",
+        "Error",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\LoadingStates.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Submit",
+        "Loading",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\MicroInteractions.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Loading",
+        "Success",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\MobileNav.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Submit",
+        "Select",
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\components\\Testimonials.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "₹45K+",
+        "Success",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\TranslationDebug.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Back",
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\TranslationValidator.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Error",
+        "Success",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\security-headers.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Select",
+        "No",
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\components\\VisualPolish.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Select",
+        "Back",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\WhyATMFranchiseIndia.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Success",
+        "No",
+        "Register"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\TruthAboutPassiveIncomeIdeas.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Add",
+        "Back",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\pages\\JobsPage.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Submit",
+        "No",
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\pages\\NotFound.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Submit",
+        "Search",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\pages\\PixellpayAdvantage.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Success",
+        "Choose",
+        "Import"
+      ]
+    },
+    {
+      "file": "src\\pages\\TranslationTest.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Submit",
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\FAQ.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\FixedLanguageRouter.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "No",
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\components\\LanguageSwitcherNew.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Add",
+        "Remove"
+      ]
+    },
+    {
+      "file": "src\\components\\PerformanceOptimizations.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Loading",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\Services.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Select",
+        "Choose"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\breadcrumb.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "breadcrumb",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\captcha-protection.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Answer",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\chart.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Error",
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\error-message.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Dismiss message",
+        "Error"
+      ]
+    },
+    {
+      "file": "src\\components\\UrgencyElements.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "No",
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\pages\\AccessibilityStatement.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Back",
+        "Clear"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\PassiveIncomeFinancialFreedom.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Next",
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\pages\\JoinUsPage.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "No",
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\pages\\OurProducts.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Success",
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\pages\\TermsConditions.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Back",
+        "Clear"
+      ]
+    },
+    {
+      "file": "src\\components\\AccessibilityWrapper.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "No"
+      ]
+    },
+    {
+      "file": "src\\components\\BreadcrumbNavigation.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Submit"
+      ]
+    },
+    {
+      "file": "src\\components\\Footer.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Submit"
+      ]
+    },
+    {
+      "file": "src\\components\\FormProgress.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Save"
+      ]
+    },
+    {
+      "file": "src\\components\\SEOMetaTags.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Add"
+      ]
+    },
+    {
+      "file": "src\\components\\SocialProofElements.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "₹50L+"
+      ]
+    },
+    {
+      "file": "src\\components\\StrategicCrossPageLinks.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Success"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\alert-dialog.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Cancel"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\animated-hero.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Sign up"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\button.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Add"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\command.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Search"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\drawer.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\enhanced-skeleton.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Submit"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\form.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Error"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\optimized-image.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Error"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\select.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Select"
+      ]
+    },
+    {
+      "file": "src\\components\\WhyATM.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\hooks\\useLanguageRouter.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Add"
+      ]
+    },
+    {
+      "file": "src\\main.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Loading"
+      ]
+    },
+    {
+      "file": "src\\pages\\AgentPage.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\ATMFranchisePassiveIncome.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\PerfectTimeSideHustle2025.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\pages\\ContactUs.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Add"
+      ]
+    },
+    {
+      "file": "src\\pages\\InfluencerPage.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Clear"
+      ]
+    },
+    {
+      "file": "src\\pages\\PrivacyPolicy.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Back"
+      ]
+    },
+    {
+      "file": "src\\pages\\RefundPolicy.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Back"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import SubmitLocationSinglePage from "./SubmitLocationSinglePage";
+import { useTranslation } from 'react-i18next';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -23,6 +24,7 @@ import { uploadFile } from "@/lib/fileUpload";
 import { INDIAN_STATES } from "@/lib/stateOptions";
 
 const SubmitLocationProgressive = () => {
+  const { t } = useTranslation('forms');
   // Use the new single page component
   return <SubmitLocationSinglePage />;
 };

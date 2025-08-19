@@ -1,9 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Mail, FileText, Clock, Shield } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
+import { useTranslation } from 'react-i18next';
 
 const RefundPolicy = () => {
+  const { t } = useTranslation('refund');
   return (
     <div className="min-h-screen bg-background pt-14">
       {/* Hero Section */}
@@ -48,7 +50,7 @@ const RefundPolicy = () => {
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">General Refund Terms</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.general_refund_terms', 'General Refund Terms')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -79,7 +81,7 @@ const RefundPolicy = () => {
                       <FileText className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Refunds in Case of Customer Withdrawal</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.refunds_in_case_of_customer_wi', 'Refunds in Case of Customer Withdrawal')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -110,7 +112,7 @@ const RefundPolicy = () => {
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Refunds Where Principal Service Providers Are Involved</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.refunds_where_principal_servic', 'Refunds Where Principal Service Providers Are Involved')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -140,7 +142,7 @@ const RefundPolicy = () => {
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Refund Request Process</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.refund_request_process', 'Refund Request Process')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -149,7 +151,7 @@ const RefundPolicy = () => {
                   <p className="text-gray-700 mb-4">
                     📧 Email: <a href="mailto:support@pixellpay.com" className="text-blue-600 hover:text-blue-700">support@pixellpay.com</a>
                   </p>
-                  <p className="text-gray-700 mb-4">All requests must include:</p>
+                  <p className="text-gray-700 mb-4">{t('content.all_requests_must_include', 'All requests must include:')}</p>
                   <ul className="space-y-3 text-gray-700 mb-4">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2"></div>
@@ -182,7 +184,7 @@ const RefundPolicy = () => {
                       <Clock className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Processing Timelines</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.processing_timelines', 'Processing Timelines')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700">
@@ -199,7 +201,7 @@ const RefundPolicy = () => {
                       <FileText className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Disclaimer</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.disclaimer', 'Disclaimer')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700">

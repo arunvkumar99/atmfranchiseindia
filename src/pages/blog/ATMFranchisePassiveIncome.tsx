@@ -1,11 +1,13 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import { useTranslation } from 'react-i18next';
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { Calendar, Clock, ArrowLeft, Banknote, Smartphone, TrendingUp, Users, CheckCircle, Calculator } from "lucide-react";
 
 const ATMFranchisePassiveIncome = () => {
+  const { t } = useTranslation('forms');
   const benefits = [
     {
       title: "Low Daily Effort",

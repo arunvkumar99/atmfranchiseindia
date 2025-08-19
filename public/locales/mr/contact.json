@@ -1,0 +1,20 @@
+{
+  "title": "संपर्क साधा",
+  "subtitle": "आम्ही तुम्हाला मदत करण्यासाठी येथे आहोत",
+  "phone": {
+    "title": "Phone",
+    "hours": "Mon-Sat: 9 AM - 6 PM IST"
+  },
+  "email": {
+    "title": "Email",
+    "response": "We reply within 24 hours"
+  },
+  "office": {
+    "title": "Office Address",
+    "address": "Bangalore, Karnataka, India"
+  },
+  "form": {
+    "title": "Send us a Message",
+    "description": "Fill out the form below and our team will get back to you soon"
+  }
+}

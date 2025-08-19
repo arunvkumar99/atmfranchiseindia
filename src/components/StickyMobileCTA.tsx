@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Phone, ArrowRight } from 'lucide-react';
@@ -10,6 +11,7 @@ export function StickyMobileCTA() {
 
   useEffect(() => {
     const handleScroll = () => {
+  const { t } = useTranslation('forms');
       // Show after scrolling 100px
       const scrolled = window.scrollY > 100;
       setHasScrolled(scrolled);

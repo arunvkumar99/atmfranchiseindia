@@ -1,8 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, FileText, Shield, Mail } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
+import { useTranslation } from 'react-i18next';
 
 const TermsConditions = () => {
+  const { t } = useTranslation('terms');
   return (
     <div className="min-h-screen bg-background pt-14">
       {/* Hero Section */}
@@ -47,7 +49,7 @@ const TermsConditions = () => {
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Acceptance of Terms</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.acceptance_of_terms', 'Acceptance of Terms')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -78,7 +80,7 @@ const TermsConditions = () => {
                       <FileText className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Service Terms</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.service_terms', 'Service Terms')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -109,7 +111,7 @@ const TermsConditions = () => {
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Liability and Disclaimers</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.liability_and_disclaimers', 'Liability and Disclaimers')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
@@ -140,15 +142,15 @@ const TermsConditions = () => {
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">Contact Information</h2>
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('content.contact_information', 'Contact Information')}</h2>
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
                     If you have any questions about these Terms and Conditions, please contact us:
                   </p>
                   <div className="space-y-3 text-gray-700 mb-4">
-                    <p><strong>Email:</strong> <a href="mailto:atmfranchise@pixellpay.com" className="text-blue-600 hover:text-blue-700">atmfranchise@pixellpay.com</a></p>
-                    <p><strong>Phone:</strong> <a href="tel:+919072380076" className="text-blue-600 hover:text-blue-700">+91 9072380076</a></p>
+                    <p><strong>{t('content.email', 'Email:')}</strong> <a href="mailto:atmfranchise@pixellpay.com" className="text-blue-600 hover:text-blue-700">atmfranchise@pixellpay.com</a></p>
+                    <p><strong>{t('content.phone', 'Phone:')}</strong> <a href="tel:+919072380076" className="text-blue-600 hover:text-blue-700">+91 9072380076</a></p>
                   </div>
                   <p className="text-gray-700">
                     These terms and conditions are effective as of July 2025 and may be updated from time to time.

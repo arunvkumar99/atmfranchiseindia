@@ -9,13 +9,14 @@ A modern, high-performance website for ATM franchise opportunities in India. Bui
 
 ## ✨ Key Features
 
-- 🌐 **13 Indian Languages** - Full multilingual support
+- 🌐 **13 Indian Languages** - Full multilingual support with i18next
 - 📊 **Direct Google Sheets** - No database required
 - 📱 **Mobile Responsive** - Optimized for all devices
 - 🔌 **Offline Support** - Forms work without internet
 - 🚀 **Lightning Fast** - <3s load time on 3G
 - 🔒 **Enterprise Security** - Input sanitization, rate limiting
 - 💰 **Cost Efficient** - ~$1/month operational cost
+- 🔄 **Language Persistence** - Maintains selection across navigation
 
 ## 🏗️ Architecture
 
@@ -29,6 +30,7 @@ Frontend (React) → Serverless API → Google Sheets
 - **CDN Delivery** - Global edge network
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed technical architecture.
+See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) for translation system documentation.
 
 ## 🚀 Quick Start
 

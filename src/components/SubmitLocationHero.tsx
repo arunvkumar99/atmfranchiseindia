@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -11,6 +12,7 @@ import { useToast } from "@/hooks/use-toast";
 import passiveIncomeIcon from "@/assets/passive-income-icon.jpg";
 
 const SubmitLocationHero = () => {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     fullName: "",
@@ -243,7 +245,7 @@ const SubmitLocationHero = () => {
                       id="name" 
                       value={formData.fullName}
                       onChange={(e) => handleInputChange('fullName', e.target.value)}
-                      placeholder="Enter your full name"
+                      placeholder={t('placeholders.fullName', 'Enter your full name')}
                       className="h-12 border-2 border-gray-200 focus:border-blue-500 rounded-xl text-base transition-colors"
                       required
                     />
@@ -254,7 +256,7 @@ const SubmitLocationHero = () => {
                       id="phone" 
                       value={formData.phone}
                       onChange={(e) => handleInputChange('phone', e.target.value)}
-                      placeholder="Enter your phone number"
+                      placeholder={t('placeholders.phone', 'Enter your phone number')}
                       className="h-12 border-2 border-gray-200 focus:border-blue-500 rounded-xl text-base transition-colors"
                       required
                     />
@@ -279,7 +281,7 @@ const SubmitLocationHero = () => {
                     <Label className="text-base font-semibold text-gray-800">State</Label>
                     <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                       <SelectTrigger className="h-12 border-2 border-gray-200 focus:border-blue-500 rounded-xl text-base">
-                        <SelectValue placeholder="Select your state" />
+                        <SelectValue placeholder={t('placeholders.state', 'Select your state')} />
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="maharashtra">Maharashtra</SelectItem>
@@ -296,7 +298,7 @@ const SubmitLocationHero = () => {
                       id="city" 
                       value={formData.city}
                       onChange={(e) => handleInputChange('city', e.target.value)}
-                      placeholder="Enter your city"
+                      placeholder={t('placeholders.city', 'Enter your city')}
                       className="h-12 border-2 border-gray-200 focus:border-blue-500 rounded-xl text-base transition-colors"
                       required
                     />

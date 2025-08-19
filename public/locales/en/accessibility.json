@@ -1,0 +1,26 @@
+{
+  "title": "Accessibility Statement",
+  "commitment": {
+    "title": "Our Commitment",
+    "description": "We are committed to ensuring digital accessibility for all users"
+  },
+  "standards": {
+    "title": "Accessibility Standards",
+    "wcag": "WCAG 2.1 Level AA Compliance",
+    "testing": "Regular Accessibility Testing",
+    "feedback": "User Feedback Integration"
+  },
+  "features": {
+    "title": "Accessibility Features",
+    "keyboard": "Keyboard Navigation",
+    "screenReader": "Screen Reader Support",
+    "contrast": "High Contrast Options",
+    "textSize": "Adjustable Text Size"
+  },
+  "contact": {
+    "title": "Accessibility Feedback",
+    "description": "We welcome your feedback on accessibility",
+    "email": "Email Us",
+    "phone": "Call Us"
+  }
+}

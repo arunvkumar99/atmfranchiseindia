@@ -1,5 +1,6 @@
 
 import { useState, useEffect, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { FormProgress } from './FormProgress';
@@ -103,6 +104,7 @@ export function ProgressiveFormWrapper({
   }, [sections, currentSection, formData]);
 
   const handleNext = () => {
+  const { t } = useTranslation('forms');
     if (currentSection < sections.length - 1) {
       setCurrentSection(currentSection + 1);
     }

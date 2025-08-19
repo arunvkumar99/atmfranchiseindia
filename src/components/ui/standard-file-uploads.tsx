@@ -2,11 +2,13 @@
 // Since the Agent form is now fully standardized, let me create a standardized template component
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { useFileUploadManager } from '@/components/ui/file-upload-manager';
 import { DirectFileUpload } from '@/components/ui/direct-file-upload';
 
 // Standard File Upload Hook Template
 export const useStandardFileUploads = (formName: string) => {
+  const { t } = useTranslation('forms');
   const panDocumentManager = useFileUploadManager({ 
     maxSizeInMB: 5,
     acceptedTypes: ['image/jpeg', 'image/jpg', 'image/png', 'application/pdf'],

@@ -3,8 +3,10 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Building2, Shield, TrendingUp, Zap, Award, CreditCard, IndianRupee, ArrowRight } from "lucide-react";
 import youngEntrepreneurImage from "@/assets/young-atm-entrepreneur.jpg";
 import modernAtmImage from "@/assets/modern-atm-kiosk.jpg";
+import { useTranslation } from 'react-i18next';
 
 const PixellpayAdvantage = () => {
+  const { t } = useTranslation('pixellpay');
   return (
     <div className="min-h-screen bg-background pt-14">
       {/* Hero Section - Optimized Height */}
@@ -19,7 +21,7 @@ const PixellpayAdvantage = () => {
               Powered by PixellPay
             </div>
             <h1 className="font-heading font-bold text-4xl md:text-5xl text-gray-900 mb-4 leading-tight animate-fade-in">
-              <span className="text-blue-600">PixellPay</span> <span className="text-purple-600">Advantage</span>
+              <span className="text-blue-600">{t('content.pixellpay', 'PixellPay')}</span> <span className="text-purple-600">{t('content.advantage', 'Advantage')}</span>
             </h1>
             <p className="font-body text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto animate-fade-in mb-6">
               Comprehensive ATM franchise services with end-to-end support and proven expertise
@@ -29,12 +31,12 @@ const PixellpayAdvantage = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-3xl mx-auto">
               <img 
                 src={youngEntrepreneurImage}
-                alt="Young entrepreneur succeeding with ATM franchise business"
+                alt={t('alt.young_entrepreneur_succeeding_', 'Young entrepreneur succeeding with ATM franchise business')}
                 className="w-full h-48 md:h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/70 to-purple-600/50 flex items-center justify-center">
                 <div className="text-center text-white p-4">
-                  <h3 className="text-lg md:text-2xl font-bold mb-2">Your Success Starts Here</h3>
+                  <h3 className="text-lg md:text-2xl font-bold mb-2">{t('content.your_success_starts_here', 'Your Success Starts Here')}</h3>
                   <p className="text-sm md:text-base opacity-90">
                     Join successful entrepreneurs building wealth through ATM franchises
                   </p>
@@ -69,8 +71,8 @@ const PixellpayAdvantage = () => {
                   <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Building2 className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">Google GMB Profile & Location Boosting</h3>
-                  <p className="text-gray-600 mb-4">Enhance your ATM visibility and online presence:</p>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.google_gmb_profile_location_bo', 'Google GMB Profile & Location Boosting')}</h3>
+                  <p className="text-gray-600 mb-4">{t('content.enhance_your_atm_visibility_an', 'Enhance your ATM visibility and online presence:')}</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2"></div>
@@ -98,8 +100,8 @@ const PixellpayAdvantage = () => {
                   <div className="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Shield className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">Settlement Dispute Resolution</h3>
-                  <p className="text-gray-600 mb-4">Smooth handling of operational issues:</p>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.settlement_dispute_resolution', 'Settlement Dispute Resolution')}</h3>
+                  <p className="text-gray-600 mb-4">{t('content.smooth_handling_of_operational', 'Smooth handling of operational issues:')}</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2"></div>
@@ -119,8 +121,8 @@ const PixellpayAdvantage = () => {
                   <div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <TrendingUp className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">Payout Delay & Calculation Discrepancy Support</h3>
-                  <p className="text-gray-600 mb-4">Ensure you receive your rightful commission on time:</p>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.payout_delay_calculation_discr', 'Payout Delay & Calculation Discrepancy Support')}</h3>
+                  <p className="text-gray-600 mb-4">{t('content.ensure_you_receive_your_rightf', 'Ensure you receive your rightful commission on time:')}</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-purple-500 rounded-full mt-2"></div>
@@ -140,8 +142,8 @@ const PixellpayAdvantage = () => {
                   <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Zap className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">ATM & Asset Troubleshooting</h3>
-                  <p className="text-gray-600 mb-4">End-to-end support for ATM hardware and network issues:</p>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.atm_asset_troubleshooting', 'ATM & Asset Troubleshooting')}</h3>
+                  <p className="text-gray-600 mb-4">{t('content.endtoend_support_for_atm_hardw', 'End-to-end support for ATM hardware and network issues:')}</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2"></div>
@@ -165,8 +167,8 @@ const PixellpayAdvantage = () => {
                   <div className="w-12 h-12 bg-red-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Shield className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">Insurance Claim Settlement Assistance</h3>
-                  <p className="text-gray-600 mb-4">Your backup during unforeseen incidents:</p>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.insurance_claim_settlement_ass', 'Insurance Claim Settlement Assistance')}</h3>
+                  <p className="text-gray-600 mb-4">{t('content.your_backup_during_unforeseen_', 'Your backup during unforeseen incidents:')}</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-red-500 rounded-full mt-2"></div>
@@ -187,7 +189,7 @@ const PixellpayAdvantage = () => {
                     <Award className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-xl text-gray-900 mb-3">194N TDS Tagging & Compliance</h3>
-                  <p className="text-gray-600 mb-4">Avoid unnecessary TDS deductions on ATM operations:</p>
+                  <p className="text-gray-600 mb-4">{t('content.avoid_unnecessary_tds_deductio', 'Avoid unnecessary TDS deductions on ATM operations:')}</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-indigo-500 rounded-full mt-2"></div>
@@ -211,7 +213,7 @@ const PixellpayAdvantage = () => {
                   <div className="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Zap className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">Prompt Support</h3>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.prompt_support', 'Prompt Support')}</h3>
                   <p className="text-gray-600 mb-4">24/7 assistance for all your ATM business needs:</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
@@ -236,8 +238,8 @@ const PixellpayAdvantage = () => {
                   <div className="w-12 h-12 bg-teal-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Building2 className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">Settlement Account Opening</h3>
-                  <p className="text-gray-600 mb-4">Get your ATM current account ready for operations:</p>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.settlement_account_opening', 'Settlement Account Opening')}</h3>
+                  <p className="text-gray-600 mb-4">{t('content.get_your_atm_current_account_r', 'Get your ATM current account ready for operations:')}</p>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-teal-500 rounded-full mt-2"></div>
@@ -255,7 +257,7 @@ const PixellpayAdvantage = () => {
             {/* Why Choose ATM Franchise India - Enhanced with ATM Image */}
             <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
               <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8">
-                <h3 className="font-bold text-3xl text-gray-900 mb-4">Why Choose ATM Franchise India?</h3>
+                <h3 className="font-bold text-3xl text-gray-900 mb-4">{t('content.why_choose_atm_franchise_india', 'Why Choose ATM Franchise India?')}</h3>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   With deep expertise, a vast support network, and strong relationships with banks and WLA companies, we 
                   offer end-to-end assistance that simplifies and strengthens your ATM franchise journey.
@@ -267,7 +269,7 @@ const PixellpayAdvantage = () => {
               <div className="relative">
                 <img 
                   src={modernAtmImage}
-                  alt="Modern ATM representing business opportunity"
+                  alt={t('alt.modern_atm_representing_busine', 'Modern ATM representing business opportunity')}
                   className="w-full h-80 object-cover rounded-3xl shadow-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>
@@ -283,7 +285,7 @@ const PixellpayAdvantage = () => {
                       <ExternalLink className="w-8 h-8 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-2xl text-gray-900 mb-4">Important Disclaimer</h3>
+                      <h3 className="font-bold text-2xl text-gray-900 mb-4">{t('content.important_disclaimer', 'Important Disclaimer')}</h3>
                       <p className="text-gray-700 leading-relaxed text-lg">
                         ATM Franchise India is an assistance and facilitation partner. 
                         All ATM installation, payout, insurance, and compliance responsibilities lie with the respective WLA company 

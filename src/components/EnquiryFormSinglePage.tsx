@@ -14,6 +14,7 @@ import { CaptchaProtection } from "@/components/ui/captcha-protection";
 import { useFormValidation, FULL_NAME_VALIDATION, EMAIL_VALIDATION, PHONE_VALIDATION, WHATSAPP_VALIDATION, CITY_VALIDATION, STATE_VALIDATION, PINCODE_VALIDATION } from "@/hooks/useFormValidation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Send, Loader2 } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 export function EnquiryFormSinglePage() {
   const { toast } = useToast();
@@ -78,6 +79,7 @@ export function EnquiryFormSinglePage() {
   const progress = useFormProgress({ fields });
 
   const handleInputChange = (field: string, value: string) => {
+  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     
     // Real-time validation when user types
@@ -326,7 +328,7 @@ export function EnquiryFormSinglePage() {
                         id="fullName" 
                         value={formData.fullName}
                         onChange={(e) => handleInputChange('fullName', e.target.value)}
-                        placeholder="Enter your full name" 
+                        placeholder={t('placeholders.fullName', 'Enter your full name')} 
                         className={errors.fullName ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -345,7 +347,7 @@ export function EnquiryFormSinglePage() {
                         type="email"
                         value={formData.email}
                         onChange={(e) => handleInputChange('email', e.target.value)}
-                        placeholder="your.email@example.com" 
+                        placeholder={t('placeholders.email', 'your.email@example.com')} 
                         className={errors.email ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -488,8 +490,8 @@ export function EnquiryFormSinglePage() {
                           <SelectValue placeholder="Select investment range" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="1-3-lakhs">₹1 - 3 Lakhs</SelectItem>
-                          <SelectItem value="3-5-lakhs">₹3 - 5 Lakhs</SelectItem>
+                          <SelectItem value="1-3-lakhs">{t('investment.1to3L', '₹1 - 3 Lakhs')}</SelectItem>
+                          <SelectItem value="3-5-lakhs">{t('investment.3to5L', '₹3 - 5 Lakhs')}</SelectItem>
                           <SelectItem value="5-10-lakhs">₹5 - 10 Lakhs</SelectItem>
                           <SelectItem value="10-15-lakhs">₹10 - 15 Lakhs</SelectItem>
                           <SelectItem value="15-25-lakhs">₹15 - 25 Lakhs</SelectItem>

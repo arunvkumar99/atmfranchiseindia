@@ -44,16 +44,55 @@
     "uploadError": "फ़ाइल अपलोड करने में त्रुटि"
   },
   "footer": {
-    "quickLinks": "त्वरित सम्पक",
-    "services": "सेवाएं",
-    "legal": "कानूनी",
+    "company": {
+      "name": "एटीएम फ्रैंचाइज़ी इंडिया",
+      "tagline": "विश्वसनीय व्यावसायिक भागीदार",
+      "description": "पारदर्शी एटीएम फ्रैंचाइज़ी अवसरों के साथ ग्रामीण उद्यमियों को सशक्त बनाना। भारत भर के समुदायों की सेवा करते हुए निष्क्रिय आय के स्रोत बनाना।"
+    },
+    "contact": {
+      "location": "बैंगलोर, कर्नाटक, भारत"
+    },
+    "quickLinksTitle": "त्वरित सम्पक",
+    "quickLinks": {
+      "whyAtm": "एटीएम व्यवसाय क्यों?",
+      "services": "हमारी सेवाएँ",
+      "getStarted": "शुरू हो जाओ"
+    },
+    "links": {
+      "submitLocation": "एटीएम स्थान सबमिट करें",
+      "becomeFranchise": "फ्रैंचाइज़ी बनें",
+      "agent": "प्रतिनिधि",
+      "influencer": "प्रभावशाली व्यक्ति"
+    },
+    "servicesTitle": "हमारी सेवाएँ",
+    "services": {
+      "consultation": "एटीएम फ्रैंचाइज़ी परामर्श",
+      "comparison": "WLA ऑपरेटर तुलना",
+      "evaluation": "साइट मूल्यांकन",
+      "training": "प्रशिक्षण और सहायता",
+      "marketing": "डिजिटल विपणन",
+      "technical": "तकनीकी सहायता"
+    },
+    "legalTitle": "कानूनी",
+    "legal": {
+      "privacy": "गोपनीयता नीति",
+      "terms": "नियम एवं शर्तें",
+      "refund": "भुगतान वापसी की नीति",
+      "accessibility": "पहुँच योग्यता विवरण"
+    },
     "followUs": "हमारे पर का पालन करें",
-    "privacyPolicy": "गोपनीयता नीति",
-    "termsConditions": "नियम एवं शर्तें",
-    "refundPolicy": "भुगतान वापसी की नीति",
-    "accessibility": "पहुँच योग्यता विवरण",
-    "copyright": "© 2024 PixellPay. All rights reserved.",
-    "poweredBy": "Powered by PixellPay"
+    "newsletter": {
+      "title": "अपडेट रहें",
+      "description": "एटीएम फ्रैंचाइज़ी अवसरों पर नवीनतम अपडेट प्राप्त करें",
+      "placeholder": "अपना ईमेल दर्ज करें",
+      "button": "सदस्यता लें"
+    },
+    "copyright": "© 2025 एटीएम फ्रैंचाइज़ इंडिया। सर्वाधिकार सुरक्षित।",
+    "poweredBy": "पिक्सेलवेब द्वारा संचालित",
+    "partners": {
+      "title": "हमारे सहयोगियों",
+      "trusted": "पूरे भारत में 500 से अधिक फ्रैंचाइज़ी भागीदारों द्वारा विश्वसनीय"
+    }
   },
   "errors": {
     "pageNotFound": "पृष्ठ नहीं मिला",

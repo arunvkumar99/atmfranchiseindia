@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Star, TrendingUp, Users, Headphones, CheckCircle } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import businessGrowth from "@/assets/business-growth.jpg";
+import { useTranslation } from 'react-i18next';
 
 const BecomefranchiseHero = () => {
+  const { t } = useTranslation('common');
   const benefits = [
     {
       icon: TrendingUp,
@@ -76,16 +78,16 @@ const BecomefranchiseHero = () => {
               {/* Badge */}
               <div className="inline-flex items-center gap-sm mb-xl bg-background/10 backdrop-blur-md border border-border/20 rounded-full px-xl py-base shadow-professional">
                 <Star className="w-5 h-5 text-primary" />
-                <span className="text-primary-foreground/90 font-medium">Trusted ATM Franchise Partner</span>
+                <span className="text-primary-foreground/90 font-medium">{t('content.trusted_atm_franchise_partner', 'Trusted ATM Franchise Partner')}</span>
               </div>
               
               {/* Main Heading */}
               <h1 className="text-5xl md:text-7xl font-black mb-xl leading-tight">
-                <span className="block text-primary-foreground">Become an</span>
+                <span className="block text-primary-foreground">{t('content.become_an', 'Become an')}</span>
                 <span className="block bg-gradient-primary bg-clip-text text-transparent">
                   ATM Franchise
                 </span>
-                <span className="block text-primary-foreground">Partner</span>
+                <span className="block text-primary-foreground">{t('content.partner', 'Partner')}</span>
               </h1>
               
               {/* Description */}
@@ -127,7 +129,7 @@ const BecomefranchiseHero = () => {
             
             {/* Right Content - Process Steps */}
             <div className="bg-background/10 backdrop-blur-md rounded-3xl p-xl border border-border/20 shadow-professional">
-              <h3 className="text-2xl font-bold text-primary-foreground mb-xl text-center">Simple 4-Step Process</h3>
+              <h3 className="text-2xl font-bold text-primary-foreground mb-xl text-center">{t('content.simple_4step_process', 'Simple 4-Step Process')}</h3>
               <div className="space-y-xl">
                 {processSteps.map((step, index) => (
                   <div key={index} className="group flex items-start gap-lg p-lg rounded-2xl bg-background/5 hover:bg-background/10 transition-all duration-300">

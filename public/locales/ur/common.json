@@ -4,7 +4,9 @@
     "aboutUs": "ہمارے بارے میں",
     "ourProducts": "ہماری مصنوعات",
     "becomeAgent": "ایجنٹ بنیں۔",
-    "submitLocation": "مقام جمع کروائیں۔",
+    "submitLocation": "اے ٹی ایم لوکیشن جمع کروائیں۔",
+    "becomeFranchise": "فرنچائز بنیں۔",
+    "pixellpayAdvantage": "PixellPay کا فائدہ",
     "contactUs": "ہم سے رابطہ کریں۔",
     "joinUs": "ہمارے ساتھ شامل ہوں۔",
     "blog": "بلاگ",
@@ -42,16 +44,55 @@
     "uploadError": "فائل اپ لوڈ کرنے میں خرابی۔"
   },
   "footer": {
-    "quickLinks": "فوری لنکس",
-    "services": "خدمات",
-    "legal": "قانونی",
+    "company": {
+      "name": "اے ٹی ایم فرنچائز انڈیا",
+      "tagline": "قابل اعتماد کاروباری پارٹنر",
+      "description": "شفاف اے ٹی ایم فرنچائز کے مواقع کے ساتھ دیہی کاروباریوں کو بااختیار بنانا۔ ہندوستان بھر میں کمیونٹیز کی خدمت کرتے ہوئے غیر فعال آمدنی کے سلسلے کی تعمیر۔"
+    },
+    "contact": {
+      "location": "بنگلور، کرناٹک، انڈیا"
+    },
+    "quickLinksTitle": "فوری لنکس",
+    "quickLinks": {
+      "whyAtm": "اے ٹی ایم کاروبار کیوں؟",
+      "services": "ہماری خدمات",
+      "getStarted": "شروع کریں"
+    },
+    "links": {
+      "submitLocation": "اے ٹی ایم لوکیشن جمع کروائیں۔",
+      "becomeFranchise": "فرنچائز بنیں۔",
+      "agent": "ایجنٹ",
+      "influencer": "اثر کرنے والا"
+    },
+    "servicesTitle": "ہماری خدمات",
+    "services": {
+      "consultation": "اے ٹی ایم فرنچائز کنسلٹیشن",
+      "comparison": "WLA آپریٹر کا موازنہ",
+      "evaluation": "سائٹ کی تشخیص",
+      "training": "ٹریننگ اور سپورٹ",
+      "marketing": "ڈیجیٹل مارکیٹنگ",
+      "technical": "تکنیکی مدد"
+    },
+    "legalTitle": "قانونی",
+    "legal": {
+      "privacy": "رازداری کی پالیسی",
+      "terms": "شرائط و ضوابط",
+      "refund": "رقم کی واپسی کی پالیسی",
+      "accessibility": "رسائی کا بیان"
+    },
     "followUs": "ہمیں فالو کریں۔",
-    "privacyPolicy": "رازداری کی پالیسی",
-    "termsConditions": "شرائط و ضوابط",
-    "refundPolicy": "رقم کی واپسی کی پالیسی",
-    "accessibility": "رسائی کا بیان",
-    "copyright": "© 2024 PixellPay۔ جملہ حقوق محفوظ ہیں۔",
-    "poweredBy": "PixellPay کے ذریعے تقویت یافتہ"
+    "newsletter": {
+      "title": "اپ ڈیٹ رہیں",
+      "description": "اے ٹی ایم فرنچائز کے مواقع پر تازہ ترین اپ ڈیٹس حاصل کریں۔",
+      "placeholder": "اپنا ای میل درج کریں۔",
+      "button": "سبسکرائب کریں۔"
+    },
+    "copyright": "© 2025 اے ٹی ایم فرنچائز انڈیا۔ جملہ حقوق محفوظ ہیں۔",
+    "poweredBy": "Pixellweb کے ذریعے تقویت یافتہ",
+    "partners": {
+      "title": "ہمارے پارٹنرز",
+      "trusted": "پورے ہندوستان میں 500+ فرنچائز پارٹنرز کے ذریعے بھروسہ مند"
+    }
   },
   "errors": {
     "pageNotFound": "صفحہ نہیں ملا",

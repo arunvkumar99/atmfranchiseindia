@@ -1,6 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useTranslation } from 'react-i18next';
 
 const WLAOperators = () => {
+  const { t } = useTranslation('forms');
   const operators = [
     {
       name: "EPS BANCS",

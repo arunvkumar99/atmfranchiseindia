@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { RefreshCw } from 'lucide-react';
 
@@ -14,6 +15,7 @@ export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectio
   const [isVerified, setIsVerified] = useState(false);
 
   const generateChallenge = () => {
+  const { t } = useTranslation('forms');
     const num1 = Math.floor(Math.random() * 10) + 1;
     const num2 = Math.floor(Math.random() * 10) + 1;
     const operations = ['+', '-', '×'];

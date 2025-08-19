@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Search, Home, Phone, ArrowLeft } from 'lucide-react';
 import SearchComponent from '@/components/SearchComponent';
 
 const NotFound = () => {
+  const { t } = useTranslation('notFound');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const quickLinks = [

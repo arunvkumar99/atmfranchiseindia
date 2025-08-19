@@ -308,19 +308,29 @@
         "name": "Rajesh Kumar",
         "location": "Mumbai, Maharashtra",
         "business": "EPS ATM Franchise",
+        "revenue": "₹45,000/month",
         "testimonial": "ATM Franchise India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
       },
       "priya": {
         "name": "Priya Sharma",
         "location": "Bangalore, Karnataka",
         "business": "Vakrangee Partnership",
+        "revenue": "₹38,000/month",
         "testimonial": "The team's expertise in WLA partnerships is unmatched. My ATM is generating consistent ₹38,000 monthly income in just 6 months."
       },
       "amit": {
         "name": "Amit Patel",
         "location": "Ahmedabad, Gujarat",
         "business": "Indicash Franchise",
+        "revenue": "₹52,000/month",
         "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
+      },
+      "sanjay": {
+        "name": "Sanjay Verma",
+        "location": "Pune, Maharashtra",
+        "business": "Hitachi ATM Partner",
+        "revenue": "₹42,000/month",
+        "testimonial": "Excellent support from start to finish. The team helped me select the perfect location and WLA partner. Now earning steady passive income with minimal daily involvement."
       }
     },
     "monthsLabel": "in {{months}} months",

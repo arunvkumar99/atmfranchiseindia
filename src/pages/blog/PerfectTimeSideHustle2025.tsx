@@ -1,11 +1,13 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import { useTranslation } from 'react-i18next';
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { Calendar, Clock, ArrowLeft, TrendingUp, Users, DollarSign } from "lucide-react";
 
 const PerfectTimeSideHustle2025 = () => {
+  const { t } = useTranslation('forms');
   return (
     <div className="min-h-screen bg-background pt-24 pb-16">
       <div className="container mx-auto px-4 max-w-4xl">

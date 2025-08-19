@@ -1,12 +1,15 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { useTranslation } from 'react-i18next';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Shield, LogOut, ChevronDown, Search } from "lucide-react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { Link, useNavigate } from "@/hooks/useLanguageRouter";
 import { useAuth } from "@/hooks/useAuth";
 import SearchComponent from "@/components/SearchComponent";
 
 const StickyHeader = () => {
+  const { t } = useTranslation('forms');
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);

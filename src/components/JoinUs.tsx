@@ -8,8 +8,10 @@ import { ArrowRight, CheckCircle, Building, MapPin, Phone, Mail, User, Briefcase
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import ruralShopOwner from "@/assets/rural-shop-owner.jpg";
+import { useTranslation } from 'react-i18next';
 
 const JoinUs = () => {
+  const { t } = useTranslation('forms');
   const [formData, setFormData] = useState({
     // Personal Information
     firstName: "",
@@ -121,43 +123,43 @@ const JoinUs = () => {
   const benefits = [
     {
       icon: IndianRupee,
-      title: "High ROI Potential",
-      description: "Earn up to 50% return on investment with transparent revenue sharing"
+      title: t('benefits.roi.title', 'High ROI Potential'),
+      description: t('benefits.roi.description', 'Earn up to 50% return on investment with transparent revenue sharing')
     },
     {
       icon: Building,
-      title: "Low Competition", 
-      description: "Only 15 ATMs per 1 lakh people - huge market opportunity"
+      title: t('benefits.competition.title', 'Low Competition'), 
+      description: t('benefits.competition.description', 'Only 15 ATMs per 1 lakh people - huge market opportunity')
     },
     {
       icon: CheckCircle,
-      title: "Complete Support",
-      description: "End-to-end assistance from setup to operations"
+      title: t('benefits.support.title', 'Complete Support'),
+      description: t('benefits.support.description', 'End-to-end assistance from setup to operations')
     },
     {
       icon: User,
-      title: "Proven Track Record",
-      description: "Join 500+ successful franchisees across India"
+      title: t('benefits.track.title', 'Proven Track Record'),
+      description: t('benefits.track.description', 'Join 500+ successful franchisees across India')
     }
   ];
 
   const jobOpportunities = [
     {
       icon: User,
-      title: "Join as Agent",
-      description: "Become a field sales agent and earn commission",
+      title: t('opportunities.agent.title', 'Join as Agent'),
+      description: t('opportunities.agent.description', 'Become a field sales agent and earn commission'),
       link: "/join-us/agent"
     },
     {
       icon: Building,
-      title: "Join as Franchise", 
-      description: "Start your own ATM business",
+      title: t('opportunities.franchise.title', 'Join as Franchise'), 
+      description: t('opportunities.franchise.description', 'Start your own ATM business'),
       link: "/become-franchise"
     },
     {
       icon: Briefcase,
-      title: "Join as Employee",
-      description: "Build your career with full-time positions",
+      title: t('opportunities.employee.title', 'Join as Employee'),
+      description: t('opportunities.employee.description', 'Build your career with full-time positions'),
       link: "/join-us/jobs"
     }
   ];
@@ -169,11 +171,11 @@ const JoinUs = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
             Join the
-            <span className="bg-gradient-hero bg-clip-text text-transparent"> ATM Franchise </span>
-            Revolution
+            <span className="bg-gradient-hero bg-clip-text text-transparent"> {t('title.highlight', 'ATM Franchise')} </span>
+            {t('title.revolution', 'Revolution')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-            Choose your path to success with ATM Franchise India
+            {t('subtitle', 'Choose your path to success with ATM Franchise India')}
           </p>
           
           {/* Job Opportunities Navigation */}
@@ -226,10 +228,10 @@ const JoinUs = () => {
               <CardHeader>
                 <CardTitle className="text-2xl text-foreground flex items-center">
                   <Briefcase className="w-6 h-6 mr-3 text-primary" />
-                  ATM Franchise Application Form
+                  {t('form.title', 'ATM Franchise Application Form')}
                 </CardTitle>
                 <p className="text-muted-foreground">
-                  Please provide accurate information. All fields marked with * are mandatory.
+                  {t('form.instruction', 'Please provide accurate information. All fields marked with * are mandatory.')}
                 </p>
               </CardHeader>
               
@@ -239,7 +241,7 @@ const JoinUs = () => {
                   <div className="space-y-6">
                     <h3 className="text-lg font-semibold text-foreground flex items-center">
                       <User className="w-5 h-5 mr-2 text-primary" />
-                      Personal Information
+                      {t('sections.personal', 'Personal Information')}
                     </h3>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -250,7 +252,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.firstName}
                           onChange={(e) => handleChange('firstName', e.target.value)}
-                          placeholder="Enter first name"
+                          placeholder={t('placeholders.firstName', 'Enter first name')}
                           required
                         />
                       </div>
@@ -262,7 +264,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.lastName}
                           onChange={(e) => handleChange('lastName', e.target.value)}
-                          placeholder="Enter last name"
+                          placeholder={t('placeholders.lastName', 'Enter last name')}
                           required
                         />
                       </div>
@@ -275,7 +277,7 @@ const JoinUs = () => {
                           type="email"
                           value={formData.email}
                           onChange={(e) => handleChange('email', e.target.value)}
-                          placeholder="your.email@example.com"
+                          placeholder={t('placeholders.email', 'your.email@example.com')}
                           required
                         />
                       </div>
@@ -288,7 +290,7 @@ const JoinUs = () => {
                           type="tel"
                           value={formData.phone}
                           onChange={(e) => handleChange('phone', e.target.value)}
-                          placeholder="+91 98765 43210"
+                          placeholder={t('placeholders.phone', '+91 98765 43210')}
                           required
                         />
                       </div>
@@ -301,7 +303,7 @@ const JoinUs = () => {
                           type="tel"
                           value={formData.alternatePhone}
                           onChange={(e) => handleChange('alternatePhone', e.target.value)}
-                          placeholder="+91 98765 43210"
+                          placeholder={t('placeholders.phone', '+91 98765 43210')}
                         />
                       </div>
                       
@@ -323,7 +325,7 @@ const JoinUs = () => {
                   <div className="space-y-6">
                     <h3 className="text-lg font-semibold text-foreground flex items-center">
                       <MapPin className="w-5 h-5 mr-2 text-primary" />
-                      Address Information
+                      {t('sections.address', 'Address Information')}
                     </h3>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -368,7 +370,7 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.state} onValueChange={(value) => handleChange('state', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select state" />
+                            <SelectValue placeholder={t('placeholders.state', 'Select state')} />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="andhra-pradesh">Andhra Pradesh</SelectItem>
@@ -397,7 +399,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.pincode}
                           onChange={(e) => handleChange('pincode', e.target.value)}
-                          placeholder="Enter 6-digit PIN code"
+                          placeholder={t('placeholders.pincode', 'Enter 6-digit PIN code')}
                           maxLength={6}
                           required
                         />
@@ -409,7 +411,7 @@ const JoinUs = () => {
                   <div className="space-y-6">
                     <h3 className="text-lg font-semibold text-foreground flex items-center">
                       <Building className="w-5 h-5 mr-2 text-primary" />
-                      Business Information
+                      {t('sections.business', 'Business Information')}
                     </h3>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -470,9 +472,9 @@ const JoinUs = () => {
                             <SelectValue placeholder="Select income range" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="below-2l">Below ₹2 Lakhs</SelectItem>
-                            <SelectItem value="2l-5l">₹2-5 Lakhs</SelectItem>
-                            <SelectItem value="5l-10l">₹5-10 Lakhs</SelectItem>
+                            <SelectItem value="below-2l">{t('options.investment.below2', 'Below ₹2 Lakhs')}</SelectItem>
+                            <SelectItem value="2l-5l">{t('investment.2to5L', '₹2-5 Lakhs')}</SelectItem>
+                            <SelectItem value="5l-10l">{t('investment.5to10L', '₹5-10 Lakhs')}</SelectItem>
                             <SelectItem value="10l-25l">₹10-25 Lakhs</SelectItem>
                             <SelectItem value="25l+">₹25+ Lakhs</SelectItem>
                           </SelectContent>
@@ -484,7 +486,7 @@ const JoinUs = () => {
                   {/* ATM Franchise Details */}
                   <div className="space-y-6">
                     <h3 className="text-lg font-semibold text-foreground">
-                      ATM Franchise Details
+                      {t('sections.franchise', 'ATM Franchise Details')}
                     </h3>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -578,7 +580,7 @@ const JoinUs = () => {
                   <div className="space-y-6">
                     <h3 className="text-lg font-semibold text-foreground flex items-center">
                       <IndianRupee className="w-5 h-5 mr-2 text-primary" />
-                      Financial Information
+                      {t('sections.financial', 'Financial Information')}
                     </h3>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -639,7 +641,7 @@ const JoinUs = () => {
                   {/* Additional Information */}
                   <div className="space-y-6">
                     <h3 className="text-lg font-semibold text-foreground">
-                      Additional Information
+                      {t('sections.additional', 'Additional Information')}
                     </h3>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -742,12 +744,12 @@ const JoinUs = () => {
                       size="lg" 
                       className="w-full bg-gradient-accent-light-blue text-primary-foreground shadow-professional hover:shadow-lg transition-all"
                     >
-                      Submit Application
+                      {t('buttons.submit', 'Submit Application')}
                       <ArrowRight className="w-5 h-5 ml-2" />
                     </Button>
                     
                     <p className="text-center text-sm text-muted-foreground mt-4">
-                      Our team will review your application within 24-48 hours and contact you with next steps.
+                      {t('form.submitMessage', 'Our team will review your application within 24-48 hours and contact you with next steps.')}
                     </p>
                   </div>
                 </form>

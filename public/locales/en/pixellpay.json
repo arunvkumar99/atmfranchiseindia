@@ -1,0 +1,32 @@
+{
+  "title": "Pixellpay Advantage",
+  "subtitle": "Advanced payment solutions for modern banking",
+  "hero": {
+    "heading": "The Pixellpay Advantage",
+    "description": "Cutting-edge technology for seamless transactions",
+    "cta": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "security": {
+      "title": "Enhanced Security",
+      "description": "Bank-grade security for all transactions"
+    },
+    "speed": {
+      "title": "Lightning Fast",
+      "description": "Process transactions in seconds"
+    },
+    "reliability": {
+      "title": "99.9% Uptime",
+      "description": "Reliable service you can count on"
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Round-the-clock technical assistance"
+    }
+  },
+  "technology": {
+    "title": "Our Technology",
+    "description": "Built with latest fintech innovations"
+  }
+}

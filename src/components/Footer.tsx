@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { CONTACT_INFO } from "@/lib/contactInfo";
 import { useAppTranslation } from "@/hooks/useAppTranslation";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
-  const { t } = useAppTranslation('common');
+  const { t } = useTranslation('common');
   
   const quickLinks = [
     { label: t('footer.quickLinks.home', 'Home'), href: "#home" },
@@ -24,7 +25,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-foreground text-background py-16">
+    <footer id="footer" className="bg-foreground text-background py-16" role="contentinfo" tabIndex={-1}>
       <div className="container mx-auto px-4">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
@@ -34,7 +35,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3 mb-4">
                 <img 
                   src="/lovable-uploads/66055441-3af8-4124-9186-55a3967c791e.png" 
-                  alt="ATM Franchise India Logo" 
+                  alt={t('alt.atm_franchise_india_logo', 'ATM Franchise India Logo')} 
                   className="h-12 w-auto object-contain"
                 />
                 <div>
@@ -68,16 +69,16 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-6">{t('footer.quickLinksTitle', 'Quick Links')}</h4>
             <div className="space-y-3">
               <Link to="/submit-location" className="block text-background/80 hover:text-primary transition-colors">
-                Submit ATM Location
+                {t('footer.links.submitLocation', 'Submit ATM Location')}
               </Link>
               <Link to="/become-franchise" className="block text-background/80 hover:text-primary transition-colors">
-                Become Franchise
+                {t('footer.links.becomeFranchise', 'Become Franchise')}
               </Link>
               <Link to="/agent" className="block text-background/80 hover:text-primary transition-colors">
-                Agent
+                {t('footer.links.agent', 'Agent')}
               </Link>
               <Link to="/influencer" className="block text-background/80 hover:text-primary transition-colors">
-                Influencer
+                {t('footer.links.influencer', 'Influencer')}
               </Link>
             </div>
           </div>
@@ -99,16 +100,16 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-6">{t('footer.legalTitle', 'Legal')}</h4>
             <div className="space-y-3">
               <Link to="/privacy-policy" className="block text-background/80 hover:text-primary transition-colors">
-                Privacy Policy
+                {t('footer.legal.privacy', 'Privacy Policy')}
               </Link>
               <Link to="/terms-conditions" className="block text-background/80 hover:text-primary transition-colors">
-                Terms & Conditions
+                {t('footer.legal.terms', 'Terms & Conditions')}
               </Link>
               <Link to="/refund-policy" className="block text-background/80 hover:text-primary transition-colors">
-                Refund Policy
+                {t('footer.legal.refund', 'Refund Policy')}
               </Link>
               <Link to="/accessibility-statement" className="block text-background/80 hover:text-primary transition-colors">
-                Accessibility Statement
+                {t('footer.legal.accessibility', 'Accessibility Statement')}
               </Link>
             </div>
           </div>
@@ -119,12 +120,12 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-background/70 text-sm font-body">
-              © 2025 ATM Franchise India. All rights reserved. | RBI Licensed Partners Only
+              {t('footer.copyright', '© 2025 ATM Franchise India. All rights reserved. | RBI Licensed Partners Only')}
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-background/70">
-              <Link to="/about-us" className="hover:text-accent transition-colors font-body">About Us</Link>
-              <Link to="/contact-us" className="hover:text-accent transition-colors font-body">Contact Us</Link>
+              <Link to="/about-us" className="hover:text-accent transition-colors font-body">{t('footer.bottomLinks.about', 'About Us')}</Link>
+              <Link to="/contact-us" className="hover:text-accent transition-colors font-body">{t('footer.bottomLinks.contact', 'Contact Us')}</Link>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import { cn } from '@/lib/utils';
+import { useTranslation } from 'react-i18next';
 
 interface OptimizedImageProps {
   src: string;
@@ -21,6 +22,7 @@ export const OptimizedImage = ({
   onLoad,
   onError
 }: OptimizedImageProps) => {
+  const { t } = useTranslation('forms');
   return (
     <img
       src={src}

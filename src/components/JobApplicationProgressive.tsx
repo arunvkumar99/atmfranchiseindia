@@ -1,4 +1,5 @@
 import { JobApplicationSinglePage } from "./JobApplicationSinglePage";
+import { useTranslation } from 'react-i18next';
 
 interface JobApplicationProgressiveProps {
   jobs: Array<{

@@ -2,10 +2,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { Calendar, Clock, ArrowRight, TrendingUp, DollarSign, Building, Banknote, MapPin } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const BlogPage = () => {
+  const { t } = useTranslation('blog');
   const articles = [
     {
       id: 1,
@@ -64,7 +66,7 @@ const BlogPage = () => {
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <Badge className="mb-4 bg-primary/10 text-primary">Financial Education</Badge>
+          <Badge className="mb-4 bg-primary/10 text-primary">{t('content.financial_education', 'Financial Education')}</Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
             Build Your Financial Future
           </h1>

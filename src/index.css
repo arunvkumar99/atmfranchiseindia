@@ -1,9 +1,12 @@
+/* Import micro-animations */
+@import './styles/animations.css';
+
+/* Import responsive utilities */
+@import './styles/responsive.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Import micro-animations */
-@import './styles/animations.css';
 
 /* Google Translate Styling */
 .goog-te-banner-frame.skiptranslate, 

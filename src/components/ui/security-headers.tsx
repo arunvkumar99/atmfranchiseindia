@@ -1,10 +1,12 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface SecurityHeadersProps {
   children: React.ReactNode;
 }
 
 export const SecurityHeaders = ({ children }: SecurityHeadersProps) => {
+  const { t } = useTranslation('forms');
   useEffect(() => {
     // Apply client-side security headers directly
     const initializeSecurityHeaders = () => {

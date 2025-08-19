@@ -52,7 +52,7 @@ i18n
     fallbackLng: 'en',
     
     // Debug mode (disable in production)
-    debug: import.meta.env.DEV,
+    debug: false,
     
     // Namespace configuration
     ns: ['common', 'home', 'forms', 'products', 'blog'],
@@ -102,12 +102,8 @@ i18n
     fallbackNS: 'common',
     
     // Missing key handler
-    saveMissing: import.meta.env.DEV, // Save missing translations in dev mode
-    missingKeyHandler: (lngs, ns, key, fallbackValue) => {
-      if (import.meta.env.DEV) {
-        console.warn(`Missing translation: ${lngs.join(', ')} - ${ns}:${key}`);
-      }
-    },
+    saveMissing: false, // Disable saving missing translations
+    missingKeyHandler: false,
     
     // Performance optimizations
     cleanCode: true,

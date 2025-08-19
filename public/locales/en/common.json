@@ -44,16 +44,55 @@
     "uploadError": "Error uploading file"
   },
   "footer": {
-    "quickLinks": "Quick Links",
-    "services": "Services",
-    "legal": "Legal",
+    "company": {
+      "name": "ATM Franchise India",
+      "tagline": "Trusted Business Partner",
+      "description": "Empowering rural entrepreneurs with transparent ATM franchise opportunities. Building passive income streams while serving communities across India."
+    },
+    "contact": {
+      "location": "Bangalore, Karnataka, India"
+    },
+    "quickLinksTitle": "Quick Links",
+    "quickLinks": {
+      "whyAtm": "Why ATM Business",
+      "services": "Our Services",
+      "getStarted": "Get Started"
+    },
+    "links": {
+      "submitLocation": "Submit ATM Location",
+      "becomeFranchise": "Become Franchise",
+      "agent": "Agent",
+      "influencer": "Influencer"
+    },
+    "servicesTitle": "Our Services",
+    "services": {
+      "consultation": "ATM Franchise Consultation",
+      "comparison": "WLA Operator Comparison",
+      "evaluation": "Site Evaluation",
+      "training": "Training & Support",
+      "marketing": "Digital Marketing",
+      "technical": "Technical Assistance"
+    },
+    "legalTitle": "Legal",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "refund": "Refund Policy",
+      "accessibility": "Accessibility Statement"
+    },
     "followUs": "Follow Us",
-    "privacyPolicy": "Privacy Policy",
-    "termsConditions": "Terms & Conditions",
-    "refundPolicy": "Refund Policy",
-    "accessibility": "Accessibility Statement",
-    "copyright": "© 2024 PixellPay. All rights reserved.",
-    "poweredBy": "Powered by PixellPay"
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest updates on ATM franchise opportunities",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© 2025 ATM Franchise India. All rights reserved.",
+    "poweredBy": "Powered by Pixellweb",
+    "partners": {
+      "title": "Our Partners",
+      "trusted": "Trusted by 500+ franchise partners across India"
+    }
   },
   "errors": {
     "pageNotFound": "Page Not Found",

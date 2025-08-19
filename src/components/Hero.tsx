@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Users, Banknote, Building2, Shield, Navigation, Megaphone, HeartHandshake, DollarSign } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/hooks/useLanguageRouter";
 import { OptimizedImage } from "@/components/ui/optimized-image";
 import heroRuralATM from "@/assets/hero-rural-atm.jpg";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
   const { t } = useTranslation('home');
@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="absolute inset-0 overflow-hidden">
         <OptimizedImage
           src={heroRuralATM}
-          alt="ATM in Indian semi-urban setting"
+          alt={t('alt.atm_in_indian_semi_urban_setti', 'ATM in Indian semi-urban setting')}
           className="w-full h-full"
           priority={true}
           width={1920}
@@ -60,30 +60,30 @@ export const ValuePropsStrip = () => {
   const features = [
     {
       icon: TrendingUp,
-      title: "upto 50%",
-      subtitle: "Return On Investment",
-      description: "All Payout Received by RBI Licensed WLA ATM Partners",
+      title: t("features.roi.title", "upto 50%"),
+      subtitle: t("features.roi.subtitle", "Return On Investment"),
+      description: t("features.roi.description", "All Payout Received by RBI Licensed WLA ATM Partners"),
       bgColor: "bg-white"
     },
     {
       icon: Users,
-      title: "15 Per Lac",
-      subtitle: "Only 15 ATMs per 1 Lac People",
-      description: "ATM Penetration in India is very Low",
+      title: t("features.penetration.title", "15 Per Lac"),
+      subtitle: t("features.penetration.subtitle", "Only 15 ATMs per 1 Lac People"),
+      description: t("features.penetration.description", "ATM Penetration in India is very Low"),
       bgColor: "bg-muted"
     },
     {
       icon: Banknote,
-      title: "75% Cash",
-      subtitle: "Cash Circulation",
-      description: "Indian Economy is still Largely Cash based",
+      title: t("features.cash.title", "75% Cash"),
+      subtitle: t("features.cash.subtitle", "Cash Circulation"),
+      description: t("features.cash.description", "Indian Economy is still Largely Cash based"),
       bgColor: "bg-white"
     },
     {
       icon: Building2,
-      title: "90% Potential",
-      subtitle: "90% of Banks Offsite ATMs are closing down",
-      description: "Banks Offsite ATM Closure creates a Large market for ATMs",
+      title: t("features.potential.title", "90% Potential"),
+      subtitle: t("features.potential.subtitle", "90% of Banks Offsite ATMs are closing down"),
+      description: t("features.potential.description", "Banks Offsite ATM Closure creates a Large market for ATMs"),
       bgColor: "bg-muted"
     }
   ];
@@ -194,7 +194,7 @@ export const ValuePropsStrip = () => {
         <div className="text-center mt-16">
           <div className="inline-flex items-center gap-4 bg-white/10 backdrop-blur-md rounded-2xl px-8 py-6 border border-white/20">
             <div className="text-center">
-              <p className="text-2xl font-bold text-white mb-2">Perfect Time for ATM Business in Rural India</p>
+              <p className="text-2xl font-bold text-white mb-2">{t('content.perfect_time_for_atm_business_', 'Perfect Time for ATM Business in Rural India')}</p>
               <div className="flex flex-wrap justify-center gap-4 text-sm text-blue-100">
                 <span className="bg-white/20 px-3 py-1 rounded-full">• Digital Adoption Growing</span>
                 <span className="bg-white/20 px-3 py-1 rounded-full">• Government Push for Financial Inclusion</span>
@@ -217,32 +217,32 @@ export const WhyATMFranchiseIndia = () => {
   const franchiseFeatures = [
     {
       icon: Shield,
-      title: "Trusted ATM Franchise Information",
-      description: "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions.",
+      title: t('services.items.trusted.title', "Trusted ATM Franchise Information"),
+      description: t('services.items.trusted.description', "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."),
       gradient: "from-blue-500/20 to-cyan-500/20",
       iconColor: "text-blue-600",
       borderColor: "border-blue-200/50"
     },
     {
       icon: Navigation,
-      title: "Expert Guidance on WLA Operators",
-      description: "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business.",
+      title: t('services.items.guidance.title', "Expert Guidance on WLA Operators"),
+      description: t('services.items.guidance.description', "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."),
       gradient: "from-emerald-500/20 to-teal-500/20",
       iconColor: "text-emerald-600",
       borderColor: "border-emerald-200/50"
     },
     {
       icon: Megaphone,
-      title: "Boost Your Digital Presence",
-      description: "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market.",
+      title: t('services.items.digital.title', "Boost Your Digital Presence"),
+      description: t('services.items.digital.description', "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."),
       gradient: "from-purple-500/20 to-pink-500/20",
       iconColor: "text-purple-600",
       borderColor: "border-purple-200/50"
     },
     {
       icon: HeartHandshake,
-      title: "End-to-End Franchise Support",
-      description: "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success.",
+      title: t('services.items.support.title', "End-to-End Franchise Support"),
+      description: t('services.items.support.description', "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."),
       gradient: "from-orange-500/20 to-red-500/20",
       iconColor: "text-orange-600",
       borderColor: "border-orange-200/50"
@@ -261,16 +261,16 @@ export const WhyATMFranchiseIndia = () => {
       <div className="container mx-auto px-4 relative">
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center px-4 py-2 bg-primary/10 rounded-full mb-6">
-            <span className="text-primary font-medium text-sm">Our Advantage</span>
+            <span className="text-primary font-medium text-sm">{t('services.badge', 'Our Advantage')}</span>
           </div>
           <h2 className="font-heading font-bold text-4xl md:text-5xl text-foreground mb-6 leading-tight">
-            Why Choose{" "}
+            {t('services.title', 'Why Choose')}{" "}
             <span className="text-primary font-bold">
-              ATM Franchise India?
+              {t('services.titleHighlight', 'ATM Franchise India?')}
             </span>
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Experience the difference with our comprehensive support system and industry expertise
+            {t('services.subtitle', 'Experience the difference with our comprehensive support system and industry expertise')}
           </p>
         </div>
         
@@ -321,7 +321,7 @@ export const WhyATMFranchiseIndia = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full border-2 border-white"></div>
               <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full border-2 border-white"></div>
             </div>
-            <span className="font-medium text-foreground">Join 500+ successful franchise partners</span>
+            <span className="font-medium text-foreground">{t('services.cta.partners', 'Join 500+ successful franchise partners')}</span>
           </div>
         </div>
       </div>

@@ -1,0 +1,36 @@
+{
+  "title": "Start Your ATM Business",
+  "subtitle": "Complete guide to starting an ATM business in India",
+  "hero": {
+    "heading": "Start Your ATM Business Today",
+    "description": "Everything you need to know about starting an ATM business",
+    "cta": "Get Started"
+  },
+  "steps": {
+    "title": "How to Start",
+    "research": {
+      "title": "Research & Planning",
+      "description": "Understand the market and create a business plan"
+    },
+    "legal": {
+      "title": "Legal Requirements",
+      "description": "Complete all regulatory and compliance requirements"
+    },
+    "funding": {
+      "title": "Arrange Funding",
+      "description": "Secure investment for your ATM business"
+    },
+    "location": {
+      "title": "Find Locations",
+      "description": "Identify high-traffic locations for ATMs"
+    },
+    "launch": {
+      "title": "Launch Operations",
+      "description": "Start your ATM business operations"
+    }
+  },
+  "guide": {
+    "title": "Complete Business Guide",
+    "download": "Download Guide"
+  }
+}

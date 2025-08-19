@@ -1,5 +1,6 @@
 
 import { Progress } from "@/components/ui/progress";
+import { useTranslation } from 'react-i18next';
 import { CheckCircle, Clock, Save } from "lucide-react";
 
 interface FormProgressProps {
@@ -24,6 +25,7 @@ export function FormProgress({
   className = ""
 }: FormProgressProps) {
   const formatLastSaved = (date: Date) => {
+  const { t } = useTranslation('forms');
     const now = new Date();
     const diffInMinutes = Math.floor((now.getTime() - date.getTime()) / (1000 * 60));
     

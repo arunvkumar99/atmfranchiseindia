@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { useNavigate, useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { useNavigate, Link } from "@/hooks/useLanguageRouter";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -9,6 +10,7 @@ import atmFranchiseCareer from "@/assets/atm-franchise-career.jpg";
 import youngBusinessOwner from "@/assets/young-business-owner.jpg";
 
 const JoinUsPage = () => {
+  const { t } = useTranslation('common');
   const { tab } = useParams();
   const navigate = useNavigate();
 
@@ -27,6 +29,7 @@ const JoinUsPage = () => {
       <style>{`
         .join-us-page .data-[state=active]:bg-gradient-hero {
           background: linear-gradient(135deg, hsl(355 85% 50%), hsl(355 70% 60%)) !important;
+import { useTranslation } from 'react-i18next';
           color: white !important;
         }
         .join-us-page .bg-gradient-hero {
@@ -67,21 +70,21 @@ const JoinUsPage = () => {
                 className="flex-col h-16 sm:h-20 px-3 sm:px-4 text-xs sm:text-base rounded-xl transition-all duration-300 data-[state=active]:bg-gradient-to-r data-[state=active]:from-red-500 data-[state=active]:to-pink-500 data-[state=active]:text-white data-[state=active]:shadow-lg hover:scale-[1.02] hover:bg-red-50"
               >
                 <Users className="w-4 h-4 sm:w-5 sm:h-5 mb-1" />
-                <span className="font-medium leading-tight text-center">Join as<br className="sm:hidden" /><span className="sm:ml-1">Agent</span></span>
+                <span className="font-medium leading-tight text-center">{t('content.join_as', 'Join as')}<br className="sm:hidden" /><span className="sm:ml-1">{t('content.agent', 'Agent')}</span></span>
               </TabsTrigger>
               <TabsTrigger 
                 value="influencer" 
                 className="flex-col h-16 sm:h-20 px-3 sm:px-4 text-xs sm:text-base rounded-xl transition-all duration-300 data-[state=active]:bg-gradient-to-r data-[state=active]:from-red-500 data-[state=active]:to-pink-500 data-[state=active]:text-white data-[state=active]:shadow-lg hover:scale-[1.02] hover:bg-red-50"
               >
                 <Target className="w-4 h-4 sm:w-5 sm:h-5 mb-1" />
-                <span className="font-medium leading-tight text-center">Join as<br className="sm:hidden" /><span className="sm:ml-1">Influencer</span></span>
+                <span className="font-medium leading-tight text-center">{t('content.join_as', 'Join as')}<br className="sm:hidden" /><span className="sm:ml-1">{t('content.influencer', 'Influencer')}</span></span>
               </TabsTrigger>
               <TabsTrigger 
                 value="employee" 
                 className="flex-col h-16 sm:h-20 px-3 sm:px-4 text-xs sm:text-base rounded-xl transition-all duration-300 data-[state=active]:bg-gradient-to-r data-[state=active]:from-red-500 data-[state=active]:to-pink-500 data-[state=active]:text-white data-[state=active]:shadow-lg hover:scale-[1.02] hover:bg-red-50"
               >
                 <Briefcase className="w-4 h-4 sm:w-5 sm:h-5 mb-1" />
-                <span className="font-medium leading-tight text-center">Join as<br className="sm:hidden" /><span className="sm:ml-1">Employee</span></span>
+                <span className="font-medium leading-tight text-center">{t('content.join_as', 'Join as')}<br className="sm:hidden" /><span className="sm:ml-1">{t('content.employee', 'Employee')}</span></span>
               </TabsTrigger>
             </TabsList>
 
@@ -101,12 +104,12 @@ const JoinUsPage = () => {
                   <CardContent className="space-y-6">
                     <div className="grid grid-cols-2 gap-3">
                       <div className="text-center p-3 bg-gradient-to-r from-green-500 to-green-600 rounded-lg text-white">
-                        <div className="text-lg font-bold">No Limit</div>
-                        <div className="text-xs opacity-90">Commission Earning</div>
+                        <div className="text-lg font-bold">{t('content.no_limit', 'No Limit')}</div>
+                        <div className="text-xs opacity-90">{t('content.commission_earning', 'Commission Earning')}</div>
                       </div>
                       <div className="text-center p-3 bg-gradient-to-r from-red-500 to-pink-500 rounded-lg text-white">
-                        <div className="text-lg font-bold">Flexible</div>
-                        <div className="text-xs opacity-90">Work Schedule</div>
+                        <div className="text-lg font-bold">{t('content.flexible', 'Flexible')}</div>
+                        <div className="text-xs opacity-90">{t('content.work_schedule', 'Work Schedule')}</div>
                       </div>
                     </div>
                     
@@ -128,7 +131,7 @@ const JoinUsPage = () => {
                     <div className="pt-4">
                       <Button asChild className="w-full bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-semibold transform transition-all duration-300 hover:scale-105 shadow-lg text-sm sm:text-base px-4 py-3">
                         <Link to="/agent" className="flex items-center justify-center">
-                          <span>View Detailed Agent Program & Apply</span>
+                          <span>{t('content.view_detailed_agent_program_ap', 'View Detailed Agent Program & Apply')}</span>
                           <ExternalLink className="w-4 h-4 ml-2 flex-shrink-0" />
                         </Link>
                       </Button>
@@ -139,7 +142,7 @@ const JoinUsPage = () => {
                 <div className="space-y-6">
                   <img
                     src={ruralShopOwner}
-                    alt="Sales Agent Opportunity"
+                    alt={t('alt.sales_agent_opportunity', 'Sales Agent Opportunity')}
                     className="w-full h-64 object-cover rounded-2xl shadow-lg"
                   />
                   <Card className="bg-white border-0 shadow-lg">
@@ -175,12 +178,12 @@ const JoinUsPage = () => {
                   <CardContent className="space-y-6">
                     <div className="grid grid-cols-2 gap-3">
                       <div className="text-center p-3 bg-gradient-to-r from-red-500 to-pink-500 rounded-lg text-white">
-                        <div className="text-lg font-bold">Unlimited</div>
-                        <div className="text-xs opacity-90">Commissions</div>
+                        <div className="text-lg font-bold">{t('content.unlimited', 'Unlimited')}</div>
+                        <div className="text-xs opacity-90">{t('content.commissions', 'Commissions')}</div>
                       </div>
                       <div className="text-center p-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg text-white">
-                        <div className="text-lg font-bold">Zero</div>
-                        <div className="text-xs opacity-90">Joining Fee</div>
+                        <div className="text-lg font-bold">{t('content.zero', 'Zero')}</div>
+                        <div className="text-xs opacity-90">{t('content.joining_fee', 'Joining Fee')}</div>
                       </div>
                     </div>
                     
@@ -202,7 +205,7 @@ const JoinUsPage = () => {
                     <div className="pt-4">
                       <Button asChild className="w-full bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-semibold transform transition-all duration-300 hover:scale-105 shadow-lg text-sm sm:text-base px-4 py-3">
                         <Link to="/influencer" className="flex items-center justify-center">
-                          <span>View Detailed Influencer Program & Apply</span>
+                          <span>{t('content.view_detailed_influencer_progr', 'View Detailed Influencer Program & Apply')}</span>
                           <ExternalLink className="w-4 h-4 ml-2 flex-shrink-0" />
                         </Link>
                       </Button>
@@ -213,19 +216,19 @@ const JoinUsPage = () => {
                 <div className="space-y-6">
                   <img
                     src={youngBusinessOwner}
-                    alt="Young Indian Woman Influencer for ATM Business"
+                    alt={t('alt.young_indian_woman_influencer_', 'Young Indian Woman Influencer for ATM Business')}
                     className="w-full h-64 object-cover rounded-2xl shadow-lg"
                   />
                   <div className="bg-white rounded-2xl p-6 shadow-lg">
-                    <h3 className="text-xl font-bold text-foreground mb-4">Target: Build 1,000+ ATMs</h3>
+                    <h3 className="text-xl font-bold text-foreground mb-4">{t('content.target_build_1000_atms', 'Target: Build 1,000+ ATMs')}</h3>
                     <div className="grid grid-cols-2 gap-4">
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-red-500">Any Size</div>
-                        <div className="text-sm text-muted-foreground">Audience Welcome</div>
+                        <div className="text-2xl font-bold text-red-500">{t('content.any_size', 'Any Size')}</div>
+                        <div className="text-sm text-muted-foreground">{t('content.audience_welcome', 'Audience Welcome')}</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-green-500">National</div>
-                        <div className="text-sm text-muted-foreground">Project Reach</div>
+                        <div className="text-2xl font-bold text-green-500">{t('content.national', 'National')}</div>
+                        <div className="text-sm text-muted-foreground">{t('content.project_reach', 'Project Reach')}</div>
                       </div>
                     </div>
                   </div>
@@ -296,7 +299,7 @@ const JoinUsPage = () => {
                 <div className="space-y-6">
                   <img
                     src={atmFranchiseCareer}
-                    alt="ATM Franchise India Career Opportunity"
+                    alt={t('alt.atm_franchise_india_career_opp', 'ATM Franchise India Career Opportunity')}
                     className="w-full h-64 object-cover rounded-2xl shadow-lg"
                   />
                   <Card className="bg-white border-0 shadow-lg">
@@ -305,10 +308,10 @@ const JoinUsPage = () => {
                         Current Opening
                       </h3>
                       <div className="space-y-2 text-sm text-muted-foreground">
-                        <p><strong>Position:</strong> Sales Manager – Agent Network Development</p>
-                        <p><strong>Experience:</strong> Minimum 5 years in sales</p>
-                        <p><strong>Location:</strong> Vytilla, Ernakulam</p>
-                        <p><strong>Skills:</strong> Team management, English/Hindi fluency</p>
+                        <p><strong>{t('content.position', 'Position:')}</strong> Sales Manager – Agent Network Development</p>
+                        <p><strong>{t('content.experience', 'Experience:')}</strong> Minimum 5 years in sales</p>
+                        <p><strong>{t('content.location', 'Location:')}</strong> Vytilla, Ernakulam</p>
+                        <p><strong>{t('content.skills', 'Skills:')}</strong> Team management, English/Hindi fluency</p>
                       </div>
                     </CardContent>
                   </Card>
@@ -324,8 +327,8 @@ const JoinUsPage = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="font-semibold text-foreground mb-2">Call Us</h4>
-                <p className="text-muted-foreground text-sm mb-2">Speak with our experts</p>
+                <h4 className="font-semibold text-foreground mb-2">{t('content.call_us', 'Call Us')}</h4>
+                <p className="text-muted-foreground text-sm mb-2">{t('content.speak_with_our_experts', 'Speak with our experts')}</p>
                 <p className="font-medium text-red-500">+91 9072380076</p>
               </CardContent>
             </Card>
@@ -335,8 +338,8 @@ const JoinUsPage = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="font-semibold text-foreground mb-2">Email Us</h4>
-                <p className="text-muted-foreground text-sm mb-2">Send us your queries</p>
+                <h4 className="font-semibold text-foreground mb-2">{t('content.email_us', 'Email Us')}</h4>
+                <p className="text-muted-foreground text-sm mb-2">{t('content.send_us_your_queries', 'Send us your queries')}</p>
                 <p className="font-medium text-green-600">atmfranchise@pixellpay.com</p>
               </CardContent>
             </Card>
@@ -346,9 +349,9 @@ const JoinUsPage = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="font-semibold text-foreground mb-2">Visit Us</h4>
-                <p className="text-muted-foreground text-sm mb-2">Corporate Office</p>
-                <p className="font-medium text-blue-600 text-sm">Kochi, Kerala</p>
+                <h4 className="font-semibold text-foreground mb-2">{t('content.visit_us', 'Visit Us')}</h4>
+                <p className="text-muted-foreground text-sm mb-2">{t('content.corporate_office', 'Corporate Office')}</p>
+                <p className="font-medium text-blue-600 text-sm">{t('content.kochi_kerala', 'Kochi, Kerala')}</p>
               </CardContent>
             </Card>
           </div>

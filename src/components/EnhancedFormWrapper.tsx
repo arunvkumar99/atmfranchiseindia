@@ -1,5 +1,6 @@
 
 import { useState, useEffect, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FormProgress } from './FormProgress';
 import { FormSuccessModal } from './FormSuccessModal';
 import { useFormAutoSave } from '@/hooks/useFormAutoSave';
@@ -90,6 +91,7 @@ export function EnhancedFormWrapper({
   };
 
   const handleSuccessModalClose = () => {
+  const { t } = useTranslation('forms');
     setShowSuccessModal(false);
     onFormComplete?.();
   };

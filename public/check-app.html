@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App Status Check</title>
+</head>
+<body>
+    <h1>Checking App Status...</h1>
+    <iframe src="/" width="100%" height="600" style="border: 2px solid #ccc;"></iframe>
+    
+    <div id="status"></div>
+    
+    <script>
+        setTimeout(() => {
+            const iframe = document.querySelector('iframe');
+            try {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const root = iframeDoc.getElementById('root');
+                const status = document.getElementById('status');
+                
+                if (root && root.children.length > 0) {
+                    status.innerHTML = '<h2 style="color: green;">✓ React App is Loading!</h2>';
+                    status.innerHTML += '<p>Root has ' + root.children.length + ' children</p>';
+                } else {
+                    status.innerHTML = '<h2 style="color: red;">✗ React App NOT Loading</h2>';
+                    status.innerHTML += '<p>Root element is empty</p>';
+                    
+                    // Check for console errors
+                    if (iframe.contentWindow.console) {
+                        status.innerHTML += '<p>Check browser console for errors</p>';
+                    }
+                }
+            } catch (e) {
+                status.innerHTML = '<p>Error accessing iframe: ' + e.message + '</p>';
+            }
+        }, 3000);
+    </script>
+</body>
+</html>
