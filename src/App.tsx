@@ -20,8 +20,7 @@ import { PerformanceMonitor } from "@/components/PerformanceMonitor";
 import { SecurityHeaders } from "@/components/ui/security-headers";
 import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
-import { TranslationDebug } from "@/components/TranslationDebug";
-import { TranslationValidator } from "@/components/TranslationValidator";
+// Debug components removed from production
 import { EnsureEnglishDefault } from "@/components/EnsureEnglishDefault";
 
 // Lazy load all pages for optimal performance
@@ -232,8 +231,6 @@ const App = () => {
                   </main>
                   <Footer />
                   <StickyMobileCTA />
-                  {import.meta.env.DEV && <TranslationDebug />}
-                  {import.meta.env.DEV && <TranslationValidator />}
                   <PerformanceMonitor />
                 </div>
               </FixedLanguageRouter>

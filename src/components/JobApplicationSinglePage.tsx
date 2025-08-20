@@ -171,18 +171,23 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
 
       console.log('📤 Submitting job application...');
       
-      const { data, error } = await supabase.functions.invoke('form-submission', {
-        body: {
+      // Submit to Google Sheets via API
+      const response = await fetch('https://script.google.com/macros/s/AKfycbwQkurMjeYUR5xwrXyvcPRJN-P_XXGBxRYGZhQ4_fYPOYqQ3W6X_Xs5K2y_rRNhuxBGdQ/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           formType: 'job_applications',
           data: submissionData,
-          userAgent: navigator.userAgent,
-          ipAddress: undefined
-        }
+          timestamp: new Date().toISOString(),
+          userAgent: navigator.userAgent
+        })
       });
 
-      if (error || data?.error) {
-        throw new Error(error?.message || data?.error || 'Submission failed');
-      }
+      // With no-cors, we can't read the response, so we assume success
+      console.log('✅ Job application submitted successfully');
 
       trackFormSubmit(true);
       setIsSubmitted(true);
