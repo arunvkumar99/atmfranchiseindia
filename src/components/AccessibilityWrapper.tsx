@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import React from 'react';
 
 interface AccessibilityWrapperProps {
@@ -9,6 +10,7 @@ export default function AccessibilityWrapper({
   children, 
   skipToContentId = 'main-content' 
 }: AccessibilityWrapperProps) {
+  const { t } = useTranslation();
   return (
     <div>
       {/* Skip to main content link */}

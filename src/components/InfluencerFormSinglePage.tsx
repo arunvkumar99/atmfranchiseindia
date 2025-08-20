@@ -350,7 +350,7 @@ export function InfluencerFormSinglePage() {
       setIsCaptchaVerified(false);
 
     } catch (error) {
-      // console.error('❌ Error submitting influencer application:', error); // Silenced for production
+      // if (import.meta.env.DEV) { console.error('❌ Error submitting influencer application:', error); } // Silenced for production
       trackFormSubmit(false, error.message);
       
       toast({
@@ -413,7 +413,7 @@ export function InfluencerFormSinglePage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-14">
       <div className="bg-white border-b border-gray-100 shadow-sm">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-xl font-bold">Influencer Application Form</h1>
+          <h1 className="text-xl font-bold">{t('components.influencerformsinglepage.text1')}</h1>
         </div>
       </div>
 
@@ -431,7 +431,7 @@ export function InfluencerFormSinglePage() {
 
           <div className="text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-3">
-              Join Our <span className="text-gradient">Influencer Network</span>
+              Join Our <span className="text-gradient">{t('components.influencerformsinglepage.text2')}</span>
             </h2>
             <p className="font-body text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
               Partner with us to promote financial services and earn commissions
@@ -445,7 +445,7 @@ export function InfluencerFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">{t("sections.personal")}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Your basic details and contact information</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text3')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -476,15 +476,15 @@ export function InfluencerFormSinglePage() {
                       >
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="male" id="male" />
-                          <Label htmlFor="male">Male</Label>
+                          <Label htmlFor="male">{t('components.influencerformsinglepage.text4')}</Label>
                         </div>
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="female" id="female" />
-                          <Label htmlFor="female">Female</Label>
+                          <Label htmlFor="female">{t('components.influencerformsinglepage.text5')}</Label>
                         </div>
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="other" id="other" />
-                          <Label htmlFor="other">Other</Label>
+                          <Label htmlFor="other">{t('components.influencerformsinglepage.text6')}</Label>
                         </div>
                       </RadioGroup>
                       {errors.gender && (
@@ -514,18 +514,18 @@ export function InfluencerFormSinglePage() {
                           <SelectValue placeholder={t('time.month', 'Month')} />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="1">January</SelectItem>
-                          <SelectItem value="2">February</SelectItem>
-                          <SelectItem value="3">March</SelectItem>
-                          <SelectItem value="4">April</SelectItem>
+                          <SelectItem value="1">{t('components.influencerformsinglepage.text7')}</SelectItem>
+                          <SelectItem value="2">{t('components.influencerformsinglepage.text8')}</SelectItem>
+                          <SelectItem value="3">{t('components.influencerformsinglepage.text9')}</SelectItem>
+                          <SelectItem value="4">{t('components.influencerformsinglepage.text10')}</SelectItem>
                           <SelectItem value="5">May</SelectItem>
-                          <SelectItem value="6">June</SelectItem>
-                          <SelectItem value="7">July</SelectItem>
-                          <SelectItem value="8">August</SelectItem>
-                          <SelectItem value="9">September</SelectItem>
-                          <SelectItem value="10">October</SelectItem>
-                          <SelectItem value="11">November</SelectItem>
-                          <SelectItem value="12">December</SelectItem>
+                          <SelectItem value="6">{t('components.influencerformsinglepage.text11')}</SelectItem>
+                          <SelectItem value="7">{t('components.influencerformsinglepage.text12')}</SelectItem>
+                          <SelectItem value="8">{t('components.influencerformsinglepage.text13')}</SelectItem>
+                          <SelectItem value="9">{t('components.influencerformsinglepage.text14')}</SelectItem>
+                          <SelectItem value="10">{t('components.influencerformsinglepage.text15')}</SelectItem>
+                          <SelectItem value="11">{t('components.influencerformsinglepage.text16')}</SelectItem>
+                          <SelectItem value="12">{t('components.influencerformsinglepage.text17')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <Select value={formData.dateOfBirth.year} onValueChange={(value) => handleDateChange('year', value)}>
@@ -727,7 +727,7 @@ export function InfluencerFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">Social Media & Skills</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Your social media presence and language skills</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text18')}</p>
                   </div>
 
                   <div className="space-y-3">
@@ -754,7 +754,7 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="facebookLink">Facebook Profile Link</Label>
+                      <Label htmlFor="facebookLink">{t('components.influencerformsinglepage.text19')}</Label>
                       <Input 
                         id="facebookLink" 
                         value={formData.facebookLink}
@@ -763,7 +763,7 @@ export function InfluencerFormSinglePage() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="instagramLink">Instagram Profile Link</Label>
+                      <Label htmlFor="instagramLink">{t('components.influencerformsinglepage.text20')}</Label>
                       <Input 
                         id="instagramLink" 
                         value={formData.instagramLink}
@@ -775,7 +775,7 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="youtubeLink">YouTube Channel Link</Label>
+                      <Label htmlFor="youtubeLink">{t('components.influencerformsinglepage.text21')}</Label>
                       <Input 
                         id="youtubeLink" 
                         value={formData.youtubeLink}
@@ -784,7 +784,7 @@ export function InfluencerFormSinglePage() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="linkedinLink">LinkedIn Profile Link</Label>
+                      <Label htmlFor="linkedinLink">{t('components.influencerformsinglepage.text22')}</Label>
                       <Input 
                         id="linkedinLink" 
                         value={formData.linkedinLink}
@@ -819,8 +819,8 @@ export function InfluencerFormSinglePage() {
                 {/* Documents */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Document Uploads</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Upload required documents for verification</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components.influencerformsinglepage.text23')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text24')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -1011,8 +1011,8 @@ export function InfluencerFormSinglePage() {
                 {/* Security Verification */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Security Verification</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Complete security verification to submit</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components.influencerformsinglepage.text25')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text26')}</p>
                   </div>
                   <CaptchaProtection 
                     onVerify={setIsCaptchaVerified}

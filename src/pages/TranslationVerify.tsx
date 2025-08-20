@@ -31,7 +31,7 @@ const TranslationVerify = () => {
   return (
     <div className="min-h-screen bg-background p-8 pt-24">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8">Translation Verification Dashboard</h1>
+        <h1 className="text-3xl font-bold mb-8">{t('components.translationverify.text1')}</h1>
         
         <div className="mb-8">
           <h2 className="text-xl font-semibold mb-4">Current Language: {i18n.language}</h2>
@@ -54,7 +54,7 @@ const TranslationVerify = () => {
         
         <Card>
           <CardHeader>
-            <CardTitle>Translation Keys Status</CardTitle>
+            <CardTitle>{t('components.translationverify.text2')}</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
@@ -91,7 +91,7 @@ const TranslationVerify = () => {
         
         <Card className="mt-8">
           <CardHeader>
-            <CardTitle>Language Coverage</CardTitle>
+            <CardTitle>{t('components.translationverify.text3')}</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-3 gap-4">
@@ -114,7 +114,7 @@ const TranslationVerify = () => {
           <div className="flex gap-2">
             <AlertCircle className="w-5 h-5 text-yellow-600" />
             <div>
-              <h3 className="font-semibold text-yellow-800">Instructions</h3>
+              <h3 className="font-semibold text-yellow-800">{t('components.translationverify.text4')}</h3>
               <p className="text-sm text-yellow-700 mt-1">
                 1. Click on language buttons to switch languages<br/>
                 2. Green checkmarks indicate properly translated keys<br/>

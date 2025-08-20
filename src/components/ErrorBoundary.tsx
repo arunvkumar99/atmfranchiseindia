@@ -46,7 +46,7 @@ export class ErrorBoundary extends Component<Props, State> {
   componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
     // Log error to error reporting service
     if (import.meta.env.DEV) {
-      console.error('Error Boundary caught:', error, errorInfo);
+      if (import.meta.env.DEV) { console.error('Error Boundary caught:', error, errorInfo); }
     }
 
     // Call custom error handler if provided
@@ -232,7 +232,7 @@ export const AsyncErrorBoundary: React.FC<{ children: ReactNode }> = ({ children
     return (
       <ErrorBoundary>
         <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
-          <h3 className="text-red-800 font-semibold">Async Error</h3>
+          <h3 className="text-red-800 font-semibold">{t('components.errorboundary.text1')}</h3>
           <p className="text-red-600">{error.message}</p>
         </div>
       </ErrorBoundary>

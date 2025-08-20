@@ -331,28 +331,28 @@
     }
   },
   "valueProps": {
-    "title": "Why ATM Business?",
-    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
-    "perfectTime": "Perfect Time for ATM Business in Rural India",
+    "title": "Why एटीएम व्यवसाय?",
+    "subtitle": "Zero Loss and Fully Transparent व्यवसाय अवसर from RBI Licensed Companies",
+    "perfectTime": "Perfect Time for एटीएम व्यवसाय in Rural भारत",
     "investmentRange": "Investment Range: ₹2-5 Lakhs",
     "bullets": {
-      "digitalAdoption": "Digital Adoption Growing",
+      "digitalAdoption": "डिजिटल Adoption Growing",
       "governmentPush": "Government Push for Financial Inclusion",
-      "bankClosures": "Bank Branch Closures"
+      "bankClosures": "Bank शाखा Closures"
     },
     "stats": {
       "roi": {
         "prefix": "upto ",
         "value": "50",
         "suffix": "%",
-        "label": "Return On Investment",
-        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+        "label": "Return On निवेश",
+        "description": "सभी Payout Received by RBI Licensed WLA एटीएम Partners"
       },
       "penetration": {
         "value": "15",
         "suffix": " Per Lac",
-        "label": "ATM Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+        "label": "एटीएम Penetration",
+        "description": "Only 15 ATMs per 1 Lac People - एटीएम Penetration in भारत is very Low"
       },
       "cash": {
         "value": "75",
@@ -363,39 +363,39 @@
       "potential": {
         "value": "90",
         "suffix": "% Potential",
-        "label": "Market Opportunity",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+        "label": "Market अवसर",
+        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite एटीएम Closure creates a Large market for ATMs"
       }
     }
   },
   "whyChoose": {
-    "badge": "Our Advantage",
+    "badge": "Our फायदा",
     "title": "Why Choose",
-    "titleHighlight": "ATM Franchise India?",
-    "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
+    "titleHighlight": "एटीएम फ्रैंचाइज़ी भारत?",
+    "subtitle": "अनुभव the difference with our comprehensive सहायता system and industry expertise",
     "cta": {
       "partners": "Join 500+ successful franchise partners"
     },
     "features": {
       "trusted": {
-        "title": "Trusted ATM Franchise Information",
-        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+        "title": "विश्वसनीय एटीएम फ्रैंचाइज़ी जानकारी",
+        "description": "Gain accurate and सत्यापित insights into the एटीएम industry. As a regulated sector, the एटीएम व्यवसाय often sees widespread misinformation. Our representatives ensure you प्राप्त करें भरोसेमंद, fact-based मार्गदर्शन to make informed फ्रैंचाइज़ी decisions."
       },
       "guidance": {
-        "title": "Expert Guidance on WLA Operators",
+        "title": "विशेषज्ञ मार्गदर्शन on WLA Operators",
         "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
       },
       "digital": {
-        "title": "Boost Your Digital Presence",
-        "description": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+        "title": "Boost Your डिजिटल Presence",
+        "description": "Already running an एटीएम फ्रैंचाइज़ी? पंजीकरण with us to increase your डिजिटल reach and enhance your ऑनलाइन branding. कनेक्ट करें with अधिक customers and grow your visibility in the market."
       },
       "support": {
-        "title": "End-to-End Franchise Support",
+        "title": "End-to-End फ्रैंचाइज़ी सहायता",
         "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
       }
     }
   },
   "alt": {
-    "atmInIndianSetting": "ATM in Indian semi-urban setting"
+    "atmInIndianSetting": "एटीएम in Indian semi-urban setting"
   }
 }

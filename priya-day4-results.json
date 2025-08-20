@@ -1,0 +1,2175 @@
+{
+  "timestamp": "2025-08-20T02:31:36.095Z",
+  "translationsCompleted": [
+    {
+      "file": "home.json",
+      "key": "title",
+      "original": "Why ATM Business?",
+      "translated": "Why एटीएम व्यवसाय?"
+    },
+    {
+      "file": "home.json",
+      "key": "subtitle",
+      "original": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
+      "translated": "Zero Loss and Fully Transparent व्यवसाय अवसर from RBI Licensed Companies"
+    },
+    {
+      "file": "home.json",
+      "key": "perfectTime",
+      "original": "Perfect Time for ATM Business in Rural India",
+      "translated": "Perfect Time for एटीएम व्यवसाय in Rural भारत"
+    },
+    {
+      "file": "home.json",
+      "key": "digitalAdoption",
+      "original": "Digital Adoption Growing",
+      "translated": "डिजिटल Adoption Growing"
+    },
+    {
+      "file": "home.json",
+      "key": "bankClosures",
+      "original": "Bank Branch Closures",
+      "translated": "Bank शाखा Closures"
+    },
+    {
+      "file": "home.json",
+      "key": "label",
+      "original": "Return On Investment",
+      "translated": "Return On निवेश"
+    },
+    {
+      "file": "home.json",
+      "key": "description",
+      "original": "All Payout Received by RBI Licensed WLA ATM Partners",
+      "translated": "सभी Payout Received by RBI Licensed WLA एटीएम Partners"
+    },
+    {
+      "file": "home.json",
+      "key": "label",
+      "original": "ATM Penetration",
+      "translated": "एटीएम Penetration"
+    },
+    {
+      "file": "home.json",
+      "key": "description",
+      "original": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low",
+      "translated": "Only 15 ATMs per 1 Lac People - एटीएम Penetration in भारत is very Low"
+    },
+    {
+      "file": "home.json",
+      "key": "label",
+      "original": "Market Opportunity",
+      "translated": "Market अवसर"
+    },
+    {
+      "file": "home.json",
+      "key": "description",
+      "original": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs",
+      "translated": "90% of Banks Offsite ATMs are closing down - Banks Offsite एटीएम Closure creates a Large market for ATMs"
+    },
+    {
+      "file": "home.json",
+      "key": "badge",
+      "original": "Our Advantage",
+      "translated": "Our फायदा"
+    },
+    {
+      "file": "home.json",
+      "key": "titleHighlight",
+      "original": "ATM Franchise India?",
+      "translated": "एटीएम फ्रैंचाइज़ी भारत?"
+    },
+    {
+      "file": "home.json",
+      "key": "subtitle",
+      "original": "Experience the difference with our comprehensive support system and industry expertise",
+      "translated": "अनुभव the difference with our comprehensive सहायता system and industry expertise"
+    },
+    {
+      "file": "home.json",
+      "key": "title",
+      "original": "Trusted ATM Franchise Information",
+      "translated": "विश्वसनीय एटीएम फ्रैंचाइज़ी जानकारी"
+    },
+    {
+      "file": "home.json",
+      "key": "description",
+      "original": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions.",
+      "translated": "Gain accurate and सत्यापित insights into the एटीएम industry. As a regulated sector, the एटीएम व्यवसाय often sees widespread misinformation. Our representatives ensure you प्राप्त करें भरोसेमंद, fact-based मार्गदर्शन to make informed फ्रैंचाइज़ी decisions."
+    },
+    {
+      "file": "home.json",
+      "key": "title",
+      "original": "Expert Guidance on WLA Operators",
+      "translated": "विशेषज्ञ मार्गदर्शन on WLA Operators"
+    },
+    {
+      "file": "home.json",
+      "key": "title",
+      "original": "Boost Your Digital Presence",
+      "translated": "Boost Your डिजिटल Presence"
+    },
+    {
+      "file": "home.json",
+      "key": "description",
+      "original": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market.",
+      "translated": "Already running an एटीएम फ्रैंचाइज़ी? पंजीकरण with us to increase your डिजिटल reach and enhance your ऑनलाइन branding. कनेक्ट करें with अधिक customers and grow your visibility in the market."
+    },
+    {
+      "file": "home.json",
+      "key": "title",
+      "original": "End-to-End Franchise Support",
+      "translated": "End-to-End फ्रैंचाइज़ी सहायता"
+    },
+    {
+      "file": "home.json",
+      "key": "atmInIndianSetting",
+      "original": "ATM in Indian semi-urban setting",
+      "translated": "एटीएम in Indian semi-urban setting"
+    },
+    {
+      "file": "forms.json",
+      "key": "fullName",
+      "original": "Full Name",
+      "translated": "पूरा नाम"
+    },
+    {
+      "file": "forms.json",
+      "key": "email",
+      "original": "Email Address",
+      "translated": "ईमेल पता"
+    },
+    {
+      "file": "forms.json",
+      "key": "phone",
+      "original": "Phone Number",
+      "translated": "फोन Number"
+    },
+    {
+      "file": "forms.json",
+      "key": "email",
+      "original": "Enter your email address",
+      "translated": "Enter your ईमेल पता"
+    },
+    {
+      "file": "forms.json",
+      "key": "phone",
+      "original": "10-digit mobile number",
+      "translated": "10-digit मोबाइल number"
+    },
+    {
+      "file": "forms.json",
+      "key": "message",
+      "original": "Type your message here...",
+      "translated": "प्रकार your message here..."
+    },
+    {
+      "file": "forms.json",
+      "key": "city",
+      "original": "Enter city",
+      "translated": "Enter शहर"
+    },
+    {
+      "file": "forms.json",
+      "key": "state",
+      "original": "Choose your state",
+      "translated": "Choose your राज्य"
+    },
+    {
+      "file": "forms.json",
+      "key": "full_name",
+      "original": "Enter your full name",
+      "translated": "Enter your full नाम"
+    },
+    {
+      "file": "forms.json",
+      "key": "full_name_pan",
+      "original": "Enter your full name as per PAN card",
+      "translated": "Enter your full नाम as per PAN card"
+    },
+    {
+      "file": "forms.json",
+      "key": "address",
+      "original": "Enter complete address",
+      "translated": "Enter पूर्ण करें पता"
+    },
+    {
+      "file": "forms.json",
+      "key": "address_line2",
+      "original": "Area, Landmark",
+      "translated": "क्षेत्र, Landmark"
+    },
+    {
+      "file": "forms.json",
+      "key": "your_city",
+      "original": "Your city",
+      "translated": "Your शहर"
+    },
+    {
+      "file": "forms.json",
+      "key": "district",
+      "original": "Enter your district",
+      "translated": "Enter your जिला"
+    },
+    {
+      "file": "forms.json",
+      "key": "business_type",
+      "original": "Select business type",
+      "translated": "चुनें व्यवसाय प्रकार"
+    },
+    {
+      "file": "forms.json",
+      "key": "email_invalid",
+      "original": "Please enter a valid email address",
+      "translated": "Please enter a valid ईमेल पता"
+    },
+    {
+      "file": "forms.json",
+      "key": "phone_invalid",
+      "original": "Please enter a valid 10-digit phone number",
+      "translated": "Please enter a valid 10-digit फोन number"
+    },
+    {
+      "file": "forms.json",
+      "key": "pincode_invalid",
+      "original": "Please enter a valid 6-digit PIN code",
+      "translated": "Please enter a valid 6-digit पिन कोड"
+    },
+    {
+      "file": "forms.json",
+      "key": "security_required",
+      "original": "Please complete the security verification before submitting",
+      "translated": "Please पूर्ण करें the security सत्यापन before submitting"
+    },
+    {
+      "file": "forms.json",
+      "key": "try_again",
+      "original": "Please try again or contact us directly",
+      "translated": "Please try again or हमसे संपर्क करें directly"
+    },
+    {
+      "file": "forms.json",
+      "key": "other",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "forms.json",
+      "key": "male",
+      "original": "Male",
+      "translated": "पुरुष"
+    },
+    {
+      "file": "forms.json",
+      "key": "female",
+      "original": "Female",
+      "translated": "महिला"
+    },
+    {
+      "file": "forms.json",
+      "key": "other",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "forms.json",
+      "key": "highlight",
+      "original": "ATM Franchise",
+      "translated": "एटीएम फ्रैंचाइज़ी"
+    },
+    {
+      "file": "forms.json",
+      "key": "subtitle",
+      "original": "Choose your path to success with ATM Franchise India",
+      "translated": "Choose your path to सफलता with एटीएम फ्रैंचाइज़ी भारत"
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "ATM Franchise Application Form",
+      "translated": "एटीएम फ्रैंचाइज़ी आवेदन फॉर्म"
+    },
+    {
+      "file": "forms.json",
+      "key": "instruction",
+      "original": "Please provide accurate information. All fields marked with * are mandatory.",
+      "translated": "Please provide accurate जानकारी. सभी fields marked with * are अनिवार्य."
+    },
+    {
+      "file": "forms.json",
+      "key": "submitMessage",
+      "original": "Our team will review your application within 24-48 hours and contact you with next steps.",
+      "translated": "Our टीम will review your आवेदन within 24-48 hours and contact you with अगला चरण."
+    },
+    {
+      "file": "forms.json",
+      "key": "personal",
+      "original": "Personal Information",
+      "translated": "Personal जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "address",
+      "original": "Address Information",
+      "translated": "पता जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "business",
+      "original": "Business Information",
+      "translated": "व्यवसाय जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "franchise",
+      "original": "ATM Franchise Details",
+      "translated": "एटीएम फ्रैंचाइज़ी विवरण"
+    },
+    {
+      "file": "forms.json",
+      "key": "financial",
+      "original": "Financial Information",
+      "translated": "Financial जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "additional",
+      "original": "Additional Information",
+      "translated": "Additional जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "firstName",
+      "original": "First Name *",
+      "translated": "First नाम *"
+    },
+    {
+      "file": "forms.json",
+      "key": "lastName",
+      "original": "Last Name *",
+      "translated": "Last नाम *"
+    },
+    {
+      "file": "forms.json",
+      "key": "email",
+      "original": "Email Address *",
+      "translated": "ईमेल पता *"
+    },
+    {
+      "file": "forms.json",
+      "key": "phone",
+      "original": "Phone Number *",
+      "translated": "फोन Number *"
+    },
+    {
+      "file": "forms.json",
+      "key": "alternatePhone",
+      "original": "Alternate Phone",
+      "translated": "Alternate फोन"
+    },
+    {
+      "file": "forms.json",
+      "key": "dateOfBirth",
+      "original": "Date of Birth *",
+      "translated": "जन्म तिथि *"
+    },
+    {
+      "file": "forms.json",
+      "key": "addressLine1",
+      "original": "Address Line 1 *",
+      "translated": "पता Line 1 *"
+    },
+    {
+      "file": "forms.json",
+      "key": "addressLine2",
+      "original": "Address Line 2",
+      "translated": "पता Line 2"
+    },
+    {
+      "file": "forms.json",
+      "key": "city",
+      "original": "City *",
+      "translated": "शहर *"
+    },
+    {
+      "file": "forms.json",
+      "key": "state",
+      "original": "State *",
+      "translated": "राज्य *"
+    },
+    {
+      "file": "forms.json",
+      "key": "pincode",
+      "original": "PIN Code *",
+      "translated": "पिन कोड *"
+    },
+    {
+      "file": "forms.json",
+      "key": "businessType",
+      "original": "Business Type *",
+      "translated": "व्यवसाय प्रकार *"
+    },
+    {
+      "file": "forms.json",
+      "key": "businessExperience",
+      "original": "Business Experience *",
+      "translated": "व्यवसाय अनुभव *"
+    },
+    {
+      "file": "forms.json",
+      "key": "currentOccupation",
+      "original": "Current Occupation *",
+      "translated": "वर्तमान Occupation *"
+    },
+    {
+      "file": "forms.json",
+      "key": "annualIncome",
+      "original": "Annual Income Range *",
+      "translated": "Annual आय सीमा *"
+    },
+    {
+      "file": "forms.json",
+      "key": "investmentCapacity",
+      "original": "Investment Capacity *",
+      "translated": "निवेश Capacity *"
+    },
+    {
+      "file": "forms.json",
+      "key": "preferredLocation",
+      "original": "Preferred ATM Location *",
+      "translated": "Preferred एटीएम स्थान *"
+    },
+    {
+      "file": "forms.json",
+      "key": "locationOwnership",
+      "original": "Location Ownership *",
+      "translated": "स्थान Ownership *"
+    },
+    {
+      "file": "forms.json",
+      "key": "accountType",
+      "original": "Account Type *",
+      "translated": "Account प्रकार *"
+    },
+    {
+      "file": "forms.json",
+      "key": "referenceSource",
+      "original": "How did you hear about us? *",
+      "translated": "How did you hear हमारे बारे में? *"
+    },
+    {
+      "file": "forms.json",
+      "key": "previousFranchise",
+      "original": "Previous Franchise Experience",
+      "translated": "पिछला फ्रैंचाइज़ी अनुभव"
+    },
+    {
+      "file": "forms.json",
+      "key": "firstName",
+      "original": "Enter first name",
+      "translated": "Enter first नाम"
+    },
+    {
+      "file": "forms.json",
+      "key": "lastName",
+      "original": "Enter last name",
+      "translated": "Enter last नाम"
+    },
+    {
+      "file": "forms.json",
+      "key": "email",
+      "original": "your.email@example.com",
+      "translated": "your.ईमेल@उदाहरण.com"
+    },
+    {
+      "file": "forms.json",
+      "key": "addressLine2",
+      "original": "Area, Landmark",
+      "translated": "क्षेत्र, Landmark"
+    },
+    {
+      "file": "forms.json",
+      "key": "city",
+      "original": "Enter city",
+      "translated": "Enter शहर"
+    },
+    {
+      "file": "forms.json",
+      "key": "state",
+      "original": "Select state",
+      "translated": "चुनें राज्य"
+    },
+    {
+      "file": "forms.json",
+      "key": "pincode",
+      "original": "Enter 6-digit PIN code",
+      "translated": "Enter 6-digit पिन कोड"
+    },
+    {
+      "file": "forms.json",
+      "key": "businessType",
+      "original": "Select business type",
+      "translated": "चुनें व्यवसाय प्रकार"
+    },
+    {
+      "file": "forms.json",
+      "key": "experienceYears",
+      "original": "Years of experience",
+      "translated": "Years of अनुभव"
+    },
+    {
+      "file": "forms.json",
+      "key": "currentOccupation",
+      "original": "e.g., Shop Owner, Farmer, Employee",
+      "translated": "e.g., Shop मालिक, Farmer, कर्मचारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "annualIncome",
+      "original": "Select income range",
+      "translated": "चुनें आय सीमा"
+    },
+    {
+      "file": "forms.json",
+      "key": "investmentCapacity",
+      "original": "Select investment range",
+      "translated": "चुनें निवेश सीमा"
+    },
+    {
+      "file": "forms.json",
+      "key": "locationOwnership",
+      "original": "Do you own the location?",
+      "translated": "Do you own the स्थान?"
+    },
+    {
+      "file": "forms.json",
+      "key": "bankName",
+      "original": "Bank name",
+      "translated": "Bank नाम"
+    },
+    {
+      "file": "forms.json",
+      "key": "accountType",
+      "original": "Select account type",
+      "translated": "चुनें account प्रकार"
+    },
+    {
+      "file": "forms.json",
+      "key": "gstNumber",
+      "original": "GST registration number",
+      "translated": "GST पंजीकरण number"
+    },
+    {
+      "file": "forms.json",
+      "key": "referenceSource",
+      "original": "Select source",
+      "translated": "चुनें स्रोत"
+    },
+    {
+      "file": "forms.json",
+      "key": "previousFranchise",
+      "original": "Any previous franchise?",
+      "translated": "Any पिछला फ्रैंचाइज़ी?"
+    },
+    {
+      "file": "forms.json",
+      "key": "partnership",
+      "original": "Partnership",
+      "translated": "साझेदारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "private-limited",
+      "original": "Private Limited",
+      "translated": "Private सीमित"
+    },
+    {
+      "file": "forms.json",
+      "key": "owned",
+      "original": "I own the location",
+      "translated": "I own the स्थान"
+    },
+    {
+      "file": "forms.json",
+      "key": "can-arrange",
+      "original": "I can arrange the location",
+      "translated": "I can arrange the स्थान"
+    },
+    {
+      "file": "forms.json",
+      "key": "need-help",
+      "original": "Need help finding location",
+      "translated": "Need मदद finding स्थान"
+    },
+    {
+      "file": "forms.json",
+      "key": "current",
+      "original": "Current Account",
+      "translated": "वर्तमान Account"
+    },
+    {
+      "file": "forms.json",
+      "key": "search-engine",
+      "original": "Search Engine",
+      "translated": "खोजें Engine"
+    },
+    {
+      "file": "forms.json",
+      "key": "other",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "forms.json",
+      "key": "yes-successful",
+      "original": "Yes, successful experience",
+      "translated": "हां, successful अनुभव"
+    },
+    {
+      "file": "forms.json",
+      "key": "yes-challenges",
+      "original": "Yes, faced challenges",
+      "translated": "हां, faced challenges"
+    },
+    {
+      "file": "forms.json",
+      "key": "no",
+      "original": "No previous experience",
+      "translated": "नहीं पिछला अनुभव"
+    },
+    {
+      "file": "forms.json",
+      "key": "agreeText",
+      "original": "I agree to the",
+      "translated": "मैं सहमत हूं to the"
+    },
+    {
+      "file": "forms.json",
+      "key": "disclaimer",
+      "original": "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.",
+      "translated": "and पुष्टि करें that सभी जानकारी provided is accurate and पूर्ण करें. I understand that providing false जानकारी may परिणाम in आवेदन rejection."
+    },
+    {
+      "file": "forms.json",
+      "key": "marketingConsent",
+      "original": "I agree to receive marketing communications and updates about ATM franchise opportunities.",
+      "translated": "मैं सहमत हूं to प्राप्त करें marketing communications and updates about एटीएम फ्रैंचाइज़ी opportunities."
+    },
+    {
+      "file": "forms.json",
+      "key": "testimonial",
+      "original": "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
+      "translated": "Starting my एटीएम फ्रैंचाइज़ी was the best व्यवसाय decision I made. The सहायता टीम guided me through every step, and now I earn steady passive आय while serving my समुदाय."
+    },
+    {
+      "file": "forms.json",
+      "key": "designation",
+      "original": "ATM Franchise Owner, Bihar",
+      "translated": "एटीएम फ्रैंचाइज़ी मालिक, Bihar"
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "Application Process",
+      "translated": "आवेदन प्रक्रिया"
+    },
+    {
+      "file": "forms.json",
+      "key": "0",
+      "original": "Submit detailed application",
+      "translated": "जमा करें detailed आवेदन"
+    },
+    {
+      "file": "forms.json",
+      "key": "1",
+      "original": "Initial screening & verification",
+      "translated": "Initial screening & सत्यापन"
+    },
+    {
+      "file": "forms.json",
+      "key": "2",
+      "original": "Personal interview & site visit",
+      "translated": "Personal interview & साइट visit"
+    },
+    {
+      "file": "forms.json",
+      "key": "3",
+      "original": "Approval & agreement signing",
+      "translated": "अनुमोदन & agreement signing"
+    },
+    {
+      "file": "forms.json",
+      "key": "4",
+      "original": "Setup, training & launch",
+      "translated": "Setup, प्रशिक्षण & launch"
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "Need Help?",
+      "translated": "Need मदद?"
+    },
+    {
+      "file": "forms.json",
+      "key": "emailUs",
+      "original": "Email Us",
+      "translated": "ईमेल Us"
+    },
+    {
+      "file": "forms.json",
+      "key": "description",
+      "original": "Earn up to 50% return on investment with transparent revenue sharing",
+      "translated": "Earn up to 50% return on निवेश with transparent राजस्व sharing"
+    },
+    {
+      "file": "forms.json",
+      "key": "description",
+      "original": "Only 15 ATMs per 1 lakh people - huge market opportunity",
+      "translated": "Only 15 ATMs per 1 lakh people - huge market अवसर"
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "Complete Support",
+      "translated": "पूर्ण करें सहायता"
+    },
+    {
+      "file": "forms.json",
+      "key": "description",
+      "original": "End-to-end assistance from setup to operations",
+      "translated": "End-to-end सहायता from setup to operations"
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "Join as Franchise",
+      "translated": "Join as फ्रैंचाइज़ी"
+    },
+    {
+      "file": "forms.json",
+      "key": "description",
+      "original": "Start your own ATM business",
+      "translated": "Start your own एटीएम व्यवसाय"
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "Join as Employee",
+      "translated": "Join as कर्मचारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "submit",
+      "original": "Submit Application",
+      "translated": "जमा करें आवेदन"
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "Terms & Conditions Required",
+      "translated": "Terms & Conditions आवश्यक"
+    },
+    {
+      "file": "forms.json",
+      "key": "description",
+      "original": "Please agree to terms and conditions to proceed.",
+      "translated": "Please सहमत to नियम और शर्तें to आगे बढ़ें."
+    },
+    {
+      "file": "forms.json",
+      "key": "title",
+      "original": "Application Submitted Successfully!",
+      "translated": "आवेदन Submitted Successfully!"
+    },
+    {
+      "file": "forms.json",
+      "key": "description",
+      "original": "Our franchise team will review your application and contact you within 24-48 hours.",
+      "translated": "Our फ्रैंचाइज़ी टीम will review your आवेदन and contact you within 24-48 hours."
+    },
+    {
+      "file": "forms.json",
+      "key": "submit",
+      "original": "Submit",
+      "translated": "जमा करें"
+    },
+    {
+      "file": "forms.json",
+      "key": "next",
+      "original": "Next",
+      "translated": "अगला"
+    },
+    {
+      "file": "forms.json",
+      "key": "previous",
+      "original": "Previous",
+      "translated": "पिछला"
+    },
+    {
+      "file": "forms.json",
+      "key": "cancel",
+      "original": "Cancel",
+      "translated": "रद्द करें"
+    },
+    {
+      "file": "forms.json",
+      "key": "saveDraft",
+      "original": "Save Draft",
+      "translated": "सहेजें ड्राफ्ट"
+    },
+    {
+      "file": "forms.json",
+      "key": "submitApplication",
+      "original": "Submit Application",
+      "translated": "जमा करें आवेदन"
+    },
+    {
+      "file": "forms.json",
+      "key": "apply",
+      "original": "Apply Now",
+      "translated": "अभी आवेदन करें"
+    },
+    {
+      "file": "forms.json",
+      "key": "register",
+      "original": "Register",
+      "translated": "पंजीकरण"
+    },
+    {
+      "file": "forms.json",
+      "key": "continue",
+      "original": "Continue",
+      "translated": "जारी रखें"
+    },
+    {
+      "file": "forms.json",
+      "key": "personal",
+      "original": "Personal Information",
+      "translated": "Personal जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "contact",
+      "original": "Contact Details",
+      "translated": "Contact विवरण"
+    },
+    {
+      "file": "forms.json",
+      "key": "address",
+      "original": "Address Information",
+      "translated": "पता जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "business",
+      "original": "Business Information",
+      "translated": "व्यवसाय जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "financial",
+      "original": "Financial Information",
+      "translated": "Financial जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "documents",
+      "original": "Document Upload",
+      "translated": "Document अपलोड करें"
+    },
+    {
+      "file": "forms.json",
+      "key": "verification",
+      "original": "Verification",
+      "translated": "सत्यापन"
+    },
+    {
+      "file": "forms.json",
+      "key": "mandatoryFields",
+      "original": "All fields marked with * are mandatory",
+      "translated": "सभी fields marked with * are अनिवार्य"
+    },
+    {
+      "file": "forms.json",
+      "key": "accurateInfo",
+      "original": "Please provide accurate information",
+      "translated": "Please provide accurate जानकारी"
+    },
+    {
+      "file": "forms.json",
+      "key": "successMessage",
+      "original": "Application submitted successfully!",
+      "translated": "आवेदन submitted successfully!"
+    },
+    {
+      "file": "forms.json",
+      "key": "errorMessage",
+      "original": "Error submitting application. Please try again.",
+      "translated": "त्रुटि submitting आवेदन. Please try again."
+    },
+    {
+      "file": "forms.json",
+      "key": "reviewInfo",
+      "original": "Please review your information before submitting",
+      "translated": "Please review your जानकारी before submitting"
+    },
+    {
+      "file": "franchise.json",
+      "key": "trusted_atm_franchise_partner",
+      "original": "Trusted ATM Franchise Partner",
+      "translated": "विश्वसनीय एटीएम फ्रैंचाइज़ी Partner"
+    },
+    {
+      "file": "franchise.json",
+      "key": "simple_4step_process",
+      "original": "Simple 4-Step Process",
+      "translated": "सरल 4-Step प्रक्रिया"
+    },
+    {
+      "file": "franchise.json",
+      "key": "0",
+      "original": "Single location setup",
+      "translated": "Single स्थान setup"
+    },
+    {
+      "file": "franchise.json",
+      "key": "1",
+      "original": "Basic training program",
+      "translated": "बुनियादी प्रशिक्षण program"
+    },
+    {
+      "file": "franchise.json",
+      "key": "3",
+      "original": "Regional support team",
+      "translated": "Regional सहायता टीम"
+    },
+    {
+      "file": "franchise.json",
+      "key": "0",
+      "original": "Multiple location setup",
+      "translated": "Multiple स्थान setup"
+    },
+    {
+      "file": "franchise.json",
+      "key": "1",
+      "original": "Advanced training program",
+      "translated": "उन्नत प्रशिक्षण program"
+    },
+    {
+      "file": "franchise.json",
+      "key": "3",
+      "original": "Dedicated account manager",
+      "translated": "Dedicated account प्रबंधक"
+    },
+    {
+      "file": "franchise.json",
+      "key": "4",
+      "original": "Marketing support",
+      "translated": "Marketing सहायता"
+    },
+    {
+      "file": "franchise.json",
+      "key": "1",
+      "original": "Executive training program",
+      "translated": "कार्यकारी प्रशिक्षण program"
+    },
+    {
+      "file": "franchise.json",
+      "key": "3",
+      "original": "Personal relationship manager",
+      "translated": "Personal relationship प्रबंधक"
+    },
+    {
+      "file": "franchise.json",
+      "key": "4",
+      "original": "Complete marketing package",
+      "translated": "पूर्ण करें marketing पैकेज"
+    },
+    {
+      "file": "common.json",
+      "key": "submit",
+      "original": "Submit",
+      "translated": "जमा करें"
+    },
+    {
+      "file": "common.json",
+      "key": "save",
+      "original": "Save",
+      "translated": "सहेजें"
+    },
+    {
+      "file": "common.json",
+      "key": "cancel",
+      "original": "Cancel",
+      "translated": "रद्द करें"
+    },
+    {
+      "file": "common.json",
+      "key": "next",
+      "original": "Next",
+      "translated": "अगला"
+    },
+    {
+      "file": "common.json",
+      "key": "previous",
+      "original": "Previous",
+      "translated": "पिछला"
+    },
+    {
+      "file": "common.json",
+      "key": "continue",
+      "original": "Continue",
+      "translated": "जारी रखें"
+    },
+    {
+      "file": "common.json",
+      "key": "back",
+      "original": "Back",
+      "translated": "वापस"
+    },
+    {
+      "file": "common.json",
+      "key": "close",
+      "original": "Close",
+      "translated": "बंद करें"
+    },
+    {
+      "file": "common.json",
+      "key": "add",
+      "original": "Add",
+      "translated": "जोड़ें"
+    },
+    {
+      "file": "common.json",
+      "key": "edit",
+      "original": "Edit",
+      "translated": "संपादित करें"
+    },
+    {
+      "file": "common.json",
+      "key": "delete",
+      "original": "Delete",
+      "translated": "हटाएं"
+    },
+    {
+      "file": "common.json",
+      "key": "update",
+      "original": "Update",
+      "translated": "अपडेट"
+    },
+    {
+      "file": "common.json",
+      "key": "reset",
+      "original": "Reset",
+      "translated": "रीसेट"
+    },
+    {
+      "file": "common.json",
+      "key": "register",
+      "original": "Register",
+      "translated": "पंजीकरण"
+    },
+    {
+      "file": "common.json",
+      "key": "login",
+      "original": "Login",
+      "translated": "लॉगिन"
+    },
+    {
+      "file": "common.json",
+      "key": "finish",
+      "original": "Finish",
+      "translated": "समाप्त"
+    },
+    {
+      "file": "common.json",
+      "key": "loading",
+      "original": "Loading",
+      "translated": "लोड हो रहा है"
+    },
+    {
+      "file": "common.json",
+      "key": "success",
+      "original": "Success",
+      "translated": "सफलता"
+    },
+    {
+      "file": "common.json",
+      "key": "error",
+      "original": "Error",
+      "translated": "त्रुटि"
+    },
+    {
+      "file": "common.json",
+      "key": "warning",
+      "original": "Warning",
+      "translated": "चेतावनी"
+    },
+    {
+      "file": "common.json",
+      "key": "info",
+      "original": "Info",
+      "translated": "जानकारी"
+    },
+    {
+      "file": "common.json",
+      "key": "required",
+      "original": "Required",
+      "translated": "आवश्यक"
+    },
+    {
+      "file": "common.json",
+      "key": "optional",
+      "original": "Optional",
+      "translated": "वैकल्पिक"
+    },
+    {
+      "file": "common.json",
+      "key": "pending",
+      "original": "Pending",
+      "translated": "लंबित"
+    },
+    {
+      "file": "common.json",
+      "key": "completed",
+      "original": "Completed",
+      "translated": "पूर्ण"
+    },
+    {
+      "file": "common.json",
+      "key": "search",
+      "original": "Search",
+      "translated": "खोजें"
+    },
+    {
+      "file": "common.json",
+      "key": "filter",
+      "original": "Filter",
+      "translated": "फ़िल्टर"
+    },
+    {
+      "file": "common.json",
+      "key": "sort",
+      "original": "Sort",
+      "translated": "क्रमबद्ध करें"
+    },
+    {
+      "file": "common.json",
+      "key": "export",
+      "original": "Export",
+      "translated": "निर्यात"
+    },
+    {
+      "file": "common.json",
+      "key": "import",
+      "original": "Import",
+      "translated": "आयात"
+    },
+    {
+      "file": "common.json",
+      "key": "upload",
+      "original": "Upload",
+      "translated": "अपलोड करें"
+    },
+    {
+      "file": "common.json",
+      "key": "download",
+      "original": "Download",
+      "translated": "डाउनलोड करें"
+    },
+    {
+      "file": "common.json",
+      "key": "preview",
+      "original": "Preview",
+      "translated": "पूर्वावलोकन"
+    },
+    {
+      "file": "common.json",
+      "key": "select",
+      "original": "Select",
+      "translated": "चुनें"
+    },
+    {
+      "file": "common.json",
+      "key": "yes",
+      "original": "Yes",
+      "translated": "हां"
+    },
+    {
+      "file": "common.json",
+      "key": "no",
+      "original": "No",
+      "translated": "नहीं"
+    },
+    {
+      "file": "common.json",
+      "key": "confirm",
+      "original": "Confirm",
+      "translated": "पुष्टि करें"
+    },
+    {
+      "file": "common.json",
+      "key": "agree",
+      "original": "I Agree",
+      "translated": "मैं सहमत हूं"
+    },
+    {
+      "file": "common.json",
+      "key": "disagree",
+      "original": "I Disagree",
+      "translated": "I असहमत"
+    },
+    {
+      "file": "common.json",
+      "key": "home",
+      "original": "Home",
+      "translated": "होम"
+    },
+    {
+      "file": "common.json",
+      "key": "back",
+      "original": "Back",
+      "translated": "वापस"
+    },
+    {
+      "file": "common.json",
+      "key": "next",
+      "original": "Next",
+      "translated": "अगला"
+    },
+    {
+      "file": "common.json",
+      "key": "previous",
+      "original": "Previous",
+      "translated": "पिछला"
+    },
+    {
+      "file": "about.json",
+      "key": "middle",
+      "original": "ATM Franchise",
+      "translated": "एटीएम फ्रैंचाइज़ी"
+    },
+    {
+      "file": "about.json",
+      "key": "suffix",
+      "original": "India",
+      "translated": "भारत"
+    },
+    {
+      "file": "about.json",
+      "key": "expertise",
+      "original": "Our Expertise",
+      "translated": "हमारी विशेषज्ञता"
+    },
+    {
+      "file": "about.json",
+      "key": "companies",
+      "original": "Group Companies",
+      "translated": "समूह कंपनियां"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Who We Are",
+      "translated": "हम कौन हैं"
+    },
+    {
+      "file": "about.json",
+      "key": "subtitle",
+      "original": "Empowering entrepreneurs with trusted ATM franchise opportunities",
+      "translated": "Empowering entrepreneurs with विश्वसनीय एटीएम फ्रैंचाइज़ी opportunities"
+    },
+    {
+      "file": "about.json",
+      "key": "label",
+      "original": "Franchise Partners",
+      "translated": "फ्रैंचाइज़ी भागीदार"
+    },
+    {
+      "file": "about.json",
+      "key": "label",
+      "original": "Years Experience",
+      "translated": "Years अनुभव"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Accurate Information",
+      "translated": "Accurate जानकारी"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Provide verified and transparent information about ATM franchise opportunities",
+      "translated": "Provide सत्यापित and transparent जानकारी about एटीएम फ्रैंचाइज़ी opportunities"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Simplify Process",
+      "translated": "Simplify प्रक्रिया"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Make the ATM franchise journey simple and accessible for everyone",
+      "translated": "Make the एटीएम फ्रैंचाइज़ी journey सरल and accessible for everyone"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Continuous Support",
+      "translated": "Continuous सहायता"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Offer ongoing guidance from setup to successful operation",
+      "translated": "ऑफर ongoing मार्गदर्शन from setup to successful operation"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Enable Growth",
+      "translated": "सक्षम करें विकास"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Help partners achieve sustainable income and business growth",
+      "translated": "मदद partners achieve sustainable आय and व्यवसाय विकास"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Our Services",
+      "translated": "Our सेवाएं"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Franchise Consultation",
+      "translated": "फ्रैंचाइज़ी Consultation"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Expert guidance on choosing the right WLA partner and location",
+      "translated": "विशेषज्ञ मार्गदर्शन on choosing the right WLA partner and स्थान"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Training & Support",
+      "translated": "प्रशिक्षण & सहायता"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Comprehensive training programs and ongoing operational support",
+      "translated": "Comprehensive प्रशिक्षण programs and ongoing operational सहायता"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Digital Marketing",
+      "translated": "डिजिटल Marketing"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Technical Assistance",
+      "translated": "Technical सहायता"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Our Group Companies",
+      "translated": "Our समूह कंपनियां"
+    },
+    {
+      "file": "about.json",
+      "key": "subtitle",
+      "original": "Part of a trusted business ecosystem",
+      "translated": "Part of a विश्वसनीय व्यवसाय ecosystem"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Premium web development and digital solutions provider",
+      "translated": "प्रीमियम web development and डिजिटल समाधान provider"
+    },
+    {
+      "file": "about.json",
+      "key": "name",
+      "original": "Pixellpay Advantage",
+      "translated": "Pixellpay फायदा"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Financial technology solutions and payment services",
+      "translated": "Financial प्रौद्योगिकी समाधान and payment सेवाएं"
+    },
+    {
+      "file": "about.json",
+      "key": "link",
+      "original": "Learn More",
+      "translated": "और जानें"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Complete transparency in all business dealings",
+      "translated": "पूर्ण करें transparency in सभी व्यवसाय dealings"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Honest and ethical business practices",
+      "translated": "Honest and ethical व्यवसाय practices"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Innovation",
+      "translated": "नवाचार"
+    },
+    {
+      "file": "about.json",
+      "key": "description",
+      "original": "Continuous improvement and innovation",
+      "translated": "Continuous improvement and नवाचार"
+    },
+    {
+      "file": "about.json",
+      "key": "title",
+      "original": "Ready to Start Your ATM Franchise Journey?",
+      "translated": "Ready to Start Your एटीएम फ्रैंचाइज़ी Journey?"
+    },
+    {
+      "file": "about.json",
+      "key": "subtitle",
+      "original": "Join thousands of successful franchise partners across India",
+      "translated": "Join thousands of successful फ्रैंचाइज़ी partners across भारत"
+    },
+    {
+      "file": "about.json",
+      "key": "button",
+      "original": "Get Started Today",
+      "translated": "शुरू करें Today"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text1",
+      "original": "Agent Application Form",
+      "translated": "एजेंट आवेदन फॉर्म"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text2",
+      "original": "Personal Details",
+      "translated": "व्यक्तिगत विवरण"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text3",
+      "original": "Male",
+      "translated": "पुरुष"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text4",
+      "original": "Female",
+      "translated": "महिला"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text5",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text18",
+      "original": "Professional Details",
+      "translated": "पेशेवर विवरण"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text20",
+      "original": "Business Owner",
+      "translated": "व्यवसाय मालिक"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text1",
+      "original": "Agent Application Form",
+      "translated": "एजेंट आवेदन फॉर्म"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text2",
+      "original": "Agent Network",
+      "translated": "Agent नेटवर्क"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text3",
+      "original": "Tell us about yourself and provide your basic details",
+      "translated": "Tell us about yourself and provide your बुनियादी विवरण"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text4",
+      "original": "Male",
+      "translated": "पुरुष"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text5",
+      "original": "Female",
+      "translated": "महिला"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text6",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text18",
+      "original": "Share your professional information and upload required documents",
+      "translated": "साझा करें your पेशेवर जानकारी and अपलोड करें आवश्यक दस्तावेज़"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text20",
+      "original": "Business Owner",
+      "translated": "व्यवसाय मालिक"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text21",
+      "original": "Security Verification",
+      "translated": "Security सत्यापन"
+    },
+    {
+      "file": "components.json",
+      "key": "directsheetsform.text1",
+      "original": "Data Encrypted",
+      "translated": "डेटा Encrypted"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text1",
+      "original": "Business Enquiry Form",
+      "translated": "व्यवसाय Enquiry फॉर्म"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text4",
+      "original": "Tell us about your business interests and investment preferences",
+      "translated": "Tell us about your व्यवसाय interests and निवेश preferences"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text5",
+      "original": "Retail Outlet Partnership",
+      "translated": "Retail Outlet साझेदारी"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text6",
+      "original": "Distribution Partnership",
+      "translated": "Distribution साझेदारी"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text7",
+      "original": "Other Business Opportunity",
+      "translated": "अन्य व्यवसाय अवसर"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text13",
+      "original": "Google Search",
+      "translated": "Google खोजें"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text16",
+      "original": "Business Event",
+      "translated": "व्यवसाय Event"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text17",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text18",
+      "original": "Security Verification",
+      "translated": "Security सत्यापन"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text19",
+      "original": "Complete security verification to submit",
+      "translated": "पूर्ण करें security सत्यापन to जमा करें"
+    },
+    {
+      "file": "components.json",
+      "key": "errorboundary.text1",
+      "original": "Async Error",
+      "translated": "Async त्रुटि"
+    },
+    {
+      "file": "components.json",
+      "key": "formsuccessmodal.text1",
+      "original": "WhatsApp support available",
+      "translated": "WhatsApp सहायता उपलब्ध"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text1",
+      "original": "Influencer Application Form",
+      "translated": "Influencer आवेदन फॉर्म"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text2",
+      "original": "Influencer Network",
+      "translated": "Influencer नेटवर्क"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text3",
+      "original": "Your basic details and contact information",
+      "translated": "Your बुनियादी विवरण and संपर्क जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text4",
+      "original": "Male",
+      "translated": "पुरुष"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text5",
+      "original": "Female",
+      "translated": "महिला"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text6",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text19",
+      "original": "Facebook Profile Link",
+      "translated": "Facebook प्रोफ़ाइल लिंक"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text20",
+      "original": "Instagram Profile Link",
+      "translated": "Instagram प्रोफ़ाइल लिंक"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text21",
+      "original": "YouTube Channel Link",
+      "translated": "YouTube Channel लिंक"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text22",
+      "original": "LinkedIn Profile Link",
+      "translated": "LinkedIn प्रोफ़ाइल लिंक"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text24",
+      "original": "Upload required documents for verification",
+      "translated": "अपलोड करें आवश्यक दस्तावेज़ for सत्यापन"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text25",
+      "original": "Security Verification",
+      "translated": "Security सत्यापन"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text26",
+      "original": "Complete security verification to submit",
+      "translated": "पूर्ण करें security सत्यापन to जमा करें"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text1",
+      "original": "Job Application Form",
+      "translated": "Job आवेदन फॉर्म"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text3",
+      "original": "Job Information",
+      "translated": "Job जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text4",
+      "original": "Personal Information",
+      "translated": "Personal जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text5",
+      "original": "Your contact details and basic information",
+      "translated": "Your contact विवरण and बुनियादी जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text6",
+      "original": "Professional Information",
+      "translated": "पेशेवर जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text7",
+      "original": "Your work experience and career details",
+      "translated": "Your work अनुभव and career विवरण"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text9",
+      "original": "More than 3 Months",
+      "translated": "अधिक than 3 Months"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text10",
+      "original": "Upload your latest resume or CV",
+      "translated": "अपलोड करें your नवीनतम resume or CV"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text11",
+      "original": "Security Verification",
+      "translated": "Security सत्यापन"
+    },
+    {
+      "file": "components.json",
+      "key": "jobapplicationsinglepage.text12",
+      "original": "Complete security verification to submit",
+      "translated": "पूर्ण करें security सत्यापन to जमा करें"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text18",
+      "original": "Partnership",
+      "translated": "साझेदारी"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text19",
+      "original": "Private Limited",
+      "translated": "Private सीमित"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text20",
+      "original": "Need help finding location",
+      "translated": "Need मदद finding स्थान"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text22",
+      "original": "Current Account",
+      "translated": "वर्तमान Account"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text25",
+      "original": "Search Engine",
+      "translated": "खोजें Engine"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text26",
+      "original": "Other",
+      "translated": "अन्य"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text27",
+      "original": "No previous experience",
+      "translated": "नहीं पिछला अनुभव"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text31",
+      "original": "Application Process",
+      "translated": "आवेदन प्रक्रिया"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text32",
+      "original": "Submit detailed application",
+      "translated": "जमा करें detailed आवेदन"
+    },
+    {
+      "file": "components.json",
+      "key": "joinus.text34",
+      "original": "Email Us",
+      "translated": "ईमेल Us"
+    },
+    {
+      "file": "components.json",
+      "key": "languageswitchtest.text1",
+      "original": "Language Switch Test Suite",
+      "translated": "Language Switch Test सुइट"
+    },
+    {
+      "file": "components.json",
+      "key": "stickyheader.text1",
+      "original": "Join Us",
+      "translated": "हमसे जुड़ें"
+    },
+    {
+      "file": "components.json",
+      "key": "submitlocationsinglepage.text1",
+      "original": "Agent Assistance",
+      "translated": "Agent सहायता"
+    },
+    {
+      "file": "components.json",
+      "key": "submitlocationsinglepage.text2",
+      "original": "Personal Information",
+      "translated": "Personal जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "submitlocationsinglepage.text3",
+      "original": "Location Information",
+      "translated": "स्थान जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "submitlocationsinglepage.text4",
+      "original": "Location Photos",
+      "translated": "स्थान Photos"
+    },
+    {
+      "file": "components.json",
+      "key": "submitlocationsinglepage.text5",
+      "original": "Additional Information",
+      "translated": "Additional जानकारी"
+    },
+    {
+      "file": "components.json",
+      "key": "submitlocationsinglepage.text6",
+      "original": "Expert Team Review",
+      "translated": "विशेषज्ञ टीम Review"
+    },
+    {
+      "file": "components.json",
+      "key": "submitlocationsinglepage.text7",
+      "original": "Quick Response",
+      "translated": "Quick प्रतिक्रिया"
+    },
+    {
+      "file": "components.json",
+      "key": "breadcrumb.text1",
+      "original": "More",
+      "translated": "अधिक"
+    },
+    {
+      "file": "components.json",
+      "key": "captcha-protection.text1",
+      "original": "Not verified",
+      "translated": "Not सत्यापित"
+    },
+    {
+      "file": "components.json",
+      "key": "carousel.text1",
+      "original": "Previous slide",
+      "translated": "पिछला slide"
+    },
+    {
+      "file": "components.json",
+      "key": "carousel.text2",
+      "original": "Next slide",
+      "translated": "अगला slide"
+    },
+    {
+      "file": "components.json",
+      "key": "dialog.text1",
+      "original": "Close",
+      "translated": "बंद करें"
+    },
+    {
+      "file": "components.json",
+      "key": "enhanced-file-upload.text1",
+      "original": "Upload Document",
+      "translated": "अपलोड करें Document"
+    },
+    {
+      "file": "components.json",
+      "key": "enhanced-file-upload.text2",
+      "original": "Choose how to upload your file",
+      "translated": "Choose how to अपलोड करें your file"
+    },
+    {
+      "file": "components.json",
+      "key": "file-upload.text1",
+      "original": "Upload Options",
+      "translated": "अपलोड करें Options"
+    },
+    {
+      "file": "components.json",
+      "key": "pagination.text1",
+      "original": "Previous",
+      "translated": "पिछला"
+    },
+    {
+      "file": "components.json",
+      "key": "pagination.text2",
+      "original": "Next",
+      "translated": "अगला"
+    },
+    {
+      "file": "components.json",
+      "key": "pagination.text3",
+      "original": "More pages",
+      "translated": "अधिक pages"
+    },
+    {
+      "file": "components.json",
+      "key": "sheet.text1",
+      "original": "Close",
+      "translated": "बंद करें"
+    },
+    {
+      "file": "components.json",
+      "key": "atmfranchisepassiveincome.text1",
+      "original": "Business Opportunity",
+      "translated": "व्यवसाय अवसर"
+    },
+    {
+      "file": "components.json",
+      "key": "fivestepguideatmbusiness.text3",
+      "original": "Start Your Success Story Today",
+      "translated": "Start Your सफलता Story Today"
+    },
+    {
+      "file": "components.json",
+      "key": "fivestepguideatmbusiness.text4",
+      "original": "Monthly Income Potential",
+      "translated": "Monthly आय Potential"
+    },
+    {
+      "file": "components.json",
+      "key": "passiveincomefinancialfreedom.text3",
+      "original": "Your Next Step",
+      "translated": "Your अगला Step"
+    },
+    {
+      "file": "components.json",
+      "key": "truthaboutpassiveincomeideas.text1",
+      "original": "Investment Analysis",
+      "translated": "निवेश विश्लेषण"
+    },
+    {
+      "file": "components.json",
+      "key": "truthaboutpassiveincomeideas.text3",
+      "original": "Investment Range",
+      "translated": "निवेश सीमा"
+    },
+    {
+      "file": "components.json",
+      "key": "truthaboutpassiveincomeideas.text4",
+      "original": "The Challenge",
+      "translated": "The चुनौती"
+    },
+    {
+      "file": "components.json",
+      "key": "designaudit.text1",
+      "original": "Overall Design Score",
+      "translated": "Overall डिज़ाइन Score"
+    },
+    {
+      "file": "components.json",
+      "key": "designaudit.text11",
+      "original": "Color Palette Analysis",
+      "translated": "रंग Palette विश्लेषण"
+    },
+    {
+      "file": "components.json",
+      "key": "designaudit.text13",
+      "original": "Responsive Design Analysis",
+      "translated": "Responsive डिज़ाइन विश्लेषण"
+    },
+    {
+      "file": "components.json",
+      "key": "designaudit.text14",
+      "original": "Mobile",
+      "translated": "मोबाइल"
+    },
+    {
+      "file": "components.json",
+      "key": "designaudit.text18",
+      "original": "Mobile Issues",
+      "translated": "मोबाइल Issues"
+    },
+    {
+      "file": "components.json",
+      "key": "designaudit.text21",
+      "original": "Enhance Design Consistency",
+      "translated": "Enhance डिज़ाइन Consistency"
+    },
+    {
+      "file": "components.json",
+      "key": "designaudit.text22",
+      "original": "Polish User Interactions",
+      "translated": "Polish उपयोगकर्ता Interactions"
+    },
+    {
+      "file": "components.json",
+      "key": "translationtest.text5",
+      "original": "Current Value",
+      "translated": "वर्तमान Value"
+    },
+    {
+      "file": "components.json",
+      "key": "translationverify.text1",
+      "original": "Translation Verification Dashboard",
+      "translated": "Translation सत्यापन डैशबोर्ड"
+    },
+    {
+      "file": "components.json",
+      "key": "translationverify.text4",
+      "original": "Instructions",
+      "translated": "निर्देश"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text2",
+      "original": "Premium Design",
+      "translated": "प्रीमियम डिज़ाइन"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text3",
+      "original": "Sparkle Effect",
+      "translated": "Sparkle प्रभाव"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text4",
+      "original": "Enable notifications",
+      "translated": "सक्षम करें notifications"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text5",
+      "original": "Loading States",
+      "translated": "लोड हो रहा है States"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text8",
+      "original": "Hover for 3D perspective effect",
+      "translated": "Hover for 3D perspective प्रभाव"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text9",
+      "original": "Glass Effect",
+      "translated": "Glass प्रभाव"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text11",
+      "original": "Premium Button",
+      "translated": "प्रीमियम बटन"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text12",
+      "original": "Glow Button",
+      "translated": "Glow बटन"
+    },
+    {
+      "file": "components.json",
+      "key": "visualshowcase.text13",
+      "original": "Press Effect",
+      "translated": "Press प्रभाव"
+    },
+    {
+      "file": "contact.json",
+      "key": "title",
+      "original": "Phone",
+      "translated": "फोन"
+    },
+    {
+      "file": "contact.json",
+      "key": "title",
+      "original": "Email",
+      "translated": "ईमेल"
+    },
+    {
+      "file": "contact.json",
+      "key": "response",
+      "original": "We reply within 24 hours",
+      "translated": "We उत्तर दें within 24 hours"
+    },
+    {
+      "file": "contact.json",
+      "key": "title",
+      "original": "Office Address",
+      "translated": "कार्यालय पता"
+    },
+    {
+      "file": "contact.json",
+      "key": "address",
+      "original": "Bangalore, Karnataka, India",
+      "translated": "Bangalore, Karnataka, भारत"
+    },
+    {
+      "file": "contact.json",
+      "key": "title",
+      "original": "Send us a Message",
+      "translated": "भेजें us a Message"
+    },
+    {
+      "file": "contact.json",
+      "key": "description",
+      "original": "Fill out the form below and our team will get back to you soon",
+      "translated": "Fill out the फॉर्म below and our टीम will get वापस to you soon"
+    }
+  ],
+  "namespacesUpdated": [
+    "home.json",
+    "forms.json",
+    "franchise.json",
+    "common.json",
+    "about.json",
+    "components.json",
+    "contact.json"
+  ],
+  "totalTranslated": 359,
+  "verificationReport": {
+    "totalKeys": 1371,
+    "translatedKeys": 1058,
+    "englishOnly": 238,
+    "percentage": 77
+  }
+}

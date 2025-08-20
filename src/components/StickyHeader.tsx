@@ -182,7 +182,7 @@ const StickyHeader = () => {
               className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold min-h-[44px] min-w-[44px]" 
               asChild
             >
-              <Link to="/join-us">Join Us</Link>
+              <Link to="/join-us">{t('components.stickyheader.text1')}</Link>
             </Button>
           )}
           

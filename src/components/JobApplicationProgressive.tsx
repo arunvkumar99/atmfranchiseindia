@@ -14,6 +14,7 @@ interface JobApplicationProgressiveProps {
 }
 
 export function JobApplicationProgressive({ jobs, selectedJobId = "" }: JobApplicationProgressiveProps) {
+  const { t } = useTranslation();
   // Use the new single page component
   return <JobApplicationSinglePage jobs={jobs} selectedJobId={selectedJobId} />;
 }

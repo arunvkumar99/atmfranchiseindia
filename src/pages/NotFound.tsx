@@ -21,7 +21,7 @@ const NotFound = () => {
       <div className="max-w-2xl w-full mx-auto text-center p-8">
         <div className="mb-8">
           <h1 className="text-9xl font-bold text-white/20 mb-4">404</h1>
-          <h2 className="text-3xl font-bold text-white mb-4">Page Not Found</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">{t('components.notfound.text1')}</h2>
           <p className="text-white/80 mb-8">
             The page you're looking for doesn't exist or has been moved. Try searching for what you need or explore our main sections below.
           </p>

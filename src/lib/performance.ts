@@ -289,7 +289,7 @@ export function measureFunction<T extends (...args: any[]) => any>(
       return result;
     } catch (error) {
       const duration = performance.now() - start;
-      console.error(`Function ${fnName} failed after ${duration.toFixed(2)}ms`);
+      if (import.meta.env.DEV) { console.error(`Function ${fnName} failed after ${duration.toFixed(2)}ms`); }
       throw error;
     }
   }) as T;

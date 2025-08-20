@@ -84,14 +84,14 @@ const FiveStepGuideATMBusiness = () => {
 
         {/* Article Header */}
         <div className="mb-12">
-          <Badge className="mb-4 bg-primary/10 text-primary">Getting Started</Badge>
+          <Badge className="mb-4 bg-primary/10 text-primary">{t('components.fivestepguideatmbusiness.text1')}</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Your 5-Step Guide to Launching Your Own ATM Business
           </h1>
           <div className="flex items-center gap-6 text-muted-foreground mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>January 2025</span>
+              <span>{t('components.fivestepguideatmbusiness.text2')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
@@ -157,22 +157,22 @@ const FiveStepGuideATMBusiness = () => {
               {/* Success Story */}
               <div className="bg-gradient-hero text-primary-foreground rounded-xl p-8 mt-12">
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold mb-4">Start Your Success Story Today</h3>
+                  <h3 className="text-2xl font-bold mb-4">{t('components.fivestepguideatmbusiness.text3')}</h3>
                   <p className="leading-relaxed mb-6">
                     By starting an ATM franchise, you're not just earning a passive income; you're also providing an essential service to your community and becoming a part of India's incredible growth story. It's a smart, secure, and simple way to build your financial future.
                   </p>
                   <div className="grid md:grid-cols-3 gap-4 text-center">
                     <div className="bg-primary-foreground/20 rounded-lg p-4">
                       <div className="text-2xl font-bold">₹25k-30k</div>
-                      <div className="text-sm opacity-80">Monthly Income Potential</div>
+                      <div className="text-sm opacity-80">{t('components.fivestepguideatmbusiness.text4')}</div>
                     </div>
                     <div className="bg-primary-foreground/20 rounded-lg p-4">
                       <div className="text-2xl font-bold">33%+</div>
-                      <div className="text-sm opacity-80">Annual ROI</div>
+                      <div className="text-sm opacity-80">{t('components.fivestepguideatmbusiness.text5')}</div>
                     </div>
                     <div className="bg-primary-foreground/20 rounded-lg p-4">
                       <div className="text-2xl font-bold">15-20 min</div>
-                      <div className="text-sm opacity-80">Daily Effort</div>
+                      <div className="text-sm opacity-80">{t('components.fivestepguideatmbusiness.text6')}</div>
                     </div>
                   </div>
                 </div>

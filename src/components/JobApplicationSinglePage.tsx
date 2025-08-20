@@ -212,7 +212,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
       setIsCaptchaVerified(false);
 
     } catch (error) {
-      // console.error('❌ Error submitting job application:', error); // Silenced for production
+      // if (import.meta.env.DEV) { console.error('❌ Error submitting job application:', error); } // Silenced for production
       trackFormSubmit(false, error.message);
       
       toast({
@@ -275,7 +275,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-14">
       <div className="bg-white border-b border-gray-100 shadow-sm">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-xl font-bold">Job Application Form</h1>
+          <h1 className="text-xl font-bold">{t('components.jobapplicationsinglepage.text1')}</h1>
         </div>
       </div>
 
@@ -283,7 +283,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Apply for <span className="text-gradient">Job Position</span>
+              Apply for <span className="text-gradient">{t('components.jobapplicationsinglepage.text2')}</span>
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
               Join our team and build your career with us
@@ -296,7 +296,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                 {/* Job Information */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Job Information</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components.jobapplicationsinglepage.text3')}</h3>
                     <p className="text-sm text-muted-foreground mt-1">Select the position you're applying for</p>
                   </div>
 
@@ -326,8 +326,8 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                 {/* Personal Information */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Personal Information</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Your contact details and basic information</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components.jobapplicationsinglepage.text4')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.jobapplicationsinglepage.text5')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -411,8 +411,8 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                 {/* Professional Information */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Professional Information</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Your work experience and career details</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components.jobapplicationsinglepage.text6')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.jobapplicationsinglepage.text7')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -460,12 +460,12 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                         <SelectValue placeholder="Select notice period" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="immediate">Immediate</SelectItem>
+                        <SelectItem value="immediate">{t('components.jobapplicationsinglepage.text8')}</SelectItem>
                         <SelectItem value="15-days">15 Days</SelectItem>
                         <SelectItem value="1-month">1 Month</SelectItem>
                         <SelectItem value="2-months">2 Months</SelectItem>
                         <SelectItem value="3-months">3 Months</SelectItem>
-                        <SelectItem value="more-than-3-months">More than 3 Months</SelectItem>
+                        <SelectItem value="more-than-3-months">{t('components.jobapplicationsinglepage.text9')}</SelectItem>
                       </SelectContent>
                     </Select>
                     {errors.noticePeriod && (
@@ -481,7 +481,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">Resume/CV Upload</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Upload your latest resume or CV</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.jobapplicationsinglepage.text10')}</p>
                   </div>
 
                   <div className="space-y-3">
@@ -533,8 +533,8 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                 {/* Security Verification */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Security Verification</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Complete security verification to submit</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components.jobapplicationsinglepage.text11')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.jobapplicationsinglepage.text12')}</p>
                   </div>
                   <CaptchaProtection 
                     onVerify={setIsCaptchaVerified}

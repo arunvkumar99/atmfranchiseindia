@@ -2,8 +2,8 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
-    "simple_4step_process": "Simple 4-Step Process"
+    "trusted_atm_franchise_partner": "विश्वसनीय एटीएम फ्रैंचाइज़ी Partner",
+    "simple_4step_process": "सरल 4-Step प्रक्रिया"
   },
   "hero": {
     "badge": "विश्वसनीय एटीएम फ्रैंचाइज़ी भागीदार",
@@ -160,10 +160,10 @@
         "roi": "15-18% वार्षिक",
         "support": "मानक समर्थन",
         "features": {
-          "0": "Single location setup",
-          "1": "Basic training program",
+          "0": "Single स्थान setup",
+          "1": "बुनियादी प्रशिक्षण program",
           "2": "Monthly maintenance",
-          "3": "Regional support team"
+          "3": "Regional सहायता टीम"
         }
       },
       "professional": {
@@ -173,11 +173,11 @@
         "roi": "18-22% वार्षिक",
         "support": "प्राथमिकता समर्थन",
         "features": {
-          "0": "Multiple location setup",
-          "1": "Advanced training program",
+          "0": "Multiple स्थान setup",
+          "1": "उन्नत प्रशिक्षण program",
           "2": "Bi-weekly maintenance",
-          "3": "Dedicated account manager",
-          "4": "Marketing support"
+          "3": "Dedicated account प्रबंधक",
+          "4": "Marketing सहायता"
         },
         "popular": true
       },
@@ -189,10 +189,10 @@
         "support": "प्रीमियम समर्थन",
         "features": {
           "0": "Unlimited locations",
-          "1": "Executive training program",
+          "1": "कार्यकारी प्रशिक्षण program",
           "2": "Weekly maintenance",
-          "3": "Personal relationship manager",
-          "4": "Complete marketing package",
+          "3": "Personal relationship प्रबंधक",
+          "4": "पूर्ण करें marketing पैकेज",
           "5": "Priority placement"
         }
       }

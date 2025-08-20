@@ -373,21 +373,21 @@ const JoinUs = () => {
                             <SelectValue placeholder={t('placeholders.state', 'Select state')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="andhra-pradesh">Andhra Pradesh</SelectItem>
-                            <SelectItem value="bihar">Bihar</SelectItem>
-                            <SelectItem value="gujarat">Gujarat</SelectItem>
-                            <SelectItem value="haryana">Haryana</SelectItem>
-                            <SelectItem value="karnataka">Karnataka</SelectItem>
-                            <SelectItem value="kerala">Kerala</SelectItem>
-                            <SelectItem value="madhya-pradesh">Madhya Pradesh</SelectItem>
-                            <SelectItem value="maharashtra">Maharashtra</SelectItem>
-                            <SelectItem value="odisha">Odisha</SelectItem>
-                            <SelectItem value="punjab">Punjab</SelectItem>
-                            <SelectItem value="rajasthan">Rajasthan</SelectItem>
-                            <SelectItem value="tamil-nadu">Tamil Nadu</SelectItem>
-                            <SelectItem value="telangana">Telangana</SelectItem>
-                            <SelectItem value="uttar-pradesh">Uttar Pradesh</SelectItem>
-                            <SelectItem value="west-bengal">West Bengal</SelectItem>
+                            <SelectItem value="andhra-pradesh">{t('components.joinus.text1')}</SelectItem>
+                            <SelectItem value="bihar">{t('components.joinus.text2')}</SelectItem>
+                            <SelectItem value="gujarat">{t('components.joinus.text3')}</SelectItem>
+                            <SelectItem value="haryana">{t('components.joinus.text4')}</SelectItem>
+                            <SelectItem value="karnataka">{t('components.joinus.text5')}</SelectItem>
+                            <SelectItem value="kerala">{t('components.joinus.text6')}</SelectItem>
+                            <SelectItem value="madhya-pradesh">{t('components.joinus.text7')}</SelectItem>
+                            <SelectItem value="maharashtra">{t('components.joinus.text8')}</SelectItem>
+                            <SelectItem value="odisha">{t('components.joinus.text9')}</SelectItem>
+                            <SelectItem value="punjab">{t('components.joinus.text10')}</SelectItem>
+                            <SelectItem value="rajasthan">{t('components.joinus.text11')}</SelectItem>
+                            <SelectItem value="tamil-nadu">{t('components.joinus.text12')}</SelectItem>
+                            <SelectItem value="telangana">{t('components.joinus.text13')}</SelectItem>
+                            <SelectItem value="uttar-pradesh">{t('components.joinus.text14')}</SelectItem>
+                            <SelectItem value="west-bengal">{t('components.joinus.text15')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -424,10 +424,10 @@ const JoinUs = () => {
                             <SelectValue placeholder="Select business type" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="individual">Individual</SelectItem>
-                            <SelectItem value="proprietorship">Proprietorship</SelectItem>
-                            <SelectItem value="partnership">Partnership</SelectItem>
-                            <SelectItem value="private-limited">Private Limited</SelectItem>
+                            <SelectItem value="individual">{t('components.joinus.text16')}</SelectItem>
+                            <SelectItem value="proprietorship">{t('components.joinus.text17')}</SelectItem>
+                            <SelectItem value="partnership">{t('components.joinus.text18')}</SelectItem>
+                            <SelectItem value="private-limited">{t('components.joinus.text19')}</SelectItem>
                             <SelectItem value="llp">LLP</SelectItem>
                           </SelectContent>
                         </Select>
@@ -530,7 +530,7 @@ const JoinUs = () => {
                           <SelectContent>
                             <SelectItem value="owned">I own the location</SelectItem>
                             <SelectItem value="can-arrange">I can arrange the location</SelectItem>
-                            <SelectItem value="need-help">Need help finding location</SelectItem>
+                            <SelectItem value="need-help">{t('components.joinus.text20')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -605,8 +605,8 @@ const JoinUs = () => {
                             <SelectValue placeholder="Select account type" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="savings">Savings Account</SelectItem>
-                            <SelectItem value="current">Current Account</SelectItem>
+                            <SelectItem value="savings">{t('components.joinus.text21')}</SelectItem>
+                            <SelectItem value="current">{t('components.joinus.text22')}</SelectItem>
                             <SelectItem value="cc-od">CC/OD Account</SelectItem>
                           </SelectContent>
                         </Select>
@@ -654,12 +654,12 @@ const JoinUs = () => {
                             <SelectValue placeholder="Select source" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="website">Website</SelectItem>
-                            <SelectItem value="social-media">Social Media</SelectItem>
+                            <SelectItem value="website">{t('components.joinus.text23')}</SelectItem>
+                            <SelectItem value="social-media">{t('components.joinus.text24')}</SelectItem>
                             <SelectItem value="friend-referral">Friend/Family Referral</SelectItem>
                             <SelectItem value="newspaper">Newspaper/Magazine</SelectItem>
-                            <SelectItem value="search-engine">Search Engine</SelectItem>
-                            <SelectItem value="other">Other</SelectItem>
+                            <SelectItem value="search-engine">{t('components.joinus.text25')}</SelectItem>
+                            <SelectItem value="other">{t('components.joinus.text26')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -675,7 +675,7 @@ const JoinUs = () => {
                           <SelectContent>
                             <SelectItem value="yes-successful">Yes, successful experience</SelectItem>
                             <SelectItem value="yes-challenges">Yes, faced challenges</SelectItem>
-                            <SelectItem value="no">No previous experience</SelectItem>
+                            <SelectItem value="no">{t('components.joinus.text27')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -689,8 +689,8 @@ const JoinUs = () => {
                             <SelectValue placeholder="When can you start?" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="immediate">Immediately</SelectItem>
-                            <SelectItem value="1-month">Within 1 month</SelectItem>
+                            <SelectItem value="immediate">{t('components.joinus.text28')}</SelectItem>
+                            <SelectItem value="1-month">{t('components.joinus.text29')}</SelectItem>
                             <SelectItem value="2-3-months">2-3 months</SelectItem>
                             <SelectItem value="3-6-months">3-6 months</SelectItem>
                             <SelectItem value="6-months+">6+ months</SelectItem>
@@ -773,7 +773,7 @@ const JoinUs = () => {
                   "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community."
                 </p>
                 <div className="text-sm text-foreground">
-                  <strong>Rajesh Kumar</strong><br />
+                  <strong>{t('components.joinus.text30')}</strong><br />
                   <span className="text-muted-foreground">ATM Franchise Owner, Bihar</span>
                 </div>
               </CardContent>
@@ -781,11 +781,11 @@ const JoinUs = () => {
 
             <Card className="bg-gradient-success text-secondary-foreground border-0 shadow-success">
               <CardContent className="p-6 text-center">
-                <h3 className="text-xl font-bold mb-4">Application Process</h3>
+                <h3 className="text-xl font-bold mb-4">{t('components.joinus.text31')}</h3>
                 <div className="space-y-4 text-left">
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-sm font-bold">1</div>
-                    <span>Submit detailed application</span>
+                    <span>{t('components.joinus.text32')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-sm font-bold">2</div>
@@ -814,7 +814,7 @@ const JoinUs = () => {
                   <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-primary" />
                     <div>
-                      <p className="font-medium text-foreground">Call Us</p>
+                      <p className="font-medium text-foreground">{t('components.joinus.text33')}</p>
                       <p className="text-sm text-muted-foreground">+91 7003554455</p>
                     </div>
                   </div>
@@ -822,7 +822,7 @@ const JoinUs = () => {
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-primary" />
                     <div>
-                      <p className="font-medium text-foreground">Email Us</p>
+                      <p className="font-medium text-foreground">{t('components.joinus.text34')}</p>
                       <p className="text-sm text-muted-foreground">contact@atmfranchiseindia.in</p>
                     </div>
                   </div>

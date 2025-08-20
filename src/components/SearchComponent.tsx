@@ -149,7 +149,7 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
           {/* Quick suggestions when no query */}
           {!query && (
             <div className="space-y-2">
-              <h3 className="text-sm font-medium text-muted-foreground px-1">Popular Searches</h3>
+              <h3 className="text-sm font-medium text-muted-foreground px-1">{t('components.searchcomponent.text1')}</h3>
               <div className="space-y-1">
                 {['ATM Franchise', 'Passive Income', 'Sales Agent', 'Start ATM', 'Investment'].map((suggestion) => (
                   <Button

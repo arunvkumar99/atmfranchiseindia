@@ -10,6 +10,7 @@ interface UrgencyBannerProps {
 }
 
 export function UrgencyBanner({ variant = 'limited-time', className = '' }: UrgencyBannerProps) {
+  const { t } = useTranslation();
   const variants = {
     'limited-time': {
       icon: Clock,

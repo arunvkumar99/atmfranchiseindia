@@ -1,0 +1,1700 @@
+{
+  "timestamp": "2025-08-20T02:31:46.835Z",
+  "hindiStatus": {
+    "totalKeys": 1371,
+    "translatedKeys": 1058,
+    "englishPlaceholders": 238,
+    "emptyValues": 0,
+    "percentageComplete": 77,
+    "suspiciousTranslations": [
+      {
+        "key": "about.whoWeAre.description",
+        "value": "ATM Franchise India is a pioneering platform that ",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "about.whoWeAre.stats.partners.number",
+        "value": "5000+",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "about.whoWeAre.stats.transactions.number",
+        "value": "10M+",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "about.whoWeAre.stats.transactions.label",
+        "value": "Monthly Transactions",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.whoWeAre.stats.coverage.number",
+        "value": "28",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.whoWeAre.stats.coverage.label",
+        "value": "States Covered",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.whoWeAre.stats.experience.number",
+        "value": "4+",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "about.mission.title",
+        "value": "Our Mission",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.services.digital.description",
+        "value": "Boost your ATM's visibility with our digital marke",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "about.services.technical.description",
+        "value": "24/7 technical support and troubleshooting assista",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "about.companies.pixellweb.name",
+        "value": "Pixellweb",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.companies.pixellweb.link",
+        "value": "Visit Website",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.values.title",
+        "value": "Our Values",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.values.transparency.title",
+        "value": "Transparency",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.values.integrity.title",
+        "value": "Integrity",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.values.excellence.title",
+        "value": "Excellence",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "about.values.excellence.description",
+        "value": "Commitment to service excellence",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.buttons.apply",
+        "value": "Apply",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.buttons.clear",
+        "value": "Clear",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.forms.minLength",
+        "value": "Minimum {{count}} characters required",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.forms.maxLength",
+        "value": "Maximum {{count}} characters allowed",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.search.results",
+        "value": "{{count}} results found",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.pagination.showing",
+        "value": "Showing {{from}} to {{to}} of {{total}} results",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.social.linkedin",
+        "value": "Linkedin",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.social.instagram",
+        "value": "Instagram",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.social.whatsapp",
+        "value": "WhatsApp",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.status.failed",
+        "value": "Failed",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.actions.choose",
+        "value": "Choose",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.navigation.menu",
+        "value": "Menu",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "common.error",
+        "value": "[HI] An error occurred",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.success",
+        "value": "[HI] Success",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.submit",
+        "value": "[HI] Submit",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.cancel",
+        "value": "[HI] Cancel",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.save",
+        "value": "[HI] Save",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.delete",
+        "value": "[HI] Delete",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.edit",
+        "value": "[HI] Edit",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.next",
+        "value": "[HI] Next",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.previous",
+        "value": "[HI] Previous",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.close",
+        "value": "[HI] Close",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "common.confirm",
+        "value": "[HI] Confirm",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "components.agentformenhanced.text6",
+        "value": "January",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text7",
+        "value": "February",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text8",
+        "value": "March",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text9",
+        "value": "April",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text10",
+        "value": "June",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text11",
+        "value": "July",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text12",
+        "value": "August",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text13",
+        "value": "September",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text14",
+        "value": "October",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text15",
+        "value": "November",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text16",
+        "value": "December",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text17",
+        "value": "Enter exactly 12 digits without spaces or hyphens",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformenhanced.text19",
+        "value": "Individual",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text7",
+        "value": "January",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text8",
+        "value": "February",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text9",
+        "value": "March",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text10",
+        "value": "April",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text11",
+        "value": "June",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text12",
+        "value": "July",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text13",
+        "value": "August",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text14",
+        "value": "September",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text15",
+        "value": "October",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text16",
+        "value": "November",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text17",
+        "value": "December",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.agentformsinglepage.text19",
+        "value": "Individual",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text2",
+        "value": "Enquiry",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text3",
+        "value": "Let us know who you are and how to reach you",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text8",
+        "value": "Immediately",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text9",
+        "value": "Within 1 Month",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text10",
+        "value": "Within 3 Months",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text11",
+        "value": "Within 6 Months",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text12",
+        "value": "Just Exploring",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text14",
+        "value": "Social Media",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.enquiryformsinglepage.text15",
+        "value": "Advertisement",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text7",
+        "value": "January",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text8",
+        "value": "February",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text9",
+        "value": "March",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text10",
+        "value": "April",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text11",
+        "value": "June",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text12",
+        "value": "July",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text13",
+        "value": "August",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text14",
+        "value": "September",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text15",
+        "value": "October",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text16",
+        "value": "November",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text17",
+        "value": "December",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text18",
+        "value": "Your social media presence and language skills",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.influencerformsinglepage.text23",
+        "value": "Document Uploads",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.jobapplicationsinglepage.text2",
+        "value": "Job Position",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.jobapplicationsinglepage.text8",
+        "value": "Immediate",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text1",
+        "value": "Andhra Pradesh",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text2",
+        "value": "Bihar",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text3",
+        "value": "Gujarat",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text4",
+        "value": "Haryana",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text5",
+        "value": "Karnataka",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text6",
+        "value": "Kerala",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text7",
+        "value": "Madhya Pradesh",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text8",
+        "value": "Maharashtra",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text9",
+        "value": "Odisha",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text10",
+        "value": "Punjab",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text11",
+        "value": "Rajasthan",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text12",
+        "value": "Tamil Nadu",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text13",
+        "value": "Telangana",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text14",
+        "value": "Uttar Pradesh",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text15",
+        "value": "West Bengal",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text16",
+        "value": "Individual",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text17",
+        "value": "Proprietorship",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text21",
+        "value": "Savings Account",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text23",
+        "value": "Website",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text24",
+        "value": "Social Media",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text28",
+        "value": "Immediately",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text29",
+        "value": "Within 1 month",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text30",
+        "value": "Rajesh Kumar",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.joinus.text33",
+        "value": "Call Us",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.lazyloadingwrapper.text1",
+        "value": "Failed to load page",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.mobilenav.text1",
+        "value": "English",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.optimizedcomponents.text1",
+        "value": "Failed to load image",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.optimizedcomponents.text2",
+        "value": "Something went wrong",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.optimizedimage.text1",
+        "value": "Image failed to load",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.searchcomponent.text1",
+        "value": "Popular Searches",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationdebug.text1",
+        "value": "Translation Debug",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationvalidator.text1",
+        "value": "Translation Validator",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.animated-hero.text1",
+        "value": "This is something",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.file-upload.text2",
+        "value": "Take Photo",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.file-upload.text3",
+        "value": "Use your camera",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.file-upload.text4",
+        "value": "Choose File",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.sidebar.text1",
+        "value": "Toggle Sidebar",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.atmfranchisepassiveincome.text2",
+        "value": "January 2025",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.fivestepguideatmbusiness.text1",
+        "value": "Getting Started",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.fivestepguideatmbusiness.text2",
+        "value": "January 2025",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.fivestepguideatmbusiness.text5",
+        "value": "Annual ROI",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.fivestepguideatmbusiness.text6",
+        "value": "Daily Effort",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.passiveincomefinancialfreedom.text1",
+        "value": "Financial Planning",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.passiveincomefinancialfreedom.text2",
+        "value": "January 2025",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.perfecttimesidehustle2025.text1",
+        "value": "Economic Trends",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.perfecttimesidehustle2025.text2",
+        "value": "January 2025",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.perfecttimesidehustle2025.text3",
+        "value": "The Bottom Line",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.truthaboutpassiveincomeideas.text2",
+        "value": "January 2025",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text2",
+        "value": "Based on 7 key metrics",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text3",
+        "value": "Above 80 score",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text4",
+        "value": "Below 70 score",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text5",
+        "value": "Metrics",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text6",
+        "value": "Colors",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text7",
+        "value": "Typography",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text8",
+        "value": "Responsive",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text9",
+        "value": "Issues Found",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text10",
+        "value": "Recommended Improvements",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text12",
+        "value": "Typography Scale",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text15",
+        "value": "Tablet",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text16",
+        "value": "Desktop",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text17",
+        "value": "Responsive Issues by Breakpoint",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text19",
+        "value": "Tablet Issues",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.designaudit.text20",
+        "value": "Desktop",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.notfound.text1",
+        "value": "Page Not Found",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationtest.text1",
+        "value": "Translation System Test Page",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationtest.text2",
+        "value": "System Status",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationtest.text3",
+        "value": "Language Switcher",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationtest.text4",
+        "value": "Translation Tests",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationtest.text6",
+        "value": "Status",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationverify.text2",
+        "value": "Translation Keys Status",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.translationverify.text3",
+        "value": "Language Coverage",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text1",
+        "value": "Glass Morphism Cards",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text6",
+        "value": "Hover Lift",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text7",
+        "value": "Card lifts on hover with shadow",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text10",
+        "value": "Glassmorphism with backdrop blur",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text14",
+        "value": "Pulse Animation",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text15",
+        "value": "Background Effects",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text16",
+        "value": "Animated Gradient",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text17",
+        "value": "Shifting gradient background animation",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text18",
+        "value": "Morphing Shapes",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "components.visualshowcase.text19",
+        "value": "Organic shape animations in background",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "contact.phone.hours",
+        "value": "Mon-Sat: 9 AM - 6 PM IST",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.placeholders.pincode",
+        "value": "6-digit pincode",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.placeholders.phone_primary",
+        "value": "Primary contact number",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.placeholders.whatsapp",
+        "value": "WhatsApp number",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.placeholders.pan",
+        "value": "ABCDE1234F",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.placeholders.aadhaar",
+        "value": "123456789012 (12 digits only)",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.placeholders.address_line1",
+        "value": "House/Building number, Street name",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.required",
+        "value": "{{field}} is required",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.minLength",
+        "value": "{{field}} must be at least {{min}} characters",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.maxLength",
+        "value": "{{field}} must not exceed {{max}} characters",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.fileSize",
+        "value": "File size must be less than {{size}}MB",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.fileType",
+        "value": "Only {{types}} files are allowed",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.pan_invalid",
+        "value": "Please enter a valid PAN number (ABCDE1234F)",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.validation.aadhaar_invalid",
+        "value": "Please enter a valid 12-digit Aadhaar number",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.validation.min_length",
+        "value": "Minimum {{min}} characters required",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.max_length",
+        "value": "Maximum {{max}} characters allowed",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.file_size",
+        "value": "File size must be less than {{size}}MB",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.validation.file_type",
+        "value": "Only {{types}} files are allowed",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.below_1",
+        "value": "Below ₹1 Lakh",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.1_to_5",
+        "value": "₹1-5 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.2_to_3",
+        "value": "₹2-3 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.3_to_4",
+        "value": "₹3-4 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.4_to_5",
+        "value": "₹4-5 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.5_to_10",
+        "value": "₹5-10 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.10_to_15",
+        "value": "₹10-15 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.10_to_25",
+        "value": "₹10-25 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.15_to_25",
+        "value": "₹15-25 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.above_5",
+        "value": "₹5+ Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.investment.above_25",
+        "value": "Above ₹25 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.options.hearAbout.instagram",
+        "value": "Instagram",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.options.businessType.retail",
+        "value": "Retail Shop",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.options.businessType.service",
+        "value": "Service Center",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.options.businessType.grocery",
+        "value": "Grocery Store",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.options.businessType.medical",
+        "value": "Medical Store",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.options.businessType.restaurant",
+        "value": "Restaurant/Cafe",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.title.main",
+        "value": "Join the",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.title.revolution",
+        "value": "Revolution",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.expectedFootfall",
+        "value": "Expected Daily Footfall",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.nearbyBanks",
+        "value": "Nearby Banks",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.competitorATMs",
+        "value": "Competitor ATMs",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.primaryBank",
+        "value": "Primary Bank *",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.panCard",
+        "value": "PAN Card Number *",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.gstNumber",
+        "value": "GST Number (if applicable)",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.timelineToStart",
+        "value": "Timeline to Start *",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.labels.additionalComments",
+        "value": "Additional Comments/Questions",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.placeholders.phone",
+        "value": "+91 98765 43210",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.placeholders.addressLine1",
+        "value": "House/Building number, Street name",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.placeholders.preferredLocation",
+        "value": "Area/Village where you want ATM",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.placeholders.expectedFootfall",
+        "value": "Expected daily visitors",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.placeholders.nearbyBanks",
+        "value": "Names of banks within 5km",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.placeholders.competitorATMs",
+        "value": "Number of ATMs in 2km radius",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.placeholders.panCard",
+        "value": "ABCDE1234F",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.placeholders.timelineToStart",
+        "value": "When can you start?",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.placeholders.additionalComments",
+        "value": "Any specific questions or additional information y",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.states.andhra-pradesh",
+        "value": "Andhra Pradesh",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.bihar",
+        "value": "Bihar",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.gujarat",
+        "value": "Gujarat",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.haryana",
+        "value": "Haryana",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.karnataka",
+        "value": "Karnataka",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.kerala",
+        "value": "Kerala",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.madhya-pradesh",
+        "value": "Madhya Pradesh",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.maharashtra",
+        "value": "Maharashtra",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.odisha",
+        "value": "Odisha",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.punjab",
+        "value": "Punjab",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.rajasthan",
+        "value": "Rajasthan",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.tamil-nadu",
+        "value": "Tamil Nadu",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.telangana",
+        "value": "Telangana",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.uttar-pradesh",
+        "value": "Uttar Pradesh",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.states.west-bengal",
+        "value": "West Bengal",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.businessTypes.individual",
+        "value": "Individual",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.businessTypes.proprietorship",
+        "value": "Proprietorship",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.businessTypes.llp",
+        "value": "LLP",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.experienceRanges.0-1",
+        "value": "0-1 years",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.experienceRanges.2-5",
+        "value": "2-5 years",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.experienceRanges.6-10",
+        "value": "6-10 years",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.experienceRanges.11-15",
+        "value": "11-15 years",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.experienceRanges.15+",
+        "value": "15+ years",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.incomeRanges.below-2l",
+        "value": "Below ₹2 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.incomeRanges.2l-5l",
+        "value": "₹2-5 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.incomeRanges.5l-10l",
+        "value": "₹5-10 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.incomeRanges.10l-25l",
+        "value": "₹10-25 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.incomeRanges.25l+",
+        "value": "₹25+ Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.investmentRanges.2-3l",
+        "value": "₹2-3 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.investmentRanges.3-4l",
+        "value": "₹3-4 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.investmentRanges.4-5l",
+        "value": "₹4-5 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.investmentRanges.5l+",
+        "value": "₹5+ Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.footfallRanges.50-100",
+        "value": "50-100 people",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.footfallRanges.100-200",
+        "value": "100-200 people",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.footfallRanges.200-500",
+        "value": "200-500 people",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.footfallRanges.500+",
+        "value": "500+ people",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.accountTypes.savings",
+        "value": "Savings Account",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.accountTypes.cc-od",
+        "value": "CC/OD Account",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.referenceSources.website",
+        "value": "Website",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.referenceSources.social-media",
+        "value": "Social Media",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.referenceSources.friend-referral",
+        "value": "Friend/Family Referral",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.referenceSources.newspaper",
+        "value": "Newspaper/Magazine",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.timelines.immediate",
+        "value": "Immediately",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.timelines.1-month",
+        "value": "Within 1 month",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.timelines.2-3-months",
+        "value": "2-3 months",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.timelines.3-6-months",
+        "value": "3-6 months",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.timelines.6-months+",
+        "value": "6+ months",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.terms.termsLink",
+        "value": "Terms & Conditions",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.sidebar.successStory.title",
+        "value": "Join 500+ Successful Franchisees",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.sidebar.successStory.name",
+        "value": "Rajesh Kumar",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.sidebar.help.callUs",
+        "value": "Call Us",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.sidebar.help.phone",
+        "value": "+91 7003554455",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.sidebar.help.email",
+        "value": "contact@atmfranchiseindia.in",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.benefits.roi.title",
+        "value": "High ROI Potential",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.benefits.competition.title",
+        "value": "Low Competition",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.benefits.track.title",
+        "value": "Proven Track Record",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.benefits.track.description",
+        "value": "Join 500+ successful franchisees across India",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "forms.joinUs.opportunities.agent.title",
+        "value": "Join as Agent",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.opportunities.agent.description",
+        "value": "Become a field sales agent and earn commission",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.joinUs.opportunities.employee.description",
+        "value": "Build your career with full-time positions",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "forms.sections.terms",
+        "value": "Terms & Conditions",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "franchise.content.become_an",
+        "value": "Become an",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "franchise.content.partner",
+        "value": "Partner",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "franchise.comparison.models.basic.features.2",
+        "value": "Monthly maintenance",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "franchise.comparison.models.professional.features.2",
+        "value": "Bi-weekly maintenance",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "franchise.comparison.models.enterprise.features.0",
+        "value": "Unlimited locations",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "franchise.comparison.models.enterprise.features.2",
+        "value": "Weekly maintenance",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "franchise.comparison.models.enterprise.features.5",
+        "value": "Priority placement",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.testimonials.monthsLabel",
+        "value": "in {{months}} months",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "home.valueProps.investmentRange",
+        "value": "Investment Range: ₹2-5 Lakhs",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "home.valueProps.bullets.governmentPush",
+        "value": "Government Push for Financial Inclusion",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.roi.prefix",
+        "value": "upto ",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.roi.value",
+        "value": "50",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.roi.suffix",
+        "value": "%",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.penetration.value",
+        "value": "15",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.penetration.suffix",
+        "value": " Per Lac",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.cash.value",
+        "value": "75",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.cash.suffix",
+        "value": "% Cash",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.cash.label",
+        "value": "Cash Circulation",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.cash.description",
+        "value": "Indian Economy is still Largely Cash based",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.potential.value",
+        "value": "90",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.valueProps.stats.potential.suffix",
+        "value": "% Potential",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.whyChoose.title",
+        "value": "Why Choose",
+        "issue": "ENGLISH_ONLY"
+      },
+      {
+        "key": "home.whyChoose.cta.partners",
+        "value": "Join 500+ successful franchise partners",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "home.whyChoose.features.guidance.description",
+        "value": "Let us help you choose the right White Label ATM p",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "home.whyChoose.features.support.description",
+        "value": "With 4+ years of experience across all WLA brands,",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "products.packages.basic.price",
+        "value": "₹50,000",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "products.packages.silver.price",
+        "value": "₹1,50,000",
+        "issue": "NO_HINDI_CHARS"
+      },
+      {
+        "key": "products.packages.gold.price",
+        "value": "₹3,00,000",
+        "issue": "NO_HINDI_CHARS"
+      }
+    ]
+  },
+  "componentIssues": {
+    "consoleErrors": [
+      {
+        "file": "\\src\\components\\AgentFormEnhanced.tsx",
+        "line": 263,
+        "code": "if (import.meta.env.DEV) { console.error('Error submitting agent application:', error); }"
+      },
+      {
+        "file": "\\src\\components\\AgentFormSinglePage.tsx",
+        "line": 449,
+        "code": "console.error('Error details:', {"
+      },
+      {
+        "file": "\\src\\components\\ErrorBoundary.tsx",
+        "line": 49,
+        "code": "if (import.meta.env.DEV) { console.error('Error Boundary caught:', error, errorInfo); }"
+      },
+      {
+        "file": "\\src\\components\\LanguageSwitchTest.tsx",
+        "line": 111,
+        "code": "if (import.meta.env.DEV) { console.error(`Failed to switch to ${langCode}:`, error); }"
+      },
+      {
+        "file": "\\src\\components\\LazyLoadingWrapper.tsx",
+        "line": 29,
+        "code": "if (import.meta.env.DEV) { console.error('Lazy loading error:', error, errorInfo); }"
+      },
+      {
+        "file": "\\src\\components\\ui\\direct-file-upload.tsx",
+        "line": 104,
+        "code": "if (import.meta.env.DEV) { console.error('❌ File validation failed:', validationError); }"
+      },
+      {
+        "file": "\\src\\components\\ui\\file-upload-manager.tsx",
+        "line": 119,
+        "code": "if (import.meta.env.DEV) { console.error('❌ File validation failed:', validationError); }"
+      },
+      {
+        "file": "\\src\\hooks\\useRateLimitedSubmission.ts",
+        "line": 37,
+        "code": "if (import.meta.env.DEV) { console.error('Submission error:', error); }"
+      },
+      {
+        "file": "\\src\\lib\\errorHandling.ts",
+        "line": 92,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('🚨 ERROR:', formattedError); }"
+      },
+      {
+        "file": "\\src\\lib\\errorHandling.ts",
+        "line": 95,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('💀 CRITICAL:', formattedError); "
+      },
+      {
+        "file": "\\src\\lib\\errorHandling.ts",
+        "line": 111,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('Failed to send error to monitori"
+      },
+      {
+        "file": "\\src\\lib\\fileUpload.ts",
+        "line": 68,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('File upload error:', error); }"
+      },
+      {
+        "file": "\\src\\lib\\fileUpload.ts",
+        "line": 87,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('File delete error:', error); }"
+      },
+      {
+        "file": "\\src\\lib\\googleSheetsService.ts",
+        "line": 137,
+        "code": "if (import.meta.env.DEV) { console.error('Retry failed for:', id); }"
+      },
+      {
+        "file": "\\src\\lib\\logger.ts",
+        "line": 139,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error(`[ERROR] ${message}`); }"
+      },
+      {
+        "file": "\\src\\lib\\logger.ts",
+        "line": 145,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error(this.formatMessage('error', messa"
+      },
+      {
+        "file": "\\src\\lib\\logger.ts",
+        "line": 147,
+        "code": "if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('Stack trace:', error.stack); }"
+      },
+      {
+        "file": "\\src\\lib\\performance.ts",
+        "line": 292,
+        "code": "if (import.meta.env.DEV) { console.error(`Function ${fnName} failed after ${duration.toFixed(2)}ms`)"
+      },
+      {
+        "file": "\\src\\lib\\translationHelper.ts",
+        "line": 130,
+        "code": "if (import.meta.env.DEV) { console.error(`Failed to preload ${lang}/${ns}:`, err); }"
+      },
+      {
+        "file": "\\src\\main-test.tsx",
+        "line": 21,
+        "code": "if (import.meta.env.DEV) { console.error('Root element not found!'); }"
+      },
+      {
+        "file": "\\src\\test\\setup.ts",
+        "line": 60,
+        "code": "const originalError = console.error;"
+      },
+      {
+        "file": "\\src\\test\\setup.ts",
+        "line": 64,
+        "code": "console.error = vi.fn((...args: any[]) => {"
+      },
+      {
+        "file": "\\src\\test\\setup.ts",
+        "line": 79,
+        "code": "console.error = originalError;"
+      }
+    ],
+    "untranslatedComponents": [],
+    "hardcodedText": []
+  },
+  "inconsistentLabels": [],
+  "criticalProblems": []
+}

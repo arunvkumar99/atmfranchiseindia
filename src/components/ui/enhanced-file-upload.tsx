@@ -140,8 +140,8 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
             onClick={(e) => e.stopPropagation()}
           >
             <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-t-2xl">
-              <h3 className="text-xl font-bold text-center">Upload Document</h3>
-              <p className="text-blue-100 text-center text-sm mt-1">Choose how to upload your file</p>
+              <h3 className="text-xl font-bold text-center">{t('components.enhanced-file-upload.text1')}</h3>
+              <p className="text-blue-100 text-center text-sm mt-1">{t('components.enhanced-file-upload.text2')}</p>
             </div>
             
             <div className="p-6 space-y-4">

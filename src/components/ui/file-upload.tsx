@@ -194,7 +194,7 @@ export const FileUpload: React.FC<FileUploadProps> = ({
               {/* Header */}
               <div className="bg-gradient-primary px-lg py-base border-b border-border">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-sm font-semibold text-primary-foreground">Upload Options</h3>
+                  <h3 className="text-sm font-semibold text-primary-foreground">{t('components.file-upload.text1')}</h3>
                   <Button
                     variant="ghost"
                     size="sm"
@@ -218,8 +218,8 @@ export const FileUpload: React.FC<FileUploadProps> = ({
                     <Camera className="h-4 w-4 text-primary" />
                   </div>
                   <div className="text-left">
-                    <div className="font-medium">Take Photo</div>
-                    <div className="text-xs text-muted-foreground">Use your camera</div>
+                    <div className="font-medium">{t('components.file-upload.text2')}</div>
+                    <div className="text-xs text-muted-foreground">{t('components.file-upload.text3')}</div>
                   </div>
                 </Button>
                 
@@ -232,7 +232,7 @@ export const FileUpload: React.FC<FileUploadProps> = ({
                     <File className="h-4 w-4 text-success" />
                   </div>
                   <div className="text-left">
-                    <div className="font-medium">Choose File</div>
+                    <div className="font-medium">{t('components.file-upload.text4')}</div>
                     <div className="text-xs text-muted-foreground">Browse gallery/files</div>
                   </div>
                 </Button>

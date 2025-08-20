@@ -44,14 +44,14 @@ const ATMFranchisePassiveIncome = () => {
 
         {/* Article Header */}
         <div className="mb-12">
-          <Badge className="mb-4 bg-primary/10 text-primary">Business Opportunity</Badge>
+          <Badge className="mb-4 bg-primary/10 text-primary">{t('components.atmfranchisepassiveincome.text1')}</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             The ATM Franchise: A Smarter, Simpler Path to Passive Income
           </h1>
           <div className="flex items-center gap-6 text-muted-foreground mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>January 2025</span>
+              <span>{t('components.atmfranchisepassiveincome.text2')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />

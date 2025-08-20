@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 // Admin Table with IST Timezone Support
 // Demonstrates proper timezone handling for Indian users
 

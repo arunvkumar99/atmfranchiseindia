@@ -1,0 +1,1480 @@
+{
+  "timestamp": "2025-08-20T02:31:23.734Z",
+  "consoleErrorsFixed": [
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "original": "console.error('Error submitting agent application:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Error submitting agent application:', error); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error('❌ Form validation failed:', { errors, errorFields, formDataForValidation });",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ Form validation failed:', { errors, errorFields, formDataForValidation }); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error(`Field '${field}' error: ${errors[field]}`);",
+      "fixed": "if (import.meta.env.DEV) { console.error(`Field '${field}' error: ${errors[field]}`); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error('❌ File validation failed:', fileErrors);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ File validation failed:', fileErrors); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error('❌ File upload failed:', uploadError);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ File upload failed:', uploadError); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error('❌ Edge function error:', submissionError);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ Edge function error:', submissionError); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error('❌ Response contained error:', response.error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ Response contained error:', response.error); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error('❌ Submission was not successful:', response);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ Submission was not successful:', response); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "original": "console.error('❌ Complete submission error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ Complete submission error:', error); }"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "type": "multi-line"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "original": "console.error('Enquiry form submission error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Enquiry form submission error:', error); }"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "original": "console.error('Enquiry data error:', data.error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Enquiry data error:', data.error); }"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "original": "console.error('Submission error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Submission error:', error); }"
+    },
+    {
+      "file": "\\src\\components\\ErrorBoundary.tsx",
+      "original": "console.error('Error Boundary caught:', error, errorInfo);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Error Boundary caught:', error, errorInfo); }"
+    },
+    {
+      "file": "\\src\\components\\GetStarted.tsx",
+      "original": "console.error('Form submission error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Form submission error:', error); }"
+    },
+    {
+      "file": "\\src\\components\\GetStarted.tsx",
+      "original": "console.error('Error submitting get started form:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Error submitting get started form:', error); }"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "original": "console.error('❌ Error submitting influencer application:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ Error submitting influencer application:', error); }"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "original": "console.error('❌ Error submitting job application:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ Error submitting job application:', error); }"
+    },
+    {
+      "file": "\\src\\components\\LanguageSwitchTest.tsx",
+      "original": "console.error(`Failed to switch to ${langCode}:`, error);",
+      "fixed": "if (import.meta.env.DEV) { console.error(`Failed to switch to ${langCode}:`, error); }"
+    },
+    {
+      "file": "\\src\\components\\LazyLoadingWrapper.tsx",
+      "original": "console.error('Lazy loading error:', error, errorInfo);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Lazy loading error:', error, errorInfo); }"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationHero.tsx",
+      "original": "console.error('Error submitting location:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Error submitting location:', error); }"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "original": "console.error('Rate limit error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Rate limit error:', error); }"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "original": "console.error('Building photo upload failed:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Building photo upload failed:', error); }"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "original": "console.error('Room photo upload failed:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Room photo upload failed:', error); }"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "original": "console.error('Submission error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Submission error:', error); }"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "original": "console.error('Data error:', data.error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Data error:', data.error); }"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "original": "console.error('Unexpected error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Unexpected error:', error); }"
+    },
+    {
+      "file": "\\src\\components\\ui\\direct-file-upload.tsx",
+      "original": "console.error('❌ File validation failed:', validationError);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ File validation failed:', validationError); }"
+    },
+    {
+      "file": "\\src\\components\\ui\\file-upload-manager.tsx",
+      "original": "console.error('❌ File validation failed:', validationError);",
+      "fixed": "if (import.meta.env.DEV) { console.error('❌ File validation failed:', validationError); }"
+    },
+    {
+      "file": "\\src\\hooks\\useRateLimitedSubmission.ts",
+      "original": "console.error('Submission error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Submission error:', error); }"
+    },
+    {
+      "file": "\\src\\lib\\errorHandling.ts",
+      "original": "console.error('🚨 ERROR:', formattedError);",
+      "fixed": "if (import.meta.env.DEV) { console.error('🚨 ERROR:', formattedError); }"
+    },
+    {
+      "file": "\\src\\lib\\errorHandling.ts",
+      "original": "console.error('💀 CRITICAL:', formattedError);",
+      "fixed": "if (import.meta.env.DEV) { console.error('💀 CRITICAL:', formattedError); }"
+    },
+    {
+      "file": "\\src\\lib\\errorHandling.ts",
+      "original": "console.error('Failed to send error to monitoring:', monitoringError);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Failed to send error to monitoring:', monitoringError); }"
+    },
+    {
+      "file": "\\src\\lib\\fileUpload.ts",
+      "original": "console.error('File upload error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('File upload error:', error); }"
+    },
+    {
+      "file": "\\src\\lib\\fileUpload.ts",
+      "original": "console.error('File delete error:', error);",
+      "fixed": "if (import.meta.env.DEV) { console.error('File delete error:', error); }"
+    },
+    {
+      "file": "\\src\\lib\\googleSheetsService.ts",
+      "original": "console.error('Retry failed for:', id);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Retry failed for:', id); }"
+    },
+    {
+      "file": "\\src\\lib\\logger.ts",
+      "original": "console.error(`[ERROR] ${message}`);",
+      "fixed": "if (import.meta.env.DEV) { console.error(`[ERROR] ${message}`); }"
+    },
+    {
+      "file": "\\src\\lib\\logger.ts",
+      "original": "console.error(this.formatMessage('error', message, source), error || '');",
+      "fixed": "if (import.meta.env.DEV) { console.error(this.formatMessage('error', message, source), error || ''); }"
+    },
+    {
+      "file": "\\src\\lib\\logger.ts",
+      "original": "console.error('Stack trace:', error.stack);",
+      "fixed": "if (import.meta.env.DEV) { console.error('Stack trace:', error.stack); }"
+    },
+    {
+      "file": "\\src\\lib\\performance.ts",
+      "original": "console.error(`Function ${fnName} failed after ${duration.toFixed(2)}ms`);",
+      "fixed": "if (import.meta.env.DEV) { console.error(`Function ${fnName} failed after ${duration.toFixed(2)}ms`); }"
+    },
+    {
+      "file": "\\src\\lib\\translationHelper.ts",
+      "original": "console.error(`Failed to preload ${lang}/${ns}:`, err);",
+      "fixed": "if (import.meta.env.DEV) { console.error(`Failed to preload ${lang}/${ns}:`, err); }"
+    },
+    {
+      "file": "\\src\\main-test.tsx",
+      "original": "console.error('Root element not found!');",
+      "fixed": "if (import.meta.env.DEV) { console.error('Root element not found!'); }"
+    }
+  ],
+  "hardcodedTextFixed": [
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Agent Application Form",
+      "key": "components.agentformenhanced.text1"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Personal Details",
+      "key": "components.agentformenhanced.text2"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Male",
+      "key": "components.agentformenhanced.text3"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Female",
+      "key": "components.agentformenhanced.text4"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Other",
+      "key": "components.agentformenhanced.text5"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "January",
+      "key": "components.agentformenhanced.text6"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "February",
+      "key": "components.agentformenhanced.text7"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "March",
+      "key": "components.agentformenhanced.text8"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "April",
+      "key": "components.agentformenhanced.text9"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "June",
+      "key": "components.agentformenhanced.text10"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "July",
+      "key": "components.agentformenhanced.text11"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "August",
+      "key": "components.agentformenhanced.text12"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "September",
+      "key": "components.agentformenhanced.text13"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "October",
+      "key": "components.agentformenhanced.text14"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "November",
+      "key": "components.agentformenhanced.text15"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "December",
+      "key": "components.agentformenhanced.text16"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Enter exactly 12 digits without spaces or hyphens",
+      "key": "components.agentformenhanced.text17"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Professional Details",
+      "key": "components.agentformenhanced.text18"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Individual",
+      "key": "components.agentformenhanced.text19"
+    },
+    {
+      "file": "\\src\\components\\AgentFormEnhanced.tsx",
+      "text": "Business Owner",
+      "key": "components.agentformenhanced.text20"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Agent Application Form",
+      "key": "components.agentformsinglepage.text1"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Agent Network",
+      "key": "components.agentformsinglepage.text2"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Tell us about yourself and provide your basic details",
+      "key": "components.agentformsinglepage.text3"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Male",
+      "key": "components.agentformsinglepage.text4"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Female",
+      "key": "components.agentformsinglepage.text5"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Other",
+      "key": "components.agentformsinglepage.text6"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "January",
+      "key": "components.agentformsinglepage.text7"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "February",
+      "key": "components.agentformsinglepage.text8"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "March",
+      "key": "components.agentformsinglepage.text9"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "April",
+      "key": "components.agentformsinglepage.text10"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "June",
+      "key": "components.agentformsinglepage.text11"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "July",
+      "key": "components.agentformsinglepage.text12"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "August",
+      "key": "components.agentformsinglepage.text13"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "September",
+      "key": "components.agentformsinglepage.text14"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "October",
+      "key": "components.agentformsinglepage.text15"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "November",
+      "key": "components.agentformsinglepage.text16"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "December",
+      "key": "components.agentformsinglepage.text17"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Share your professional information and upload required documents",
+      "key": "components.agentformsinglepage.text18"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Individual",
+      "key": "components.agentformsinglepage.text19"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Business Owner",
+      "key": "components.agentformsinglepage.text20"
+    },
+    {
+      "file": "\\src\\components\\AgentFormSinglePage.tsx",
+      "text": "Security Verification",
+      "key": "components.agentformsinglepage.text21"
+    },
+    {
+      "file": "\\src\\components\\DirectSheetsForm.tsx",
+      "text": "Data Encrypted",
+      "key": "components.directsheetsform.text1"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Business Enquiry Form",
+      "key": "components.enquiryformsinglepage.text1"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Enquiry",
+      "key": "components.enquiryformsinglepage.text2"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Let us know who you are and how to reach you",
+      "key": "components.enquiryformsinglepage.text3"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Tell us about your business interests and investment preferences",
+      "key": "components.enquiryformsinglepage.text4"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Retail Outlet Partnership",
+      "key": "components.enquiryformsinglepage.text5"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Distribution Partnership",
+      "key": "components.enquiryformsinglepage.text6"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Other Business Opportunity",
+      "key": "components.enquiryformsinglepage.text7"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Immediately",
+      "key": "components.enquiryformsinglepage.text8"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Within 1 Month",
+      "key": "components.enquiryformsinglepage.text9"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Within 3 Months",
+      "key": "components.enquiryformsinglepage.text10"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Within 6 Months",
+      "key": "components.enquiryformsinglepage.text11"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Just Exploring",
+      "key": "components.enquiryformsinglepage.text12"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Google Search",
+      "key": "components.enquiryformsinglepage.text13"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Social Media",
+      "key": "components.enquiryformsinglepage.text14"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Advertisement",
+      "key": "components.enquiryformsinglepage.text15"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Business Event",
+      "key": "components.enquiryformsinglepage.text16"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Other",
+      "key": "components.enquiryformsinglepage.text17"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Security Verification",
+      "key": "components.enquiryformsinglepage.text18"
+    },
+    {
+      "file": "\\src\\components\\EnquiryFormSinglePage.tsx",
+      "text": "Complete security verification to submit",
+      "key": "components.enquiryformsinglepage.text19"
+    },
+    {
+      "file": "\\src\\components\\ErrorBoundary.tsx",
+      "text": "Async Error",
+      "key": "components.errorboundary.text1"
+    },
+    {
+      "file": "\\src\\components\\FormSuccessModal.tsx",
+      "text": "WhatsApp support available",
+      "key": "components.formsuccessmodal.text1"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Influencer Application Form",
+      "key": "components.influencerformsinglepage.text1"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Influencer Network",
+      "key": "components.influencerformsinglepage.text2"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Your basic details and contact information",
+      "key": "components.influencerformsinglepage.text3"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Male",
+      "key": "components.influencerformsinglepage.text4"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Female",
+      "key": "components.influencerformsinglepage.text5"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Other",
+      "key": "components.influencerformsinglepage.text6"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "January",
+      "key": "components.influencerformsinglepage.text7"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "February",
+      "key": "components.influencerformsinglepage.text8"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "March",
+      "key": "components.influencerformsinglepage.text9"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "April",
+      "key": "components.influencerformsinglepage.text10"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "June",
+      "key": "components.influencerformsinglepage.text11"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "July",
+      "key": "components.influencerformsinglepage.text12"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "August",
+      "key": "components.influencerformsinglepage.text13"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "September",
+      "key": "components.influencerformsinglepage.text14"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "October",
+      "key": "components.influencerformsinglepage.text15"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "November",
+      "key": "components.influencerformsinglepage.text16"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "December",
+      "key": "components.influencerformsinglepage.text17"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Your social media presence and language skills",
+      "key": "components.influencerformsinglepage.text18"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Facebook Profile Link",
+      "key": "components.influencerformsinglepage.text19"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Instagram Profile Link",
+      "key": "components.influencerformsinglepage.text20"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "YouTube Channel Link",
+      "key": "components.influencerformsinglepage.text21"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "LinkedIn Profile Link",
+      "key": "components.influencerformsinglepage.text22"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Document Uploads",
+      "key": "components.influencerformsinglepage.text23"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Upload required documents for verification",
+      "key": "components.influencerformsinglepage.text24"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Security Verification",
+      "key": "components.influencerformsinglepage.text25"
+    },
+    {
+      "file": "\\src\\components\\InfluencerFormSinglePage.tsx",
+      "text": "Complete security verification to submit",
+      "key": "components.influencerformsinglepage.text26"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Job Application Form",
+      "key": "components.jobapplicationsinglepage.text1"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Job Position",
+      "key": "components.jobapplicationsinglepage.text2"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Job Information",
+      "key": "components.jobapplicationsinglepage.text3"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Personal Information",
+      "key": "components.jobapplicationsinglepage.text4"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Your contact details and basic information",
+      "key": "components.jobapplicationsinglepage.text5"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Professional Information",
+      "key": "components.jobapplicationsinglepage.text6"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Your work experience and career details",
+      "key": "components.jobapplicationsinglepage.text7"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Immediate",
+      "key": "components.jobapplicationsinglepage.text8"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "More than 3 Months",
+      "key": "components.jobapplicationsinglepage.text9"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Upload your latest resume or CV",
+      "key": "components.jobapplicationsinglepage.text10"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Security Verification",
+      "key": "components.jobapplicationsinglepage.text11"
+    },
+    {
+      "file": "\\src\\components\\JobApplicationSinglePage.tsx",
+      "text": "Complete security verification to submit",
+      "key": "components.jobapplicationsinglepage.text12"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Andhra Pradesh",
+      "key": "components.joinus.text1"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Bihar",
+      "key": "components.joinus.text2"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Gujarat",
+      "key": "components.joinus.text3"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Haryana",
+      "key": "components.joinus.text4"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Karnataka",
+      "key": "components.joinus.text5"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Kerala",
+      "key": "components.joinus.text6"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Madhya Pradesh",
+      "key": "components.joinus.text7"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Maharashtra",
+      "key": "components.joinus.text8"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Odisha",
+      "key": "components.joinus.text9"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Punjab",
+      "key": "components.joinus.text10"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Rajasthan",
+      "key": "components.joinus.text11"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Tamil Nadu",
+      "key": "components.joinus.text12"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Telangana",
+      "key": "components.joinus.text13"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Uttar Pradesh",
+      "key": "components.joinus.text14"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "West Bengal",
+      "key": "components.joinus.text15"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Individual",
+      "key": "components.joinus.text16"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Proprietorship",
+      "key": "components.joinus.text17"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Partnership",
+      "key": "components.joinus.text18"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Private Limited",
+      "key": "components.joinus.text19"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Need help finding location",
+      "key": "components.joinus.text20"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Savings Account",
+      "key": "components.joinus.text21"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Current Account",
+      "key": "components.joinus.text22"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Website",
+      "key": "components.joinus.text23"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Social Media",
+      "key": "components.joinus.text24"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Search Engine",
+      "key": "components.joinus.text25"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Other",
+      "key": "components.joinus.text26"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "No previous experience",
+      "key": "components.joinus.text27"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Immediately",
+      "key": "components.joinus.text28"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Within 1 month",
+      "key": "components.joinus.text29"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Rajesh Kumar",
+      "key": "components.joinus.text30"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Application Process",
+      "key": "components.joinus.text31"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Submit detailed application",
+      "key": "components.joinus.text32"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Call Us",
+      "key": "components.joinus.text33"
+    },
+    {
+      "file": "\\src\\components\\JoinUs.tsx",
+      "text": "Email Us",
+      "key": "components.joinus.text34"
+    },
+    {
+      "file": "\\src\\components\\LanguageSwitchTest.tsx",
+      "text": "Language Switch Test Suite",
+      "key": "components.languageswitchtest.text1"
+    },
+    {
+      "file": "\\src\\components\\LazyLoadingWrapper.tsx",
+      "text": "Failed to load page",
+      "key": "components.lazyloadingwrapper.text1"
+    },
+    {
+      "file": "\\src\\components\\MobileNav.tsx",
+      "text": "English",
+      "key": "components.mobilenav.text1"
+    },
+    {
+      "file": "\\src\\components\\OptimizedComponents.tsx",
+      "text": "Failed to load image",
+      "key": "components.optimizedcomponents.text1"
+    },
+    {
+      "file": "\\src\\components\\OptimizedComponents.tsx",
+      "text": "Something went wrong",
+      "key": "components.optimizedcomponents.text2"
+    },
+    {
+      "file": "\\src\\components\\OptimizedImage.tsx",
+      "text": "Image failed to load",
+      "key": "components.optimizedimage.text1"
+    },
+    {
+      "file": "\\src\\components\\SearchComponent.tsx",
+      "text": "Popular Searches",
+      "key": "components.searchcomponent.text1"
+    },
+    {
+      "file": "\\src\\components\\StickyHeader.tsx",
+      "text": "Join Us",
+      "key": "components.stickyheader.text1"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "text": "Agent Assistance",
+      "key": "components.submitlocationsinglepage.text1"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "text": "Personal Information",
+      "key": "components.submitlocationsinglepage.text2"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "text": "Location Information",
+      "key": "components.submitlocationsinglepage.text3"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "text": "Location Photos",
+      "key": "components.submitlocationsinglepage.text4"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "text": "Additional Information",
+      "key": "components.submitlocationsinglepage.text5"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "text": "Expert Team Review",
+      "key": "components.submitlocationsinglepage.text6"
+    },
+    {
+      "file": "\\src\\components\\SubmitLocationSinglePage.tsx",
+      "text": "Quick Response",
+      "key": "components.submitlocationsinglepage.text7"
+    },
+    {
+      "file": "\\src\\components\\TranslationDebug.tsx",
+      "text": "Translation Debug",
+      "key": "components.translationdebug.text1"
+    },
+    {
+      "file": "\\src\\components\\TranslationValidator.tsx",
+      "text": "Translation Validator",
+      "key": "components.translationvalidator.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\animated-hero.tsx",
+      "text": "This is something",
+      "key": "components.animated-hero.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\breadcrumb.tsx",
+      "text": "More",
+      "key": "components.breadcrumb.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\captcha-protection.tsx",
+      "text": "Not verified",
+      "key": "components.captcha-protection.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\carousel.tsx",
+      "text": "Previous slide",
+      "key": "components.carousel.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\carousel.tsx",
+      "text": "Next slide",
+      "key": "components.carousel.text2"
+    },
+    {
+      "file": "\\src\\components\\ui\\dialog.tsx",
+      "text": "Close",
+      "key": "components.dialog.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\enhanced-file-upload.tsx",
+      "text": "Upload Document",
+      "key": "components.enhanced-file-upload.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\enhanced-file-upload.tsx",
+      "text": "Choose how to upload your file",
+      "key": "components.enhanced-file-upload.text2"
+    },
+    {
+      "file": "\\src\\components\\ui\\file-upload.tsx",
+      "text": "Upload Options",
+      "key": "components.file-upload.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\file-upload.tsx",
+      "text": "Take Photo",
+      "key": "components.file-upload.text2"
+    },
+    {
+      "file": "\\src\\components\\ui\\file-upload.tsx",
+      "text": "Use your camera",
+      "key": "components.file-upload.text3"
+    },
+    {
+      "file": "\\src\\components\\ui\\file-upload.tsx",
+      "text": "Choose File",
+      "key": "components.file-upload.text4"
+    },
+    {
+      "file": "\\src\\components\\ui\\pagination.tsx",
+      "text": "Previous",
+      "key": "components.pagination.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\pagination.tsx",
+      "text": "Next",
+      "key": "components.pagination.text2"
+    },
+    {
+      "file": "\\src\\components\\ui\\pagination.tsx",
+      "text": "More pages",
+      "key": "components.pagination.text3"
+    },
+    {
+      "file": "\\src\\components\\ui\\sheet.tsx",
+      "text": "Close",
+      "key": "components.sheet.text1"
+    },
+    {
+      "file": "\\src\\components\\ui\\sidebar.tsx",
+      "text": "Toggle Sidebar",
+      "key": "components.sidebar.text1"
+    },
+    {
+      "file": "\\src\\pages\\blog\\ATMFranchisePassiveIncome.tsx",
+      "text": "Business Opportunity",
+      "key": "components.atmfranchisepassiveincome.text1"
+    },
+    {
+      "file": "\\src\\pages\\blog\\ATMFranchisePassiveIncome.tsx",
+      "text": "January 2025",
+      "key": "components.atmfranchisepassiveincome.text2"
+    },
+    {
+      "file": "\\src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "text": "Getting Started",
+      "key": "components.fivestepguideatmbusiness.text1"
+    },
+    {
+      "file": "\\src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "text": "January 2025",
+      "key": "components.fivestepguideatmbusiness.text2"
+    },
+    {
+      "file": "\\src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "text": "Start Your Success Story Today",
+      "key": "components.fivestepguideatmbusiness.text3"
+    },
+    {
+      "file": "\\src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "text": "Monthly Income Potential",
+      "key": "components.fivestepguideatmbusiness.text4"
+    },
+    {
+      "file": "\\src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "text": "Annual ROI",
+      "key": "components.fivestepguideatmbusiness.text5"
+    },
+    {
+      "file": "\\src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "text": "Daily Effort",
+      "key": "components.fivestepguideatmbusiness.text6"
+    },
+    {
+      "file": "\\src\\pages\\blog\\PassiveIncomeFinancialFreedom.tsx",
+      "text": "Financial Planning",
+      "key": "components.passiveincomefinancialfreedom.text1"
+    },
+    {
+      "file": "\\src\\pages\\blog\\PassiveIncomeFinancialFreedom.tsx",
+      "text": "January 2025",
+      "key": "components.passiveincomefinancialfreedom.text2"
+    },
+    {
+      "file": "\\src\\pages\\blog\\PassiveIncomeFinancialFreedom.tsx",
+      "text": "Your Next Step",
+      "key": "components.passiveincomefinancialfreedom.text3"
+    },
+    {
+      "file": "\\src\\pages\\blog\\PerfectTimeSideHustle2025.tsx",
+      "text": "Economic Trends",
+      "key": "components.perfecttimesidehustle2025.text1"
+    },
+    {
+      "file": "\\src\\pages\\blog\\PerfectTimeSideHustle2025.tsx",
+      "text": "January 2025",
+      "key": "components.perfecttimesidehustle2025.text2"
+    },
+    {
+      "file": "\\src\\pages\\blog\\PerfectTimeSideHustle2025.tsx",
+      "text": "The Bottom Line",
+      "key": "components.perfecttimesidehustle2025.text3"
+    },
+    {
+      "file": "\\src\\pages\\blog\\TruthAboutPassiveIncomeIdeas.tsx",
+      "text": "Investment Analysis",
+      "key": "components.truthaboutpassiveincomeideas.text1"
+    },
+    {
+      "file": "\\src\\pages\\blog\\TruthAboutPassiveIncomeIdeas.tsx",
+      "text": "January 2025",
+      "key": "components.truthaboutpassiveincomeideas.text2"
+    },
+    {
+      "file": "\\src\\pages\\blog\\TruthAboutPassiveIncomeIdeas.tsx",
+      "text": "Investment Range",
+      "key": "components.truthaboutpassiveincomeideas.text3"
+    },
+    {
+      "file": "\\src\\pages\\blog\\TruthAboutPassiveIncomeIdeas.tsx",
+      "text": "The Challenge",
+      "key": "components.truthaboutpassiveincomeideas.text4"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Overall Design Score",
+      "key": "components.designaudit.text1"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Based on 7 key metrics",
+      "key": "components.designaudit.text2"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Above 80 score",
+      "key": "components.designaudit.text3"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Below 70 score",
+      "key": "components.designaudit.text4"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Metrics",
+      "key": "components.designaudit.text5"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Colors",
+      "key": "components.designaudit.text6"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Typography",
+      "key": "components.designaudit.text7"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Responsive",
+      "key": "components.designaudit.text8"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Issues Found",
+      "key": "components.designaudit.text9"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Recommended Improvements",
+      "key": "components.designaudit.text10"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Color Palette Analysis",
+      "key": "components.designaudit.text11"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Typography Scale",
+      "key": "components.designaudit.text12"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Responsive Design Analysis",
+      "key": "components.designaudit.text13"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Mobile",
+      "key": "components.designaudit.text14"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Tablet",
+      "key": "components.designaudit.text15"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Desktop",
+      "key": "components.designaudit.text16"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Responsive Issues by Breakpoint",
+      "key": "components.designaudit.text17"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Mobile Issues",
+      "key": "components.designaudit.text18"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Tablet Issues",
+      "key": "components.designaudit.text19"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Desktop",
+      "key": "components.designaudit.text20"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Enhance Design Consistency",
+      "key": "components.designaudit.text21"
+    },
+    {
+      "file": "\\src\\pages\\DesignAudit.tsx",
+      "text": "Polish User Interactions",
+      "key": "components.designaudit.text22"
+    },
+    {
+      "file": "\\src\\pages\\NotFound.tsx",
+      "text": "Page Not Found",
+      "key": "components.notfound.text1"
+    },
+    {
+      "file": "\\src\\pages\\TranslationTest.tsx",
+      "text": "Translation System Test Page",
+      "key": "components.translationtest.text1"
+    },
+    {
+      "file": "\\src\\pages\\TranslationTest.tsx",
+      "text": "System Status",
+      "key": "components.translationtest.text2"
+    },
+    {
+      "file": "\\src\\pages\\TranslationTest.tsx",
+      "text": "Language Switcher",
+      "key": "components.translationtest.text3"
+    },
+    {
+      "file": "\\src\\pages\\TranslationTest.tsx",
+      "text": "Translation Tests",
+      "key": "components.translationtest.text4"
+    },
+    {
+      "file": "\\src\\pages\\TranslationTest.tsx",
+      "text": "Current Value",
+      "key": "components.translationtest.text5"
+    },
+    {
+      "file": "\\src\\pages\\TranslationTest.tsx",
+      "text": "Status",
+      "key": "components.translationtest.text6"
+    },
+    {
+      "file": "\\src\\pages\\TranslationVerify.tsx",
+      "text": "Translation Verification Dashboard",
+      "key": "components.translationverify.text1"
+    },
+    {
+      "file": "\\src\\pages\\TranslationVerify.tsx",
+      "text": "Translation Keys Status",
+      "key": "components.translationverify.text2"
+    },
+    {
+      "file": "\\src\\pages\\TranslationVerify.tsx",
+      "text": "Language Coverage",
+      "key": "components.translationverify.text3"
+    },
+    {
+      "file": "\\src\\pages\\TranslationVerify.tsx",
+      "text": "Instructions",
+      "key": "components.translationverify.text4"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Glass Morphism Cards",
+      "key": "components.visualshowcase.text1"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Premium Design",
+      "key": "components.visualshowcase.text2"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Sparkle Effect",
+      "key": "components.visualshowcase.text3"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Enable notifications",
+      "key": "components.visualshowcase.text4"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Loading States",
+      "key": "components.visualshowcase.text5"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Hover Lift",
+      "key": "components.visualshowcase.text6"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Card lifts on hover with shadow",
+      "key": "components.visualshowcase.text7"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Hover for 3D perspective effect",
+      "key": "components.visualshowcase.text8"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Glass Effect",
+      "key": "components.visualshowcase.text9"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Glassmorphism with backdrop blur",
+      "key": "components.visualshowcase.text10"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Premium Button",
+      "key": "components.visualshowcase.text11"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Glow Button",
+      "key": "components.visualshowcase.text12"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Press Effect",
+      "key": "components.visualshowcase.text13"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Pulse Animation",
+      "key": "components.visualshowcase.text14"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Background Effects",
+      "key": "components.visualshowcase.text15"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Animated Gradient",
+      "key": "components.visualshowcase.text16"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Shifting gradient background animation",
+      "key": "components.visualshowcase.text17"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Morphing Shapes",
+      "key": "components.visualshowcase.text18"
+    },
+    {
+      "file": "\\src\\pages\\VisualShowcase.tsx",
+      "text": "Organic shape animations in background",
+      "key": "components.visualshowcase.text19"
+    }
+  ],
+  "filesModified": [
+    "\\src\\components\\AgentFormEnhanced.tsx",
+    "\\src\\components\\AgentFormSinglePage.tsx",
+    "\\src\\components\\EnquiryFormSinglePage.tsx",
+    "\\src\\components\\ErrorBoundary.tsx",
+    "\\src\\components\\GetStarted.tsx",
+    "\\src\\components\\InfluencerFormSinglePage.tsx",
+    "\\src\\components\\JobApplicationSinglePage.tsx",
+    "\\src\\components\\LanguageSwitchTest.tsx",
+    "\\src\\components\\LazyLoadingWrapper.tsx",
+    "\\src\\components\\SubmitLocationHero.tsx",
+    "\\src\\components\\SubmitLocationSinglePage.tsx",
+    "\\src\\components\\ui\\direct-file-upload.tsx",
+    "\\src\\components\\ui\\file-upload-manager.tsx",
+    "\\src\\hooks\\useRateLimitedSubmission.ts",
+    "\\src\\lib\\errorHandling.ts",
+    "\\src\\lib\\fileUpload.ts",
+    "\\src\\lib\\googleSheetsService.ts",
+    "\\src\\lib\\logger.ts",
+    "\\src\\lib\\performance.ts",
+    "\\src\\lib\\translationHelper.ts",
+    "\\src\\main-test.tsx",
+    "\\src\\components\\AccessibilityWrapper.tsx",
+    "\\src\\components\\AdminTableWithIST.tsx",
+    "\\src\\components\\AgentFormProgressive.tsx",
+    "\\src\\components\\BreadcrumbNavigation.tsx",
+    "\\src\\components\\DirectSheetsForm.tsx",
+    "\\src\\components\\EnquiryFormProgressive.tsx",
+    "\\src\\components\\FormSuccessModal.tsx",
+    "\\src\\components\\InfluencerFormProgressive.tsx",
+    "\\src\\components\\JobApplicationProgressive.tsx",
+    "\\src\\components\\JoinUs.tsx",
+    "\\src\\components\\MobileNav.tsx",
+    "\\src\\components\\OptimizedComponents.tsx",
+    "\\src\\components\\OptimizedImage.tsx",
+    "\\src\\components\\PerformanceMonitor.tsx",
+    "\\src\\components\\SearchComponent.tsx",
+    "\\src\\components\\StickyHeader.tsx",
+    "\\src\\components\\TranslationDebug.tsx",
+    "\\src\\components\\TranslationValidator.tsx",
+    "\\src\\components\\ui\\animated-hero.tsx",
+    "\\src\\components\\ui\\breadcrumb.tsx",
+    "\\src\\components\\ui\\captcha-protection.tsx",
+    "\\src\\components\\ui\\carousel.tsx",
+    "\\src\\components\\ui\\dialog.tsx",
+    "\\src\\components\\ui\\enhanced-file-upload.tsx",
+    "\\src\\components\\ui\\enhanced-skeleton.tsx",
+    "\\src\\components\\ui\\file-upload.tsx",
+    "\\src\\components\\ui\\pagination.tsx",
+    "\\src\\components\\ui\\sheet.tsx",
+    "\\src\\components\\ui\\sidebar.tsx",
+    "\\src\\components\\ui\\skeleton-loaders.tsx",
+    "\\src\\components\\ui\\toaster.tsx",
+    "\\src\\components\\UrgencyElements.tsx",
+    "\\src\\pages\\blog\\ATMFranchisePassiveIncome.tsx",
+    "\\src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+    "\\src\\pages\\blog\\PassiveIncomeFinancialFreedom.tsx",
+    "\\src\\pages\\blog\\PerfectTimeSideHustle2025.tsx",
+    "\\src\\pages\\blog\\TruthAboutPassiveIncomeIdeas.tsx",
+    "\\src\\pages\\DesignAudit.tsx",
+    "\\src\\pages\\NotFound.tsx",
+    "\\src\\pages\\TranslationTest.tsx",
+    "\\src\\pages\\TranslationVerify.tsx",
+    "\\src\\pages\\VisualShowcase.tsx"
+  ],
+  "verificationReport": {
+    "consoleErrorCount": 4,
+    "hardcodedTextCount": 0
+  }
+}

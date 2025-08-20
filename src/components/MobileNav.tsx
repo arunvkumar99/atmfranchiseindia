@@ -223,7 +223,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             onChange={(e) => i18n.changeLanguage(e.target.value)}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           >
-            <option value="en">English</option>
+            <option value="en">{t('components.mobilenav.text1')}</option>
             <option value="hi">हिन्दी</option>
             <option value="ta">தமிழ்</option>
             <option value="te">తెలుగు</option>

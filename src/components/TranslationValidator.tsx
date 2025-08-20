@@ -126,7 +126,7 @@ export const TranslationValidator = () => {
   return (
     <div className="fixed bottom-20 left-4 bg-white border-2 border-blue-500 rounded-lg p-4 shadow-lg z-50 max-w-lg max-h-[600px] overflow-y-auto">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="font-bold text-lg">Translation Validator</h3>
+        <h3 className="font-bold text-lg">{t('components.translationvalidator.text1')}</h3>
         <button
           onClick={validateTranslations}
           className="px-3 py-1 bg-blue-500 text-white rounded text-sm hover:bg-blue-600"

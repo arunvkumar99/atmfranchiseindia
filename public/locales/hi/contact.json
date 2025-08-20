@@ -2,19 +2,19 @@
   "title": "संपर्क करें",
   "subtitle": "हम आपकी सहायता के लिए यहाँ हैं",
   "phone": {
-    "title": "Phone",
+    "title": "फोन",
     "hours": "Mon-Sat: 9 AM - 6 PM IST"
   },
   "email": {
-    "title": "Email",
-    "response": "We reply within 24 hours"
+    "title": "ईमेल",
+    "response": "We उत्तर दें within 24 hours"
   },
   "office": {
-    "title": "Office Address",
-    "address": "Bangalore, Karnataka, India"
+    "title": "कार्यालय पता",
+    "address": "Bangalore, Karnataka, भारत"
   },
   "form": {
-    "title": "Send us a Message",
-    "description": "Fill out the form below and our team will get back to you soon"
+    "title": "भेजें us a Message",
+    "description": "Fill out the फॉर्म below and our टीम will get वापस to you soon"
   }
 }

@@ -127,7 +127,7 @@ export async function preloadTranslations(languages: string[], namespaces: strin
       fetch(`/locales/${lang}/${ns}.json`)
         .then(res => res.json())
         .catch(err => {
-          console.error(`Failed to preload ${lang}/${ns}:`, err);
+          if (import.meta.env.DEV) { console.error(`Failed to preload ${lang}/${ns}:`, err); }
           return {};
         })
     )

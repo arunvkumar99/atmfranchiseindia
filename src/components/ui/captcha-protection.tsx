@@ -92,7 +92,7 @@ export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectio
           {isVerified ? (
             <div className="text-green-600 text-sm font-medium">✓ Verified</div>
           ) : (
-            <div className="text-muted-foreground text-sm">Not verified</div>
+            <div className="text-muted-foreground text-sm">{t('components.captcha-protection.text1')}</div>
           )}
         </div>
       </div>

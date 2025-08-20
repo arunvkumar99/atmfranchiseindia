@@ -64,7 +64,7 @@ const SubmitLocationHero = () => {
         locationDescription: ""
       });
     } catch (error) {
-      // console.error('Error submitting location:', error); // Silenced for production
+      // if (import.meta.env.DEV) { console.error('Error submitting location:', error); } // Silenced for production
       toast({
         title: "Submission Failed",
         description: "Please try again or contact us directly.",

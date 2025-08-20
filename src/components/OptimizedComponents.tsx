@@ -112,7 +112,7 @@ export const OptimizedImage = memo<OptimizedImageProps>(({
       {/* Error state */}
       {hasError && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-          <span className="text-gray-400">Failed to load image</span>
+          <span className="text-gray-400">{t('components.optimizedcomponents.text1')}</span>
         </div>
       )}
       
@@ -409,7 +409,7 @@ export class OptimizedErrorBoundary extends React.Component<
 
       return (
         <div className="flex flex-col items-center justify-center p-8">
-          <h2 className="text-xl font-semibold mb-2">Something went wrong</h2>
+          <h2 className="text-xl font-semibold mb-2">{t('components.optimizedcomponents.text2')}</h2>
           <p className="text-gray-600 mb-4">
             {this.state.error?.message || 'An unexpected error occurred'}
           </p>

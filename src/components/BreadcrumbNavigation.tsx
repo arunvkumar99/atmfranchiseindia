@@ -22,6 +22,7 @@ interface BreadcrumbNavigationProps {
 }
 
 export function BreadcrumbNavigation({ customItems }: BreadcrumbNavigationProps) {
+  const { t } = useTranslation();
   const location = useLocation();
   
   // Generate breadcrumb items from current path

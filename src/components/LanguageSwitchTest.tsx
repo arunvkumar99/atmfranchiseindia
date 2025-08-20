@@ -108,7 +108,7 @@ const LanguageSwitchTest = () => {
       
       return success;
     } catch (error) {
-      console.error(`Failed to switch to ${langCode}:`, error);
+      if (import.meta.env.DEV) { console.error(`Failed to switch to ${langCode}:`, error); }
       return false;
     }
   };
@@ -126,7 +126,7 @@ const LanguageSwitchTest = () => {
   return (
     <Card className="max-w-4xl mx-auto">
       <CardHeader>
-        <CardTitle>Language Switch Test Suite</CardTitle>
+        <CardTitle>{t('components.languageswitchtest.text1')}</CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="flex flex-wrap gap-2">

@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 /**
  * Performance monitoring component for tracking Core Web Vitals
  */

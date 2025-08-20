@@ -101,7 +101,7 @@ export const DirectFileUpload: React.FC<DirectFileUploadProps> = ({
     // Validate file
     const validationError = validateFile(processedFile);
     if (validationError) {
-      console.error('❌ File validation failed:', validationError);
+      if (import.meta.env.DEV) { console.error('❌ File validation failed:', validationError); }
       toast({
         title: "Invalid File",
         description: validationError,

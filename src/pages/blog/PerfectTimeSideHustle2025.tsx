@@ -21,14 +21,14 @@ const PerfectTimeSideHustle2025 = () => {
 
         {/* Article Header */}
         <div className="mb-12">
-          <Badge className="mb-4 bg-primary/10 text-primary">Economic Trends</Badge>
+          <Badge className="mb-4 bg-primary/10 text-primary">{t('components.perfecttimesidehustle2025.text1')}</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Why 2025 is the Perfect Time to Start Your Side Hustle
           </h1>
           <div className="flex items-center gap-6 text-muted-foreground mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>January 2025</span>
+              <span>{t('components.perfecttimesidehustle2025.text2')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
@@ -83,7 +83,7 @@ const PerfectTimeSideHustle2025 = () => {
               </div>
 
               <div className="bg-gradient-hero text-primary-foreground rounded-xl p-8 mt-8">
-                <h3 className="text-xl font-bold mb-4">The Bottom Line</h3>
+                <h3 className="text-xl font-bold mb-4">{t('components.perfecttimesidehustle2025.text3')}</h3>
                 <p className="leading-relaxed">
                   This isn't just a temporary phase; it's a fundamental shift. India's growth is powered by its own people—by our domestic demand. This makes it a stable and exciting time to bet on yourself. You don't need to be a business tycoon to get a piece of the action. All you need is the right idea and a smart plan to start building a source of passive income that works for you, even while you sleep.
                 </p>

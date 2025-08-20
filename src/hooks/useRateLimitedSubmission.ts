@@ -34,7 +34,7 @@ export function useRateLimitedSubmission({
       return submissionResult;
 
     } catch (error) {
-      console.error('Submission error:', error);
+      if (import.meta.env.DEV) { console.error('Submission error:', error); }
       onError?.(error);
       
       // Only show error toast, not conflicting with success messages

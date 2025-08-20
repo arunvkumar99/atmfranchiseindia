@@ -17,10 +17,10 @@ const TranslationTest = () => {
 
   return (
     <div className="container mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-6">Translation System Test Page</h1>
+      <h1 className="text-3xl font-bold mb-6">{t('components.translationtest.text1')}</h1>
       
       <div className="mb-8 p-4 bg-blue-50 rounded-lg">
-        <h2 className="text-xl font-semibold mb-4">System Status</h2>
+        <h2 className="text-xl font-semibold mb-4">{t('components.translationtest.text2')}</h2>
         <div className="space-y-2">
           <p><strong>Current Language:</strong> {i18n.language}</p>
           <p><strong>Loaded Languages:</strong> {i18n.languages.join(', ')}</p>
@@ -30,7 +30,7 @@ const TranslationTest = () => {
       </div>
 
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-4">Language Switcher</h2>
+        <h2 className="text-xl font-semibold mb-4">{t('components.translationtest.text3')}</h2>
         <div className="flex flex-wrap gap-2">
           {SUPPORTED_LANGUAGES.slice(0, 5).map(lang => (
             <Button
@@ -46,15 +46,15 @@ const TranslationTest = () => {
       </div>
 
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-4">Translation Tests</h2>
+        <h2 className="text-xl font-semibold mb-4">{t('components.translationtest.text4')}</h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse border border-gray-300">
             <thead>
               <tr className="bg-gray-100">
                 <th className="border border-gray-300 p-2 text-left">Key</th>
-                <th className="border border-gray-300 p-2 text-left">Current Value</th>
+                <th className="border border-gray-300 p-2 text-left">{t('components.translationtest.text5')}</th>
                 <th className="border border-gray-300 p-2 text-left">Expected ({i18n.language})</th>
-                <th className="border border-gray-300 p-2 text-center">Status</th>
+                <th className="border border-gray-300 p-2 text-center">{t('components.translationtest.text6')}</th>
               </tr>
             </thead>
             <tbody>

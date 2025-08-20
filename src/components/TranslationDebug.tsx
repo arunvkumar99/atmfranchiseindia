@@ -43,7 +43,7 @@ export const TranslationDebug = () => {
 
   return (
     <div className="fixed bottom-20 right-4 bg-white border-2 border-blue-500 rounded-lg p-4 shadow-lg z-50 max-w-md">
-      <h3 className="font-bold text-lg mb-2">Translation Debug</h3>
+      <h3 className="font-bold text-lg mb-2">{t('components.translationdebug.text1')}</h3>
       
       <div className="space-y-2 text-sm">
         <div>

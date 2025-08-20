@@ -51,6 +51,7 @@ export function DirectSheetsForm({
   description = 'Fill out the form and we\'ll get back to you soon.',
   onSuccess 
 }: DirectSheetsFormProps) {
+  const { t } = useTranslation();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submissionStatus, setSubmissionStatus] = useState<'idle' | 'success' | 'error' | 'offline'>('idle');
   const { toast } = useToast();
@@ -153,7 +154,7 @@ export function DirectSheetsForm({
         </div>
         <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
           <Lock className="h-4 w-4" />
-          <span className="font-medium">Data Encrypted</span>
+          <span className="font-medium">{t('components.directsheetsform.text1')}</span>
         </div>
         <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
           <CheckCircle2 className="h-4 w-4" />

@@ -75,7 +75,7 @@ const SubmitLocationSinglePage = () => {
   } = useRateLimitedSubmission({
     formType: 'location_submission',
     onError: (error) => {
-      // console.error('Rate limit error:', error);
+      // if (import.meta.env.DEV) { console.error('Rate limit error:', error); }
     }
   });
 
@@ -194,7 +194,7 @@ const SubmitLocationSinglePage = () => {
           );
           buildingPhotoUrl = uploadResult.url;
         } catch (error) {
-          // console.error('Building photo upload failed:', error);
+          // if (import.meta.env.DEV) { console.error('Building photo upload failed:', error); }
           toast({
             title: "Building Photo Upload Error",
             description: `Failed to upload building photo: ${error.message}. Please try again.`,
@@ -213,7 +213,7 @@ const SubmitLocationSinglePage = () => {
           );
           roomPhotoUrl = uploadResult.url;
         } catch (error) {
-          // console.error('Room photo upload failed:', error);
+          // if (import.meta.env.DEV) { console.error('Room photo upload failed:', error); }
           toast({
             title: "Room Photo Upload Error", 
             description: `Failed to upload room photo: ${error.message}. Please try again.`,
@@ -255,7 +255,7 @@ const SubmitLocationSinglePage = () => {
         });
 
         if (error) {
-          // console.error('Submission error:', error);
+          // if (import.meta.env.DEV) { console.error('Submission error:', error); }
           toast({
             title: "Submission Failed",
             description: `There was an error submitting your application: ${error.message}. Please try again.`,
@@ -265,7 +265,7 @@ const SubmitLocationSinglePage = () => {
         }
 
         if (data?.error) {
-          // console.error('Data error:', data.error);
+          // if (import.meta.env.DEV) { console.error('Data error:', data.error); }
           toast({
             title: "Submission Failed",
             description: `There was an error submitting your application: ${data.error}. Please try again.`,
@@ -293,7 +293,7 @@ const SubmitLocationSinglePage = () => {
 
         return true;
       } catch (error) {
-        // console.error('Unexpected error:', error);
+        // if (import.meta.env.DEV) { console.error('Unexpected error:', error); }
         toast({
           title: "Unexpected Error",
           description: "An unexpected error occurred. Please try again.",
@@ -399,7 +399,7 @@ const SubmitLocationSinglePage = () => {
               
               {/* Agent Assistance Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Agent Assistance</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text1')}</h3>
                 <div className="space-y-4">
                   <div className="space-y-3">
                     <Label className="text-sm font-medium text-foreground">
@@ -442,7 +442,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Personal Information Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Personal Information</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text2')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="fullName" className="text-sm font-medium text-foreground">
@@ -519,7 +519,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Location Information Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Location Information</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text3')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="state" className="text-sm font-medium text-foreground">
@@ -645,7 +645,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Photo Upload Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Location Photos</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text4')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3">
                     <Label htmlFor="buildingPhoto" className="flex items-center gap-2">
@@ -741,7 +741,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Additional Information Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Additional Information</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text5')}</h3>
                 <div className="space-y-2">
                   <Label htmlFor="additionalInfo" className="text-sm font-medium text-foreground">
                     Additional Notes
@@ -804,13 +804,13 @@ const SubmitLocationSinglePage = () => {
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
               <Users className="w-6 h-6 text-primary" />
             </div>
-            <p className="text-sm text-muted-foreground">Expert Team Review</p>
+            <p className="text-sm text-muted-foreground">{t('components.submitlocationsinglepage.text6')}</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
               <CheckCircle className="w-6 h-6 text-primary" />
             </div>
-            <p className="text-sm text-muted-foreground">Quick Response</p>
+            <p className="text-sm text-muted-foreground">{t('components.submitlocationsinglepage.text7')}</p>
           </div>
         </div>
       </div>

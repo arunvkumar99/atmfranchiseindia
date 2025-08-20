@@ -2,6 +2,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 import { useTranslation } from 'react-i18next';
 
 export function FormSkeleton() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-6">
       <div className="space-y-2">

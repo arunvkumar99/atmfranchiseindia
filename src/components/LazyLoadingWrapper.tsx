@@ -26,7 +26,7 @@ class LazyLoadErrorBoundary extends React.Component<
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    console.error('Lazy loading error:', error, errorInfo);
+    if (import.meta.env.DEV) { console.error('Lazy loading error:', error, errorInfo); }
   }
 
   render() {
@@ -34,7 +34,7 @@ class LazyLoadErrorBoundary extends React.Component<
       return this.props.fallback || (
         <div className="flex items-center justify-center min-h-[400px]">
           <div className="text-center">
-            <p className="text-red-600 font-medium">Failed to load page</p>
+            <p className="text-red-600 font-medium">{t('components.lazyloadingwrapper.text1')}</p>
             <button 
               onClick={() => window.location.reload()} 
               className="mt-2 px-4 py-2 bg-primary text-white rounded hover:bg-primary/90"

@@ -85,7 +85,7 @@ export default function VisualShowcase() {
           {/* Glass Cards Section */}
           <section className="py-20 px-4">
             <div className="container mx-auto">
-              <h2 className="text-4xl font-bold text-center mb-12">Glass Morphism Cards</h2>
+              <h2 className="text-4xl font-bold text-center mb-12">{t('components.visualshowcase.text1')}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Spotlight>
@@ -93,7 +93,7 @@ export default function VisualShowcase() {
                     <FloatingElement>
                       <div className="text-6xl mb-4">✨</div>
                     </FloatingElement>
-                    <h3 className="text-2xl font-bold mb-2">Premium Design</h3>
+                    <h3 className="text-2xl font-bold mb-2">{t('components.visualshowcase.text2')}</h3>
                     <p className="text-gray-600 dark:text-gray-300">
                       Beautiful glass morphism effect with backdrop blur
                     </p>
@@ -114,7 +114,7 @@ export default function VisualShowcase() {
                   <SparkleEffect>
                     <div className="text-6xl mb-4">🌟</div>
                   </SparkleEffect>
-                  <h3 className="text-2xl font-bold mb-2">Sparkle Effect</h3>
+                  <h3 className="text-2xl font-bold mb-2">{t('components.visualshowcase.text3')}</h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     Automatic sparkle animations for emphasis
                   </p>
@@ -146,7 +146,7 @@ export default function VisualShowcase() {
 
                 {/* Toggle Switch */}
                 <div className="flex items-center justify-between p-6 bg-white dark:bg-gray-800 rounded-lg">
-                  <span className="text-lg font-medium">Enable notifications</span>
+                  <span className="text-lg font-medium">{t('components.visualshowcase.text4')}</span>
                   <AnimatedToggle 
                     checked={toggle} 
                     onChange={setToggle}
@@ -175,7 +175,7 @@ export default function VisualShowcase() {
           {/* Loading States */}
           <section className="py-20 px-4">
             <div className="container mx-auto">
-              <h2 className="text-4xl font-bold text-center mb-12">Loading States</h2>
+              <h2 className="text-4xl font-bold text-center mb-12">{t('components.visualshowcase.text5')}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 <Card className="p-6">
@@ -202,26 +202,26 @@ export default function VisualShowcase() {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Card className="p-8 card-hover hover-lift">
-                  <h3 className="text-xl font-bold mb-2">Hover Lift</h3>
-                  <p>Card lifts on hover with shadow</p>
+                  <h3 className="text-xl font-bold mb-2">{t('components.visualshowcase.text6')}</h3>
+                  <p>{t('components.visualshowcase.text7')}</p>
                 </Card>
 
                 <Card className="p-8 card-3d">
                   <h3 className="text-xl font-bold mb-2">3D Tilt</h3>
-                  <p>Hover for 3D perspective effect</p>
+                  <p>{t('components.visualshowcase.text8')}</p>
                 </Card>
 
                 <Card className="p-8 card-glass">
-                  <h3 className="text-xl font-bold mb-2">Glass Effect</h3>
-                  <p>Glassmorphism with backdrop blur</p>
+                  <h3 className="text-xl font-bold mb-2">{t('components.visualshowcase.text9')}</h3>
+                  <p>{t('components.visualshowcase.text10')}</p>
                 </Card>
               </div>
 
               <div className="mt-12 flex justify-center gap-4 flex-wrap">
-                <Button className="btn-premium">Premium Button</Button>
-                <Button className="btn-glow relative">Glow Button</Button>
-                <Button className="btn-press">Press Effect</Button>
-                <Button className="pulse">Pulse Animation</Button>
+                <Button className="btn-premium">{t('components.visualshowcase.text11')}</Button>
+                <Button className="btn-glow relative">{t('components.visualshowcase.text12')}</Button>
+                <Button className="btn-press">{t('components.visualshowcase.text13')}</Button>
+                <Button className="pulse">{t('components.visualshowcase.text14')}</Button>
               </div>
             </div>
           </section>
@@ -242,22 +242,22 @@ export default function VisualShowcase() {
           <section className="relative py-20 px-4 overflow-hidden">
             <div className="bg-gradient-animate absolute inset-0 opacity-10" />
             <div className="container mx-auto relative z-10">
-              <h2 className="text-4xl font-bold text-center mb-12">Background Effects</h2>
+              <h2 className="text-4xl font-bold text-center mb-12">{t('components.visualshowcase.text15')}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 <Card className="p-8 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-animate opacity-20" />
                   <div className="relative z-10">
-                    <h3 className="text-xl font-bold mb-2">Animated Gradient</h3>
-                    <p>Shifting gradient background animation</p>
+                    <h3 className="text-xl font-bold mb-2">{t('components.visualshowcase.text16')}</h3>
+                    <p>{t('components.visualshowcase.text17')}</p>
                   </div>
                 </Card>
 
                 <Card className="p-8 relative overflow-hidden">
                   <MorphingShapes className="opacity-20" />
                   <div className="relative z-10">
-                    <h3 className="text-xl font-bold mb-2">Morphing Shapes</h3>
-                    <p>Organic shape animations in background</p>
+                    <h3 className="text-xl font-bold mb-2">{t('components.visualshowcase.text18')}</h3>
+                    <p>{t('components.visualshowcase.text19')}</p>
                   </div>
                 </Card>
               </div>

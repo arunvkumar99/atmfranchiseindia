@@ -82,14 +82,14 @@ const TruthAboutPassiveIncomeIdeas = () => {
 
         {/* Article Header */}
         <div className="mb-12">
-          <Badge className="mb-4 bg-primary/10 text-primary">Investment Analysis</Badge>
+          <Badge className="mb-4 bg-primary/10 text-primary">{t('components.truthaboutpassiveincomeideas.text1')}</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             The Truth About Popular Passive Income Ideas in India
           </h1>
           <div className="flex items-center gap-6 text-muted-foreground mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>January 2025</span>
+              <span>{t('components.truthaboutpassiveincomeideas.text2')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
@@ -124,7 +124,7 @@ const TruthAboutPassiveIncomeIdeas = () => {
                             </div>
                           </div>
                           <div className="text-right">
-                            <div className="text-sm text-muted-foreground">Investment Range</div>
+                            <div className="text-sm text-muted-foreground">{t('components.truthaboutpassiveincomeideas.text3')}</div>
                             <div className="font-semibold text-foreground">{idea.investment}</div>
                             <Badge 
                               variant={idea.riskLevel === "Very High" ? "destructive" : idea.riskLevel === "High" || idea.riskLevel === "Medium-High" ? "secondary" : "default"}
@@ -180,7 +180,7 @@ const TruthAboutPassiveIncomeIdeas = () => {
               <div className="bg-gradient-hero text-primary-foreground rounded-xl p-8 mt-8">
                 <div className="flex items-center gap-3 mb-4">
                   <AlertTriangle className="w-6 h-6" />
-                  <h3 className="text-xl font-bold">The Challenge</h3>
+                  <h3 className="text-xl font-bold">{t('components.truthaboutpassiveincomeideas.text4')}</h3>
                 </div>
                 <p className="leading-relaxed">
                   While these options can work for some, they all come with significant challenges: high cost, high risk, or a high-effort requirement. It's crucial to look for an option that balances these factors – offering reasonable returns with manageable risk and minimal ongoing effort.

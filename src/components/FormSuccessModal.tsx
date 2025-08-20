@@ -30,6 +30,7 @@ export function FormSuccessModal({
   onContinue,
   continueText = "Continue Exploring"
 }: FormSuccessModalProps) {
+  const { t } = useTranslation();
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="w-[calc(100vw-2rem)] max-w-md mx-auto max-h-[90vh] overflow-y-auto bg-white"
@@ -87,7 +88,7 @@ export function FormSuccessModal({
                 </div>
                 <div className="flex items-center gap-2 text-gray-600">
                   <MessageSquare className="w-4 h-4 text-primary" />
-                  <span>WhatsApp support available</span>
+                  <span>{t('components.formsuccessmodal.text1')}</span>
                 </div>
               </div>
             </div>

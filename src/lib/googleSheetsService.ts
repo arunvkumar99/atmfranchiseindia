@@ -134,7 +134,7 @@ class GoogleSheetsService {
           this.removeFromRetryQueue(id);
         }
       } catch (error) {
-        console.error('Retry failed for:', id);
+        if (import.meta.env.DEV) { console.error('Retry failed for:', id); }
       }
       
       // Wait between retries to avoid rate limiting

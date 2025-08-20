@@ -171,7 +171,7 @@ export function EnquiryFormSinglePage() {
       const error = null;
       
       if (error) {
-        // console.error('Enquiry form submission error:', error);
+        // if (import.meta.env.DEV) { console.error('Enquiry form submission error:', error); }
         
         let errorMessage = 'Failed to submit enquiry. Please try again.';
         
@@ -191,7 +191,7 @@ export function EnquiryFormSinglePage() {
       }
 
       if (data?.error) {
-        // console.error('Enquiry data error:', data.error);
+        // if (import.meta.env.DEV) { console.error('Enquiry data error:', data.error); }
         throw new Error(data.error);
       }
 
@@ -225,7 +225,7 @@ export function EnquiryFormSinglePage() {
       setIsCaptchaVerified(false);
 
     } catch (error) {
-      // console.error('Submission error:', error);
+      // if (import.meta.env.DEV) { console.error('Submission error:', error); }
       toast({
         title: "Submission Failed ❌",
         description: error.message,
@@ -286,7 +286,7 @@ export function EnquiryFormSinglePage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-14">
       <div className="bg-white border-b border-gray-100 shadow-sm">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-xl font-bold">Business Enquiry Form</h1>
+          <h1 className="text-xl font-bold">{t('components.enquiryformsinglepage.text1')}</h1>
         </div>
       </div>
 
@@ -304,7 +304,7 @@ export function EnquiryFormSinglePage() {
 
           <div className="text-center mb-8">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Business <span className="text-gradient">Enquiry</span>
+              Business <span className="text-gradient">{t('components.enquiryformsinglepage.text2')}</span>
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
               Start your journey with us by sharing your business interests and contact information
@@ -318,7 +318,7 @@ export function EnquiryFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">Personal & Contact Information</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Let us know who you are and how to reach you</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.enquiryformsinglepage.text3')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -458,7 +458,7 @@ export function EnquiryFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">Business Information & Preferences</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Tell us about your business interests and investment preferences</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.enquiryformsinglepage.text4')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -470,9 +470,9 @@ export function EnquiryFormSinglePage() {
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="atm-franchise">ATM Franchise</SelectItem>
-                          <SelectItem value="retail-outlet">Retail Outlet Partnership</SelectItem>
-                          <SelectItem value="distribution">Distribution Partnership</SelectItem>
-                          <SelectItem value="other">Other Business Opportunity</SelectItem>
+                          <SelectItem value="retail-outlet">{t('components.enquiryformsinglepage.text5')}</SelectItem>
+                          <SelectItem value="distribution">{t('components.enquiryformsinglepage.text6')}</SelectItem>
+                          <SelectItem value="other">{t('components.enquiryformsinglepage.text7')}</SelectItem>
                         </SelectContent>
                       </Select>
                       {errors.businessType && (
@@ -515,11 +515,11 @@ export function EnquiryFormSinglePage() {
                           <SelectValue placeholder="Select timeline" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="immediately">Immediately</SelectItem>
-                          <SelectItem value="1-month">Within 1 Month</SelectItem>
-                          <SelectItem value="3-months">Within 3 Months</SelectItem>
-                          <SelectItem value="6-months">Within 6 Months</SelectItem>
-                          <SelectItem value="exploring">Just Exploring</SelectItem>
+                          <SelectItem value="immediately">{t('components.enquiryformsinglepage.text8')}</SelectItem>
+                          <SelectItem value="1-month">{t('components.enquiryformsinglepage.text9')}</SelectItem>
+                          <SelectItem value="3-months">{t('components.enquiryformsinglepage.text10')}</SelectItem>
+                          <SelectItem value="6-months">{t('components.enquiryformsinglepage.text11')}</SelectItem>
+                          <SelectItem value="exploring">{t('components.enquiryformsinglepage.text12')}</SelectItem>
                         </SelectContent>
                       </Select>
                       {errors.timelineToStart && (
@@ -537,12 +537,12 @@ export function EnquiryFormSinglePage() {
                           <SelectValue placeholder="Select source" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="google-search">Google Search</SelectItem>
-                          <SelectItem value="social-media">Social Media</SelectItem>
+                          <SelectItem value="google-search">{t('components.enquiryformsinglepage.text13')}</SelectItem>
+                          <SelectItem value="social-media">{t('components.enquiryformsinglepage.text14')}</SelectItem>
                           <SelectItem value="referral">Friend/Family Referral</SelectItem>
-                          <SelectItem value="advertisement">Advertisement</SelectItem>
-                          <SelectItem value="business-event">Business Event</SelectItem>
-                          <SelectItem value="other">Other</SelectItem>
+                          <SelectItem value="advertisement">{t('components.enquiryformsinglepage.text15')}</SelectItem>
+                          <SelectItem value="business-event">{t('components.enquiryformsinglepage.text16')}</SelectItem>
+                          <SelectItem value="other">{t('components.enquiryformsinglepage.text17')}</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -563,8 +563,8 @@ export function EnquiryFormSinglePage() {
                 {/* Security Verification */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Security Verification</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Complete security verification to submit</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components.enquiryformsinglepage.text18')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components.enquiryformsinglepage.text19')}</p>
                   </div>
                   <CaptchaProtection 
                     onVerify={setIsCaptchaVerified}

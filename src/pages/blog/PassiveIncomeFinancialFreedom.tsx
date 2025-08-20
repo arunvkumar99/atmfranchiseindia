@@ -44,14 +44,14 @@ const PassiveIncomeFinancialFreedom = () => {
 
         {/* Article Header */}
         <div className="mb-12">
-          <Badge className="mb-4 bg-primary/10 text-primary">Financial Planning</Badge>
+          <Badge className="mb-4 bg-primary/10 text-primary">{t('components.passiveincomefinancialfreedom.text1')}</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             What is Passive Income, Really? Your First Step to Financial Freedom
           </h1>
           <div className="flex items-center gap-6 text-muted-foreground mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>January 2025</span>
+              <span>{t('components.passiveincomefinancialfreedom.text2')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
@@ -104,7 +104,7 @@ const PassiveIncomeFinancialFreedom = () => {
               <div className="bg-gradient-hero text-primary-foreground rounded-xl p-8 mt-8">
                 <div className="flex items-center gap-3 mb-4">
                   <CheckCircle className="w-6 h-6" />
-                  <h3 className="text-xl font-bold">Your Next Step</h3>
+                  <h3 className="text-xl font-bold">{t('components.passiveincomefinancialfreedom.text3')}</h3>
                 </div>
                 <p className="leading-relaxed">
                   Thinking through these points is the first and most important step on your journey to building real, sustainable wealth. Take your time with this process – the right passive income strategy for you is the one that aligns with your skills, schedule, budget, and long-term goals.

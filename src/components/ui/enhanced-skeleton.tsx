@@ -16,6 +16,7 @@ export function Skeleton({
   animation = 'pulse',
   ...props
 }: SkeletonProps) {
+  const { t } = useTranslation();
   const variants = {
     text: 'h-4 w-full',
     circular: 'rounded-full',

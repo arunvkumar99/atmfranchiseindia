@@ -194,8 +194,8 @@ const DesignAudit = () => {
             <CardContent className="p-8">
               <div className="flex items-center justify-between">
                 <div>
-                  <h2 className="text-2xl font-bold mb-2">Overall Design Score</h2>
-                  <p className="text-muted-foreground">Based on 7 key metrics</p>
+                  <h2 className="text-2xl font-bold mb-2">{t('components.designaudit.text1')}</h2>
+                  <p className="text-muted-foreground">{t('components.designaudit.text2')}</p>
                 </div>
                 <div className="text-center">
                   <div className={`text-6xl font-bold ${getScoreColor(overallScore)}`}>
@@ -210,7 +210,7 @@ const DesignAudit = () => {
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-2" />
                   <div className="font-semibold">3 Strong Areas</div>
-                  <div className="text-sm text-muted-foreground">Above 80 score</div>
+                  <div className="text-sm text-muted-foreground">{t('components.designaudit.text3')}</div>
                 </div>
                 <div className="text-center p-4 bg-yellow-50 rounded-lg">
                   <AlertCircle className="w-8 h-8 text-yellow-600 mx-auto mb-2" />
@@ -220,7 +220,7 @@ const DesignAudit = () => {
                 <div className="text-center p-4 bg-red-50 rounded-lg">
                   <XCircle className="w-8 h-8 text-red-600 mx-auto mb-2" />
                   <div className="font-semibold">1 Critical</div>
-                  <div className="text-sm text-muted-foreground">Below 70 score</div>
+                  <div className="text-sm text-muted-foreground">{t('components.designaudit.text4')}</div>
                 </div>
               </div>
             </CardContent>
@@ -230,10 +230,10 @@ const DesignAudit = () => {
         {/* Detailed Analysis Tabs */}
         <Tabs defaultValue="metrics" className="max-w-6xl mx-auto">
           <TabsList className="grid grid-cols-4 w-full mb-8">
-            <TabsTrigger value="metrics">Metrics</TabsTrigger>
-            <TabsTrigger value="colors">Colors</TabsTrigger>
-            <TabsTrigger value="typography">Typography</TabsTrigger>
-            <TabsTrigger value="responsive">Responsive</TabsTrigger>
+            <TabsTrigger value="metrics">{t('components.designaudit.text5')}</TabsTrigger>
+            <TabsTrigger value="colors">{t('components.designaudit.text6')}</TabsTrigger>
+            <TabsTrigger value="typography">{t('components.designaudit.text7')}</TabsTrigger>
+            <TabsTrigger value="responsive">{t('components.designaudit.text8')}</TabsTrigger>
           </TabsList>
           
           {/* Metrics Tab */}
@@ -269,7 +269,7 @@ const DesignAudit = () => {
                   <CardContent>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <h4 className="font-semibold mb-3 text-red-600">Issues Found</h4>
+                        <h4 className="font-semibold mb-3 text-red-600">{t('components.designaudit.text9')}</h4>
                         <ul className="space-y-2">
                           {metric.issues.map((issue, i) => (
                             <li key={i} className="flex items-start gap-2">
@@ -280,7 +280,7 @@ const DesignAudit = () => {
                         </ul>
                       </div>
                       <div>
-                        <h4 className="font-semibold mb-3 text-green-600">Recommended Improvements</h4>
+                        <h4 className="font-semibold mb-3 text-green-600">{t('components.designaudit.text10')}</h4>
                         <ul className="space-y-2">
                           {metric.improvements.map((improvement, i) => (
                             <li key={i} className="flex items-start gap-2">
@@ -301,7 +301,7 @@ const DesignAudit = () => {
           <TabsContent value="colors" className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Color Palette Analysis</CardTitle>
+                <CardTitle>{t('components.designaudit.text11')}</CardTitle>
               </CardHeader>
               <CardContent>
                 {Object.entries(colorPalette).map(([category, colors]) => (
@@ -332,7 +332,7 @@ const DesignAudit = () => {
           <TabsContent value="typography" className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Typography Scale</CardTitle>
+                <CardTitle>{t('components.designaudit.text12')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-6">
@@ -367,7 +367,7 @@ const DesignAudit = () => {
           <TabsContent value="responsive" className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Responsive Design Analysis</CardTitle>
+                <CardTitle>{t('components.designaudit.text13')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="mb-6">
@@ -378,29 +378,29 @@ const DesignAudit = () => {
                   <div className="grid grid-cols-3 gap-4">
                     <div className="text-center p-4 border rounded-lg">
                       <Smartphone className="w-8 h-8 mx-auto mb-2" />
-                      <div className="font-medium">Mobile</div>
+                      <div className="font-medium">{t('components.designaudit.text14')}</div>
                       <div className="text-sm text-muted-foreground">&lt; 640px</div>
                     </div>
                     <div className="text-center p-4 border rounded-lg">
                       <Tablet className="w-8 h-8 mx-auto mb-2" />
-                      <div className="font-medium">Tablet</div>
+                      <div className="font-medium">{t('components.designaudit.text15')}</div>
                       <div className="text-sm text-muted-foreground">640px - 1024px</div>
                     </div>
                     <div className="text-center p-4 border rounded-lg">
                       <Monitor className="w-8 h-8 mx-auto mb-2" />
-                      <div className="font-medium">Desktop</div>
+                      <div className="font-medium">{t('components.designaudit.text16')}</div>
                       <div className="text-sm text-muted-foreground">&gt; 1024px</div>
                     </div>
                   </div>
                 </div>
                 
                 <div className="space-y-4">
-                  <h4 className="font-semibold">Responsive Issues by Breakpoint</h4>
+                  <h4 className="font-semibold">{t('components.designaudit.text17')}</h4>
                   <div className="space-y-3">
                     <div className="p-4 bg-red-50 rounded-lg">
                       <div className="flex items-center gap-2 mb-2">
                         <Smartphone className="w-4 h-4" />
-                        <span className="font-medium">Mobile Issues</span>
+                        <span className="font-medium">{t('components.designaudit.text18')}</span>
                       </div>
                       <ul className="text-sm space-y-1 text-muted-foreground">
                         <li>• Navigation menu needs hamburger implementation</li>
@@ -411,7 +411,7 @@ const DesignAudit = () => {
                     <div className="p-4 bg-yellow-50 rounded-lg">
                       <div className="flex items-center gap-2 mb-2">
                         <Tablet className="w-4 h-4" />
-                        <span className="font-medium">Tablet Issues</span>
+                        <span className="font-medium">{t('components.designaudit.text19')}</span>
                       </div>
                       <ul className="text-sm space-y-1 text-muted-foreground">
                         <li>• Grid layouts need optimization</li>
@@ -421,7 +421,7 @@ const DesignAudit = () => {
                     <div className="p-4 bg-green-50 rounded-lg">
                       <div className="flex items-center gap-2 mb-2">
                         <Monitor className="w-4 h-4" />
-                        <span className="font-medium">Desktop</span>
+                        <span className="font-medium">{t('components.designaudit.text20')}</span>
                       </div>
                       <ul className="text-sm space-y-1 text-muted-foreground">
                         <li>• Generally good, minor spacing adjustments needed</li>
@@ -468,14 +468,14 @@ const DesignAudit = () => {
               <div className="flex items-start gap-4">
                 <div className="w-8 h-8 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold">4</div>
                 <div>
-                  <h4 className="font-semibold mb-1">Enhance Design Consistency</h4>
+                  <h4 className="font-semibold mb-1">{t('components.designaudit.text21')}</h4>
                   <p className="text-sm text-muted-foreground">Create design tokens, standardize components, document design system</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-8 h-8 rounded-full bg-green-500 text-white flex items-center justify-center font-bold">5</div>
                 <div>
-                  <h4 className="font-semibold mb-1">Polish User Interactions</h4>
+                  <h4 className="font-semibold mb-1">{t('components.designaudit.text22')}</h4>
                   <p className="text-sm text-muted-foreground">Improve CTA prominence, add micro-interactions, enhance feedback</p>
                 </div>
               </div>

@@ -116,7 +116,7 @@ export const useFileUploadManager = ({
     // Validate file
     const validationError = validateFile(processedFile);
     if (validationError) {
-      console.error('❌ File validation failed:', validationError);
+      if (import.meta.env.DEV) { console.error('❌ File validation failed:', validationError); }
       setUploadState(prev => ({
         ...prev,
         error: validationError

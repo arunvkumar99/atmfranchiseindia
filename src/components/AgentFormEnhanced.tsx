@@ -260,7 +260,7 @@ export function AgentFormEnhanced() {
       }, 100);
 
     } catch (error) {
-      console.error('Error submitting agent application:', error);
+      if (import.meta.env.DEV) { console.error('Error submitting agent application:', error); }
       trackFormSubmit(false, error.message);
       toast({
         title: "Submission Failed",
@@ -291,7 +291,7 @@ export function AgentFormEnhanced() {
         >
           <Card className="shadow-professional">
             <CardHeader>
-              <CardTitle className="text-xl sm:text-2xl">Agent Application Form</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl">{t('components.agentformenhanced.text1')}</CardTitle>
               <CardDescription>
                 Join our network and start earning commissions by helping entrepreneurs set up ATM franchises
               </CardDescription>
@@ -299,7 +299,7 @@ export function AgentFormEnhanced() {
             <CardContent className="space-y-6">
               {/* Personal Details Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold border-b pb-2">Personal Details</h3>
+                <h3 className="text-lg font-semibold border-b pb-2">{t('components.agentformenhanced.text2')}</h3>
                 
                 <div className="space-y-2">
                   <Label htmlFor="fullName">Full Name *</Label>
@@ -322,15 +322,15 @@ export function AgentFormEnhanced() {
                   >
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="male" id="male" />
-                      <Label htmlFor="male">Male</Label>
+                      <Label htmlFor="male">{t('components.agentformenhanced.text3')}</Label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="female" id="female" />
-                      <Label htmlFor="female">Female</Label>
+                      <Label htmlFor="female">{t('components.agentformenhanced.text4')}</Label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="other" id="other" />
-                      <Label htmlFor="other">Other</Label>
+                      <Label htmlFor="other">{t('components.agentformenhanced.text5')}</Label>
                     </div>
                   </RadioGroup>
                 </div>
@@ -353,18 +353,18 @@ export function AgentFormEnhanced() {
                         <SelectValue placeholder={t('time.month', 'Month')} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="1">January</SelectItem>
-                        <SelectItem value="2">February</SelectItem>
-                        <SelectItem value="3">March</SelectItem>
-                        <SelectItem value="4">April</SelectItem>
+                        <SelectItem value="1">{t('components.agentformenhanced.text6')}</SelectItem>
+                        <SelectItem value="2">{t('components.agentformenhanced.text7')}</SelectItem>
+                        <SelectItem value="3">{t('components.agentformenhanced.text8')}</SelectItem>
+                        <SelectItem value="4">{t('components.agentformenhanced.text9')}</SelectItem>
                         <SelectItem value="5">May</SelectItem>
-                        <SelectItem value="6">June</SelectItem>
-                        <SelectItem value="7">July</SelectItem>
-                        <SelectItem value="8">August</SelectItem>
-                        <SelectItem value="9">September</SelectItem>
-                        <SelectItem value="10">October</SelectItem>
-                        <SelectItem value="11">November</SelectItem>
-                        <SelectItem value="12">December</SelectItem>
+                        <SelectItem value="6">{t('components.agentformenhanced.text10')}</SelectItem>
+                        <SelectItem value="7">{t('components.agentformenhanced.text11')}</SelectItem>
+                        <SelectItem value="8">{t('components.agentformenhanced.text12')}</SelectItem>
+                        <SelectItem value="9">{t('components.agentformenhanced.text13')}</SelectItem>
+                        <SelectItem value="10">{t('components.agentformenhanced.text14')}</SelectItem>
+                        <SelectItem value="11">{t('components.agentformenhanced.text15')}</SelectItem>
+                        <SelectItem value="12">{t('components.agentformenhanced.text16')}</SelectItem>
                       </SelectContent>
                     </Select>
                     <Select value={formData.dateOfBirth.year} onValueChange={(value) => handleDateChange('year', value)}>
@@ -462,7 +462,7 @@ export function AgentFormEnhanced() {
                     className="w-full"
                     required
                   />
-                  <p className="text-xs text-muted-foreground">Enter exactly 12 digits without spaces or hyphens</p>
+                  <p className="text-xs text-muted-foreground">{t('components.agentformenhanced.text17')}</p>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -557,7 +557,7 @@ export function AgentFormEnhanced() {
 
               {/* Professional Details Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold border-b pb-2">Professional Details</h3>
+                <h3 className="text-lg font-semibold border-b pb-2">{t('components.agentformenhanced.text18')}</h3>
                 
                 <div className="space-y-2">
                   <Label>Are you Joining As (Please choose from Below): *</Label>
@@ -568,11 +568,11 @@ export function AgentFormEnhanced() {
                   >
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="individual" id="individual" />
-                      <Label htmlFor="individual">Individual</Label>
+                      <Label htmlFor="individual">{t('components.agentformenhanced.text19')}</Label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="business-owner" id="business-owner" />
-                      <Label htmlFor="business-owner">Business Owner</Label>
+                      <Label htmlFor="business-owner">{t('components.agentformenhanced.text20')}</Label>
                     </div>
                   </RadioGroup>
                 </div>
