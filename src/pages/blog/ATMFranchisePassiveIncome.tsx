@@ -7,26 +7,26 @@ import { Link } from "@/hooks/useLanguageRouter";
 import { Calendar, Clock, ArrowLeft, Banknote, Smartphone, TrendingUp, Users, CheckCircle, Calculator } from "lucide-react";
 
 const ATMFranchisePassiveIncome = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation(['blog', 'forms']);
   const benefits = [
     {
-      title: "Low Daily Effort",
-      description: "Just 15-20 minutes daily for coordination",
+      title: t('blog:atmFranchise.benefits.lowEffort.title', 'Low Daily Effort'),
+      description: t('blog:atmFranchise.benefits.lowEffort.description', 'Just 15-20 minutes daily for coordination'),
       icon: Clock
     },
     {
-      title: "Steady Returns",
-      description: "Predictable monthly income from transactions",
+      title: t('blog:atmFranchise.benefits.steadyReturns.title', 'Steady Returns'),
+      description: t('blog:atmFranchise.benefits.steadyReturns.description', 'Predictable monthly income from transactions'),
       icon: TrendingUp
     },
     {
-      title: "Growing Market",
-      description: "Cash demand increasing in Tier-2/3 cities",
+      title: t('blog:atmFranchise.benefits.growingMarket.title', 'Growing Market'),
+      description: t('blog:atmFranchise.benefits.growingMarket.description', 'Cash demand increasing in Tier-2/3 cities'),
       icon: Users
     },
     {
-      title: "Backed by RBI",
-      description: "Partner with RBI-licensed operators",
+      title: t('blog:atmFranchise.benefits.rbiSupport.title', 'Backed by RBI'),
+      description: t('blog:atmFranchise.benefits.rbiSupport.description', 'Partner with RBI-licensed operators'),
       icon: CheckCircle
     }
   ];
@@ -38,7 +38,7 @@ const ATMFranchisePassiveIncome = () => {
         <Button variant="outline" asChild className="mb-8">
           <Link to="/blog" className="flex items-center gap-2">
             <ArrowLeft className="w-4 h-4" />
-            Back to Blog
+            {t('blog:navigation.backToBlog', 'Back to Blog')}
           </Link>
         </Button>
 
@@ -46,7 +46,7 @@ const ATMFranchisePassiveIncome = () => {
         <div className="mb-12">
           <Badge className="mb-4 bg-primary/10 text-primary">{t('components.atmfranchisepassiveincome.text1')}</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            The ATM Franchise: A Smarter, Simpler Path to Passive Income
+            {t('blog:atmFranchise.title', 'The ATM Franchise: A Smarter, Simpler Path to Passive Income')}
           </h1>
           <div className="flex items-center gap-6 text-muted-foreground mb-8">
             <div className="flex items-center gap-2">
@@ -55,7 +55,7 @@ const ATMFranchisePassiveIncome = () => {
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              <span>5 min read</span>
+              <span>{t('blog:post.readTime', '5 min read')}</span>
             </div>
           </div>
         </div>
@@ -65,21 +65,21 @@ const ATMFranchisePassiveIncome = () => {
           <CardContent className="p-8 md:p-12">
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                So, if property is too expensive and stocks are too risky, what's left? Here's an idea you may not have considered: an ATM franchise. It's a surprisingly simple and stable business model that's perfect for someone looking for genuine passive income.
+                {t('blog:atmFranchise.intro', "So, if property is too expensive and stocks are too risky, what's left? Here's an idea you may not have considered: an ATM franchise. It's a surprisingly simple and stable business model that's perfect for someone looking for genuine passive income.")}
               </p>
 
               {/* UPI Question */}
               <div className="bg-gradient-card rounded-lg p-6 border border-border/50 mb-8">
                 <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
                   <Smartphone className="w-6 h-6 text-primary" />
-                  "But Doesn't Everyone Use UPI?"
+                  {t('blog:atmFranchise.upiQuestion.title', "But Doesn't Everyone Use UPI?")}
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  It's a fair question. We all use UPI for small payments. But look at the facts: the amount of cash in India is actually increasing every year, reaching a record high of ₹36.88 lakh crore in FY25.
+                  {t('blog:atmFranchise.upiQuestion.answer1', "It's a fair question. We all use UPI for small payments. But look at the facts: the amount of cash in India is actually increasing every year, reaching a record high of ₹36.88 lakh crore in FY25.")}
                 </p>
                 <div className="bg-primary/5 rounded-lg p-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    <strong className="text-foreground">Here's the simple reason:</strong> people use UPI for small, daily spends, but they still trust and use cash for larger expenses, household budgeting, and savings. This is especially true in the fast-growing Tier-2 and Tier-3 cities, where the demand for cash is highest but the number of ATMs is lowest. This gap between high demand and low supply is your business opportunity.
+                    <strong className="text-foreground">{t('blog:atmFranchise.upiQuestion.reasonTitle', "Here's the simple reason:")}</strong> {t('blog:atmFranchise.upiQuestion.reason', 'people use UPI for small, daily spends, but they still trust and use cash for larger expenses, household budgeting, and savings. This is especially true in the fast-growing Tier-2 and Tier-3 cities, where the demand for cash is highest but the number of ATMs is lowest. This gap between high demand and low supply is your business opportunity.')}
                   </p>
                 </div>
               </div>
@@ -87,45 +87,45 @@ const ATMFranchisePassiveIncome = () => {
               {/* How it Works */}
               <h2 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-3">
                 <Banknote className="w-6 h-6 text-primary" />
-                How Does an ATM Franchise Work?
+                {t('blog:atmFranchise.howItWorks.title', 'How Does an ATM Franchise Work?')}
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                It's a "business-in-a-box" model. You partner with a White Label ATM Operator (WLAO)—a company licensed by the RBI to set up ATMs.
+                {t('blog:atmFranchise.howItWorks.description', 'It\'s a "business-in-a-box" model. You partner with a White Label ATM Operator (WLAO)—a company licensed by the RBI to set up ATMs.')}
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-gradient-success text-white rounded-lg p-6">
-                  <h3 className="text-xl font-bold mb-4">Your Role (The Easy Part)</h3>
+                  <h3 className="text-xl font-bold mb-4">{t('blog:atmFranchise.roles.yourRole.title', 'Your Role (The Easy Part)')}</h3>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                      Provide 50-80 sq. ft. commercial space
+                      {t('blog:atmFranchise.roles.yourRole.space', 'Provide 50-80 sq. ft. commercial space')}
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                      Make one-time investment (mostly refundable)
+                      {t('blog:atmFranchise.roles.yourRole.investment', 'Make one-time investment (mostly refundable)')}
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                      Coordinate cash refills (15-20 mins daily)
+                      {t('blog:atmFranchise.roles.yourRole.coordination', 'Coordinate cash refills (15-20 mins daily)')}
                     </li>
                   </ul>
                 </div>
 
                 <div className="bg-gradient-primary text-white rounded-lg p-6">
-                  <h3 className="text-xl font-bold mb-4">Company's Role (The Hard Part)</h3>
+                  <h3 className="text-xl font-bold mb-4">{t('blog:atmFranchise.roles.companyRole.title', "Company's Role (The Hard Part)")}</h3>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                      Provide and install ATM machine
+                      {t('blog:atmFranchise.roles.companyRole.machine', 'Provide and install ATM machine')}
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                      Manage technology and banking network
+                      {t('blog:atmFranchise.roles.companyRole.technology', 'Manage technology and banking network')}
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                      Provide 24/7 technical support
+                      {t('blog:atmFranchise.roles.companyRole.support', 'Provide 24/7 technical support')}
                     </li>
                   </ul>
                 </div>
@@ -135,14 +135,14 @@ const ATMFranchisePassiveIncome = () => {
               <div className="bg-gradient-hero text-primary-foreground rounded-xl p-8 mb-8">
                 <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                   <Calculator className="w-6 h-6" />
-                  How Do You Earn?
+                  {t('blog:atmFranchise.earnings.title', 'How Do You Earn?')}
                 </h3>
                 <p className="leading-relaxed mb-4">
-                  You earn a commission for every single transaction, whether it's a cash withdrawal or a balance check. For example, you could earn ₹8 for every cash transaction and ₹2 for every non-cash one.
+                  {t('blog:atmFranchise.earnings.description', "You earn a commission for every single transaction, whether it's a cash withdrawal or a balance check. For example, you could earn ₹8 for every cash transaction and ₹2 for every non-cash one.")}
                 </p>
                 <div className="bg-primary-foreground/20 rounded-lg p-4">
                   <p className="font-semibold">
-                    If your ATM gets 100 transactions a day, you could earn a steady income of ₹25,000 to ₹30,000 or more per month, with a potential return on your initial investment of over 33% in the first year.
+                    {t('blog:atmFranchise.earnings.example', 'If your ATM gets 100 transactions a day, you could earn a steady income of ₹25,000 to ₹30,000 or more per month, with a potential return on your initial investment of over 33% in the first year.')}
                   </p>
                 </div>
               </div>
@@ -167,7 +167,7 @@ const ATMFranchisePassiveIncome = () => {
 
               <div className="bg-gradient-card rounded-lg p-6 border border-border/50">
                 <p className="text-lg text-center text-foreground font-medium">
-                  It's a simple, low-effort business with predictable returns, backed by a real, physical asset.
+                  {t('blog:atmFranchise.summary', "It's a simple, low-effort business with predictable returns, backed by a real, physical asset.")}
                 </p>
               </div>
             </div>
@@ -178,14 +178,14 @@ const ATMFranchisePassiveIncome = () => {
         <Card className="bg-gradient-card border-border/50">
           <CardContent className="p-8 text-center">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Ready to Learn How to Start?
+              {t('blog:atmFranchise.cta.title', 'Ready to Learn How to Start?')}
             </h3>
             <p className="text-muted-foreground mb-6">
-              Get your complete 5-step guide to launching your own ATM business.
+              {t('blog:atmFranchise.cta.description', 'Get your complete 5-step guide to launching your own ATM business.')}
             </p>
             <Button size="lg" asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/blog/5-step-guide-atm-business">
-                Get Your Step-by-Step Guide
+                {t('blog:atmFranchise.cta.button', 'Get Your Step-by-Step Guide')}
               </Link>
             </Button>
           </CardContent>

@@ -17,7 +17,7 @@ import {
 import { JobApplicationProgressive } from "@/components/JobApplicationProgressive";
 
 const JobsPage = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('jobs');
   const jobListings = [
     {
       id: "1",
@@ -64,15 +64,14 @@ const JobsPage = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Build Your Career in
+              {t('content.build_your_career', 'Build Your Career')} {t('content.in', 'in')}
               <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                ATM Industry
+                {t('content.atm_industry', 'ATM Industry')}
               </span>
             </h1>
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              Join India's fastest-growing ATM franchise network. We're looking for passionate individuals 
-              to help expand financial inclusion across the country.
+              {t('content.career_description', "Join India's fastest-growing ATM franchise network. We're looking for passionate individuals to help expand financial inclusion across the country.")}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -81,7 +80,7 @@ const JobsPage = () => {
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8"
                 onClick={() => document.getElementById('job-application')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                View Open Positions
+                {t('content.view_positions', 'View Open Positions')}
               </Button>
               <Button 
                 size="lg" 
@@ -89,7 +88,7 @@ const JobsPage = () => {
                 className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8"
                 onClick={() => document.getElementById('job-application')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Apply Now
+                {t('content.apply_now', 'Apply Now')}
               </Button>
             </div>
           </div>
@@ -102,7 +101,7 @@ const JobsPage = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('content.current_job_openings', 'Current Job Openings')}</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Explore exciting career opportunities in India's growing ATM franchise sector
+              {t('content.explore_opportunities', "Explore exciting career opportunities in India's growing ATM franchise sector")}
             </p>
           </div>
 
@@ -185,7 +184,7 @@ const JobsPage = () => {
                       className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
                       onClick={() => document.getElementById('job-application')?.scrollIntoView({ behavior: 'smooth' })}
                     >
-                      Apply for this Position
+                      {t('content.apply_for_position', 'Apply for this Position')}
                     </Button>
                   </div>
                 </CardContent>
@@ -202,7 +201,7 @@ const JobsPage = () => {
             <MessageCircle className="w-12 h-12 text-blue-600 mx-auto mb-4" />
             <h3 className="text-xl font-bold text-blue-900 mb-2">{t('content.have_questions', 'Have Questions?')}</h3>
             <p className="text-blue-700 mb-6">
-              Contact our HR team for more information about career opportunities
+              {t('content.contact_hr_description', 'Contact our HR team for more information about career opportunities')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <div className="flex items-center justify-center gap-2 text-blue-800">

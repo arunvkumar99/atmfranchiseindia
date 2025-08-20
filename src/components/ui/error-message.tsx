@@ -66,7 +66,7 @@ export function ErrorMessage({
         <button
           onClick={onDismiss}
           className="flex-shrink-0 hover:opacity-70 transition-opacity"
-          aria-label="Dismiss message"
+          aria-label={t('ui.errorMessage.dismissAriaLabel', 'Dismiss message')}
         >
           <XCircle className="h-4 w-4" />
         </button>

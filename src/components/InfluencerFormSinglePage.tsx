@@ -377,19 +377,19 @@ export function InfluencerFormSinglePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <CardTitle className="text-2xl font-bold text-green-600">Influencer Application Submitted!</CardTitle>
+                <CardTitle className="text-2xl font-bold text-green-600">{t('messages.influencerApplicationSubmitted')}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 text-center">
                 <p className="text-muted-foreground">
                   Thank you for joining our influencer network. We'll review your application and get back to you soon.
                 </p>
                 <div className="space-y-3">
-                  <h4 className="font-semibold">Next Steps:</h4>
+                  <h4 className="font-semibold">{t('influencerApplication.nextSteps', 'Next Steps:')}</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>✓ Application review by our team</li>
-                    <li>✓ Social media profile verification</li>
-                    <li>✓ Partnership terms discussion</li>
-                    <li>✓ Onboarding process initiation</li>
+                    <li>✓ {t('influencerApplication.step1', 'Application review by our team')}</li>
+                    <li>✓ {t('influencerApplication.step2', 'Social media profile verification')}</li>
+                    <li>✓ {t('influencerApplication.step3', 'Partnership terms discussion')}</li>
+                    <li>✓ {t('influencerApplication.step4', 'Onboarding process initiation')}</li>
                   </ul>
                 </div>
                 <Button 
@@ -399,7 +399,7 @@ export function InfluencerFormSinglePage() {
                   }}
                   className="w-full"
                 >
-                  Continue
+                  {t('buttons.continue', 'Continue')}
                 </Button>
               </CardContent>
             </Card>
@@ -450,7 +450,7 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="fullName">Full Name *</Label>
+                      <Label htmlFor="fullName">{t('labels.fullName', 'Full Name')} *</Label>
                       <Input 
                         id="fullName" 
                         value={formData.fullName}
@@ -468,7 +468,7 @@ export function InfluencerFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label>Gender *</Label>
+                      <Label>{t('labels.gender', 'Gender')} *</Label>
                       <RadioGroup 
                         value={formData.gender} 
                         onValueChange={(value) => handleInputChange('gender', value)}
@@ -497,11 +497,11 @@ export function InfluencerFormSinglePage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label>Date of Birth *</Label>
+                    <Label>{t('labels.dateOfBirth', 'Date of Birth')} *</Label>
                     <div className="grid grid-cols-3 gap-3">
                       <Select value={formData.dateOfBirth.day} onValueChange={(value) => handleDateChange('day', value)}>
                         <SelectTrigger className={errors['dateOfBirth.day'] ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Day" />
+                          <SelectValue placeholder={t('placeholders.day', 'Day')} />
                         </SelectTrigger>
                         <SelectContent>
                           {Array.from({length: 31}, (_, i) => (
@@ -518,7 +518,7 @@ export function InfluencerFormSinglePage() {
                           <SelectItem value="2">{t('components.influencerformsinglepage.text8')}</SelectItem>
                           <SelectItem value="3">{t('components.influencerformsinglepage.text9')}</SelectItem>
                           <SelectItem value="4">{t('components.influencerformsinglepage.text10')}</SelectItem>
-                          <SelectItem value="5">May</SelectItem>
+                          <SelectItem value="5">{t('months.may')}</SelectItem>
                           <SelectItem value="6">{t('components.influencerformsinglepage.text11')}</SelectItem>
                           <SelectItem value="7">{t('components.influencerformsinglepage.text12')}</SelectItem>
                           <SelectItem value="8">{t('components.influencerformsinglepage.text13')}</SelectItem>
@@ -548,7 +548,7 @@ export function InfluencerFormSinglePage() {
                         id="phone" 
                         value={formData.phone}
                         onChange={(e) => handleInputChange('phone', e.target.value)}
-                        placeholder="Primary contact number" 
+                        placeholder={t('placeholders.primaryPhone', 'Primary contact number')} 
                         className={errors.phone ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -565,7 +565,7 @@ export function InfluencerFormSinglePage() {
                         id="whatsapp" 
                         value={formData.whatsappPhone}
                         onChange={(e) => handleInputChange('whatsappPhone', e.target.value)}
-                        placeholder="WhatsApp number" 
+                        placeholder={t('placeholders.whatsappNumber', 'WhatsApp number')} 
                         className={errors.whatsappPhone ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -585,7 +585,7 @@ export function InfluencerFormSinglePage() {
                       type="email" 
                       value={formData.email}
                       onChange={(e) => handleInputChange('email', e.target.value)}
-                      placeholder="Enter your email address" 
+                      placeholder={t('placeholders.emailAddress', 'Enter your email address')} 
                       className={errors.email ? 'border-red-500 focus-visible:ring-red-500' : ''}
                       required
                     />
@@ -599,7 +599,7 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="panNumber">PAN Card Number *</Label>
+                      <Label htmlFor="panNumber">{t('labels.panCardNumber', 'PAN Card Number')} *</Label>
                       <Input 
                         id="panNumber" 
                         value={formData.panNumber}
@@ -607,7 +607,7 @@ export function InfluencerFormSinglePage() {
                           const value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 10);
                           handleInputChange('panNumber', value);
                         }}
-                        placeholder="ABCDE1234F" 
+                        placeholder={t('placeholders.panFormat', 'ABCDE1234F')} 
                         maxLength={10}
                         className={`uppercase ${errors.panNumber ? 'border-red-500 focus-visible:ring-red-500' : ''}`}
                         required
@@ -621,7 +621,7 @@ export function InfluencerFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="aadhaarNumber">Aadhaar Number *</Label>
+                      <Label htmlFor="aadhaarNumber">{t('labels.aadhaarNumber', 'Aadhaar Number')} *</Label>
                       <Input 
                         id="aadhaarNumber" 
                         value={formData.aadhaarNumber}
@@ -629,7 +629,7 @@ export function InfluencerFormSinglePage() {
                           const value = e.target.value.replace(/[^0-9]/g, '').slice(0, 12);
                           handleInputChange('aadhaarNumber', value);
                         }}
-                        placeholder="123456789012" 
+                        placeholder={t('placeholders.aadhaarNumber', '123456789012')} 
                         maxLength={12}
                         className={errors.aadhaarNumber ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
@@ -645,10 +645,10 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label>State *</Label>
+                      <Label>{t('labels.state')} *</Label>
                       <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                         <SelectTrigger className={errors.state ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Choose your state" />
+                          <SelectValue placeholder={t('placeholders.chooseState', 'Choose your state')} />
                         </SelectTrigger>
                         <SelectContent>
                           {INDIAN_STATES.map((state) => (
@@ -664,12 +664,12 @@ export function InfluencerFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="district">District *</Label>
+                      <Label htmlFor="district">{t('labels.district', 'District')} *</Label>
                       <Input 
                         id="district" 
                         value={formData.district}
                         onChange={(e) => handleInputChange('district', e.target.value)}
-                        placeholder="Enter your district" 
+                        placeholder={t('placeholders.enterDistrict', 'Enter your district')} 
                         className={errors.district ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -684,12 +684,12 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="permanentAddress">Permanent Address *</Label>
+                      <Label htmlFor="permanentAddress">{t('labels.permanentAddress')} *</Label>
                       <Textarea 
                         id="permanentAddress" 
                         value={formData.permanentAddress}
                         onChange={(e) => handleInputChange('permanentAddress', e.target.value)}
-                        placeholder="Enter your permanent address" 
+                        placeholder={t('placeholders.permanentAddress', 'Enter your permanent address')} 
                         className={errors.permanentAddress ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         rows={3}
                         required
@@ -703,12 +703,12 @@ export function InfluencerFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="currentAddress">Current Address *</Label>
+                      <Label htmlFor="currentAddress">{t('labels.currentAddress')} *</Label>
                       <Textarea 
                         id="currentAddress" 
                         value={formData.currentAddress}
                         onChange={(e) => handleInputChange('currentAddress', e.target.value)}
-                        placeholder="Enter your current address" 
+                        placeholder={t('placeholders.currentAddress', 'Enter your current address')} 
                         className={errors.currentAddress ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         rows={3}
                         required
@@ -726,12 +726,12 @@ export function InfluencerFormSinglePage() {
                 {/* Social Media & Languages */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Social Media & Skills</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t('influencerForm.socialMediaSkills', 'Social Media & Skills')}</h3>
                     <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text18')}</p>
                   </div>
 
                   <div className="space-y-3">
-                    <Label>Languages You Can Speak *</Label>
+                    <Label>{t('influencerForm.languagesYouSpeak', 'Languages You Can Speak')} *</Label>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                       {["English", "Hindi", "Telugu", "Tamil", "Kannada", "Malayalam", "Marathi", "Bengali", "Gujarati", "Punjabi", "Urdu", "Odia"].map((language) => (
                         <div key={language} className="flex items-center space-x-2">
@@ -759,7 +759,7 @@ export function InfluencerFormSinglePage() {
                         id="facebookLink" 
                         value={formData.facebookLink}
                         onChange={(e) => handleInputChange('facebookLink', e.target.value)}
-                        placeholder="https://facebook.com/yourprofile" 
+                        placeholder={t('placeholders.facebookProfile', 'https://facebook.com/yourprofile')} 
                       />
                     </div>
                     <div className="space-y-2">
@@ -768,7 +768,7 @@ export function InfluencerFormSinglePage() {
                         id="instagramLink" 
                         value={formData.instagramLink}
                         onChange={(e) => handleInputChange('instagramLink', e.target.value)}
-                        placeholder="https://instagram.com/yourprofile" 
+                        placeholder={t('placeholders.instagramProfile', 'https://instagram.com/yourprofile')} 
                       />
                     </div>
                   </div>
@@ -780,7 +780,7 @@ export function InfluencerFormSinglePage() {
                         id="youtubeLink" 
                         value={formData.youtubeLink}
                         onChange={(e) => handleInputChange('youtubeLink', e.target.value)}
-                        placeholder="https://youtube.com/yourchannel" 
+                        placeholder={t('placeholders.youtubeChannel', 'https://youtube.com/yourchannel')} 
                       />
                     </div>
                     <div className="space-y-2">
@@ -789,28 +789,28 @@ export function InfluencerFormSinglePage() {
                         id="linkedinLink" 
                         value={formData.linkedinLink}
                         onChange={(e) => handleInputChange('linkedinLink', e.target.value)}
-                        placeholder="https://linkedin.com/in/yourprofile" 
+                        placeholder={t('placeholders.linkedinProfile', 'https://linkedin.com/in/yourprofile')} 
                       />
                     </div>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="otherChannel1">Other Channel/Platform 1</Label>
+                      <Label htmlFor="otherChannel1">{t('influencerForm.otherChannel1', 'Other Channel/Platform 1')}</Label>
                       <Input 
                         id="otherChannel1" 
                         value={formData.otherChannel1}
                         onChange={(e) => handleInputChange('otherChannel1', e.target.value)}
-                        placeholder="Any other social media platform" 
+                        placeholder={t('placeholders.otherSocialMedia', 'Any other social media platform')} 
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="otherChannel2">Other Channel/Platform 2</Label>
+                      <Label htmlFor="otherChannel2">{t('influencerForm.otherChannel2', 'Other Channel/Platform 2')}</Label>
                       <Input 
                         id="otherChannel2" 
                         value={formData.otherChannel2}
                         onChange={(e) => handleInputChange('otherChannel2', e.target.value)}
-                        placeholder="Any other social media platform" 
+                        placeholder={t('placeholders.otherSocialMedia', 'Any other social media platform')} 
                       />
                     </div>
                   </div>
@@ -826,7 +826,7 @@ export function InfluencerFormSinglePage() {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-3">
                       <Label htmlFor="panDocument" className="flex items-center gap-2">
-                        PAN Document Upload
+                        {t('labels.panDocumentUpload')}
                         <span className="text-destructive">*</span>
                       </Label>
                       <div className="flex gap-2">
@@ -836,7 +836,7 @@ export function InfluencerFormSinglePage() {
                           onClick={panDocumentManager.openFileSelector}
                           className="flex-1"
                         >
-                          Choose File
+                          {t('buttons.chooseFile')}
                         </Button>
                         <Button
                           type="button"
@@ -881,7 +881,7 @@ export function InfluencerFormSinglePage() {
                           onClick={photoManager.openFileSelector}
                           className="flex-1"
                         >
-                          Choose File
+                          {t('buttons.chooseFile')}
                         </Button>
                         <Button
                           type="button"
@@ -928,7 +928,7 @@ export function InfluencerFormSinglePage() {
                           onClick={aadhaarFrontManager.openFileSelector}
                           className="flex-1"
                         >
-                          Choose File
+                          {t('buttons.chooseFile')}
                         </Button>
                         <Button
                           type="button"
@@ -973,7 +973,7 @@ export function InfluencerFormSinglePage() {
                           onClick={aadhaarBackManager.openFileSelector}
                           className="flex-1"
                         >
-                          Choose File
+                          {t('buttons.chooseFile')}
                         </Button>
                         <Button
                           type="button"
@@ -1028,12 +1028,12 @@ export function InfluencerFormSinglePage() {
                   {isSubmitting ? (
                     <>
                       <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                      Submitting...
+                      {t('buttons.submitting')}
                     </>
                   ) : (
                     <>
                       <Send className="w-4 h-4 mr-2" />
-                      Submit Influencer Application
+                      {t('buttons.submitInfluencerApplication')}
                     </>
                   )}
                 </Button>

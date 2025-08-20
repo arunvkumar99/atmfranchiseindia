@@ -14,7 +14,8 @@
       "transactions": "10 मिलियन से अधिक मासिक लेनदेन",
       "coverage": "अखिल भारतीय कवरेज",
       "support": "24/7 सहायता"
-    }
+    },
+    "investmentRange": "निवेश सीमा: ₹2-5 लाख"
   },
   "features": {
     "title": "पिक्सेलपे एटीएम फ्रैंचाइज़ी क्यों चुनें?",
@@ -163,7 +164,7 @@
     "monthlyTransactions": "मासिक लेनदेन",
     "citiesCovered": "कवर किए गए शहर",
     "yearsExperience": "वर्षों का अनुभव",
-    "atmsAcrossIndia": "पूरे भारत में ATM",
+    "atmsAcrossIndia": "पूरे भारत में एटीएम",
     "andCounting": "और बढ़ रहे हैं..."
   },
   "whyAtm": {
@@ -381,7 +382,11 @@
       "partners": "सक्रिय भागीदार",
       "uptime": "अपटाइम गारंटी",
       "experience": "उद्योग के अनुभव",
-      "support": "ग्राहक सहेयता"
+      "support": "ग्राहक सहेयता",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ वर्ष",
+      "supportValue": "24/7"
     },
     "partners": "सक्रिय भागीदार",
     "uptime": "अपटाइम गारंटी",
@@ -408,31 +413,31 @@
       },
       "penetration": {
         "value": "15",
-        "suffix": " Per Lac",
+        "suffix": " प्रति लाख",
         "label": "एटीएम प्रवेश",
         "description": "प्रति 1 लाख लोगों पर केवल 15 एटीएम - भारत में एटीएम प्रवेश बहुत कम है"
       },
       "cash": {
         "value": "75",
-        "suffix": "% Cash",
+        "suffix": "% नकद",
         "label": "नकद परिसंचरण",
         "description": "भारतीय अर्थव्यवस्था अभी भी मुख्य रूप से नकद आधारित है"
       },
       "potential": {
         "value": "90",
-        "suffix": "% Potential",
+        "suffix": "% संभावना",
         "label": "बाजार अवसर",
         "description": "90% बैंक ऑफसाइट एटीएम बंद हो रहे हैं - बैंक ऑफसाइट एटीएम बंद होने से एटीएम के लिए बड़ा बाजार बनता है"
       }
     }
   },
   "whyChoose": {
-    "badge": "Our फायदा",
+    "badge": "हमारे फायदे",
     "title": "क्यों चुनें",
     "titleHighlight": "एटीएम फ्रैंचाइज़ी भारत?",
     "subtitle": "हमारी व्यापक सहायता प्रणाली और उद्योग विशेषज्ञता के साथ अंतर का अनुभव करें",
     "cta": {
-      "partners": "Join 500+ successful franchise partners"
+      "partners": "500+ सफल फ्रैंचाइज़ी भागीदारों से जुड़ें"
     },
     "features": {
       "trusted": {
@@ -440,8 +445,8 @@
         "description": "एटीएम उद्योग में सटीक और सत्यापित जानकारी प्राप्त करें। एक विनियमित क्षेत्र के रूप में, एटीएम व्यवसाय में अक्सर व्यापक गलत जानकारी फैलती है। हमारे प्रतिनिधि सुनिश्चित करते हैं कि आपको भरोसेमंद, तथ्य-आधारित मार्गदर्शन मिले ताकि आप सूचित फ्रैंचाइज़ी निर्णय ले सकें।"
       },
       "guidance": {
-        "title": "विशेषज्ञ मार्गदर्शन on WLA Operators",
-        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
+        "title": "WLA ऑपरेटरों पर विशेषज्ञ मार्गदर्शन",
+        "description": "हम आपको सही व्हाइट लेबल एटीएम पार्टनर चुनने में मदद करें। कई ऑपरेटर अपनी पेशकशों को बढ़ा-चढ़ाकर पेश करते हैं और निवेशकों को गुमराह करते हैं। हम सभी प्रमुख WLA ऑपरेटरों की निष्पक्ष तुलना प्रदान करते हैं - उनकी ताकत और कमजोरियों को उजागर करते हैं - यह सुनिश्चित करने के लिए कि आप अपने व्यवसाय के लिए सही फिट पाएं।"
       },
       "digital": {
         "title": "अपनी डिजिटल उपस्थिति बढ़ाएं",

@@ -79,7 +79,7 @@ const StickyHeader = () => {
         <Link to="/" className="flex items-center space-x-3">
           <img 
             src="https://via.placeholder.com/150x50/ffffff/333333?text=ATM+Franchise" 
-            alt="ATM Franchise India Logo" 
+            alt={t('components.stickyheader.logoAlt', 'ATM Franchise India Logo')} 
             className={`object-contain transition-all duration-300 ${
               isScrolled ? 'h-10' : 'h-14'
             }`}
@@ -157,7 +157,7 @@ const StickyHeader = () => {
               <Button variant="outline" size="sm" asChild>
                 <Link to="/admin-export">
                   <Shield className="w-4 h-4 mr-1" />
-                  Export
+                  {t('components.stickyheader.export', 'Export')}
                 </Link>
               </Button>
               <Button variant="outline" size="sm" asChild>
@@ -192,7 +192,7 @@ const StickyHeader = () => {
             size="sm"
             onClick={() => setIsSearchOpen(true)}
             className="text-foreground hover:text-primary ml-2"
-            aria-label="Search"
+            aria-label={t('components.stickyheader.searchAriaLabel', 'Search')}
           >
             <Search className="h-4 w-4" />
           </Button>
@@ -202,7 +202,7 @@ const StickyHeader = () => {
         <button
           className="md:hidden p-2 min-h-[44px] min-w-[44px] flex items-center justify-center"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle menu"
+          aria-label={t('components.stickyheader.toggleMenuAriaLabel', 'Toggle menu')}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>

@@ -321,6 +321,7 @@ export const ImageGallery = ({
   gap = 4,
   lightbox = true,
 }: ImageGalleryProps) => {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const handleKeyDown = (e: KeyboardEvent) => {
@@ -386,7 +387,7 @@ export const ImageGallery = ({
           <button
             className="absolute top-4 right-4 text-white p-2 hover:bg-white/20 rounded-lg transition-colors"
             onClick={() => setSelectedImage(null)}
-            aria-label="Close lightbox"
+            aria-label={t('components.optimizedImage.closeLightbox', 'Close lightbox')}
           >
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

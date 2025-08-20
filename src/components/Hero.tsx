@@ -201,7 +201,7 @@ export const ValuePropsStrip = () => {
                 <span className="bg-white/20 px-3 py-1 rounded-full">• {t('valueProps.bullets.bankClosures', 'Bank Branch Closures')}</span>
               </div>
               <p className="text-lg font-semibold text-yellow-300 mt-4">
-                Investment Range: ₹2-5 Lakhs
+                {t('hero.investmentRange', 'Investment Range: ₹2-5 Lakhs')}
               </p>
             </div>
           </div>

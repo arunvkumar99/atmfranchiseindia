@@ -321,7 +321,7 @@ export const FileUpload: React.FC<FileUploadProps> = ({
                 <div className="mt-lg">
                   <img
                     src={preview}
-                    alt="Preview"
+                    alt={t('ui.fileUpload.preview', 'Preview')}
                     className="max-w-full h-auto max-h-48 rounded-lg border mx-auto"
                   />
                 </div>

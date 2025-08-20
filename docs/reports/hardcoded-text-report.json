@@ -1,0 +1,292 @@
+{
+  "timestamp": "2025-08-20T18:15:16.683Z",
+  "statistics": {
+    "totalFiles": 151,
+    "filesUsingTranslation": 147,
+    "filesWithHardcoded": 36,
+    "totalHardcoded": 63,
+    "totalTCalls": 1645,
+    "coveragePercent": 96
+  },
+  "filesToFix": [
+    {
+      "file": "src\\components\\TranslationValidator.tsx",
+      "hardcoded": 7,
+      "samples": [
+        "Current Language:",
+        "Loaded Namespaces:",
+        "Missing Keys:",
+        "Quick Test:",
+        "nav.home:",
+        "hero.title:",
+        "whyAtm.title:"
+      ]
+    },
+    {
+      "file": "src\\components\\TranslationDebug.tsx",
+      "hardcoded": 6,
+      "samples": [
+        "Current Language:",
+        "Resources Loaded:",
+        "Loaded Namespaces:",
+        "Test Translation:",
+        "Backend Connected:",
+        "Test Languages:"
+      ]
+    },
+    {
+      "file": "src\\components\\ProgressiveFormWrapper.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "Promise",
+        "Next",
+        "Previous"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\FiveStepGuideATMBusiness.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "7 min read",
+        "Golden Rule:",
+        "15-20 min"
+      ]
+    },
+    {
+      "file": "src\\SimpleApp.tsx",
+      "hardcoded": 3,
+      "samples": [
+        "React App is Working!",
+        "If you can see this, React is rendering correctly.",
+        "Debug Info:"
+      ]
+    },
+    {
+      "file": "src\\components\\AccessibilityEnhancements.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "(opens in new tab)",
+        "required"
+      ]
+    },
+    {
+      "file": "src\\components\\AgentFormSinglePage.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Document Uploads *",
+        "Continue"
+      ]
+    },
+    {
+      "file": "src\\components\\EnhancedFormWrapper.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Promise",
+        "Submitting your form..."
+      ]
+    },
+    {
+      "file": "src\\components\\EnquiryFormSinglePage.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Additional Comments (Optional)",
+        "Continue"
+      ]
+    },
+    {
+      "file": "src\\components\\SocialProofElements.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "4.8★",
+        "• RBI Licensed • ISO Certified"
+      ]
+    },
+    {
+      "file": "src\\components\\StickyHeader.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Search",
+        "Export"
+      ]
+    },
+    {
+      "file": "src\\components\\SubmitLocationSinglePage.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Optional",
+        "Continue"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\file-upload.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Choose how you'd like to add your file",
+        "Browse gallery/files"
+      ]
+    },
+    {
+      "file": "src\\main-test.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "React is Working!",
+        "If you can see this, the app is rendering."
+      ]
+    },
+    {
+      "file": "src\\TestApp.tsx",
+      "hardcoded": 2,
+      "samples": [
+        "Test App - React is Working!",
+        "If you can see this message, React is mounting correctly."
+      ]
+    },
+    {
+      "file": "src\\components\\BecomefranchiseHero.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Apply"
+      ]
+    },
+    {
+      "file": "src\\components\\ErrorBoundary.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "If this problem persists, please contact support"
+      ]
+    },
+    {
+      "file": "src\\components\\FixedLanguageRouter.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Loading language..."
+      ]
+    },
+    {
+      "file": "src\\components\\FormProgress.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Saving..."
+      ]
+    },
+    {
+      "file": "src\\components\\FormSuccessModal.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Need immediate assistance?"
+      ]
+    },
+    {
+      "file": "src\\components\\Header.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Search"
+      ]
+    },
+    {
+      "file": "src\\components\\InfluencerFormSinglePage.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Continue"
+      ]
+    },
+    {
+      "file": "src\\components\\JobApplicationSinglePage.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Continue"
+      ]
+    },
+    {
+      "file": "src\\components\\LazyLoadingWrapper.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Failed to load this page"
+      ]
+    },
+    {
+      "file": "src\\components\\LoadingStates.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Loading"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\alert.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "& VariantProps"
+      ]
+    },
+    {
+      "file": "src\\components\\ui\\form.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "= FieldPath"
+      ]
+    },
+    {
+      "file": "src\\components\\UnifiedForm.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Promise"
+      ]
+    },
+    {
+      "file": "src\\main.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Loading translations..."
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\PassiveIncomeFinancialFreedom.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "4 min read"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\PerfectTimeSideHustle2025.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "5 min read"
+      ]
+    },
+    {
+      "file": "src\\pages\\blog\\TruthAboutPassiveIncomeIdeas.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "6 min read"
+      ]
+    },
+    {
+      "file": "src\\pages\\ContactUs.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "24hr"
+      ]
+    },
+    {
+      "file": "src\\pages\\OurProducts.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "Success"
+      ]
+    },
+    {
+      "file": "src\\pages\\SubmitLocation.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "24hrs"
+      ]
+    },
+    {
+      "file": "src\\test\\utils.tsx",
+      "hardcoded": 1,
+      "samples": [
+        "(data: T, overrides?: Partial"
+      ]
+    }
+  ]
+}

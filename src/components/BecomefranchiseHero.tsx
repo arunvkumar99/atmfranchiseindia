@@ -10,46 +10,46 @@ const BecomefranchiseHero = () => {
   const benefits = [
     {
       icon: TrendingUp,
-      title: "Quick ROI",
-      description: "Fast return on investment with proven business model"
+      title: t('hero.benefits.quickRoi.title', 'Quick ROI'),
+      description: t('hero.benefits.quickRoi.description', 'Fast return on investment with proven business model')
     },
     {
       icon: Shield,
-      title: "Dedicated Support",
-      description: "24/7 technical and business support from our expert team"
+      title: t('hero.benefits.support.title', 'Dedicated Support'),
+      description: t('hero.benefits.support.description', '24/7 technical and business support from our expert team')
     },
     {
       icon: Users,
-      title: "Proven Network",
-      description: "Join 500+ successful franchise partners across India"
+      title: t('hero.benefits.network.title', 'Proven Network'),
+      description: t('hero.benefits.network.description', 'Join 500+ successful franchise partners across India')
     },
     {
       icon: Headphones,
-      title: "Training Included", 
-      description: "Comprehensive training and ongoing support provided"
+      title: t('hero.benefits.training.title', 'Training Included'),
+      description: t('hero.benefits.training.description', 'Comprehensive training and ongoing support provided')
     }
   ];
 
   const processSteps = [
     {
       number: 1,
-      title: "Apply",
-      description: "Submit your franchise application online"
+      title: t('hero.process.steps.apply.title', 'Apply'),
+      description: t('hero.process.steps.apply.description', 'Submit your franchise application online')
     },
     {
       number: 2,
-      title: "Agreement",
-      description: "Complete documentation and sign agreement"
+      title: t('hero.process.steps.agreement.title', 'Agreement'),
+      description: t('hero.process.steps.agreement.description', 'Complete documentation and sign agreement')
     },
     {
       number: 3,
-      title: "Installation",
-      description: "We handle ATM setup and installation"
+      title: t('hero.process.steps.installation.title', 'Installation'),
+      description: t('hero.process.steps.installation.description', 'We handle ATM setup and installation')
     },
     {
       number: 4,
-      title: "Start Earning",
-      description: "Begin receiving monthly passive income"
+      title: t('hero.process.steps.earn.title', 'Start Earning'),
+      description: t('hero.process.steps.earn.description', 'Begin receiving monthly passive income')
     }
   ];
 
@@ -92,9 +92,9 @@ const BecomefranchiseHero = () => {
               
               {/* Description */}
               <p className="text-xl md:text-2xl mb-3xl text-primary-foreground/80 leading-relaxed">
-                Join <span className="text-primary font-semibold">{t('jsx-text_200_successful_partners')}</span> and start your 
-                <span className="text-accent font-semibold">{t('jsx-text_profitable_atm_business')}</span> today with 
-                <span className="text-info font-semibold">{t('jsx-text_minimal_investment')}</span>.
+                {t('hero.description.part1', 'Join')} <span className="text-primary font-semibold">{t('hero.description.successfulPartners', '200+ successful partners')}</span> {t('hero.description.part2', 'and start your')} 
+                <span className="text-accent font-semibold"> {t('hero.description.profitableBusiness', 'profitable ATM business')}</span> {t('hero.description.part3', 'today with')} 
+                <span className="text-info font-semibold"> {t('hero.description.minimalInvestment', 'minimal investment')}</span>.
               </p>
               
               {/* CTA Button */}
@@ -109,7 +109,7 @@ const BecomefranchiseHero = () => {
                     }
                   }}
                 >
-                  Apply Now
+                  {t('hero.applyNow', 'Apply Now')}
                 </Button>
               </div>
               

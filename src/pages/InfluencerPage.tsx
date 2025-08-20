@@ -8,7 +8,7 @@ import { SocialProofElements } from "@/components/SocialProofElements";
 import { useTranslation } from 'react-i18next';
 
 const InfluencerPage = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('influencer');
   return (
     <div className="min-h-screen pt-14">
       <div className="container mx-auto px-4 py-6 max-w-6xl">
@@ -18,17 +18,16 @@ const InfluencerPage = () => {
             Join the <span className="text-primary font-bold">{t('content.sahasra_network_influencer_pro', 'Sahasra Network Influencer Program')}</span>
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto mb-6">
-            Partner with India's leading ATM franchise network and earn attractive commissions while helping 
-            entrepreneurs discover financial independence through our proven business model.
+            {t('content.partner_description', "Partner with India's leading ATM franchise network and earn attractive commissions while helping entrepreneurs discover financial independence through our proven business model.")}
           </p>
           <div className="flex items-center justify-center gap-2 sm:gap-4 mb-6 flex-wrap">
             <Badge variant="secondary" className="bg-gradient-success text-secondary-foreground">
               <Users className="w-4 h-4 mr-1" />
-              Growing Influencer Network
+              {t('badges.growing_network', 'Growing Influencer Network')}
             </Badge>
             <Badge variant="secondary" className="bg-gradient-success text-secondary-foreground">
               <Award className="w-4 h-4 mr-1" />
-              Trusted Brand Partner
+              {t('badges.trusted_partner', 'Trusted Brand Partner')}
             </Badge>
           </div>
         </div>

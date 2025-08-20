@@ -1,8 +1,101 @@
 {
+  "content": {
+    "join_as": "इस रूप में जुड़ें",
+    "agent": "एजेंट",
+    "influencer": "इन्फ्लुएंसर",
+    "employee": "कर्मचारी",
+    "no_limit": "कोई सीमा नहीं",
+    "commission_earning": "कमीशन कमाई",
+    "flexible": "लचीला",
+    "work_schedule": "कार्य शेड्यूल",
+    "view_detailed_agent_program_ap": "विस्तृत एजेंट कार्यक्रम देखें और आवेदन करें",
+    "unlimited": "असीमित",
+    "commissions": "कमीशन",
+    "zero": "शून्य",
+    "joining_fee": "शामिल होने की फीस",
+    "view_detailed_influencer_progr": "विस्तृत इन्फ्लुएंसर कार्यक्रम देखें और आवेदन करें",
+    "target_build_1000_atms": "लक्ष्य: 1,000+ एटीएम बनाएं",
+    "any_size": "कोई भी आकार",
+    "audience_welcome": "दर्शक स्वागत",
+    "national": "राष्ट्रीय",
+    "project_reach": "परियोजना पहुंच",
+    "call_us": "हमें कॉल करें",
+    "speak_with_our_experts": "हमारे विशेषज्ञों से बात करें",
+    "email_us": "हमें ईमेल करें",
+    "send_us_your_queries": "अपने प्रश्न भेजें",
+    "visit_us": "हमसे मिलें",
+    "corporate_office": "कॉर्पोरेट कार्यालय",
+    "kochi_kerala": "कोच्चि, केरल",
+    "position": "पद",
+    "experience": "अनुभव",
+    "location": "स्थान",
+    "skills": "कौशल"
+  },
+  "joinUs": {
+    "placeholders": {
+      "locationOwnership": "क्या आप स्थान के मालिक हैं?",
+      "expectedFootfall": "अपेक्षित दैनिक आगंतुक",
+      "nearbyBanks": "5 किमी के भीतर बैंकों के नाम"
+    },
+    "options": {
+      "locationOwnership": {
+        "owned": "मैं स्थान का मालिक हूं",
+        "canArrange": "मैं स्थान की व्यवस्था कर सकता हूं"
+      },
+      "footfall": {
+        "50-100": "50-100 लोग",
+        "100-200": "100-200 लोग",
+        "200-500": "200-500 लोग",
+        "500+": "500+ लोग"
+      }
+    }
+  },
   "labels": {
     "fullName": "पूरा नाम",
     "email": "ईमेल पता",
-    "phone": "फोन नंबर"
+    "phone": "फोन नंबर",
+    "firstName": "पहला नाम",
+    "lastName": "अंतिम नाम",
+    "alternatePhone": "वैकल्पिक फोन",
+    "message": "संदेश",
+    "address": "पता",
+    "city": "शहर",
+    "state": "राज्य",
+    "pincode": "पिन कोड",
+    "country": "देश",
+    "investment": "निवेश राशि",
+    "experience": "व्यावसायिक अनुभव",
+    "location": "प्रस्तावित स्थान",
+    "nearbyBusiness": "आस-पास के व्यवसाय",
+    "footfall": "दैनिक फुटफॉल",
+    "locationType": "स्थान का प्रकार",
+    "landmark": "निकटतम लैंडमार्क",
+    "businessType": "व्यवसाय का प्रकार",
+    "currentOccupation": "वर्तमान व्यवसाय",
+    "preferredLocation": "पसंदीदा स्थान",
+    "howDidYouHear": "आपने हमारे बारे में कैसे सुना?",
+    "whatsapp": "व्हाट्सएप नंबर",
+    "agentCode": "एजेंट कोड",
+    "district": "जिला",
+    "locationName": "स्थान का नाम",
+    "googleMapLink": "गूगल मैप्स लिंक",
+    "buildingPhoto": "भवन की फोटो",
+    "roomPhoto": "कमरे/स्थान की फोटो",
+    "optional": "वैकल्पिक",
+    "additionalNotes": "अतिरिक्त टिप्पणियाँ",
+    "dateOfBirthPan": "पैन कार्ड के अनुसार जन्म तिथि",
+    "aadhaarNumber": "आधार कार्ड नंबर (12 अंक)",
+    "districtOfResidence": "निवास का जिला",
+    "permanentAddress": "स्थायी पता",
+    "currentAddress": "वर्तमान पता",
+    "professionalDetails": "व्यावसायिक विवरण और दस्तावेज़",
+    "joiningAs": "आप किस रूप में जुड़ रहे हैं (कृपया नीचे से चुनें):",
+    "whyJoinAgent": "आप सहस्र नेटवर्क में एजेंट के रूप में क्यों शामिल होना चाहते हैं",
+    "languagesYouSpeak": "आप कौन सी भाषाएं बोल सकते हैं",
+    "panDocumentUpload": "पैन दस्तावेज़ अपलोड",
+    "passportPhoto": "पासपोर्ट साइज फोटो",
+    "aadhaarFront": "आधार कार्ड आगे की तरफ",
+    "aadhaarBack": "आधार कार्ड पीछे की तरफ"
   },
   "fields": {
     "fullName": "पूरा नाम",
@@ -35,37 +128,64 @@
     "newsletter": "समाचार पत्रिका के लिए सदस्यता लें",
     "captcha": "कैप्चा दर्ज करें"
   },
+  "captcha": {
+    "title": "सुरक्षा सत्यापन",
+    "answer": "उत्तर",
+    "verified": "सत्यापित",
+    "required": "सुरक्षा सत्यापन आवश्यक है"
+  },
   "placeholders": {
-    "fullName": "अपना पूरा नाम भरें",
-    "email": "अपना ईमेल पता दर्ज करें",
-    "phone": "10-अंकीय मोबाइल नंबर",
-    "message": "यहाँ अपना संदेश टाइप करें...",
-    "city": "शहर दर्ज करें",
+    "fullName": "अपना पूरा नाम दर्ज करें",
+    "email": "your.email@example.com",
+    "phone": "98765 43210",
+    "message": "अपना संदेश यहाँ लिखें...",
+    "city": "शहर का नाम",
     "state": "अपना राज्य चुनें",
     "searchCity": "शहर खोजें...",
     "selectOption": "कोई विकल्प चुनें",
     "uploadFile": "फ़ाइल चुनें या यहाँ खींचें",
-    "pincode": "6-अंकीय पिनकोड",
+    "pincode": "6 अंकों का पिन कोड",
+    "bankName": "बैंक का नाम",
+    "panFormat": "ABCDE1234F",
+    "gstNumber": "जीएसटी पंजीकरण संख्या",
     "full_name": "अपना पूरा नाम दर्ज करें",
     "full_name_pan": "पैन कार्ड के अनुसार अपना पूरा नाम दर्ज करें",
     "phone_primary": "प्राथमिक संपर्क नंबर",
     "whatsapp": "व्हाट्सएप नंबर",
     "pan": "ABCDE1234F",
     "aadhaar": "123456789012 (केवल 12 अंक)",
-    "address": "पूरा पता दर्ज करें",
+    "address": "अपना पूरा पता दर्ज करें",
     "address_line1": "मकान/भवन संख्या, सड़क का नाम",
     "address_line2": "क्षेत्र, लैंडमार्क",
     "your_city": "आपका शहर",
     "district": "अपना जिला दर्ज करें",
-    "business_type": "व्यवसाय प्रकार चुनें"
+    "business_type": "व्यवसाय प्रकार चुनें",
+    "firstName": "पहला नाम",
+    "lastName": "अंतिम नाम",
+    "investment": "निवेश राशि चुनें",
+    "location": "प्रस्तावित एटीएम स्थान",
+    "nearbyBusiness": "आस-पास के प्रमुख व्यवसाय",
+    "footfall": "अनुमानित दैनिक फुटफॉल",
+    "agentCode": "एजेंट द्वारा दिया गया कोड दर्ज करें",
+    "locationName": "आप इस स्थान को क्या कहते हैं?",
+    "googleMapLink": "https://maps.google.com/...",
+    "additionalInfo": "स्थान, फुट ट्रैफिक, पहुंच आदि के बारे में कोई अतिरिक्त जानकारी",
+    "enterYourDistrict": "अपना जिला दर्ज करें",
+    "enterYourPermanentAddress": "अपना स्थायी पता दर्ज करें",
+    "enterYourCurrentAddress": "अपना वर्तमान पता दर्ज करें",
+    "motivationAndGoals": "एजेंट के रूप में अपनी प्रेरणा और लक्ष्यों के बारे में बताएं"
   },
   "validation": {
-    "required": "{{field}} आवश्यक है",
+    "required": "यह फ़ील्ड आवश्यक है",
+    "validName": "मान्य नाम",
+    "validEmail": "मान्य ईमेल",
+    "validPhone": "मान्य फोन नंबर",
+    "characters": "अक्षर",
     "emailInvalid": "कृपया एक मान्य ईमेल पता प्रविष्ट करें",
     "phoneInvalid": "कृपया एक मान्य 10-अंकीय फ़ोन नंबर दर्ज करें",
     "pincodeInvalid": "कृपया एक मान्य 6-अंकीय पिन कोड दर्ज करें",
-    "minLength": "{{field}} कम से कम {{min}} वर्ण का होना चाहिए",
-    "maxLength": "{{field}} {{max}} वर्णों से अधिक नहीं होना चाहिए",
+    "minLength": "न्यूनतम {{min}} अक्षर आवश्यक हैं",
+    "maxLength": "अधिकतम {{max}} अक्षर अनुमत हैं",
     "numberOnly": "कृपया केवल संख्याएं दर्ज करें",
     "lettersOnly": "कृपया केवल अक्षर दर्ज करें",
     "fileSize": "फ़ाइल का आकार {{size}}MB से कम होना चाहिए",
@@ -82,7 +202,10 @@
     "file_size": "फ़ाइल का आकार {{size}}MB से कम होना चाहिए",
     "file_type": "केवल {{types}} फ़ाइलें अनुमत हैं",
     "security_required": "कृपया जमा करने से पहले सुरक्षा सत्यापन पूरा करें",
-    "try_again": "कृपया पुनः प्रयास करें या सीधे हमसे संपर्क करें"
+    "try_again": "कृपया पुनः प्रयास करें या सीधे हमसे संपर्क करें",
+    "invalidEmail": "कृपया एक मान्य ईमेल पता दर्ज करें",
+    "invalidPhone": "कृपया एक मान्य फोन नंबर दर्ज करें",
+    "invalidPincode": "कृपया 6 अंकों का वैध पिन कोड दर्ज करें"
   },
   "options": {
     "occupation": {
@@ -104,7 +227,11 @@
       "10_to_25": "₹10-25 लाख",
       "15_to_25": "₹15-25 लाख",
       "above_5": "₹5+ लाख",
-      "above_25": "₹25 लाख से अधिक"
+      "above_25": "₹25 लाख से अधिक",
+      "2to3": "₹2-3 लाख",
+      "3to4": "₹3-4 लाख",
+      "4to5": "₹4-5 लाख",
+      "above5": "₹5 लाख से अधिक"
     },
     "hearAbout": {
       "google": "गूगल खोज",
@@ -126,6 +253,13 @@
       "male": "पुरुष",
       "female": "महिला",
       "other": "अन्य"
+    },
+    "locationType": {
+      "market": "बाज़ार क्षेत्र",
+      "residential": "आवासीय क्षेत्र",
+      "commercial": "व्यावसायिक क्षेत्र",
+      "highway": "राजमार्ग",
+      "rural": "ग्रामीण क्षेत्र"
     }
   },
   "locationForm": {
@@ -164,253 +298,37 @@
     "success": "संदेश सफलतापूर्वक भेजा गया!",
     "error": "संदेश भेजने में त्रुटि हुई. कृपया पुनः प्रयास करें."
   },
-  "joinUs": {
-    "title": {
-      "main": "जुड़ें",
-      "highlight": "एटीएम फ्रैंचाइज़ी",
-      "revolution": "क्रांति"
-    },
-    "subtitle": "एटीएम फ्रैंचाइज़ी भारत के साथ सफलता का अपना मार्ग चुनें",
-    "form": {
-      "title": "एटीएम फ्रैंचाइज़ी आवेदन फॉर्म",
-      "instruction": "कृपया सटीक जानकारी प्रदान करें। * चिह्नित सभी फील्ड अनिवार्य हैं।",
-      "submitMessage": "हमारी टीम 24-48 घंटे के भीतर आपके आवेदन की समीक्षा करेगी और अगले चरणों के साथ आपसे संपर्क करेगी।"
-    },
-    "sections": {
-      "personal": "व्यक्तिगत जानकारी",
-      "address": "पता जानकारी",
-      "business": "व्यवसाय जानकारी",
-      "franchise": "एटीएम फ्रैंचाइज़ी विवरण",
-      "financial": "वित्तीय जानकारी",
-      "additional": "अतिरिक्त जानकारी"
-    },
-    "labels": {
-      "firstName": "पहला नाम *",
-      "lastName": "अंतिम नाम *",
-      "email": "ईमेल पता *",
-      "phone": "फोन नंबर *",
-      "alternatePhone": "वैकल्पिक फोन",
-      "dateOfBirth": "जन्म तिथि *",
-      "addressLine1": "पता पंक्ति 1 *",
-      "addressLine2": "पता पंक्ति 2",
-      "city": "शहर *",
-      "state": "राज्य *",
-      "pincode": "पिन कोड *",
-      "businessType": "व्यवसाय प्रकार *",
-      "businessExperience": "व्यवसाय अनुभव *",
-      "currentOccupation": "वर्तमान व्यवसाय *",
-      "annualIncome": "वार्षिक आय सीमा *",
-      "investmentCapacity": "निवेश क्षमता *",
-      "preferredLocation": "पसंदीदा एटीएम स्थान *",
-      "locationOwnership": "स्थान स्वामित्व *",
-      "expectedFootfall": "अपेक्षित दैनिक फुटफॉल",
-      "nearbyBanks": "निकटतम बैंक",
-      "competitorATMs": "प्रतियोगी एटीएम",
-      "primaryBank": "प्राथमिक बैंक *",
-      "accountType": "खाता प्रकार *",
-      "panCard": "पैन कार्ड नंबर *",
-      "gstNumber": "जीएसटी नंबर (यदि लागू हो)",
-      "referenceSource": "आपने हमारे बारे में कैसे सुना? *",
-      "previousFranchise": "पिछला फ्रैंचाइज़ी अनुभव",
-      "timelineToStart": "शुरू करने की समयसीमा *",
-      "additionalComments": "अतिरिक्त टिप्पणियां/प्रश्न"
-    },
-    "placeholders": {
-      "firstName": "पहला नाम दर्ज करें",
-      "lastName": "अंतिम नाम दर्ज करें",
-      "email": "आपका.ईमेल@उदाहरण.com",
-      "phone": "+91 98765 43210",
-      "addressLine1": "मकान/भवन संख्या, सड़क का नाम",
-      "addressLine2": "क्षेत्र, लैंडमार्क",
-      "city": "शहर दर्ज करें",
-      "state": "राज्य चुनें",
-      "pincode": "6-अंकीय पिन कोड दर्ज करें",
-      "businessType": "व्यवसाय प्रकार चुनें",
-      "experienceYears": "अनुभव के वर्ष",
-      "currentOccupation": "जैसे, दुकान मालिक, किसान, कर्मचारी",
-      "annualIncome": "आय सीमा चुनें",
-      "investmentCapacity": "निवेश सीमा चुनें",
-      "preferredLocation": "क्षेत्र/गांव जहां आप एटीएम चाहते हैं",
-      "locationOwnership": "क्या आपके पास स्थान है?",
-      "expectedFootfall": "अपेक्षित दैनिक आगंतुक",
-      "nearbyBanks": "5 किमी के भीतर बैंकों के नाम",
-      "competitorATMs": "2 किमी के दायरे में एटीएम की संख्या",
-      "bankName": "बैंक का नाम",
-      "accountType": "खाता प्रकार चुनें",
-      "panCard": "ABCDE1234F",
-      "gstNumber": "जीएसटी पंजीकरण नंबर",
-      "referenceSource": "स्रोत चुनें",
-      "previousFranchise": "कोई पिछला फ्रैंचाइज़ी?",
-      "timelineToStart": "आप कब शुरू कर सकते हैं?",
-      "additionalComments": "कोई विशिष्ट प्रश्न या अतिरिक्त जानकारी जो आप साझा करना चाहेंगे..."
-    },
-    "states": {
-      "andhra-pradesh": "आंध्र प्रदेश",
-      "bihar": "बिहार",
-      "gujarat": "गुजरात",
-      "haryana": "हरियाणा",
-      "karnataka": "कर्नाटक",
-      "kerala": "केरल",
-      "madhya-pradesh": "मध्य प्रदेश",
-      "maharashtra": "महाराष्ट्र",
-      "odisha": "ओडिशा",
-      "punjab": "पंजाब",
-      "rajasthan": "राजस्थान",
-      "tamil-nadu": "तमिल नाडु",
-      "telangana": "तेलंगाना",
-      "uttar-pradesh": "उत्तर प्रदेश",
-      "west-bengal": "पश्चिम बंगाल"
-    },
-    "businessTypes": {
-      "individual": "व्यक्तिगत",
-      "proprietorship": "एकल स्वामित्व",
-      "partnership": "साझेदारी",
-      "private-limited": "प्राइवेट लिमिटेड",
-      "llp": "एलएलपी"
-    },
-    "experienceRanges": {
-      "0-1": "0-1 वर्ष",
-      "2-5": "2-5 वर्ष",
-      "6-10": "6-10 वर्ष",
-      "11-15": "11-15 वर्ष",
-      "15+": "15+ वर्ष"
-    },
-    "incomeRanges": {
-      "below-2l": "₹2 लाख से कम",
-      "2l-5l": "₹2-5 लाख",
-      "5l-10l": "₹5-10 लाख",
-      "10l-25l": "₹10-25 लाख",
-      "25l+": "₹25+ लाख"
-    },
-    "investmentRanges": {
-      "2-3l": "₹2-3 लाख",
-      "3-4l": "₹3-4 लाख",
-      "4-5l": "₹4-5 लाख",
-      "5l+": "₹5+ लाख"
-    },
-    "locationOwnershipOptions": {
-      "owned": "मेरे पास स्थान है",
-      "can-arrange": "मैं स्थान की व्यवस्था कर सकता हूँ",
-      "need-help": "स्थान खोजने में मदद चाहिए"
-    },
-    "footfallRanges": {
-      "50-100": "50-100 लोग",
-      "100-200": "100-200 लोग",
-      "200-500": "200-500 लोग",
-      "500+": "500+ लोग"
-    },
-    "accountTypes": {
-      "savings": "बचत खाता",
-      "current": "चालू खाता",
-      "cc-od": "सीसी/ओडी खाता"
-    },
-    "referenceSources": {
-      "website": "वेबसाइट",
-      "social-media": "सोशल मीडिया",
-      "friend-referral": "मित्र/परिवार रेफरल",
-      "newspaper": "समाचार पत्र/पत्रिका",
-      "search-engine": "खोज इंजन",
-      "other": "अन्य"
-    },
-    "franchiseExperience": {
-      "yes-successful": "हां, सफल अनुभव",
-      "yes-challenges": "हां, चुनौतियों का सामना किया",
-      "no": "नहीं पिछला अनुभव"
-    },
-    "timelines": {
-      "immediate": "तुरंत",
-      "1-month": "1 महीने के भीतर",
-      "2-3-months": "2-3 महीने",
-      "3-6-months": "3-6 महीने",
-      "6-months+": "6+ महीने"
-    },
-    "terms": {
-      "agreeText": "मैं इससे सहमत हूं",
-      "termsLink": "नियम और शर्तें",
-      "disclaimer": "और पुष्टि करता हूं कि प्रदान की गई सभी जानकारी सटीक और पूर्ण है। मैं समझता हूं कि गलत जानकारी प्रदान करने से आवेदन अस्वीकार हो सकता है।",
-      "marketingConsent": "मैं एटीएम फ्रैंचाइज़ी अवसरों के बारे में मार्केटिंग संचार और अपडेट प्राप्त करने के लिए सहमत हूं।"
-    },
-    "sidebar": {
-      "successStory": {
-        "title": "500+ सफल फ्रैंचाइज़ी से जुड़ें",
-        "testimonial": "मेरी एटीएम फ्रैंचाइज़ी शुरू करना मेरा सबसे अच्छा व्यावसायिक निर्णय था। सहायता टीम ने मुझे हर कदम पर मार्गदर्शन दिया, और अब मैं अपने समुदाय की सेवा करते हुए स्थिर निष्क्रिय आय अर्जित करता हूं।",
-        "name": "राजेश कुमार",
-        "designation": "एटीएम फ्रैंचाइज़ी मालिक, बिहार"
-      },
-      "process": {
-        "title": "आवेदन प्रक्रिया",
-        "steps": [
-          "विस्तृत आवेदन जमा करें",
-          "प्रारंभिक स्क्रीनिंग और सत्यापन",
-          "व्यक्तिगत साक्षात्कार और साइट भ्रमण",
-          "अनुमोदन और अनुबंध पर हस्ताक्षर",
-          "सेटअप, प्रशिक्षण और लॉन्च"
-        ]
-      },
-      "help": {
-        "title": "मदद चाहिए?",
-        "callUs": "हमें कॉल करें",
-        "emailUs": "हमें ईमेल करें",
-        "phone": "+91 7003554455",
-        "email": "contact@atmfranchiseindia.in"
-      }
-    },
-    "benefits": {
-      "roi": {
-        "title": "उच्च रिटर्न संभावना",
-        "description": "पारदर्शी राजस्व साझाकरण के साथ निवेश पर 50% तक रिटर्न अर्जित करें"
-      },
-      "competition": {
-        "title": "कम प्रतिस्पर्धा",
-        "description": "प्रति 1 लाख लोगों पर केवल 15 एटीएम - विशाल बाज़ार अवसर"
-      },
-      "support": {
-        "title": "पूर्ण सहायता",
-        "description": "सेटअप से संचालन तक एंड-टू-एंड सहायता"
-      },
-      "track": {
-        "title": "सिद्ध ट्रैक रिकॉर्ड",
-        "description": "भारत भर में 500+ सफल फ्रैंचाइज़ी से जुड़ें"
-      }
-    },
-    "opportunities": {
-      "agent": {
-        "title": "एजेंट के रूप में जुड़ें",
-        "description": "फील्ड सेल्स एजेंट बनें और कमीशन अर्जित करें"
-      },
-      "franchise": {
-        "title": "फ्रैंचाइज़ी के रूप में जुड़ें",
-        "description": "अपना खुद का एटीएम व्यवसाय शुरू करें"
-      },
-      "employee": {
-        "title": "कर्मचारी के रूप में जुड़ें",
-        "description": "पूर्णकालिक पदों के साथ अपना करियर बनाएं"
-      }
-    },
-    "buttons": {
-      "submit": "आवेदन जमा करें"
-    },
-    "toast": {
-      "termsRequired": {
-        "title": "नियम और शर्तें आवश्यक",
-        "description": "कृपया आगे बढ़ने के लिए नियम और शर्तों से सहमत हों।"
-      },
-      "success": {
-        "title": "आवेदन सफलतापूर्वक जमा हुआ!",
-        "description": "हमारी फ्रैंचाइज़ी टीम 24-48 घंटों के भीतर आपके आवेदन की समीक्षा करेगी और आपसे संपर्क करेगी।"
-      }
-    }
+  "security": {
+    "sslSecured": "SSL सुरक्षित",
+    "dataEncrypted": "डेटा एन्क्रिप्टेड",
+    "gdprCompliant": "GDPR अनुपालक"
+  },
+  "offline": {
+    "savedTitle": "ऑफ़लाइन सहेजा गया",
+    "savedMessage": "आपका फॉर्म ऑफ़लाइन सहेजा गया है और कनेक्शन बहाल होने पर भेजा जाएगा।",
+    "indicator": "आप वर्तमान में ऑफ़लाइन हैं। कनेक्शन बहाल होने पर फॉर्म जमा किया जाएगा।"
   },
   "buttons": {
-    "submit": "जमा करें",
+    "submit": "फॉर्म जमा करें",
+    "submitting": "स्थान जमा कर रहे हैं...",
+    "submittingForm": "आपका फॉर्म सबमिट हो रहा है...",
     "next": "अगला",
     "previous": "पिछला",
     "cancel": "रद्द करें",
     "saveDraft": "सहेजें ड्राफ्ट",
-    "submitApplication": "जमा करें आवेदन",
+    "submitApplication": "आवेदन जमा करें",
     "apply": "अभी आवेदन करें",
     "register": "पंजीकरण",
-    "continue": "जारी रखें"
+    "continue": "जारी रखें",
+    "continueExploring": "अन्वेषण जारी रखें",
+    "submitEnquiry": "पूछताछ जमा करें",
+    "submitJobApplication": "नौकरी आवेदन सबमिट करें",
+    "submitAgentApplication": "एजेंट आवेदन सबमिट करें",
+    "submitInfluencerApplication": "इन्फ्लुएंसर आवेदन सबमिट करें",
+    "reset": "रीसेट करें",
+    "back": "वापस",
+    "chooseFile": "फ़ाइल चुनें",
+    "takePhoto": "फोटो लें"
   },
   "sections": {
     "personal": "व्यक्तिगत जानकारी",
@@ -423,10 +341,289 @@
     "terms": "नियम और शर्तें"
   },
   "form": {
-    "mandatoryFields": "* चिह्नित सभी फील्ड अनिवार्य हैं",
-    "accurateInfo": "कृपया सटीक जानकारी प्रदान करें",
-    "successMessage": "आवेदन सफलतापूर्वक जमा हुआ!",
-    "errorMessage": "आवेदन जमा करने में त्रुटि। कृपया पुनः प्रयास करें।",
-    "reviewInfo": "कृपया जमा करने से पहले अपनी जानकारी की समीक्षा करें"
+    "title": "स्थान विवरण फॉर्म",
+    "questions": {
+      "agent": "क्या आपको हमारे किसी एजेंट ने सहायता प्रदान की थी?"
+    },
+    "options": {
+      "agentYes": "हाँ, मुझे एक एजेंट द्वारा सहायता प्रदान की गई थी",
+      "agentNo": "नहीं, मैंने स्वतंत्र रूप से इसे पाया"
+    }
+  },
+  "title": "पूछताछ फॉर्म",
+  "subtitle": "अपनी जानकारी भरें और हम आपसे संपर्क करेंगे",
+  "page": {
+    "title": "अपना एटीएम स्थान जमा करें",
+    "subtitle": "अपने स्थान का विवरण साझा करें और भारत के सबसे बड़े एटीएम नेटवर्क का हिस्सा बनें"
+  },
+  "errors": {
+    "unexpected": {
+      "title": "अप्रत्याशित त्रुटि",
+      "description": "एक अप्रत्याशित त्रुटि हुई। कृपया पुनः प्रयास करें।"
+    },
+    "tooManyAttempts": "बहुत सारे जमा करने के प्रयास। कृपया बाद में पुनः प्रयास करें।",
+    "pleaseWait": "कृपया प्रतीक्षा करें",
+    "checkInfo": "कृपया अपनी जानकारी जांचें",
+    "unableToSubmit": "जमा करने में असमर्थ",
+    "somethingWrong": "कुछ गलत हुआ"
+  },
+  "trustIndicators": {
+    "secure": "सुरक्षित और गोपनीय"
+  },
+  "success": {
+    "title": "सफल!",
+    "message": "धन्यवाद! हम 24 घंटे के भीतर आपसे संपर्क करेंगे।",
+    "description": "आपके जमा करने के लिए धन्यवाद। हम आपके स्थान विवरण की समीक्षा करेंगे और जल्द ही आपसे संपर्क करेंगे।",
+    "page": {
+      "title": "स्थान सफलतापूर्वक जमा हो गया!",
+      "message": "आपके स्थान विवरण जमा करने के लिए धन्यवाद। हमारी टीम आपके सबमिशन की समीक्षा करेगी और अगले चरणों को चर्चा करने के लिए 24-48 घंटों के भीतर आपसे संपर्क करेगी।",
+      "nextSteps": {
+        "title": "अगले चरण:",
+        "step1": "हमारी फील्ड टीम द्वारा स्थान सत्यापन",
+        "step2": "एटीएम प्लेसमेंट के लिए व्यवहार्यता मूल्यांकन",
+        "step3": "वाणिज्यिक शर्तों की चर्चा",
+        "step4": "समझौता और स्थापना प्रक्रिया"
+      },
+      "assistance": {
+        "title": "तत्काल सहायता चाहिए?",
+        "call": "कॉल करें: +91 9072380076",
+        "email": "ईमेल: atmfranchise@pixellpay.com"
+      }
+    },
+    "reference": "आपका संदर्भ संख्या: {{ref}}"
+  },
+  "components": {
+    "submitlocationsinglepage": {
+      "text1": "एजेंट सहायता विवरण",
+      "text2": "व्यक्तिगत जानकारी",
+      "text3": "स्थान की जानकारी",
+      "text4": "फोटो अपलोड करें",
+      "text5": "अतिरिक्त जानकारी",
+      "text6": "24 घंटे में विश्लेषण",
+      "text7": "विशेषज्ञ मार्गदर्शन"
+    },
+    "captcha-protection": {
+      "text1": "सुरक्षा सत्यापन आवश्यक है"
+    }
+  },
+  "forms": {
+    "gender": {
+      "label": "अपना लिंग चुनें",
+      "male": "पुरुष",
+      "female": "महिला",
+      "other": "अन्य"
+    },
+    "dateOfBirth": {
+      "day": "दिन",
+      "month": "महीना",
+      "year": "वर्ष"
+    },
+    "months": {
+      "may": "मई"
+    },
+    "whatsapp": {
+      "placeholder": "व्हाट्सएप सक्रिय नंबर"
+    },
+    "pan": {
+      "labelWithFormat": "पैन कार्ड नंबर (प्रारूप: ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "अपना राज्य चुनें",
+      "placeholder": "अपना राज्य चुनें"
+    },
+    "validation": {
+      "correctFields": "कृपया निम्नलिखित फ़ील्ड सही करें",
+      "email": "कृपया एक वैध ईमेल पता दर्ज करें (उदा., example@email.com)",
+      "phone": "कृपया एक वैध 10-अंकीय भारतीय फोन नंबर दर्ज करें",
+      "pan": "कृपया प्रारूप ABCDE1234F में एक वैध पैन नंबर दर्ज करें",
+      "aadhaar": "कृपया एक वैध 12-अंकीय आधार नंबर दर्ज करें",
+      "required": "आवश्यक",
+      "selectJobPosition": "कृपया नौकरी का पद चुनें",
+      "enterExperience": "कृपया अपना अनुभव दर्ज करें",
+      "enterLocation": "कृपया अपना वर्तमान स्थान दर्ज करें",
+      "enterSalary": "कृपया अपेक्षित वेतन दर्ज करें",
+      "selectNoticePeriod": "कृपया नोटिस अवधि चुनें",
+      "securityVerificationRequired": "सुरक्षा सत्यापन आवश्यक",
+      "completeSecurityVerification": "कृपया सबमिट करने से पहले सुरक्षा सत्यापन पूरा करें।",
+      "enterCompletePermanentAddress": "कृपया पूर्ण स्थायी पता दर्ज करें (न्यूनतम 10 अक्षर)",
+      "enterCompleteCurrentAddress": "कृपया पूर्ण वर्तमान पता दर्ज करें (न्यूनतम 10 अक्षर)"
+    },
+    "error": {
+      "tryAgainOrContact": "कृपया पुनः प्रयास करें या हमसे सीधे संपर्क करें",
+      "fileUpload": "फ़ाइल अपलोड विफल। कृपया अपनी फ़ाइलों की जाँच करें और पुनः प्रयास करें",
+      "network": "नेटवर्क त्रुटि। कृपया अपने कनेक्शन की जाँच करें और पुनः प्रयास करें",
+      "cameraError": "कैमरा त्रुटि"
+    },
+    "errors": {
+      "submissionFailed": "सबमिशन विफल",
+      "tryAgainOrContact": "कृपया पुनः प्रयास करें या हमसे सीधे संपर्क करें।"
+    },
+    "jobApplication": {
+      "thankYouMessage": "आवेदन के लिए धन्यवाद! हम आपके आवेदन की समीक्षा करेंगे और जल्द ही आपसे संपर्क करेंगे।",
+      "nextSteps": "अगले चरण:",
+      "step1": "एचआर टीम द्वारा आवेदन समीक्षा",
+      "step2": "प्रारंभिक स्क्रीनिंग कॉल (यदि शॉर्टलिस्ट किया गया)",
+      "step3": "तकनीकी/एचआर साक्षात्कार",
+      "step4": "अंतिम निर्णय और प्रस्ताव पत्र",
+      "subtitle": "हमारी टीम में शामिल हों और हमारे साथ अपना करियर बनाएं"
+    },
+    "sections": {
+      "resumeUpload": "रिज्यूमे/सीवी अपलोड"
+    },
+    "fileUpload": {
+      "panDescription": "JPG या PDF अपलोड करें (अधिकतम 5MB)",
+      "photoDescription": "हाल की फोटो (अधिकतम 5MB)",
+      "aadhaarFrontDescription": "आगे की तरफ (अधिकतम 5MB)",
+      "aadhaarBackDescription": "पीछे की तरफ (अधिकतम 5MB)"
+    },
+    "termsRequired": "नियम और शर्तें आवश्यक",
+    "occupationPlaceholder": "उदा., दुकान मालिक, किसान, कर्मचारी",
+    "selectIncomeRange": "आय सीमा चुनें",
+    "selectInvestmentRange": "निवेश सीमा चुनें",
+    "selectAccountType": "खाता प्रकार चुनें",
+    "selectSource": "स्रोत चुनें",
+    "previousFranchise": "कोई पिछली फ्रेंचाइज़ी?",
+    "whenStart": "आप कब शुरू कर सकते हैं?",
+    "accountTypes": {
+      "ccod": "सीसी/ओडी खाता"
+    },
+    "sources": {
+      "friendReferral": "मित्र/परिवार रेफरल",
+      "newspaper": "समाचार पत्र/पत्रिका"
+    },
+    "franchise": {
+      "yesSuccessful": "हाँ, सफल अनुभव",
+      "yesChallenges": "हाँ, चुनौतियों का सामना किया"
+    },
+    "timeline": {
+      "2to3months": "2-3 महीने",
+      "3to6months": "3-6 महीने",
+      "6monthsPlus": "6+ महीने"
+    },
+    "selectJobPosition": "नौकरी का पद चुनें",
+    "contactNumberPlaceholder": "आपका संपर्क नंबर",
+    "cityStatePlaceholder": "शहर, राज्य",
+    "jobApplicationSubmitted": "नौकरी आवेदन सबमिट किया गया!",
+    "submittingApplication": "आवेदन सबमिट कर रहे हैं...",
+    "submitJobApplication": "नौकरी आवेदन सबमिट करें",
+    "agentApplicationSubmitted": "एजेंट आवेदन सबमिट किया गया!",
+    "applicationSubmittedSuccessfully": "✅ आवेदन सफलतापूर्वक सबमिट किया गया!",
+    "reviewAndContactMessage": "हम आपके आवेदन की समीक्षा करेंगे और 24-48 घंटों के भीतर आपसे संपर्क करेंगे।",
+    "noticePeriod": {
+      "15days": "15 दिन",
+      "1month": "1 महीना",
+      "2months": "2 महीने",
+      "3months": "3 महीने"
+    },
+    "labels": {
+      "permanentAddress": "स्थायी पता",
+      "currentAddress": "वर्तमान पता",
+      "panDocumentUpload": "पैन दस्तावेज़ अपलोड",
+      "noticePeriod": "नोटिस अवधि",
+      "state": "राज्य",
+      "preview": "पूर्वावलोकन",
+      "totalExperience": "कुल अनुभव",
+      "expectedSalary": "अपेक्षित वेतन",
+      "uploadCvResume": "सीवी/रिज्यूमे अपलोड करें",
+      "passportPhoto": "पासपोर्ट साइज फोटो",
+      "aadhaarFront": "आधार कार्ड आगे की तरफ",
+      "aadhaarBack": "आधार कार्ड पीछे की तरफ"
+    },
+    "buttons": {
+      "chooseFile": "फ़ाइल चुनें",
+      "cancel": "रद्द करें",
+      "uploadFile": "फ़ाइल अपलोड करें",
+      "takePhoto": "फोटो लें",
+      "continue": "जारी रखें",
+      "selectFile": "फ़ाइल चुनें",
+      "submitting": "सबमिट हो रहा है...",
+      "submitInfluencerApplication": "इन्फ्लुएंसर आवेदन सबमिट करें",
+      "submit": "सबमिट करें",
+      "submitAgentApplication": "एजेंट आवेदन सबमिट करें",
+      "save": "सहेजें",
+      "add": "जोड़ें",
+      "remove": "हटाएं",
+      "delete": "डिलीट करें",
+      "edit": "संपादित करें",
+      "update": "अपडेट करें",
+      "next": "अगला",
+      "previous": "पिछला",
+      "back": "वापस",
+      "continue": "जारी रखें"
+    },
+    "messages": {
+      "influencerApplicationSubmitted": "इन्फ्लुएंसर आवेदन सबमिट किया गया!"
+    },
+    "status": {
+      "loading": "लोड हो रहा है...",
+      "processing": "प्रोसेसिंग...",
+      "pleaseWait": "कृपया प्रतीक्षा करें...",
+      "success": "सफल!",
+      "error": "त्रुटि!"
+    },
+    "successTitle": "सफलता!",
+    "errorTitle": "त्रुटि",
+    "emailAddress": "ईमेल पता",
+    "additionalInfo": "अतिरिक्त जानकारी",
+    "submitLocation": "स्थान सबमिट करें",
+    "locationAddress": "स्थान का पता",
+    "uploadRequiredDocument": "आवश्यक दस्तावेज़ अपलोड करें",
+    "preview": "पूर्वावलोकन",
+    "removeFile": "फ़ाइल हटाएं",
+    "fileSelected": "फ़ाइल चयनित",
+    "noFileSelected": "कोई फ़ाइल नहीं चुनी गई",
+    "clickToUpload": "अपलोड करने के लिए क्लिक करें",
+    "orDragAndDrop": "या ड्रैग और ड्रॉप करें",
+    "takePhoto": "फोटो लें",
+    "chooseFromGallery": "गैलरी से चुनें",
+    "processing": "प्रोसेसिंग...",
+    "placeholders": {
+      "enterYourDistrict": "अपना जिला दर्ज करें",
+      "enterYourPermanentAddress": "अपना स्थायी पता दर्ज करें",
+      "enterYourCurrentAddress": "अपना वर्तमान पता दर्ज करें",
+      "selectNoticePeriod": "नोटिस अवधि चुनें",
+      "preferredLocation": "क्षेत्र/गांव जहां आप एटीएम चाहते हैं",
+      "competitorATMs": "2 किमी के दायरे में एटीएम की संख्या",
+      "experience": "जैसे, 3 साल, फ्रेशर, आदि",
+      "salary": "जैसे, ₹5,00,000 प्रति वर्ष",
+      "motivationAndGoals": "एक एजेंट के रूप में अपनी प्रेरणा और लक्ष्यों के बारे में बताएं"
+    },
+    "investment": {
+      "5to10L": "₹5 - 10 लाख",
+      "10to15L": "₹10 - 15 लाख",
+      "15to25L": "₹15 - 25 लाख",
+      "above25L": "₹25 लाख से ऊपर"
+    }
+  },
+  "agentApplication": {
+    "submitted": "एजेंट आवेदन सबमिट किया गया!",
+    "thankYou": "हमारे एजेंट नेटवर्क में शामिल होने के लिए धन्यवाद। हम अगले चरणों पर चर्चा करने के लिए 24 घंटे के भीतर आपसे संपर्क करेंगे।",
+    "nextSteps": "अगले चरण:",
+    "step1": "आपके दस्तावेजों का सत्यापन",
+    "step2": "प्रशिक्षण कार्यक्रम समन्वय",
+    "step3": "क्षेत्र आवंटन चर्चा",
+    "step4": "कमीशन संरचना ब्रीफिंग"
+  },
+  "enquiryForm": {
+    "businessInformation": "व्यावसायिक जानकारी और प्राथमिकताएं",
+    "typeOfBusinessInterest": "व्यावसायिक रुचि का प्रकार",
+    "atmFranchise": "एटीएम फ्रैंचाइज़ी",
+    "investmentRange": "निवेश सीमा",
+    "timelineToStart": "शुरू करने की समयावधि",
+    "howDidYouHear": "आपने हमारे बारे में कैसे सुना? (वैकल्पिक)",
+    "friendFamilyReferral": "मित्र/परिवार की सिफारिश"
+  },
+  "jobApplication": {
+    "selectPosition": "वह पद चुनें जिसके लिए आप आवेदन कर रहे हैं",
+    "positionApplyingFor": "आवेदन का पद",
+    "currentLocation": "वर्तमान स्थान",
+    "emailAddress": "ईमेल पता"
+  },
+  "influencerForm": {
+    "socialMediaSkills": "सोशल मीडिया और कौशल",
+    "languagesYouSpeak": "आप कौन सी भाषाएं बोल सकते हैं",
+    "otherChannel1": "अन्य चैनल/प्लेटफॉर्म 1",
+    "otherChannel2": "अन्य चैनल/प्लेटफॉर्म 2"
   }
 }

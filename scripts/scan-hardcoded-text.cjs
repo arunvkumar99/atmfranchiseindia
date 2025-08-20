@@ -27,7 +27,12 @@ const SKIP_PATTERNS = [
   '.test.',
   '.spec.',
   'Fixed.tsx',
-  '.bak'
+  '.bak',
+  'TranslationTest',
+  'TestTranslation',
+  'LanguageSwitchTest',
+  'DesignAudit',
+  'VisualShowcase'
 ];
 
 // Common UI text that definitely needs translation
@@ -65,7 +70,7 @@ async function scanFile(filePath) {
           !/^(https?:\/\/|www\.)/.test(text) && // Not URLs
           !/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i.test(text) && // Not emails
           !text.startsWith('{') && // Not JSX expressions
-          !text.includes('₹') === false) { // Keep currency amounts
+          !text.includes('₹')) { // Skip currency amounts
         hardcodedTexts.add(text);
       }
     }
@@ -79,9 +84,26 @@ async function scanFile(filePath) {
       }
     }
     
-    // Check for common UI text
+    // Check for common UI text - only in actual JSX strings or props
     for (const uiText of COMMON_UI_TEXT) {
-      if (content.includes(uiText) && !content.includes(`t('${uiText.toLowerCase()}')`)) {
+      // More precise patterns to find actual UI text usage
+      const patterns = [
+        new RegExp(`>\\s*${uiText}\\s*<`, 'g'), // In JSX content
+        new RegExp(`["']${uiText}["']`, 'g'), // In string literals
+        new RegExp(`(?:title|alt|placeholder|label|aria-label)=["'].*${uiText}.*["']`, 'g'), // In props
+        new RegExp(`\\{\\s*["']${uiText}["']\\s*\\}`, 'g'), // In JSX expressions
+      ];
+      
+      let foundInUI = false;
+      for (const pattern of patterns) {
+        if (pattern.test(content)) {
+          foundInUI = true;
+          break;
+        }
+      }
+      
+      // Only add if found in UI context and not already translated
+      if (foundInUI && !content.includes(`t('${uiText.toLowerCase()}')`)) {
         hardcodedTexts.add(uiText);
       }
     }

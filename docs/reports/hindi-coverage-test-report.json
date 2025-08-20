@@ -1,0 +1,281 @@
+{
+  "timestamp": "2025-08-20T10:14:41.490Z",
+  "totalFiles": 20,
+  "filesChecked": [
+    {
+      "file": "about.json",
+      "keys": 155,
+      "hasContent": true
+    },
+    {
+      "file": "accessibility.json",
+      "keys": 33,
+      "hasContent": true
+    },
+    {
+      "file": "agent.json",
+      "keys": 83,
+      "hasContent": true
+    },
+    {
+      "file": "blog.json",
+      "keys": 18,
+      "hasContent": true
+    },
+    {
+      "file": "common.json",
+      "keys": 234,
+      "hasContent": true
+    },
+    {
+      "file": "components.json",
+      "keys": 259,
+      "hasContent": true
+    },
+    {
+      "file": "contact.json",
+      "keys": 10,
+      "hasContent": true
+    },
+    {
+      "file": "forms.json",
+      "keys": 227,
+      "hasContent": true
+    },
+    {
+      "file": "franchise.json",
+      "keys": 142,
+      "hasContent": true
+    },
+    {
+      "file": "home.json",
+      "keys": 268,
+      "hasContent": true
+    },
+    {
+      "file": "influencer.json",
+      "keys": 92,
+      "hasContent": true
+    },
+    {
+      "file": "jobs.json",
+      "keys": 15,
+      "hasContent": true
+    },
+    {
+      "file": "location.json",
+      "keys": 35,
+      "hasContent": true
+    },
+    {
+      "file": "notFound.json",
+      "keys": 6,
+      "hasContent": true
+    },
+    {
+      "file": "pixellpay.json",
+      "keys": 16,
+      "hasContent": true
+    },
+    {
+      "file": "privacy.json",
+      "keys": 28,
+      "hasContent": true
+    },
+    {
+      "file": "products.json",
+      "keys": 93,
+      "hasContent": true
+    },
+    {
+      "file": "refund.json",
+      "keys": 42,
+      "hasContent": true
+    },
+    {
+      "file": "startAtm.json",
+      "keys": 18,
+      "hasContent": true
+    },
+    {
+      "file": "terms.json",
+      "keys": 72,
+      "hasContent": true
+    }
+  ],
+  "totalKeys": 1846,
+  "missingTranslations": [],
+  "emptyTranslations": [],
+  "coveragePercent": 83,
+  "componentReport": [
+    {
+      "file": "AboutUs.tsx",
+      "hasTranslation": true,
+      "tCalls": 69,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "AccessibilityStatement.tsx",
+      "hasTranslation": true,
+      "tCalls": 7,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "AgentPage.tsx",
+      "hasTranslation": true,
+      "tCalls": 27,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "BecomefranchisePage.tsx",
+      "hasTranslation": true,
+      "tCalls": 2,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "BlogPage.tsx",
+      "hasTranslation": true,
+      "tCalls": 1,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "ContactUs.tsx",
+      "hasTranslation": true,
+      "tCalls": 11,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "DesignAudit.tsx",
+      "hasTranslation": true,
+      "tCalls": 22,
+      "hardcodedCount": 8,
+      "status": "⚠️"
+    },
+    {
+      "file": "Home.tsx",
+      "hasTranslation": true,
+      "tCalls": 3,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "InfluencerPage.tsx",
+      "hasTranslation": true,
+      "tCalls": 24,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "JobsPage.tsx",
+      "hasTranslation": true,
+      "tCalls": 8,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "JoinUsPage.tsx",
+      "hasTranslation": true,
+      "tCalls": 55,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "NotFound.tsx",
+      "hasTranslation": true,
+      "tCalls": 1,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "OurProducts.tsx",
+      "hasTranslation": true,
+      "tCalls": 62,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "OurProductsFixed.tsx",
+      "hasTranslation": true,
+      "tCalls": 62,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "PixellpayAdvantage.tsx",
+      "hasTranslation": true,
+      "tCalls": 21,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "PrivacyPolicy.tsx",
+      "hasTranslation": true,
+      "tCalls": 18,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "RefundPolicy.tsx",
+      "hasTranslation": true,
+      "tCalls": 7,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "StartATMPage.tsx",
+      "hasTranslation": true,
+      "tCalls": 0,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "SubmitLocation.tsx",
+      "hasTranslation": true,
+      "tCalls": 22,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "TermsConditions.tsx",
+      "hasTranslation": true,
+      "tCalls": 6,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "TestTranslation.tsx",
+      "hasTranslation": true,
+      "tCalls": 10,
+      "hardcodedCount": 14,
+      "status": "⚠️"
+    },
+    {
+      "file": "TranslationTest.tsx",
+      "hasTranslation": true,
+      "tCalls": 16,
+      "hardcodedCount": 8,
+      "status": "⚠️"
+    },
+    {
+      "file": "TranslationVerify.tsx",
+      "hasTranslation": true,
+      "tCalls": 5,
+      "hardcodedCount": 0,
+      "status": "✅"
+    },
+    {
+      "file": "VisualShowcase.tsx",
+      "hasTranslation": true,
+      "tCalls": 20,
+      "hardcodedCount": 5,
+      "status": "⚠️"
+    }
+  ],
+  "recommendation": "Further localization required"
+}

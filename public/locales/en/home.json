@@ -344,7 +344,11 @@
       "partners": "Active Partners",
       "uptime": "Uptime Guarantee",
       "experience": "Industry Experience",
-      "support": "Customer Support"
+      "support": "Customer Support",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ Years",
+      "supportValue": "24/7"
     }
   },
   "valueProps": {

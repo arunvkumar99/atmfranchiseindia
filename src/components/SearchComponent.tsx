@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Search, X, FileText, Hash, ArrowRight } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from '@/hooks/useLanguageRouter';
 import { searchContent, type SearchContent } from '@/lib/contentIndexer';
 
 interface SearchComponentProps {
@@ -59,7 +59,7 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Search className="w-5 h-5" />
-            Search ATM Franchise India
+            {t('search.title', 'Search ATM Franchise India')}
           </DialogTitle>
         </DialogHeader>
         
@@ -68,7 +68,7 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search for ATM franchise, WLA ATMs, agent program..."
+            placeholder={t('search.placeholder', 'Search for ATM franchise, WLA ATMs, agent program...')}
             className="pl-10 pr-10"
             autoFocus
           />
@@ -91,7 +91,7 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
               {searchResults.length > 0 ? (
                 <div className="space-y-2">
                   <h3 className="text-sm font-medium text-muted-foreground px-1">
-                    Search Results ({searchResults.length})
+                    {t('search.results', 'Search Results')} ({searchResults.length})
                   </h3>
                   <div className="space-y-2">
                     {searchResults.map((result, index) => (
@@ -139,8 +139,8 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
               ) : (
                 <div className="text-center py-8 text-muted-foreground">
                   <Search className="w-8 h-8 mx-auto mb-2 opacity-50" />
-                  <p className="text-sm">No results found for "{query}"</p>
-                  <p className="text-xs mt-1">Try different keywords like "ATM franchise", "passive income", "agent"</p>
+                  <p className="text-sm">{t('search.noResults', 'No results found for')} "{query}"</p>
+                  <p className="text-xs mt-1">{t('search.tryDifferent', 'Try different keywords like "ATM franchise", "passive income", "agent"')}</p>
                 </div>
               )}
             </>

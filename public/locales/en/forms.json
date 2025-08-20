@@ -428,5 +428,21 @@
     "successMessage": "Application submitted successfully!",
     "errorMessage": "Error submitting application. Please try again.",
     "reviewInfo": "Please review your information before submitting"
+  },
+  "forms": {
+    "gender": {
+      "label": "Select Your Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "dateOfBirth": {
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "months": {
+      "may": "May"
+    }
   }
 }

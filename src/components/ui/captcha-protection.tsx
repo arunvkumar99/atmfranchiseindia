@@ -63,7 +63,7 @@ export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectio
       <div className="flex items-center gap-4">
         <div className="flex-1">
           <label className="text-sm font-medium text-foreground mb-2 block">
-            Security Verification *
+            {t('captcha.title', 'Security Verification')} *
           </label>
           <div className="flex items-center gap-3">
             <span className="text-lg font-mono bg-background border border-border rounded px-3 py-2 min-w-[80px] text-center">
@@ -73,7 +73,7 @@ export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectio
               type="number"
               value={userAnswer}
               onChange={(e) => setUserAnswer(e.target.value)}
-              placeholder="Answer"
+              placeholder={t('captcha.answer', 'Answer')}
               className="w-20 px-3 py-2 border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary"
               required
             />
@@ -90,7 +90,7 @@ export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectio
         </div>
         <div className="flex items-center">
           {isVerified ? (
-            <div className="text-green-600 text-sm font-medium">✓ Verified</div>
+            <div className="text-green-600 text-sm font-medium">✓ {t('captcha.verified', 'Verified')}</div>
           ) : (
             <div className="text-muted-foreground text-sm">{t('components.captcha-protection.text1')}</div>
           )}

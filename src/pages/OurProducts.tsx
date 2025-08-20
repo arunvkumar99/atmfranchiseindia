@@ -65,7 +65,7 @@ const OurProducts = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
               >
-                {t('products.title')}
+                {t('title', 'हमारे एटीएम उत्पाद और सेवाएं')}
               </motion.span>
             </h1>
             
@@ -75,7 +75,7 @@ const OurProducts = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              {t('products.subtitle')}
+              {t('subtitle', 'आपकी आवश्यकताओं के अनुरूप व्यापक एटीएम फ्रैंचाइज़ी समाधान')}
             </motion.p>
           </div>
         </div>

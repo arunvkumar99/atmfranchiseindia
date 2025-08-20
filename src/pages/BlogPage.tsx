@@ -7,56 +7,56 @@ import { Calendar, Clock, ArrowRight, TrendingUp, DollarSign, Building, Banknote
 import { useTranslation } from 'react-i18next';
 
 const BlogPage = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('blog');
   const articles = [
     {
       id: 1,
-      title: "Why 2025 is the Perfect Time to Start Your Side Hustle",
-      excerpt: "India is growing faster than any other major economy. Discover how this creates incredible opportunities for building passive income streams.",
-      readTime: "5 min read",
-      date: "January 2025",
+      title: t('articles.article1.title'),
+      excerpt: t('articles.article1.excerpt'),
+      readTime: `5 ${t('post.minRead')}`,
+      date: t('post.date'),
       icon: TrendingUp,
-      category: "Economic Trends",
+      category: t('articles.article1.category'),
       slug: "perfect-time-side-hustle-2025"
     },
     {
       id: 2,
-      title: "What is Passive Income, Really? Your First Step to Financial Freedom",
-      excerpt: "Understanding passive income beyond the hype. Learn the 5 key questions to ask before starting your wealth-building journey.",
-      readTime: "4 min read",
-      date: "January 2025",
+      title: t('articles.article2.title'),
+      excerpt: t('articles.article2.excerpt'),
+      readTime: `4 ${t('post.minRead')}`,
+      date: t('post.date'),
       icon: DollarSign,
-      category: "Financial Planning",
+      category: t('articles.article2.category'),
       slug: "passive-income-financial-freedom"
     },
     {
       id: 3,
-      title: "The Truth About Popular Passive Income Ideas in India",
-      excerpt: "Rental property, stocks, P2P lending - we break down the real costs and risks of popular investment options for young Indians.",
-      readTime: "6 min read",
-      date: "January 2025",
+      title: t('articles.article3.title'),
+      excerpt: t('articles.article3.excerpt'),
+      readTime: `6 ${t('post.minRead')}`,
+      date: t('post.date'),
       icon: Building,
-      category: "Investment Analysis",
+      category: t('articles.article3.category'),
       slug: "truth-about-passive-income-ideas"
     },
     {
       id: 4,
-      title: "The ATM Franchise: A Smarter, Simpler Path to Passive Income",
-      excerpt: "Discover why ATM franchises offer a unique balance of low risk, steady returns, and minimal effort in India's growing economy.",
-      readTime: "5 min read",
-      date: "January 2025",
+      title: t('articles.article4.title'),
+      excerpt: t('articles.article4.excerpt'),
+      readTime: `5 ${t('post.minRead')}`,
+      date: t('post.date'),
       icon: Banknote,
-      category: "Business Opportunity",
+      category: t('articles.article4.category'),
       slug: "atm-franchise-passive-income"
     },
     {
       id: 5,
-      title: "Your 5-Step Guide to Launching Your Own ATM Business",
-      excerpt: "Ready to start? Here's your complete roadmap from finding the perfect location to earning your first commission.",
-      readTime: "7 min read",
-      date: "January 2025",
+      title: t('articles.article5.title'),
+      excerpt: t('articles.article5.excerpt'),
+      readTime: `7 ${t('post.minRead')}`,
+      date: t('post.date'),
       icon: MapPin,
-      category: "Getting Started",
+      category: t('articles.article5.category'),
       slug: "5-step-guide-atm-business"
     }
   ];
@@ -66,12 +66,12 @@ const BlogPage = () => {
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <Badge className="mb-4 bg-primary/10 text-primary">{t('content.financial_education', 'Financial Education')}</Badge>
+          <Badge className="mb-4 bg-primary/10 text-primary">{t('hero.badge')}</Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-            Build Your Financial Future
+            {t('hero.heading')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Expert insights on passive income, investment strategies, and building wealth in India's growing economy.
+            {t('hero.description')}
           </p>
         </div>
 
@@ -81,7 +81,7 @@ const BlogPage = () => {
             <div className="grid md:grid-cols-2 gap-0">
               <div className="p-8 md:p-12">
                 <Badge className="mb-4 bg-primary-foreground/20 text-primary-foreground">
-                  Featured Article
+                  {t('featured.badge')}
                 </Badge>
                 <h2 className="text-3xl font-bold mb-4">
                   {articles[0].title}
@@ -106,7 +106,7 @@ const BlogPage = () => {
                   className="font-semibold"
                 >
                   <Link to={`/blog/${articles[0].slug}`} className="flex items-center gap-2">
-                    Read Article <ArrowRight className="w-5 h-5" />
+                    {t('featured.readArticle')} <ArrowRight className="w-5 h-5" />
                   </Link>
                 </Button>
               </div>
@@ -156,7 +156,7 @@ const BlogPage = () => {
                     </div>
                     <Button variant="ghost" size="sm" asChild className="p-0 h-auto">
                       <Link to={`/blog/${article.slug}`} className="flex items-center gap-1 text-primary hover:text-primary/80">
-                        Read More <ArrowRight className="w-4 h-4" />
+                        {t('post.readMore')} <ArrowRight className="w-4 h-4" />
                       </Link>
                     </Button>
                   </div>
@@ -170,14 +170,14 @@ const BlogPage = () => {
         <Card className="mt-16 bg-gradient-card border-border/50">
           <CardContent className="p-8 md:p-12 text-center">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Ready to Start Your ATM Business?
+              {t('cta.heading')}
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Join hundreds of successful franchisees who are building passive income through ATM businesses. Get expert guidance and start your journey today.
+              {t('cta.description')}
             </p>
             <Button size="lg" asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/become-franchise" className="flex items-center gap-2">
-                Start Your ATM Business <ArrowRight className="w-5 h-5" />
+                {t('cta.button')} <ArrowRight className="w-5 h-5" />
               </Link>
             </Button>
           </CardContent>

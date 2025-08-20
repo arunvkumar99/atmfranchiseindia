@@ -47,11 +47,11 @@ interface DirectSheetsFormProps {
 
 export function DirectSheetsForm({ 
   formType, 
-  title = 'Contact Us',
-  description = 'Fill out the form and we\'ll get back to you soon.',
+  title,
+  description,
   onSuccess 
 }: DirectSheetsFormProps) {
-  const { t } = useTranslation();
+  const { t } = useTranslation('forms');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submissionStatus, setSubmissionStatus] = useState<'idle' | 'success' | 'error' | 'offline'>('idle');
   const { toast } = useToast();
@@ -78,7 +78,7 @@ export function DirectSheetsForm({
       // Check rate limiting
       if (!googleSheetsService.canSubmit(data.email, formType)) {
         toast({
-          title: 'Please Wait',
+          title: t('errors.pleaseWait', 'Please Wait'),
           description: ERROR_MESSAGES.NETWORK.RATE_LIMIT,
           variant: 'destructive'
         });
@@ -90,7 +90,7 @@ export function DirectSheetsForm({
       const validation = googleSheetsService.validateFormData(formType, data);
       if (!validation.valid) {
         toast({
-          title: 'Please Check Your Information',
+          title: t('errors.checkInfo', 'Please Check Your Information'),
           description: validation.errors.join(', '),
           variant: 'destructive'
         });
@@ -107,22 +107,22 @@ export function DirectSheetsForm({
       if (result.success) {
         setSubmissionStatus('success');
         toast({
-          title: 'Success!',
-          description: ERROR_MESSAGES.SUCCESS.FORM_SUBMITTED,
+          title: t('forms.success.title', 'Success!'),
+          description: t('forms.success.message', ERROR_MESSAGES.SUCCESS.FORM_SUBMITTED),
         });
         reset();
         onSuccess?.();
       } else if (result.error === 'OFFLINE') {
         setSubmissionStatus('offline');
         toast({
-          title: 'Saved Offline',
-          description: ERROR_MESSAGES.NETWORK.OFFLINE,
+          title: t('offline.savedTitle', 'Saved Offline'),
+          description: t('forms.offline.savedMessage', ERROR_MESSAGES.NETWORK.OFFLINE),
           variant: 'default'
         });
       } else {
         setSubmissionStatus('error');
         toast({
-          title: 'Unable to Submit',
+          title: t('errors.unableToSubmit', 'Unable to Submit'),
           description: getUserFriendlyError(result.message),
           variant: 'destructive'
         });
@@ -130,7 +130,7 @@ export function DirectSheetsForm({
     } catch (error) {
       setSubmissionStatus('error');
       toast({
-        title: 'Something Went Wrong',
+        title: t('errors.somethingWrong', 'Something Went Wrong'),
         description: getUserFriendlyError(error),
         variant: 'destructive'
       });
@@ -142,30 +142,30 @@ export function DirectSheetsForm({
   return (
     <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl mx-auto p-4 sm:p-6">
       <div className="mb-6 sm:mb-8">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-2">{title}</h2>
-        <p className="text-sm sm:text-base text-gray-600">{description}</p>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-2">{title || t('contactForm.title')}</h2>
+        <p className="text-sm sm:text-base text-gray-600">{description || t('contactForm.subtitle')}</p>
       </div>
 
       {/* Security Badges */}
       <div className="flex flex-wrap items-center gap-3 mb-6 p-3 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
         <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
           <Shield className="h-4 w-4" />
-          <span className="font-medium">SSL Secured</span>
+          <span className="font-medium">{t('security.sslSecured', 'SSL Secured')}</span>
         </div>
         <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
           <Lock className="h-4 w-4" />
-          <span className="font-medium">{t('components.directsheetsform.text1')}</span>
+          <span className="font-medium">{t('security.dataEncrypted', 'Data Encrypted')}</span>
         </div>
         <div className="flex items-center gap-1.5 text-xs sm:text-sm text-green-700 dark:text-green-400">
           <CheckCircle2 className="h-4 w-4" />
-          <span className="font-medium">GDPR Compliant</span>
+          <span className="font-medium">{t('security.gdprCompliant', 'GDPR Compliant')}</span>
         </div>
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
         {/* Name Field */}
         <div>
-          <Label htmlFor="fullName">Full Name *</Label>
+          <Label htmlFor="fullName">{t('labels.fullName')} *</Label>
           <Input
             id="fullName"
             {...register('fullName')}
@@ -174,13 +174,13 @@ export function DirectSheetsForm({
           />
           <FieldError error={errors.fullName?.message} />
           {!errors.fullName && watchedValues.fullName && (
-            <p className="text-green-500 text-sm mt-1">✓ Valid name</p>
+            <p className="text-green-500 text-sm mt-1">✓ {t('validation.validName', 'Valid name')}</p>
           )}
         </div>
 
         {/* Email Field */}
         <div>
-          <Label htmlFor="email">Email *</Label>
+          <Label htmlFor="email">{t('labels.email')} *</Label>
           <Input
             id="email"
             type="email"
@@ -190,13 +190,13 @@ export function DirectSheetsForm({
           />
           <FieldError error={errors.email?.message} />
           {!errors.email && watchedValues.email && (
-            <p className="text-green-500 text-sm mt-1">✓ Valid email</p>
+            <p className="text-green-500 text-sm mt-1">✓ {t('validation.validEmail', 'Valid email')}</p>
           )}
         </div>
 
         {/* Phone Field */}
         <div>
-          <Label htmlFor="phone">Phone Number *</Label>
+          <Label htmlFor="phone">{t('labels.phone')} *</Label>
           <Input
             id="phone"
             {...register('phone')}
@@ -206,13 +206,13 @@ export function DirectSheetsForm({
           />
           <FieldError error={errors.phone?.message} />
           {!errors.phone && watchedValues.phone && (
-            <p className="text-green-500 text-sm mt-1">✓ Valid phone number</p>
+            <p className="text-green-500 text-sm mt-1">✓ {t('validation.validPhone', 'Valid phone number')}</p>
           )}
         </div>
 
         {/* City Field */}
         <div>
-          <Label htmlFor="city">City *</Label>
+          <Label htmlFor="city">{t('labels.city')} *</Label>
           <Input
             id="city"
             {...register('city')}
@@ -224,7 +224,7 @@ export function DirectSheetsForm({
 
         {/* State Field */}
         <div>
-          <Label htmlFor="state">State *</Label>
+          <Label htmlFor="state">{t('labels.state')} *</Label>
           <Input
             id="state"
             {...register('state')}
@@ -236,18 +236,18 @@ export function DirectSheetsForm({
 
         {/* Message Field */}
         <div>
-          <Label htmlFor="message">Message *</Label>
+          <Label htmlFor="message">{t('labels.message')} *</Label>
           <Textarea
             id="message"
             {...register('message')}
-            placeholder="Tell us about your requirements..."
+            placeholder={t('placeholders.message', 'Tell us about your requirements...')}
             rows={4}
             className={errors.message ? 'border-red-500' : ''}
           />
           <FieldError error={errors.message?.message} />
           {watchedValues.message && (
             <p className="text-gray-500 text-sm mt-1">
-              {watchedValues.message.length}/500 characters
+              {watchedValues.message.length}/500 {t('forms.validation.characters', 'characters')}
             </p>
           )}
         </div>
@@ -284,10 +284,10 @@ export function DirectSheetsForm({
           {isSubmitting ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              Submitting...
+              {t('buttons.submitting', 'Submitting...')}
             </>
           ) : (
-            'Submit Form'
+            t('buttons.submit', 'Submit Form')
           )}
         </Button>
 
@@ -295,7 +295,7 @@ export function DirectSheetsForm({
         {!navigator.onLine && (
           <div className="text-center text-sm text-gray-500">
             <WifiOff className="inline h-4 w-4 mr-1" />
-            You're currently offline. Forms will be submitted when reconnected.
+            {t('forms.offline.indicator', "You're currently offline. Forms will be submitted when reconnected.")}
           </div>
         )}
       </form>

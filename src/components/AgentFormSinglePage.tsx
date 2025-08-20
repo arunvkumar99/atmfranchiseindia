@@ -86,8 +86,8 @@ export function AgentFormSinglePage() {
     { field: 'dateOfBirth.day', required: true, errorMessage: 'Please select birth day' },
     { field: 'dateOfBirth.month', required: true, errorMessage: 'Please select birth month' },
     { field: 'dateOfBirth.year', required: true, errorMessage: 'Please select birth year' },
-    { field: 'permanentAddress', required: true, minLength: 10, errorMessage: 'Please enter complete permanent address (minimum 10 characters)' },
-    { field: 'currentAddress', required: true, minLength: 10, errorMessage: 'Please enter complete current address (minimum 10 characters)' },
+    { field: 'permanentAddress', required: true, minLength: 10, errorMessage: t('validation.enterCompletePermanentAddress', 'Please enter complete permanent address (minimum 10 characters)') },
+    { field: 'currentAddress', required: true, minLength: 10, errorMessage: t('validation.enterCompleteCurrentAddress', 'Please enter complete current address (minimum 10 characters)') },
     { field: 'state', required: true, errorMessage: 'Please select your state' },
     { field: 'district', required: true, errorMessage: 'Please enter your district' },
     { field: 'joiningAs', required: true, errorMessage: 'Please select joining option' },
@@ -219,7 +219,7 @@ export function AgentFormSinglePage() {
       if (!isValid) {
         const errorFields = Object.keys(errors).filter(key => errors[key]);
         const errorMessage = errorFields.length > 0 
-          ? `Please correct the following fields: ${errorFields.join(', ')}`
+          ? `${t('forms.validation.correctFields')}: ${errorFields.join(', ')}`
           : 'Please fill all required fields correctly';
         
         // if (import.meta.env.DEV) { console.error('❌ Form validation failed:', { errors, errorFields, formDataForValidation }); }
@@ -399,7 +399,7 @@ export function AgentFormSinglePage() {
       
       // 7. Show success message
       toast({
-        title: "✅ Application Submitted Successfully!",
+        title: t('applicationSubmittedSuccessfully', '✅ Application Submitted Successfully!'),
         description: "Thank you! We'll contact you within 24 hours.",
         variant: "default",
         duration: 6000
@@ -455,20 +455,20 @@ export function AgentFormSinglePage() {
       
       trackFormSubmit(false, error.message);
       
-      let errorMessage = "Please try again or contact us directly.";
+      let errorMessage = t('forms.error.tryAgainOrContact');
       
       if (error.message.includes('email')) {
-        errorMessage = "Please enter a valid email address (e.g., example@email.com).";
+        errorMessage = t('forms.validation.email');
       } else if (error.message.includes('phone')) {
-        errorMessage = "Please enter a valid 10-digit Indian phone number.";
+        errorMessage = t('forms.validation.phone');
       } else if (error.message.includes('PAN')) {
-        errorMessage = "Please enter a valid PAN number in format ABCDE1234F.";
+        errorMessage = t('forms.validation.pan');
       } else if (error.message.includes('Aadhaar')) {
-        errorMessage = "Please enter a valid 12-digit Aadhaar number.";
+        errorMessage = t('forms.validation.aadhaar');
       } else if (error.message.includes('upload') || error.message.includes('file')) {
-        errorMessage = "File upload failed. Please check your files and try again.";
+        errorMessage = t('forms.error.fileUpload');
       } else if (error.message.includes('network') || error.message.includes('fetch')) {
-        errorMessage = "Network error. Please check your connection and try again.";
+        errorMessage = t('forms.error.network');
       }
       
       toast({
@@ -495,19 +495,19 @@ export function AgentFormSinglePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <CardTitle className="text-2xl font-bold text-green-600">Agent Application Submitted!</CardTitle>
+                <CardTitle className="text-2xl font-bold text-green-600">{t('agentApplication.submitted', 'Agent Application Submitted!')}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 text-center">
                 <p className="text-muted-foreground">
-                  Thank you for joining our agent network. We'll contact you within 24 hours to discuss next steps.
+                  {t('agentApplication.thankYou', 'Thank you for joining our agent network. We\'ll contact you within 24 hours to discuss next steps.')}
                 </p>
                 <div className="space-y-3">
-                  <h4 className="font-semibold">Next Steps:</h4>
+                  <h4 className="font-semibold">{t('agentApplication.nextSteps', 'Next Steps:')}</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>✓ Verification of your documents</li>
-                    <li>✓ Training schedule coordination</li>
-                    <li>✓ Territory assignment discussion</li>
-                    <li>✓ Commission structure briefing</li>
+                    <li>✓ {t('agentApplication.step1', 'Verification of your documents')}</li>
+                    <li>✓ {t('agentApplication.step2', 'Training schedule coordination')}</li>
+                    <li>✓ {t('agentApplication.step3', 'Territory assignment discussion')}</li>
+                    <li>✓ {t('agentApplication.step4', 'Commission structure briefing')}</li>
                   </ul>
                 </div>
                 <Button 
@@ -517,7 +517,7 @@ export function AgentFormSinglePage() {
                   }}
                   className="w-full"
                 >
-                  Continue
+                  {t('buttons.continue', 'Continue')}
                 </Button>
               </CardContent>
             </Card>
@@ -568,12 +568,12 @@ export function AgentFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="fullName">Full Name *</Label>
+                      <Label htmlFor="fullName">{t('labels.fullName', 'Full Name')} *</Label>
                       <Input 
                         id="fullName" 
                         value={formData.fullName}
                         onChange={(e) => handleInputChange('fullName', e.target.value)}
-                        placeholder="Enter your full name as per PAN card" 
+                        placeholder={t('placeholders.full_name_pan', 'Enter your full name as per PAN card')} 
                         className={errors.fullName ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -592,7 +592,7 @@ export function AgentFormSinglePage() {
                         type="email" 
                         value={formData.email}
                         onChange={(e) => handleInputChange('email', e.target.value)}
-                        placeholder="Enter your email address" 
+                        placeholder={t('placeholders.email', 'Enter your email address')} 
                         className={errors.email ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -606,7 +606,7 @@ export function AgentFormSinglePage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label>Select Your Gender *</Label>
+                    <Label>{t('forms.gender.label')} *</Label>
                     <RadioGroup 
                       value={formData.gender} 
                       onValueChange={(value) => handleInputChange('gender', value)}
@@ -634,11 +634,11 @@ export function AgentFormSinglePage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label>Date of Birth as in PAN Card *</Label>
+                    <Label>{t('labels.dateOfBirthPan', 'Date of Birth as in PAN Card')} *</Label>
                     <div className="grid grid-cols-3 gap-3">
                       <Select value={formData.dateOfBirth.day} onValueChange={(value) => handleDateChange('day', value)}>
                         <SelectTrigger className={errors['dateOfBirth.day'] ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Day" />
+                          <SelectValue placeholder={t('forms.dateOfBirth.day')} />
                         </SelectTrigger>
                         <SelectContent>
                           {Array.from({length: 31}, (_, i) => (
@@ -655,7 +655,7 @@ export function AgentFormSinglePage() {
                           <SelectItem value="2">{t('components.agentformsinglepage.text8')}</SelectItem>
                           <SelectItem value="3">{t('components.agentformsinglepage.text9')}</SelectItem>
                           <SelectItem value="4">{t('components.agentformsinglepage.text10')}</SelectItem>
-                          <SelectItem value="5">May</SelectItem>
+                          <SelectItem value="5">{t('forms.months.may')}</SelectItem>
                           <SelectItem value="6">{t('components.agentformsinglepage.text11')}</SelectItem>
                           <SelectItem value="7">{t('components.agentformsinglepage.text12')}</SelectItem>
                           <SelectItem value="8">{t('components.agentformsinglepage.text13')}</SelectItem>
@@ -691,7 +691,7 @@ export function AgentFormSinglePage() {
                         id="phone" 
                         value={formData.phone}
                         onChange={(e) => handleInputChange('phone', e.target.value)}
-                        placeholder="Primary contact number" 
+                        placeholder={t('placeholders.phone_primary', 'Primary contact number')} 
                         className={errors.phone ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -708,7 +708,7 @@ export function AgentFormSinglePage() {
                         id="whatsapp" 
                         value={formData.whatsappPhone}
                         onChange={(e) => handleInputChange('whatsappPhone', e.target.value)}
-                        placeholder="WhatsApp active number" 
+                        placeholder={t('forms.whatsapp.placeholder')} 
                         className={errors.whatsappPhone ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -723,7 +723,7 @@ export function AgentFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="panNumber">PAN Card Number (Format: ABCDE1234F) *</Label>
+                      <Label htmlFor="panNumber">{t('forms.pan.labelWithFormat')} *</Label>
                       <Input 
                         id="panNumber" 
                         value={formData.panNumber}
@@ -731,7 +731,7 @@ export function AgentFormSinglePage() {
                           const value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 10);
                           handleInputChange('panNumber', value);
                         }}
-                        placeholder="ABCDE1234F" 
+                        placeholder={t('forms.pan.placeholder')} 
                         maxLength={10}
                         className={`uppercase ${errors.panNumber ? 'border-red-500 focus-visible:ring-red-500' : ''}`}
                         required
@@ -745,7 +745,7 @@ export function AgentFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="aadhaarNumber">Aadhaar Card Number (12 digits) *</Label>
+                      <Label htmlFor="aadhaarNumber">{t('labels.aadhaarNumber', 'Aadhaar Card Number (12 digits)')} *</Label>
                       <Input 
                         id="aadhaarNumber" 
                         value={formData.aadhaarNumber}
@@ -769,10 +769,10 @@ export function AgentFormSinglePage() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label>Select Your State *</Label>
+                      <Label>{t('forms.state.label')} *</Label>
                       <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                         <SelectTrigger className={errors.state ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Choose your state" />
+                          <SelectValue placeholder={t('forms.state.placeholder')} />
                         </SelectTrigger>
                         <SelectContent>
                           {INDIAN_STATES.map((state) => (
@@ -788,12 +788,12 @@ export function AgentFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="district">District of Residence *</Label>
+                      <Label htmlFor="district">{t('labels.districtOfResidence', 'District of Residence')} *</Label>
                       <Input 
                         id="district" 
                         value={formData.district}
                         onChange={(e) => handleInputChange('district', e.target.value)}
-                        placeholder="Enter your district" 
+                        placeholder={t('placeholders.enterYourDistrict')} 
                         className={errors.district ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -808,12 +808,12 @@ export function AgentFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="permanentAddress">Permanent Address *</Label>
+                      <Label htmlFor="permanentAddress">{t('labels.permanentAddress', 'Permanent Address')} *</Label>
                       <Textarea 
                         id="permanentAddress" 
                         value={formData.permanentAddress}
                         onChange={(e) => handleInputChange('permanentAddress', e.target.value)}
-                        placeholder="Enter your permanent address here" 
+                        placeholder={t('placeholders.enterYourPermanentAddress')} 
                         className={errors.permanentAddress ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         rows={3}
                         required
@@ -827,12 +827,12 @@ export function AgentFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="currentAddress">Current Address *</Label>
+                      <Label htmlFor="currentAddress">{t('labels.currentAddress', 'Current Address')} *</Label>
                       <Textarea 
                         id="currentAddress" 
                         value={formData.currentAddress}
                         onChange={(e) => handleInputChange('currentAddress', e.target.value)}
-                        placeholder="Enter your current address here" 
+                        placeholder={t('placeholders.enterYourCurrentAddress')} 
                         className={errors.currentAddress ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         rows={3}
                         required
@@ -850,12 +850,12 @@ export function AgentFormSinglePage() {
                 {/* Professional Details Section */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Professional Details & Documents</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t('labels.professionalDetails', 'Professional Details & Documents')}</h3>
                     <p className="text-sm text-muted-foreground mt-1">{t('components.agentformsinglepage.text18')}</p>
                   </div>
 
                   <div className="space-y-2">
-                    <Label>Are you Joining As (Please choose from Below): *</Label>
+                    <Label>{t('labels.joiningAs', 'Are you Joining As (Please choose from Below):')} *</Label>
                     <RadioGroup 
                       value={formData.joiningAs} 
                       onValueChange={(value) => handleInputChange('joiningAs', value)}
@@ -879,12 +879,12 @@ export function AgentFormSinglePage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="whyJoin">Why do you want to Join Sahasra Network as Agent *</Label>
+                    <Label htmlFor="whyJoin">{t('labels.whyJoinAgent', 'Why do you want to Join Sahasra Network as Agent')} *</Label>
                     <Textarea 
                       id="whyJoin" 
                       value={formData.whyJoin}
                       onChange={(e) => handleInputChange('whyJoin', e.target.value)}
-                      placeholder="Tell us about your motivation and goals as an agent" 
+                      placeholder={t('placeholders.motivationAndGoals', 'Tell us about your motivation and goals as an agent')} 
                       className={`min-h-[100px] ${errors.whyJoin ? 'border-red-500 focus-visible:ring-red-500' : ''}`}
                       required
                     />
@@ -897,7 +897,7 @@ export function AgentFormSinglePage() {
                   </div>
 
                   <div className="space-y-3">
-                    <Label>Languages You Can Speak *</Label>
+                    <Label>{t('labels.languagesYouSpeak', 'Languages You Can Speak')} *</Label>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                       {["English", "Hindi", "Telugu", "Tamil", "Kannada", "Malayalam", "Marathi", "Bengali", "Gujarati", "Punjabi", "Urdu", "Odia"].map((language) => (
                         <div key={language} className="flex items-center space-x-2">
@@ -924,7 +924,7 @@ export function AgentFormSinglePage() {
                     <div className="grid md:grid-cols-2 gap-4">
                        <div className="space-y-3">
                          <Label htmlFor="panDocument" className="flex items-center gap-2">
-                           PAN Document Upload
+                           {t('labels.panDocumentUpload', 'PAN Document Upload')}
                            <span className="text-destructive">*</span>
                          </Label>
                          <div className="flex gap-2">
@@ -969,7 +969,7 @@ export function AgentFormSinglePage() {
                        
                        <div className="space-y-3">
                          <Label htmlFor="photo" className="flex items-center gap-2">
-                           Passport Size Photo
+                           {t('labels.passportPhoto', 'Passport Size Photo')}
                            <span className="text-destructive">*</span>
                          </Label>
                          <div className="flex gap-2">
@@ -1016,7 +1016,7 @@ export function AgentFormSinglePage() {
                     <div className="grid md:grid-cols-2 gap-4">
                        <div className="space-y-3">
                          <Label htmlFor="aadhaarFront" className="flex items-center gap-2">
-                           Aadhaar Front Side
+                           {t('labels.aadhaarFront', 'Aadhaar Front Side')}
                            <span className="text-destructive">*</span>
                          </Label>
                          <div className="flex gap-2">
@@ -1061,7 +1061,7 @@ export function AgentFormSinglePage() {
                        
                        <div className="space-y-3">
                          <Label htmlFor="aadhaarBack" className="flex items-center gap-2">
-                           Aadhaar Back Side
+                           {t('labels.aadhaarBack', 'Aadhaar Back Side')}
                            <span className="text-destructive">*</span>
                          </Label>
                          <div className="flex gap-2">
@@ -1123,12 +1123,12 @@ export function AgentFormSinglePage() {
                   {isSubmitting ? (
                     <>
                       <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                      Submitting...
+                      {t('buttons.submitting', 'Submitting...')}
                     </>
                   ) : (
                     <>
                       <Send className="w-4 h-4 mr-2" />
-                      Submit Agent Application
+                      {t('buttons.submitAgentApplication', 'Submit Agent Application')}
                     </>
                   )}
                 </Button>

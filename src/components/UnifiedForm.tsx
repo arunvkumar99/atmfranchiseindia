@@ -197,7 +197,7 @@ export const UnifiedForm: React.FC<UnifiedFormConfig> = ({
       // Success handling
       setSubmitStatus('success');
       toast({
-        title: 'Success!',
+        title: t('forms.successTitle'),
         description: successMessage,
       });
 
@@ -223,7 +223,7 @@ export const UnifiedForm: React.FC<UnifiedFormConfig> = ({
       logger.error('Form submission failed', error, formName);
       
       toast({
-        title: 'Error',
+        title: t('forms.errorTitle'),
         description: errorMsg,
         variant: 'destructive',
       });
@@ -427,10 +427,10 @@ export const UnifiedForm: React.FC<UnifiedFormConfig> = ({
         {isSubmitting ? (
           <>
             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-            Submitting...
+            {t('forms.submitting')}
           </>
         ) : (
-          'Submit'
+          t('forms.submit')
         )}
       </Button>
     </motion.form>
@@ -446,7 +446,7 @@ export const formConfigs = {
     formName: 'Contact Form',
     fields: [
       { name: 'name', label: 'Full Name', type: 'text' as const, required: true },
-      { name: 'email', label: 'Email Address', type: 'email' as const, required: true },
+      { name: 'email', label: t('forms.emailAddress'), type: 'email' as const, required: true },
       { name: 'phone', label: 'Phone Number', type: 'tel' as const, required: true },
       { name: 'subject', label: 'Subject', type: 'text' as const, required: true },
       { name: 'message', label: 'Message', type: 'textarea' as const, required: true },
@@ -457,7 +457,7 @@ export const formConfigs = {
     formName: 'Franchise Inquiry',
     fields: [
       { name: 'name', label: 'Full Name', type: 'text' as const, required: true },
-      { name: 'email', label: 'Email Address', type: 'email' as const, required: true },
+      { name: 'email', label: t('forms.emailAddress'), type: 'email' as const, required: true },
       { name: 'phone', label: 'Phone Number', type: 'tel' as const, required: true },
       { 
         name: 'state', 
@@ -478,17 +478,17 @@ export const formConfigs = {
           { value: '> 25 Lakhs', label: '> 25 Lakhs' },
         ]
       },
-      { name: 'message', label: 'Additional Information', type: 'textarea' as const },
+      { name: 'message', label: t('forms.additionalInfo'), type: 'textarea' as const },
     ],
   },
 
   location: {
-    formName: 'Submit Location',
+    formName: t('forms.submitLocation'),
     fields: [
       { name: 'name', label: 'Your Name', type: 'text' as const, required: true },
-      { name: 'email', label: 'Email Address', type: 'email' as const, required: true },
+      { name: 'email', label: t('forms.emailAddress'), type: 'email' as const, required: true },
       { name: 'phone', label: 'Phone Number', type: 'tel' as const, required: true },
-      { name: 'address', label: 'Location Address', type: 'text' as const, required: true },
+      { name: 'address', label: t('forms.locationAddress'), type: 'text' as const, required: true },
       { name: 'city', label: 'City', type: 'text' as const, required: true },
       { 
         name: 'state', 
@@ -506,7 +506,7 @@ export const formConfigs = {
   newsletter: {
     formName: 'Newsletter Subscription',
     fields: [
-      { name: 'email', label: 'Email Address', type: 'email' as const, required: true },
+      { name: 'email', label: t('forms.emailAddress'), type: 'email' as const, required: true },
       { 
         name: 'frequency', 
         label: 'Email Frequency', 

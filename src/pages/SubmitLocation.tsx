@@ -7,7 +7,7 @@ import heroImage from "@/assets/hero-rural-atm.jpg";
 import { useTranslation } from 'react-i18next';
 
 const SubmitLocation = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation('location');
   const handleScrollToForm = () => {
     const formElement = document.getElementById('location-form');
     formElement?.scrollIntoView({ behavior: 'smooth' });
@@ -38,24 +38,24 @@ const SubmitLocation = () => {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 mb-8 bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md border border-white/20 rounded-full px-6 py-3">
               <Target className="w-5 h-5 text-blue-300" />
-              <span className="text-blue-100 font-medium">{t('content.professional_location_analysis', 'Professional Location Analysis')}</span>
+              <span className="text-blue-100 font-medium">{t('hero.badge', 'Professional Location Analysis')}</span>
             </div>
             
             {/* Main Heading with Enhanced Typography */}
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight">
-              <span className="block text-white">{t('content.get_your', 'Get Your')}</span>
+              <span className="block text-white">{t('hero.getYour', 'Get Your')}</span>
               <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
-                ATM Location
+                {t('hero.atmLocation', 'ATM Location')}
               </span>
-              <span className="block text-white">{t('content.analyzed_by_experts', 'Analyzed by Experts')}</span>
+              <span className="block text-white">{t('hero.analyzedByExperts', 'Analyzed by Experts')}</span>
             </h1>
             
             {/* Enhanced Description */}
             <p className="text-xl md:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto leading-relaxed opacity-90">
-              Submit your location details and receive a comprehensive analysis report within 24 hours. 
-              Our experts evaluate <span className="text-cyan-300 font-semibold">foot traffic</span>, 
-              <span className="text-purple-300 font-semibold"> demographics</span>, and 
-              <span className="text-blue-300 font-semibold"> profitability potential</span>.
+              {t('hero.description', 'Submit your location details and receive a comprehensive analysis report within 24 hours.')} 
+              {t('hero.expertEvaluate', 'Our experts evaluate')} <span className="text-cyan-300 font-semibold">{t('hero.footTraffic', 'foot traffic')}</span>, 
+              <span className="text-purple-300 font-semibold"> {t('hero.demographics', 'demographics')}</span>, {t('hero.and', 'and')} 
+              <span className="text-blue-300 font-semibold"> {t('hero.profitability', 'profitability potential')}</span>.
             </p>
             
             {/* Enhanced CTA Button */}
@@ -65,7 +65,7 @@ const SubmitLocation = () => {
               className="group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-10 py-6 text-xl rounded-full shadow-2xl hover:shadow-blue-500/25 hover:scale-105 transition-all duration-500 border border-white/20 backdrop-blur-sm mb-16"
             >
               <MapPin className="w-6 h-6 mr-3 group-hover:animate-bounce" />
-              Submit Location for Analysis
+              {t('hero.submitButton', 'Submit Location for Analysis')}
               <Zap className="w-6 h-6 ml-3 group-hover:animate-pulse" />
             </Button>
             
@@ -73,15 +73,15 @@ const SubmitLocation = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="group bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:scale-105 hover:shadow-xl">
                 <div className="text-3xl font-black text-cyan-300 mb-2 group-hover:animate-pulse">500+</div>
-                <div className="text-blue-100 font-medium">{t('content.locations_analyzed', 'Locations Analyzed')}</div>
+                <div className="text-blue-100 font-medium">{t('stats.analyzed', 'Locations Analyzed')}</div>
               </div>
               <div className="group bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:scale-105 hover:shadow-xl">
                 <div className="text-3xl font-black text-purple-300 mb-2 group-hover:animate-pulse">24hrs</div>
-                <div className="text-blue-100 font-medium">{t('content.analysis_time', 'Analysis Time')}</div>
+                <div className="text-blue-100 font-medium">{t('stats.time', 'Analysis Time')}</div>
               </div>
               <div className="group bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:scale-105 hover:shadow-xl">
                 <div className="text-3xl font-black text-blue-300 mb-2 group-hover:animate-pulse">95%</div>
-                <div className="text-blue-100 font-medium">{t('content.success_rate', 'Success Rate')}</div>
+                <div className="text-blue-100 font-medium">{t('stats.success', 'Success Rate')}</div>
               </div>
             </div>
           </div>
@@ -112,8 +112,8 @@ const SubmitLocation = () => {
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-pulse"></div>
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-blue-600 transition-colors duration-300">{t('content.datadriven_analysis', 'Data-Driven Analysis')}</h3>
-              <p className="text-slate-600 leading-relaxed">{t('content.professional_evaluation_using_', 'Professional evaluation using real market data, advanced analytics, and comprehensive demographics research')}</p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-blue-600 transition-colors duration-300">{t('content.datadriven_analysis', 'डेटा-संचालित विश्लेषण')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.professional_evaluation_using_', 'वास्तविक बाजार डेटा, उन्नत विश्लेषण और व्यापक जनसांख्यिकी अनुसंधान का उपयोग करके पेशेवर मूल्यांकन')}</p>
             </div>
             
             <div className="group text-center">
@@ -123,8 +123,8 @@ const SubmitLocation = () => {
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full animate-pulse delay-300"></div>
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-purple-600 transition-colors duration-300">{t('content.location_scoring', 'Location Scoring')}</h3>
-              <p className="text-slate-600 leading-relaxed">{t('content.comprehensive_scoring_system_b', 'Comprehensive scoring system based on foot traffic patterns, accessibility metrics, and strategic positioning')}</p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-purple-600 transition-colors duration-300">{t('content.location_scoring', 'स्थान स्कोरिंग')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.comprehensive_scoring_system_b', 'फुट ट्रैफिक पैटर्न, पहुंच मेट्रिक्स और रणनीतिक स्थिति के आधार पर व्यापक स्कोरिंग सिस्टम')}</p>
             </div>
             
             <div className="group text-center">
@@ -134,8 +134,8 @@ const SubmitLocation = () => {
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full animate-pulse delay-500"></div>
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-emerald-600 transition-colors duration-300">{t('content.expert_recommendations', 'Expert Recommendations')}</h3>
-              <p className="text-slate-600 leading-relaxed">{t('content.actionable_insights_from_indus', 'Actionable insights from industry experts with 5+ years experience and proven track record')}</p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-emerald-600 transition-colors duration-300">{t('content.expert_recommendations', 'विशेषज्ञ सिफारिशें')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.actionable_insights_from_indus', '5+ वर्षों के अनुभव और सिद्ध ट्रैक रिकॉर्ड वाले उद्योग विशेषज्ञों से कार्यसाध्य अंतर्दृष्टि')}</p>
             </div>
           </div>
         </div>
@@ -153,13 +153,13 @@ const SubmitLocation = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center mb-20">
             <h2 className="text-4xl md:text-6xl font-black text-white mb-8 leading-tight">
-              Why Location Analysis 
+              {t('content.why_location_analysis', 'स्थान विश्लेषण क्यों')}
               <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                Matters
+                {t('content.matters', 'महत्वपूर्ण है')}
               </span>
             </h2>
             <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed opacity-90">
-              The success of your ATM business depends heavily on location. Our expert analysis helps you make informed decisions and maximize your ROI.
+              {t('content.atm_business_success_depends', 'आपके एटीएम व्यवसाय की सफलता काफी हद तक स्थान पर निर्भर करती है। हमारा विशेषज्ञ विश्लेषण आपको सूचित निर्णय लेने और आपके ROI को अधिकतम करने में मदद करता है।')}
             </p>
           </div>
 

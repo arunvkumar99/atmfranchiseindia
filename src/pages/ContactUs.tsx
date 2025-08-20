@@ -78,8 +78,8 @@ const ContactUs = () => {
               <CardContent className="pt-6">
                 <DirectSheetsForm
                   formType="contact_submissions"
-                  title={t('titles.send_us_a_message', 'Send us a Message')}
-                  description="Fill out the form below and we'll get back to you within 24 hours."
+                  title={t('contact:form.title', 'Send us a Message')}
+                  description={t('contact:form.description', "Fill out the form below and we'll get back to you within 24 hours.")}
                 />
               </CardContent>
             </Card>

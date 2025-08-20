@@ -75,24 +75,26 @@ export const useStandardFileUploads = (formName: string) => {
 export const StandardDocumentUploads = ({ managers, hasError }: { 
   managers: ReturnType<typeof useStandardFileUploads>, 
   hasError: boolean 
-}) => (
+}) => {
+  const { t } = useTranslation('forms');
+  return (
   <>
     <div className="grid md:grid-cols-2 gap-4">
       <DirectFileUpload
         id="panDocument"
-        label="PAN Document Upload"
+        label={t('labels.panDocumentUpload', 'PAN Document Upload')}
         accept="image/jpeg,image/jpg,image/png,.pdf"
         onFileSelect={managers.panDocumentManager.setFile}
-        description="Upload JPG or PDF (Max 5MB)"
+        description={t('fileUpload.panDescription', 'Upload JPG or PDF (Max 5MB)')}
         hasError={!managers.panDocumentManager.uploadState.file && hasError}
       />
       
       <DirectFileUpload
         id="photo"
-        label="Passport Size Photo"
+        label={t('labels.passportPhoto', 'Passport Size Photo')}
         accept="image/*"
         onFileSelect={managers.photoManager.setFile}
-        description="Recent photo (Max 5MB)"
+        description={t('fileUpload.photoDescription', 'Recent photo (Max 5MB)')}
         hasError={!managers.photoManager.uploadState.file && hasError}
       />
     </div>
@@ -100,21 +102,22 @@ export const StandardDocumentUploads = ({ managers, hasError }: {
     <div className="grid md:grid-cols-2 gap-4">
       <DirectFileUpload
         id="aadhaarFront"
-        label="Aadhaar Front Side"
+        label={t('labels.aadhaarFront', 'Aadhaar Front Side')}
         accept="image/jpeg,image/jpg,image/png,.pdf"
         onFileSelect={managers.aadhaarFrontManager.setFile}
-        description="Front side (Max 5MB)"
+        description={t('fileUpload.aadhaarFrontDescription', 'Front side (Max 5MB)')}
         hasError={!managers.aadhaarFrontManager.uploadState.file && hasError}
       />
       
       <DirectFileUpload
         id="aadhaarBack"
-        label="Aadhaar Back Side"
+        label={t('labels.aadhaarBack', 'Aadhaar Back Side')}
         accept="image/jpeg,image/jpg,image/png,.pdf"
         onFileSelect={managers.aadhaarBackManager.setFile}
-        description="Back side (Max 5MB)"
+        description={t('fileUpload.aadhaarBackDescription', 'Back side (Max 5MB)')}
         hasError={!managers.aadhaarBackManager.uploadState.file && hasError}
       />
     </div>
   </>
-);
+  );
+};

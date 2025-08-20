@@ -250,19 +250,19 @@ export function EnquiryFormSinglePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <CardTitle className="text-2xl font-bold text-green-600">Business Enquiry Submitted!</CardTitle>
+                <CardTitle className="text-2xl font-bold text-green-600">{t('enquiryForm.successTitle', 'Business Enquiry Submitted!')}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 text-center">
                 <p className="text-muted-foreground">
-                  Thank you for your interest in our business opportunities. Our team will review your enquiry and contact you within 24 hours with detailed information.
+                  {t('enquiryForm.successMessage', 'Thank you for your interest in our business opportunities. Our team will review your enquiry and contact you within 24 hours with detailed information.')}
                 </p>
                 <div className="space-y-3">
-                  <h4 className="font-semibold">Next Steps:</h4>
+                  <h4 className="font-semibold">{t('enquiryForm.nextSteps', 'Next Steps:')}</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>✓ Initial consultation with our business development team</li>
-                    <li>✓ Detailed business model presentation</li>
-                    <li>✓ Investment planning discussion</li>
-                    <li>✓ Documentation and agreement process</li>
+                    <li>{t('enquiryForm.step1', '✓ Initial consultation with our business development team')}</li>
+                    <li>{t('enquiryForm.step2', '✓ Detailed business model presentation')}</li>
+                    <li>{t('enquiryForm.step3', '✓ Investment planning discussion')}</li>
+                    <li>{t('enquiryForm.step4', '✓ Documentation and agreement process')}</li>
                   </ul>
                 </div>
                 <Button 
@@ -272,7 +272,7 @@ export function EnquiryFormSinglePage() {
                   }}
                   className="w-full"
                 >
-                  Continue
+                  {t('buttons.continue', 'Continue')}
                 </Button>
               </CardContent>
             </Card>
@@ -317,13 +317,13 @@ export function EnquiryFormSinglePage() {
                 {/* Personal & Contact Information */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Personal & Contact Information</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t('enquiryForm.personalInfoTitle', 'Personal & Contact Information')}</h3>
                     <p className="text-sm text-muted-foreground mt-1">{t('components.enquiryformsinglepage.text3')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="fullName">Full Name *</Label>
+                      <Label htmlFor="fullName">{t('enquiryForm.fullNameLabel', 'Full Name')} *</Label>
                       <Input 
                         id="fullName" 
                         value={formData.fullName}
@@ -341,7 +341,7 @@ export function EnquiryFormSinglePage() {
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email Address *</Label>
+                      <Label htmlFor="email">{t('enquiryForm.emailLabel', 'Email Address')} *</Label>
                       <Input 
                         id="email" 
                         type="email"
@@ -362,12 +362,12 @@ export function EnquiryFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone Number *</Label>
+                      <Label htmlFor="phone">{t('enquiryForm.phoneLabel', 'Phone Number')} *</Label>
                       <Input 
                         id="phone" 
                         value={formData.phone}
                         onChange={(e) => handleInputChange('phone', e.target.value)}
-                        placeholder="Primary contact number" 
+                        placeholder={t('placeholders.primaryPhone', 'Primary contact number')} 
                         className={errors.phone ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -379,12 +379,12 @@ export function EnquiryFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="whatsapp">WhatsApp Number *</Label>
+                      <Label htmlFor="whatsapp">{t('labels.whatsapp', 'WhatsApp Number')} *</Label>
                       <Input 
                         id="whatsapp" 
                         value={formData.whatsappPhone}
                         onChange={(e) => handleInputChange('whatsappPhone', e.target.value)}
-                        placeholder="WhatsApp contact number" 
+                        placeholder={t('placeholders.whatsappContact', 'WhatsApp contact number')} 
                         className={errors.whatsappPhone ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -399,12 +399,12 @@ export function EnquiryFormSinglePage() {
 
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="city">City *</Label>
+                      <Label htmlFor="city">{t('labels.city', 'City')} *</Label>
                       <Input 
                         id="city" 
                         value={formData.city}
                         onChange={(e) => handleInputChange('city', e.target.value)}
-                        placeholder="Your city" 
+                        placeholder={t('placeholders.yourCity', 'Your city')} 
                         className={errors.city ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -416,10 +416,10 @@ export function EnquiryFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label>State *</Label>
+                      <Label>{t('labels.state') *</Label>
                       <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                         <SelectTrigger className={errors.state ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Choose your state" />
+                          <SelectValue placeholder={t('placeholders.chooseState', 'Choose your state')} />
                         </SelectTrigger>
                         <SelectContent>
                           {INDIAN_STATES.map((state) => (
@@ -435,12 +435,12 @@ export function EnquiryFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="pincode">Pincode *</Label>
+                      <Label htmlFor="pincode">{t('labels.pincode', 'Pincode')} *</Label>
                       <Input 
                         id="pincode" 
                         value={formData.pincode}
                         onChange={(e) => handleInputChange('pincode', e.target.value)}
-                        placeholder="6-digit pincode" 
+                        placeholder={t('placeholders.sixDigitPincode', '6-digit pincode')} 
                         className={errors.pincode ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -457,19 +457,19 @@ export function EnquiryFormSinglePage() {
                 {/* Business Information & Preferences */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Business Information & Preferences</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t('enquiryForm.businessInformation', 'Business Information & Preferences')}</h3>
                     <p className="text-sm text-muted-foreground mt-1">{t('components.enquiryformsinglepage.text4')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="businessType">Type of Business Interest *</Label>
+                      <Label htmlFor="businessType">{t('enquiryForm.typeOfBusinessInterest', 'Type of Business Interest')} *</Label>
                       <Select value={formData.businessType} onValueChange={(value) => handleInputChange('businessType', value)}>
                         <SelectTrigger className={errors.businessType ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Select business type" />
+                          <SelectValue placeholder={t('placeholders.selectBusinessType', 'Select business type')} />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="atm-franchise">ATM Franchise</SelectItem>
+                          <SelectItem value="atm-franchise">{t('enquiryForm.atmFranchise', 'ATM Franchise')}</SelectItem>
                           <SelectItem value="retail-outlet">{t('components.enquiryformsinglepage.text5')}</SelectItem>
                           <SelectItem value="distribution">{t('components.enquiryformsinglepage.text6')}</SelectItem>
                           <SelectItem value="other">{t('components.enquiryformsinglepage.text7')}</SelectItem>
@@ -484,18 +484,18 @@ export function EnquiryFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="investmentRange">Investment Range *</Label>
+                      <Label htmlFor="investmentRange">{t('enquiryForm.investmentRange', 'Investment Range')} *</Label>
                       <Select value={formData.investmentRange} onValueChange={(value) => handleInputChange('investmentRange', value)}>
                         <SelectTrigger className={errors.investmentRange ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Select investment range" />
+                          <SelectValue placeholder={t('placeholders.selectInvestmentRange', 'Select investment range')} />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="1-3-lakhs">{t('investment.1to3L', '₹1 - 3 Lakhs')}</SelectItem>
                           <SelectItem value="3-5-lakhs">{t('investment.3to5L', '₹3 - 5 Lakhs')}</SelectItem>
-                          <SelectItem value="5-10-lakhs">₹5 - 10 Lakhs</SelectItem>
-                          <SelectItem value="10-15-lakhs">₹10 - 15 Lakhs</SelectItem>
-                          <SelectItem value="15-25-lakhs">₹15 - 25 Lakhs</SelectItem>
-                          <SelectItem value="above-25-lakhs">Above ₹25 Lakhs</SelectItem>
+                          <SelectItem value="5-10-lakhs">{t('investment.5to10L', '₹5 - 10 Lakhs')}</SelectItem>
+                          <SelectItem value="10-15-lakhs">{t('investment.10to15L', '₹10 - 15 Lakhs')}</SelectItem>
+                          <SelectItem value="15-25-lakhs">{t('investment.15to25L', '₹15 - 25 Lakhs')}</SelectItem>
+                          <SelectItem value="above-25-lakhs">{t('investment.above25L', 'Above ₹25 Lakhs')}</SelectItem>
                         </SelectContent>
                       </Select>
                       {errors.investmentRange && (
@@ -509,10 +509,10 @@ export function EnquiryFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="timelineToStart">Timeline to Start *</Label>
+                      <Label htmlFor="timelineToStart">{t('enquiryForm.timelineToStart', 'Timeline to Start')} *</Label>
                       <Select value={formData.timelineToStart} onValueChange={(value) => handleInputChange('timelineToStart', value)}>
                         <SelectTrigger className={errors.timelineToStart ? 'border-red-500' : ''}>
-                          <SelectValue placeholder="Select timeline" />
+                          <SelectValue placeholder={t('placeholders.selectTimeline', 'Select timeline')} />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="immediately">{t('components.enquiryformsinglepage.text8')}</SelectItem>
@@ -531,15 +531,15 @@ export function EnquiryFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="hearAboutUs">How did you hear about us? (Optional)</Label>
+                      <Label htmlFor="hearAboutUs">{t('enquiryForm.howDidYouHear', 'How did you hear about us? (Optional)')}</Label>
                       <Select value={formData.hearAboutUs} onValueChange={(value) => handleInputChange('hearAboutUs', value)}>
                         <SelectTrigger>
-                          <SelectValue placeholder="Select source" />
+                          <SelectValue placeholder={t('placeholders.selectSource', 'Select source')} />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="google-search">{t('components.enquiryformsinglepage.text13')}</SelectItem>
                           <SelectItem value="social-media">{t('components.enquiryformsinglepage.text14')}</SelectItem>
-                          <SelectItem value="referral">Friend/Family Referral</SelectItem>
+                          <SelectItem value="referral">{t('enquiryForm.friendFamilyReferral', 'Friend/Family Referral')}</SelectItem>
                           <SelectItem value="advertisement">{t('components.enquiryformsinglepage.text15')}</SelectItem>
                           <SelectItem value="business-event">{t('components.enquiryformsinglepage.text16')}</SelectItem>
                           <SelectItem value="other">{t('components.enquiryformsinglepage.text17')}</SelectItem>
@@ -554,7 +554,7 @@ export function EnquiryFormSinglePage() {
                       id="additionalComments" 
                       value={formData.additionalComments}
                       onChange={(e) => handleInputChange('additionalComments', e.target.value)}
-                      placeholder="Any specific questions or requirements?" 
+                      placeholder={t('placeholders.specificQuestions', 'Any specific questions or requirements?')} 
                       rows={4}
                     />
                   </div>

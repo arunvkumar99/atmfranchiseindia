@@ -302,19 +302,19 @@ export function AgentFormEnhanced() {
                 <h3 className="text-lg font-semibold border-b pb-2">{t('components.agentformenhanced.text2')}</h3>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="fullName">Full Name *</Label>
+                  <Label htmlFor="fullName">{t('labels.fullName', 'Full Name')} *</Label>
                   <Input 
                     id="fullName" 
                     value={formData.fullName}
                     onChange={(e) => handleInputChange('fullName', e.target.value)}
-                    placeholder="Enter your full name as per PAN card" 
+                    placeholder={t('placeholders.fullNamePan', 'Enter your full name as per PAN card')} 
                     className="w-full"
                     required
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label>Select Your Gender *</Label>
+                  <Label>{t('labels.selectGender', 'Select Your Gender')} *</Label>
                   <RadioGroup 
                     value={formData.gender} 
                     onValueChange={(value) => handleInputChange('gender', value)}
@@ -336,11 +336,11 @@ export function AgentFormEnhanced() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label>Date of Birth as in PAN Card *</Label>
+                  <Label>{t('labels.dateOfBirthPan', 'Date of Birth as in PAN Card')} *</Label>
                   <div className="grid grid-cols-3 gap-3">
                     <Select value={formData.dateOfBirth.day} onValueChange={(value) => handleDateChange('day', value)}>
                       <SelectTrigger className="w-full">
-                        <SelectValue placeholder="Day" />
+                        <SelectValue placeholder={t('placeholders.day', 'Day')} />
                       </SelectTrigger>
                       <SelectContent>
                         {Array.from({length: 31}, (_, i) => (
@@ -357,7 +357,7 @@ export function AgentFormEnhanced() {
                         <SelectItem value="2">{t('components.agentformenhanced.text7')}</SelectItem>
                         <SelectItem value="3">{t('components.agentformenhanced.text8')}</SelectItem>
                         <SelectItem value="4">{t('components.agentformenhanced.text9')}</SelectItem>
-                        <SelectItem value="5">May</SelectItem>
+                        <SelectItem value="5">{t('months.may', 'May')}</SelectItem>
                         <SelectItem value="6">{t('components.agentformenhanced.text10')}</SelectItem>
                         <SelectItem value="7">{t('components.agentformenhanced.text11')}</SelectItem>
                         <SelectItem value="8">{t('components.agentformenhanced.text12')}</SelectItem>
@@ -382,23 +382,23 @@ export function AgentFormEnhanced() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="phone">Phone Number *</Label>
+                    <Label htmlFor="phone">{t('labels.phoneNumber', 'Phone Number')} *</Label>
                     <Input 
                       id="phone" 
                       value={formData.phone}
                       onChange={(e) => handleInputChange('phone', e.target.value)}
-                      placeholder="Primary contact number" 
+                      placeholder={t('placeholders.primaryPhone', 'Primary contact number')} 
                       className="w-full"
                       required
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="whatsapp">WhatsApp Number *</Label>
+                    <Label htmlFor="whatsapp">{t('labels.whatsappNumber', 'WhatsApp Number')} *</Label>
                     <Input 
                       id="whatsapp" 
                       value={formData.whatsappPhone}
                       onChange={(e) => handleInputChange('whatsappPhone', e.target.value)}
-                      placeholder="WhatsApp active number" 
+                      placeholder={t('placeholders.whatsappNumber', 'WhatsApp active number')} 
                       className="w-full"
                       required
                     />
@@ -406,20 +406,20 @@ export function AgentFormEnhanced() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="email">Email Address *</Label>
+                  <Label htmlFor="email">{t('labels.emailAddress', 'Email Address')} *</Label>
                   <Input 
                     id="email" 
                     type="email" 
                     value={formData.email}
                     onChange={(e) => handleInputChange('email', e.target.value)}
-                    placeholder="Enter your email address" 
+                    placeholder={t('placeholders.emailAddress', 'Enter your email address')} 
                     className="w-full"
                     required
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="panNumber">PAN Card Number (Format: ABCDE1234F) *</Label>
+                  <Label htmlFor="panNumber">{t('labels.panCardNumber', 'PAN Card Number (Format: ABCDE1234F)')} *</Label>
                   <Input 
                     id="panNumber" 
                     value={formData.panNumber}
@@ -427,18 +427,18 @@ export function AgentFormEnhanced() {
                       const value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 10);
                       handleInputChange('panNumber', value);
                     }}
-                    placeholder="ABCDE1234F" 
+                    placeholder={t('placeholders.panFormat', 'ABCDE1234F')} 
                     maxLength={10}
                     pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"
                     className="uppercase w-full" 
                     required
                   />
-                  <p className="text-xs text-muted-foreground">Format: 5 letters + 4 numbers + 1 letter</p>
+                  <p className="text-xs text-muted-foreground">{t('helpers.panFormat', 'Format: 5 letters + 4 numbers + 1 letter')}</p>
                 </div>
 
                 <DirectFileUpload
                   id="panDocument"
-                  label="Upload Front Side of your PAN Card *"
+                  label={t('forms.uploadPanFront')}
                   accept="image/jpeg,image/jpg,image/png,.pdf"
                   onFileSelect={(file) => handleFileChange('panDocument', file)}
                   description="Upload clear JPG or PDF of PAN card front side (Required)"
@@ -448,7 +448,7 @@ export function AgentFormEnhanced() {
                 />
 
                 <div className="space-y-2">
-                  <Label htmlFor="aadhaarNumber">Aadhaar Card Number (12 digits) *</Label>
+                  <Label htmlFor="aadhaarNumber">{t('labels.aadhaarNumber', 'Aadhaar Card Number (12 digits)')} *</Label>
                   <Input 
                     id="aadhaarNumber" 
                     value={formData.aadhaarNumber}
@@ -456,7 +456,7 @@ export function AgentFormEnhanced() {
                       const value = e.target.value.replace(/[^0-9]/g, '').slice(0, 12);
                       handleInputChange('aadhaarNumber', value);
                     }}
-                    placeholder="123456789012 (12 digits only)" 
+                    placeholder={t('placeholders.aadhaarFormat', '123456789012 (12 digits only)')} 
                     maxLength={12}
                     pattern="[0-9]{12}"
                     className="w-full"
@@ -469,7 +469,7 @@ export function AgentFormEnhanced() {
                   <div className="space-y-2">
                     <DirectFileUpload
                       id="aadhaarFront"
-                      label="Upload Aadhaar Front Side *"
+                      label={t('forms.uploadAadhaarFront')}
                       accept="image/jpeg,image/jpg,image/png,.pdf"
                       onFileSelect={(file) => handleFileChange('aadhaarFront', file)}
                       description="Upload JPG or PDF of Aadhaar front side (Required)"
@@ -481,7 +481,7 @@ export function AgentFormEnhanced() {
                   <div className="space-y-2">
                     <DirectFileUpload
                       id="aadhaarBack"
-                      label="Upload Aadhaar Back Side *"
+                      label={t('forms.uploadAadhaarBack')}
                       accept="image/jpeg,image/jpg,image/png,.pdf"
                       onFileSelect={(file) => handleFileChange('aadhaarBack', file)}
                       description="Upload JPG or PDF of Aadhaar back side (Required)"
@@ -493,24 +493,24 @@ export function AgentFormEnhanced() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="permanentAddress">Permanent Address *</Label>
+                  <Label htmlFor="permanentAddress">{t('labels.permanentAddress', 'Permanent Address')} *</Label>
                   <Textarea 
                     id="permanentAddress" 
                     value={formData.permanentAddress}
                     onChange={(e) => handleInputChange('permanentAddress', e.target.value)}
-                    placeholder="Enter your permanent address here" 
+                    placeholder={t('placeholders.permanentAddress', 'Enter your permanent address here')} 
                     className="w-full"
                     required
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="currentAddress">Current Address *</Label>
+                  <Label htmlFor="currentAddress">{t('labels.currentAddress', 'Current Address')} *</Label>
                   <Textarea 
                     id="currentAddress" 
                     value={formData.currentAddress}
                     onChange={(e) => handleInputChange('currentAddress', e.target.value)}
-                    placeholder="Enter your current address here" 
+                    placeholder={t('placeholders.currentAddress', 'Enter your current address here')} 
                     className="w-full"
                     required
                   />
@@ -518,10 +518,10 @@ export function AgentFormEnhanced() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label>Select Your State *</Label>
+                    <Label>{t('labels.selectState', 'Select Your State')} *</Label>
                     <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                       <SelectTrigger className="w-full bg-background">
-                        <SelectValue placeholder="Choose your state" />
+                        <SelectValue placeholder={t('placeholders.chooseState', 'Choose your state')} />
                       </SelectTrigger>
                       <SelectContent className="bg-background border border-border shadow-lg z-50">
                         {INDIAN_STATES.map((state) => (
@@ -531,12 +531,12 @@ export function AgentFormEnhanced() {
                     </Select>
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="district">District of Residence *</Label>
+                    <Label htmlFor="district">{t('labels.districtOfResidence', 'District of Residence')} *</Label>
                     <Input 
                       id="district" 
                       value={formData.district}
                       onChange={(e) => handleInputChange('district', e.target.value)}
-                      placeholder="Enter your district" 
+                      placeholder={t('placeholders.enterDistrict', 'Enter your district')} 
                       className="w-full"
                       required
                     />
@@ -545,7 +545,7 @@ export function AgentFormEnhanced() {
 
                 <DirectFileUpload
                   id="photo"
-                  label="Upload Passport Size Photo *"
+                  label={t('forms.uploadPassportPhoto')}
                   accept="image/*"
                   onFileSelect={(file) => handleFileChange('photo', file)}
                   description="Upload your recent passport size photo (Required)"
@@ -560,7 +560,7 @@ export function AgentFormEnhanced() {
                 <h3 className="text-lg font-semibold border-b pb-2">{t('components.agentformenhanced.text18')}</h3>
                 
                 <div className="space-y-2">
-                  <Label>Are you Joining As (Please choose from Below): *</Label>
+                  <Label>{t('labels.joiningAs', 'Are you Joining As (Please choose from Below):')} *</Label>
                   <RadioGroup 
                     value={formData.joiningAs} 
                     onValueChange={(value) => handleInputChange('joiningAs', value)}
@@ -578,19 +578,19 @@ export function AgentFormEnhanced() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="whyJoin">Why do you want to Join Sahasra Network as Agent *</Label>
+                  <Label htmlFor="whyJoin">{t('labels.whyJoinAgent', 'Why do you want to Join Sahasra Network as Agent')} *</Label>
                   <Textarea 
                     id="whyJoin" 
                     value={formData.whyJoin}
                     onChange={(e) => handleInputChange('whyJoin', e.target.value)}
-                    placeholder="Tell us about your motivation and goals as an agent" 
+                    placeholder={t('placeholders.agentMotivation', 'Tell us about your motivation and goals as an agent')} 
                     className="min-h-[100px] w-full" 
                     required
                   />
                 </div>
 
                 <div className="space-y-3">
-                  <Label>Languages You Can Speak (Please tick whichever apply) *</Label>
+                  <Label>{t('labels.languagesSpeak', 'Languages You Can Speak (Please tick whichever apply)')} *</Label>
                   <div className="grid grid-cols-2 gap-3">
                     {["English", "Hindi", "Telugu", "Tamil", "Kannada", "Malayalam", "Marathi", "Bengali", "Gujarati", "Punjabi", "Urdu", "Odia"].map((language) => (
                       <div key={language} className="flex items-center space-x-2">

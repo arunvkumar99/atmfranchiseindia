@@ -223,19 +223,19 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             onChange={(e) => i18n.changeLanguage(e.target.value)}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           >
-            <option value="en">{t('components.mobilenav.text1')}</option>
-            <option value="hi">हिन्दी</option>
-            <option value="ta">தமிழ்</option>
-            <option value="te">తెలుగు</option>
-            <option value="bn">বাংলা</option>
-            <option value="mr">मराठी</option>
-            <option value="gu">ગુજરાતી</option>
-            <option value="kn">ಕನ್ನಡ</option>
-            <option value="ml">മലയാളം</option>
-            <option value="pa">ਪੰਜਾਬੀ</option>
-            <option value="or">ଓଡ଼ିଆ</option>
-            <option value="as">অসমীয়া</option>
-            <option value="ur">اردو</option>
+            <option value="en">{t('languages.en', 'English')}</option>
+            <option value="hi">{t('languages.hi', 'हिन्दी')}</option>
+            <option value="ta">{t('languages.ta', 'தமிழ்')}</option>
+            <option value="te">{t('languages.te', 'తెలుగు')}</option>
+            <option value="bn">{t('languages.bn', 'বাংলা')}</option>
+            <option value="mr">{t('languages.mr', 'मराठी')}</option>
+            <option value="gu">{t('languages.gu', 'ગુજરાતી')}</option>
+            <option value="kn">{t('languages.kn', 'ಕನ್ನಡ')}</option>
+            <option value="ml">{t('languages.ml', 'മലയാളം')}</option>
+            <option value="pa">{t('languages.pa', 'ਪੰਜਾਬੀ')}</option>
+            <option value="or">{t('languages.or', 'ଓଡ଼ିଆ')}</option>
+            <option value="as">{t('languages.as', 'অসমীয়া')}</option>
+            <option value="ur">{t('languages.ur', 'اردو')}</option>
           </select>
         </div>
 

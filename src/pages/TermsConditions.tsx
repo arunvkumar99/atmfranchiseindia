@@ -14,19 +14,19 @@ const TermsConditions = () => {
           <div className="max-w-4xl mx-auto text-center">
             <Link to="/" className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 mb-8 transition-colors">
               <ArrowLeft className="w-4 h-4" />
-              Back to Home
+              {t('hero.backToHome', 'Back to Home')}
             </Link>
             <div className="flex justify-center mb-8">
               <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full text-sm font-medium animate-fade-in shadow-lg">
                 <FileText className="w-4 h-4" />
-                Legal Documentation
+                {t('hero.badge', 'Legal Documentation')}
               </div>
             </div>
             <h1 className="font-heading font-bold text-4xl md:text-6xl text-gray-900 mb-6 leading-tight animate-fade-in">
-              Terms & Conditions
+              {t('hero.title', 'Terms & Conditions')}
             </h1>
             <p className="font-body text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto animate-fade-in">
-              Clear guidelines for using our services
+              {t('hero.subtitle', 'Clear guidelines for using our services')}
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const TermsConditions = () => {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 mb-8">
-                Welcome to ATM Franchise India. These terms and conditions outline the rules and regulations for the use of our website and services provided by PixellPay Innovations Pvt Ltd.
+                {t('content.intro', 'Welcome to ATM Franchise India. These terms and conditions outline the rules and regulations for the use of our website and services provided by PixellPay Innovations Pvt Ltd.')}
               </p>
 
               {/* Acceptance of Terms */}
@@ -53,20 +53,20 @@ const TermsConditions = () => {
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement.
+                    {t('sections.acceptance.content', 'By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement.')}
                   </p>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2"></div>
-                      You must be at least 18 years old to use our services
+                      {t('sections.acceptance.point1', 'You must be at least 18 years old to use our services')}
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2"></div>
-                      You agree to provide accurate and complete information
+                      {t('sections.acceptance.point2', 'You agree to provide accurate and complete information')}
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2"></div>
-                      You are responsible for maintaining account confidentiality
+                      {t('sections.acceptance.point3', 'You are responsible for maintaining account confidentiality')}
                     </li>
                   </ul>
                 </CardContent>
@@ -84,20 +84,20 @@ const TermsConditions = () => {
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Our services are provided subject to the following terms and conditions:
+                    {t('sections.service.content', 'Our services are provided subject to the following terms and conditions:')}
                   </p>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2"></div>
-                      All franchise agreements are subject to approval
+                      {t('sections.service.point1', 'All franchise agreements are subject to approval')}
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2"></div>
-                      Services are provided through authorized banking partners
+                      {t('sections.service.point2', 'Services are provided through authorized banking partners')}
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2"></div>
-                      Location approval depends on regulatory compliance
+                      {t('sections.service.point3', 'Location approval depends on regulatory compliance')}
                     </li>
                   </ul>
                 </CardContent>
@@ -115,20 +115,20 @@ const TermsConditions = () => {
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    The following limitations apply to our liability:
+                    {t('sections.liability.content', 'The following limitations apply to our liability:')}
                   </p>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2"></div>
-                      Services are provided "as is" without warranties
+                      {t('sections.liability.point1', 'Services are provided "as is" without warranties')}
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2"></div>
-                      We are not liable for indirect or consequential damages
+                      {t('sections.liability.point2', 'We are not liable for indirect or consequential damages')}
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2"></div>
-                      Maximum liability is limited to amounts paid for services
+                      {t('sections.liability.point3', 'Maximum liability is limited to amounts paid for services')}
                     </li>
                   </ul>
                 </CardContent>
@@ -146,14 +146,14 @@ const TermsConditions = () => {
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    If you have any questions about these Terms and Conditions, please contact us:
+                    {t('sections.contact.content', 'If you have any questions about these Terms and Conditions, please contact us:')}
                   </p>
                   <div className="space-y-3 text-gray-700 mb-4">
                     <p><strong>{t('content.email', 'Email:')}</strong> <a href="mailto:atmfranchise@pixellpay.com" className="text-blue-600 hover:text-blue-700">atmfranchise@pixellpay.com</a></p>
                     <p><strong>{t('content.phone', 'Phone:')}</strong> <a href="tel:+919072380076" className="text-blue-600 hover:text-blue-700">+91 9072380076</a></p>
                   </div>
                   <p className="text-gray-700">
-                    These terms and conditions are effective as of July 2025 and may be updated from time to time.
+                    {t('sections.contact.effective', 'These terms and conditions are effective as of July 2025 and may be updated from time to time.')}
                   </p>
                 </CardContent>
               </Card>

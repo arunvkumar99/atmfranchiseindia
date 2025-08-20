@@ -34,6 +34,7 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
   showPreview = true,
   hasError = false
 }) => {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [dragActive, setDragActive] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -158,7 +159,7 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
                 className="w-full flex items-center justify-center gap-3 h-14 text-lg font-medium bg-blue-600 hover:bg-blue-700 text-white rounded-xl shadow-lg transform hover:scale-[1.02] transition-all"
               >
                 <File className="h-6 w-6" />
-                📁 Choose File
+                📁 {t('buttons.chooseFile')}
               </Button>
               
               <Button 
@@ -166,7 +167,7 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
                 className="w-full h-12 text-gray-600 hover:text-gray-800 rounded-xl border border-gray-300 hover:border-gray-400 transition-all"
                 variant="ghost"
               >
-                Cancel
+                {t('buttons.cancel')}
               </Button>
             </div>
           </div>
@@ -215,7 +216,7 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
                 className="flex items-center gap-2 min-h-[48px] px-6"
               >
                 {isMobile ? <Upload className="h-4 w-4" /> : <File className="h-4 w-4" />}
-                <span>{isMobile ? 'Upload File' : 'Select File'}</span>
+                <span>{isMobile ? t('buttons.uploadFile') : t('buttons.selectFile')}</span>
               </Button>
             </div>
           ) : (
@@ -247,7 +248,7 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
                 <div className="mt-4">
                   <img
                     src={preview}
-                    alt="Preview"
+                    alt={t('labels.preview')}
                     className="max-w-full h-auto max-h-48 rounded-lg border mx-auto"
                   />
                 </div>
@@ -303,7 +304,7 @@ export const EnhancedFileUpload: React.FC<EnhancedFileUploadProps> = ({
             fileManager.setFile(file).then(result => {
               if (!result.success && result.error) {
                 toast({
-                  title: "Camera Error",
+                  title: t('errors.cameraError'),
                   description: result.error,
                   variant: "destructive",
                 });

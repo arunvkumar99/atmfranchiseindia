@@ -1,72 +1,72 @@
 {
-  "timestamp": "2025-08-20T01:49:53.374Z",
+  "timestamp": "2025-08-20T17:03:54.300Z",
   "summary": {
-    "averageCompletion": 82,
+    "averageCompletion": 68,
     "languages": {
       "hi": {
-        "percentage": 80,
-        "totalStrings": 887,
-        "translatedStrings": 714
+        "percentage": 99,
+        "totalStrings": 1404,
+        "translatedStrings": 1387
       },
       "bn": {
-        "percentage": 80,
-        "totalStrings": 887,
-        "translatedStrings": 707
+        "percentage": 62,
+        "totalStrings": 1153,
+        "translatedStrings": 714
       },
       "ta": {
-        "percentage": 89,
-        "totalStrings": 824,
-        "translatedStrings": 736
+        "percentage": 66,
+        "totalStrings": 1127,
+        "translatedStrings": 743
       },
       "te": {
-        "percentage": 89,
-        "totalStrings": 824,
-        "translatedStrings": 736
+        "percentage": 66,
+        "totalStrings": 1127,
+        "translatedStrings": 743
       },
       "mr": {
-        "percentage": 78,
-        "totalStrings": 887,
-        "translatedStrings": 692
+        "percentage": 62,
+        "totalStrings": 1153,
+        "translatedStrings": 714
       },
       "gu": {
-        "percentage": 78,
-        "totalStrings": 887,
-        "translatedStrings": 692
+        "percentage": 62,
+        "totalStrings": 1153,
+        "translatedStrings": 714
       },
       "ur": {
         "percentage": 87,
-        "totalStrings": 824,
-        "translatedStrings": 720
+        "totalStrings": 857,
+        "translatedStrings": 742
       },
       "kn": {
-        "percentage": 78,
-        "totalStrings": 887,
-        "translatedStrings": 689
+        "percentage": 62,
+        "totalStrings": 1153,
+        "translatedStrings": 711
       },
       "or": {
-        "percentage": 78,
-        "totalStrings": 887,
-        "translatedStrings": 691
+        "percentage": 62,
+        "totalStrings": 1153,
+        "translatedStrings": 713
       },
       "pa": {
-        "percentage": 88,
-        "totalStrings": 824,
-        "translatedStrings": 721
+        "percentage": 66,
+        "totalStrings": 1127,
+        "translatedStrings": 743
       },
       "as": {
-        "percentage": 78,
-        "totalStrings": 887,
-        "translatedStrings": 691
+        "percentage": 62,
+        "totalStrings": 1153,
+        "translatedStrings": 713
       },
       "ml": {
-        "percentage": 78,
-        "totalStrings": 887,
-        "translatedStrings": 689
+        "percentage": 62,
+        "totalStrings": 1153,
+        "translatedStrings": 711
       }
     },
     "files": {
       "about.json": {
-        "hi": 7,
+        "hi": 100,
         "bn": 7,
         "ta": 7,
         "te": 7,
@@ -122,21 +122,24 @@
         "ml": 100
       },
       "common.json": {
-        "hi": 60,
-        "bn": 62,
-        "ta": 96,
-        "te": 96,
-        "mr": 62,
-        "gu": 62,
-        "ur": 95,
-        "kn": 62,
-        "or": 62,
-        "pa": 96,
-        "as": 62,
-        "ml": 62
+        "hi": 100,
+        "bn": 60,
+        "ta": 88,
+        "te": 88,
+        "mr": 60,
+        "gu": 60,
+        "ur": 87,
+        "kn": 60,
+        "or": 60,
+        "pa": 88,
+        "as": 60,
+        "ml": 60
+      },
+      "components.json": {
+        "hi": 100
       },
       "contact.json": {
-        "hi": 20,
+        "hi": 100,
         "bn": 20,
         "ta": 20,
         "te": 20,
@@ -150,46 +153,46 @@
         "ml": 20
       },
       "forms.json": {
-        "hi": 58,
-        "bn": 58,
-        "ta": 93,
-        "te": 93,
-        "mr": 58,
-        "gu": 58,
+        "hi": 98,
+        "bn": 24,
+        "ta": 28,
+        "te": 28,
+        "mr": 24,
+        "gu": 24,
         "ur": 93,
-        "kn": 58,
-        "or": 58,
-        "pa": 93,
-        "as": 58,
-        "ml": 58
+        "kn": 24,
+        "or": 24,
+        "pa": 28,
+        "as": 24,
+        "ml": 24
       },
       "franchise.json": {
-        "hi": 100,
-        "bn": 100,
-        "ta": 100,
-        "te": 100,
-        "mr": 89,
-        "gu": 89,
+        "hi": 99,
+        "bn": 86,
+        "ta": 86,
+        "te": 86,
+        "mr": 86,
+        "gu": 86,
         "ur": 89,
-        "kn": 89,
-        "or": 88,
-        "pa": 89,
-        "as": 89,
-        "ml": 89
+        "kn": 86,
+        "or": 85,
+        "pa": 86,
+        "as": 86,
+        "ml": 86
       },
       "home.json": {
-        "hi": 99,
-        "bn": 92,
-        "ta": 92,
-        "te": 92,
-        "mr": 92,
-        "gu": 92,
-        "ur": 92,
-        "kn": 92,
-        "or": 92,
-        "pa": 92,
-        "as": 92,
-        "ml": 92
+        "hi": 96,
+        "bn": 78,
+        "ta": 78,
+        "te": 78,
+        "mr": 78,
+        "gu": 78,
+        "ur": 93,
+        "kn": 78,
+        "or": 78,
+        "pa": 78,
+        "as": 78,
+        "ml": 78
       },
       "influencer.json": {
         "hi": 100,
@@ -262,7 +265,7 @@
         "ml": 100
       },
       "products.json": {
-        "hi": 97,
+        "hi": 100,
         "bn": 100,
         "ta": 97,
         "te": 97,
@@ -323,35 +326,14 @@
     "hi": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
-        "translatedCount": 4,
+        "totalStrings": 56,
+        "translatedCount": 56,
         "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 7,
-        "hasNativeScript": 4,
-        "untranslatedPaths": [
-          "cta.button"
-        ],
-        "suspiciousTranslations": [
-          {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
-            "translated": "Our Expertise",
-            "issue": "No native script"
-          },
-          {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
-            "translated": "Group Companies",
-            "issue": "No native script"
-          },
-          {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
-            "translated": "Who We Are",
-            "issue": "No native script"
-          }
-        ]
+        "percentage": 100,
+        "hasNativeScript": 56,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
       },
       "accessibility.json": {
         "fileName": "accessibility.json",
@@ -388,106 +370,120 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 83,
-        "englishCount": 55,
+        "totalStrings": 156,
+        "translatedCount": 156,
+        "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 60,
-        "hasNativeScript": 83,
-        "untranslatedPaths": [
-          "buttons.submit",
-          "buttons.save",
-          "buttons.cancel",
-          "buttons.next",
-          "buttons.previous"
-        ],
+        "percentage": 100,
+        "hasNativeScript": 156,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": []
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "totalStrings": 239,
+        "translatedCount": 239,
+        "englishCount": 0,
+        "emptyCount": 0,
+        "percentage": 100,
+        "hasNativeScript": 239,
+        "untranslatedPaths": [],
         "suspiciousTranslations": []
       },
       "contact.json": {
         "fileName": "contact.json",
         "totalStrings": 10,
-        "translatedCount": 2,
-        "englishCount": 8,
+        "translatedCount": 10,
+        "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 20,
-        "hasNativeScript": 2,
-        "untranslatedPaths": [
-          "phone.title",
-          "phone.hours",
-          "email.title",
-          "email.response",
-          "office.title"
-        ],
+        "percentage": 100,
+        "hasNativeScript": 10,
+        "untranslatedPaths": [],
         "suspiciousTranslations": []
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
-        "translatedCount": 75,
-        "englishCount": 1,
+        "totalStrings": 328,
+        "translatedCount": 322,
+        "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 58,
-        "hasNativeScript": 75,
-        "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
-        ],
+        "percentage": 98,
+        "hasNativeScript": 322,
+        "untranslatedPaths": [],
         "suspiciousTranslations": [
           {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
+            "path": "options.businessType.other",
+            "english": "Other",
+            "translated": "your.email@example.com",
             "issue": "No native script"
           },
           {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
+            "path": "options.gender.male",
+            "english": "Male",
+            "translated": "98765 43210",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
+            "path": "locationForm.success",
+            "english": "Location submitted successfully! We'll contact you",
+            "translated": "ABCDE1234F",
             "issue": "No native script"
           }
         ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
-        "translatedCount": 131,
+        "totalStrings": 135,
+        "translatedCount": 133,
         "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 100,
-        "hasNativeScript": 131,
-        "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
-        ],
-        "suspiciousTranslations": []
+        "percentage": 99,
+        "hasNativeScript": 133,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.enterprise.features[3]",
+            "english": "Personal relationship manager",
+            "translated": "Unlimited locations",
+            "issue": "No native script"
+          },
+          {
+            "path": "wlaOperators.subtitle",
+            "english": "Partner with the most trusted names in ATM operati",
+            "translated": "Priority placement",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 188,
-        "englishCount": 1,
+        "totalStrings": 246,
+        "translatedCount": 237,
+        "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 99,
-        "hasNativeScript": 188,
-        "untranslatedPaths": [
-          "testimonials.monthsLabel",
-          "valueProps.title",
-          "valueProps.subtitle",
-          "valueProps.perfectTime",
-          "valueProps.investmentRange"
-        ],
-        "suspiciousTranslations": []
+        "percentage": 96,
+        "hasNativeScript": 237,
+        "untranslatedPaths": [],
+        "suspiciousTranslations": [
+          {
+            "path": "valueProps.stats.penetration.suffix",
+            "english": " Per Lac",
+            "translated": "1000+",
+            "issue": "No native script"
+          },
+          {
+            "path": "valueProps.stats.penetration.label",
+            "english": "ATM Penetration",
+            "translated": "99.9%",
+            "issue": "No native script"
+          },
+          {
+            "path": "valueProps.stats.cash.value",
+            "english": "75",
+            "translated": "24/7",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -547,16 +543,12 @@
       "products.json": {
         "fileName": "products.json",
         "totalStrings": 89,
-        "translatedCount": 86,
-        "englishCount": 3,
+        "translatedCount": 89,
+        "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 97,
-        "hasNativeScript": 86,
-        "untranslatedPaths": [
-          "packages.basic.price",
-          "packages.silver.price",
-          "packages.gold.price"
-        ],
+        "percentage": 100,
+        "hasNativeScript": 89,
+        "untranslatedPaths": [],
         "suspiciousTranslations": []
       },
       "refund.json": {
@@ -596,31 +588,32 @@
     "bn": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -661,12 +654,12 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 86,
+        "totalStrings": 156,
+        "translatedCount": 93,
         "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 62,
-        "hasNativeScript": 86,
+        "percentage": 60,
+        "hasNativeScript": 93,
         "untranslatedPaths": [
           "buttons.submit",
           "buttons.save",
@@ -674,7 +667,30 @@
           "buttons.next",
           "buttons.previous"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "error",
+            "english": "An error occurred",
+            "translated": "[BN] An error occurred",
+            "issue": "No native script"
+          },
+          {
+            "path": "success",
+            "english": "Success",
+            "translated": "[BN] Success",
+            "issue": "No native script"
+          },
+          {
+            "path": "submit",
+            "english": "Submit",
+            "translated": "[BN] Submit",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\bn\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -695,64 +711,46 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
+        "totalStrings": 320,
         "translatedCount": 76,
-        "englishCount": 1,
+        "englishCount": 244,
         "emptyCount": 0,
-        "percentage": 58,
+        "percentage": 24,
         "hasNativeScript": 76,
         "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.email",
+          "placeholders.phone"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
-            "issue": "No native script"
-          },
-          {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
-            "issue": "No native script"
-          },
-          {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
-        "translatedCount": 131,
-        "englishCount": 0,
+        "totalStrings": 135,
+        "translatedCount": 116,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 100,
-        "hasNativeScript": 131,
+        "percentage": 86,
+        "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
         "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -760,7 +758,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -865,31 +882,32 @@
     "ta": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -930,18 +948,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
+        "totalStrings": 125,
+        "translatedCount": 110,
         "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 88,
+        "hasNativeScript": 110,
         "untranslatedPaths": [
-          "social.whatsapp",
-          "status.loading",
-          "status.success",
-          "status.error",
-          "status.warning"
+          "actions.filter",
+          "actions.sort",
+          "actions.export",
+          "actions.import",
+          "actions.upload"
         ],
         "suspiciousTranslations": [
           {
@@ -964,6 +982,10 @@
           }
         ]
       },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\ta\\components.json'"
+      },
       "contact.json": {
         "fileName": "contact.json",
         "totalStrings": 10,
@@ -983,64 +1005,65 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
+        "totalStrings": 325,
         "translatedCount": 91,
-        "englishCount": 0,
+        "englishCount": 42,
         "emptyCount": 0,
-        "percentage": 93,
+        "percentage": 28,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "options.hearAbout.newspaper",
-          "options.hearAbout.other",
-          "options.businessType.retail",
-          "options.businessType.service",
-          "options.businessType.grocery"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.full_name",
+          "placeholders.full_name_pan"
         ],
         "suspiciousTranslations": [
           {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
+            "path": "placeholders.email",
+            "english": "Enter your email address",
             "translated": "example@email.com",
             "issue": "No native script"
           },
           {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
+            "path": "placeholders.phone",
+            "english": "10-digit mobile number",
             "translated": "+91 98765 43210",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "locationForm.sections.personal",
+            "english": "Personal Information",
+            "translated": "Male",
             "issue": "No native script"
           }
         ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
-        "translatedCount": 131,
-        "englishCount": 0,
+        "totalStrings": 135,
+        "translatedCount": 116,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 100,
-        "hasNativeScript": 131,
+        "percentage": 86,
+        "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
         "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -1048,7 +1071,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -1157,31 +1199,32 @@
     "te": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -1222,18 +1265,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
+        "totalStrings": 125,
+        "translatedCount": 110,
         "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 88,
+        "hasNativeScript": 110,
         "untranslatedPaths": [
-          "social.whatsapp",
-          "status.loading",
-          "status.success",
-          "status.error",
-          "status.warning"
+          "actions.filter",
+          "actions.sort",
+          "actions.export",
+          "actions.import",
+          "actions.upload"
         ],
         "suspiciousTranslations": [
           {
@@ -1256,6 +1299,10 @@
           }
         ]
       },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\te\\components.json'"
+      },
       "contact.json": {
         "fileName": "contact.json",
         "totalStrings": 10,
@@ -1275,64 +1322,65 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
+        "totalStrings": 325,
         "translatedCount": 91,
-        "englishCount": 0,
+        "englishCount": 42,
         "emptyCount": 0,
-        "percentage": 93,
+        "percentage": 28,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "options.hearAbout.newspaper",
-          "options.hearAbout.other",
-          "options.businessType.retail",
-          "options.businessType.service",
-          "options.businessType.grocery"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.full_name",
+          "placeholders.full_name_pan"
         ],
         "suspiciousTranslations": [
           {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
+            "path": "placeholders.email",
+            "english": "Enter your email address",
             "translated": "example@email.com",
             "issue": "No native script"
           },
           {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
+            "path": "placeholders.phone",
+            "english": "10-digit mobile number",
             "translated": "+91 98765 43210",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "locationForm.sections.personal",
+            "english": "Personal Information",
+            "translated": "Male",
             "issue": "No native script"
           }
         ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
-        "translatedCount": 131,
-        "englishCount": 0,
+        "totalStrings": 135,
+        "translatedCount": 116,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 100,
-        "hasNativeScript": 131,
+        "percentage": 86,
+        "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
         "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -1340,7 +1388,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -1449,31 +1516,32 @@
     "mr": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -1514,12 +1582,12 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 86,
+        "totalStrings": 156,
+        "translatedCount": 93,
         "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 62,
-        "hasNativeScript": 86,
+        "percentage": 60,
+        "hasNativeScript": 93,
         "untranslatedPaths": [
           "buttons.submit",
           "buttons.save",
@@ -1527,7 +1595,30 @@
           "buttons.next",
           "buttons.previous"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "error",
+            "english": "An error occurred",
+            "translated": "[MR] An error occurred",
+            "issue": "No native script"
+          },
+          {
+            "path": "success",
+            "english": "Success",
+            "translated": "[MR] Success",
+            "issue": "No native script"
+          },
+          {
+            "path": "submit",
+            "english": "Submit",
+            "translated": "[MR] Submit",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\mr\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -1548,83 +1639,46 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
+        "totalStrings": 320,
         "translatedCount": 76,
-        "englishCount": 1,
+        "englishCount": 244,
         "emptyCount": 0,
-        "percentage": 58,
+        "percentage": 24,
         "hasNativeScript": 76,
         "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.email",
+          "placeholders.phone"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
-            "issue": "No native script"
-          },
-          {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
-            "issue": "No native script"
-          },
-          {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
+        "totalStrings": 135,
         "translatedCount": 116,
-        "englishCount": 0,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 89,
+        "percentage": 86,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "comparison.models.basic.investment",
-            "english": "₹2-5 Lakhs",
-            "translated": "Single location setup",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.atms",
-            "english": "1-2 ATMs",
-            "translated": "Basic training program",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.roi",
-            "english": "15-18% Annual",
-            "translated": "Monthly maintenance",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -1632,7 +1686,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -1737,31 +1810,32 @@
     "gu": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -1802,12 +1876,12 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 86,
+        "totalStrings": 156,
+        "translatedCount": 93,
         "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 62,
-        "hasNativeScript": 86,
+        "percentage": 60,
+        "hasNativeScript": 93,
         "untranslatedPaths": [
           "buttons.submit",
           "buttons.save",
@@ -1815,7 +1889,30 @@
           "buttons.next",
           "buttons.previous"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "error",
+            "english": "An error occurred",
+            "translated": "[GU] An error occurred",
+            "issue": "No native script"
+          },
+          {
+            "path": "success",
+            "english": "Success",
+            "translated": "[GU] Success",
+            "issue": "No native script"
+          },
+          {
+            "path": "submit",
+            "english": "Submit",
+            "translated": "[GU] Submit",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\gu\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -1836,83 +1933,46 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
+        "totalStrings": 320,
         "translatedCount": 76,
-        "englishCount": 1,
+        "englishCount": 244,
         "emptyCount": 0,
-        "percentage": 58,
+        "percentage": 24,
         "hasNativeScript": 76,
         "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.email",
+          "placeholders.phone"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
-            "issue": "No native script"
-          },
-          {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
-            "issue": "No native script"
-          },
-          {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
+        "totalStrings": 135,
         "translatedCount": 116,
-        "englishCount": 0,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 89,
+        "percentage": 86,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "comparison.models.basic.investment",
-            "english": "₹2-5 Lakhs",
-            "translated": "Single location setup",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.atms",
-            "english": "1-2 ATMs",
-            "translated": "Basic training program",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.roi",
-            "english": "15-18% Annual",
-            "translated": "Monthly maintenance",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -1920,7 +1980,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -2090,18 +2169,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 102,
+        "totalStrings": 125,
+        "translatedCount": 109,
         "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 95,
-        "hasNativeScript": 102,
+        "percentage": 87,
+        "hasNativeScript": 109,
         "untranslatedPaths": [
-          "social.whatsapp",
-          "status.loading",
-          "status.success",
-          "status.error",
-          "status.warning"
+          "actions.filter",
+          "actions.sort",
+          "actions.export",
+          "actions.import",
+          "actions.upload"
         ],
         "suspiciousTranslations": [
           {
@@ -2123,6 +2202,10 @@
             "issue": "No native script"
           }
         ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\ur\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -2214,12 +2297,12 @@
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 204,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 93,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -2336,31 +2419,32 @@
     "kn": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -2401,12 +2485,12 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 86,
+        "totalStrings": 156,
+        "translatedCount": 93,
         "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 62,
-        "hasNativeScript": 86,
+        "percentage": 60,
+        "hasNativeScript": 93,
         "untranslatedPaths": [
           "buttons.submit",
           "buttons.save",
@@ -2414,7 +2498,30 @@
           "buttons.next",
           "buttons.previous"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "error",
+            "english": "An error occurred",
+            "translated": "[KN] An error occurred",
+            "issue": "No native script"
+          },
+          {
+            "path": "success",
+            "english": "Success",
+            "translated": "[KN] Success",
+            "issue": "No native script"
+          },
+          {
+            "path": "submit",
+            "english": "Submit",
+            "translated": "[KN] Submit",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\kn\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -2435,83 +2542,46 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
+        "totalStrings": 320,
         "translatedCount": 76,
-        "englishCount": 1,
+        "englishCount": 244,
         "emptyCount": 0,
-        "percentage": 58,
+        "percentage": 24,
         "hasNativeScript": 76,
         "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.email",
+          "placeholders.phone"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
-            "issue": "No native script"
-          },
-          {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
-            "issue": "No native script"
-          },
-          {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
+        "totalStrings": 135,
         "translatedCount": 116,
-        "englishCount": 0,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 89,
+        "percentage": 86,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "comparison.models.basic.investment",
-            "english": "₹2-5 Lakhs",
-            "translated": "Single location setup",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.atms",
-            "english": "1-2 ATMs",
-            "translated": "Basic training program",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.roi",
-            "english": "15-18% Annual",
-            "translated": "Monthly maintenance",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -2519,7 +2589,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -2628,31 +2717,32 @@
     "or": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -2693,12 +2783,12 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 86,
+        "totalStrings": 156,
+        "translatedCount": 93,
         "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 62,
-        "hasNativeScript": 86,
+        "percentage": 60,
+        "hasNativeScript": 93,
         "untranslatedPaths": [
           "buttons.submit",
           "buttons.save",
@@ -2706,7 +2796,30 @@
           "buttons.next",
           "buttons.previous"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "error",
+            "english": "An error occurred",
+            "translated": "[OR] An error occurred",
+            "issue": "No native script"
+          },
+          {
+            "path": "success",
+            "english": "Success",
+            "translated": "[OR] Success",
+            "issue": "No native script"
+          },
+          {
+            "path": "submit",
+            "english": "Submit",
+            "translated": "[OR] Submit",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\or\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -2727,83 +2840,53 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
+        "totalStrings": 320,
         "translatedCount": 76,
-        "englishCount": 1,
+        "englishCount": 244,
         "emptyCount": 0,
-        "percentage": 58,
+        "percentage": 24,
         "hasNativeScript": 76,
         "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.email",
+          "placeholders.phone"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
-            "issue": "No native script"
-          },
-          {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
-            "issue": "No native script"
-          },
-          {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
+        "totalStrings": 135,
         "translatedCount": 115,
-        "englishCount": 0,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 88,
+        "percentage": 85,
         "hasNativeScript": 115,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
         "suspiciousTranslations": [
           {
-            "path": "comparison.models.basic.investment",
-            "english": "₹2-5 Lakhs",
-            "translated": "Single location setup",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.atms",
-            "english": "1-2 ATMs",
-            "translated": "Basic training program",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.roi",
-            "english": "15-18% Annual",
-            "translated": "Monthly maintenance",
+            "path": "comparison.models.enterprise.atms",
+            "english": "6+ ATMs",
+            "translated": "6+ ATM",
             "issue": "No native script"
           }
         ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -2811,7 +2894,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -2916,31 +3018,32 @@
     "pa": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -2981,18 +3084,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
+        "totalStrings": 125,
+        "translatedCount": 110,
         "englishCount": 0,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 88,
+        "hasNativeScript": 110,
         "untranslatedPaths": [
-          "social.whatsapp",
-          "status.loading",
-          "status.success",
-          "status.error",
-          "status.warning"
+          "actions.filter",
+          "actions.sort",
+          "actions.export",
+          "actions.import",
+          "actions.upload"
         ],
         "suspiciousTranslations": [
           {
@@ -3015,6 +3118,10 @@
           }
         ]
       },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\pa\\components.json'"
+      },
       "contact.json": {
         "fileName": "contact.json",
         "totalStrings": 10,
@@ -3034,83 +3141,65 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
+        "totalStrings": 325,
         "translatedCount": 91,
-        "englishCount": 0,
+        "englishCount": 42,
         "emptyCount": 0,
-        "percentage": 93,
+        "percentage": 28,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "options.hearAbout.newspaper",
-          "options.hearAbout.other",
-          "options.businessType.retail",
-          "options.businessType.service",
-          "options.businessType.grocery"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.full_name",
+          "placeholders.full_name_pan"
         ],
         "suspiciousTranslations": [
           {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
+            "path": "placeholders.email",
+            "english": "Enter your email address",
             "translated": "example@email.com",
             "issue": "No native script"
           },
           {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
+            "path": "placeholders.phone",
+            "english": "10-digit mobile number",
             "translated": "+91 98765 43210",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "locationForm.sections.personal",
+            "english": "Personal Information",
+            "translated": "Male",
             "issue": "No native script"
           }
         ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
+        "totalStrings": 135,
         "translatedCount": 116,
-        "englishCount": 0,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 89,
+        "percentage": 86,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "comparison.models.basic.investment",
-            "english": "₹2-5 Lakhs",
-            "translated": "Single location setup",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.atms",
-            "english": "1-2 ATMs",
-            "translated": "Basic training program",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.roi",
-            "english": "15-18% Annual",
-            "translated": "Monthly maintenance",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -3118,7 +3207,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -3227,31 +3335,32 @@
     "as": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -3292,12 +3401,12 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 86,
+        "totalStrings": 156,
+        "translatedCount": 93,
         "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 62,
-        "hasNativeScript": 86,
+        "percentage": 60,
+        "hasNativeScript": 93,
         "untranslatedPaths": [
           "buttons.submit",
           "buttons.save",
@@ -3305,7 +3414,30 @@
           "buttons.next",
           "buttons.previous"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "error",
+            "english": "An error occurred",
+            "translated": "[AS] An error occurred",
+            "issue": "No native script"
+          },
+          {
+            "path": "success",
+            "english": "Success",
+            "translated": "[AS] Success",
+            "issue": "No native script"
+          },
+          {
+            "path": "submit",
+            "english": "Submit",
+            "translated": "[AS] Submit",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\as\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -3326,83 +3458,46 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
+        "totalStrings": 320,
         "translatedCount": 76,
-        "englishCount": 1,
+        "englishCount": 244,
         "emptyCount": 0,
-        "percentage": 58,
+        "percentage": 24,
         "hasNativeScript": 76,
         "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.email",
+          "placeholders.phone"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
-            "issue": "No native script"
-          },
-          {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
-            "issue": "No native script"
-          },
-          {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
+        "totalStrings": 135,
         "translatedCount": 116,
-        "englishCount": 0,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 89,
+        "percentage": 86,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "comparison.models.basic.investment",
-            "english": "₹2-5 Lakhs",
-            "translated": "Single location setup",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.atms",
-            "english": "1-2 ATMs",
-            "translated": "Basic training program",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.roi",
-            "english": "15-18% Annual",
-            "translated": "Monthly maintenance",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 173,
+        "totalStrings": 242,
+        "translatedCount": 188,
         "englishCount": 16,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 173,
+        "percentage": 78,
+        "hasNativeScript": 188,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -3410,7 +3505,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",
@@ -3515,31 +3629,32 @@
     "ml": {
       "about.json": {
         "fileName": "about.json",
-        "totalStrings": 55,
+        "totalStrings": 56,
         "translatedCount": 4,
-        "englishCount": 0,
+        "englishCount": 2,
         "emptyCount": 0,
         "percentage": 7,
         "hasNativeScript": 4,
         "untranslatedPaths": [
-          "cta.button"
+          "hero.title.middle",
+          "hero.title.suffix"
         ],
         "suspiciousTranslations": [
           {
-            "path": "hero.subtitle",
-            "english": "Your trusted partner in the ATM franchise business",
+            "path": "hero.buttons.companies",
+            "english": "Group Companies",
             "translated": "Our Expertise",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.expertise",
-            "english": "Our Expertise",
+            "path": "whoWeAre.title",
+            "english": "Who We Are",
             "translated": "Group Companies",
             "issue": "No native script"
           },
           {
-            "path": "hero.buttons.companies",
-            "english": "Group Companies",
+            "path": "whoWeAre.subtitle",
+            "english": "Empowering entrepreneurs with trusted ATM franchis",
             "translated": "Who We Are",
             "issue": "No native script"
           }
@@ -3580,12 +3695,12 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 138,
-        "translatedCount": 86,
+        "totalStrings": 156,
+        "translatedCount": 93,
         "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 62,
-        "hasNativeScript": 86,
+        "percentage": 60,
+        "hasNativeScript": 93,
         "untranslatedPaths": [
           "buttons.submit",
           "buttons.save",
@@ -3593,7 +3708,30 @@
           "buttons.next",
           "buttons.previous"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "error",
+            "english": "An error occurred",
+            "translated": "[ML] An error occurred",
+            "issue": "No native script"
+          },
+          {
+            "path": "success",
+            "english": "Success",
+            "translated": "[ML] Success",
+            "issue": "No native script"
+          },
+          {
+            "path": "submit",
+            "english": "Submit",
+            "translated": "[ML] Submit",
+            "issue": "No native script"
+          }
+        ]
+      },
+      "components.json": {
+        "fileName": "components.json",
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\public\\locales\\ml\\components.json'"
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -3614,83 +3752,46 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 130,
+        "totalStrings": 320,
         "translatedCount": 76,
-        "englishCount": 1,
+        "englishCount": 244,
         "emptyCount": 0,
-        "percentage": 58,
+        "percentage": 24,
         "hasNativeScript": 76,
         "untranslatedPaths": [
-          "options.businessType.other",
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main"
+          "labels.fullName",
+          "labels.email",
+          "labels.phone",
+          "placeholders.email",
+          "placeholders.phone"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "fields.newsletter",
-            "english": "Subscribe to newsletter",
-            "translated": "Enter your email address",
-            "issue": "No native script"
-          },
-          {
-            "path": "fields.captcha",
-            "english": "Enter captcha",
-            "translated": "10-digit mobile number",
-            "issue": "No native script"
-          },
-          {
-            "path": "placeholders.fullName",
-            "english": "Enter your full name",
-            "translated": "Type your message here...",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "franchise.json": {
         "fileName": "franchise.json",
-        "totalStrings": 131,
+        "totalStrings": 135,
         "translatedCount": 116,
-        "englishCount": 0,
+        "englishCount": 19,
         "emptyCount": 0,
-        "percentage": 89,
+        "percentage": 86,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "getStarted.subtitle",
-          "getStarted.cta.apply",
-          "getStarted.cta.call",
-          "getStarted.cta.schedule"
+          "content.become_an",
+          "content.partner",
+          "content.trusted_atm_franchise_partner",
+          "content.simple_4step_process",
+          "comparison.models.basic.features[0]"
         ],
-        "suspiciousTranslations": [
-          {
-            "path": "comparison.models.basic.investment",
-            "english": "₹2-5 Lakhs",
-            "translated": "Single location setup",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.atms",
-            "english": "1-2 ATMs",
-            "translated": "Basic training program",
-            "issue": "No native script"
-          },
-          {
-            "path": "comparison.models.basic.roi",
-            "english": "15-18% Annual",
-            "translated": "Monthly maintenance",
-            "issue": "No native script"
-          }
-        ]
+        "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 189,
-        "translatedCount": 174,
+        "totalStrings": 242,
+        "translatedCount": 189,
         "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 174,
+        "percentage": 78,
+        "hasNativeScript": 189,
         "untranslatedPaths": [
           "features.roi.title",
           "features.roi.subtitle",
@@ -3698,7 +3799,26 @@
           "features.penetration.title",
           "features.penetration.subtitle"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "trustSignals.metrics.partnersValue",
+            "english": "1000+",
+            "translated": "Why ATM Business?",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.uptimeValue",
+            "english": "99.9%",
+            "translated": "Zero Loss and Fully Transparent Business Opportuni",
+            "issue": "No native script"
+          },
+          {
+            "path": "trustSignals.metrics.experienceValue",
+            "english": "5+ Years",
+            "translated": "Perfect Time for ATM Business in Rural India",
+            "issue": "No native script"
+          }
+        ]
       },
       "influencer.json": {
         "fileName": "influencer.json",

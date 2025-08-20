@@ -54,14 +54,14 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
 
   // Form validation setup
   const validationRules = [
-    { field: 'jobTitle', required: true, errorMessage: 'Please select a job position' },
+    { field: 'jobTitle', required: true, errorMessage: t('validation.selectJobPosition', 'Please select a job position') },
     { ...FULL_NAME_VALIDATION, field: 'candidateName' },
     { ...PHONE_VALIDATION, field: 'phone' },
     { ...EMAIL_VALIDATION, field: 'email' },
-    { field: 'experience', required: true, errorMessage: 'Please enter your experience' },
-    { field: 'currentLocation', required: true, errorMessage: 'Please enter your current location' },
-    { field: 'expectedSalary', required: true, errorMessage: 'Please enter expected salary' },
-    { field: 'noticePeriod', required: true, errorMessage: 'Please select notice period' }
+    { field: 'experience', required: true, errorMessage: t('validation.enterExperience', 'Please enter your experience') },
+    { field: 'currentLocation', required: true, errorMessage: t('validation.enterLocation', 'Please enter your current location') },
+    { field: 'expectedSalary', required: true, errorMessage: t('validation.enterSalary', 'Please enter expected salary') },
+    { field: 'noticePeriod', required: true, errorMessage: t('validation.selectNoticePeriod', 'Please select notice period') }
   ];
 
   const { errors, validateForm, validateSingleField, clearFieldError } = useFormValidation({
@@ -103,8 +103,8 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
 
     if (!isCaptchaVerified) {
       toast({
-        title: "Security Verification Required",
-        description: "Please complete the security verification before submitting.",
+        title: t('validation.securityVerificationRequired', 'Security Verification Required'),
+        description: t('validation.completeSecurityVerification', 'Please complete the security verification before submitting.'),
         variant: "destructive"
       });
       return;
@@ -244,19 +244,19 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <CardTitle className="text-2xl font-bold text-green-600">Job Application Submitted!</CardTitle>
+                <CardTitle className="text-2xl font-bold text-green-600">{t('jobApplicationSubmitted')}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 text-center">
                 <p className="text-muted-foreground">
-                  Thank you for applying! We'll review your application and get back to you soon.
+                  {t('jobApplication.thankYouMessage', "Thank you for applying! We'll review your application and get back to you soon.")}
                 </p>
                 <div className="space-y-3">
-                  <h4 className="font-semibold">Next Steps:</h4>
+                  <h4 className="font-semibold">{t('jobApplication.nextSteps', 'Next Steps:')}</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>✓ Application review by HR team</li>
-                    <li>✓ Initial screening call (if shortlisted)</li>
-                    <li>✓ Technical/HR interviews</li>
-                    <li>✓ Final decision and offer letter</li>
+                    <li>✓ {t('jobApplication.step1', 'Application review by HR team')}</li>
+                    <li>✓ {t('jobApplication.step2', 'Initial screening call (if shortlisted)')}</li>
+                    <li>✓ {t('jobApplication.step3', 'Technical/HR interviews')}</li>
+                    <li>✓ {t('jobApplication.step4', 'Final decision and offer letter')}</li>
                   </ul>
                 </div>
                 <Button 
@@ -266,7 +266,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                   }}
                   className="w-full"
                 >
-                  Continue
+                  {t('buttons.continue', 'Continue')}
                 </Button>
               </CardContent>
             </Card>
@@ -291,7 +291,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
               Apply for <span className="text-gradient">{t('components.jobapplicationsinglepage.text2')}</span>
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Join our team and build your career with us
+              {t('jobApplication.subtitle', 'Join our team and build your career with us')}
             </p>
           </div>
 
@@ -302,14 +302,14 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">{t('components.jobapplicationsinglepage.text3')}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">Select the position you're applying for</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('jobApplication.selectPosition', 'Select the position you\'re applying for')}</p>
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="jobTitle">Position Applying For *</Label>
+                    <Label htmlFor="jobTitle">{t('jobApplication.positionApplyingFor', 'Position Applying For')} *</Label>
                     <Select value={formData.jobTitle} onValueChange={(value) => handleInputChange('jobTitle', value)}>
                       <SelectTrigger className={errors.jobTitle ? 'border-red-500' : ''}>
-                        <SelectValue placeholder="Select a job position" />
+                        <SelectValue placeholder={t('selectJobPosition')} />
                       </SelectTrigger>
                       <SelectContent>
                         {jobs.map((job) => (
@@ -337,7 +337,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="candidateName">Full Name *</Label>
+                      <Label htmlFor="candidateName">{t('labels.fullName', 'Full Name')} *</Label>
                       <Input 
                         id="candidateName" 
                         value={formData.candidateName}
@@ -355,7 +355,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email Address *</Label>
+                      <Label htmlFor="email">{t('jobApplication.emailAddress', 'Email Address')} *</Label>
                       <Input 
                         id="email" 
                         type="email"
@@ -376,12 +376,12 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone Number *</Label>
+                      <Label htmlFor="phone">{t('labels.phone', 'Phone Number')} *</Label>
                       <Input 
                         id="phone" 
                         value={formData.phone}
                         onChange={(e) => handleInputChange('phone', e.target.value)}
-                        placeholder="Your contact number" 
+                        placeholder={t('contactNumberPlaceholder')} 
                         className={errors.phone ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -394,12 +394,12 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="currentLocation">Current Location *</Label>
+                      <Label htmlFor="currentLocation">{t('jobApplication.currentLocation', 'Current Location')} *</Label>
                       <Input 
                         id="currentLocation" 
                         value={formData.currentLocation}
                         onChange={(e) => handleInputChange('currentLocation', e.target.value)}
-                        placeholder="City, State" 
+                        placeholder={t('cityStatePlaceholder')} 
                         className={errors.currentLocation ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -422,12 +422,12 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="experience">Total Experience *</Label>
+                      <Label htmlFor="experience">{t('labels.totalExperience', 'Total Experience')} *</Label>
                       <Input 
                         id="experience" 
                         value={formData.experience}
                         onChange={(e) => handleInputChange('experience', e.target.value)}
-                        placeholder="e.g., 3 years, Fresher, etc." 
+                        placeholder={t('placeholders.experience', 'e.g., 3 years, Fresher, etc.')} 
                         className={errors.experience ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -440,12 +440,12 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="expectedSalary">Expected Salary *</Label>
+                      <Label htmlFor="expectedSalary">{t('labels.expectedSalary', 'Expected Salary')} *</Label>
                       <Input 
                         id="expectedSalary" 
                         value={formData.expectedSalary}
                         onChange={(e) => handleInputChange('expectedSalary', e.target.value)}
-                        placeholder="e.g., ₹5,00,000 per annum" 
+                        placeholder={t('placeholders.salary', 'e.g., ₹5,00,000 per annum')} 
                         className={errors.expectedSalary ? 'border-red-500 focus-visible:ring-red-500' : ''}
                         required
                       />
@@ -459,17 +459,17 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="noticePeriod">Notice Period *</Label>
+                    <Label htmlFor="noticePeriod">{t('labels.noticePeriod')} *</Label>
                     <Select value={formData.noticePeriod} onValueChange={(value) => handleInputChange('noticePeriod', value)}>
                       <SelectTrigger className={errors.noticePeriod ? 'border-red-500' : ''}>
-                        <SelectValue placeholder="Select notice period" />
+                        <SelectValue placeholder={t('placeholders.selectNoticePeriod')} />
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="immediate">{t('components.jobapplicationsinglepage.text8')}</SelectItem>
-                        <SelectItem value="15-days">15 Days</SelectItem>
-                        <SelectItem value="1-month">1 Month</SelectItem>
-                        <SelectItem value="2-months">2 Months</SelectItem>
-                        <SelectItem value="3-months">3 Months</SelectItem>
+                        <SelectItem value="15-days">{t('noticePeriod.15days')}</SelectItem>
+                        <SelectItem value="1-month">{t('noticePeriod.1month')}</SelectItem>
+                        <SelectItem value="2-months">{t('noticePeriod.2months')}</SelectItem>
+                        <SelectItem value="3-months">{t('noticePeriod.3months')}</SelectItem>
                         <SelectItem value="more-than-3-months">{t('components.jobapplicationsinglepage.text9')}</SelectItem>
                       </SelectContent>
                     </Select>
@@ -485,13 +485,13 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                 {/* CV Upload */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Resume/CV Upload</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t('sections.resumeUpload', 'Resume/CV Upload')}</h3>
                     <p className="text-sm text-muted-foreground mt-1">{t('components.jobapplicationsinglepage.text10')}</p>
                   </div>
 
                   <div className="space-y-3">
                     <Label htmlFor="cvFile" className="flex items-center gap-2">
-                      Upload CV/Resume
+                      {t('labels.uploadCvResume', 'Upload CV/Resume')}
                       <span className="text-destructive">*</span>
                     </Label>
                     <div className="flex gap-2">
@@ -501,7 +501,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                         onClick={cvFileManager.openFileSelector}
                         className="flex-1"
                       >
-                        Choose File
+                        {t('buttons.chooseFile', 'Choose File')}
                       </Button>
                       <Button
                         type="button"
@@ -509,7 +509,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                         onClick={cvFileManager.openCameraSelector}
                         className="flex-1"
                       >
-                        Take Photo
+                        {t('buttons.takePhoto', 'Take Photo')}
                       </Button>
                     </div>
                     {cvFileManager.uploadState.file && (
@@ -555,12 +555,12 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
                   {isSubmitting ? (
                     <>
                       <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                      Submitting Application...
+                      {t('submittingApplication')}
                     </>
                   ) : (
                     <>
                       <Send className="w-4 h-4 mr-2" />
-                      Submit Job Application
+                      {t('submitJobApplication')}
                     </>
                   )}
                 </Button>

@@ -54,13 +54,13 @@ const AboutUs = () => {
             <div className="text-center mb-16">
               <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
                 <Shield className="w-4 h-4" />
-                Industry Expertise
+                {t('about:whoWeAre.badge', 'Industry Expertise')}
               </div>
               <h2 className="font-heading font-bold text-3xl md:text-5xl text-gray-900 mb-6">
-                Who We Are
+                {t('about:whoWeAre.heading', 'Who We Are')}
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
-                ATM Franchise India is a leading consultancy specializing in the ATM franchise business. With over 5 years of experience and 200+ successful franchise partnerships across all White Label ATM (WLA) brands, we provide accurate, verified insights into the ATM industry.
+                {t('about:whoWeAre.content', 'ATM Franchise India is a leading consultancy specializing in the ATM franchise business. With over 5 years of experience and 200+ successful franchise partnerships across all White Label ATM (WLA) brands, we provide accurate, verified insights into the ATM industry.')}
               </p>
             </div>
 
@@ -76,7 +76,7 @@ const AboutUs = () => {
                   <div className="text-center text-white p-8">
                     <h3 className="text-2xl md:text-4xl font-bold mb-4">{t('content.empowering_young_entrepreneurs', 'Empowering Young Entrepreneurs')}</h3>
                     <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
-                      Join thousands of successful young Indians who have built thriving businesses with our ATM franchise opportunities
+                      {t('about:whoWeAre.empowering.description', 'Join thousands of successful young Indians who have built thriving businesses with our ATM franchise opportunities')}
                     </p>
                   </div>
                 </div>
@@ -99,8 +99,8 @@ const AboutUs = () => {
                   <div className="w-16 h-16 bg-green-500 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 min-h-[44px] @media (prefers-reduced-motion: reduce) { transition: none; transform: none; }">
                     <Award className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="font-bold text-xl text-gray-900 mb-3">5+ Years Experience</h3>
-                  <p className="text-gray-600">200+ successful franchise partnerships and proven track record</p>
+                  <h3 className="font-bold text-xl text-gray-900 mb-3">{t('about:whoWeAre.features.experience.title', '5+ Years Experience')}</h3>
+                  <p className="text-gray-600">{t('about:whoWeAre.features.experience.description', '200+ successful franchise partnerships and proven track record')}</p>
                 </CardContent>
               </Card>
 
@@ -110,7 +110,7 @@ const AboutUs = () => {
                     <TrendingUp className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.proven_results', 'Proven Results')}</h3>
-                  <p className="text-gray-600">95% partner success rate with average ROI in 12-18 months</p>
+                  <p className="text-gray-600">{t('about:whoWeAre.features.results.description', '95% partner success rate with average ROI in 12-18 months')}</p>
                 </CardContent>
               </Card>
 
@@ -120,7 +120,7 @@ const AboutUs = () => {
                     <Shield className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="font-bold text-xl text-gray-900 mb-3">{t('content.trusted_guidance', 'Trusted Guidance')}</h3>
-                  <p className="text-gray-600">100% transparent with no hidden costs or surprise fees</p>
+                  <p className="text-gray-600">{t('about:whoWeAre.features.guidance.description', '100% transparent with no hidden costs or surprise fees')}</p>
                 </CardContent>
               </Card>
             </div>
@@ -129,10 +129,10 @@ const AboutUs = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-                  Your Path to Financial Independence
+                  {t('about:whoWeAre.path.title', 'Your Path to Financial Independence')}
                 </h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  As a regulated sector, the ATM business often sees widespread misinformation. Our mission is to cut through the noise and provide reliable, fact-based guidance to help investors make informed franchise decisions.
+                  {t('about:whoWeAre.path.description', 'As a regulated sector, the ATM business often sees widespread misinformation. Our mission is to cut through the noise and provide reliable, fact-based guidance to help investors make informed franchise decisions.')}
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
@@ -169,13 +169,13 @@ const AboutUs = () => {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Building2 className="w-4 h-4" />
-              Group Companies
+              {t('about:groupCompanies.badge', 'Group Companies')}
             </div>
             <h2 className="font-heading font-bold text-3xl md:text-5xl text-gray-900 mb-6">
-              Part of a Trusted Business Group
+              {t('about:groupCompanies.title', 'Part of a Trusted Business Group')}
             </h2>
             <p className="font-body text-lg md:text-xl text-gray-600 leading-relaxed">
-              ATM Franchise India is part of a dynamic group of companies focused on financial technology and business solutions.
+              {t('about:groupCompanies.subtitle', 'ATM Franchise India is part of a dynamic group of companies focused on financial technology and business solutions.')}
             </p>
           </div>
           
@@ -192,13 +192,13 @@ const AboutUs = () => {
                     />
                   </div>
                   <h3 className="font-heading font-bold text-2xl md:text-3xl text-purple-600 mb-4">
-                    PixellPay
+                    {t('about:groupCompanies.pixellpay.name', 'PixellPay')}
                   </h3>
                   <div className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
-                    Payment Solutions
+                    {t('about:groupCompanies.pixellpay.badge', 'Payment Solutions')}
                   </div>
                   <p className="font-body text-gray-600 mb-8 leading-relaxed">
-                    Innovative payment solutions and financial technology services designed to simplify digital transactions and enhance financial accessibility.
+                    {t('about:groupCompanies.pixellpay.description', 'Innovative payment solutions and financial technology services designed to simplify digital transactions and enhance financial accessibility.')}
                   </p>
                   <Button asChild className="w-full bg-purple-600 hover:bg-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
                     <a 
@@ -207,7 +207,7 @@ const AboutUs = () => {
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2"
                     >
-                      Visit PixellPay
+                      {t('about:groupCompanies.pixellpay.button', 'Visit PixellPay')}
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                   </Button>
@@ -227,13 +227,13 @@ const AboutUs = () => {
                     />
                   </div>
                   <h3 className="font-heading font-bold text-2xl md:text-3xl text-blue-600 mb-2">
-                    Evosyz
+                    {t('about:groupCompanies.evosyz.name', 'Evosyz')}
                   </h3>
                   <div className="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-medium mb-4 inline-block">
-                    South India's Largest ATM Franchise Operator
+                    {t('about:groupCompanies.evosyz.badge', "South India's Largest ATM Franchise Operator")}
                   </div>
                   <p className="font-body text-gray-600 mb-8 leading-relaxed">
-                    Leading ATM franchise operations and business solutions across South India with proven expertise and exceptional track record.
+                    {t('about:groupCompanies.evosyz.description', 'Leading ATM franchise operations and business solutions across South India with proven expertise and exceptional track record.')}
                   </p>
                   <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
                     <a 
@@ -242,7 +242,7 @@ const AboutUs = () => {
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2"
                     >
-                      Visit Evosyz
+                      {t('about:groupCompanies.evosyz.button', 'Visit Evosyz')}
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                   </Button>
@@ -255,15 +255,15 @@ const AboutUs = () => {
           <div className="text-center mt-16">
             <div className="bg-white border border-gray-200 rounded-2xl p-8 max-w-2xl mx-auto shadow-lg">
               <h3 className="font-heading font-bold text-2xl text-gray-900 mb-4">
-                Ready to Join Our Success Story?
+                {t('about:cta.title', 'Ready to Join Our Success Story?')}
               </h3>
               <p className="font-body text-gray-600 mb-6">
-                Become part of our trusted network and start your ATM franchise journey today.
+                {t('about:cta.subtitle', 'Become part of our trusted network and start your ATM franchise journey today.')}
               </p>
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 px-8 py-4" asChild>
                 <Link to="/become-franchise">
                   <Users className="w-5 h-5 mr-2" />
-                  Get Started Now
+                  {t('about:cta.button', 'Get Started Now')}
                 </Link>
               </Button>
             </div>
@@ -283,13 +283,13 @@ const AboutUs = () => {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm text-blue-700 px-6 py-3 rounded-full text-sm font-medium mb-6 shadow-lg border border-blue-100">
               <Shield className="w-4 h-4" />
-              Trusted WLA Network
+              {t('about:wlaPartners.badge', 'Trusted WLA Network')}
             </div>
             <h2 className="font-heading font-bold text-4xl md:text-5xl text-gray-900 mb-6 leading-tight">
               Our <span className="text-blue-600">{t('content.trusted', 'Trusted')}</span> WLA Partners
             </h2>
             <p className="font-body text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-              We collaborate with India's leading White Label ATM operators, each bringing unique strengths and nationwide coverage to provide you with the best franchise opportunities.
+              {t('about:wlaPartners.subtitle', "We collaborate with India's leading White Label ATM operators, each bringing unique strengths and nationwide coverage to provide you with the best franchise opportunities.")}
             </p>
           </div>
 
@@ -308,10 +308,10 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block text-center mx-auto">
-                  Established WLA Operator
+                  {t('about:wlaPartners.eps.badge', 'Established WLA Operator')}
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  One of India's pioneering WLA operators with extensive network coverage and proven track record in ATM deployment and management services.
+                  {t('about:wlaPartners.eps.description', "One of India's pioneering WLA operators with extensive network coverage and proven track record in ATM deployment and management services.")}
                 </p>
               </div>
             </div>
@@ -328,10 +328,10 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block text-center mx-auto">
-                  National Coverage
+                  {t('about:wlaPartners.india.badge', 'National Coverage')}
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Comprehensive ATM solutions provider focusing on rural and semi-urban markets, bringing banking services to underserved communities across India.
+                  {t('about:wlaPartners.india.description', 'Comprehensive ATM solutions provider focusing on rural and semi-urban markets, bringing banking services to underserved communities across India.')}
                 </p>
               </div>
             </div>
@@ -348,10 +348,10 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block text-center mx-auto">
-                  TATA Group Product
+                  {t('about:wlaPartners.indicash.badge', 'TATA Group Product')}
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Backed by TATA Group's legacy of trust and excellence, Indicash offers premium ATM solutions with cutting-edge technology and reliable service infrastructure.
+                  {t('about:wlaPartners.indicash.description', "Backed by TATA Group's legacy of trust and excellence, Indicash offers premium ATM solutions with cutting-edge technology and reliable service infrastructure.")}
                 </p>
               </div>
             </div>
@@ -368,10 +368,10 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block text-center mx-auto">
-                  Digital Ecosystem Leader
+                  {t('about:wlaPartners.vakrangee.badge', 'Digital Ecosystem Leader')}
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  India's largest network of digital service centers, combining ATM services with comprehensive digital solutions for rural and urban communities.
+                  {t('about:wlaPartners.vakrangee.description', "India's largest network of digital service centers, combining ATM services with comprehensive digital solutions for rural and urban communities.")}
                 </p>
               </div>
             </div>
@@ -388,10 +388,10 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block text-center mx-auto">
-                  Next-Gen Fintech
+                  {t('about:wlaPartners.findi.badge', 'Next-Gen Fintech')}
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Modern fintech platform revolutionizing ATM operations with innovative technology, smart analytics, and customer-centric solutions for the digital age.
+                  {t('about:wlaPartners.findi.description', 'Modern fintech platform revolutionizing ATM operations with innovative technology, smart analytics, and customer-centric solutions for the digital age.')}
                 </p>
               </div>
             </div>
@@ -401,10 +401,10 @@ const AboutUs = () => {
           <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-12 max-w-5xl mx-auto shadow-lg border border-white/50">
             <div className="text-center mb-8">
               <h3 className="font-heading font-bold text-2xl md:text-3xl text-gray-900 mb-4">
-                Why Our Partnerships Matter
+                {t('about:wlaPartners.whyMatter.title', 'Why Our Partnerships Matter')}
               </h3>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Our strategic partnerships with leading WLA operators ensure you get access to the best opportunities, technology, and support in the ATM franchise business.
+                {t('about:wlaPartners.whyMatter.subtitle', 'Our strategic partnerships with leading WLA operators ensure you get access to the best opportunities, technology, and support in the ATM franchise business.')}
               </p>
             </div>
             

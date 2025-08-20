@@ -29,8 +29,24 @@ Frontend (React) → Serverless API → Google Sheets
 - **JAMstack** - JavaScript, APIs, and Markup
 - **CDN Delivery** - Global edge network
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed technical architecture.
-See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) for translation system documentation.
+## 📚 Documentation
+
+All project documentation is organized in the `/docs` folder:
+
+### Core Documentation
+- [CLAUDE.md](CLAUDE.md) - AI Assistant context and guidelines
+- [CHANGELOG.md](CHANGELOG.md) - Version history and changes
+
+### Detailed Documentation (`/docs`)
+- **[Architecture](docs/architecture/)** - System design and technical architecture
+- **[Translation](docs/translation/)** - Multi-language implementation guides
+  - [Implementation Lessons](docs/translation/learnings/HINDI_IMPLEMENTATION_LESSONS.md) - Key learnings from Hindi
+  - [Multi-Language Strategy](docs/translation/MULTI_LANGUAGE_STRATEGY.md) - Future language roadmap
+- **[Development](docs/development/)** - Setup, deployment, and security guides
+- **[Daily Reports](docs/daily-reports/)** - Day-by-day implementation progress
+- **[Quality](docs/quality/)** - Quality improvements and metrics
+- **[Team](docs/team/)** - Team documentation and plans
+- **[Project](docs/project/)** - Project summaries and overviews
 
 ## 🚀 Quick Start
 

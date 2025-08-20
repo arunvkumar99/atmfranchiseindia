@@ -12,10 +12,10 @@ export default function TrustSignals() {
   const { t } = useTranslation('home');
   
   const trustMetrics: TrustMetric[] = [
-    { icon: Users, value: "1000+", label: t('trust.activePartners', 'Active Partners') },
-    { icon: Shield, value: "99.9%", label: t('trust.uptimeGuarantee', 'Uptime Guarantee') },
-    { icon: Award, value: "5+ Years", label: t('trust.industryExperience', 'Industry Experience') },
-    { icon: Clock, value: "24/7", label: t('trust.customerSupport', 'Customer Support') },
+    { icon: Users, value: t('trustSignals.metrics.partnersValue', '1000+'), label: t('trust.activePartners', 'Active Partners') },
+    { icon: Shield, value: t('trustSignals.metrics.uptimeValue', '99.9%'), label: t('trust.uptimeGuarantee', 'Uptime Guarantee') },
+    { icon: Award, value: t('trustSignals.metrics.experienceValue', '5+ Years'), label: t('trust.industryExperience', 'Industry Experience') },
+    { icon: Clock, value: t('trustSignals.metrics.supportValue', '24/7'), label: t('trust.customerSupport', 'Customer Support') },
   ];
 
   return (

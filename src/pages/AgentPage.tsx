@@ -9,7 +9,7 @@ import { AgentFormProgressive } from "@/components/AgentFormProgressive";
 import { SocialProofElements } from "@/components/SocialProofElements";
 
 const AgentPage = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('agent');
   return (
     <div className="min-h-screen pt-24">
       <div className="container mx-auto px-4 py-6">
@@ -24,11 +24,11 @@ const AgentPage = () => {
           <div className="flex items-center justify-center gap-2 sm:gap-4 mb-6 flex-wrap">
             <Badge variant="secondary" className="bg-gradient-success text-secondary-foreground">
               <Users className="w-4 h-4 mr-1" />
-              Growing Agent Network
+              {t('agent.badges.network', 'Growing Agent Network')}
             </Badge>
             <Badge variant="secondary" className="bg-gradient-success text-secondary-foreground">
               <Award className="w-4 h-4 mr-1" />
-              4+ Years Experience
+              {t('agent.badges.experience', '4+ Years Experience')}
             </Badge>
           </div>
         </div>

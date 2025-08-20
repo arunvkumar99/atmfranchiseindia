@@ -192,7 +192,7 @@ export function ProgressiveFormWrapper({
               <div className="absolute inset-0 bg-white/80 backdrop-blur-sm flex items-center justify-center rounded-lg z-10">
                 <div className="flex flex-col items-center gap-3">
                   <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-                  <p className="text-sm text-gray-600">Submitting your form...</p>
+                  <p className="text-sm text-gray-600">{t('forms:buttons.submittingForm', 'Submitting your form...')}</p>
                 </div>
               </div>
             )}
@@ -208,7 +208,7 @@ export function ProgressiveFormWrapper({
               className="flex items-center gap-2"
             >
               <ChevronLeft className="w-4 h-4" />
-              Previous
+              {t('forms:buttons.previous', 'Previous')}
             </Button>
 
             <div className="text-sm text-muted-foreground">
@@ -231,7 +231,7 @@ export function ProgressiveFormWrapper({
                 disabled={!canProceed}
                 className="flex items-center gap-2"
               >
-                Next
+                {t('forms:buttons.next', 'Next')}
                 <ChevronRight className="w-4 h-4" />
               </Button>
             )}

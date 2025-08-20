@@ -65,7 +65,7 @@ const JoinUs = () => {
     e.preventDefault();
     if (!formData.agreedToTerms) {
       toast({
-        title: "Terms & Conditions Required",
+        title: t('forms.termsRequired'),
         description: "Please agree to terms and conditions to proceed.",
         variant: "destructive"
       });
@@ -336,7 +336,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.addressLine1}
                           onChange={(e) => handleChange('addressLine1', e.target.value)}
-                          placeholder="House/Building number, Street name"
+                          placeholder={t('joinUs.placeholders.addressLine1', 'House/Building number, Street name')}
                           required
                         />
                       </div>
@@ -348,7 +348,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.addressLine2}
                           onChange={(e) => handleChange('addressLine2', e.target.value)}
-                          placeholder="Area, Landmark"
+                          placeholder={t('joinUs.placeholders.addressLine2', 'Area, Landmark')}
                         />
                       </div>
                       
@@ -359,7 +359,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.city}
                           onChange={(e) => handleChange('city', e.target.value)}
-                          placeholder="Enter city"
+                          placeholder={t('joinUs.placeholders.city', 'Enter city')}
                           required
                         />
                       </div>
@@ -421,14 +421,14 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.businessType} onValueChange={(value) => handleChange('businessType', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select business type" />
+                            <SelectValue placeholder={t('joinUs.placeholders.businessType', 'Select business type')} />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="individual">{t('components.joinus.text16')}</SelectItem>
                             <SelectItem value="proprietorship">{t('components.joinus.text17')}</SelectItem>
                             <SelectItem value="partnership">{t('components.joinus.text18')}</SelectItem>
                             <SelectItem value="private-limited">{t('components.joinus.text19')}</SelectItem>
-                            <SelectItem value="llp">LLP</SelectItem>
+                            <SelectItem value="llp">{t('joinUs.businessTypes.llp', 'LLP')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -439,14 +439,14 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.experienceYears} onValueChange={(value) => handleChange('experienceYears', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Years of experience" />
+                            <SelectValue placeholder={t('joinUs.placeholders.experienceYears', 'Years of experience')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="0-1">0-1 years</SelectItem>
-                            <SelectItem value="2-5">2-5 years</SelectItem>
-                            <SelectItem value="6-10">6-10 years</SelectItem>
-                            <SelectItem value="11-15">11-15 years</SelectItem>
-                            <SelectItem value="15+">15+ years</SelectItem>
+                            <SelectItem value="0-1">{t('joinUs.experienceRanges.0-1', '0-1 years')}</SelectItem>
+                            <SelectItem value="2-5">{t('joinUs.experienceRanges.2-5', '2-5 years')}</SelectItem>
+                            <SelectItem value="6-10">{t('joinUs.experienceRanges.6-10', '6-10 years')}</SelectItem>
+                            <SelectItem value="11-15">{t('joinUs.experienceRanges.11-15', '11-15 years')}</SelectItem>
+                            <SelectItem value="15+">{t('joinUs.experienceRanges.15+', '15+ years')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -458,7 +458,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.currentOccupation}
                           onChange={(e) => handleChange('currentOccupation', e.target.value)}
-                          placeholder="e.g., Shop Owner, Farmer, Employee"
+                          placeholder={t('forms.occupationPlaceholder')}
                           required
                         />
                       </div>
@@ -469,14 +469,14 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.annualIncome} onValueChange={(value) => handleChange('annualIncome', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select income range" />
+                            <SelectValue placeholder={t('forms.selectIncomeRange')} />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="below-2l">{t('options.investment.below2', 'Below ₹2 Lakhs')}</SelectItem>
                             <SelectItem value="2l-5l">{t('investment.2to5L', '₹2-5 Lakhs')}</SelectItem>
                             <SelectItem value="5l-10l">{t('investment.5to10L', '₹5-10 Lakhs')}</SelectItem>
-                            <SelectItem value="10l-25l">₹10-25 Lakhs</SelectItem>
-                            <SelectItem value="25l+">₹25+ Lakhs</SelectItem>
+                            <SelectItem value="10l-25l">{t('joinUs.incomeRanges.10l-25l', '₹10-25 Lakhs')}</SelectItem>
+                            <SelectItem value="25l+">{t('joinUs.incomeRanges.25l+', '₹25+ Lakhs')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -496,13 +496,13 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.investmentCapacity} onValueChange={(value) => handleChange('investmentCapacity', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select investment range" />
+                            <SelectValue placeholder={t('forms.selectInvestmentRange')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="2-3l">₹2-3 Lakhs</SelectItem>
-                            <SelectItem value="3-4l">₹3-4 Lakhs</SelectItem>
-                            <SelectItem value="4-5l">₹4-5 Lakhs</SelectItem>
-                            <SelectItem value="5l+">₹5+ Lakhs</SelectItem>
+                            <SelectItem value="2-3l">{t('joinUs.investmentRanges.2-3l', '₹2-3 Lakhs')}</SelectItem>
+                            <SelectItem value="3-4l">{t('joinUs.investmentRanges.3-4l', '₹3-4 Lakhs')}</SelectItem>
+                            <SelectItem value="4-5l">{t('joinUs.investmentRanges.4-5l', '₹4-5 Lakhs')}</SelectItem>
+                            <SelectItem value="5l+">{t('joinUs.investmentRanges.5l+', '₹5+ Lakhs')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -514,7 +514,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.preferredLocation}
                           onChange={(e) => handleChange('preferredLocation', e.target.value)}
-                          placeholder="Area/Village where you want ATM"
+                          placeholder={t('forms.placeholders.preferredLocation')}
                           required
                         />
                       </div>
@@ -525,11 +525,11 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.locationOwnership} onValueChange={(value) => handleChange('locationOwnership', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Do you own the location?" />
+                            <SelectValue placeholder={t('joinUs.placeholders.locationOwnership', 'Do you own the location?')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="owned">I own the location</SelectItem>
-                            <SelectItem value="can-arrange">I can arrange the location</SelectItem>
+                            <SelectItem value="owned">{t('joinUs.options.locationOwnership.owned', 'I own the location')}</SelectItem>
+                            <SelectItem value="can-arrange">{t('joinUs.options.locationOwnership.canArrange', 'I can arrange the location')}</SelectItem>
                             <SelectItem value="need-help">{t('components.joinus.text20')}</SelectItem>
                           </SelectContent>
                         </Select>
@@ -541,13 +541,13 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.expectedFootfall} onValueChange={(value) => handleChange('expectedFootfall', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Expected daily visitors" />
+                            <SelectValue placeholder={t('joinUs.placeholders.expectedFootfall', 'Expected daily visitors')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="50-100">50-100 people</SelectItem>
-                            <SelectItem value="100-200">100-200 people</SelectItem>
-                            <SelectItem value="200-500">200-500 people</SelectItem>
-                            <SelectItem value="500+">500+ people</SelectItem>
+                            <SelectItem value="50-100">{t('joinUs.options.footfall.50-100', '50-100 people')}</SelectItem>
+                            <SelectItem value="100-200">{t('joinUs.options.footfall.100-200', '100-200 people')}</SelectItem>
+                            <SelectItem value="200-500">{t('joinUs.options.footfall.200-500', '200-500 people')}</SelectItem>
+                            <SelectItem value="500+">{t('joinUs.options.footfall.500+', '500+ people')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -559,7 +559,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.nearbyBanks}
                           onChange={(e) => handleChange('nearbyBanks', e.target.value)}
-                          placeholder="Names of banks within 5km"
+                          placeholder={t('joinUs.placeholders.nearbyBanks', 'Names of banks within 5km')}
                         />
                       </div>
                       
@@ -570,7 +570,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.competitorATMs}
                           onChange={(e) => handleChange('competitorATMs', e.target.value)}
-                          placeholder="Number of ATMs in 2km radius"
+                          placeholder={t('forms.placeholders.competitorATMs')}
                         />
                       </div>
                     </div>
@@ -591,7 +591,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.bankName}
                           onChange={(e) => handleChange('bankName', e.target.value)}
-                          placeholder="Bank name"
+                          placeholder={t('placeholders.bankName', 'Bank name')}
                           required
                         />
                       </div>
@@ -602,12 +602,12 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.accountType} onValueChange={(value) => handleChange('accountType', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select account type" />
+                            <SelectValue placeholder={t('forms.selectAccountType')} />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="savings">{t('components.joinus.text21')}</SelectItem>
                             <SelectItem value="current">{t('components.joinus.text22')}</SelectItem>
-                            <SelectItem value="cc-od">CC/OD Account</SelectItem>
+                            <SelectItem value="cc-od">{t('forms.accountTypes.ccod')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -619,7 +619,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.panCard}
                           onChange={(e) => handleChange('panCard', e.target.value)}
-                          placeholder="ABCDE1234F"
+                          placeholder={t('placeholders.panFormat', 'ABCDE1234F')}
                           maxLength={10}
                           required
                         />
@@ -632,7 +632,7 @@ const JoinUs = () => {
                         <Input
                           value={formData.gstNumber}
                           onChange={(e) => handleChange('gstNumber', e.target.value)}
-                          placeholder="GST registration number"
+                          placeholder={t('placeholders.gstNumber', 'GST registration number')}
                         />
                       </div>
                     </div>
@@ -651,13 +651,13 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.referenceSource} onValueChange={(value) => handleChange('referenceSource', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select source" />
+                            <SelectValue placeholder={t('forms.selectSource')} />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="website">{t('components.joinus.text23')}</SelectItem>
                             <SelectItem value="social-media">{t('components.joinus.text24')}</SelectItem>
-                            <SelectItem value="friend-referral">Friend/Family Referral</SelectItem>
-                            <SelectItem value="newspaper">Newspaper/Magazine</SelectItem>
+                            <SelectItem value="friend-referral">{t('forms.sources.friendReferral')}</SelectItem>
+                            <SelectItem value="newspaper">{t('forms.sources.newspaper')}</SelectItem>
                             <SelectItem value="search-engine">{t('components.joinus.text25')}</SelectItem>
                             <SelectItem value="other">{t('components.joinus.text26')}</SelectItem>
                           </SelectContent>
@@ -670,11 +670,11 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.previousFranchise} onValueChange={(value) => handleChange('previousFranchise', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Any previous franchise?" />
+                            <SelectValue placeholder={t('forms.previousFranchise')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="yes-successful">Yes, successful experience</SelectItem>
-                            <SelectItem value="yes-challenges">Yes, faced challenges</SelectItem>
+                            <SelectItem value="yes-successful">{t('forms.franchise.yesSuccessful')}</SelectItem>
+                            <SelectItem value="yes-challenges">{t('forms.franchise.yesChallenges')}</SelectItem>
                             <SelectItem value="no">{t('components.joinus.text27')}</SelectItem>
                           </SelectContent>
                         </Select>
@@ -686,14 +686,14 @@ const JoinUs = () => {
                         </label>
                         <Select value={formData.timelineToStart} onValueChange={(value) => handleChange('timelineToStart', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="When can you start?" />
+                            <SelectValue placeholder={t('forms.whenStart')} />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="immediate">{t('components.joinus.text28')}</SelectItem>
                             <SelectItem value="1-month">{t('components.joinus.text29')}</SelectItem>
-                            <SelectItem value="2-3-months">2-3 months</SelectItem>
-                            <SelectItem value="3-6-months">3-6 months</SelectItem>
-                            <SelectItem value="6-months+">6+ months</SelectItem>
+                            <SelectItem value="2-3-months">{t('forms.timeline.2to3months')}</SelectItem>
+                            <SelectItem value="3-6-months">{t('forms.timeline.3to6months')}</SelectItem>
+                            <SelectItem value="6-months+">{t('forms.timeline.6monthsPlus')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -706,7 +706,7 @@ const JoinUs = () => {
                       <Textarea
                         value={formData.additionalComments}
                         onChange={(e) => handleChange('additionalComments', e.target.value)}
-                        placeholder="Any specific questions or additional information you'd like to share..."
+                        placeholder={t('placeholders.additionalQuestions', "Any specific questions or additional information you'd like to share...")}
                         rows={4}
                       />
                     </div>
@@ -721,7 +721,7 @@ const JoinUs = () => {
                         onCheckedChange={(checked) => handleChange('agreedToTerms', !!checked)}
                       />
                       <label htmlFor="terms" className="text-sm text-foreground leading-relaxed">
-                        I agree to the <span className="text-primary font-medium">Terms & Conditions</span> and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.
+                        I agree to the <span className="text-primary font-medium">{t('joinUs.termsAndConditions', 'Terms & Conditions')}</span> and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.
                       </label>
                     </div>
                     
@@ -763,7 +763,7 @@ const JoinUs = () => {
               <CardContent className="p-6">
                 <img
                   src={ruralShopOwner}
-                  alt="Successful ATM Franchise Owner"
+                  alt={t('images.successfulFranchiseOwner', "Successful ATM Franchise Owner")}
                   className="w-full h-48 object-cover rounded-lg mb-6"
                 />
                 <h3 className="text-xl font-bold text-foreground mb-4">
@@ -774,7 +774,7 @@ const JoinUs = () => {
                 </p>
                 <div className="text-sm text-foreground">
                   <strong>{t('components.joinus.text30')}</strong><br />
-                  <span className="text-muted-foreground">ATM Franchise Owner, Bihar</span>
+                  <span className="text-muted-foreground">{t('joinUs.atmFranchiseOwnerBihar', 'ATM Franchise Owner, Bihar')}</span>
                 </div>
               </CardContent>
             </Card>
@@ -789,19 +789,19 @@ const JoinUs = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-sm font-bold">2</div>
-                    <span>Initial screening & verification</span>
+                    <span>{t('joinUs.initialScreening', 'Initial screening & verification')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-sm font-bold">3</div>
-                    <span>Personal interview & site visit</span>
+                    <span>{t('joinUs.personalInterview', 'Personal interview & site visit')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-sm font-bold">4</div>
-                    <span>Approval & agreement signing</span>
+                    <span>{t('joinUs.approvalAgreement', 'Approval & agreement signing')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-sm font-bold">5</div>
-                    <span>Setup, training & launch</span>
+                    <span>{t('joinUs.setupTraining', 'Setup, training & launch')}</span>
                   </div>
                 </div>
               </CardContent>
@@ -809,7 +809,7 @@ const JoinUs = () => {
 
             <Card className="bg-gradient-card border-0 shadow-soft">
               <CardContent className="p-6">
-                <h3 className="text-lg font-bold text-foreground mb-4">Need Help?</h3>
+                <h3 className="text-lg font-bold text-foreground mb-4">{t('joinUs.needHelp', 'Need Help?')}</h3>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-primary" />

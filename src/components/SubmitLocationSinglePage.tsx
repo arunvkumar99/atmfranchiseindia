@@ -287,16 +287,16 @@ const SubmitLocationSinglePage = () => {
         }, 100);
         
         toast({
-          title: "Location Submitted Successfully!",
-          description: "Thank you for your submission. We'll review your location details and contact you soon.",
+          title: t('success.title', 'Location Submitted Successfully!'),
+          description: t('success.description', "Thank you for your submission. We'll review your location details and contact you soon."),
         });
 
         return true;
       } catch (error) {
         // if (import.meta.env.DEV) { console.error('Unexpected error:', error); }
         toast({
-          title: "Unexpected Error",
-          description: "An unexpected error occurred. Please try again.",
+          title: t('errors.unexpected.title', 'Unexpected Error'),
+          description: t('errors.unexpected.description', 'An unexpected error occurred. Please try again.'),
           variant: "destructive",
         });
         return false;
@@ -318,31 +318,31 @@ const SubmitLocationSinglePage = () => {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-green-600" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-green-600">Location Submitted Successfully!</CardTitle>
+                <CardTitle className="text-2xl font-bold text-green-600">{t('success.page.title', 'Location Submitted Successfully!')}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 text-center">
                 <p className="text-muted-foreground">
-                  Thank you for submitting your location details. Our team will review your submission and contact you within 24-48 hours to discuss the next steps.
+                  {t('success.page.message', 'Thank you for submitting your location details. Our team will review your submission and contact you within 24-48 hours to discuss the next steps.')}
                 </p>
                 <div className="space-y-3">
-                  <h4 className="font-semibold">Next Steps:</h4>
+                  <h4 className="font-semibold">{t('success.page.nextSteps.title', 'Next Steps:')}</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>✓ Location verification by our field team</li>
-                    <li>✓ Feasibility assessment for ATM placement</li>
-                    <li>✓ Commercial terms discussion</li>
-                    <li>✓ Agreement and installation process</li>
+                    <li>✓ {t('success.page.nextSteps.step1', 'Location verification by our field team')}</li>
+                    <li>✓ {t('success.page.nextSteps.step2', 'Feasibility assessment for ATM placement')}</li>
+                    <li>✓ {t('success.page.nextSteps.step3', 'Commercial terms discussion')}</li>
+                    <li>✓ {t('success.page.nextSteps.step4', 'Agreement and installation process')}</li>
                   </ul>
                 </div>
                 <div className="bg-muted/30 rounded-lg p-4">
-                  <h4 className="font-semibold text-foreground mb-3">Need immediate assistance?</h4>
+                  <h4 className="font-semibold text-foreground mb-3">{t('success.page.assistance.title', 'Need immediate assistance?')}</h4>
                   <div className="grid grid-cols-1 gap-2 text-sm">
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <Shield className="w-4 h-4 text-primary" />
-                      <span>Call: +91 9072380076</span>
+                      <span>{t('success.page.assistance.call', 'Call: +91 9072380076')}</span>
                     </div>
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <MapPin className="w-4 h-4 text-primary" />
-                      <span>Email: atmfranchise@pixellpay.com</span>
+                      <span>{t('success.page.assistance.email', 'Email: atmfranchise@pixellpay.com')}</span>
                     </div>
                   </div>
                 </div>
@@ -353,7 +353,7 @@ const SubmitLocationSinglePage = () => {
                   }}
                   className="w-full"
                 >
-                  Continue
+                  {t('buttons.continue', 'Continue')}
                 </Button>
               </CardContent>
             </Card>
@@ -379,10 +379,10 @@ const SubmitLocationSinglePage = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Submit Your ATM Location
+            {t('page.title', 'Submit Your ATM Location')}
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Share your location details and become part of India's largest ATM network
+            {t('page.subtitle', "Share your location details and become part of India's largest ATM network")}
           </p>
         </div>
 
@@ -391,7 +391,7 @@ const SubmitLocationSinglePage = () => {
           <CardHeader className="text-center">
             <CardTitle className="text-xl text-foreground flex items-center justify-center">
               <MapPin className="w-6 h-6 mr-3 text-primary" />
-              Location Details Form
+              {t('form.title', 'Location Details Form')}
             </CardTitle>
           </CardHeader>
           <CardContent className="p-6 md:p-8">
@@ -403,7 +403,7 @@ const SubmitLocationSinglePage = () => {
                 <div className="space-y-4">
                   <div className="space-y-3">
                     <Label className="text-sm font-medium text-foreground">
-                      Were you assisted by one of our agents? *
+                      {t('form.questions.agent', 'Were you assisted by one of our agents?')} *
                     </Label>
                     <RadioGroup
                       value={formData.assistedByAgent}
@@ -412,11 +412,11 @@ const SubmitLocationSinglePage = () => {
                     >
                       <div className="flex items-center space-x-2">
                         <RadioGroupItem value="yes" id="agent-yes" />
-                        <Label htmlFor="agent-yes">Yes, I was assisted by an agent</Label>
+                        <Label htmlFor="agent-yes">{t('form.options.agentYes', 'Yes, I was assisted by an agent')}</Label>
                       </div>
                       <div className="flex items-center space-x-2">
                         <RadioGroupItem value="no" id="agent-no" />
-                        <Label htmlFor="agent-no">No, I found this independently</Label>
+                        <Label htmlFor="agent-no">{t('form.options.agentNo', 'No, I found this independently')}</Label>
                       </div>
                     </RadioGroup>
                   </div>
@@ -424,14 +424,14 @@ const SubmitLocationSinglePage = () => {
                   {formData.assistedByAgent === 'yes' && (
                     <div className="space-y-2">
                       <Label htmlFor="agentCode" className="text-sm font-medium text-foreground">
-                        Agent Code *
+                        {t('labels.agentCode', 'Agent Code')} *
                       </Label>
                       <Input
                         id="agentCode"
                         type="text"
                         value={formData.agentCode}
                         onChange={(e) => handleInputChange('agentCode', e.target.value)}
-                        placeholder="Enter agent code provided to you"
+                        placeholder={t('placeholders.agentCode', 'Enter agent code provided to you')}
                         className="w-full"
                         required={formData.assistedByAgent === 'yes'}
                       />
@@ -446,14 +446,14 @@ const SubmitLocationSinglePage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="fullName" className="text-sm font-medium text-foreground">
-                      Full Name *
+                      {t('labels.fullName', 'Full Name')} *
                     </Label>
                     <Input
                       id="fullName"
                       type="text"
                       value={formData.fullName}
                       onChange={(e) => handleInputChange('fullName', e.target.value)}
-                      placeholder="Your complete name"
+                      placeholder={t('placeholders.fullName', 'Your complete name')}
                       className="w-full"
                       required
                     />
@@ -464,7 +464,7 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="email" className="text-sm font-medium text-foreground">
-                      Email Address *
+                      {t('labels.email', 'Email Address')} *
                     </Label>
                     <Input
                       id="email"
@@ -482,14 +482,14 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="phone" className="text-sm font-medium text-foreground">
-                      Phone Number *
+                      {t('labels.phone', 'Phone Number')} *
                     </Label>
                     <Input
                       id="phone"
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => handleInputChange('phone', e.target.value)}
-                      placeholder="Your 10-digit phone number"
+                      placeholder={t('placeholders.phone', 'Your 10-digit phone number')}
                       className="w-full"
                       required
                     />
@@ -500,14 +500,14 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="whatsappPhone" className="text-sm font-medium text-foreground">
-                      WhatsApp Number
+                      {t('labels.whatsapp', 'WhatsApp Number')}
                     </Label>
                     <Input
                       id="whatsappPhone"
                       type="tel"
                       value={formData.whatsappPhone}
                       onChange={(e) => handleInputChange('whatsappPhone', e.target.value)}
-                      placeholder="WhatsApp number (if different from phone)"
+                      placeholder={t('placeholders.whatsapp', 'WhatsApp number (if different from phone)')}
                       className="w-full"
                     />
                     {errors.whatsappPhone && (
@@ -523,7 +523,7 @@ const SubmitLocationSinglePage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="state" className="text-sm font-medium text-foreground">
-                      State *
+                      {t('labels.state', 'State')} *
                     </Label>
                     <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                       <SelectTrigger className="w-full">
@@ -544,14 +544,14 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="city" className="text-sm font-medium text-foreground">
-                      City *
+                      {t('labels.city', 'City')} *
                     </Label>
                     <Input
                       id="city"
                       type="text"
                       value={formData.city}
                       onChange={(e) => handleInputChange('city', e.target.value)}
-                      placeholder="Your city name"
+                      placeholder={t('placeholders.city', 'Your city name')}
                       className="w-full"
                       required
                     />
@@ -562,28 +562,28 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="district" className="text-sm font-medium text-foreground">
-                      District
+                      {t('labels.district', 'District')}
                     </Label>
                     <Input
                       id="district"
                       type="text"
                       value={formData.district}
                       onChange={(e) => handleInputChange('district', e.target.value)}
-                      placeholder="District name"
+                      placeholder={t('placeholders.district', 'District name')}
                       className="w-full"
                     />
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="pincode" className="text-sm font-medium text-foreground">
-                      Pincode *
+                      {t('labels.pincode', 'Pincode')} *
                     </Label>
                     <Input
                       id="pincode"
                       type="text"
                       value={formData.pincode}
                       onChange={(e) => handleInputChange('pincode', e.target.value)}
-                      placeholder="6-digit pincode"
+                      placeholder={t('placeholders.pincode', '6-digit pincode')}
                       className="w-full"
                       required
                     />
@@ -594,13 +594,13 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2 md:col-span-2">
                     <Label htmlFor="address" className="text-sm font-medium text-foreground">
-                      Complete Address *
+                      {t('labels.address', 'Complete Address')} *
                     </Label>
                     <Textarea
                       id="address"
                       value={formData.address}
                       onChange={(e) => handleInputChange('address', e.target.value)}
-                      placeholder="Complete address with landmarks"
+                      placeholder={t('placeholders.address', 'Complete address with landmarks')}
                       className="w-full min-h-[80px]"
                       required
                     />
@@ -611,14 +611,14 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="locationName" className="text-sm font-medium text-foreground">
-                      Location Name *
+                      {t('labels.locationName', 'Location Name')} *
                     </Label>
                     <Input
                       id="locationName"
                       type="text"
                       value={formData.locationName}
                       onChange={(e) => handleInputChange('locationName', e.target.value)}
-                      placeholder="What do you call this location?"
+                      placeholder={t('placeholders.locationName', 'What do you call this location?')}
                       className="w-full"
                       required
                     />
@@ -629,14 +629,14 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="googleMapLink" className="text-sm font-medium text-foreground">
-                      Google Maps Link
+                      {t('labels.googleMapLink', 'Google Maps Link')}
                     </Label>
                     <Input
                       id="googleMapLink"
                       type="url"
                       value={formData.googleMapLink}
                       onChange={(e) => handleInputChange('googleMapLink', e.target.value)}
-                      placeholder="https://maps.google.com/..."
+                      placeholder={t('placeholders.googleMapLink', 'https://maps.google.com/...')}
                       className="w-full"
                     />
                   </div>
@@ -649,8 +649,8 @@ const SubmitLocationSinglePage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3">
                     <Label htmlFor="buildingPhoto" className="flex items-center gap-2">
-                      Building Photo
-                      <span className="text-muted-foreground">(Optional)</span>
+                      {t('labels.buildingPhoto', 'Building Photo')}
+                      <span className="text-muted-foreground">({t('labels.optional', 'Optional')})</span>
                     </Label>
                     <div className="flex gap-2">
                       <Button
@@ -659,7 +659,7 @@ const SubmitLocationSinglePage = () => {
                         onClick={buildingPhotoManager.openFileSelector}
                         className="flex-1"
                       >
-                        Choose File
+                        {t('buttons.chooseFile', 'Choose File')}
                       </Button>
                       <Button
                         type="button"
@@ -667,7 +667,7 @@ const SubmitLocationSinglePage = () => {
                         onClick={buildingPhotoManager.openCameraSelector}
                         className="flex-1"
                       >
-                        Take Photo
+                        {t('buttons.takePhoto', 'Take Photo')}
                       </Button>
                     </div>
                     {buildingPhotoManager.uploadState.file && (
@@ -694,8 +694,8 @@ const SubmitLocationSinglePage = () => {
 
                   <div className="space-y-3">
                     <Label htmlFor="roomPhoto" className="flex items-center gap-2">
-                      Room/Space Photo
-                      <span className="text-muted-foreground">(Optional)</span>
+                      {t('labels.roomPhoto', 'Room/Space Photo')}
+                      <span className="text-muted-foreground">({t('labels.optional', 'Optional')})</span>
                     </Label>
                     <div className="flex gap-2">
                       <Button
@@ -704,7 +704,7 @@ const SubmitLocationSinglePage = () => {
                         onClick={roomPhotoManager.openFileSelector}
                         className="flex-1"
                       >
-                        Choose File
+                        {t('buttons.chooseFile', 'Choose File')}
                       </Button>
                       <Button
                         type="button"
@@ -712,7 +712,7 @@ const SubmitLocationSinglePage = () => {
                         onClick={roomPhotoManager.openCameraSelector}
                         className="flex-1"
                       >
-                        Take Photo
+                        {t('buttons.takePhoto', 'Take Photo')}
                       </Button>
                     </div>
                     {roomPhotoManager.uploadState.file && (
@@ -744,13 +744,13 @@ const SubmitLocationSinglePage = () => {
                 <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text5')}</h3>
                 <div className="space-y-2">
                   <Label htmlFor="additionalInfo" className="text-sm font-medium text-foreground">
-                    Additional Notes
+                    {t('labels.additionalNotes', 'Additional Notes')}
                   </Label>
                   <Textarea
                     id="additionalInfo"
                     value={formData.additionalInfo}
                     onChange={(e) => handleInputChange('additionalInfo', e.target.value)}
-                    placeholder="Any additional information about the location, foot traffic, accessibility, etc."
+                    placeholder={t('placeholders.additionalInfo', 'Any additional information about the location, foot traffic, accessibility, etc.')}
                     className="w-full min-h-[100px]"
                   />
                 </div>
@@ -764,7 +764,7 @@ const SubmitLocationSinglePage = () => {
 
                 {isBlocked && (
                   <div className="bg-destructive/10 border border-destructive text-destructive p-4 rounded-lg text-center">
-                    Too many submission attempts. Please try again later.
+                    {t('errors.tooManyAttempts', 'Too many submission attempts. Please try again later.')}
                   </div>
                 )}
 
@@ -777,12 +777,12 @@ const SubmitLocationSinglePage = () => {
                   {isSubmitting ? (
                     <>
                       <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                      Submitting Location...
+                      {t('buttons.submitting', 'Submitting Location...')}
                     </>
                   ) : (
                     <>
                       <CheckCircle className="w-5 h-5 mr-2" />
-                      Submit Location Details
+                      {t('buttons.submit', 'Submit Location Details')}
                     </>
                   )}
                 </Button>
@@ -798,7 +798,7 @@ const SubmitLocationSinglePage = () => {
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
               <Shield className="w-6 h-6 text-primary" />
             </div>
-            <p className="text-sm text-muted-foreground">Secure & Confidential</p>
+            <p className="text-sm text-muted-foreground">{t('trustIndicators.secure', 'Secure & Confidential')}</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">

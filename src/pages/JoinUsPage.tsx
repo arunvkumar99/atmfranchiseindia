@@ -53,11 +53,11 @@ const JoinUsPage = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-            Join Our
-            <span className="bg-gradient-to-r from-red-600 via-pink-600 to-rose-600 bg-clip-text text-transparent"> Growing Network</span>
+            {t('joinUs.hero.title', 'Join Our')}
+            <span className="bg-gradient-to-r from-red-600 via-pink-600 to-rose-600 bg-clip-text text-transparent"> {t('joinUs.hero.network', 'Growing Network')}</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-            Multiple opportunities to partner with us and build a successful business in the ATM industry
+            {t('joinUs.hero.subtitle', 'Multiple opportunities to partner with us and build a successful business in the ATM industry')}
           </p>
         </div>
 
@@ -95,10 +95,10 @@ const JoinUsPage = () => {
                   <CardHeader>
                     <CardTitle className="text-2xl text-foreground flex items-center">
                       <Users className="w-6 h-6 mr-3 text-red-500" />
-                      Sahasra Network Agent
+                      {t('joinUs.agent.title', 'Sahasra Network Agent')}
                     </CardTitle>
                     <p className="text-muted-foreground">
-                      Join our mission to build India's largest independent ATM franchise network.
+                      {t('joinUs.agent.description')}
                     </p>
                   </CardHeader>
                   <CardContent className="space-y-6">
@@ -115,11 +115,11 @@ const JoinUsPage = () => {
                     
                     <div className="space-y-3">
                       {[
-                        "Attractive earning potential with competitive commissions",
-                        "Flexible work opportunity - full-time or part-time",
-                        "Be part of national mission for financial inclusion",
-                        "Training & marketing support provided",
-                        "Growth path to regional coordinator roles"
+                        t('joinUs.agent.benefits.earning', 'Attractive earning potential with competitive commissions'),
+                        t('joinUs.agent.benefits.flexible', 'Flexible work opportunity - full-time or part-time'),
+                        t('joinUs.agent.benefits.mission', 'Be part of national mission for financial inclusion'),
+                        t('joinUs.agent.benefits.training', 'Training & marketing support provided'),
+                        t('joinUs.agent.benefits.growth', 'Growth path to regional coordinator roles')
                       ].map((benefit, idx) => (
                         <div key={idx} className="flex items-start space-x-3">
                           <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
@@ -148,13 +148,13 @@ const JoinUsPage = () => {
                   <Card className="bg-white border-0 shadow-lg">
                     <CardContent className="p-6">
                       <h3 className="text-lg font-bold text-foreground mb-4">
-                        Agent Requirements
+                        {t('joinUs.agent.requirements.title')}
                       </h3>
                       <div className="space-y-2 text-sm text-muted-foreground">
-                        <p>• Passionate and driven individual</p>
-                        <p>• Help entrepreneurs set up White Label ATMs</p>
-                        <p>• Represent trusted brand with 4+ years experience</p>
-                        <p>• Work in preferred region at own pace</p>
+                        <p>• {t('joinUs.agent.requirements.passionate')}</p>
+                        <p>• {t('joinUs.agent.requirements.help')}</p>
+                        <p>• {t('joinUs.agent.requirements.represent')}</p>
+                        <p>• {t('joinUs.agent.requirements.work')}</p>
                       </div>
                     </CardContent>
                   </Card>
@@ -169,10 +169,10 @@ const JoinUsPage = () => {
                   <CardHeader>
                     <CardTitle className="text-2xl text-foreground flex items-center">
                       <Target className="w-6 h-6 mr-3 text-red-500" />
-                      Sahasra Network Influencer
+                      {t('joinUs.influencer.title')}
                     </CardTitle>
                     <p className="text-muted-foreground">
-                      Join our mission of building India's largest ATM franchise network. No big follower count needed!
+                      {t('joinUs.influencer.description')}
                     </p>
                   </CardHeader>
                   <CardContent className="space-y-6">
@@ -189,11 +189,11 @@ const JoinUsPage = () => {
                     
                     <div className="space-y-3">
                       {[
-                        "Grow followers, subscribers, likes & shares",
-                        "Greater reach & visibility through national project",
-                        "Access to highly engaging content",
-                        "Earn money for real business leads with unique code",
-                        "Stronger personal brand as business promoter"
+                        t('joinUs.influencer.benefits.grow', 'Grow followers, subscribers, likes & shares'),
+                        t('joinUs.influencer.benefits.reach', 'Greater reach & visibility through national project'),
+                        t('joinUs.influencer.benefits.content', 'Access to highly engaging content'),
+                        t('joinUs.influencer.benefits.earning', 'Earn money for real business leads with unique code'),
+                        t('joinUs.influencer.benefits.brand', 'Stronger personal brand as business promoter')
                       ].map((benefit, idx) => (
                         <div key={idx} className="flex items-start space-x-3">
                           <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
@@ -236,13 +236,13 @@ const JoinUsPage = () => {
                   <Card className="bg-white border-0 shadow-lg">
                     <CardContent className="p-6">
                       <h3 className="text-lg font-bold text-foreground mb-4">
-                        Influencer Requirements
+                        {t('joinUs.influencer.requirements.title')}
                       </h3>
                       <div className="space-y-2 text-sm text-muted-foreground">
-                        <p>• Active social media presence</p>
-                        <p>• Content creation skills</p>
-                        <p>• Audience interested in business opportunities</p>
-                        <p>• Consistent posting schedule</p>
+                        <p>• {t('joinUs.influencer.requirements.presence')}</p>
+                        <p>• {t('joinUs.influencer.requirements.content')}</p>
+                        <p>• {t('joinUs.influencer.requirements.audience')}</p>
+                        <p>• {t('joinUs.influencer.requirements.schedule')}</p>
                       </div>
                     </CardContent>
                   </Card>
@@ -257,21 +257,21 @@ const JoinUsPage = () => {
                   <CardHeader>
                     <CardTitle className="text-2xl text-foreground flex items-center">
                       <Briefcase className="w-6 h-6 mr-3 text-red-500" />
-                      Join Our Team
+                      {t('joinUs.employee.title')}
                     </CardTitle>
                     <p className="text-muted-foreground">
-                      Build your career with India's leading ATM franchise network. Full-time positions with growth opportunities.
+                      {t('joinUs.employee.description')}
                     </p>
                   </CardHeader>
                   <CardContent className="space-y-6">
                     
                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                        {[
-                         { title: "Competitive Salary", subtitle: "with performance incentives", icon: "💰" },
-                         { title: "Office Location", subtitle: "Vytilla, Ernakulam", icon: "🏢" },
-                         { title: "Leadership Role", subtitle: "Agent network development", icon: "👥" },
-                         { title: "Professional Growth", subtitle: "Training & development", icon: "📈" },
-                         { title: "Expanding Company", subtitle: "Career advancement", icon: "🚀" }
+                         { title: t('joinUs.employee.benefits.salary.title', 'Competitive Salary'), subtitle: t('joinUs.employee.benefits.salary.subtitle', 'with performance incentives'), icon: "💰" },
+                         { title: t('joinUs.employee.benefits.location.title', 'Office Location'), subtitle: t('joinUs.employee.benefits.location.subtitle', 'Vytilla, Ernakulam'), icon: "🏢" },
+                         { title: t('joinUs.employee.benefits.role.title', 'Leadership Role'), subtitle: t('joinUs.employee.benefits.role.subtitle', 'Agent network development'), icon: "👥" },
+                         { title: t('joinUs.employee.benefits.growth.title', 'Professional Growth'), subtitle: t('joinUs.employee.benefits.growth.subtitle', 'Training & development'), icon: "📈" },
+                         { title: t('joinUs.employee.benefits.company.title', 'Expanding Company'), subtitle: t('joinUs.employee.benefits.company.subtitle', 'Career advancement'), icon: "🚀" }
                        ].map((benefit, idx) => (
                          <div key={idx} className="bg-gradient-to-r from-red-50 to-pink-50 rounded-xl p-4 hover:scale-[1.02] transition-transform">
                            <div className="flex items-center space-x-3">
@@ -288,7 +288,7 @@ const JoinUsPage = () => {
                      <div className="pt-4 space-y-4">
                        <Button asChild className="w-full bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-semibold transform transition-all duration-300 hover:scale-105 shadow-lg">
                          <Link to="/join-us/jobs">
-                           Apply Now
+                           {t('joinUs.employee.applyNow')}
                            <ExternalLink className="w-4 h-4 ml-2" />
                          </Link>
                        </Button>
@@ -305,13 +305,13 @@ const JoinUsPage = () => {
                   <Card className="bg-white border-0 shadow-lg">
                     <CardContent className="p-6">
                       <h3 className="text-lg font-bold text-foreground mb-4">
-                        Current Opening
+                        {t('joinUs.employee.currentOpening')}
                       </h3>
                       <div className="space-y-2 text-sm text-muted-foreground">
-                        <p><strong>{t('content.position', 'Position:')}</strong> Sales Manager – Agent Network Development</p>
-                        <p><strong>{t('content.experience', 'Experience:')}</strong> Minimum 5 years in sales</p>
-                        <p><strong>{t('content.location', 'Location:')}</strong> Vytilla, Ernakulam</p>
-                        <p><strong>{t('content.skills', 'Skills:')}</strong> Team management, English/Hindi fluency</p>
+                        <p><strong>{t('joinUs.employee.position')}:</strong> {t('joinUs.employee.salesManager')}</p>
+                        <p><strong>{t('joinUs.employee.experience')}:</strong> {t('joinUs.employee.minExperience')}</p>
+                        <p><strong>{t('joinUs.employee.location')}:</strong> {t('joinUs.employee.vytilla')}</p>
+                        <p><strong>{t('joinUs.employee.skills')}:</strong> {t('joinUs.employee.teamManagement')}</p>
                       </div>
                     </CardContent>
                   </Card>

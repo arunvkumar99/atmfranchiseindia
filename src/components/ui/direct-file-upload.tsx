@@ -33,6 +33,7 @@ export const DirectFileUpload: React.FC<DirectFileUploadProps> = ({
   showPreview = true,
   hasError = false
 }) => {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
@@ -197,7 +198,7 @@ export const DirectFileUpload: React.FC<DirectFileUploadProps> = ({
                   <File className="h-8 w-8 text-muted-foreground" />
                 </div>
                 <p className="text-sm font-medium text-foreground mb-1">
-                  Upload Required Document
+                  {t('forms.uploadRequiredDocument')}
                 </p>
                 <p className="text-xs text-muted-foreground">
                   Max: {maxSizeInMB}MB • Supported formats: {accept}
@@ -226,7 +227,7 @@ export const DirectFileUpload: React.FC<DirectFileUploadProps> = ({
                   className="flex-1 flex items-center gap-2 min-h-[40px]"
                 >
                   <File className="h-4 w-4" />
-                  Choose File
+                  {t('forms.chooseFile')}
                 </Button>
               </div>
             </div>
@@ -259,7 +260,7 @@ export const DirectFileUpload: React.FC<DirectFileUploadProps> = ({
                 <div className="mt-3">
                   <img
                     src={preview}
-                    alt="Preview"
+                    alt={t('forms.preview')}
                     className="max-w-full h-auto max-h-32 rounded-lg border mx-auto"
                   />
                 </div>
