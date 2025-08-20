@@ -350,7 +350,7 @@ export function InfluencerFormSinglePage() {
       setIsCaptchaVerified(false);
 
     } catch (error) {
-      console.error('❌ Error submitting influencer application:', error);
+      // console.error('❌ Error submitting influencer application:', error); // Silenced for production
       trackFormSubmit(false, error.message);
       
       toast({

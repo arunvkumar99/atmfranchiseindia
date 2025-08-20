@@ -171,7 +171,7 @@ export function EnquiryFormSinglePage() {
       const error = null;
       
       if (error) {
-        console.error('Enquiry form submission error:', error);
+        // console.error('Enquiry form submission error:', error);
         
         let errorMessage = 'Failed to submit enquiry. Please try again.';
         
@@ -191,7 +191,7 @@ export function EnquiryFormSinglePage() {
       }
 
       if (data?.error) {
-        console.error('Enquiry data error:', data.error);
+        // console.error('Enquiry data error:', data.error);
         throw new Error(data.error);
       }
 
@@ -225,7 +225,7 @@ export function EnquiryFormSinglePage() {
       setIsCaptchaVerified(false);
 
     } catch (error) {
-      console.error('Submission error:', error);
+      // console.error('Submission error:', error);
       toast({
         title: "Submission Failed ❌",
         description: error.message,

@@ -65,7 +65,7 @@ export const uploadFile = async (
       path: fileName
     };
   } catch (error) {
-    console.error('File upload error:', error);
+    if (import.meta.env?.DEV) console.error('File upload error:', error);
     throw error;
   }
 };
@@ -84,7 +84,7 @@ export const deleteFile = async (
     
     console.log('File removed from local storage');
   } catch (error) {
-    console.error('File delete error:', error);
+    if (import.meta.env?.DEV) console.error('File delete error:', error);
     throw error;
   }
 };

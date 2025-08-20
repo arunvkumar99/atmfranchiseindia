@@ -1,0 +1,52 @@
+[
+  {
+    "file": "src/components/AgentFormSinglePage.tsx",
+    "errorsFixed": 0,
+    "status": "FIXED"
+  },
+  {
+    "file": "src/components/EnquiryFormSinglePage.tsx",
+    "errorsFixed": 0,
+    "status": "FIXED"
+  },
+  {
+    "file": "src/components/InfluencerFormSinglePage.tsx",
+    "errorsFixed": 0,
+    "status": "FIXED"
+  },
+  {
+    "file": "src/components/JobApplicationSinglePage.tsx",
+    "errorsFixed": 0,
+    "status": "FIXED"
+  },
+  {
+    "file": "src/components/SubmitLocationSinglePage.tsx",
+    "errorsFixed": 0,
+    "status": "FIXED"
+  },
+  {
+    "file": "src/components/GetStarted.tsx",
+    "errorsFixed": 0,
+    "status": "FIXED"
+  },
+  {
+    "file": "src/components/SubmitLocationHero.tsx",
+    "errorsFixed": 0,
+    "status": "FIXED"
+  },
+  {
+    "file": "src/lib/errorHandling.ts",
+    "errorsFixed": 3,
+    "status": "WRAPPED"
+  },
+  {
+    "file": "src/lib/fileUpload.ts",
+    "errorsFixed": 2,
+    "status": "WRAPPED"
+  },
+  {
+    "file": "src/lib/logger.ts",
+    "errorsFixed": 3,
+    "status": "WRAPPED"
+  }
+]

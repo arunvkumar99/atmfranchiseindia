@@ -75,7 +75,7 @@ const SubmitLocationSinglePage = () => {
   } = useRateLimitedSubmission({
     formType: 'location_submission',
     onError: (error) => {
-      console.error('Rate limit error:', error);
+      // console.error('Rate limit error:', error);
     }
   });
 
@@ -194,7 +194,7 @@ const SubmitLocationSinglePage = () => {
           );
           buildingPhotoUrl = uploadResult.url;
         } catch (error) {
-          console.error('Building photo upload failed:', error);
+          // console.error('Building photo upload failed:', error);
           toast({
             title: "Building Photo Upload Error",
             description: `Failed to upload building photo: ${error.message}. Please try again.`,
@@ -213,7 +213,7 @@ const SubmitLocationSinglePage = () => {
           );
           roomPhotoUrl = uploadResult.url;
         } catch (error) {
-          console.error('Room photo upload failed:', error);
+          // console.error('Room photo upload failed:', error);
           toast({
             title: "Room Photo Upload Error", 
             description: `Failed to upload room photo: ${error.message}. Please try again.`,
@@ -255,7 +255,7 @@ const SubmitLocationSinglePage = () => {
         });
 
         if (error) {
-          console.error('Submission error:', error);
+          // console.error('Submission error:', error);
           toast({
             title: "Submission Failed",
             description: `There was an error submitting your application: ${error.message}. Please try again.`,
@@ -265,7 +265,7 @@ const SubmitLocationSinglePage = () => {
         }
 
         if (data?.error) {
-          console.error('Data error:', data.error);
+          // console.error('Data error:', data.error);
           toast({
             title: "Submission Failed",
             description: `There was an error submitting your application: ${data.error}. Please try again.`,
@@ -293,7 +293,7 @@ const SubmitLocationSinglePage = () => {
 
         return true;
       } catch (error) {
-        console.error('Unexpected error:', error);
+        // console.error('Unexpected error:', error);
         toast({
           title: "Unexpected Error",
           description: "An unexpected error occurred. Please try again.",

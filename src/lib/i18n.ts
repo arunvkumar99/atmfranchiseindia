@@ -42,7 +42,7 @@ i18n
     },
     
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
+      order: ['querystring', 'navigator', 'htmlTag', 'localStorage'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
     },
@@ -50,8 +50,17 @@ i18n
     supportedLngs: ['en', 'hi', 'bn', 'ta', 'te', 'mr', 'gu', 'ur', 'kn', 'or', 'pa', 'as', 'ml'],
     
     react: {
-      useSuspense: false
-    }
+      useSuspense: false,
+      bindI18n: 'languageChanged',
+      bindI18nStore: '',
+      transEmptyNodeValue: '',
+      transSupportBasicHtmlNodes: true,
+      transKeepBasicHtmlNodesFor: ['br', 'strong', 'i'],
+      transWrapTextNodes: ''
+    },
+    
+    // Force English on initialization
+    lng: 'en'
   });
 
 export default i18n;

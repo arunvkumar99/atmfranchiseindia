@@ -89,10 +89,10 @@ export class ErrorLogger {
         console.warn('⚠️ WARNING:', formattedError);
         break;
       case ErrorSeverity.HIGH:
-        console.error('🚨 ERROR:', formattedError);
+        if (import.meta.env?.DEV) console.error('🚨 ERROR:', formattedError);
         break;
       case ErrorSeverity.CRITICAL:
-        console.error('💀 CRITICAL:', formattedError);
+        if (import.meta.env?.DEV) console.error('💀 CRITICAL:', formattedError);
         break;
     }
 
@@ -108,7 +108,7 @@ export class ErrorLogger {
       // For now, we'll use a placeholder
       console.log('📊 Sending to monitoring service:', { error: error.message, severity, context });
     } catch (monitoringError) {
-      console.error('Failed to send error to monitoring:', monitoringError);
+      if (import.meta.env?.DEV) console.error('Failed to send error to monitoring:', monitoringError);
     }
   }
 }

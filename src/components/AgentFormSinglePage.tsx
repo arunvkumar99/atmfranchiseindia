@@ -162,7 +162,7 @@ export function AgentFormSinglePage() {
       languages: newLanguages
     }));
     
-    console.log('🗣️ Languages updated:', newLanguages);
+    // console.log('🗣️ Languages updated:', newLanguages);
     
     if (errors.languages) {
       clearFieldError('languages');
@@ -222,11 +222,11 @@ export function AgentFormSinglePage() {
           ? `Please correct the following fields: ${errorFields.join(', ')}`
           : 'Please fill all required fields correctly';
         
-        console.error('❌ Form validation failed:', { errors, errorFields, formDataForValidation });
+        // console.error('❌ Form validation failed:', { errors, errorFields, formDataForValidation });
         
         // Show detailed validation errors in console for debugging
         errorFields.forEach(field => {
-          console.error(`Field '${field}' error: ${errors[field]}`);
+          // console.error(`Field '${field}' error: ${errors[field]}`);
         });
         
         toast({
@@ -292,7 +292,7 @@ export function AgentFormSinglePage() {
       }
 
       if (fileErrors.length > 0) {
-        console.error('❌ File validation failed:', fileErrors);
+        // console.error('❌ File validation failed:', fileErrors); // Silenced for production
         toast({
           title: "Missing Required Documents",
           description: `Please upload: ${fileErrors.join(', ')}`,
@@ -327,7 +327,7 @@ export function AgentFormSinglePage() {
         console.log('✅ Photo uploaded:', photoUpload.url);
         
       } catch (uploadError) {
-        console.error('❌ File upload failed:', uploadError);
+        // console.error('❌ File upload failed:', uploadError); // Silenced for production
         toast({
           title: "File Upload Failed",
           description: "Unable to upload one or more files. Please try again.",
@@ -380,17 +380,17 @@ export function AgentFormSinglePage() {
       console.log('Edge function response:', { response, submissionError });
 
       if (submissionError) {
-        console.error('❌ Edge function error:', submissionError);
+        // console.error('❌ Edge function error:', submissionError); // Silenced for production
         throw new Error(submissionError.message || 'Submission failed via edge function');
       }
 
       if (response?.error) {
-        console.error('❌ Response contained error:', response.error);
+        // console.error('❌ Response contained error:', response.error);
         throw new Error(response.error);
       }
 
       if (!response?.success) {
-        console.error('❌ Submission was not successful:', response);
+        // console.error('❌ Submission was not successful:', response);
         throw new Error('Submission was not marked as successful');
       }
 
@@ -444,12 +444,12 @@ export function AgentFormSinglePage() {
       setCaptchaVerified(false);
 
     } catch (error) {
-      console.error('❌ Complete submission error:', error);
-      console.error('Error details:', {
+      // console.error('❌ Complete submission error:', error);
+      // console.error('Error details:', {
         name: error.name,
         message: error.message,
         stack: error.stack
-      });
+      }); // Silenced for production
       
       trackFormSubmit(false, error.message);
       

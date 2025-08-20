@@ -212,7 +212,7 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
       setIsCaptchaVerified(false);
 
     } catch (error) {
-      console.error('❌ Error submitting job application:', error);
+      // console.error('❌ Error submitting job application:', error); // Silenced for production
       trackFormSubmit(false, error.message);
       
       toast({

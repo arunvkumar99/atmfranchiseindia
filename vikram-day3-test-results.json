@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-08-20T02:19:38.888Z",
+  "environment": {
+    "nodeVersion": "v22.17.1",
+    "platform": "win32",
+    "cwd": "C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia"
+  },
+  "tests": [
+    {
+      "name": "Build Status",
+      "status": "FAILED",
+      "error": "Command failed: npm run build\n\u001b[31mx\u001b[39m Build failed in 5.32s\n\u001b[31merror during build:\n\u001b[31m[vite:esbuild] Transform failed with 1 error:\nC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:450:15: ERROR: Expected \";\" but found \":\"\u001b[31m\nfile: \u001b[36mC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:450:15\u001b[31m\n\u001b[33m\n\u001b[33mExpected \";\" but found \":\"\u001b[33m\n448|        // console.error('Error details:', {\n449|          name: error.name,\n450|          message: error.message,\n   |                 ^\n451|          stack: error.stack\n452|        }); // Silenced for production\n\u001b[31m\n    at failureErrorWithLog (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:1472:15)\n    at C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:755:50\n    at responseCallbacks.<computed> (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:622:9)\n    at handleIncomingPacket (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:677:12)\n    at Socket.readFromStdout (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:600:7)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)\u001b[39m\n"
+    },
+    {
+      "name": "Console Error Statements",
+      "status": "FAILED",
+      "count": 19,
+      "files": [
+        "components\\AgentFormEnhanced.tsx",
+        "components\\ErrorBoundary.tsx",
+        "components\\LanguageSwitchTest.tsx",
+        "components\\LazyLoadingWrapper.tsx",
+        "components\\ui\\direct-file-upload.tsx",
+        "components\\ui\\file-upload-manager.tsx",
+        "hooks\\useRateLimitedSubmission.ts",
+        "lib\\errorHandling.ts",
+        "lib\\fileUpload.ts",
+        "lib\\googleSheetsService.ts",
+        "lib\\logger.ts",
+        "lib\\performance.ts",
+        "lib\\translationHelper.ts",
+        "main-test.tsx",
+        "test\\setup.ts"
+      ]
+    },
+    {
+      "name": "Default Language Configuration",
+      "status": "PASSED",
+      "details": "English is set as default and fallback language"
+    },
+    {
+      "name": "English Enforcement Component",
+      "status": "PASSED",
+      "details": "Component actively prevents Tamil as default"
+    }
+  ],
+  "criticalIssues": [
+    "Build fails - cannot deploy to production",
+    "19 console.error statements will appear in production"
+  ],
+  "warnings": [
+    "92 console.log statements found - should be removed for production"
+  ],
+  "passed": 2,
+  "failed": 2,
+  "summary": {
+    "totalTests": 4,
+    "passed": 2,
+    "failed": 2,
+    "criticalIssues": 2,
+    "warnings": 1,
+    "readyForProduction": false
+  }
+}

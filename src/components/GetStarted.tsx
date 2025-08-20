@@ -54,7 +54,7 @@ const GetStarted = () => {
       console.log('📡 Edge function response:', { data, error });
 
       if (error) {
-        console.error('Form submission error:', error);
+        // console.error('Form submission error:', error); // Silenced for production
         throw error;
       }
 
@@ -72,7 +72,7 @@ const GetStarted = () => {
         message: ""
       });
     } catch (error) {
-      console.error('Error submitting get started form:', error);
+      // console.error('Error submitting get started form:', error); // Silenced for production
       toast({
         title: "Submission Failed",
         description: "Please try again or contact us directly.",

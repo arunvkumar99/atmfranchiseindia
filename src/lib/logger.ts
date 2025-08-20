@@ -136,15 +136,15 @@ class Logger {
     // Errors always log, but with different detail levels
     if (this.isProduction) {
       // In production, log minimal info
-      console.error(`[ERROR] ${message}`);
+      if (import.meta.env?.DEV) console.error(`[ERROR] ${message}`);
       
       // Could send to error tracking service here
       this.sendToErrorTracking(entry);
     } else {
       // In development, log full details
-      console.error(this.formatMessage('error', message, source), error || '');
+      if (import.meta.env?.DEV) console.error(this.formatMessage('error', message, source), error || '');
       if (error instanceof Error) {
-        console.error('Stack trace:', error.stack);
+        if (import.meta.env?.DEV) console.error('Stack trace:', error.stack);
       }
     }
   }
