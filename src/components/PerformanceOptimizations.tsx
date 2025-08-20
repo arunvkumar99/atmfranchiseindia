@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 // Reduce motion for users who prefer it
 export const useReducedMotion = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
   useEffect(() => {

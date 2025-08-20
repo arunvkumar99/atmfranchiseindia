@@ -3,7 +3,7 @@ import { Star, Quote } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 const Testimonials = () => {
-  const { t } = useTranslation('home');
+  const { t } = useTranslation();
   
   const testimonials = [
     {

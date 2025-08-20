@@ -44,6 +44,26 @@
         "title": "24/7 سپورٹ",
         "description": "چوبیس گھنٹے تکنیکی اور کاروباری معاونت"
       }
+    },
+    "roi": {
+      "title": "upto 50%",
+      "subtitle": "Return On Investment",
+      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+    },
+    "penetration": {
+      "title": "15 Per Lac",
+      "subtitle": "Only 15 ATMs per 1 Lac People",
+      "description": "ATM Penetration in India is very Low"
+    },
+    "cash": {
+      "title": "75% Cash",
+      "subtitle": "Cash Circulation",
+      "description": "Indian Economy is still Largely Cash based"
+    },
+    "potential": {
+      "title": "90% Potential",
+      "subtitle": "90% of Banks Offsite ATMs are closing down",
+      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
     }
   },
   "process": {
@@ -142,7 +162,9 @@
     "activeFranchises": "فعال فرنچائزز",
     "monthlyTransactions": "ماہانہ لین دین",
     "citiesCovered": "ڈھکے ہوئے شہر",
-    "yearsExperience": "برسوں کا تجربہ"
+    "yearsExperience": "برسوں کا تجربہ",
+    "atmsAcrossIndia": "ATMs across India",
+    "andCounting": "and counting..."
   },
   "whyAtm": {
     "title": "اے ٹی ایم کاروبار کیوں؟",

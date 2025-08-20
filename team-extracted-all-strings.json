@@ -1,0 +1,1272 @@
+{
+  "timestamp": "2025-08-19T17:33:14.646Z",
+  "extractedBy": "Arjun - Senior Full Stack Developer",
+  "totalStrings": 477,
+  "componentsProcessed": 97,
+  "extractedStrings": {
+    "JoinUs": {
+      "labels": {},
+      "placeholders": {
+        "enter_city": "Enter city"
+      },
+      "buttons": {},
+      "messages": {
+        "house_building_number_street_name": "House/Building number, Street name",
+        "area_landmark": "Area, Landmark",
+        "select_business_type": "Select business type"
+      },
+      "validations": {},
+      "options": {
+        "10_25_lakhs": "₹10-25 Lakhs",
+        "25_lakhs": "₹25+ Lakhs",
+        "2_3_lakhs": "₹2-3 Lakhs",
+        "3_4_lakhs": "₹3-4 Lakhs",
+        "4_5_lakhs": "₹4-5 Lakhs",
+        "5_lakhs": "₹5+ Lakhs"
+      }
+    },
+    "InfluencerFormSinglePage": {
+      "labels": {},
+      "placeholders": {
+        "enter_your_email_address": "Enter your email address",
+        "choose_your_state": "Choose your state",
+        "enter_your_district": "Enter your district",
+        "enter_your_permanent_address": "Enter your permanent address",
+        "enter_your_current_address": "Enter your current address",
+        "https_facebook_com_yourprofile": "https://facebook.com/yourprofile",
+        "https_instagram_com_yourprofile": "https://instagram.com/yourprofile"
+      },
+      "buttons": {},
+      "messages": {
+        "primary_contact_number": "Primary contact number",
+        "whatsapp_number": "WhatsApp number",
+        "abcde1234f": "ABCDE1234F"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "AgentFormEnhanced": {
+      "labels": {
+        "upload_aadhaar_front_side": "Upload Aadhaar Front Side *",
+        "upload_aadhaar_back_side": "Upload Aadhaar Back Side *"
+      },
+      "placeholders": {
+        "enter_your_full_name_as_per_pan_card": "Enter your full name as per PAN card",
+        "enter_your_email_address": "Enter your email address",
+        "upload_front_side_of_your_pan_card": "Upload Front Side of your PAN Card *",
+        "enter_your_permanent_address_here": "Enter your permanent address here"
+      },
+      "buttons": {},
+      "messages": {
+        "primary_contact_number": "Primary contact number",
+        "whatsapp_active_number": "WhatsApp active number",
+        "abcde1234f": "ABCDE1234F",
+        "123456789012_12_digits_only": "123456789012 (12 digits only)"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "EnquiryFormSinglePage": {
+      "labels": {},
+      "placeholders": {
+        "your_city": "Your city",
+        "choose_your_state": "Choose your state"
+      },
+      "buttons": {},
+      "messages": {
+        "primary_contact_number": "Primary contact number",
+        "whatsapp_contact_number": "WhatsApp contact number",
+        "6_digit_pincode": "6-digit pincode",
+        "select_business_type": "Select business type"
+      },
+      "validations": {},
+      "options": {
+        "5_10_lakhs": "₹5 - 10 Lakhs",
+        "10_15_lakhs": "₹10 - 15 Lakhs",
+        "15_25_lakhs": "₹15 - 25 Lakhs",
+        "above_25_lakhs": "Above ₹25 Lakhs"
+      }
+    },
+    "AgentFormSinglePage": {
+      "labels": {},
+      "placeholders": {
+        "enter_your_full_name_as_per_pan_card": "Enter your full name as per PAN card",
+        "enter_your_email_address": "Enter your email address",
+        "choose_your_state": "Choose your state",
+        "enter_your_district": "Enter your district",
+        "enter_your_permanent_address_here": "Enter your permanent address here",
+        "enter_your_current_address_here": "Enter your current address here",
+        "tell_us_about_your_motivation_and_goals_as_an_agent": "Tell us about your motivation and goals as an agent"
+      },
+      "buttons": {},
+      "messages": {
+        "primary_contact_number": "Primary contact number",
+        "whatsapp_active_number": "WhatsApp active number",
+        "abcde1234f": "ABCDE1234F"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "SubmitLocationSinglePage": {
+      "labels": {
+        "https_maps_google_com": "https://maps.google.com/..."
+      },
+      "placeholders": {
+        "enter_agent_code_provided_to_you": "Enter agent code provided to you",
+        "your_complete_name": "Your complete name",
+        "your_10_digit_phone_number": "Your 10-digit phone number",
+        "your_city_name": "Your city name"
+      },
+      "buttons": {},
+      "messages": {
+        "whatsapp_number_if_different_from_phone": "WhatsApp number (if different from phone)",
+        "district_name": "District name",
+        "6_digit_pincode": "6-digit pincode",
+        "complete_address_with_landmarks": "Complete address with landmarks",
+        "what_do_you_call_this_location": "What do you call this location?"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "JobApplicationSinglePage": {
+      "labels": {},
+      "placeholders": {
+        "your_contact_number": "Your contact number"
+      },
+      "buttons": {
+        "submit": "Submit",
+        "add": "Add",
+        "error": "Error",
+        "success": "Success"
+      },
+      "messages": {
+        "select_a_job_position": "Select a job position",
+        "city_state": "City, State",
+        "e_g_3_years_fresher_etc": "e.g., 3 years, Fresher, etc.",
+        "select_notice_period": "Select notice period"
+      },
+      "validations": {},
+      "options": {
+        "e_g_5_00_000_per_annum": "e.g., ₹5,00,000 per annum"
+      }
+    },
+    "GetStarted": {
+      "labels": {},
+      "placeholders": {
+        "tell_us_about_your_business_goals_timeline_or_any_specific_questions": "Tell us about your business goals, timeline, or any specific questions..."
+      },
+      "buttons": {
+        "submit": "Submit",
+        "add": "Add"
+      },
+      "messages": {
+        "city_state": "City, State",
+        "rural_family_atm_business": "Rural Family ATM Business",
+        "successful_atm_franchise_owner": "Successful ATM Franchise Owner"
+      },
+      "validations": {},
+      "options": {
+        "2_3_lakhs": "₹2-3 Lakhs",
+        "3_4_lakhs": "₹3-4 Lakhs",
+        "4_5_lakhs": "₹4-5 Lakhs",
+        "5_lakhs": "₹5+ Lakhs"
+      }
+    },
+    "UnifiedForm": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "add": "Add",
+        "error": "Error",
+        "success": "Success",
+        "required": "Required",
+        "select": "Select",
+        "apply": "Apply",
+        "reset": "Reset"
+      },
+      "messages": {
+        "please_wait": "Please wait"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "SubmitLocationHero": {
+      "labels": {},
+      "placeholders": {
+        "enter_your_email_address": "Enter your email address",
+        "describe_your_proposed_atm_location_with_details_about_footfall_nearby_businesses_accessibility_and_why_you_think_it": "Describe your proposed ATM location with details about footfall, nearby businesses, accessibility, and why you think it"
+      },
+      "buttons": {
+        "submit": "Submit",
+        "add": "Add",
+        "error": "Error",
+        "success": "Success",
+        "select": "Select"
+      },
+      "messages": {
+        "atm_location_success": "ATM Location Success"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "direct-file-upload": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "preview": "Preview",
+        "error": "Error",
+        "required": "Required",
+        "select": "Select",
+        "choose": "Choose",
+        "reset": "Reset",
+        "clear": "Clear",
+        "upload": "Upload"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "enhanced-file-upload": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "error": "Error",
+        "required": "Required",
+        "select": "Select",
+        "choose": "Choose",
+        "reset": "Reset",
+        "upload": "Upload"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "standard-file-uploads": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "select": "Select",
+        "back": "Back",
+        "upload": "Upload"
+      },
+      "messages": {
+        "pan_document_upload": "PAN Document Upload",
+        "passport_size_photo": "Passport Size Photo",
+        "aadhaar_front_side": "Aadhaar Front Side",
+        "aadhaar_back_side": "Aadhaar Back Side"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "DirectSheetsForm": {
+      "labels": {},
+      "placeholders": {
+        "tell_us_about_your_requirements": "Tell us about your requirements..."
+      },
+      "buttons": {
+        "submit": "Submit",
+        "save": "Save",
+        "error": "Error",
+        "success": "Success",
+        "select": "Select",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "ProgressiveFormWrapper": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "save": "Save",
+        "success": "Success",
+        "next": "Next",
+        "previous": "Previous",
+        "continue": "Continue",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "file-upload": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "preview": "Preview",
+        "add": "Add",
+        "required": "Required",
+        "select": "Select",
+        "choose": "Choose",
+        "back": "Back",
+        "upload": "Upload"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "AccessibilityEnhancements": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add",
+        "loading": "Loading",
+        "select": "Select",
+        "no": "No",
+        "clear": "Clear"
+      },
+      "messages": {
+        "required": "required"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "OptimizedImage": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "loading": "Loading",
+        "error": "Error",
+        "select": "Select",
+        "back": "Back",
+        "no": "No"
+      },
+      "messages": {
+        "close_lightbox": "Close lightbox"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "StickyHeader": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "search": "Search",
+        "submit": "Submit",
+        "no": "No",
+        "export": "Export"
+      },
+      "messages": {
+        "atm_franchise_india_logo": "ATM Franchise India Logo",
+        "toggle_menu": "Toggle menu"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "EnhancedFormWrapper": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "save": "Save",
+        "success": "Success",
+        "continue": "Continue",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "SubmitLocationProgressive": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "save": "Save",
+        "success": "Success",
+        "select": "Select",
+        "upload": "Upload"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "button-enhanced": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "loading": "Loading",
+        "success": "Success",
+        "warning": "Warning",
+        "required": "Required",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "file-upload-manager": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "select": "Select",
+        "no": "No",
+        "clear": "Clear",
+        "upload": "Upload"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "pagination": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "next": "Next",
+        "previous": "Previous"
+      },
+      "messages": {
+        "pagination": "pagination",
+        "go_to_previous_page": "Go to previous page",
+        "go_to_next_page": "Go to next page"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "DesignAudit": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add",
+        "error": "Error",
+        "success": "Success",
+        "warning": "Warning",
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "SubmitLocation": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "success": "Success",
+        "back": "Back",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {
+        "50k": "₹50K"
+      }
+    },
+    "VisualShowcase": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "add": "Add",
+        "loading": "Loading",
+        "back": "Back"
+      },
+      "messages": {
+        "email_address": "Email Address"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "utils": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "loading": "Loading",
+        "error": "Error",
+        "select": "Select",
+        "finish": "Finish",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "App": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "loading": "Loading",
+        "error": "Error",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "BecomefranchiseHero": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "back": "Back",
+        "no": "No",
+        "apply": "Apply"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "FormSuccessModal": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "success": "Success",
+        "next": "Next",
+        "continue": "Continue"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "FranchiseModelsComparison": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "select": "Select",
+        "choose": "Choose",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "Header": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "choose": "Choose",
+        "search": "Search",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "Hero": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "choose": "Choose",
+        "back": "Back",
+        "register": "Register"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "OptimizedComponents": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "no": "No",
+        "clear": "Clear",
+        "export": "Export"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "SearchComponent": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add",
+        "search": "Search",
+        "no": "No"
+      },
+      "messages": {
+        "search_for_atm_franchise_wla_atms_agent_program": "Search for ATM franchise, WLA ATMs, agent program..."
+      },
+      "validations": {},
+      "options": {}
+    },
+    "carousel": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "select": "Select",
+        "next": "Next",
+        "previous": "Previous"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "sidebar": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add",
+        "error": "Error",
+        "ok": "OK"
+      },
+      "messages": {
+        "toggle_sidebar": "Toggle Sidebar"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "AboutUs": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "success": "Success",
+        "next": "Next",
+        "back": "Back",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "FiveStepGuideATMBusiness": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "success": "Success",
+        "back": "Back",
+        "apply": "Apply"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {
+        "25k_30k": "₹25k-30k"
+      }
+    },
+    "ErrorBoundary": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "no": "No",
+        "reset": "Reset"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "LazyLoadingWrapper": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "loading": "Loading",
+        "error": "Error",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "LoadingStates": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "loading": "Loading",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "MicroInteractions": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "loading": "Loading",
+        "success": "Success",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "MobileNav": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "select": "Select",
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "Testimonials": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "success": "Success",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {
+        "45k": "₹45K+"
+      }
+    },
+    "TranslationDebug": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "TranslationValidator": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "success": "Success",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "security-headers": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "select": "Select",
+        "no": "No",
+        "apply": "Apply"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "VisualPolish": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "select": "Select",
+        "back": "Back",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "WhyATMFranchiseIndia": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "success": "Success",
+        "no": "No",
+        "register": "Register"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "TruthAboutPassiveIncomeIdeas": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add",
+        "back": "Back",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "JobsPage": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "no": "No",
+        "apply": "Apply"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "NotFound": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "search": "Search",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "PixellpayAdvantage": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "success": "Success",
+        "choose": "Choose",
+        "import": "Import"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "TranslationTest": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "FAQ": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "yes": "Yes",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "FixedLanguageRouter": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "no": "No",
+        "apply": "Apply"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "LanguageSwitcherNew": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add",
+        "remove": "Remove"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "PerformanceOptimizations": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "loading": "Loading",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "Services": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "select": "Select",
+        "choose": "Choose"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "breadcrumb": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "no": "No"
+      },
+      "messages": {
+        "breadcrumb": "breadcrumb"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "captcha-protection": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "no": "No"
+      },
+      "messages": {
+        "answer": "Answer"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "chart": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error",
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "error-message": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error"
+      },
+      "messages": {
+        "dismiss_message": "Dismiss message"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "UrgencyElements": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "no": "No",
+        "apply": "Apply"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "AccessibilityStatement": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back",
+        "clear": "Clear"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "PassiveIncomeFinancialFreedom": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "next": "Next",
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "JoinUsPage": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "no": "No",
+        "apply": "Apply"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "OurProducts": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "success": "Success",
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "TermsConditions": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back",
+        "clear": "Clear"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "AccessibilityWrapper": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "no": "No"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "BreadcrumbNavigation": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "Footer": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "FormProgress": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "save": "Save"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "SEOMetaTags": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "SocialProofElements": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {},
+      "messages": {},
+      "validations": {},
+      "options": {
+        "50l": "₹50L+"
+      }
+    },
+    "StrategicCrossPageLinks": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "success": "Success"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "alert-dialog": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "cancel": "Cancel"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "animated-hero": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {},
+      "messages": {
+        "sign_up": "Sign up"
+      },
+      "validations": {},
+      "options": {}
+    },
+    "button": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "command": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "search": "Search"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "drawer": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "enhanced-skeleton": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "submit": "Submit"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "form": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "optimized-image": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "error": "Error"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "select": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "select": "Select"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "WhyATM": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "useLanguageRouter": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "main": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "loading": "Loading"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "AgentPage": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "ATMFranchisePassiveIncome": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "PerfectTimeSideHustle2025": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "ContactUs": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "add": "Add"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "InfluencerPage": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "clear": "Clear"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "PrivacyPolicy": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    },
+    "RefundPolicy": {
+      "labels": {},
+      "placeholders": {},
+      "buttons": {
+        "back": "Back"
+      },
+      "messages": {},
+      "validations": {},
+      "options": {}
+    }
+  }
+}

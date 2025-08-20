@@ -21,7 +21,7 @@ export const RippleButton = ({
   const [ripples, setRipples] = useState<Array<{ x: number; y: number; id: number }>>([]);
 
   const createRipple = (e: React.MouseEvent<HTMLButtonElement>) => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
     const button = e.currentTarget;
     const rect = button.getBoundingClientRect();
     const x = e.clientX - rect.left;

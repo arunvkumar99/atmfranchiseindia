@@ -1,0 +1,119 @@
+{
+  "common": {
+    "buttons": {
+      "submit": "Submit",
+      "add": "Add",
+      "apply": "Apply",
+      "reset": "Reset",
+      "clear": "Clear",
+      "cancel": "Cancel",
+      "back": "Back",
+      "save": "Save",
+      "next": "Next",
+      "previous": "Previous",
+      "continue": "Continue",
+      "finish": "Finish",
+      "register": "Register",
+      "ok": "OK",
+      "remove": "Remove"
+    },
+    "status": {
+      "error": "Error",
+      "success": "Success",
+      "required": "Required",
+      "loading": "Loading",
+      "warning": "Warning"
+    },
+    "actions": {
+      "select": "Select",
+      "preview": "Preview",
+      "choose": "Choose",
+      "upload": "Upload",
+      "search": "Search",
+      "export": "Export",
+      "import": "Import"
+    },
+    "navigation": {},
+    "confirmation": {
+      "no": "No",
+      "yes": "Yes"
+    }
+  },
+  "forms": {
+    "labels": {},
+    "placeholders": {
+      "enter_city": "Enter city",
+      "your_contact_number": "Your contact number",
+      "tell_us_about_your_business_goals_timeline_or_any_specific_questions": "Tell us about your business goals, timeline, or any specific questions...",
+      "tell_us_about_your_requirements": "Tell us about your requirements..."
+    },
+    "validation": {},
+    "options": {
+      "investment": {},
+      "businessType": {},
+      "gender": {},
+      "occupation": {},
+      "state": {},
+      "10_25_lakhs": "₹10-25 Lakhs",
+      "25_lakhs": "₹25+ Lakhs",
+      "2_3_lakhs": "₹2-3 Lakhs",
+      "3_4_lakhs": "₹3-4 Lakhs",
+      "4_5_lakhs": "₹4-5 Lakhs",
+      "5_lakhs": "₹5+ Lakhs",
+      "e_g_5_00_000_per_annum": "e.g., ₹5,00,000 per annum",
+      "25k_30k": "₹25k-30k",
+      "45k": "₹45K+",
+      "50l": "₹50L+"
+    }
+  },
+  "agent": {
+    "title": "Agent Application",
+    "sections": {},
+    "fields": {
+      "upload_aadhaar_front_side": "Upload Aadhaar Front Side *",
+      "upload_aadhaar_back_side": "Upload Aadhaar Back Side *"
+    },
+    "messages": {
+      "primary_contact_number": "Primary contact number",
+      "whatsapp_active_number": "WhatsApp active number",
+      "abcde1234f": "ABCDE1234F",
+      "123456789012_12_digits_only": "123456789012 (12 digits only)"
+    }
+  },
+  "franchise": {
+    "title": "Franchise Application",
+    "sections": {},
+    "fields": {},
+    "messages": {
+      "primary_contact_number": "Primary contact number",
+      "whatsapp_contact_number": "WhatsApp contact number",
+      "6_digit_pincode": "6-digit pincode",
+      "select_business_type": "Select business type"
+    }
+  },
+  "influencer": {
+    "title": "Influencer Program",
+    "sections": {},
+    "fields": {},
+    "messages": {
+      "primary_contact_number": "Primary contact number",
+      "whatsapp_number": "WhatsApp number",
+      "abcde1234f": "ABCDE1234F"
+    }
+  },
+  "location": {
+    "title": "Submit Location",
+    "sections": {},
+    "fields": {
+      "https_maps_google_com": "https://maps.google.com/..."
+    },
+    "messages": {
+      "whatsapp_number_if_different_from_phone": "WhatsApp number (if different from phone)",
+      "district_name": "District name",
+      "6_digit_pincode": "6-digit pincode",
+      "complete_address_with_landmarks": "Complete address with landmarks",
+      "what_do_you_call_this_location": "What do you call this location?",
+      "atm_location_success": "ATM Location Success"
+    }
+  }
+}

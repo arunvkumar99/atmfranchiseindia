@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Run translation validation before commit
+npm run validate:translations
+
+# Run ESLint with translation rules
+npm run lint:translations
+
+# Check for hardcoded texts
+node scripts/comprehensive-translation-check.cjs --silent || echo "Warning: Hardcoded texts detected"

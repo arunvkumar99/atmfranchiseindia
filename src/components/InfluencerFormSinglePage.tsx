@@ -22,6 +22,7 @@ import { Send, Loader2 } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 export function InfluencerFormSinglePage() {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -135,7 +136,6 @@ export function InfluencerFormSinglePage() {
   const progress = useFormProgress({ fields });
 
   const handleInputChange = (field: string, value: string) => {
-  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     
     // Real-time validation when user types
@@ -444,7 +444,7 @@ export function InfluencerFormSinglePage() {
                 {/* Personal Information */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Personal Information</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t("sections.personal")}</h3>
                     <p className="text-sm text-muted-foreground mt-1">Your basic details and contact information</p>
                   </div>
 
@@ -543,7 +543,7 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone Number *</Label>
+                      <label className="block text-sm font-medium text-foreground mb-2">{t("fields.phone")} *</label>
                       <Input 
                         id="phone" 
                         value={formData.phone}
@@ -560,7 +560,7 @@ export function InfluencerFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="whatsapp">WhatsApp Number *</Label>
+                      <label className="block text-sm font-medium text-foreground mb-2">{t("fields.whatsapp")} *</label>
                       <Input 
                         id="whatsapp" 
                         value={formData.whatsappPhone}
@@ -579,7 +579,7 @@ export function InfluencerFormSinglePage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="email">Email Address *</Label>
+                    <label className="block text-sm font-medium text-foreground mb-2">{t("fields.email")} *</label>
                     <Input 
                       id="email" 
                       type="email" 
@@ -1045,3 +1045,5 @@ export function InfluencerFormSinglePage() {
     </div>
   );
 }
+
+export default InfluencerFormSinglePage;

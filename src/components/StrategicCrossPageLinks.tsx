@@ -10,8 +10,9 @@ interface StrategicLinksProps {
 }
 
 export function StrategicCrossPageLinks({ currentPage, variant = 'detailed' }: StrategicLinksProps) {
+  const { t } = useTranslation();
+  
   const getRecommendedLinks = () => {
-  const { t } = useTranslation('common');
     switch (currentPage) {
       case 'home':
         return [

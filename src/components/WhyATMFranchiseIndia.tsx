@@ -6,7 +6,7 @@ import { Shield, Users, TrendingUp, Headphones, ArrowRight } from "lucide-react"
 import { useTranslation } from 'react-i18next';
 
 const WhyATMFranchiseIndia = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   const reasons = [
     {
       number: "1",
@@ -101,7 +101,7 @@ const WhyATMFranchiseIndia = () => {
             </Badge>
              <div className="flex items-center justify-center gap-4 mb-4">
                <img 
-                 src="/lovable-uploads/56a47420-a61b-4533-8c38-19991c252f62.png" 
+                 src="https://via.placeholder.com/150x50/ffffff/333333?text=ATM+Franchise" 
                  alt={t('alt.atm_franchise_india_logo', 'ATM Franchise India Logo')} 
                  className="h-16 w-auto object-contain"
                />

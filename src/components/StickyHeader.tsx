@@ -9,7 +9,7 @@ import { useAuth } from "@/hooks/useAuth";
 import SearchComponent from "@/components/SearchComponent";
 
 const StickyHeader = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
@@ -78,7 +78,7 @@ const StickyHeader = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-3">
           <img 
-            src="/lovable-uploads/381f354a-0796-4433-a08e-2b6a875f288f.png" 
+            src="https://via.placeholder.com/150x50/ffffff/333333?text=ATM+Franchise" 
             alt="ATM Franchise India Logo" 
             className={`object-contain transition-all duration-300 ${
               isScrolled ? 'h-10' : 'h-14'

@@ -44,6 +44,26 @@
         "title": "24/7 सहायता",
         "description": "चौबीसों घंटे तकनीकी और व्यावसायिक सहायता"
       }
+    },
+    "roi": {
+      "title": "50% तक",
+      "subtitle": "निवेश पर रिटर्न",
+      "description": "RBI लाइसेंस प्राप्त WLA ATM पार्टनरों द्वारा प्राप्त सभी भुगतान"
+    },
+    "penetration": {
+      "title": "15 प्रति लाख",
+      "subtitle": "केवल 15 ATM प्रति 1 लाख लोग",
+      "description": "भारत में ATM पैठ बहुत कम है"
+    },
+    "cash": {
+      "title": "75% नकद",
+      "subtitle": "नकद प्रसार",
+      "description": "भारतीय अर्थव्यवस्था अभी भी काफी हद तक नकद आधारित है"
+    },
+    "potential": {
+      "title": "90% संभावना",
+      "subtitle": "बैंकों के 90% ऑफसाइट ATM बंद हो रहे हैं",
+      "description": "बैंकों के ऑफसाइट ATM बंद होने से ATM के लिए बड़ा बाजार बनता है"
     }
   },
   "process": {
@@ -142,7 +162,9 @@
     "activeFranchises": "सक्रिय फ्रेंचाइजी",
     "monthlyTransactions": "मासिक लेनदेन",
     "citiesCovered": "कवर किए गए शहर",
-    "yearsExperience": "वर्षों का अनुभव"
+    "yearsExperience": "वर्षों का अनुभव",
+    "atmsAcrossIndia": "पूरे भारत में ATM",
+    "andCounting": "और बढ़ रहे हैं..."
   },
   "whyAtm": {
     "title": "एटीएम व्यवसाय क्यों?",

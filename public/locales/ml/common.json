@@ -13,23 +13,24 @@
     "language": "ഭാഷ"
   },
   "buttons": {
-    "submit": "സമർപ്പിക്കുക",
-    "cancel": "റദ്ദാക്കുക",
-    "save": "രക്ഷിക്കും",
-    "delete": "ഇല്ലാതാക്കുക",
-    "edit": "എഡിറ്റ് ചെയ്യുക",
-    "viewMore": "കൂടുതൽ കാണു",
-    "learnMore": "കൂടുതലറിയുക",
-    "getStarted": "ആരംഭിക്കുക",
-    "apply": "ഇപ്പോൾ പ്രയോഗിക്കുക",
-    "download": "ഇറക്കുമതി",
-    "share": "പങ്കിടുക",
-    "back": "തിരികെ",
-    "next": "അടുത്തത്",
-    "previous": "മുമ്പത്തേത്",
-    "close": "അടയ്ക്കുക",
-    "confirm": "സ്ഥിരീകരിക്കുക",
-    "viewDetails": "വിശദാംശങ്ങൾ കാണുക"
+    "submit": "Submit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "back": "Back",
+    "close": "Close",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "update": "Update",
+    "apply": "Apply",
+    "reset": "Reset",
+    "clear": "Clear",
+    "register": "Register",
+    "login": "Login",
+    "finish": "Finish"
   },
   "forms": {
     "required": "ഈ ഫീൽഡ് പൂരിപ്പിക്കേണ്ടതുണ്ട്",
@@ -141,5 +142,43 @@
     "instagram": "ഇൻസ്റ്റാഗ്രാം",
     "youtube": "യൂട്യൂബ്",
     "whatsapp": "ആപ്പ്"
+  },
+  "status": {
+    "loading": "Loading",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "required": "Required",
+    "optional": "Optional",
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "actions": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "upload": "Upload",
+    "download": "Download",
+    "preview": "Preview",
+    "select": "Select",
+    "choose": "Choose"
+  },
+  "confirmation": {
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "agree": "I Agree",
+    "disagree": "I Disagree"
+  },
+  "navigation": {
+    "home": "Home",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "menu": "Menu"
   }
 }

@@ -20,8 +20,12 @@
     "translate:original": "node scripts/translate-content.cjs translate",
     "scan:translations": "node scripts/scan-hardcoded-text.cjs",
     "fix:forms": "node scripts/fix-form-translations.cjs",
-    "audit:translations": "node scripts/comprehensive-translation-audit.cjs",
-    "find:english": "node scripts/find-english-content.cjs"
+    "audit:translations": "node scripts/comprehensive-translation-check.cjs",
+    "find:english": "node scripts/find-english-content.cjs",
+    "validate:translations": "node scripts/validate-translations.cjs",
+    "fix:translations": "node scripts/fix-all-forms-translations.cjs",
+    "lint:translations": "eslint src --ext .tsx,.ts --rule 'react/jsx-no-literals: error'",
+    "translate:missing": "node scripts/auto-translate-missing.cjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.6",

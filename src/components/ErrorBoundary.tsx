@@ -208,10 +208,10 @@ export class ErrorBoundary extends Component<Props, State> {
  */
 export const AsyncErrorBoundary: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [error, setError] = React.useState<Error | null>(null);
+  const { t } = useTranslation();
 
   React.useEffect(() => {
     const handleError = (event: ErrorEvent) => {
-  const { t } = useTranslation('forms');
       setError(new Error(event.message));
     };
 

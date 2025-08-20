@@ -1,0 +1,35 @@
+{
+  "day1_evening": {
+    "duration": "2 hours",
+    "tests": [
+      "FUNC-001",
+      "FUNC-002",
+      "FUNC-003",
+      "LANG-001",
+      "LANG-003",
+      "REG-001",
+      "REG-002"
+    ],
+    "focus": "P0 Critical functionality"
+  },
+  "day2_morning": {
+    "duration": "1 hour",
+    "tests": [
+      "FUNC-004",
+      "VIS-001",
+      "LANG-002",
+      "PERF-001"
+    ],
+    "focus": "P1 High priority tests"
+  },
+  "day2_evening": {
+    "duration": "3 hours",
+    "tests": [
+      "VIS-002",
+      "PERF-002",
+      "Full regression suite",
+      "Automation scripts"
+    ],
+    "focus": "Complete validation"
+  }
+}

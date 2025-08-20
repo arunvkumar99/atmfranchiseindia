@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 import { useNavigate, Link } from "@/hooks/useLanguageRouter";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,7 +11,7 @@ import atmFranchiseCareer from "@/assets/atm-franchise-career.jpg";
 import youngBusinessOwner from "@/assets/young-business-owner.jpg";
 
 const JoinUsPage = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation('forms');
   const { tab } = useParams();
   const navigate = useNavigate();
 
@@ -29,7 +30,6 @@ const JoinUsPage = () => {
       <style>{`
         .join-us-page .data-[state=active]:bg-gradient-hero {
           background: linear-gradient(135deg, hsl(355 85% 50%), hsl(355 70% 60%)) !important;
-import { useTranslation } from 'react-i18next';
           color: white !important;
         }
         .join-us-page .bg-gradient-hero {

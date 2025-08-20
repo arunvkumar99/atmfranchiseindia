@@ -11,7 +11,7 @@ import successfulBusinessman from "@/assets/successful-businessman.jpg";
 import { useTranslation } from 'react-i18next';
 
 const GetStarted = () => {
-  const { t } = useTranslation('home');
+  const { t } = useTranslation('franchise');
   const [formData, setFormData] = useState({
     name: "",
     phone: "",

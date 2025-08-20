@@ -1,4 +1,10 @@
 {
+  "content": {
+    "become_an": "Become an",
+    "partner": "Partner",
+    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "simple_4step_process": "Simple 4-Step Process"
+  },
   "hero": {
     "badge": "Trusted ATM Franchise Partner",
     "title": {

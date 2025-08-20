@@ -1,27 +1,29 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslation } from 'react-i18next';
+import vakrangeeLogo from "@/assets/vakrangee-logo.png";
+import findiLogo from "@/assets/findi-logo.png";
 
 const WLAOperators = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation('franchise');
   const operators = [
     {
       name: "EPS BANCS",
-      logo: "/lovable-uploads/6fa0c71a-d251-4135-91c4-5c01825640b7.png",
+      logo: "https://via.placeholder.com/200x80/ffffff/333333?text=EPS+BANCS",
       alt: "EPS BANCS White Label ATM"
     },
     {
       name: "FINDI",
-      logo: "/lovable-uploads/450ec6fe-1efb-4ba1-823b-12a69da1de75.png",
+      logo: findiLogo,
       alt: "FINDI White Label ATM"
     },
     {
       name: "India1",
-      logo: "/lovable-uploads/4d8d6356-0d3e-4ee5-92bd-5543de99432a.png",
+      logo: "https://via.placeholder.com/200x80/ffffff/333333?text=India1",
       alt: "India1 White Label ATM"
     },
     {
       name: "Vakrangee",
-      logo: "/lovable-uploads/9e9f2bcc-4064-4a3b-841a-0ef244e69b37.png",
+      logo: vakrangeeLogo,
       alt: "Vakrangee White Label ATM"
     }
   ];

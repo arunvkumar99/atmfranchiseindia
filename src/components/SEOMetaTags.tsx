@@ -19,14 +19,14 @@ export const SEOMetaTags: React.FC<SEOMetaTagsProps> = ({
   title = 'ATM Franchise India - Your ATM, Your Income',
   description = 'Start your own ATM franchise business with minimal investment and maximum returns. Partner with RBI licensed operators across India.',
   keywords = 'ATM franchise, ATM business, passive income, franchise opportunity, India',
-  image = '/lovable-uploads/381f354a-0796-4433-a08e-2b6a875f288f.png',
+  image = 'https://via.placeholder.com/1200x630/333333/ffffff?text=ATM+Franchise+India',
   currentLanguage = 'en'
 }) => {
+  const { t } = useTranslation('common');
   const location = useLocation();
 
   // Generate URLs for all languages
   const generateLanguageURLs = () => {
-  const { t } = useTranslation('forms');
     const baseUrl = typeof window !== 'undefined' ? window.location.origin : '';
     const currentPath = location.pathname;
     const basePath = currentPath.replace(/^\/[a-z]{2}(\/|$)/, '/');

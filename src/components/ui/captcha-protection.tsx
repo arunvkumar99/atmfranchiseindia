@@ -10,12 +10,12 @@ interface CaptchaProtectionProps {
 }
 
 export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectionProps) {
+  const { t } = useTranslation('forms');
   const [challenge, setChallenge] = useState({ question: '', answer: 0 });
   const [userAnswer, setUserAnswer] = useState('');
   const [isVerified, setIsVerified] = useState(false);
 
   const generateChallenge = () => {
-  const { t } = useTranslation('forms');
     const num1 = Math.floor(Math.random() * 10) + 1;
     const num2 = Math.floor(Math.random() * 10) + 1;
     const operations = ['+', '-', '×'];

@@ -44,6 +44,26 @@
         "title": "24/7 Support",
         "description": "Round-the-clock technical and business support"
       }
+    },
+    "roi": {
+      "title": "upto 50%",
+      "subtitle": "Return On Investment",
+      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+    },
+    "penetration": {
+      "title": "15 Per Lac",
+      "subtitle": "Only 15 ATMs per 1 Lac People",
+      "description": "ATM Penetration in India is very Low"
+    },
+    "cash": {
+      "title": "75% Cash",
+      "subtitle": "Cash Circulation",
+      "description": "Indian Economy is still Largely Cash based"
+    },
+    "potential": {
+      "title": "90% Potential",
+      "subtitle": "90% of Banks Offsite ATMs are closing down",
+      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
     }
   },
   "process": {
@@ -73,8 +93,46 @@
     }
   },
   "testimonials": {
-    "title": "What Our Partners Say",
-    "subtitle": "Success stories from across India"
+    "badge": "Success Stories",
+    "title": "Real Results from Our Partners",
+    "subtitle": "Don't just take our word for it. Here are genuine success stories from our franchise partners across India.",
+    "items": {
+      "rajesh": {
+        "name": "Rajesh Kumar",
+        "location": "Mumbai, Maharashtra",
+        "business": "EPS ATM Franchise",
+        "revenue": "₹45,000/month",
+        "testimonial": "ATM Franchise India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
+      },
+      "priya": {
+        "name": "Priya Sharma",
+        "location": "Bangalore, Karnataka",
+        "business": "Vakrangee Partnership",
+        "revenue": "₹38,000/month",
+        "testimonial": "The team's expertise in WLA partnerships is unmatched. My ATM is generating consistent ₹38,000 monthly income in just 6 months."
+      },
+      "amit": {
+        "name": "Amit Patel",
+        "location": "Ahmedabad, Gujarat",
+        "business": "Indicash Franchise",
+        "revenue": "₹52,000/month",
+        "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
+      },
+      "sanjay": {
+        "name": "Sanjay Verma",
+        "location": "Pune, Maharashtra",
+        "business": "Hitachi ATM Partner",
+        "revenue": "₹42,000/month",
+        "testimonial": "Excellent support from start to finish. The team helped me select the perfect location and WLA partner. Now earning steady passive income with minimal daily involvement."
+      }
+    },
+    "monthsLabel": "in {{months}} months",
+    "performance": {
+      "title": "Average Partner Performance",
+      "income": "Avg Monthly Income",
+      "roi": "Months to ROI",
+      "success": "Success Rate"
+    }
   },
   "locations": {
     "title": "Our Presence Across India",
@@ -100,32 +158,47 @@
     }
   },
   "stats": {
+    "title": "PixellPay by Numbers",
+    "activeFranchises": "Active Franchises",
+    "monthlyTransactions": "Monthly Transactions",
+    "citiesCovered": "Cities Covered",
+    "yearsExperience": "Years of Experience",
     "atmsAcrossIndia": "ATMs across India",
     "andCounting": "and counting..."
   },
   "whyAtm": {
-    "title": "Why ATM Business?",
+    "title": "Why ATM Business",
     "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
     "stats": {
       "roi": {
+        "prefix": "upto",
         "label": "Return On Investment",
         "description": "All Payout Received by RBI Licensed WLA ATM Partners"
       },
       "penetration": {
-        "label": "ATM Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+        "suffix": "Per Lac",
+        "label": "Only 15 ATMs per 1Lac People",
+        "description": "ATM Penetration in India is very Low"
       },
       "cash": {
+        "suffix": "Cash",
         "label": "Cash Circulation",
         "description": "Indian Economy is still Largely Cash based"
       },
-      "market": {
-        "label": "Market Opportunity",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+      "potential": {
+        "suffix": "Potential",
+        "label": "90% of Banks Offsite ATMs are closing down",
+        "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
       }
     },
     "cta": {
-      "title": "Perfect Time for ATM Business in Rural India"
+      "title": "Perfect Time for ATM Business in Rural India",
+      "points": {
+        "digital": "Digital Adoption Growing",
+        "government": "Government Push for Financial Inclusion",
+        "branches": "Bank Branch Closures"
+      },
+      "investment": "Investment Range: ₹2-5 Lakhs"
     }
   },
   "faq": {
@@ -187,48 +260,6 @@
         "title": "Quick Setup",
         "description": "Fast-track approval and installation within 30-45 days."
       }
-    }
-  },
-  "stats": {
-    "title": "PixellPay by Numbers",
-    "activeFranchises": "Active Franchises",
-    "monthlyTransactions": "Monthly Transactions",
-    "citiesCovered": "Cities Covered",
-    "yearsExperience": "Years of Experience"
-  },
-  "whyAtm": {
-    "title": "Why ATM Business",
-    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
-    "stats": {
-      "roi": {
-        "prefix": "upto",
-        "label": "Return On Investment",
-        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
-      },
-      "penetration": {
-        "suffix": "Per Lac",
-        "label": "Only 15 ATMs per 1Lac People",
-        "description": "ATM Penetration in India is very Low"
-      },
-      "cash": {
-        "suffix": "Cash",
-        "label": "Cash Circulation",
-        "description": "Indian Economy is still Largely Cash based"
-      },
-      "potential": {
-        "suffix": "Potential",
-        "label": "90% of Banks Offsite ATMs are closing down",
-        "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
-      }
-    },
-    "cta": {
-      "title": "Perfect Time for ATM Business in Rural India",
-      "points": {
-        "digital": "Digital Adoption Growing",
-        "government": "Government Push for Financial Inclusion",
-        "branches": "Bank Branch Closures"
-      },
-      "investment": "Investment Range: ₹2-5 Lakhs"
     }
   },
   "services": {
@@ -299,46 +330,72 @@
       "support": "Customer Support"
     }
   },
-  "testimonials": {
-    "badge": "Success Stories",
-    "title": "Real Results from Our Partners",
-    "subtitle": "Don't just take our word for it. Here are genuine success stories from our franchise partners across India.",
-    "items": {
-      "rajesh": {
-        "name": "Rajesh Kumar",
-        "location": "Mumbai, Maharashtra",
-        "business": "EPS ATM Franchise",
-        "revenue": "₹45,000/month",
-        "testimonial": "ATM Franchise India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
-      },
-      "priya": {
-        "name": "Priya Sharma",
-        "location": "Bangalore, Karnataka",
-        "business": "Vakrangee Partnership",
-        "revenue": "₹38,000/month",
-        "testimonial": "The team's expertise in WLA partnerships is unmatched. My ATM is generating consistent ₹38,000 monthly income in just 6 months."
-      },
-      "amit": {
-        "name": "Amit Patel",
-        "location": "Ahmedabad, Gujarat",
-        "business": "Indicash Franchise",
-        "revenue": "₹52,000/month",
-        "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
-      },
-      "sanjay": {
-        "name": "Sanjay Verma",
-        "location": "Pune, Maharashtra",
-        "business": "Hitachi ATM Partner",
-        "revenue": "₹42,000/month",
-        "testimonial": "Excellent support from start to finish. The team helped me select the perfect location and WLA partner. Now earning steady passive income with minimal daily involvement."
-      }
+  "valueProps": {
+    "title": "Why ATM Business?",
+    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
+    "perfectTime": "Perfect Time for ATM Business in Rural India",
+    "investmentRange": "Investment Range: ₹2-5 Lakhs",
+    "bullets": {
+      "digitalAdoption": "Digital Adoption Growing",
+      "governmentPush": "Government Push for Financial Inclusion",
+      "bankClosures": "Bank Branch Closures"
     },
-    "monthsLabel": "in {{months}} months",
-    "performance": {
-      "title": "Average Partner Performance",
-      "income": "Avg Monthly Income",
-      "roi": "Months to ROI",
-      "success": "Success Rate"
+    "stats": {
+      "roi": {
+        "prefix": "upto ",
+        "value": "50",
+        "suffix": "%",
+        "label": "Return On Investment",
+        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      },
+      "penetration": {
+        "value": "15",
+        "suffix": " Per Lac",
+        "label": "ATM Penetration",
+        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+      },
+      "cash": {
+        "value": "75",
+        "suffix": "% Cash",
+        "label": "Cash Circulation",
+        "description": "Indian Economy is still Largely Cash based"
+      },
+      "potential": {
+        "value": "90",
+        "suffix": "% Potential",
+        "label": "Market Opportunity",
+        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+      }
     }
+  },
+  "whyChoose": {
+    "badge": "Our Advantage",
+    "title": "Why Choose",
+    "titleHighlight": "ATM Franchise India?",
+    "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
+    "cta": {
+      "partners": "Join 500+ successful franchise partners"
+    },
+    "features": {
+      "trusted": {
+        "title": "Trusted ATM Franchise Information",
+        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+      },
+      "guidance": {
+        "title": "Expert Guidance on WLA Operators",
+        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
+      },
+      "digital": {
+        "title": "Boost Your Digital Presence",
+        "description": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+      },
+      "support": {
+        "title": "End-to-End Franchise Support",
+        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
+      }
+    }
+  },
+  "alt": {
+    "atmInIndianSetting": "ATM in Indian semi-urban setting"
   }
 }

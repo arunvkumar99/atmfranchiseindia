@@ -7,7 +7,7 @@ import heroImage from "@/assets/hero-rural-atm.jpg";
 import { useTranslation } from 'react-i18next';
 
 const SubmitLocation = () => {
-  const { t } = useTranslation('submitLocation');
+  const { t } = useTranslation('forms');
   const handleScrollToForm = () => {
     const formElement = document.getElementById('location-form');
     formElement?.scrollIntoView({ behavior: 'smooth' });

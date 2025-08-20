@@ -20,166 +20,38 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'ml', name: 'Malayalam', native: 'മലയാളം', flag: '🇮🇳' }
 ];
 
-// Language codes array for i18n config
-const languageCodes = SUPPORTED_LANGUAGES.map(lang => lang.code);
-
-// Custom language detector that checks URL path
-const customLanguageDetector = {
-  name: 'urlPathDetector',
-  lookup() {
-    const path = window.location.pathname;
-    const langMatch = path.match(/^\/([a-z]{2})(\/|$)/);
-    if (langMatch && languageCodes.includes(langMatch[1])) {
-      return langMatch[1];
-    }
-    return null;
-  },
-  cacheUserLanguage(lng: string) {
-    localStorage.setItem('i18nextLng', lng);
-  }
-};
-
-// Initialize i18n
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    // Supported languages
-    supportedLngs: languageCodes,
-    
-    // Default language
     fallbackLng: 'en',
+    debug: false, // Set to true for debugging
     
-    // Debug mode (disable in production)
-    debug: false,
-    
-    // Namespace configuration
-    ns: ['common', 'home', 'forms', 'products', 'blog'],
+    // Multiple namespaces for better organization
+    ns: ['common', 'home', 'forms', 'franchise', 'products', 'blog', 'agent', 'influencer', 'jobs', 'about', 'contact'],
     defaultNS: 'common',
     
-    // Backend configuration for loading JSON files
+    interpolation: {
+      escapeValue: false // React already escapes
+    },
+    
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json',
-      // Allow cross-domain requests
       crossDomain: true,
-      // Cache responses
-      requestOptions: {
-        cache: 'default',
-      }
     },
     
-    // Language detection configuration
     detection: {
-      order: ['urlPathDetector', 'localStorage', 'navigator'],
-      lookupLocalStorage: 'i18nextLng',
+      order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
-      checkWhitelist: true,
-      // Custom detector for URL path
-      detectors: [customLanguageDetector]
+      lookupLocalStorage: 'i18nextLng',
     },
     
-    // React specific configuration
+    supportedLngs: ['en', 'hi', 'bn', 'ta', 'te', 'mr', 'gu', 'ur', 'kn', 'or', 'pa', 'as', 'ml'],
+    
     react: {
-      useSuspense: false, // Disable suspense to avoid loading issues
-      bindI18n: 'languageChanged loaded',
-      bindI18nStore: 'added removed',
-      transEmptyNodeValue: '',
-      transSupportBasicHtmlNodes: true,
-      transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p'],
-    },
-    
-    // Interpolation configuration
-    interpolation: {
-      escapeValue: false, // React already escapes values
-      formatSeparator: ',',
-    },
-    
-    // Resource loading configuration
-    load: 'languageOnly', // Don't load region-specific (e.g., en-US)
-    
-    // Fallback configuration
-    fallbackNS: 'common',
-    
-    // Missing key handler
-    saveMissing: false, // Disable saving missing translations
-    missingKeyHandler: false,
-    
-    // Performance optimizations
-    cleanCode: true,
-    nonExplicitSupportedLngs: false,
-    
-    // Initial loading settings
-    partialBundledLanguages: true,
-    
-    // Return empty string for missing translations in production
-    returnEmptyString: false,
-    returnNull: false,
+      useSuspense: false
+    }
   });
-
-// Helper function to change language and update URL
-export const changeLanguage = (langCode: string) => {
-  const currentPath = window.location.pathname;
-  const currentLangMatch = currentPath.match(/^\/([a-z]{2})(\/.*)?$/);
-  
-  let newPath: string;
-  
-  if (langCode === 'en') {
-    // Remove language prefix for English
-    if (currentLangMatch) {
-      newPath = currentLangMatch[2] || '/';
-    } else {
-      newPath = currentPath;
-    }
-  } else {
-    // Add or replace language prefix
-    if (currentLangMatch) {
-      newPath = `/${langCode}${currentLangMatch[2] || ''}`;
-    } else {
-      newPath = `/${langCode}${currentPath === '/' ? '' : currentPath}`;
-    }
-  }
-  
-  // Change language in i18n
-  i18n.changeLanguage(langCode);
-  
-  // Update URL without page reload
-  window.history.pushState({}, '', newPath);
-};
-
-// Helper function to get language from URL
-export const getLanguageFromURL = (): string => {
-  const path = window.location.pathname;
-  const langMatch = path.match(/^\/([a-z]{2})(\/|$)/);
-  
-  if (langMatch && languageCodes.includes(langMatch[1])) {
-    return langMatch[1];
-  }
-  
-  return 'en';
-};
-
-// Helper function to get path without language prefix
-export const getPathWithoutLanguage = (path: string): string => {
-  const langMatch = path.match(/^\/([a-z]{2})(\/.*)?$/);
-  
-  if (langMatch && languageCodes.includes(langMatch[1])) {
-    return langMatch[2] || '/';
-  }
-  
-  return path;
-};
-
-// Helper function to add language prefix to path
-export const addLanguageToPath = (path: string, langCode: string): string => {
-  if (langCode === 'en') {
-    return path;
-  }
-  
-  // Remove existing language prefix if any
-  const cleanPath = getPathWithoutLanguage(path);
-  
-  return `/${langCode}${cleanPath === '/' ? '' : cleanPath}`;
-};
 
 export default i18n;

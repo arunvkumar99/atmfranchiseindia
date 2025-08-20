@@ -4,7 +4,7 @@ import { HelpCircle, Shield, TrendingUp, Clock } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 const FAQ = () => {
-  const { t } = useTranslation('home');
+  const { t } = useTranslation('common');
   
   const faqs = [
     {

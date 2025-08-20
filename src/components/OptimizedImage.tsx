@@ -29,7 +29,7 @@ export const OptimizedImage = ({
   onLoadComplete,
   ...props
 }: OptimizedImageProps) => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   const [imageSrc, setImageSrc] = useState(blurDataUrl || '');
   const [isLoading, setIsLoading] = useState(true);
   const [isInView, setIsInView] = useState(priority);

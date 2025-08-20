@@ -6,7 +6,7 @@ import businessGrowth from "@/assets/business-growth.jpg";
 import { useTranslation } from 'react-i18next';
 
 const BecomefranchiseHero = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation('franchise');
   const benefits = [
     {
       icon: TrendingUp,

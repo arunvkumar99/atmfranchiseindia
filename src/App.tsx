@@ -22,6 +22,7 @@ import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 import { TranslationDebug } from "@/components/TranslationDebug";
 import { TranslationValidator } from "@/components/TranslationValidator";
+import { EnsureEnglishDefault } from "@/components/EnsureEnglishDefault";
 
 // Lazy load all pages for optimal performance
 const Home = lazy(() => import("./pages/Home"));
@@ -46,6 +47,7 @@ const JobsPage = lazy(() => import("./pages/JobsPage"));
 const BlogPage = lazy(() => import("./pages/BlogPage"));
 const TranslationTest = lazy(() => import("./pages/TranslationTest"));
 const TranslationVerify = lazy(() => import("./pages/TranslationVerify"));
+const TestTranslation = lazy(() => import("./pages/TestTranslation"));
 const DesignAudit = lazy(() => import("./pages/DesignAudit"));
 const PerfectTimeSideHustle2025 = lazy(() => import("./pages/blog/PerfectTimeSideHustle2025"));
 const PassiveIncomeFinancialFreedom = lazy(() => import("./pages/blog/PassiveIncomeFinancialFreedom"));
@@ -74,6 +76,7 @@ const LazyJobsPage = withLazyLoading(JobsPage);
 const LazyBlogPage = withLazyLoading(BlogPage);
 const LazyTranslationTest = withLazyLoading(TranslationTest);
 const LazyTranslationVerify = withLazyLoading(TranslationVerify);
+const LazyTestTranslation = withLazyLoading(TestTranslation);
 const LazyDesignAudit = withLazyLoading(DesignAudit);
 const LazyVisualShowcase = withLazyLoading(lazy(() => import('@/pages/VisualShowcase')));
 const LazyPerfectTimeSideHustle2025 = withLazyLoading(PerfectTimeSideHustle2025);
@@ -171,6 +174,7 @@ const App = () => {
               <BrowserRouter>
                 <KeyboardNavigationProvider>
                   <AccessibilityWrapper>
+                    <EnsureEnglishDefault />
                     <SkipNavigationLinks />
                     <AccessibilityEnhancements />
                     <ResourceHints />
@@ -215,6 +219,7 @@ const App = () => {
                       <Route path="/blog/five-step-guide-atm-business" element={<LazyFiveStepGuideATMBusiness />} />
                       
                       {/* Test route */}
+                      {import.meta.env.DEV && <Route path="/test-translation" element={<LazyTestTranslation />} />}
                       {import.meta.env.DEV && <Route path="/test-translations" element={<LazyTranslationTest />} />}
                       {import.meta.env.DEV && <Route path="/verify-translations" element={<LazyTranslationVerify />} />}
                       {import.meta.env.DEV && <Route path="/design-audit" element={<LazyDesignAudit />} />}

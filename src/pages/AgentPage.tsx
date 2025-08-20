@@ -9,7 +9,7 @@ import { AgentFormProgressive } from "@/components/AgentFormProgressive";
 import { SocialProofElements } from "@/components/SocialProofElements";
 
 const AgentPage = () => {
-  const { t } = useTranslation('agent');
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen pt-24">
       <div className="container mx-auto px-4 py-6">

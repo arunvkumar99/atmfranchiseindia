@@ -21,6 +21,7 @@ import { Loader2, Send } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 export function AgentFormSinglePage() {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -127,7 +128,6 @@ export function AgentFormSinglePage() {
   const progress = useFormProgress({ fields });
 
   const handleInputChange = (field: string, value: string) => {
-  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     // Real-time validation when user types
     if (value.trim()) {
@@ -560,7 +560,7 @@ export function AgentFormSinglePage() {
                 {/* Personal Information Section */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">Personal Information</h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t("sections.personal")}/h3>
                     <p className="text-sm text-muted-foreground mt-1">Tell us about yourself and provide your basic details</p>
                   </div>
 
@@ -584,7 +584,7 @@ export function AgentFormSinglePage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email Address *</Label>
+                      <label className="block text-sm font-medium text-foreground mb-2">{t("fields.email")} *</label>
                       <Input 
                         id="email" 
                         type="email" 
@@ -684,7 +684,7 @@ export function AgentFormSinglePage() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone Number *</Label>
+                      <label className="block text-sm font-medium text-foreground mb-2">{t("fields.phone")} *</label>
                       <Input 
                         id="phone" 
                         value={formData.phone}
@@ -701,7 +701,7 @@ export function AgentFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="whatsapp">WhatsApp Number *</Label>
+                      <label className="block text-sm font-medium text-foreground mb-2">{t("fields.whatsapp")} *</label>
                       <Input 
                         id="whatsapp" 
                         value={formData.whatsappPhone}

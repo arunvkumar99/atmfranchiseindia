@@ -1,4 +1,9 @@
 {
+  "labels": {
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number"
+  },
   "fields": {
     "fullName": "Full Name",
     "firstName": "First Name",
@@ -32,15 +37,27 @@
   },
   "placeholders": {
     "fullName": "Enter your full name",
-    "email": "example@email.com",
-    "phone": "+91 98765 43210",
+    "email": "Enter your email address",
+    "phone": "10-digit mobile number",
     "message": "Type your message here...",
-    "city": "Select your city",
-    "state": "Select your state",
+    "city": "Enter city",
+    "state": "Choose your state",
     "searchCity": "Search city...",
     "selectOption": "Select an option",
     "uploadFile": "Choose file or drag here",
-    "pincode": "6-digit PIN code"
+    "pincode": "6-digit pincode",
+    "full_name": "Enter your full name",
+    "full_name_pan": "Enter your full name as per PAN card",
+    "phone_primary": "Primary contact number",
+    "whatsapp": "WhatsApp number",
+    "pan": "ABCDE1234F",
+    "aadhaar": "123456789012 (12 digits only)",
+    "address": "Enter complete address",
+    "address_line1": "House/Building number, Street name",
+    "address_line2": "Area, Landmark",
+    "your_city": "Your city",
+    "district": "Enter your district",
+    "business_type": "Select business type"
   },
   "validation": {
     "required": "{{field}} is required",
@@ -54,7 +71,18 @@
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
     "agreeRequired": "You must agree to the terms and conditions",
-    "captchaRequired": "Please complete the captcha verification"
+    "captchaRequired": "Please complete the captcha verification",
+    "email_invalid": "Please enter a valid email address",
+    "phone_invalid": "Please enter a valid 10-digit phone number",
+    "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
+    "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
+    "pincode_invalid": "Please enter a valid 6-digit PIN code",
+    "min_length": "Minimum {{min}} characters required",
+    "max_length": "Maximum {{max}} characters allowed",
+    "file_size": "File size must be less than {{size}}MB",
+    "file_type": "Only {{types}} files are allowed",
+    "security_required": "Please complete the security verification before submitting",
+    "try_again": "Please try again or contact us directly"
   },
   "options": {
     "occupation": {
@@ -66,11 +94,17 @@
       "other": "Other"
     },
     "investment": {
-      "below1": "Below ₹1 Lakh",
-      "1to5": "₹1-5 Lakhs",
-      "5to10": "₹5-10 Lakhs",
-      "10to25": "₹10-25 Lakhs",
-      "above25": "Above ₹25 Lakhs"
+      "below_1": "Below ₹1 Lakh",
+      "1_to_5": "₹1-5 Lakhs",
+      "2_to_3": "₹2-3 Lakhs",
+      "3_to_4": "₹3-4 Lakhs",
+      "4_to_5": "₹4-5 Lakhs",
+      "5_to_10": "₹5-10 Lakhs",
+      "10_to_15": "₹10-15 Lakhs",
+      "10_to_25": "₹10-25 Lakhs",
+      "15_to_25": "₹15-25 Lakhs",
+      "above_5": "₹5+ Lakhs",
+      "above_25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
       "google": "Google Search",
@@ -86,6 +120,11 @@
       "grocery": "Grocery Store",
       "medical": "Medical Store",
       "restaurant": "Restaurant/Cafe",
+      "other": "Other"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
       "other": "Other"
     }
   },
@@ -124,5 +163,270 @@
     "subtitle": "We're here to help",
     "success": "Message sent successfully!",
     "error": "Error sending message. Please try again."
+  },
+  "joinUs": {
+    "title": {
+      "main": "Join the",
+      "highlight": "ATM Franchise",
+      "revolution": "Revolution"
+    },
+    "subtitle": "Choose your path to success with ATM Franchise India",
+    "form": {
+      "title": "ATM Franchise Application Form",
+      "instruction": "Please provide accurate information. All fields marked with * are mandatory.",
+      "submitMessage": "Our team will review your application within 24-48 hours and contact you with next steps."
+    },
+    "sections": {
+      "personal": "Personal Information",
+      "address": "Address Information",
+      "business": "Business Information",
+      "franchise": "ATM Franchise Details",
+      "financial": "Financial Information",
+      "additional": "Additional Information"
+    },
+    "labels": {
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "email": "Email Address *",
+      "phone": "Phone Number *",
+      "alternatePhone": "Alternate Phone",
+      "dateOfBirth": "Date of Birth *",
+      "addressLine1": "Address Line 1 *",
+      "addressLine2": "Address Line 2",
+      "city": "City *",
+      "state": "State *",
+      "pincode": "PIN Code *",
+      "businessType": "Business Type *",
+      "businessExperience": "Business Experience *",
+      "currentOccupation": "Current Occupation *",
+      "annualIncome": "Annual Income Range *",
+      "investmentCapacity": "Investment Capacity *",
+      "preferredLocation": "Preferred ATM Location *",
+      "locationOwnership": "Location Ownership *",
+      "expectedFootfall": "Expected Daily Footfall",
+      "nearbyBanks": "Nearby Banks",
+      "competitorATMs": "Competitor ATMs",
+      "primaryBank": "Primary Bank *",
+      "accountType": "Account Type *",
+      "panCard": "PAN Card Number *",
+      "gstNumber": "GST Number (if applicable)",
+      "referenceSource": "How did you hear about us? *",
+      "previousFranchise": "Previous Franchise Experience",
+      "timelineToStart": "Timeline to Start *",
+      "additionalComments": "Additional Comments/Questions"
+    },
+    "placeholders": {
+      "firstName": "Enter first name",
+      "lastName": "Enter last name",
+      "email": "your.email@example.com",
+      "phone": "+91 98765 43210",
+      "addressLine1": "House/Building number, Street name",
+      "addressLine2": "Area, Landmark",
+      "city": "Enter city",
+      "state": "Select state",
+      "pincode": "Enter 6-digit PIN code",
+      "businessType": "Select business type",
+      "experienceYears": "Years of experience",
+      "currentOccupation": "e.g., Shop Owner, Farmer, Employee",
+      "annualIncome": "Select income range",
+      "investmentCapacity": "Select investment range",
+      "preferredLocation": "Area/Village where you want ATM",
+      "locationOwnership": "Do you own the location?",
+      "expectedFootfall": "Expected daily visitors",
+      "nearbyBanks": "Names of banks within 5km",
+      "competitorATMs": "Number of ATMs in 2km radius",
+      "bankName": "Bank name",
+      "accountType": "Select account type",
+      "panCard": "ABCDE1234F",
+      "gstNumber": "GST registration number",
+      "referenceSource": "Select source",
+      "previousFranchise": "Any previous franchise?",
+      "timelineToStart": "When can you start?",
+      "additionalComments": "Any specific questions or additional information you'd like to share..."
+    },
+    "states": {
+      "andhra-pradesh": "Andhra Pradesh",
+      "bihar": "Bihar",
+      "gujarat": "Gujarat",
+      "haryana": "Haryana",
+      "karnataka": "Karnataka",
+      "kerala": "Kerala",
+      "madhya-pradesh": "Madhya Pradesh",
+      "maharashtra": "Maharashtra",
+      "odisha": "Odisha",
+      "punjab": "Punjab",
+      "rajasthan": "Rajasthan",
+      "tamil-nadu": "Tamil Nadu",
+      "telangana": "Telangana",
+      "uttar-pradesh": "Uttar Pradesh",
+      "west-bengal": "West Bengal"
+    },
+    "businessTypes": {
+      "individual": "Individual",
+      "proprietorship": "Proprietorship",
+      "partnership": "Partnership",
+      "private-limited": "Private Limited",
+      "llp": "LLP"
+    },
+    "experienceRanges": {
+      "0-1": "0-1 years",
+      "2-5": "2-5 years",
+      "6-10": "6-10 years",
+      "11-15": "11-15 years",
+      "15+": "15+ years"
+    },
+    "incomeRanges": {
+      "below-2l": "Below ₹2 Lakhs",
+      "2l-5l": "₹2-5 Lakhs",
+      "5l-10l": "₹5-10 Lakhs",
+      "10l-25l": "₹10-25 Lakhs",
+      "25l+": "₹25+ Lakhs"
+    },
+    "investmentRanges": {
+      "2-3l": "₹2-3 Lakhs",
+      "3-4l": "₹3-4 Lakhs",
+      "4-5l": "₹4-5 Lakhs",
+      "5l+": "₹5+ Lakhs"
+    },
+    "locationOwnershipOptions": {
+      "owned": "I own the location",
+      "can-arrange": "I can arrange the location",
+      "need-help": "Need help finding location"
+    },
+    "footfallRanges": {
+      "50-100": "50-100 people",
+      "100-200": "100-200 people",
+      "200-500": "200-500 people",
+      "500+": "500+ people"
+    },
+    "accountTypes": {
+      "savings": "Savings Account",
+      "current": "Current Account",
+      "cc-od": "CC/OD Account"
+    },
+    "referenceSources": {
+      "website": "Website",
+      "social-media": "Social Media",
+      "friend-referral": "Friend/Family Referral",
+      "newspaper": "Newspaper/Magazine",
+      "search-engine": "Search Engine",
+      "other": "Other"
+    },
+    "franchiseExperience": {
+      "yes-successful": "Yes, successful experience",
+      "yes-challenges": "Yes, faced challenges",
+      "no": "No previous experience"
+    },
+    "timelines": {
+      "immediate": "Immediately",
+      "1-month": "Within 1 month",
+      "2-3-months": "2-3 months",
+      "3-6-months": "3-6 months",
+      "6-months+": "6+ months"
+    },
+    "terms": {
+      "agreeText": "I agree to the",
+      "termsLink": "Terms & Conditions",
+      "disclaimer": "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.",
+      "marketingConsent": "I agree to receive marketing communications and updates about ATM franchise opportunities."
+    },
+    "sidebar": {
+      "successStory": {
+        "title": "Join 500+ Successful Franchisees",
+        "testimonial": "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
+        "name": "Rajesh Kumar",
+        "designation": "ATM Franchise Owner, Bihar"
+      },
+      "process": {
+        "title": "Application Process",
+        "steps": [
+          "Submit detailed application",
+          "Initial screening & verification",
+          "Personal interview & site visit",
+          "Approval & agreement signing",
+          "Setup, training & launch"
+        ]
+      },
+      "help": {
+        "title": "Need Help?",
+        "callUs": "Call Us",
+        "emailUs": "Email Us",
+        "phone": "+91 7003554455",
+        "email": "contact@atmfranchiseindia.in"
+      }
+    },
+    "benefits": {
+      "roi": {
+        "title": "High ROI Potential",
+        "description": "Earn up to 50% return on investment with transparent revenue sharing"
+      },
+      "competition": {
+        "title": "Low Competition",
+        "description": "Only 15 ATMs per 1 lakh people - huge market opportunity"
+      },
+      "support": {
+        "title": "Complete Support",
+        "description": "End-to-end assistance from setup to operations"
+      },
+      "track": {
+        "title": "Proven Track Record",
+        "description": "Join 500+ successful franchisees across India"
+      }
+    },
+    "opportunities": {
+      "agent": {
+        "title": "Join as Agent",
+        "description": "Become a field sales agent and earn commission"
+      },
+      "franchise": {
+        "title": "Join as Franchise",
+        "description": "Start your own ATM business"
+      },
+      "employee": {
+        "title": "Join as Employee",
+        "description": "Build your career with full-time positions"
+      }
+    },
+    "buttons": {
+      "submit": "Submit Application"
+    },
+    "toast": {
+      "termsRequired": {
+        "title": "Terms & Conditions Required",
+        "description": "Please agree to terms and conditions to proceed."
+      },
+      "success": {
+        "title": "Application Submitted Successfully!",
+        "description": "Our franchise team will review your application and contact you within 24-48 hours."
+      }
+    }
+  },
+  "buttons": {
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "cancel": "Cancel",
+    "saveDraft": "Save Draft",
+    "submitApplication": "Submit Application",
+    "apply": "Apply Now",
+    "register": "Register",
+    "continue": "Continue"
+  },
+  "sections": {
+    "personal": "Personal Information",
+    "contact": "Contact Details",
+    "address": "Address Information",
+    "business": "Business Information",
+    "financial": "Financial Information",
+    "documents": "Document Upload",
+    "verification": "Verification",
+    "terms": "Terms & Conditions"
+  },
+  "form": {
+    "mandatoryFields": "All fields marked with * are mandatory",
+    "accurateInfo": "Please provide accurate information",
+    "successMessage": "Application submitted successfully!",
+    "errorMessage": "Error submitting application. Please try again.",
+    "reviewInfo": "Please review your information before submitting"
   }
 }

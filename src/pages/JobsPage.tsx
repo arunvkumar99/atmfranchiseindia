@@ -17,7 +17,7 @@ import {
 import { JobApplicationProgressive } from "@/components/JobApplicationProgressive";
 
 const JobsPage = () => {
-  const { t } = useTranslation('jobs');
+  const { t } = useTranslation();
   const jobListings = [
     {
       id: "1",

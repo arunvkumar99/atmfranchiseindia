@@ -1,0 +1,273 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { CheckCircle, MapPin, TrendingUp, Phone, Mail, Star, Target, BarChart3, Shield, Zap, Globe, Award } from "lucide-react";
+import SubmitLocationProgressive from "@/components/SubmitLocationProgressive";
+import heroImage from "@/assets/hero-rural-atm.jpg";
+import { useTranslation } from 'react-i18next';
+
+const SubmitLocation = () => {
+  const { t } = useTranslation();
+  const handleScrollToForm = () => {
+    const formElement = document.getElementById('location-form');
+    formElement?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <div className="min-h-screen bg-background pt-24">
+      {/* Hero Section */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background with Enhanced Overlay */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-blue-900/90 to-indigo-900/85"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20"></div>
+        </div>
+
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-purple-500/8 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-cyan-500/6 rounded-full blur-3xl animate-pulse delay-500"></div>
+        </div>
+        
+        <div className="relative z-10 container mx-auto px-4">
+          <div className="max-w-5xl mx-auto text-center text-white">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 mb-8 bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md border border-white/20 rounded-full px-6 py-3">
+              <Target className="w-5 h-5 text-blue-300" />
+              <span className="text-blue-100 font-medium">{t('content.professional_location_analysis', 'Professional Location Analysis')}</span>
+            </div>
+            
+            {/* Main Heading with Enhanced Typography */}
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight">
+              <span className="block text-white">{t('content.get_your', 'Get Your')}</span>
+              <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
+                ATM Location
+              </span>
+              <span className="block text-white">{t('content.analyzed_by_experts', 'Analyzed by Experts')}</span>
+            </h1>
+            
+            {/* Enhanced Description */}
+            <p className="text-xl md:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto leading-relaxed opacity-90">
+              Submit your location details and receive a comprehensive analysis report within 24 hours. 
+              Our experts evaluate <span className="text-cyan-300 font-semibold">foot traffic</span>, 
+              <span className="text-purple-300 font-semibold"> demographics</span>, and 
+              <span className="text-blue-300 font-semibold"> profitability potential</span>.
+            </p>
+            
+            {/* Enhanced CTA Button */}
+            <Button 
+              size="lg" 
+              onClick={handleScrollToForm}
+              className="group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-10 py-6 text-xl rounded-full shadow-2xl hover:shadow-blue-500/25 hover:scale-105 transition-all duration-500 border border-white/20 backdrop-blur-sm mb-16"
+            >
+              <MapPin className="w-6 h-6 mr-3 group-hover:animate-bounce" />
+              Submit Location for Analysis
+              <Zap className="w-6 h-6 ml-3 group-hover:animate-pulse" />
+            </Button>
+            
+            {/* Floating Stats with Enhanced Design */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <div className="group bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:scale-105 hover:shadow-xl">
+                <div className="text-3xl font-black text-cyan-300 mb-2 group-hover:animate-pulse">500+</div>
+                <div className="text-blue-100 font-medium">{t('content.locations_analyzed', 'Locations Analyzed')}</div>
+              </div>
+              <div className="group bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:scale-105 hover:shadow-xl">
+                <div className="text-3xl font-black text-purple-300 mb-2 group-hover:animate-pulse">24hrs</div>
+                <div className="text-blue-100 font-medium">{t('content.analysis_time', 'Analysis Time')}</div>
+              </div>
+              <div className="group bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:scale-105 hover:shadow-xl">
+                <div className="text-3xl font-black text-blue-300 mb-2 group-hover:animate-pulse">95%</div>
+                <div className="text-blue-100 font-medium">{t('content.success_rate', 'Success Rate')}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse"></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Benefits Strip */}
+      <section className="py-20 bg-gradient-to-r from-slate-50 via-blue-50 to-purple-50 relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_50%,rgba(59,130,246,0.1),transparent)] "></div>
+          <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_80%_50%,rgba(147,51,234,0.1),transparent)]"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
+            <div className="group text-center">
+              <div className="relative mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-500 group-hover:scale-110">
+                  <BarChart3 className="w-10 h-10 text-white" />
+                </div>
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-pulse"></div>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-blue-600 transition-colors duration-300">{t('content.datadriven_analysis', 'Data-Driven Analysis')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.professional_evaluation_using_', 'Professional evaluation using real market data, advanced analytics, and comprehensive demographics research')}</p>
+            </div>
+            
+            <div className="group text-center">
+              <div className="relative mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-500 group-hover:scale-110">
+                  <Target className="w-10 h-10 text-white" />
+                </div>
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full animate-pulse delay-300"></div>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-purple-600 transition-colors duration-300">{t('content.location_scoring', 'Location Scoring')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.comprehensive_scoring_system_b', 'Comprehensive scoring system based on foot traffic patterns, accessibility metrics, and strategic positioning')}</p>
+            </div>
+            
+            <div className="group text-center">
+              <div className="relative mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-500 group-hover:scale-110">
+                  <Award className="w-10 h-10 text-white" />
+                </div>
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full animate-pulse delay-500"></div>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-emerald-600 transition-colors duration-300">{t('content.expert_recommendations', 'Expert Recommendations')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.actionable_insights_from_indus', 'Actionable insights from industry experts with 5+ years experience and proven track record')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Location Analysis Matters */}
+      <section className="py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
+        {/* Animated Background */}
+        <div className="absolute inset-0">
+          <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/8 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-3/4 left-1/2 w-64 h-64 bg-cyan-500/12 rounded-full blur-3xl animate-pulse delay-500"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-5xl mx-auto text-center mb-20">
+            <h2 className="text-4xl md:text-6xl font-black text-white mb-8 leading-tight">
+              Why Location Analysis 
+              <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                Matters
+              </span>
+            </h2>
+            <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed opacity-90">
+              The success of your ATM business depends heavily on location. Our expert analysis helps you make informed decisions and maximize your ROI.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-12 max-w-7xl mx-auto">
+            <div className="group text-center">
+              <div className="relative mb-8">
+                <div className="w-28 h-28 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-3xl flex items-center justify-center mx-auto shadow-2xl group-hover:shadow-emerald-500/25 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                  <span className="text-4xl font-black text-white">85%</span>
+                </div>
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full"></div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-6 group-hover:text-emerald-300 transition-colors duration-300">{t('content.success_rate_with_analysis', 'Success Rate with Analysis')}</h3>
+              <p className="text-blue-100 leading-relaxed text-lg">{t('content.locations_analyzed_by_our_expe', 'Locations analyzed by our experts show 85% higher success rates compared to random selections')}</p>
+            </div>
+            
+            <div className="group text-center">
+              <div className="relative mb-8">
+                <div className="w-28 h-28 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-3xl flex items-center justify-center mx-auto shadow-2xl group-hover:shadow-blue-500/25 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                  <span className="text-3xl font-black text-white">₹50K</span>
+                </div>
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full"></div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-6 group-hover:text-blue-300 transition-colors duration-300">{t('content.average_monthly_revenue', 'Average Monthly Revenue')}</h3>
+              <p className="text-blue-100 leading-relaxed text-lg">{t('content.wellanalyzed_locations_generat', 'Well-analyzed locations generate an average of ₹50,000+ monthly revenue with consistent growth')}</p>
+            </div>
+            
+            <div className="group text-center">
+              <div className="relative mb-8">
+                <div className="w-28 h-28 bg-gradient-to-br from-purple-500 to-pink-600 rounded-3xl flex items-center justify-center mx-auto shadow-2xl group-hover:shadow-purple-500/25 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                  <span className="text-4xl font-black text-white">12M</span>
+                </div>
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full"></div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-6 group-hover:text-purple-300 transition-colors duration-300">{t('content.roi_timeline', 'ROI Timeline')}</h3>
+              <p className="text-blue-100 leading-relaxed text-lg">{t('content.recover_your_investment_within', 'Recover your investment within 12-15 months with the right location and proper strategy')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Location Form Section */}
+      <section id="location-form" className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
+        <SubmitLocationProgressive />
+      </section>
+
+      {/* Trust Indicators & Contact */}
+      <section className="py-16 bg-gradient-to-r from-slate-50 to-blue-50 relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent)]"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Testimonial */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-xl border border-white/20 mb-12">
+              <div className="text-center">
+                <div className="flex justify-center mb-6">
+                  {Array.from({length: 5}).map((_, i) => (
+                    <Star key={i} className="text-yellow-400 text-3xl fill-current mx-1 animate-pulse" style={{animationDelay: `${i * 100}ms`}} />
+                  ))}
+                </div>
+                <blockquote className="text-xl md:text-2xl text-slate-700 italic leading-relaxed mb-6 font-medium">
+                  "Amazing service! They helped me find the perfect ATM location and the analysis was spot-on. The detailed report gave me confidence to invest and the results have exceeded expectations."
+                </blockquote>
+                <div className="inline-flex items-center gap-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-full px-6 py-3">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-lg">RK</span>
+                  </div>
+                  <div className="text-left">
+                    <p className="font-bold text-slate-800">{t('content.rajesh_kumar', 'Rajesh Kumar')}</p>
+                    <p className="text-slate-600 text-sm">{t('content.successful_atm_operator', 'Successful ATM Operator')}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Contact Information */}
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="group bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-white/30 hover:border-blue-300/50 transition-all duration-300 hover:shadow-lg">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-slate-600 text-sm font-medium">{t('content.call_us_now', 'Call Us Now')}</p>
+                    <p className="text-xl font-bold text-slate-800 group-hover:text-green-600 transition-colors">+91 9072380076</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="group bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-white/30 hover:border-purple-300/50 transition-all duration-300 hover:shadow-lg">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-slate-600 text-sm font-medium">{t('content.email_us', 'Email Us')}</p>
+                    <p className="text-xl font-bold text-slate-800 group-hover:text-purple-600 transition-colors">atmfranchise@pixellpay.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default SubmitLocation;

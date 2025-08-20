@@ -7,7 +7,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from 'react-i18next';
 
 const OurProducts = () => {
-  const { t } = useTranslation('products');
+  const { t } = useTranslation();
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
     () => [
@@ -65,7 +65,7 @@ const OurProducts = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
               >
-                {t('title')}
+                {t('products.title')}
               </motion.span>
             </h1>
             
@@ -75,7 +75,7 @@ const OurProducts = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              {t('subtitle')}
+              {t('products.subtitle')}
             </motion.p>
           </div>
         </div>

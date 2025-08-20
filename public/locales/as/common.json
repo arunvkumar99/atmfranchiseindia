@@ -13,23 +13,24 @@
     "language": "ভাষা"
   },
   "buttons": {
-    "submit": "দাখিল কৰক",
-    "cancel": "বাতিল কৰক",
-    "save": "সঞ্চয় কৰা",
-    "delete": "বিলোপ",
-    "edit": "সম্পাদনা কৰক",
-    "viewMore": "অধিক চাওক",
-    "learnMore": "অধিক জানক",
-    "getStarted": "আৰম্ভ কৰক",
-    "apply": "এতিয়াই আবেদন কৰক",
-    "download": "ডাউনল’ড",
-    "share": "ভাগ-বতৰা কৰা",
-    "back": "পিছলৈ",
-    "next": "পৰৱৰ্তী",
-    "previous": "পূৰ্ৱবৰ্তী",
-    "close": "বন্ধ",
-    "confirm": "নিশ্চিত",
-    "viewDetails": "বিৱৰণ চাওক"
+    "submit": "Submit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "back": "Back",
+    "close": "Close",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "update": "Update",
+    "apply": "Apply",
+    "reset": "Reset",
+    "clear": "Clear",
+    "register": "Register",
+    "login": "Login",
+    "finish": "Finish"
   },
   "forms": {
     "required": "এই ক্ষেত্ৰখন প্ৰয়োজনীয়",
@@ -141,5 +142,43 @@
     "instagram": "ইনষ্টাগ্ৰাম",
     "youtube": "ইউটিউব",
     "whatsapp": "হোৱাটছএপ"
+  },
+  "status": {
+    "loading": "Loading",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "required": "Required",
+    "optional": "Optional",
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "actions": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "upload": "Upload",
+    "download": "Download",
+    "preview": "Preview",
+    "select": "Select",
+    "choose": "Choose"
+  },
+  "confirmation": {
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "agree": "I Agree",
+    "disagree": "I Disagree"
+  },
+  "navigation": {
+    "home": "Home",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "menu": "Menu"
   }
 }

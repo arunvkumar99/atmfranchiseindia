@@ -11,7 +11,7 @@ import ruralShopOwner from "@/assets/rural-shop-owner.jpg";
 import { useTranslation } from 'react-i18next';
 
 const JoinUs = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     // Personal Information
     firstName: "",
@@ -175,7 +175,7 @@ const JoinUs = () => {
             {t('title.revolution', 'Revolution')}
           </h1>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-            {t('subtitle', 'Choose your path to success with ATM Franchise India')}
+            {t('forms.subtitle', 'Choose your path to success with ATM Franchise India')}
           </p>
           
           {/* Job Opportunities Navigation */}
@@ -247,7 +247,7 @@ const JoinUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          First Name *
+                          {t('joinUs.labels.firstName')}
                         </label>
                         <Input
                           value={formData.firstName}
@@ -259,7 +259,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Last Name *
+                          {t('joinUs.labels.lastName')}
                         </label>
                         <Input
                           value={formData.lastName}
@@ -271,7 +271,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Email Address *
+                          {t('joinUs.labels.email')}
                         </label>
                         <Input
                           type="email"
@@ -284,7 +284,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Phone Number *
+                          {t('joinUs.labels.phone')}
                         </label>
                         <Input
                           type="tel"
@@ -297,7 +297,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Alternate Phone
+                          {t('joinUs.labels.alternatePhone')}
                         </label>
                         <Input
                           type="tel"
@@ -309,7 +309,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Date of Birth *
+                          {t('joinUs.labels.dateOfBirth')}
                         </label>
                         <Input
                           type="date"
@@ -331,7 +331,7 @@ const JoinUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="md:col-span-2">
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Address Line 1 *
+                          {t('joinUs.labels.addressLine1')}
                         </label>
                         <Input
                           value={formData.addressLine1}
@@ -343,7 +343,7 @@ const JoinUs = () => {
                       
                       <div className="md:col-span-2">
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Address Line 2
+                          {t('joinUs.labels.addressLine2')}
                         </label>
                         <Input
                           value={formData.addressLine2}
@@ -354,7 +354,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          City *
+                          {t('joinUs.labels.city')}
                         </label>
                         <Input
                           value={formData.city}
@@ -366,7 +366,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          State *
+                          {t('joinUs.labels.state')}
                         </label>
                         <Select value={formData.state} onValueChange={(value) => handleChange('state', value)}>
                           <SelectTrigger>
@@ -394,7 +394,7 @@ const JoinUs = () => {
                       
                       <div className="md:col-span-2">
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          PIN Code *
+                          {t('joinUs.labels.pincode')}
                         </label>
                         <Input
                           value={formData.pincode}
@@ -417,7 +417,7 @@ const JoinUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Business Type *
+                          {t('joinUs.labels.businessType')}
                         </label>
                         <Select value={formData.businessType} onValueChange={(value) => handleChange('businessType', value)}>
                           <SelectTrigger>
@@ -435,7 +435,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Business Experience *
+                          {t('joinUs.labels.businessExperience')}
                         </label>
                         <Select value={formData.experienceYears} onValueChange={(value) => handleChange('experienceYears', value)}>
                           <SelectTrigger>
@@ -453,7 +453,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Current Occupation *
+                          {t('joinUs.labels.currentOccupation')}
                         </label>
                         <Input
                           value={formData.currentOccupation}
@@ -465,7 +465,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Annual Income Range *
+                          {t('joinUs.labels.annualIncome')}
                         </label>
                         <Select value={formData.annualIncome} onValueChange={(value) => handleChange('annualIncome', value)}>
                           <SelectTrigger>
@@ -492,7 +492,7 @@ const JoinUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Investment Capacity *
+                          {t('joinUs.labels.investmentCapacity')}
                         </label>
                         <Select value={formData.investmentCapacity} onValueChange={(value) => handleChange('investmentCapacity', value)}>
                           <SelectTrigger>
@@ -509,7 +509,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Preferred ATM Location *
+                          {t('joinUs.labels.preferredLocation')}
                         </label>
                         <Input
                           value={formData.preferredLocation}
@@ -521,7 +521,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Location Ownership *
+                          {t('joinUs.labels.locationOwnership')}
                         </label>
                         <Select value={formData.locationOwnership} onValueChange={(value) => handleChange('locationOwnership', value)}>
                           <SelectTrigger>
@@ -537,7 +537,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Expected Daily Footfall
+                          {t('joinUs.labels.expectedFootfall')}
                         </label>
                         <Select value={formData.expectedFootfall} onValueChange={(value) => handleChange('expectedFootfall', value)}>
                           <SelectTrigger>
@@ -554,7 +554,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Nearby Banks
+                          {t('joinUs.labels.nearbyBanks')}
                         </label>
                         <Input
                           value={formData.nearbyBanks}
@@ -565,7 +565,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Competitor ATMs
+                          {t('joinUs.labels.competitorATMs')}
                         </label>
                         <Input
                           value={formData.competitorATMs}
@@ -586,7 +586,7 @@ const JoinUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Primary Bank *
+                          {t('joinUs.labels.primaryBank')}
                         </label>
                         <Input
                           value={formData.bankName}
@@ -598,7 +598,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Account Type *
+                          {t('joinUs.labels.accountType')}
                         </label>
                         <Select value={formData.accountType} onValueChange={(value) => handleChange('accountType', value)}>
                           <SelectTrigger>
@@ -614,7 +614,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          PAN Card Number *
+                          {t('joinUs.labels.panCard')}
                         </label>
                         <Input
                           value={formData.panCard}
@@ -627,7 +627,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          GST Number (if applicable)
+                          {t('joinUs.labels.gstNumber')}
                         </label>
                         <Input
                           value={formData.gstNumber}
@@ -647,7 +647,7 @@ const JoinUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          How did you hear about us? *
+                          {t('joinUs.labels.referenceSource')}
                         </label>
                         <Select value={formData.referenceSource} onValueChange={(value) => handleChange('referenceSource', value)}>
                           <SelectTrigger>
@@ -666,7 +666,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Previous Franchise Experience
+                          {t('joinUs.labels.previousFranchise')}
                         </label>
                         <Select value={formData.previousFranchise} onValueChange={(value) => handleChange('previousFranchise', value)}>
                           <SelectTrigger>
@@ -682,7 +682,7 @@ const JoinUs = () => {
                       
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Timeline to Start *
+                          {t('joinUs.labels.timelineToStart')}
                         </label>
                         <Select value={formData.timelineToStart} onValueChange={(value) => handleChange('timelineToStart', value)}>
                           <SelectTrigger>
@@ -701,8 +701,8 @@ const JoinUs = () => {
                     
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Additional Comments/Questions
-                      </label>
+                          {t('joinUs.labels.additionalComments')}
+                        </label>
                       <Textarea
                         value={formData.additionalComments}
                         onChange={(e) => handleChange('additionalComments', e.target.value)}

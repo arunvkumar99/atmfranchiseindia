@@ -32,15 +32,27 @@
   },
   "placeholders": {
     "fullName": "നിങ്ങളുടെ മുഴുവൻ പേര് നൽകുക",
-    "email": "example@email.com",
-    "phone": "+91 98765 43210",
-    "message": "നിങ്ങളുടെ സന്ദേശം ഇവിടെ ടൈപ്പ് ചെയ്യുക...",
-    "city": "നിങ്ങളുടെ നഗരം തിരഞ്ഞെടുക്കുക",
-    "state": "നിങ്ങളുടെ സംസ്ഥാനം തിരഞ്ഞെടുക്കുക",
+    "email": "Enter your email address",
+    "phone": "10-digit mobile number",
+    "message": "Type your message here...",
+    "city": "Enter city",
+    "state": "Choose your state",
     "searchCity": "നഗരം തിരയുക...",
     "selectOption": "ഒരു ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക",
     "uploadFile": "ഫയൽ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ഇവിടേക്ക് വലിച്ചിടുക",
-    "pincode": "6-അക്ക പിൻ കോഡ്"
+    "pincode": "6-digit pincode",
+    "full_name": "Enter your full name",
+    "full_name_pan": "Enter your full name as per PAN card",
+    "phone_primary": "Primary contact number",
+    "whatsapp": "WhatsApp number",
+    "pan": "ABCDE1234F",
+    "aadhaar": "123456789012 (12 digits only)",
+    "address": "Enter complete address",
+    "address_line1": "House/Building number, Street name",
+    "address_line2": "Area, Landmark",
+    "your_city": "Your city",
+    "district": "Enter your district",
+    "business_type": "Select business type"
   },
   "validation": {
     "required": "{{field}} is required",
@@ -54,7 +66,18 @@
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
     "agreeRequired": "നിങ്ങൾ നിബന്ധനകളും വ്യവസ്ഥകളും അംഗീകരിക്കണം.",
-    "captchaRequired": "ദയവായി കാപ്ച പരിശോധന പൂർത്തിയാക്കുക."
+    "captchaRequired": "ദയവായി കാപ്ച പരിശോധന പൂർത്തിയാക്കുക.",
+    "email_invalid": "Please enter a valid email address",
+    "phone_invalid": "Please enter a valid 10-digit phone number",
+    "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
+    "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
+    "pincode_invalid": "Please enter a valid 6-digit PIN code",
+    "min_length": "Minimum {{min}} characters required",
+    "max_length": "Maximum {{max}} characters allowed",
+    "file_size": "File size must be less than {{size}}MB",
+    "file_type": "Only {{types}} files are allowed",
+    "security_required": "Please complete the security verification before submitting",
+    "try_again": "Please try again or contact us directly"
   },
   "options": {
     "occupation": {
@@ -66,11 +89,17 @@
       "other": "മറ്റുള്ളവ"
     },
     "investment": {
-      "below1": "₹1 ലക്ഷത്തിൽ താഴെ",
-      "1to5": "₹1-5 ലക്ഷം",
-      "5to10": "₹5-10 ലക്ഷം",
-      "10to25": "₹10-25 ലക്ഷം",
-      "above25": "₹25 ലക്ഷത്തിന് മുകളിൽ"
+      "below_1": "Below ₹1 Lakh",
+      "1_to_5": "₹1-5 Lakhs",
+      "2_to_3": "₹2-3 Lakhs",
+      "3_to_4": "₹3-4 Lakhs",
+      "4_to_5": "₹4-5 Lakhs",
+      "5_to_10": "₹5-10 Lakhs",
+      "10_to_15": "₹10-15 Lakhs",
+      "10_to_25": "₹10-25 Lakhs",
+      "15_to_25": "₹15-25 Lakhs",
+      "above_5": "₹5+ Lakhs",
+      "above_25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
       "google": "Google തിരയൽ",
@@ -81,12 +110,17 @@
       "other": "മറ്റുള്ളവ"
     },
     "businessType": {
-      "retail": "റീട്ടെയിൽ കട",
-      "service": "സേവന കേന്ദ്രം",
-      "grocery": "പലവ്യജ്ഞന കട",
-      "medical": "മെഡിക്കൽ സ്റ്റോർ",
-      "restaurant": "റെസ്റ്റോറന്റ്/കഫേ",
-      "other": "മറ്റുള്ളവ"
+      "retail": "Retail Shop",
+      "service": "Service Center",
+      "grocery": "Grocery Store",
+      "medical": "Medical Store",
+      "restaurant": "Restaurant/Cafe",
+      "other": "Other"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
     }
   },
   "locationForm": {

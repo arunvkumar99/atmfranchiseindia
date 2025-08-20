@@ -8,9 +8,7 @@ import Services from "@/components/Services";
 import FranchiseModelsComparison from "@/components/FranchiseModelsComparison";
 import FAQ from "@/components/FAQ";
 import GetStarted from "@/components/GetStarted";
-
 import { EnquiryFormProgressive } from "@/components/EnquiryFormProgressive";
-import { useTranslation } from 'react-i18next';
 
 const BecomefranchisePage = () => {
   const { t } = useTranslation('franchise');

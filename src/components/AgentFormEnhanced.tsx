@@ -19,6 +19,7 @@ import { useFormAnalytics } from "@/hooks/useFormAnalytics";
 import { useTranslation } from 'react-i18next';
 
 export function AgentFormEnhanced() {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [formData, setFormData] = useState({
@@ -71,7 +72,6 @@ export function AgentFormEnhanced() {
   ];
 
   const handleInputChange = (field: string, value: string) => {
-  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 

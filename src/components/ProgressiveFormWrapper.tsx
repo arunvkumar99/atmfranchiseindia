@@ -104,7 +104,7 @@ export function ProgressiveFormWrapper({
   }, [sections, currentSection, formData]);
 
   const handleNext = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
     if (currentSection < sections.length - 1) {
       setCurrentSection(currentSection + 1);
     }

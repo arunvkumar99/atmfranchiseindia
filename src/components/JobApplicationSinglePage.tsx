@@ -29,6 +29,7 @@ interface JobApplicationSinglePageProps {
 }
 
 export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplicationSinglePageProps) {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -78,7 +79,6 @@ export function JobApplicationSinglePage({ jobs, selectedJobId = "" }: JobApplic
   });
 
   const handleInputChange = (field: string, value: string) => {
-  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     
     // Real-time validation when user types

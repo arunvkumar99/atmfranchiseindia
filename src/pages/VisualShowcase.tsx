@@ -35,7 +35,7 @@ export default function VisualShowcase() {
   const [email, setEmail] = useState('');
 
   const handleLoadingClick = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
     setLoading(true);
     setTimeout(() => setLoading(false), 2000);
   };

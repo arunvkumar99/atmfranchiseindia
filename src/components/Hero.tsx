@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="absolute inset-0 overflow-hidden">
         <OptimizedImage
           src={heroRuralATM}
-          alt={t('alt.atm_in_indian_semi_urban_setti', 'ATM in Indian semi-urban setting')}
+          alt={t('alt.atmInIndianSetting', 'ATM in Indian semi-urban setting')}
           className="w-full h-full"
           priority={true}
           width={1920}
@@ -115,33 +115,33 @@ export const ValuePropsStrip = () => {
               icon: <TrendingUp className="w-6 h-6" />,
               value: 50,
               suffix: '%',
-              prefix: 'upto ',
-              label: 'Return On Investment',
-              description: 'All Payout Received by RBI Licensed WLA ATM Partners',
+              prefix: t('valueProps.stats.roi.prefix', 'upto '),
+              label: t('valueProps.stats.roi.label', 'Return On Investment'),
+              description: t('valueProps.stats.roi.description', 'All Payout Received by RBI Licensed WLA ATM Partners'),
               gradient: 'from-emerald-500 to-teal-600'
             },
             {
               icon: <Users className="w-6 h-6" />,
               value: 15,
-              suffix: ' Per Lac',
-              label: 'ATM Penetration',
-              description: 'Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low',
+              suffix: t('valueProps.stats.penetration.suffix', ' Per Lac'),
+              label: t('valueProps.stats.penetration.label', 'ATM Penetration'),
+              description: t('valueProps.stats.penetration.description', 'Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low'),
               gradient: 'from-blue-500 to-cyan-600'
             },
             {
               icon: <DollarSign className="w-6 h-6" />,
               value: 75,
-              suffix: '% Cash',
-              label: 'Cash Circulation',
-              description: 'Indian Economy is still Largely Cash based',
+              suffix: t('valueProps.stats.cash.suffix', '% Cash'),
+              label: t('valueProps.stats.cash.label', 'Cash Circulation'),
+              description: t('valueProps.stats.cash.description', 'Indian Economy is still Largely Cash based'),
               gradient: 'from-orange-500 to-red-600'
             },
             {
               icon: <Building2 className="w-6 h-6" />,
               value: 90,
-              suffix: '% Potential',
-              label: 'Market Opportunity',
-              description: '90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs',
+              suffix: t('valueProps.stats.potential.suffix', '% Potential'),
+              label: t('valueProps.stats.potential.label', 'Market Opportunity'),
+              description: t('valueProps.stats.potential.description', '90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs'),
               gradient: 'from-purple-500 to-pink-600'
             }
           ].map((stat, index) => (
@@ -194,11 +194,11 @@ export const ValuePropsStrip = () => {
         <div className="text-center mt-16">
           <div className="inline-flex items-center gap-4 bg-white/10 backdrop-blur-md rounded-2xl px-8 py-6 border border-white/20">
             <div className="text-center">
-              <p className="text-2xl font-bold text-white mb-2">{t('content.perfect_time_for_atm_business_', 'Perfect Time for ATM Business in Rural India')}</p>
+              <p className="text-2xl font-bold text-white mb-2">{t('valueProps.perfectTime', 'Perfect Time for ATM Business in Rural India')}</p>
               <div className="flex flex-wrap justify-center gap-4 text-sm text-blue-100">
-                <span className="bg-white/20 px-3 py-1 rounded-full">• Digital Adoption Growing</span>
-                <span className="bg-white/20 px-3 py-1 rounded-full">• Government Push for Financial Inclusion</span>
-                <span className="bg-white/20 px-3 py-1 rounded-full">• Bank Branch Closures</span>
+                <span className="bg-white/20 px-3 py-1 rounded-full">• {t('valueProps.bullets.digitalAdoption', 'Digital Adoption Growing')}</span>
+                <span className="bg-white/20 px-3 py-1 rounded-full">• {t('valueProps.bullets.governmentPush', 'Government Push for Financial Inclusion')}</span>
+                <span className="bg-white/20 px-3 py-1 rounded-full">• {t('valueProps.bullets.bankClosures', 'Bank Branch Closures')}</span>
               </div>
               <p className="text-lg font-semibold text-yellow-300 mt-4">
                 Investment Range: ₹2-5 Lakhs
@@ -217,32 +217,32 @@ export const WhyATMFranchiseIndia = () => {
   const franchiseFeatures = [
     {
       icon: Shield,
-      title: t('services.items.trusted.title', "Trusted ATM Franchise Information"),
-      description: t('services.items.trusted.description', "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."),
+      title: t('whyChoose.features.trusted.title', "Trusted ATM Franchise Information"),
+      description: t('whyChoose.features.trusted.description', "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."),
       gradient: "from-blue-500/20 to-cyan-500/20",
       iconColor: "text-blue-600",
       borderColor: "border-blue-200/50"
     },
     {
       icon: Navigation,
-      title: t('services.items.guidance.title', "Expert Guidance on WLA Operators"),
-      description: t('services.items.guidance.description', "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."),
+      title: t('whyChoose.features.guidance.title', "Expert Guidance on WLA Operators"),
+      description: t('whyChoose.features.guidance.description', "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."),
       gradient: "from-emerald-500/20 to-teal-500/20",
       iconColor: "text-emerald-600",
       borderColor: "border-emerald-200/50"
     },
     {
       icon: Megaphone,
-      title: t('services.items.digital.title', "Boost Your Digital Presence"),
-      description: t('services.items.digital.description', "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."),
+      title: t('whyChoose.features.digital.title', "Boost Your Digital Presence"),
+      description: t('whyChoose.features.digital.description', "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."),
       gradient: "from-purple-500/20 to-pink-500/20",
       iconColor: "text-purple-600",
       borderColor: "border-purple-200/50"
     },
     {
       icon: HeartHandshake,
-      title: t('services.items.support.title', "End-to-End Franchise Support"),
-      description: t('services.items.support.description', "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."),
+      title: t('whyChoose.features.support.title', "End-to-End Franchise Support"),
+      description: t('whyChoose.features.support.description', "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."),
       gradient: "from-orange-500/20 to-red-500/20",
       iconColor: "text-orange-600",
       borderColor: "border-orange-200/50"
@@ -261,16 +261,16 @@ export const WhyATMFranchiseIndia = () => {
       <div className="container mx-auto px-4 relative">
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center px-4 py-2 bg-primary/10 rounded-full mb-6">
-            <span className="text-primary font-medium text-sm">{t('services.badge', 'Our Advantage')}</span>
+            <span className="text-primary font-medium text-sm">{t('whyChoose.badge', 'Our Advantage')}</span>
           </div>
           <h2 className="font-heading font-bold text-4xl md:text-5xl text-foreground mb-6 leading-tight">
-            {t('services.title', 'Why Choose')}{" "}
+            {t('whyChoose.title', 'Why Choose')}{" "}
             <span className="text-primary font-bold">
-              {t('services.titleHighlight', 'ATM Franchise India?')}
+              {t('whyChoose.titleHighlight', 'ATM Franchise India?')}
             </span>
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            {t('services.subtitle', 'Experience the difference with our comprehensive support system and industry expertise')}
+            {t('whyChoose.subtitle', 'Experience the difference with our comprehensive support system and industry expertise')}
           </p>
         </div>
         
@@ -321,7 +321,7 @@ export const WhyATMFranchiseIndia = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full border-2 border-white"></div>
               <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full border-2 border-white"></div>
             </div>
-            <span className="font-medium text-foreground">{t('services.cta.partners', 'Join 500+ successful franchise partners')}</span>
+            <span className="font-medium text-foreground">{t('whyChoose.cta.partners', 'Join 500+ successful franchise partners')}</span>
           </div>
         </div>
       </div>

@@ -1,66 +1,66 @@
 {
-  "timestamp": "2025-08-19T02:59:03.241Z",
+  "timestamp": "2025-08-19T17:13:00.922Z",
   "summary": {
-    "averageCompletion": 90,
+    "averageCompletion": 89,
     "languages": {
       "hi": {
-        "percentage": 90,
-        "totalStrings": 810,
-        "translatedStrings": 732
+        "percentage": 91,
+        "totalStrings": 824,
+        "translatedStrings": 746
       },
       "bn": {
-        "percentage": 91,
-        "totalStrings": 810,
+        "percentage": 90,
+        "totalStrings": 824,
         "translatedStrings": 740
       },
       "ta": {
-        "percentage": 91,
-        "totalStrings": 810,
+        "percentage": 89,
+        "totalStrings": 824,
         "translatedStrings": 736
       },
       "te": {
-        "percentage": 91,
-        "totalStrings": 810,
+        "percentage": 89,
+        "totalStrings": 824,
         "translatedStrings": 736
       },
       "mr": {
-        "percentage": 90,
-        "totalStrings": 810,
+        "percentage": 88,
+        "totalStrings": 824,
         "translatedStrings": 726
       },
       "gu": {
-        "percentage": 90,
-        "totalStrings": 810,
+        "percentage": 88,
+        "totalStrings": 824,
         "translatedStrings": 725
       },
       "ur": {
-        "percentage": 89,
-        "totalStrings": 810,
+        "percentage": 87,
+        "totalStrings": 824,
         "translatedStrings": 720
       },
       "kn": {
-        "percentage": 89,
-        "totalStrings": 810,
+        "percentage": 88,
+        "totalStrings": 824,
         "translatedStrings": 721
       },
       "or": {
-        "percentage": 90,
-        "totalStrings": 810,
+        "percentage": 88,
+        "totalStrings": 824,
         "translatedStrings": 725
       },
       "pa": {
-        "percentage": 89,
-        "totalStrings": 810,
+        "percentage": 88,
+        "totalStrings": 824,
         "translatedStrings": 721
       },
       "as": {
-        "percentage": 90,
-        "totalStrings": 810,
+        "percentage": 88,
+        "totalStrings": 824,
         "translatedStrings": 725
       },
       "ml": {
-        "percentage": 89,
-        "totalStrings": 810,
+        "percentage": 88,
+        "totalStrings": 824,
         "translatedStrings": 721
       }
     },
@@ -179,17 +179,17 @@
       },
       "home.json": {
         "hi": 99,
-        "bn": 99,
-        "ta": 99,
-        "te": 99,
-        "mr": 99,
-        "gu": 99,
-        "ur": 99,
-        "kn": 99,
-        "or": 99,
-        "pa": 99,
-        "as": 99,
-        "ml": 99
+        "bn": 92,
+        "ta": 92,
+        "te": 92,
+        "mr": 92,
+        "gu": 92,
+        "ur": 92,
+        "kn": 92,
+        "or": 92,
+        "pa": 92,
+        "as": 92,
+        "ml": 92
       },
       "influencer.json": {
         "hi": 100,
@@ -424,18 +424,37 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 90,
-        "englishCount": 8,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 92,
         "hasNativeScript": 90,
         "untranslatedPaths": [
-          "placeholders.email",
-          "placeholders.phone",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "+91 98765 43210",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
@@ -445,19 +464,28 @@
         "emptyCount": 0,
         "percentage": 100,
         "hasNativeScript": 131,
-        "untranslatedPaths": [],
+        "untranslatedPaths": [
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
+        ],
         "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
-        "translatedCount": 174,
+        "totalStrings": 189,
+        "translatedCount": 188,
         "englishCount": 1,
         "emptyCount": 0,
         "percentage": 99,
-        "hasNativeScript": 174,
+        "hasNativeScript": 188,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "testimonials.monthsLabel",
+          "valueProps.title",
+          "valueProps.subtitle",
+          "valueProps.perfectTime",
+          "valueProps.investmentRange"
         ],
         "suspiciousTranslations": []
       },
@@ -668,18 +696,37 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 92,
-        "englishCount": 6,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 94,
         "hasNativeScript": 92,
         "untranslatedPaths": [
-          "placeholders.email",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength",
-          "validation.fileSize"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.emailInvalid",
+            "english": "Please enter a valid email address",
+            "translated": "{{field}} must be at least {{min}} characters",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
@@ -689,19 +736,28 @@
         "emptyCount": 0,
         "percentage": 100,
         "hasNativeScript": 131,
-        "untranslatedPaths": [],
+        "untranslatedPaths": [
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
+        ],
         "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -908,18 +964,37 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 91,
-        "englishCount": 7,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "placeholders.email",
-          "placeholders.phone",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "+91 98765 43210",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
@@ -929,19 +1004,28 @@
         "emptyCount": 0,
         "percentage": 100,
         "hasNativeScript": 131,
-        "untranslatedPaths": [],
+        "untranslatedPaths": [
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
+        ],
         "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -1152,18 +1236,37 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 91,
-        "englishCount": 7,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "placeholders.email",
-          "placeholders.phone",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "+91 98765 43210",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
@@ -1173,19 +1276,28 @@
         "emptyCount": 0,
         "percentage": 100,
         "hasNativeScript": 131,
-        "untranslatedPaths": [],
+        "untranslatedPaths": [
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
+        ],
         "suspiciousTranslations": []
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -1396,46 +1508,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 93,
-        "englishCount": 5,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 95,
         "hasNativeScript": 93,
         "untranslatedPaths": [
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength",
-          "validation.fileSize",
-          "validation.fileType"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.emailInvalid",
+            "english": "Please enter a valid email address",
+            "translated": "{{field}} must be at least {{min}} characters",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.phoneInvalid",
+            "english": "Please enter a valid 10-digit phone number",
+            "translated": "{{field}} must not exceed {{max}} characters",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 116,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 89,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -1642,46 +1795,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 92,
-        "englishCount": 6,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 94,
         "hasNativeScript": 92,
         "untranslatedPaths": [
-          "placeholders.email",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength",
-          "validation.fileSize"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.emailInvalid",
+            "english": "Please enter a valid email address",
+            "translated": "{{field}} must be at least {{min}} characters",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 116,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 89,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -1889,46 +2083,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 91,
-        "englishCount": 7,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "placeholders.email",
-          "placeholders.phone",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "+91 98765 43210",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 116,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 89,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -2139,46 +2374,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 91,
-        "englishCount": 7,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "placeholders.email",
-          "placeholders.phone",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "+91 98765 43210",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 116,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 89,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -2389,53 +2665,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 93,
-        "englishCount": 5,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 95,
         "hasNativeScript": 93,
         "untranslatedPaths": [
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength",
-          "validation.fileSize",
-          "validation.fileType"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.emailInvalid",
+            "english": "Please enter a valid email address",
+            "translated": "{{field}} must be at least {{min}} characters",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.phoneInvalid",
+            "english": "Please enter a valid 10-digit phone number",
+            "translated": "{{field}} must not exceed {{max}} characters",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 115,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 88,
         "hasNativeScript": 115,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
         "suspiciousTranslations": [
           {
-            "path": "comparison.models.enterprise.atms",
-            "english": "6+ ATMs",
-            "translated": "6+ ATM",
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
             "issue": "No native script"
           }
         ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -2642,46 +2952,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 91,
-        "englishCount": 7,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "placeholders.email",
-          "placeholders.phone",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "+91 98765 43210",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 116,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 89,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -2892,47 +3243,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 93,
-        "englishCount": 5,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 95,
         "hasNativeScript": 93,
         "untranslatedPaths": [
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength",
-          "validation.fileSize",
-          "validation.fileType"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.emailInvalid",
+            "english": "Please enter a valid email address",
+            "translated": "{{field}} must be at least {{min}} characters",
+            "issue": "No native script"
+          },
+          {
+            "path": "validation.phoneInvalid",
+            "english": "Please enter a valid 10-digit phone number",
+            "translated": "{{field}} must not exceed {{max}} characters",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 116,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 89,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 173,
-        "englishCount": 2,
+        "englishCount": 16,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 173,
         "untranslatedPaths": [
-          "testimonials.monthsLabel",
-          "whyAtm.stats.roi.prefix"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },
@@ -3139,46 +3530,87 @@
         "fileName": "forms.json",
         "totalStrings": 98,
         "translatedCount": 91,
-        "englishCount": 7,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "placeholders.email",
-          "placeholders.phone",
-          "validation.required",
-          "validation.minLength",
-          "validation.maxLength"
+          "contactForm.subtitle",
+          "contactForm.success",
+          "contactForm.error",
+          "joinUs.title.main",
+          "joinUs.title.highlight"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "example@email.com",
+            "issue": "No native script"
+          },
+          {
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "+91 98765 43210",
+            "issue": "No native script"
+          },
+          {
+            "path": "placeholders.selectOption",
+            "english": "Select an option",
+            "translated": "{{field}} is required",
+            "issue": "No native script"
+          }
+        ]
       },
       "franchise.json": {
         "fileName": "franchise.json",
         "totalStrings": 131,
         "translatedCount": 116,
-        "englishCount": 15,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 89,
         "hasNativeScript": 116,
         "untranslatedPaths": [
-          "comparison.models.basic.features[0]",
-          "comparison.models.basic.features[1]",
-          "comparison.models.basic.features[2]",
-          "comparison.models.basic.features[3]",
-          "comparison.models.professional.features[0]"
+          "getStarted.subtitle",
+          "getStarted.cta.apply",
+          "getStarted.cta.call",
+          "getStarted.cta.schedule"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "comparison.models.basic.investment",
+            "english": "₹2-5 Lakhs",
+            "translated": "Single location setup",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.atms",
+            "english": "1-2 ATMs",
+            "translated": "Basic training program",
+            "issue": "No native script"
+          },
+          {
+            "path": "comparison.models.basic.roi",
+            "english": "15-18% Annual",
+            "translated": "Monthly maintenance",
+            "issue": "No native script"
+          }
+        ]
       },
       "home.json": {
         "fileName": "home.json",
-        "totalStrings": 175,
+        "totalStrings": 189,
         "translatedCount": 174,
-        "englishCount": 1,
+        "englishCount": 15,
         "emptyCount": 0,
-        "percentage": 99,
+        "percentage": 92,
         "hasNativeScript": 174,
         "untranslatedPaths": [
-          "testimonials.monthsLabel"
+          "features.roi.title",
+          "features.roi.subtitle",
+          "features.roi.description",
+          "features.penetration.title",
+          "features.penetration.subtitle"
         ],
         "suspiciousTranslations": []
       },

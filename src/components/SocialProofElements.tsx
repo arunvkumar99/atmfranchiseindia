@@ -42,7 +42,7 @@ interface SocialProofElementsProps {
 }
 
 export function SocialProofElements({ variant = 'testimonials', className = "" }: SocialProofElementsProps) {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   
   if (variant === 'testimonials') {
     return (

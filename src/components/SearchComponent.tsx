@@ -23,7 +23,7 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
   }, [query]);
 
   const handleResultClick = (result: SearchContent) => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
     let path = result.path;
     
     // Add anchor/section navigation if available

@@ -6,7 +6,7 @@ import { Phone, ArrowRight } from 'lucide-react';
 import { CONTACT_INFO } from '@/lib/contactInfo';
 
 export function StickyMobileCTA() {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
 

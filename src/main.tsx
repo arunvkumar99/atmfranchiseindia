@@ -1,31 +1,23 @@
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-// import SimpleApp from './SimpleApp.tsx'
-import './index.css'
-import './lib/i18n' // Initialize i18n before React
+import React, { Suspense } from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
+import './lib/i18n'; // Import i18n configuration
 
-// Add error handling
-window.addEventListener('error', (e) => {
-  console.error('Global error:', e.error);
-});
+// Loading component for Suspense
+const Loader = () => (
+  <div className="flex items-center justify-center min-h-screen">
+    <div className="text-center">
+      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
+      <p className="mt-4 text-gray-600">Loading translations...</p>
+    </div>
+  </div>
+);
 
-// Wait for DOM to be ready
-document.addEventListener('DOMContentLoaded', () => {
-  const rootElement = document.getElementById("root");
-  if (rootElement) {
-    try {
-      const root = createRoot(rootElement);
-      root.render(<App />);
-      console.log("React app mounted successfully!");
-    } catch (error) {
-      console.error("Error mounting React app:", error);
-      // Fallback to show error on page
-      rootElement.innerHTML = `<div style="color: red; padding: 20px;">
-        <h1>Error loading application</h1>
-        <pre>${error}</pre>
-      </div>`;
-    }
-  } else {
-    console.error("Root element not found!");
-  }
-});
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <Suspense fallback={<Loader />}>
+      <App />
+    </Suspense>
+  </React.StrictMode>
+);

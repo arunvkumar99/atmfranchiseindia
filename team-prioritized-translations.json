@@ -1,0 +1,88 @@
+{
+  "P0_CRITICAL": {
+    "description": "Must be translated - Blocks user journey",
+    "components": [
+      "AgentFormEnhanced",
+      "AgentFormSinglePage",
+      "EnquiryFormSinglePage",
+      "SubmitLocationSinglePage",
+      "JoinUs"
+    ],
+    "translations": {
+      "common.buttons.submit": "Submit",
+      "common.buttons.continue": "Continue",
+      "common.buttons.next": "Next",
+      "core.validation.required": "{{field}} is required",
+      "core.validation.email_invalid": "Please enter a valid email address",
+      "core.validation.phone_invalid": "Please enter a valid 10-digit phone number",
+      "forms.fields.full_name": "Full Name",
+      "forms.fields.email": "Email Address",
+      "forms.fields.phone": "Phone Number",
+      "forms.fields.whatsapp": "WhatsApp Number",
+      "common.status.error": "Error",
+      "common.status.required": "Required"
+    }
+  },
+  "P1_HIGH": {
+    "description": "High priority - Affects conversion rates",
+    "components": [
+      "Hero",
+      "GetStarted",
+      "InfluencerFormSinglePage",
+      "JobApplicationSinglePage"
+    ],
+    "translations": {
+      "common.buttons.register": "Register",
+      "common.buttons.apply": "Apply Now",
+      "common.buttons.save": "Save",
+      "forms.placeholders.full_name": "Enter your full name",
+      "forms.placeholders.email": "example@email.com",
+      "forms.placeholders.phone": "10-digit mobile number",
+      "forms.options.investment.1_to_5": "₹1-5 Lakhs",
+      "forms.options.investment.5_to_10": "₹5-10 Lakhs",
+      "forms.options.investment.10_to_25": "₹10-25 Lakhs",
+      "common.status.success": "Success",
+      "common.status.loading": "Loading"
+    }
+  },
+  "P2_MEDIUM": {
+    "description": "Medium priority - Improves user experience",
+    "components": [
+      "Header",
+      "Footer",
+      "FAQ",
+      "Testimonials",
+      "Services"
+    ],
+    "translations": {
+      "common.buttons.back": "Back",
+      "common.buttons.close": "Close",
+      "common.navigation.home": "Home",
+      "common.navigation.menu": "Menu",
+      "common.actions.search": "Search",
+      "common.actions.filter": "Filter",
+      "common.actions.select": "Select",
+      "forms.fields.city": "City",
+      "forms.fields.state": "State",
+      "forms.fields.pincode": "PIN Code"
+    }
+  },
+  "P3_LOW": {
+    "description": "Low priority - Nice to have",
+    "components": [
+      "AboutUs",
+      "PrivacyPolicy",
+      "TermsConditions",
+      "AccessibilityStatement"
+    ],
+    "translations": {
+      "common.buttons.cancel": "Cancel",
+      "common.buttons.reset": "Reset",
+      "common.buttons.clear": "Clear",
+      "common.confirmation.yes": "Yes",
+      "common.confirmation.no": "No",
+      "common.actions.export": "Export",
+      "common.actions.import": "Import"
+    }
+  }
+}

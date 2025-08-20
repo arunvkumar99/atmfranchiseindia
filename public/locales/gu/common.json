@@ -13,23 +13,24 @@
     "language": "ભાષા"
   },
   "buttons": {
-    "submit": "સબમિટ કરો",
-    "cancel": "રદ કરો",
-    "save": "સાચવો",
-    "delete": "કાઢી નાખો",
-    "edit": "સંપાદિત કરો",
-    "viewMore": "વધુ જુઓ",
-    "learnMore": "વધુ જાણો",
-    "getStarted": "શરૂ કરો",
-    "apply": "હવે અરજી કરો",
-    "download": "ડાઉનલોડ કરો",
-    "share": "શેર કરો",
-    "back": "પાછળ",
-    "next": "આગળ",
-    "previous": "પાછલું",
-    "close": "બંધ કરો",
-    "confirm": "પુષ્ટિ કરો",
-    "viewDetails": "વિગતો જુઓ"
+    "submit": "Submit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "back": "Back",
+    "close": "Close",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "update": "Update",
+    "apply": "Apply",
+    "reset": "Reset",
+    "clear": "Clear",
+    "register": "Register",
+    "login": "Login",
+    "finish": "Finish"
   },
   "forms": {
     "required": "આ ક્ષેત્ર જરૂરી છે",
@@ -141,5 +142,43 @@
     "instagram": "ઇન્સ્ટાગ્રામ",
     "youtube": "યુટ્યુબ",
     "whatsapp": "વોટ્સએપ"
+  },
+  "status": {
+    "loading": "Loading",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "required": "Required",
+    "optional": "Optional",
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "actions": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "upload": "Upload",
+    "download": "Download",
+    "preview": "Preview",
+    "select": "Select",
+    "choose": "Choose"
+  },
+  "confirmation": {
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "agree": "I Agree",
+    "disagree": "I Disagree"
+  },
+  "navigation": {
+    "home": "Home",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "menu": "Menu"
   }
 }

@@ -7,7 +7,7 @@ import { Calendar, Clock, ArrowRight, TrendingUp, DollarSign, Building, Banknote
 import { useTranslation } from 'react-i18next';
 
 const BlogPage = () => {
-  const { t } = useTranslation('blog');
+  const { t } = useTranslation();
   const articles = [
     {
       id: 1,

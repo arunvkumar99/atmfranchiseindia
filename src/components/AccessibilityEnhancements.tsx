@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 
 // Accessibility Enhancement Component
 export const AccessibilityEnhancements = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   const location = useLocation();
 
   useEffect(() => {

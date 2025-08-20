@@ -17,6 +17,7 @@ import { Send, Loader2 } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 export function EnquiryFormSinglePage() {
+  const { t } = useTranslation('forms');
   const { toast } = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -79,7 +80,6 @@ export function EnquiryFormSinglePage() {
   const progress = useFormProgress({ fields });
 
   const handleInputChange = (field: string, value: string) => {
-  const { t } = useTranslation('forms');
     setFormData(prev => ({ ...prev, [field]: value }));
     
     // Real-time validation when user types

@@ -9,7 +9,7 @@ interface TrustMetric {
 }
 
 export default function TrustSignals() {
-  const { t } = useTranslation('home');
+  const { t } = useTranslation();
   
   const trustMetrics: TrustMetric[] = [
     { icon: Users, value: "1000+", label: t('trustSignals.metrics.partners', 'Active Partners') },

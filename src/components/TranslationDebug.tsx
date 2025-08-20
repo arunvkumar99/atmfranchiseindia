@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES } from '@/lib/i18n';
 
 export const TranslationDebug = () => {
-  const { t, i18n } = useTranslation('forms');
+  const { t, i18n } = useTranslation();
   const [loadedNamespaces, setLoadedNamespaces] = useState<string[]>([]);
   const [resourcesLoaded, setResourcesLoaded] = useState(false);
 

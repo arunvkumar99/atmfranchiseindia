@@ -1,0 +1,194 @@
+{
+  "core": {
+    "common": {
+      "buttons": {
+        "submit": "Submit",
+        "add": "Add",
+        "apply": "Apply",
+        "reset": "Reset",
+        "clear": "Clear",
+        "cancel": "Cancel",
+        "back": "Back",
+        "save": "Save",
+        "next": "Next",
+        "previous": "Previous",
+        "continue": "Continue",
+        "finish": "Finish",
+        "register": "Register",
+        "ok": "OK",
+        "remove": "Remove"
+      },
+      "status": {
+        "error": "Error",
+        "success": "Success",
+        "required": "Required",
+        "loading": "Loading",
+        "warning": "Warning"
+      },
+      "actions": {
+        "select": "Select",
+        "preview": "Preview",
+        "choose": "Choose",
+        "upload": "Upload",
+        "search": "Search",
+        "export": "Export",
+        "import": "Import"
+      },
+      "navigation": {
+        "next": "Next",
+        "previous": "Previous",
+        "back": "Back",
+        "home": "Home",
+        "menu": "Menu"
+      },
+      "confirmation": {
+        "no": "No",
+        "yes": "Yes"
+      }
+    },
+    "validation": {
+      "required": "{{field}} is required",
+      "email_invalid": "Please enter a valid email address",
+      "phone_invalid": "Please enter a valid 10-digit phone number",
+      "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
+      "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
+      "pincode_invalid": "Please enter a valid 6-digit PIN code",
+      "min_length": "Minimum {{min}} characters required",
+      "max_length": "Maximum {{max}} characters allowed",
+      "file_size": "File size must be less than {{size}}MB",
+      "file_type": "Only {{types}} files are allowed"
+    }
+  },
+  "forms": {
+    "fields": {
+      "full_name": "Full Name",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "whatsapp": "WhatsApp Number",
+      "gender": "Gender",
+      "dob": "Date of Birth",
+      "address": "Address",
+      "street": "Street Address",
+      "city": "City",
+      "district": "District",
+      "state": "State",
+      "pincode": "PIN Code",
+      "country": "Country",
+      "business_name": "Business Name",
+      "business_type": "Business Type",
+      "investment": "Investment Capacity",
+      "experience": "Experience",
+      "occupation": "Occupation",
+      "pan_number": "PAN Number",
+      "aadhaar_number": "Aadhaar Number",
+      "gst_number": "GST Number"
+    },
+    "placeholders": {
+      "full_name": "Enter your full name",
+      "email": "example@email.com",
+      "phone": "10-digit mobile number",
+      "whatsapp": "WhatsApp number",
+      "pan": "ABCDE1234F",
+      "aadhaar": "12-digit Aadhaar number",
+      "address": "Enter complete address",
+      "city": "Select your city",
+      "state": "Choose your state",
+      "pincode": "6-digit PIN code",
+      "message": "Type your message here..."
+    },
+    "options": {
+      "gender": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "investment": {
+        "below_1": "Below ₹1 Lakh",
+        "1_to_5": "₹1-5 Lakhs",
+        "5_to_10": "₹5-10 Lakhs",
+        "10_to_25": "₹10-25 Lakhs",
+        "above_25": "Above ₹25 Lakhs"
+      },
+      "business_type": {
+        "retail": "Retail Shop",
+        "service": "Service Center",
+        "grocery": "Grocery Store",
+        "medical": "Medical Store",
+        "restaurant": "Restaurant/Cafe",
+        "other": "Other"
+      },
+      "occupation": {
+        "employed": "Employed",
+        "self_employed": "Self Employed",
+        "business": "Business Owner",
+        "student": "Student",
+        "retired": "Retired",
+        "other": "Other"
+      }
+    }
+  },
+  "agent": {
+    "title": "Agent Application",
+    "subtitle": "Join our growing network of agents",
+    "sections": {
+      "personal": "Personal Information",
+      "professional": "Professional Details",
+      "documents": "Document Upload",
+      "verification": "Security Verification"
+    },
+    "specific_fields": {
+      "agent_code": "Agent Code",
+      "motivation": "Why do you want to join as an agent?",
+      "languages": "Languages you can speak",
+      "joining_as": "Joining as"
+    }
+  },
+  "franchise": {
+    "title": "Franchise Application",
+    "subtitle": "Start your ATM franchise business",
+    "sections": {
+      "business": "Business Information",
+      "financial": "Financial Details",
+      "location": "Location Details",
+      "documents": "Required Documents"
+    },
+    "specific_fields": {
+      "franchise_type": "Franchise Type",
+      "preferred_location": "Preferred Location",
+      "investment_ready": "Investment Ready",
+      "business_plan": "Business Plan"
+    }
+  },
+  "influencer": {
+    "title": "Influencer Program",
+    "subtitle": "Partner with us as an influencer",
+    "sections": {
+      "profile": "Social Media Profile",
+      "reach": "Audience Reach",
+      "content": "Content Details"
+    },
+    "specific_fields": {
+      "social_handles": "Social Media Handles",
+      "followers": "Total Followers",
+      "engagement_rate": "Engagement Rate",
+      "content_type": "Content Type"
+    }
+  },
+  "location": {
+    "title": "Submit ATM Location",
+    "subtitle": "Help us find the best locations",
+    "sections": {
+      "location": "Location Details",
+      "footfall": "Footfall Information",
+      "nearby": "Nearby Establishments"
+    },
+    "specific_fields": {
+      "location_type": "Location Type",
+      "footfall_daily": "Daily Footfall",
+      "nearest_atm": "Distance to Nearest ATM",
+      "google_maps_link": "Google Maps Link"
+    }
+  }
+}

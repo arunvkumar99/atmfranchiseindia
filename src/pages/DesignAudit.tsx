@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 
 const DesignAudit = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   const [currentBreakpoint, setCurrentBreakpoint] = useState('desktop');
   const [contrastScore, setContrastScore] = useState(0);
   

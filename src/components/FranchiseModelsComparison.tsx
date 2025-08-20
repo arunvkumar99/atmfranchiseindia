@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { useTranslation } from 'react-i18next';
+import vakrangeeLogo from "@/assets/vakrangee-logo.png";
+import findiLogo from "@/assets/findi-logo.png";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Star, IndianRupee, TrendingUp, Shield, Building } from "lucide-react";
 
 const FranchiseModelsComparison = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation('franchise');
   const [selectedModel, setSelectedModel] = useState("tsifindi");
 
   const franchiseModels = {
@@ -18,7 +20,7 @@ const FranchiseModelsComparison = () => {
       color: "text-blue-600",
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200",
-      logo: "/lovable-uploads/450ec6fe-1efb-4ba1-823b-12a69da1de75.png",
+      logo: findiLogo,
       details: {
         oneTimeCost: "₹2,00,000",
         refundableDeposit: "₹51,000",
@@ -44,7 +46,7 @@ const FranchiseModelsComparison = () => {
       color: "text-green-600",
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
-      logo: "/lovable-uploads/6fa0c71a-d251-4135-91c4-5c01825640b7.png",
+      logo: "https://via.placeholder.com/200x80/ffffff/333333?text=EPS",
       details: {
         oneTimeCost: "₹1,00,000",
         refundableDeposit: "₹30,000",
@@ -70,7 +72,7 @@ const FranchiseModelsComparison = () => {
       color: "text-purple-600",
       bgColor: "bg-purple-50",
       borderColor: "border-purple-200",
-      logo: "/lovable-uploads/9e9f2bcc-4064-4a3b-841a-0ef244e69b37.png",
+      logo: vakrangeeLogo,
       details: {
         oneTimeCost: "₹31,600",
         refundableDeposit: "0",
@@ -96,7 +98,7 @@ const FranchiseModelsComparison = () => {
       color: "text-orange-600",
       bgColor: "bg-orange-50",
       borderColor: "border-orange-200",
-      logo: "/lovable-uploads/4d8d6356-0d3e-4ee5-92bd-5543de99432a.png",
+      logo: "https://via.placeholder.com/200x80/ffffff/333333?text=India1",
       details: {
         oneTimeCost: "₹5,00,000",
         refundableDeposit: "₹5,00,000",

@@ -4,7 +4,7 @@ import { Link } from "@/hooks/useLanguageRouter";
 import { useTranslation } from 'react-i18next';
 
 const AccessibilityStatement = () => {
-  const { t } = useTranslation('accessibility');
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-background pt-14">
       {/* Hero Section */}

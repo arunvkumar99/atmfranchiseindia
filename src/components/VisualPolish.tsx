@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils';
 // Smooth Scroll Component
 // ============================================
 export const SmoothScroll = ({ children }: { children: ReactNode }) => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation();
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;

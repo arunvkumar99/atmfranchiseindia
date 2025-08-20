@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "created_by": "Rahul - Senior Tester",
+    "created_at": "2025-08-19T17:37:27.680Z",
+    "total_tests": 13,
+    "categories": [
+      "Functional Tests",
+      "Visual Tests",
+      "Language Switch Tests",
+      "Performance Tests",
+      "Regression Tests"
+    ]
+  },
+  "tests": {
+    "functional": [
+      {
+        "id": "FUNC-001",
+        "name": "Verify all form labels are translated",
+        "priority": "P0",
+        "steps": [
+          "Navigate to each form component",
+          "Check all field labels display translated text",
+          "Verify no hardcoded strings appear"
+        ],
+        "expected_result": "All labels show translated text based on selected language",
+        "components": [
+          "AgentFormEnhanced",
+          "EnquiryFormSinglePage",
+          "JoinUs"
+        ]
+      },
+      {
+        "id": "FUNC-002",
+        "name": "Verify validation messages are translated",
+        "priority": "P0",
+        "steps": [
+          "Submit form with empty required fields",
+          "Enter invalid email format",
+          "Enter invalid phone number",
+          "Check validation messages"
+        ],
+        "expected_result": "All validation messages appear in selected language",
+        "components": [
+          "All forms"
+        ]
+      },
+      {
+        "id": "FUNC-003",
+        "name": "Verify button text translations",
+        "priority": "P0",
+        "steps": [
+          "Check Submit button text",
+          "Check Next/Previous button text",
+          "Check Cancel/Close button text"
+        ],
+        "expected_result": "All button text displays in selected language",
+        "components": [
+          "All components"
+        ]
+      },
+      {
+        "id": "FUNC-004",
+        "name": "Verify placeholder text translations",
+        "priority": "P1",
+        "steps": [
+          "Check input field placeholders",
+          "Check textarea placeholders",
+          "Check select dropdown default text"
+        ],
+        "expected_result": "All placeholders show translated text",
+        "components": [
+          "All forms"
+        ]
+      }
+    ],
+    "visual": [
+      {
+        "id": "VIS-001",
+        "name": "Verify text truncation and overflow",
+        "priority": "P1",
+        "steps": [
+          "Switch to languages with longer text (Hindi, Malayalam)",
+          "Check for text overflow in buttons",
+          "Check for text truncation in labels",
+          "Verify responsive layout remains intact"
+        ],
+        "expected_result": "No text overflow or inappropriate truncation",
+        "components": [
+          "All components"
+        ]
+      },
+      {
+        "id": "VIS-002",
+        "name": "Verify RTL language support",
+        "priority": "P2",
+        "steps": [
+          "Switch to RTL language if applicable",
+          "Check layout direction",
+          "Verify form alignment"
+        ],
+        "expected_result": "Layout adjusts correctly for RTL languages",
+        "components": [
+          "All components"
+        ]
+      }
+    ],
+    "language_switch": [
+      {
+        "id": "LANG-001",
+        "name": "Verify language switcher functionality",
+        "priority": "P0",
+        "steps": [
+          "Click language switcher",
+          "Select different language",
+          "Verify immediate UI update",
+          "Check localStorage persistence"
+        ],
+        "expected_result": "Language changes immediately and persists on refresh",
+        "components": [
+          "Header",
+          "LanguageSwitcher"
+        ]
+      },
+      {
+        "id": "LANG-002",
+        "name": "Verify form data retention on language switch",
+        "priority": "P1",
+        "steps": [
+          "Fill form partially",
+          "Switch language",
+          "Verify form data is retained"
+        ],
+        "expected_result": "Form data persists across language changes",
+        "components": [
+          "All forms"
+        ]
+      },
+      {
+        "id": "LANG-003",
+        "name": "Verify all 8 languages load correctly",
+        "priority": "P0",
+        "steps": [
+          "Switch to English - verify",
+          "Switch to Hindi - verify",
+          "Switch to Malayalam - verify",
+          "Switch to Bengali - verify",
+          "Switch to Gujarati - verify",
+          "Switch to Kannada - verify",
+          "Switch to Marathi - verify",
+          "Switch to Odia - verify"
+        ],
+        "expected_result": "All languages load without errors",
+        "components": [
+          "All components"
+        ]
+      }
+    ],
+    "performance": [
+      {
+        "id": "PERF-001",
+        "name": "Verify translation loading performance",
+        "priority": "P1",
+        "steps": [
+          "Measure initial page load time",
+          "Measure language switch time",
+          "Check for translation key flickering"
+        ],
+        "expected_result": "Translations load within 100ms, no flickering",
+        "components": [
+          "All components"
+        ]
+      },
+      {
+        "id": "PERF-002",
+        "name": "Verify lazy loading of namespaces",
+        "priority": "P2",
+        "steps": [
+          "Monitor network requests",
+          "Navigate to different routes",
+          "Check namespace loading"
+        ],
+        "expected_result": "Only required namespaces load per route",
+        "components": [
+          "Router",
+          "All pages"
+        ]
+      }
+    ],
+    "regression": [
+      {
+        "id": "REG-001",
+        "name": "Verify no hardcoded strings remain",
+        "priority": "P0",
+        "steps": [
+          "Run automated hardcoded text scanner",
+          "Review all components",
+          "Check console for missing translation warnings"
+        ],
+        "expected_result": "Zero hardcoded strings, no console warnings",
+        "components": [
+          "All components"
+        ]
+      },
+      {
+        "id": "REG-002",
+        "name": "Verify form submission still works",
+        "priority": "P0",
+        "steps": [
+          "Fill and submit each form",
+          "Verify data reaches backend",
+          "Check success messages"
+        ],
+        "expected_result": "Forms submit successfully with translated messages",
+        "components": [
+          "All forms"
+        ]
+      }
+    ]
+  },
+  "automation_scripts": {
+    "check_hardcoded": "\n// Automated script to detect hardcoded strings\nconst checkHardcoded = () => {\n  const elements = document.querySelectorAll('*');\n  const hardcoded = [];\n  \n  elements.forEach(el => {\n    if (el.children.length === 0 && el.textContent.trim()) {\n      const text = el.textContent.trim();\n      // Check if it's not a translation key\n      if (!text.startsWith('t(') && !text.includes('{{')) {\n        hardcoded.push({\n          element: el.tagName,\n          text: text,\n          path: getElementPath(el)\n        });\n      }\n    }\n  });\n  \n  return hardcoded;\n};\n    ",
+    "check_translation_keys": "\n// Check for missing translation keys\nconst checkTranslationKeys = () => {\n  const missingKeys = [];\n  \n  // Monitor console for missing key warnings\n  const originalWarn = console.warn;\n  console.warn = (...args) => {\n    if (args[0].includes('Missing translation')) {\n      missingKeys.push(args[0]);\n    }\n    originalWarn.apply(console, args);\n  };\n  \n  // Trigger all components\n  // ... component rendering logic\n  \n  return missingKeys;\n};\n    ",
+    "performance_test": "\n// Measure translation performance\nconst measurePerformance = async () => {\n  const metrics = {\n    initialLoad: 0,\n    languageSwitch: 0,\n    renderTime: 0\n  };\n  \n  // Measure initial load\n  const t0 = performance.now();\n  await i18n.loadNamespaces(['core', 'forms']);\n  metrics.initialLoad = performance.now() - t0;\n  \n  // Measure language switch\n  const t1 = performance.now();\n  await i18n.changeLanguage('hi');\n  metrics.languageSwitch = performance.now() - t1;\n  \n  return metrics;\n};\n    "
+  }
+}

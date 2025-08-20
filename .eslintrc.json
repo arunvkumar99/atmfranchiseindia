@@ -1,0 +1,60 @@
+{
+  "extends": [
+    "react-app"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "react/jsx-no-literals": [
+      "warn",
+      {
+        "noStrings": true,
+        "ignoreProps": true,
+        "allowedStrings": [
+          "•",
+          "×",
+          "–",
+          "—",
+          "€",
+          "$",
+          "£",
+          "¥",
+          "₹",
+          "%",
+          "&",
+          "|",
+          "/",
+          "\\",
+          "-",
+          "+",
+          "=",
+          ">",
+          "<",
+          ":",
+          ";",
+          ",",
+          ".",
+          "?",
+          "!",
+          "(",
+          ")",
+          "[",
+          "]",
+          "{",
+          "}"
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "JSXText[value=/[a-zA-Z]{2,}/]",
+        "message": "Use translation function t() instead of hardcoded text"
+      }
+    ]
+  }
+}

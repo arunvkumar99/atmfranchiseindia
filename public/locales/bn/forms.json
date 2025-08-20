@@ -32,15 +32,27 @@
   },
   "placeholders": {
     "fullName": "আপনার পুরো নাম লিখুন।",
-    "email": "example@email.com",
-    "phone": "+৯১ ৯৮৭৬৫ ৪৩২১০",
-    "message": "আপনার বার্তা এখানে টাইপ করুন...",
-    "city": "আপনার শহর নির্বাচন করুন",
-    "state": "আপনার রাজ্য নির্বাচন করুন",
+    "email": "Enter your email address",
+    "phone": "10-digit mobile number",
+    "message": "Type your message here...",
+    "city": "Enter city",
+    "state": "Choose your state",
     "searchCity": "শহর অনুসন্ধান করুন...",
     "selectOption": "একটি বিকল্প নির্বাচন করুন",
     "uploadFile": "ফাইলটি বেছে নিন অথবা এখানে টেনে আনুন",
-    "pincode": "৬-সংখ্যার পিন কোড"
+    "pincode": "6-digit pincode",
+    "full_name": "Enter your full name",
+    "full_name_pan": "Enter your full name as per PAN card",
+    "phone_primary": "Primary contact number",
+    "whatsapp": "WhatsApp number",
+    "pan": "ABCDE1234F",
+    "aadhaar": "123456789012 (12 digits only)",
+    "address": "Enter complete address",
+    "address_line1": "House/Building number, Street name",
+    "address_line2": "Area, Landmark",
+    "your_city": "Your city",
+    "district": "Enter your district",
+    "business_type": "Select business type"
   },
   "validation": {
     "required": "{{field}} is required",
@@ -54,7 +66,18 @@
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
     "agreeRequired": "আপনাকে অবশ্যই শর্তাবলীতে সম্মত হতে হবে।",
-    "captchaRequired": "অনুগ্রহ করে ক্যাপচা যাচাইকরণ সম্পূর্ণ করুন।"
+    "captchaRequired": "অনুগ্রহ করে ক্যাপচা যাচাইকরণ সম্পূর্ণ করুন।",
+    "email_invalid": "Please enter a valid email address",
+    "phone_invalid": "Please enter a valid 10-digit phone number",
+    "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
+    "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
+    "pincode_invalid": "Please enter a valid 6-digit PIN code",
+    "min_length": "Minimum {{min}} characters required",
+    "max_length": "Maximum {{max}} characters allowed",
+    "file_size": "File size must be less than {{size}}MB",
+    "file_type": "Only {{types}} files are allowed",
+    "security_required": "Please complete the security verification before submitting",
+    "try_again": "Please try again or contact us directly"
   },
   "options": {
     "occupation": {
@@ -66,11 +89,17 @@
       "other": "অন্যান্য"
     },
     "investment": {
-      "below1": "১ লক্ষ টাকার নিচে",
-      "1to5": "₹১-৫ লক্ষ টাকা",
-      "5to10": "₹৫-১০ লক্ষ টাকা",
-      "10to25": "₹১০-২৫ লক্ষ টাকা",
-      "above25": "₹২৫ লক্ষের উপরে"
+      "below_1": "Below ₹1 Lakh",
+      "1_to_5": "₹1-5 Lakhs",
+      "2_to_3": "₹2-3 Lakhs",
+      "3_to_4": "₹3-4 Lakhs",
+      "4_to_5": "₹4-5 Lakhs",
+      "5_to_10": "₹5-10 Lakhs",
+      "10_to_15": "₹10-15 Lakhs",
+      "10_to_25": "₹10-25 Lakhs",
+      "15_to_25": "₹15-25 Lakhs",
+      "above_5": "₹5+ Lakhs",
+      "above_25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
       "google": "গুগল সার্চ",
@@ -81,12 +110,17 @@
       "other": "অন্যান্য"
     },
     "businessType": {
-      "retail": "খুচরা দোকান",
-      "service": "পরিষেবা কেন্দ্র",
-      "grocery": "মুদির দোকান",
-      "medical": "ঔষধের দোকান",
-      "restaurant": "রেস্তোরাঁ/ক্যাফে",
-      "other": "অন্যান্য"
+      "retail": "Retail Shop",
+      "service": "Service Center",
+      "grocery": "Grocery Store",
+      "medical": "Medical Store",
+      "restaurant": "Restaurant/Cafe",
+      "other": "Other"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
     }
   },
   "locationForm": {

@@ -1,0 +1,15 @@
+{
+  "preload": [
+    "core",
+    "forms"
+  ],
+  "lazy": [
+    "agent",
+    "franchise",
+    "influencer",
+    "location"
+  ],
+  "cache_strategy": "lru",
+  "max_cache_size": "2MB",
+  "ttl": 3600
+}

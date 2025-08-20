@@ -421,7 +421,6 @@ const Header = () => {
         /* Hide Google Translate top banner */
         .goog-te-banner-frame {
           display: none !important;
-import { useTranslation } from 'react-i18next';
         }
         
         /* Hide Google Translate attribution */

@@ -3,7 +3,7 @@ import { TrendingUp, Users, Banknote, Target } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 const WhyATM = () => {
-  const { t } = useTranslation('home');
+  const { t } = useTranslation('franchise');
   
   const stats = [
     {

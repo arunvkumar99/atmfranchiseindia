@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Users, Award, TrendingUp, Shield, Building2, Zap, ArrowRight } from "lucide-react";
 import { Link } from "@/hooks/useLanguageRouter";
 import { useTranslation } from 'react-i18next';
+import vakrangeeLogo from "@/assets/vakrangee-logo.png";
+import findiLogo from "@/assets/findi-logo.png";
 import WLAOperators from "@/components/WLAOperators";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
@@ -184,7 +186,7 @@ const AboutUs = () => {
                 <div className="relative z-10">
                   <div className="w-20 h-20 bg-gray-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md">
                     <img 
-                      src="/lovable-uploads/eeddc49e-cccb-49b8-9347-47ab2a9139a3.png"
+                      src="https://via.placeholder.com/200x80/ffffff/333333?text=PixellPay"
                       alt={t('alt.pixellpay_logo', 'PixellPay Logo')}
                       className="w-12 h-12 object-contain"
                     />
@@ -219,7 +221,7 @@ const AboutUs = () => {
                 <div className="relative z-10">
                   <div className="w-20 h-20 bg-gray-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md">
                     <img 
-                      src="/lovable-uploads/07ef8b05-3455-4827-8033-4a58fc707bdb.png"
+                      src="https://via.placeholder.com/200x80/ffffff/333333?text=Evosyz"
                       alt={t('alt.evosyz_technology_logo', 'Evosyz Technology Logo')}
                       className="w-16 h-10 object-contain"
                     />
@@ -300,7 +302,7 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="/lovable-uploads/52ef3f41-2159-433c-8263-667c385c4857.png"
+                    src="https://via.placeholder.com/200x80/ffffff/333333?text=EPS"
                     alt={t('alt.eps_wla_partner', 'EPS WLA Partner')}
                     className="w-16 h-12 object-contain"
                   />
@@ -320,7 +322,7 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="/lovable-uploads/5c2d74c2-8857-438f-8437-fa0bbc9bf6d7.png"
+                    src="https://via.placeholder.com/200x80/ffffff/333333?text=India1"
                     alt={t('alt.india_wla_partner', 'India WLA Partner')}
                     className="w-16 h-12 object-contain"
                   />
@@ -340,7 +342,7 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="/lovable-uploads/650744eb-c5f9-477b-859c-865096fac263.png"
+                    src="https://via.placeholder.com/200x80/ffffff/333333?text=Indicash"
                     alt={t('alt.indicash_tata_product', 'Indicash TATA Product')}
                     className="w-16 h-12 object-contain"
                   />
@@ -360,7 +362,7 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="/lovable-uploads/054c7235-34db-4e9c-9923-ffdc816b32e6.png"
+                    src={vakrangeeLogo}
                     alt={t('alt.vakrangee_wla_partner', 'Vakrangee WLA Partner')}
                     className="w-16 h-12 object-contain"
                   />
@@ -380,7 +382,7 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="/lovable-uploads/119e1aca-8138-4b58-a17a-7aac64a1990b.png"
+                    src={findiLogo}
                     alt={t('alt.findi_atm_wla_partner', 'Findi ATM WLA Partner')}
                     className="w-16 h-12 object-contain"
                   />
