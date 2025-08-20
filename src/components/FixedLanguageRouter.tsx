@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -9,6 +9,7 @@ const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children
   const location = useLocation();
   const navigate = useNavigate();
   const { i18n } = useTranslation();
+  const [isChangingLanguage, setIsChangingLanguage] = useState(false);
 
   useEffect(() => {
     const path = location.pathname;
@@ -23,8 +24,14 @@ const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children
         // Valid language code found - apply translation without URL manipulation
         console.log(`🌍 Detected language: ${langCode} for path: ${path}`);
         
-        // Apply translation using unified system
-        i18n.changeLanguage(langCode);
+        // Apply translation using unified system - await the promise
+        if (i18n.language !== langCode) {
+          setIsChangingLanguage(true);
+          i18n.changeLanguage(langCode).then(() => {
+            console.log(`✅ Language changed to: ${langCode}`);
+            setIsChangingLanguage(false);
+          });
+        }
       } else {
         // Invalid language code - redirect to clean URL
         console.log(`❌ Invalid language code: ${langCode}, redirecting to clean URL`);
@@ -48,6 +55,18 @@ const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children
       i18n.changeLanguage('en');
     }
   }, [location.pathname, navigate]);
+
+  // Show loading state while language is changing
+  if (isChangingLanguage) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <div className="w-8 h-8 border-3 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-2"></div>
+          <p className="text-muted-foreground">Loading language...</p>
+        </div>
+      </div>
+    );
+  }
 
   return <>{children}</>;
 };

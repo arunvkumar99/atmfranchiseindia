@@ -16,7 +16,9 @@ Breadcrumb.displayName = "Breadcrumb"
 const BreadcrumbList = React.forwardRef<
   HTMLOListElement,
   React.ComponentPropsWithoutRef<"ol">
->(({ className, ...props }, ref) => (
+>(({ className, ...props }, ref) => {
+  const { t } = useTranslation();
+  return (
   <ol
     ref={ref}
     className={cn(
@@ -25,19 +27,23 @@ const BreadcrumbList = React.forwardRef<
     )}
     {...props}
   />
-))
+);
+})
 BreadcrumbList.displayName = "BreadcrumbList"
 
 const BreadcrumbItem = React.forwardRef<
   HTMLLIElement,
   React.ComponentPropsWithoutRef<"li">
->(({ className, ...props }, ref) => (
+>(({ className, ...props }, ref) => {
+  const { t } = useTranslation();
+  return (
   <li
     ref={ref}
     className={cn("inline-flex items-center gap-1.5", className)}
     {...props}
   />
-))
+);
+})
 BreadcrumbItem.displayName = "BreadcrumbItem"
 
 const BreadcrumbLink = React.forwardRef<
@@ -46,6 +52,8 @@ const BreadcrumbLink = React.forwardRef<
     asChild?: boolean
   }
 >(({ asChild, className, ...props }, ref) => {
+  const { t } = useTranslation();
+
   const Comp = asChild ? Slot : "a"
 
   return (
@@ -61,7 +69,9 @@ BreadcrumbLink.displayName = "BreadcrumbLink"
 const BreadcrumbPage = React.forwardRef<
   HTMLSpanElement,
   React.ComponentPropsWithoutRef<"span">
->(({ className, ...props }, ref) => (
+>(({ className, ...props }, ref) => {
+  const { t } = useTranslation();
+  return (
   <span
     ref={ref}
     role="link"
@@ -70,14 +80,17 @@ const BreadcrumbPage = React.forwardRef<
     className={cn("font-normal text-foreground", className)}
     {...props}
   />
-))
+);
+})
 BreadcrumbPage.displayName = "BreadcrumbPage"
 
 const BreadcrumbSeparator = ({
   children,
   className,
   ...props
-}: React.ComponentProps<"li">) => (
+}: React.ComponentProps<"li">) => {
+  const { t } = useTranslation();
+  return (
   <li
     role="presentation"
     aria-hidden="true"
@@ -86,13 +99,16 @@ const BreadcrumbSeparator = ({
   >
     {children ?? <ChevronRight />}
   </li>
-)
+);
+}
 BreadcrumbSeparator.displayName = "BreadcrumbSeparator"
 
 const BreadcrumbEllipsis = ({
   className,
   ...props
-}: React.ComponentProps<"span">) => (
+}: React.ComponentProps<"span">) => {
+  const { t } = useTranslation();
+  return (
   <span
     role="presentation"
     aria-hidden="true"
@@ -102,7 +118,8 @@ const BreadcrumbEllipsis = ({
     <MoreHorizontal className="h-4 w-4" />
     <span className="sr-only">{t('components.breadcrumb.text1')}</span>
   </span>
-)
+);
+}
 BreadcrumbEllipsis.displayName = "BreadcrumbElipssis"
 
 export {

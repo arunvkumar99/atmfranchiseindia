@@ -16,6 +16,7 @@ interface SearchComponentProps {
 export default function SearchComponent({ isOpen, onClose }: SearchComponentProps) {
   const [query, setQuery] = useState('');
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   // Use the new content indexing search function
   const searchResults = useMemo(() => {
@@ -23,7 +24,6 @@ export default function SearchComponent({ isOpen, onClose }: SearchComponentProp
   }, [query]);
 
   const handleResultClick = (result: SearchContent) => {
-  const { t } = useTranslation();
     let path = result.path;
     
     // Add anchor/section navigation if available

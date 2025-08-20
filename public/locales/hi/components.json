@@ -237,5 +237,51 @@
   "visualshowcase.text16": "Animated Gradient",
   "visualshowcase.text17": "Shifting gradient background animation",
   "visualshowcase.text18": "Morphing Shapes",
-  "visualshowcase.text19": "Organic shape animations in background"
+  "visualshowcase.text19": "Organic shape animations in background",
+  "translationdebug": {
+    "text1": "अनुवाद डिबग"
+  },
+  "translationvalidator": {
+    "text1": "अनुवाद सत्यापन"
+  },
+  "lazyloadingwrapper": {
+    "text1": "पृष्ठ लोड करने में विफल"
+  },
+  "dialog": {
+    "text1": "बंद करें"
+  },
+  "breadcrumb": {
+    "text1": "अधिक पृष्ठ"
+  },
+  "captcha-protection": {
+    "text1": "कृपया सत्यापित करें कि आप मानव हैं"
+  },
+  "carousel": {
+    "text1": "पिछला स्लाइड",
+    "text2": "अगला स्लाइड"
+  },
+  "file-upload": {
+    "text1": "फ़ाइल अपलोड",
+    "text2": "फ़ाइल चुनें",
+    "text3": "या खींचें और छोड़ें",
+    "text4": "अपलोड करें"
+  },
+  "enhanced-file-upload": {
+    "text1": "अपनी फ़ाइल अपलोड करें",
+    "text2": "केवल PDF, JPG, PNG फ़ाइलें"
+  },
+  "pagination": {
+    "text1": "अधिक पृष्ठ",
+    "text2": "पिछला",
+    "text3": "अगला पृष्ठ"
+  },
+  "sheet": {
+    "text1": "बंद करें"
+  },
+  "sidebar": {
+    "text1": "साइडबार टॉगल करें"
+  },
+  "searchcomponent": {
+    "text1": "लोकप्रिय खोजें"
+  }
 }

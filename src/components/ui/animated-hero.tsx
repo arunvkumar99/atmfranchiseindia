@@ -5,6 +5,8 @@ import { MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 function Hero() {
+  const { t } = useTranslation();
+
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
     () => ["amazing", "new", "wonderful", "beautiful", "smart"],
@@ -13,6 +15,8 @@ function Hero() {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
+  const { t } = useTranslation();
+
       if (titleNumber === titles.length - 1) {
         setTitleNumber(0);
       } else {

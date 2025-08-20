@@ -32,6 +32,8 @@ type CarouselContextProps = {
 const CarouselContext = React.createContext<CarouselContextProps | null>(null)
 
 function useCarousel() {
+  const { t } = useTranslation();
+
   const context = React.useContext(CarouselContext)
 
   if (!context) {
@@ -57,6 +59,8 @@ const Carousel = React.forwardRef<
     },
     ref
   ) => {
+  const { t } = useTranslation();
+
     const [carouselRef, api] = useEmblaCarousel(
       {
         ...opts,
@@ -68,6 +72,8 @@ const Carousel = React.forwardRef<
     const [canScrollNext, setCanScrollNext] = React.useState(false)
 
     const onSelect = React.useCallback((api: CarouselApi) => {
+  const { t } = useTranslation();
+
       if (!api) {
         return
       }
@@ -77,15 +83,21 @@ const Carousel = React.forwardRef<
     }, [])
 
     const scrollPrev = React.useCallback(() => {
+  const { t } = useTranslation();
+
       api?.scrollPrev()
     }, [api])
 
     const scrollNext = React.useCallback(() => {
+  const { t } = useTranslation();
+
       api?.scrollNext()
     }, [api])
 
     const handleKeyDown = React.useCallback(
       (event: React.KeyboardEvent<HTMLDivElement>) => {
+  const { t } = useTranslation();
+
         if (event.key === "ArrowLeft") {
           event.preventDefault()
           scrollPrev()
@@ -153,6 +165,8 @@ const CarouselContent = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => {
+  const { t } = useTranslation();
+
   const { carouselRef, orientation } = useCarousel()
 
   return (
@@ -175,6 +189,8 @@ const CarouselItem = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => {
+  const { t } = useTranslation();
+
   const { orientation } = useCarousel()
 
   return (
@@ -197,6 +213,8 @@ const CarouselPrevious = React.forwardRef<
   HTMLButtonElement,
   React.ComponentProps<typeof Button>
 >(({ className, variant = "outline", size = "icon", ...props }, ref) => {
+  const { t } = useTranslation();
+
   const { orientation, scrollPrev, canScrollPrev } = useCarousel()
 
   return (
@@ -226,6 +244,8 @@ const CarouselNext = React.forwardRef<
   HTMLButtonElement,
   React.ComponentProps<typeof Button>
 >(({ className, variant = "outline", size = "icon", ...props }, ref) => {
+  const { t } = useTranslation();
+
   const { orientation, scrollNext, canScrollNext } = useCarousel()
 
   return (

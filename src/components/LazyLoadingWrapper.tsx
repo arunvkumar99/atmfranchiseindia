@@ -2,14 +2,17 @@ import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 
 // Loading component for route transitions
-const PageLoader = () => (
+const PageLoader = () => {
+  const { t } = useTranslation();
+  return (
   <div className="flex items-center justify-center min-h-[400px]">
     <div className="flex items-center space-x-2">
       <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
       <span className="text-primary font-medium">{t('loading')}</span>
     </div>
   </div>
-);
+  );
+};
 
 // Error boundary for lazy loading failures
 class LazyLoadErrorBoundary extends React.Component<
@@ -34,7 +37,7 @@ class LazyLoadErrorBoundary extends React.Component<
       return this.props.fallback || (
         <div className="flex items-center justify-center min-h-[400px]">
           <div className="text-center">
-            <p className="text-red-600 font-medium">{t('components.lazyloadingwrapper.text1')}</p>
+            <p className="text-red-600 font-medium">Failed to load this page</p>
             <button 
               onClick={() => window.location.reload()} 
               className="mt-2 px-4 py-2 bg-primary text-white rounded hover:bg-primary/90"
