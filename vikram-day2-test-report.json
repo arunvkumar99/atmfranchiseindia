@@ -1,0 +1,1337 @@
+{
+  "timestamp": "2025-08-20T01:58:38.517Z",
+  "author": "Vikram - QA Engineer",
+  "summary": {
+    "totalTests": 5,
+    "passed": 108,
+    "failed": 2,
+    "warnings": 182,
+    "critical": 22
+  },
+  "results": {
+    "passed": [
+      {
+        "test": "Translation Hook",
+        "file": "AgentFormProgressive.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "BreadcrumbNavigation.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "EnquiryFormProgressive.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "EnsureEnglishDefault.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "FAQ.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "FixedLanguageRouter.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "Footer.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "InfluencerFormProgressive.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "JobApplicationProgressive.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "LanguageSwitcher.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "LanguageSwitcherNew.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "LoadingStates.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "MicroInteractions.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "PerformanceMonitor.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "PerformanceOptimizations.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "SEOMetaTags.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "Services.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "StrategicCrossPageLinks.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "SubmitLocationProgressive.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "Testimonials.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "TrustSignals.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "UrgencyElements.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "VisualPolish.tsx"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "WhyATM.tsx"
+      },
+      {
+        "test": "Translation Files",
+        "file": "en/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "en/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "en/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "en/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "en/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "en/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "en/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "hi/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "hi/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "hi/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "hi/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "hi/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "hi/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "hi/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "bn/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "bn/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "bn/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "bn/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "bn/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "bn/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "bn/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ta/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ta/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ta/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ta/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ta/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ta/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ta/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "te/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "te/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "te/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "te/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "te/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "te/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "te/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "mr/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "mr/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "mr/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "mr/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "mr/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "mr/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "mr/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "gu/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "gu/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "gu/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "gu/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "gu/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "gu/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "gu/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "kn/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "kn/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "kn/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "kn/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "kn/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "kn/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "kn/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ml/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ml/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ml/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ml/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ml/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ml/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "ml/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "as/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "as/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "as/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "as/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "as/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "as/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "as/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "or/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "or/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "or/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "or/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "or/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "or/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "or/contact.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "pa/common.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "pa/home.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "pa/forms.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "pa/agent.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "pa/franchise.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "pa/about.json"
+      },
+      {
+        "test": "Translation Files",
+        "file": "pa/contact.json"
+      }
+    ],
+    "failed": [
+      {
+        "test": "Translation Hook",
+        "file": "LazyLoadingWrapper.tsx",
+        "reason": "Has hardcoded strings but no useTranslation"
+      },
+      {
+        "test": "Runtime Translation",
+        "reason": "Translation switching failed",
+        "error": "Command failed: npm test -- test-translation-runtime --no-coverage --silent\n\n\u001b[31m⎯⎯⎯⎯⎯⎯\u001b[39m\u001b[1m\u001b[41m Failed Suites 1 \u001b[49m\u001b[22m\u001b[31m⎯⎯⎯⎯⎯⎯⎯\u001b[39m\n\n\u001b[41m\u001b[1m FAIL \u001b[22m\u001b[49m src/test-translation-runtime.test.tsx\u001b[2m [ src/test-translation-runtime.test.tsx ]\u001b[22m\n\u001b[31m\u001b[1mError\u001b[22m: Failed to resolve import \"../lib/i18n\" from \"src/test-translation-runtime.test.tsx\". Does the file exist?\u001b[39m\n  Plugin: \u001b[35mvite:import-analysis\u001b[39m\n  File: \u001b[36mC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/test-translation-runtime.test.tsx\u001b[39m:4:17\n\u001b[33m  2  |  import React from 'react';\n  3  |  import { render } from '@testing-library/react';\n  4  |  import i18n from '../lib/i18n';\n     |                    ^\n  5  |  import { I18nextProvider } from 'react-i18next';\n  6  |  // Test component\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m TransformPluginContext._formatError ../../Microsoft%20VS%20Code/atmfranchiseindia/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:\u001b[2m49255:41\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m TransformPluginContext.error ../../Microsoft%20VS%20Code/atmfranchiseindia/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:\u001b[2m49250:16\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m normalizeUrl ../../Microsoft%20VS%20Code/atmfranchiseindia/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:\u001b[2m64041:23\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m ../../Microsoft%20VS%20Code/atmfranchiseindia/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:\u001b[2m64173:39\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m TransformPluginContext.transform ../../Microsoft%20VS%20Code/atmfranchiseindia/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:\u001b[2m64100:7\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m PluginContainer.transform ../../Microsoft%20VS%20Code/atmfranchiseindia/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:\u001b[2m49096:18\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m loadAndTransform ../../Microsoft%20VS%20Code/atmfranchiseindia/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:\u001b[2m51929:27\u001b[22m\u001b[39m\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯\u001b[22m\u001b[39m\n\n"
+      }
+    ],
+    "warnings": [
+      {
+        "test": "Translation Hook",
+        "file": "AccessibilityEnhancements.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "AccessibilityWrapper.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "AdminTableWithIST.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "AgentFormEnhanced.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "AgentFormSinglePage.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "BecomefranchiseHero.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "DirectSheetsForm.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "EnhancedFormWrapper.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "EnquiryFormSinglePage.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "ErrorBoundary.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "FormProgress.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "FormSuccessModal.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "FranchiseModelsComparison.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "GetStarted.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "Header.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "Hero.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "InfluencerFormSinglePage.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "JobApplicationSinglePage.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "JoinUs.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "LanguageSwitchTest.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "MobileNav.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "OptimizedComponents.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "OptimizedImage.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "ProgressiveFormWrapper.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "SearchComponent.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "SocialProofElements.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "StickyHeader.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "StickyMobileCTA.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "SubmitLocationHero.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "SubmitLocationSinglePage.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "TranslationDebug.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "TranslationTest.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "TranslationValidator.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "UnifiedForm.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "WhyATMFranchiseIndia.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Translation Hook",
+        "file": "WLAOperators.tsx",
+        "reason": "Has hardcoded strings, verify they are being translated"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in agent.json:title and common.json:nav.becomeAgent"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:services.title and common.json:footer.quickLinks.services"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:nav.submitLocation and common.json:footer.links.submitLocation"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:nav.becomeFranchise and common.json:footer.links.becomeFranchise"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:services.title and common.json:footer.servicesTitle"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:services.training.title and common.json:footer.services.training"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:services.digital.title and common.json:footer.services.marketing"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:services.technical.title and common.json:footer.services.technical"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in accessibility.json:title and common.json:footer.legal.accessibility"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in blog.json:newsletter.placeholder and common.json:footer.newsletter.placeholder"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in blog.json:newsletter.subscribe and common.json:footer.newsletter.button"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:nav.home and common.json:navigation.home"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.back and common.json:navigation.back"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.next and common.json:navigation.next"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.previous and common.json:navigation.previous"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:contact.getInTouch and contact.json:title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:contact.phone and contact.json:phone.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:contact.email and contact.json:email.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:footer.contact.location and contact.json:office.address"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:labels.fullName and forms.json:fields.fullName"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:labels.email and forms.json:fields.email"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:labels.phone and forms.json:fields.phone"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:contact.address and forms.json:fields.address"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:placeholders.fullName and forms.json:placeholders.full_name"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:forms.invalidEmail and forms.json:validation.emailInvalid"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:forms.invalidEmail and forms.json:validation.email_invalid"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:validation.phoneInvalid and forms.json:validation.phone_invalid"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:validation.pincodeInvalid and forms.json:validation.pincode_invalid"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:validation.fileSize and forms.json:validation.file_size"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:validation.fileType and forms.json:validation.file_type"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:social.facebook and forms.json:options.hearAbout.facebook"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:social.instagram and forms.json:options.hearAbout.instagram"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.occupation.other and forms.json:options.hearAbout.other"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.occupation.other and forms.json:options.businessType.other"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.occupation.other and forms.json:options.gender.other"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:nav.contactUs and forms.json:contactForm.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:hero.title.middle and forms.json:joinUs.title.highlight"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:locationForm.sections.personal and forms.json:joinUs.sections.personal"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:locationForm.sections.business and forms.json:joinUs.sections.business"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:locationForm.sections.additional and forms.json:joinUs.sections.additional"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:placeholders.address_line1 and forms.json:joinUs.placeholders.addressLine1"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:placeholders.address_line2 and forms.json:joinUs.placeholders.addressLine2"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:placeholders.city and forms.json:joinUs.placeholders.city"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:placeholders.business_type and forms.json:joinUs.placeholders.businessType"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:placeholders.pan and forms.json:joinUs.placeholders.panCard"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.investment.5_to_10 and forms.json:joinUs.incomeRanges.5l-10l"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.investment.10_to_25 and forms.json:joinUs.incomeRanges.10l-25l"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.investment.2_to_3 and forms.json:joinUs.investmentRanges.2-3l"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.investment.3_to_4 and forms.json:joinUs.investmentRanges.3-4l"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.investment.4_to_5 and forms.json:joinUs.investmentRanges.4-5l"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.investment.above_5 and forms.json:joinUs.investmentRanges.5l+"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.occupation.other and forms.json:joinUs.referenceSources.other"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:footer.legal.terms and forms.json:joinUs.terms.termsLink"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in accessibility.json:contact.phone and forms.json:joinUs.sidebar.help.callUs"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in accessibility.json:contact.email and forms.json:joinUs.sidebar.help.emailUs"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in agent.json:form.submit and forms.json:joinUs.buttons.submit"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.submit and forms.json:buttons.submit"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.next and forms.json:buttons.next"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.previous and forms.json:buttons.previous"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.cancel and forms.json:buttons.cancel"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in agent.json:form.submit and forms.json:buttons.submitApplication"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in agent.json:hero.cta and forms.json:buttons.apply"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.register and forms.json:buttons.register"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.continue and forms.json:buttons.continue"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:locationForm.sections.personal and forms.json:sections.personal"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:joinUs.sections.address and forms.json:sections.address"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:locationForm.sections.business and forms.json:sections.business"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:joinUs.sections.financial and forms.json:sections.financial"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:agentForm.sections.documents and forms.json:sections.documents"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:footer.legal.terms and forms.json:sections.terms"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:content.trusted_atm_franchise_partner and franchise.json:hero.badge"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:content.become_an and franchise.json:hero.title.line1"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:hero.title.middle and franchise.json:hero.title.line2"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:content.partner and franchise.json:hero.title.line3"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:companies.pixellpay.link and franchise.json:hero.cta.learnMore"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:buttons.apply and franchise.json:hero.process.steps.apply.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:whoWeAre.stats.transactions.label and franchise.json:hero.stats.transactions"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:labels.fullName and franchise.json:enquiryForm.fields.name"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:labels.email and franchise.json:enquiryForm.fields.email"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:labels.phone and franchise.json:enquiryForm.fields.phone"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:fields.state and franchise.json:enquiryForm.fields.state"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:fields.city and franchise.json:enquiryForm.fields.city"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:fields.investment and franchise.json:enquiryForm.fields.investment"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:locationForm.sections.additional and franchise.json:enquiryForm.fields.message"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:loading.submitting and franchise.json:enquiryForm.submitting"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:hero.process.steps.installation.title and franchise.json:services.items.installation.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:joinUs.incomeRanges.2l-5l and franchise.json:comparison.models.basic.investment"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:options.investment.5_to_10 and franchise.json:comparison.models.professional.investment"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in agent.json:hero.cta and franchise.json:getStarted.cta.apply"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in accessibility.json:contact.phone and franchise.json:getStarted.cta.call"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:nav.submitLocation and home.json:hero.submitLocation"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:nav.becomeFranchise and home.json:hero.becomeFranchise"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:companies.pixellpay.link and home.json:hero.cta.secondary"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:whyAtm.benefits.highReturns.title and home.json:features.items.highReturns.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:hero.stats.support and home.json:features.items.support.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:hero.process.steps.earn.title and home.json:process.steps.earn.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:joinUs.sidebar.successStory.name and home.json:testimonials.items.rajesh.name"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:getStarted.title and home.json:cta.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in agent.json:hero.cta and home.json:cta.button"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:whoWeAre.stats.transactions.label and home.json:stats.monthlyTransactions"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:footer.quickLinks.whyAtm and home.json:whyAtm.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.roi.subtitle and home.json:whyAtm.stats.roi.label"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.roi.description and home.json:whyAtm.stats.roi.description"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.penetration.description and home.json:whyAtm.stats.penetration.description"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.cash.subtitle and home.json:whyAtm.stats.cash.label"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.cash.description and home.json:whyAtm.stats.cash.description"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.potential.subtitle and home.json:whyAtm.stats.potential.label"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.potential.description and home.json:whyAtm.stats.potential.description"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:faq.title and home.json:faq.badge"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:hero.stats.partners and home.json:trustSignals.metrics.partners"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:whyAtm.subtitle and home.json:valueProps.subtitle"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:whyAtm.cta.title and home.json:valueProps.perfectTime"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:whyAtm.cta.investment and home.json:valueProps.investmentRange"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:whyAtm.cta.points.digital and home.json:valueProps.bullets.digitalAdoption"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:whyAtm.cta.points.government and home.json:valueProps.bullets.governmentPush"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:whyAtm.cta.points.branches and home.json:valueProps.bullets.bankClosures"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.roi.subtitle and home.json:valueProps.stats.roi.label"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.roi.description and home.json:valueProps.stats.roi.description"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.cash.subtitle and home.json:valueProps.stats.cash.label"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.cash.description and home.json:valueProps.stats.cash.description"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:services.title and home.json:whyChoose.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:services.titleHighlight and home.json:whyChoose.titleHighlight"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:services.items.trusted.title and home.json:whyChoose.features.trusted.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:services.items.marketing.title and influencer.json:benefits.support"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in forms.json:fields.experience and jobs.json:positions.experience"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in agent.json:hero.cta and jobs.json:positions.apply"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:errors.pageNotFound and notFound.json:title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:errors.goHome and notFound.json:cta.home"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:companies.pixellpay.name and pixellpay.json:title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:companies.pixellpay.link and pixellpay.json:hero.cta"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.items.security.description and pixellpay.json:features.security.description"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:hero.stats.support and pixellpay.json:features.support.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:footer.legal.privacy and privacy.json:title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in about.json:hero.title.middle and products.json:atm.title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:features.items.security.title and products.json:dmt.features.secure"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:hero.stats.coverage and products.json:dmt.features.panIndia"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in influencer.json:benefits.tracking and products.json:dmt.features.tracking"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:comparison.models.basic.support and products.json:packages.basic.features.2"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:comparison.models.professional.support and products.json:packages.silver.features.2"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in franchise.json:services.items.marketing.title and products.json:packages.silver.features.3"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:footer.legal.refund and refund.json:title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in privacy.json:lastUpdated and refund.json:lastUpdated"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in home.json:hero.cta.primary and startAtm.json:title"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in common.json:footer.quickLinks.getStarted and startAtm.json:hero.cta"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in privacy.json:lastUpdated and terms.json:lastUpdated"
+      },
+      {
+        "test": "Duplicate Values",
+        "issue": "Same translation value in privacy.json:sections.contact and terms.json:sections.contact"
+      }
+    ],
+    "critical": [
+      {
+        "test": "Translation Quality",
+        "file": "hi/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "hi/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "bn/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "bn/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "ta/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "ta/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "te/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "te/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "mr/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "mr/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "gu/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "gu/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "kn/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "kn/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "ml/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "ml/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "as/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "as/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "or/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "or/contact.json",
+        "issue": "70% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "pa/about.json",
+        "issue": "80% strings appear to be in English"
+      },
+      {
+        "test": "Translation Quality",
+        "file": "pa/contact.json",
+        "issue": "70% strings appear to be in English"
+      }
+    ]
+  }
+}

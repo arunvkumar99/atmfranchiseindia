@@ -123,7 +123,7 @@ const GetStarted = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Start Your
-            <span className="bg-gradient-hero bg-clip-text text-transparent"> ATM Business </span>
+            <span className="bg-gradient-hero bg-clip-text text-transparent">{t('jsx-text_atm_business')}</span>
             Today
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -137,7 +137,7 @@ const GetStarted = () => {
           <div>
             <Card className="bg-gradient-card border-0 shadow-professional animate-slide-in-left">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold text-foreground mb-6">Get Free Consultation</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-6">{t('jsx-text_get_free_consultation')}</h3>
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -199,7 +199,7 @@ const GetStarted = () => {
                         name="location"
                         value={formData.location}
                         onChange={handleChange}
-                        placeholder="City, State"
+                        placeholder={t('prop-string_city_state')}
                         required
                         className="border-border focus:border-primary"
                       />
@@ -216,11 +216,11 @@ const GetStarted = () => {
                         onChange={handleChange}
                         className="w-full p-3 border border-border rounded-md focus:border-primary focus:outline-none bg-background text-foreground"
                       >
-                        <option value="">Select Range</option>
-                        <option value="2-3-lakhs">₹2-3 Lakhs</option>
-                        <option value="3-4-lakhs">₹3-4 Lakhs</option>
-                        <option value="4-5-lakhs">₹4-5 Lakhs</option>
-                        <option value="5-plus-lakhs">₹5+ Lakhs</option>
+                        <option value="">{t('jsx-text_select_range')}</option>
+                        <option value={t('prop-string_23lakhs')}>{t('jsx-text_23_lakhs')}</option>
+                        <option value={t('prop-string_34lakhs')}>{t('jsx-text_34_lakhs')}</option>
+                        <option value={t('prop-string_45lakhs')}>{t('jsx-text_45_lakhs')}</option>
+                        <option value={t('prop-string_5pluslakhs')}>{t('jsx-text_5_lakhs')}</option>
                       </select>
                     </div>
                   </div>
@@ -234,30 +234,28 @@ const GetStarted = () => {
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Tell us about your business goals, timeline, or any specific questions..."
+                      placeholder={t('prop-string_tell_us_about_your_business_goals_timeli')}
                       rows={4}
                       className="border-border focus:border-primary"
                     />
                   </div>
                   
-                  <Button type="submit" size="lg" className="w-full bg-gradient-hero text-primary-foreground shadow-professional">
-                    Get Free Consultation
-                    <ArrowRight className="w-5 h-5 ml-2" />
+                  <Button type="submit" size="lg" className="w-full bg-gradient-hero text-primary-foreground shadow-professional">{t('jsx-text_get_free_consultation')}<ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </form>
                 
                 <div className="mt-6 flex items-center justify-center space-x-6 text-sm text-muted-foreground">
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-secondary" />
-                    <span>100% Free</span>
+                    <span>{t('jsx-text_100_free')}</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-secondary" />
-                    <span>No Obligations</span>
+                    <span>{t('jsx-text_no_obligations')}</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-secondary" />
-                    <span>Expert Guidance</span>
+                    <span>{t('jsx-text_expert_guidance')}</span>
                   </div>
                 </div>
               </CardContent>
@@ -270,13 +268,13 @@ const GetStarted = () => {
               <div className="relative overflow-hidden rounded-2xl shadow-lg">
                 <img
                   src={familyBusiness}
-                  alt="Rural Family ATM Business"
+                  alt={t('prop-string_rural_family_atm_business')}
                   className="w-full h-48 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
                   <div className="p-4 text-white">
-                    <h4 className="text-lg font-bold mb-1">Family Business Success</h4>
-                    <p className="text-sm opacity-90">Building generational wealth</p>
+                    <h4 className="text-lg font-bold mb-1">{t('jsx-text_family_business_success')}</h4>
+                    <p className="text-sm opacity-90">{t('jsx-text_building_generational_wealth')}</p>
                   </div>
                 </div>
               </div>
@@ -284,20 +282,20 @@ const GetStarted = () => {
               <div className="relative overflow-hidden rounded-2xl shadow-lg">
                 <img
                   src={successfulBusinessman}
-                  alt="Successful ATM Franchise Owner"
+                  alt={t('prop-string_successful_atm_franchise_owner')}
                   className="w-full h-48 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
                   <div className="p-4 text-white">
-                    <h4 className="text-lg font-bold mb-1">Individual Success</h4>
-                    <p className="text-sm opacity-90">Your entrepreneurial journey</p>
+                    <h4 className="text-lg font-bold mb-1">{t('jsx-text_individual_success')}</h4>
+                    <p className="text-sm opacity-90">{t('jsx-text_your_entrepreneurial_journey')}</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-foreground mb-6">Simple 5-Step Process</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-6">{t('jsx-text_simple_5step_process')}</h3>
               <div className="space-y-4">
                 {processSteps.map((step, index) => (
                   <div key={index} className="flex items-start space-x-4">
@@ -322,9 +320,9 @@ const GetStarted = () => {
               <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-6 h-6 text-primary-foreground" />
               </div>
-              <h4 className="font-semibold text-foreground mb-2">Call Us</h4>
-              <p className="text-muted-foreground text-sm mb-2">Speak with our experts</p>
-              <p className="font-medium text-primary">+91 9072380076</p>
+              <h4 className="font-semibold text-foreground mb-2">{t('jsx-text_call_us')}</h4>
+              <p className="text-muted-foreground text-sm mb-2">{t('jsx-text_speak_with_our_experts')}</p>
+              <p className="font-medium text-primary">{t('jsx-text_91_9072380076')}</p>
             </CardContent>
           </Card>
           
@@ -333,9 +331,9 @@ const GetStarted = () => {
               <div className="w-12 h-12 bg-gradient-success rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-6 h-6 text-secondary-foreground" />
               </div>
-              <h4 className="font-semibold text-foreground mb-2">Email Us</h4>
-              <p className="text-muted-foreground text-sm mb-2">Get detailed information</p>
-              <p className="font-medium text-primary">atmfranchise@pixellpay.com</p>
+              <h4 className="font-semibold text-foreground mb-2">{t('jsx-text_email_us')}</h4>
+              <p className="text-muted-foreground text-sm mb-2">{t('jsx-text_get_detailed_information')}</p>
+              <p className="font-medium text-primary">{t('jsx-text_atmfranchisepixellpaycom')}</p>
             </CardContent>
           </Card>
           
@@ -344,8 +342,8 @@ const GetStarted = () => {
               <div className="w-12 h-12 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-6 h-6 text-accent-foreground" />
               </div>
-              <h4 className="font-semibold text-foreground mb-2">Visit Office</h4>
-              <p className="text-muted-foreground text-sm mb-2">Meet our team</p>
+              <h4 className="font-semibold text-foreground mb-2">{t('jsx-text_visit_office')}</h4>
+              <p className="text-muted-foreground text-sm mb-2">{t('jsx-text_meet_our_team')}</p>
               <p className="font-medium text-primary">{t('testimonials.items.priya.location', 'Bangalore, Karnataka')}</p>
             </CardContent>
           </Card>

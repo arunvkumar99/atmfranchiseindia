@@ -1,4 +1,10 @@
 {
+  "content": {
+    "become_an": "Become an",
+    "partner": "Partner",
+    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "simple_4step_process": "Simple 4-Step Process"
+  },
   "hero": {
     "badge": "విశ్వసనీయ ATM ఫ్రాంచైజ్ భాగస్వామి",
     "title": {
@@ -154,10 +160,10 @@
         "roi": "వార్షికంగా 15-18%",
         "support": "ప్రామాణిక మద్దతు",
         "features": {
-          "0": "ఒకే స్థాన సెటప్",
-          "1": "ప్రాథమిక శిక్షణా కార్యక్రమం",
-          "2": "నెలవారీ నిర్వహణ",
-          "3": "ప్రాంతీయ మద్దతు బృందం"
+          "0": "Single location setup",
+          "1": "Basic training program",
+          "2": "Monthly maintenance",
+          "3": "Regional support team"
         }
       },
       "professional": {
@@ -167,11 +173,11 @@
         "roi": "18-22% వార్షికం",
         "support": "ప్రాధాన్యత మద్దతు",
         "features": {
-          "0": "బహుళ స్థాన సెటప్",
-          "1": "అధునాతన శిక్షణ కార్యక్రమం",
-          "2": "రెండు వారాలకు ఒకసారి నిర్వహణ",
-          "3": "అంకితమైన ఖాతా మేనేజర్",
-          "4": "మార్కెటింగ్ మద్దతు"
+          "0": "Multiple location setup",
+          "1": "Advanced training program",
+          "2": "Bi-weekly maintenance",
+          "3": "Dedicated account manager",
+          "4": "Marketing support"
         },
         "popular": true
       },
@@ -182,12 +188,12 @@
         "roi": "22-25% వార్షికం",
         "support": "ప్రీమియం మద్దతు",
         "features": {
-          "0": "అపరిమిత స్థానాలు",
-          "1": "కార్యనిర్వాహక శిక్షణ కార్యక్రమం",
-          "2": "వారపు నిర్వహణ",
-          "3": "వ్యక్తిగత సంబంధాల నిర్వాహకుడు",
-          "4": "పూర్తి మార్కెటింగ్ ప్యాకేజీ",
-          "5": "ప్రాధాన్యతా నియామకం"
+          "0": "Unlimited locations",
+          "1": "Executive training program",
+          "2": "Weekly maintenance",
+          "3": "Personal relationship manager",
+          "4": "Complete marketing package",
+          "5": "Priority placement"
         }
       }
     },

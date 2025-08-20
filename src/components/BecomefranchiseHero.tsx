@@ -92,9 +92,9 @@ const BecomefranchiseHero = () => {
               
               {/* Description */}
               <p className="text-xl md:text-2xl mb-3xl text-primary-foreground/80 leading-relaxed">
-                Join <span className="text-primary font-semibold">200+ successful partners</span> and start your 
-                <span className="text-accent font-semibold"> profitable ATM business</span> today with 
-                <span className="text-info font-semibold"> minimal investment</span>.
+                Join <span className="text-primary font-semibold">{t('jsx-text_200_successful_partners')}</span> and start your 
+                <span className="text-accent font-semibold">{t('jsx-text_profitable_atm_business')}</span> today with 
+                <span className="text-info font-semibold">{t('jsx-text_minimal_investment')}</span>.
               </p>
               
               {/* CTA Button */}

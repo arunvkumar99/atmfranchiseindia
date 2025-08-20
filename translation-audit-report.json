@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-08-19T17:13:00.922Z",
+  "timestamp": "2025-08-20T01:49:53.374Z",
   "summary": {
-    "averageCompletion": 89,
+    "averageCompletion": 82,
     "languages": {
       "hi": {
-        "percentage": 91,
-        "totalStrings": 824,
-        "translatedStrings": 746
+        "percentage": 80,
+        "totalStrings": 887,
+        "translatedStrings": 714
       },
       "bn": {
-        "percentage": 90,
-        "totalStrings": 824,
-        "translatedStrings": 740
+        "percentage": 80,
+        "totalStrings": 887,
+        "translatedStrings": 707
       },
       "ta": {
         "percentage": 89,
@@ -24,14 +24,14 @@
         "translatedStrings": 736
       },
       "mr": {
-        "percentage": 88,
-        "totalStrings": 824,
-        "translatedStrings": 726
+        "percentage": 78,
+        "totalStrings": 887,
+        "translatedStrings": 692
       },
       "gu": {
-        "percentage": 88,
-        "totalStrings": 824,
-        "translatedStrings": 725
+        "percentage": 78,
+        "totalStrings": 887,
+        "translatedStrings": 692
       },
       "ur": {
         "percentage": 87,
@@ -39,14 +39,14 @@
         "translatedStrings": 720
       },
       "kn": {
-        "percentage": 88,
-        "totalStrings": 824,
-        "translatedStrings": 721
+        "percentage": 78,
+        "totalStrings": 887,
+        "translatedStrings": 689
       },
       "or": {
-        "percentage": 88,
-        "totalStrings": 824,
-        "translatedStrings": 725
+        "percentage": 78,
+        "totalStrings": 887,
+        "translatedStrings": 691
       },
       "pa": {
         "percentage": 88,
@@ -54,14 +54,14 @@
         "translatedStrings": 721
       },
       "as": {
-        "percentage": 88,
-        "totalStrings": 824,
-        "translatedStrings": 725
+        "percentage": 78,
+        "totalStrings": 887,
+        "translatedStrings": 691
       },
       "ml": {
-        "percentage": 88,
-        "totalStrings": 824,
-        "translatedStrings": 721
+        "percentage": 78,
+        "totalStrings": 887,
+        "translatedStrings": 689
       }
     },
     "files": {
@@ -122,18 +122,18 @@
         "ml": 100
       },
       "common.json": {
-        "hi": 93,
-        "bn": 96,
+        "hi": 60,
+        "bn": 62,
         "ta": 96,
         "te": 96,
-        "mr": 96,
-        "gu": 96,
+        "mr": 62,
+        "gu": 62,
         "ur": 95,
-        "kn": 96,
-        "or": 96,
+        "kn": 62,
+        "or": 62,
         "pa": 96,
-        "as": 96,
-        "ml": 96
+        "as": 62,
+        "ml": 62
       },
       "contact.json": {
         "hi": 20,
@@ -150,18 +150,18 @@
         "ml": 20
       },
       "forms.json": {
-        "hi": 92,
-        "bn": 94,
+        "hi": 58,
+        "bn": 58,
         "ta": 93,
         "te": 93,
-        "mr": 95,
-        "gu": 94,
+        "mr": 58,
+        "gu": 58,
         "ur": 93,
-        "kn": 93,
-        "or": 95,
+        "kn": 58,
+        "or": 58,
         "pa": 93,
-        "as": 95,
-        "ml": 93
+        "as": 58,
+        "ml": 58
       },
       "franchise.json": {
         "hi": 100,
@@ -388,18 +388,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 100,
-        "englishCount": 7,
+        "totalStrings": 138,
+        "translatedCount": 83,
+        "englishCount": 55,
         "emptyCount": 0,
-        "percentage": 93,
-        "hasNativeScript": 100,
+        "percentage": 60,
+        "hasNativeScript": 83,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing",
-          "social.linkedin"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -422,36 +422,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 90,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 75,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 92,
-        "hasNativeScript": 90,
+        "percentage": 58,
+        "hasNativeScript": 75,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
             "path": "fields.newsletter",
             "english": "Subscribe to newsletter",
-            "translated": "example@email.com",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
             "path": "fields.captcha",
             "english": "Enter captcha",
-            "translated": "+91 98765 43210",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]
@@ -661,17 +661,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
-        "englishCount": 4,
+        "totalStrings": 138,
+        "translatedCount": 86,
+        "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 62,
+        "hasNativeScript": 86,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -694,36 +695,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 92,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 76,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 94,
-        "hasNativeScript": 92,
+        "percentage": 58,
+        "hasNativeScript": 76,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
             "path": "fields.newsletter",
             "english": "Subscribe to newsletter",
-            "translated": "example@email.com",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "validation.emailInvalid",
-            "english": "Please enter a valid email address",
-            "translated": "{{field}} must be at least {{min}} characters",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]
@@ -931,17 +932,37 @@
         "fileName": "common.json",
         "totalStrings": 107,
         "translatedCount": 103,
-        "englishCount": 4,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 96,
         "hasNativeScript": 103,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "social.whatsapp",
+          "status.loading",
+          "status.success",
+          "status.error",
+          "status.warning"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "forms.invalidPhone",
+            "english": "Please enter a valid phone number",
+            "translated": "Minimum {{count}} characters required",
+            "issue": "No native script"
+          },
+          {
+            "path": "forms.minLength",
+            "english": "Minimum {{count}} characters required",
+            "translated": "Maximum {{count}} characters allowed",
+            "issue": "No native script"
+          },
+          {
+            "path": "search.noResults",
+            "english": "No results found",
+            "translated": "{{count}} results found",
+            "issue": "No native script"
+          }
+        ]
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -969,11 +990,11 @@
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "options.hearAbout.newspaper",
+          "options.hearAbout.other",
+          "options.businessType.retail",
+          "options.businessType.service",
+          "options.businessType.grocery"
         ],
         "suspiciousTranslations": [
           {
@@ -1203,17 +1224,37 @@
         "fileName": "common.json",
         "totalStrings": 107,
         "translatedCount": 103,
-        "englishCount": 4,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 96,
         "hasNativeScript": 103,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "social.whatsapp",
+          "status.loading",
+          "status.success",
+          "status.error",
+          "status.warning"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "forms.invalidPhone",
+            "english": "Please enter a valid phone number",
+            "translated": "Minimum {{count}} characters required",
+            "issue": "No native script"
+          },
+          {
+            "path": "forms.minLength",
+            "english": "Minimum {{count}} characters required",
+            "translated": "Maximum {{count}} characters allowed",
+            "issue": "No native script"
+          },
+          {
+            "path": "search.noResults",
+            "english": "No results found",
+            "translated": "{{count}} results found",
+            "issue": "No native script"
+          }
+        ]
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -1241,11 +1282,11 @@
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "options.hearAbout.newspaper",
+          "options.hearAbout.other",
+          "options.businessType.retail",
+          "options.businessType.service",
+          "options.businessType.grocery"
         ],
         "suspiciousTranslations": [
           {
@@ -1473,17 +1514,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
-        "englishCount": 4,
+        "totalStrings": 138,
+        "translatedCount": 86,
+        "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 62,
+        "hasNativeScript": 86,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -1506,36 +1548,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 93,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 76,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 95,
-        "hasNativeScript": 93,
+        "percentage": 58,
+        "hasNativeScript": 76,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
-            "path": "validation.emailInvalid",
-            "english": "Please enter a valid email address",
-            "translated": "{{field}} must be at least {{min}} characters",
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "validation.phoneInvalid",
-            "english": "Please enter a valid 10-digit phone number",
-            "translated": "{{field}} must not exceed {{max}} characters",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]
@@ -1760,17 +1802,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
-        "englishCount": 4,
+        "totalStrings": 138,
+        "translatedCount": 86,
+        "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 62,
+        "hasNativeScript": 86,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -1793,36 +1836,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 92,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 76,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 94,
-        "hasNativeScript": 92,
+        "percentage": 58,
+        "hasNativeScript": 76,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
             "path": "fields.newsletter",
             "english": "Subscribe to newsletter",
-            "translated": "example@email.com",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "validation.emailInvalid",
-            "english": "Please enter a valid email address",
-            "translated": "{{field}} must be at least {{min}} characters",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]
@@ -2049,18 +2092,37 @@
         "fileName": "common.json",
         "totalStrings": 107,
         "translatedCount": 102,
-        "englishCount": 5,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 95,
         "hasNativeScript": 102,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing",
-          "social.linkedin"
+          "social.whatsapp",
+          "status.loading",
+          "status.success",
+          "status.error",
+          "status.warning"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "forms.invalidPhone",
+            "english": "Please enter a valid phone number",
+            "translated": "Minimum {{count}} characters required",
+            "issue": "No native script"
+          },
+          {
+            "path": "forms.minLength",
+            "english": "Minimum {{count}} characters required",
+            "translated": "Maximum {{count}} characters allowed",
+            "issue": "No native script"
+          },
+          {
+            "path": "search.noResults",
+            "english": "No results found",
+            "translated": "{{count}} results found",
+            "issue": "No native script"
+          }
+        ]
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -2088,11 +2150,11 @@
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "options.hearAbout.newspaper",
+          "options.hearAbout.other",
+          "options.businessType.retail",
+          "options.businessType.service",
+          "options.businessType.grocery"
         ],
         "suspiciousTranslations": [
           {
@@ -2339,17 +2401,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
-        "englishCount": 4,
+        "totalStrings": 138,
+        "translatedCount": 86,
+        "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 62,
+        "hasNativeScript": 86,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -2372,36 +2435,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 91,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 76,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 93,
-        "hasNativeScript": 91,
+        "percentage": 58,
+        "hasNativeScript": 76,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
             "path": "fields.newsletter",
             "english": "Subscribe to newsletter",
-            "translated": "example@email.com",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
             "path": "fields.captcha",
             "english": "Enter captcha",
-            "translated": "+91 98765 43210",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]
@@ -2630,17 +2693,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
-        "englishCount": 4,
+        "totalStrings": 138,
+        "translatedCount": 86,
+        "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 62,
+        "hasNativeScript": 86,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -2663,36 +2727,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 93,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 76,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 95,
-        "hasNativeScript": 93,
+        "percentage": 58,
+        "hasNativeScript": 76,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
-            "path": "validation.emailInvalid",
-            "english": "Please enter a valid email address",
-            "translated": "{{field}} must be at least {{min}} characters",
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "validation.phoneInvalid",
-            "english": "Please enter a valid 10-digit phone number",
-            "translated": "{{field}} must not exceed {{max}} characters",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]
@@ -2919,17 +2983,37 @@
         "fileName": "common.json",
         "totalStrings": 107,
         "translatedCount": 103,
-        "englishCount": 4,
+        "englishCount": 0,
         "emptyCount": 0,
         "percentage": 96,
         "hasNativeScript": 103,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "social.whatsapp",
+          "status.loading",
+          "status.success",
+          "status.error",
+          "status.warning"
         ],
-        "suspiciousTranslations": []
+        "suspiciousTranslations": [
+          {
+            "path": "forms.invalidPhone",
+            "english": "Please enter a valid phone number",
+            "translated": "Minimum {{count}} characters required",
+            "issue": "No native script"
+          },
+          {
+            "path": "forms.minLength",
+            "english": "Minimum {{count}} characters required",
+            "translated": "Maximum {{count}} characters allowed",
+            "issue": "No native script"
+          },
+          {
+            "path": "search.noResults",
+            "english": "No results found",
+            "translated": "{{count}} results found",
+            "issue": "No native script"
+          }
+        ]
       },
       "contact.json": {
         "fileName": "contact.json",
@@ -2957,11 +3041,11 @@
         "percentage": 93,
         "hasNativeScript": 91,
         "untranslatedPaths": [
-          "contactForm.subtitle",
-          "contactForm.success",
-          "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "options.hearAbout.newspaper",
+          "options.hearAbout.other",
+          "options.businessType.retail",
+          "options.businessType.service",
+          "options.businessType.grocery"
         ],
         "suspiciousTranslations": [
           {
@@ -3208,17 +3292,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
-        "englishCount": 4,
+        "totalStrings": 138,
+        "translatedCount": 86,
+        "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 62,
+        "hasNativeScript": 86,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -3241,36 +3326,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 93,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 76,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 95,
-        "hasNativeScript": 93,
+        "percentage": 58,
+        "hasNativeScript": 76,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "fields.newsletter",
+            "english": "Subscribe to newsletter",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
-            "path": "validation.emailInvalid",
-            "english": "Please enter a valid email address",
-            "translated": "{{field}} must be at least {{min}} characters",
+            "path": "fields.captcha",
+            "english": "Enter captcha",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "validation.phoneInvalid",
-            "english": "Please enter a valid 10-digit phone number",
-            "translated": "{{field}} must not exceed {{max}} characters",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]
@@ -3495,17 +3580,18 @@
       },
       "common.json": {
         "fileName": "common.json",
-        "totalStrings": 107,
-        "translatedCount": 103,
-        "englishCount": 4,
+        "totalStrings": 138,
+        "translatedCount": 86,
+        "englishCount": 52,
         "emptyCount": 0,
-        "percentage": 96,
-        "hasNativeScript": 103,
+        "percentage": 62,
+        "hasNativeScript": 86,
         "untranslatedPaths": [
-          "forms.minLength",
-          "forms.maxLength",
-          "search.results",
-          "pagination.showing"
+          "buttons.submit",
+          "buttons.save",
+          "buttons.cancel",
+          "buttons.next",
+          "buttons.previous"
         ],
         "suspiciousTranslations": []
       },
@@ -3528,36 +3614,36 @@
       },
       "forms.json": {
         "fileName": "forms.json",
-        "totalStrings": 98,
-        "translatedCount": 91,
-        "englishCount": 0,
+        "totalStrings": 130,
+        "translatedCount": 76,
+        "englishCount": 1,
         "emptyCount": 0,
-        "percentage": 93,
-        "hasNativeScript": 91,
+        "percentage": 58,
+        "hasNativeScript": 76,
         "untranslatedPaths": [
+          "options.businessType.other",
           "contactForm.subtitle",
           "contactForm.success",
           "contactForm.error",
-          "joinUs.title.main",
-          "joinUs.title.highlight"
+          "joinUs.title.main"
         ],
         "suspiciousTranslations": [
           {
             "path": "fields.newsletter",
             "english": "Subscribe to newsletter",
-            "translated": "example@email.com",
+            "translated": "Enter your email address",
             "issue": "No native script"
           },
           {
             "path": "fields.captcha",
             "english": "Enter captcha",
-            "translated": "+91 98765 43210",
+            "translated": "10-digit mobile number",
             "issue": "No native script"
           },
           {
-            "path": "placeholders.selectOption",
-            "english": "Select an option",
-            "translated": "{{field}} is required",
+            "path": "placeholders.fullName",
+            "english": "Enter your full name",
+            "translated": "Type your message here...",
             "issue": "No native script"
           }
         ]

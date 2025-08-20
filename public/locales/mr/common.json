@@ -180,5 +180,16 @@
     "next": "Next",
     "previous": "Previous",
     "menu": "Menu"
-  }
+  },
+  "error": "[MR] An error occurred",
+  "success": "[MR] Success",
+  "submit": "[MR] Submit",
+  "cancel": "[MR] Cancel",
+  "save": "[MR] Save",
+  "delete": "[MR] Delete",
+  "edit": "[MR] Edit",
+  "next": "[MR] Next",
+  "previous": "[MR] Previous",
+  "close": "[MR] Close",
+  "confirm": "[MR] Confirm"
 }

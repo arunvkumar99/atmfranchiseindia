@@ -1,4 +1,10 @@
 {
+  "content": {
+    "become_an": "Become an",
+    "partner": "Partner",
+    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "simple_4step_process": "Simple 4-Step Process"
+  },
   "hero": {
     "badge": "বিশ্বস্ত এটিএম ফ্র্যাঞ্চাইজি পার্টনার",
     "title": {
@@ -154,10 +160,10 @@
         "roi": "১৫-১৮% বার্ষিক",
         "support": "স্ট্যান্ডার্ড সাপোর্ট",
         "features": {
-          "0": "একক অবস্থান সেটআপ",
-          "1": "মৌলিক প্রশিক্ষণ কর্মসূচি",
-          "2": "মাসিক রক্ষণাবেক্ষণ",
-          "3": "আঞ্চলিক সহায়তা দল"
+          "0": "Single location setup",
+          "1": "Basic training program",
+          "2": "Monthly maintenance",
+          "3": "Regional support team"
         }
       },
       "professional": {
@@ -167,11 +173,11 @@
         "roi": "১৮-২২% বার্ষিক",
         "support": "অগ্রাধিকার সহায়তা",
         "features": {
-          "0": "একাধিক অবস্থান সেটআপ",
-          "1": "উন্নত প্রশিক্ষণ প্রোগ্রাম",
-          "2": "দ্বি-সাপ্তাহিক রক্ষণাবেক্ষণ",
-          "3": "নিবেদিতপ্রাণ অ্যাকাউন্ট ম্যানেজার",
-          "4": "মার্কেটিং সাপোর্ট"
+          "0": "Multiple location setup",
+          "1": "Advanced training program",
+          "2": "Bi-weekly maintenance",
+          "3": "Dedicated account manager",
+          "4": "Marketing support"
         },
         "popular": true
       },
@@ -182,12 +188,12 @@
         "roi": "২২-২৫% বার্ষিক",
         "support": "প্রিমিয়াম সাপোর্ট",
         "features": {
-          "0": "সীমাহীন অবস্থান",
-          "1": "এক্সিকিউটিভ প্রশিক্ষণ প্রোগ্রাম",
-          "2": "সাপ্তাহিক রক্ষণাবেক্ষণ",
-          "3": "ব্যক্তিগত সম্পর্ক ব্যবস্থাপক",
-          "4": "সম্পূর্ণ মার্কেটিং প্যাকেজ",
-          "5": "অগ্রাধিকার স্থান নির্ধারণ"
+          "0": "Unlimited locations",
+          "1": "Executive training program",
+          "2": "Weekly maintenance",
+          "3": "Personal relationship manager",
+          "4": "Complete marketing package",
+          "5": "Priority placement"
         }
       }
     },

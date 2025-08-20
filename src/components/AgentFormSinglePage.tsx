@@ -560,7 +560,7 @@ export function AgentFormSinglePage() {
                 {/* Personal Information Section */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">{t("sections.personal")}/h3>
+                    <h3 className="text-xl font-semibold text-foreground">{t("sections.personal")}</h3>
                     <p className="text-sm text-muted-foreground mt-1">Tell us about yourself and provide your basic details</p>
                   </div>
 

@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-08-20T01:58:12.969Z",
+  "author": "Priya - i18n Specialist",
+  "translationMappings": [
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "labels.onetime_cost",
+      "value": "One-Time Cost",
+      "namespace": "common"
+    },
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "labels.refundable_deposit",
+      "value": "Refundable Deposit",
+      "namespace": "common"
+    },
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "labels.clf_working_capital",
+      "value": "CLF (Working Capital)",
+      "namespace": "common"
+    },
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "labels.cash_transaction",
+      "value": "Cash Transaction",
+      "namespace": "common"
+    },
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "labels.noncash_transaction",
+      "value": "Non-Cash Transaction",
+      "namespace": "common"
+    },
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "labels.ad_revenue_share",
+      "value": "Ad Revenue Share",
+      "namespace": "common"
+    },
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "messages.choose_the_franchise_model_that_best_fits_your_inv",
+      "value": "Choose the franchise model that best fits your investment capacity and business goals",
+      "namespace": "common"
+    },
+    {
+      "component": "FranchiseModelsComparison.tsx",
+      "key": "messages.get_detailed_information_and_start_your_franchise_",
+      "value": "Get detailed information and start your franchise application",
+      "namespace": "common"
+    },
+    {
+      "component": "WLAOperators.tsx",
+      "key": "messages.partner_with_trusted_and_rbi_licensed_white_label_",
+      "value": "Partner with trusted and RBI licensed White Label ATM operators",
+      "namespace": "common"
+    }
+  ],
+  "updatedFiles": [
+    "FranchiseModelsComparison.tsx",
+    "WLAOperators.tsx"
+  ],
+  "totalMappings": 9
+}

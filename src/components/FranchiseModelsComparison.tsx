@@ -127,9 +127,7 @@ const FranchiseModelsComparison = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
             Franchise Models Comparison
           </h2>
-          <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Choose the franchise model that best fits your investment capacity and business goals
-          </p>
+          <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">{t('messages.choose_the_franchise_model_that_best_fits_your_inv')}</p>
         </div>
         
         <div className="max-w-4xl mx-auto space-y-8">
@@ -201,15 +199,15 @@ const FranchiseModelsComparison = () => {
                   </h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                      <span className="font-medium">One-Time Cost</span>
+                      <span className="font-medium">{t('labels.onetime_cost')}</span>
                       <span className="font-bold text-primary">{selectedModelData.details.oneTimeCost}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                      <span className="font-medium">Refundable Deposit</span>
+                      <span className="font-medium">{t('labels.refundable_deposit')}</span>
                       <span className="font-bold text-primary">{selectedModelData.details.refundableDeposit}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                      <span className="font-medium">CLF (Working Capital)</span>
+                      <span className="font-medium">{t('labels.clf_working_capital')}</span>
                       <span className="font-bold text-primary">{selectedModelData.details.clf}</span>
                     </div>
                   </div>
@@ -223,15 +221,15 @@ const FranchiseModelsComparison = () => {
                   </h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                      <span className="font-medium">Cash Transaction</span>
+                      <span className="font-medium">{t('labels.cash_transaction')}</span>
                       <span className="font-bold text-green-600">{selectedModelData.details.cashTxnIncome}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                      <span className="font-medium">Non-Cash Transaction</span>
+                      <span className="font-medium">{t('labels.noncash_transaction')}</span>
                       <span className="font-bold text-green-600">{selectedModelData.details.nonCashTxnIncome}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                      <span className="font-medium">Ad Revenue Share</span>
+                      <span className="font-medium">{t('labels.ad_revenue_share')}</span>
                       <span className="font-bold text-green-600">{selectedModelData.details.adRevenue}</span>
                     </div>
                   </div>
@@ -257,9 +255,7 @@ const FranchiseModelsComparison = () => {
               {/* Call to Action */}
               <div className="mt-8 p-6 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg text-center">
                 <h5 className="text-lg font-semibold mb-2">Interested in {selectedModelData.name}?</h5>
-                <p className="text-muted-foreground mb-4">
-                  Get detailed information and start your franchise application
-                </p>
+                <p className="text-muted-foreground mb-4">{t('messages.get_detailed_information_and_start_your_franchise_')}</p>
                 <Button className="bg-primary hover:bg-primary/90">
                   Get Started with {selectedModelData.name}
                 </Button>

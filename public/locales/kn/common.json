@@ -180,5 +180,16 @@
     "next": "Next",
     "previous": "Previous",
     "menu": "Menu"
-  }
+  },
+  "error": "[KN] An error occurred",
+  "success": "[KN] Success",
+  "submit": "[KN] Submit",
+  "cancel": "[KN] Cancel",
+  "save": "[KN] Save",
+  "delete": "[KN] Delete",
+  "edit": "[KN] Edit",
+  "next": "[KN] Next",
+  "previous": "[KN] Previous",
+  "close": "[KN] Close",
+  "confirm": "[KN] Confirm"
 }

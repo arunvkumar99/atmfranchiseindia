@@ -141,5 +141,16 @@
     "instagram": "ఇన్స్టాగ్రామ్",
     "youtube": "యూట్యూబ్",
     "whatsapp": "వాట్సాప్"
-  }
+  },
+  "error": "[TE] An error occurred",
+  "success": "[TE] Success",
+  "submit": "[TE] Submit",
+  "cancel": "[TE] Cancel",
+  "save": "[TE] Save",
+  "delete": "[TE] Delete",
+  "edit": "[TE] Edit",
+  "next": "[TE] Next",
+  "previous": "[TE] Previous",
+  "close": "[TE] Close",
+  "confirm": "[TE] Confirm"
 }

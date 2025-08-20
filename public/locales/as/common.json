@@ -180,5 +180,16 @@
     "next": "Next",
     "previous": "Previous",
     "menu": "Menu"
-  }
+  },
+  "error": "[AS] An error occurred",
+  "success": "[AS] Success",
+  "submit": "[AS] Submit",
+  "cancel": "[AS] Cancel",
+  "save": "[AS] Save",
+  "delete": "[AS] Delete",
+  "edit": "[AS] Edit",
+  "next": "[AS] Next",
+  "previous": "[AS] Previous",
+  "close": "[AS] Close",
+  "confirm": "[AS] Confirm"
 }

@@ -180,5 +180,16 @@
     "next": "Next",
     "previous": "Previous",
     "menu": "Menu"
-  }
+  },
+  "error": "[ML] An error occurred",
+  "success": "[ML] Success",
+  "submit": "[ML] Submit",
+  "cancel": "[ML] Cancel",
+  "save": "[ML] Save",
+  "delete": "[ML] Delete",
+  "edit": "[ML] Edit",
+  "next": "[ML] Next",
+  "previous": "[ML] Previous",
+  "close": "[ML] Close",
+  "confirm": "[ML] Confirm"
 }

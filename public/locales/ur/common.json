@@ -141,5 +141,16 @@
     "instagram": "انسٹاگرام",
     "youtube": "یوٹیوب",
     "whatsapp": "واٹس ایپ"
-  }
+  },
+  "error": "[UR] An error occurred",
+  "success": "[UR] Success",
+  "submit": "[UR] Submit",
+  "cancel": "[UR] Cancel",
+  "save": "[UR] Save",
+  "delete": "[UR] Delete",
+  "edit": "[UR] Edit",
+  "next": "[UR] Next",
+  "previous": "[UR] Previous",
+  "close": "[UR] Close",
+  "confirm": "[UR] Confirm"
 }

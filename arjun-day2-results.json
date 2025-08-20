@@ -1,0 +1,470 @@
+{
+  "timestamp": "2025-08-20T01:57:53.558Z",
+  "author": "Arjun - Senior Frontend Developer",
+  "fixedStrings": [
+    {
+      "component": "BecomefranchiseHero.tsx",
+      "original": "200+ successful partners",
+      "key": "jsx-text_200_successful_partners",
+      "namespace": "home"
+    },
+    {
+      "component": "BecomefranchiseHero.tsx",
+      "original": "profitable ATM business",
+      "key": "jsx-text_profitable_atm_business",
+      "namespace": "home"
+    },
+    {
+      "component": "BecomefranchiseHero.tsx",
+      "original": "minimal investment",
+      "key": "jsx-text_minimal_investment",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Expert Location Analysis",
+      "key": "jsx-text_expert_location_analysis",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Trusted by 1000+ partners",
+      "key": "jsx-text_trusted_by_1000_partners",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "95%",
+      "key": "jsx-text_95",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Success Rate",
+      "key": "jsx-text_success_rate",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Free Expert Analysis",
+      "key": "jsx-text_free_expert_analysis",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Professional evaluation of your location's ATM potential at no cost",
+      "key": "jsx-text_professional_evaluation_of_your_location",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "ROI Projection",
+      "key": "jsx-text_roi_projection",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Detailed revenue forecasts and potential analysis reports",
+      "key": "jsx-text_detailed_revenue_forecasts_and_potential",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Quick Turnaround",
+      "key": "jsx-text_quick_turnaround",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Professional response and analysis within 24-48 hours",
+      "key": "jsx-text_professional_response_and_analysis_withi",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Why Location Analysis Matters",
+      "key": "jsx-text_why_location_analysis_matters",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "3-5x Higher Transactions",
+      "key": "jsx-text_35x_higher_transactions",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Strategic locations generate significantly more daily transactions than poorly chosen sites, ensuring better revenue streams.",
+      "key": "jsx-text_strategic_locations_generate_significant",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Predictable Revenue",
+      "key": "jsx-text_predictable_revenue",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Well-positioned ATMs ensure consistent monthly income and faster return on investment with reliable cash flow.",
+      "key": "jsx-text_wellpositioned_atms_ensure_consistent_mo",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Risk-Free Validation",
+      "key": "jsx-text_riskfree_validation",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Avoid costly mistakes by validating location viability before investing, saving thousands in potential losses.",
+      "key": "jsx-text_avoid_costly_mistakes_by_validating_loca",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Quick Submission",
+      "key": "jsx-text_quick_submission",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Submit Your Location",
+      "key": "jsx-text_submit_your_location",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Full Name",
+      "key": "jsx-text_full_name",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Phone Number",
+      "key": "jsx-text_phone_number",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Email Address",
+      "key": "jsx-text_email_address",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "State",
+      "key": "jsx-text_state",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Maharashtra",
+      "key": "jsx-text_maharashtra",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Karnataka",
+      "key": "jsx-text_karnataka",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Kerala",
+      "key": "jsx-text_kerala",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Tamil Nadu",
+      "key": "jsx-text_tamil_nadu",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Telangana",
+      "key": "jsx-text_telangana",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "City",
+      "key": "jsx-text_city",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Location Description",
+      "key": "jsx-text_location_description",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Trusted by 1000+ Partners",
+      "key": "jsx-text_trusted_by_1000_partners",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "— Rajesh Kumar, ATM Franchise Partner, Mumbai",
+      "key": "jsx-text__rajesh_kumar_atm_franchise_partner_mumb",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Need Help? Contact Us",
+      "key": "jsx-text_need_help_contact_us",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "+91 8089447171",
+      "key": "jsx-text_91_8089447171",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "pixellpay.co.in@gmail.com",
+      "key": "jsx-text_pixellpaycoingmailcom",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "ATM Location Success",
+      "key": "prop-string_atm_location_success",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Enter your email address",
+      "key": "prop-string_enter_your_email_address",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "maharashtra",
+      "key": "prop-string_maharashtra",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "karnataka",
+      "key": "prop-string_karnataka",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "kerala",
+      "key": "prop-string_kerala",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "tamil-nadu",
+      "key": "prop-string_tamilnadu",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "telangana",
+      "key": "prop-string_telangana",
+      "namespace": "home"
+    },
+    {
+      "component": "SubmitLocationHero.tsx",
+      "original": "Describe your proposed ATM location with details about footfall, nearby businesses, accessibility, and why you think it",
+      "key": "prop-string_describe_your_proposed_atm_location_with",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "ATM Business",
+      "key": "jsx-text_atm_business",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Get Free Consultation",
+      "key": "jsx-text_get_free_consultation",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Select Range",
+      "key": "jsx-text_select_range",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "₹2-3 Lakhs",
+      "key": "jsx-text_23_lakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "₹3-4 Lakhs",
+      "key": "jsx-text_34_lakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "₹4-5 Lakhs",
+      "key": "jsx-text_45_lakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "₹5+ Lakhs",
+      "key": "jsx-text_5_lakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "100% Free",
+      "key": "jsx-text_100_free",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "No Obligations",
+      "key": "jsx-text_no_obligations",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Expert Guidance",
+      "key": "jsx-text_expert_guidance",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Family Business Success",
+      "key": "jsx-text_family_business_success",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Building generational wealth",
+      "key": "jsx-text_building_generational_wealth",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Individual Success",
+      "key": "jsx-text_individual_success",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Your entrepreneurial journey",
+      "key": "jsx-text_your_entrepreneurial_journey",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Simple 5-Step Process",
+      "key": "jsx-text_simple_5step_process",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Call Us",
+      "key": "jsx-text_call_us",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Speak with our experts",
+      "key": "jsx-text_speak_with_our_experts",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "+91 9072380076",
+      "key": "jsx-text_91_9072380076",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Email Us",
+      "key": "jsx-text_email_us",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Get detailed information",
+      "key": "jsx-text_get_detailed_information",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "atmfranchise@pixellpay.com",
+      "key": "jsx-text_atmfranchisepixellpaycom",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Visit Office",
+      "key": "jsx-text_visit_office",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Meet our team",
+      "key": "jsx-text_meet_our_team",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "City, State",
+      "key": "prop-string_city_state",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "2-3-lakhs",
+      "key": "prop-string_23lakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "3-4-lakhs",
+      "key": "prop-string_34lakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "4-5-lakhs",
+      "key": "prop-string_45lakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "5-plus-lakhs",
+      "key": "prop-string_5pluslakhs",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Tell us about your business goals, timeline, or any specific questions...",
+      "key": "prop-string_tell_us_about_your_business_goals_timeli",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Rural Family ATM Business",
+      "key": "prop-string_rural_family_atm_business",
+      "namespace": "home"
+    },
+    {
+      "component": "GetStarted.tsx",
+      "original": "Successful ATM Franchise Owner",
+      "key": "prop-string_successful_atm_franchise_owner",
+      "namespace": "home"
+    }
+  ],
+  "errors": [],
+  "totalFixed": 77
+}

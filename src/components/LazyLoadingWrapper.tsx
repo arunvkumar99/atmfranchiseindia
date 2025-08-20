@@ -1,11 +1,12 @@
 import React, { Suspense } from 'react';
+import { useTranslation } from 'react-i18next';
 
 // Loading component for route transitions
 const PageLoader = () => (
   <div className="flex items-center justify-center min-h-[400px]">
     <div className="flex items-center space-x-2">
       <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
-      <span className="text-primary font-medium">Loading...</span>
+      <span className="text-primary font-medium">{t('loading')}</span>
     </div>
   </div>
 );

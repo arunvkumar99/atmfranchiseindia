@@ -1,4 +1,10 @@
 {
+  "content": {
+    "become_an": "Become an",
+    "partner": "Partner",
+    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "simple_4step_process": "Simple 4-Step Process"
+  },
   "hero": {
     "badge": "நம்பகமான ஏடிஎம் ஃபிரான்சைஸ் பார்ட்னர்",
     "title": {
@@ -154,10 +160,10 @@
         "roi": "ஆண்டுக்கு 15-18%",
         "support": "நிலையான ஆதரவு",
         "features": {
-          "0": "ஒற்றை இருப்பிட அமைப்பு",
-          "1": "அடிப்படை பயிற்சி திட்டம்",
-          "2": "மாதாந்திர பராமரிப்பு",
-          "3": "பிராந்திய ஆதரவு குழு"
+          "0": "Single location setup",
+          "1": "Basic training program",
+          "2": "Monthly maintenance",
+          "3": "Regional support team"
         }
       },
       "professional": {
@@ -167,11 +173,11 @@
         "roi": "18-22% ஆண்டுக்கு",
         "support": "முன்னுரிமை ஆதரவு",
         "features": {
-          "0": "பல இருப்பிட அமைப்பு",
-          "1": "மேம்பட்ட பயிற்சி திட்டம்",
-          "2": "இரு வார பராமரிப்பு",
-          "3": "பிரத்யேக கணக்கு மேலாளர்",
-          "4": "சந்தைப்படுத்தல் ஆதரவு"
+          "0": "Multiple location setup",
+          "1": "Advanced training program",
+          "2": "Bi-weekly maintenance",
+          "3": "Dedicated account manager",
+          "4": "Marketing support"
         },
         "popular": true
       },
@@ -182,12 +188,12 @@
         "roi": "22-25% ஆண்டுக்கு",
         "support": "பிரீமியம் ஆதரவு",
         "features": {
-          "0": "வரம்பற்ற இடங்கள்",
-          "1": "நிர்வாகப் பயிற்சித் திட்டம்",
-          "2": "வாராந்திர பராமரிப்பு",
-          "3": "தனிப்பட்ட உறவு மேலாளர்",
-          "4": "முழுமையான சந்தைப்படுத்தல் தொகுப்பு",
-          "5": "முன்னுரிமை இடம்"
+          "0": "Unlimited locations",
+          "1": "Executive training program",
+          "2": "Weekly maintenance",
+          "3": "Personal relationship manager",
+          "4": "Complete marketing package",
+          "5": "Priority placement"
         }
       }
     },

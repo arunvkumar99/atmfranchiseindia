@@ -180,5 +180,16 @@
     "next": "Next",
     "previous": "Previous",
     "menu": "Menu"
-  }
+  },
+  "error": "[HI] An error occurred",
+  "success": "[HI] Success",
+  "submit": "[HI] Submit",
+  "cancel": "[HI] Cancel",
+  "save": "[HI] Save",
+  "delete": "[HI] Delete",
+  "edit": "[HI] Edit",
+  "next": "[HI] Next",
+  "previous": "[HI] Previous",
+  "close": "[HI] Close",
+  "confirm": "[HI] Confirm"
 }

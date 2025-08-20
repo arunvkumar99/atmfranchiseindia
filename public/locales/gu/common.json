@@ -180,5 +180,16 @@
     "next": "Next",
     "previous": "Previous",
     "menu": "Menu"
-  }
+  },
+  "error": "[GU] An error occurred",
+  "success": "[GU] Success",
+  "submit": "[GU] Submit",
+  "cancel": "[GU] Cancel",
+  "save": "[GU] Save",
+  "delete": "[GU] Delete",
+  "edit": "[GU] Edit",
+  "next": "[GU] Next",
+  "previous": "[GU] Previous",
+  "close": "[GU] Close",
+  "confirm": "[GU] Confirm"
 }

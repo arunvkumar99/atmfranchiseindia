@@ -1,0 +1,445 @@
+{
+  "timestamp": "2025-08-20T01:59:06.953Z",
+  "author": "Sneha - UI/UX Developer",
+  "summary": {
+    "textOverflowRisks": 0,
+    "missingTranslations": 0,
+    "inconsistentLabels": 31,
+    "layoutBreaks": 13
+  },
+  "issues": {
+    "textOverflow": [],
+    "missingTranslations": [],
+    "inconsistentLabels": [
+      {
+        "term": "submit",
+        "language": "as",
+        "variations": [
+          "আবেদন জমা দিয়ক",
+          "এটিএমৰ স্থান জমা দিয়ক",
+          "Submit",
+          "সফলতাৰে প্ৰ-পত্ৰ জমা দিয়া হ'ল!",
+          "প্ৰ-পত্ৰ জমা দিয়াত ত্ৰুটি। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।",
+          "জমা দি আছে...",
+          "Please complete the security verification before submitting",
+          "অনুসন্ধান জমা দিয়ক",
+          "এতিয়াই পঞ্জীয়ন কৰক"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "bn",
+        "variations": [
+          "আবেদন জমা দিন",
+          "এটিএম লোকেশন জমা দিন",
+          "Submit",
+          "ফর্মটি সফলভাবে জমা দেওয়া হয়েছে!",
+          "ফর্ম জমা দেওয়ার সময় ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন।",
+          "জমা দেওয়া হচ্ছে...",
+          "Please complete the security verification before submitting",
+          "তদন্ত জমা দিন",
+          "এখনই নিবন্ধন করুন"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "en",
+        "variations": [
+          "Submit Application",
+          "Submit ATM Location",
+          "Submit",
+          "Form submitted successfully!",
+          "Error submitting form. Please try again.",
+          "Submitting...",
+          "Please complete the security verification before submitting",
+          "Submit Location for ATM Installation",
+          "Location submitted successfully! We'll contact you soon.",
+          "Error submitting location. Please try again.",
+          "Application submitted successfully! Our team will contact you within 48 hours.",
+          "Error submitting application. Please check all fields and try again.",
+          "Error submitting enquiry. Please try again.",
+          "Our team will review your application within 24-48 hours and contact you with next steps.",
+          "Submit detailed application",
+          "Application Submitted Successfully!",
+          "Application submitted successfully!",
+          "Error submitting application. Please try again.",
+          "Please review your information before submitting",
+          "Submit your franchise application online",
+          "Submit Enquiry",
+          "Submit required documents for verification",
+          "Register Now"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "gu",
+        "variations": [
+          "અરજી સબમિટ કરો",
+          "ATM સ્થાન સબમિટ કરો",
+          "Submit",
+          "ફોર્મ સફળતાપૂર્વક સબમિટ થયું!",
+          "ફોર્મ સબમિટ કરવામાં ભૂલ. કૃપા કરીને ફરી પ્રયાસ કરો.",
+          "સબમિટ કરી રહ્યું છે...",
+          "Please complete the security verification before submitting",
+          "પૂછપરછ સબમિટ કરો",
+          "અત્યારે નોંધાવો"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "hi",
+        "variations": [
+          "आवेदन जमा करो",
+          "एटीएम स्थान सबमिट करें",
+          "Submit",
+          "फॉर्म सफलतापूर्वक सबमिट किया गया!",
+          "फॉर्म सबमिट करने में त्रुटि, कृपया फिर से प्रयास करें।",
+          "सबमिट किया जा रहा है...",
+          "Please complete the security verification before submitting",
+          "पूछताछ सबमिट करें",
+          "अभी पंजीकरण करें"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "kn",
+        "variations": [
+          "ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
+          "ಎಟಿಎಂ ಸ್ಥಳವನ್ನು ಸಲ್ಲಿಸಿ",
+          "Submit",
+          "ಫಾರ್ಮ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ!",
+          "ಫಾರ್ಮ್ ಸಲ್ಲಿಸುವಲ್ಲಿ ದೋಷ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+          "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ...",
+          "Please complete the security verification before submitting",
+          "ವಿಚಾರಣೆ ಸಲ್ಲಿಸಿ",
+          "ಈಗಲೇ ನೋಂದಾಯಿಸಿ"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "ml",
+        "variations": [
+          "അപേക്ഷ സമർപ്പിക്കുക",
+          "എടിഎം ലൊക്കേഷൻ സമർപ്പിക്കുക",
+          "Submit",
+          "ഫോം വിജയകരമായി സമർപ്പിച്ചു!",
+          "ഫോം സമർപ്പിക്കുന്നതിൽ പിശക്. വീണ്ടും ശ്രമിക്കുക.",
+          "സമർപ്പിക്കുന്നു...",
+          "Please complete the security verification before submitting",
+          "അന്വേഷണം സമർപ്പിക്കുക",
+          "ഇപ്പോൾ രജിസ്റ്റർ ചെയ്യുക"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "mr",
+        "variations": [
+          "अर्ज सबमिट करा",
+          "एटीएम स्थान सबमिट करा",
+          "Submit",
+          "फॉर्म यशस्वीरित्या सबमिट झाला!",
+          "फॉर्म सबमिट करताना एरर आली. कृपया पुन्हा प्रयत्न करा.",
+          "सबमिट करत आहे...",
+          "Please complete the security verification before submitting",
+          "चौकशी सबमिट करा",
+          "आत्ताच नोंदणी करा"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "or",
+        "variations": [
+          "ଆବେଦନ ଦାଖଲ କରନ୍ତୁ",
+          "ATM ସ୍ଥାନ ଦାଖଲ କରନ୍ତୁ",
+          "Submit",
+          "ଫର୍ମ ସଫଳତାର ସହ ଦାଖଲ ହୋଇଛି!",
+          "ଫର୍ମ ଦାଖଲ କରିବାରେ ତ୍ରୁଟି। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+          "ଦାଖଲ କରାଯାଉଛି...",
+          "Please complete the security verification before submitting",
+          "ତଦନ୍ତ ଦାଖଲ କରନ୍ତୁ",
+          "ବର୍ତ୍ତମାନ ପଞ୍ଜିକରଣ କରନ୍ତୁ"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "pa",
+        "variations": [
+          "ਅਰਜ਼ੀ ਜਮ੍ਹਾਂ ਕਰੋ",
+          "ATM ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
+          "ਜਮ੍ਹਾਂ ਕਰੋ",
+          "ਫਾਰਮ ਸਫਲਤਾਪੂਰਵਕ ਜਮ੍ਹਾਂ ਹੋ ਗਿਆ!",
+          "ਫਾਰਮ ਸਪੁਰਦ ਕਰਨ ਵਿੱਚ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+          "ਸਪੁਰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+          "ਪੁੱਛਗਿੱਛ ਜਮ੍ਹਾਂ ਕਰੋ",
+          "ਹੁਣੇ ਰਜਿਸਟਰ ਕਰਵਾਓ"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "ta",
+        "variations": [
+          "விண்ணப்பத்தை சமர்ப்பிக்கவும்",
+          "ஏடிஎம் இருப்பிடத்தைச் சமர்ப்பிக்கவும்",
+          "சமர்ப்பிக்கவும்",
+          "படிவம் வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!",
+          "படிவத்தைச் சமர்ப்பிப்பதில் பிழை. மீண்டும் முயற்சிக்கவும்.",
+          "சமர்ப்பிக்கிறது...",
+          "விசாரணையைச் சமர்ப்பிக்கவும்",
+          "இப்போதே பதிவு செய்யுங்கள்"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "te",
+        "variations": [
+          "దరఖాస్తును సమర్పించండి",
+          "ATM స్థానాన్ని సమర్పించండి",
+          "సమర్పించండి",
+          "ఫారమ్ విజయవంతంగా సమర్పించబడింది!",
+          "ఫారమ్‌ను సమర్పించడంలో లోపం ఏర్పడింది. దయచేసి మళ్ళీ ప్రయత్నించండి.",
+          "సమర్పిస్తోంది...",
+          "విచారణ సమర్పించండి",
+          "ఇప్పుడే నమోదు చేసుకోండి"
+        ]
+      },
+      {
+        "term": "submit",
+        "language": "ur",
+        "variations": [
+          "درخواست جمع کروائیں۔",
+          "اے ٹی ایم لوکیشن جمع کروائیں۔",
+          "جمع کروائیں۔",
+          "فارم کامیابی کے ساتھ جمع ہو گیا!",
+          "فارم جمع کرانے میں خرابی۔ براہ کرم دوبارہ کوشش کریں۔",
+          "جمع کر رہا ہے...",
+          "انکوائری جمع کروائیں۔",
+          "ابھی رجسٹر کریں۔"
+        ]
+      },
+      {
+        "term": "next",
+        "language": "en",
+        "variations": [
+          "Next",
+          "Our team will review your application within 24-48 hours and contact you with next steps."
+        ]
+      },
+      {
+        "term": "previous",
+        "language": "en",
+        "variations": [
+          "Previous",
+          "Previous Franchise Experience",
+          "Any previous franchise?",
+          "No previous experience"
+        ]
+      },
+      {
+        "term": "save",
+        "language": "en",
+        "variations": [
+          "Save",
+          "Save Draft"
+        ]
+      },
+      {
+        "term": "confirm",
+        "language": "en",
+        "variations": [
+          "Confirm",
+          "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection."
+        ]
+      },
+      {
+        "term": "close",
+        "language": "en",
+        "variations": [
+          "Close",
+          "We ensure complete transparency. All costs are disclosed upfront including machine cost, installation, annual maintenance, and revenue sharing. No hidden charges - what you see is what you pay."
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "as",
+        "variations": [
+          "Apply",
+          "ফ্ৰেঞ্চাইজিৰ বাবে আবেদন কৰক",
+          "এতিয়াই আবেদন কৰক"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "bn",
+        "variations": [
+          "Apply",
+          "ফ্র্যাঞ্চাইজির জন্য আবেদন করুন",
+          "এখনই আবেদন করুন"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "en",
+        "variations": [
+          "Apply Now",
+          "Apply",
+          "Apply for Franchise",
+          "Apply Online"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "gu",
+        "variations": [
+          "Apply",
+          "ફ્રેન્ચાઇઝ માટે અરજી કરો",
+          "હવે અરજી કરો"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "hi",
+        "variations": [
+          "Apply",
+          "फ्रैंचाइज़ी के लिए आवेदन करें",
+          "अभी अप्लाई करें"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "kn",
+        "variations": [
+          "Apply",
+          "ಫ್ರ್ಯಾಂಚೈಸ್‌ಗಾಗಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
+          "ಈಗಲೇ ಅನ್ವಯಿಸಿ"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "ml",
+        "variations": [
+          "Apply",
+          "ഫ്രാഞ്ചൈസിക്ക് അപേക്ഷിക്കുക",
+          "ഇപ്പോൾ പ്രയോഗിക്കുക"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "mr",
+        "variations": [
+          "Apply",
+          "फ्रँचायझीसाठी अर्ज करा",
+          "आत्ताच अर्ज करा"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "or",
+        "variations": [
+          "Apply",
+          "ଫ୍ରାଞ୍ଚାଇଜ୍ ପାଇଁ ଆବେଦନ କରନ୍ତୁ",
+          "ଏବେ ଆବେଦନ କରନ୍ତୁ"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "pa",
+        "variations": [
+          "ਹੁਣ ਲਾਗੂ ਕਰੋ",
+          "ਫਰੈਂਚਾਇਜ਼ੀ ਲਈ ਅਰਜ਼ੀ ਦਿਓ",
+          "ਹੁਣ ਲਾਗੂ ਕਰ��"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "ta",
+        "variations": [
+          "இப்பொழுது விண்ணப்பியுங்கள்",
+          "உரிமைக்கு விண்ணப்பிக்கவும்"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "te",
+        "variations": [
+          "ఇప్పుడు దరఖాస్తు చేసుకోండి",
+          "ఫ్రాంచైజీ కోసం దరఖాస్తు చేసుకోండి"
+        ]
+      },
+      {
+        "term": "apply",
+        "language": "ur",
+        "variations": [
+          "ابھی اپلائی کریں۔",
+          "فرنچائز کے لیے درخواست دیں۔",
+          "ا��ھی اپلائی کریں۔"
+        ]
+      }
+    ],
+    "layoutBreaks": [
+      {
+        "file": "BecomefranchiseHero.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "GetStarted.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "Header.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "Hero.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "LoadingStates.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "MicroInteractions.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "OptimizedComponents.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "OptimizedImage.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "SearchComponent.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "StickyHeader.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "SubmitLocationHero.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "VisualPolish.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      },
+      {
+        "file": "WhyATM.tsx",
+        "issue": "Hidden overflow without ellipsis - text may be cut off"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "MEDIUM",
+      "issue": "Inconsistent Labels",
+      "solution": "Standardize common action labels across all translation files"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "Layout Breaks",
+      "solution": "Replace fixed widths with flexible layouts (flexbox/grid)"
+    }
+  ]
+}

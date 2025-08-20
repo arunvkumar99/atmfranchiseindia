@@ -141,5 +141,16 @@
     "instagram": "ਇੰਸਟਾਗ੍ਰਾਮ",
     "youtube": "ਯੂਟਿਊਬ",
     "whatsapp": "ਵਟਸਐਪ"
-  }
+  },
+  "error": "[PA] An error occurred",
+  "success": "[PA] Success",
+  "submit": "[PA] Submit",
+  "cancel": "[PA] Cancel",
+  "save": "[PA] Save",
+  "delete": "[PA] Delete",
+  "edit": "[PA] Edit",
+  "next": "[PA] Next",
+  "previous": "[PA] Previous",
+  "close": "[PA] Close",
+  "confirm": "[PA] Confirm"
 }

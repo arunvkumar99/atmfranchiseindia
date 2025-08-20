@@ -180,5 +180,16 @@
     "next": "Next",
     "previous": "Previous",
     "menu": "Menu"
-  }
+  },
+  "error": "[BN] An error occurred",
+  "success": "[BN] Success",
+  "submit": "[BN] Submit",
+  "cancel": "[BN] Cancel",
+  "save": "[BN] Save",
+  "delete": "[BN] Delete",
+  "edit": "[BN] Edit",
+  "next": "[BN] Next",
+  "previous": "[BN] Previous",
+  "close": "[BN] Close",
+  "confirm": "[BN] Confirm"
 }

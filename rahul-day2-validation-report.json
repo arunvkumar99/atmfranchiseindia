@@ -1,0 +1,1961 @@
+{
+  "timestamp": "2025-08-20T01:59:37.837Z",
+  "author": "Rahul - Backend Integration Specialist",
+  "summary": {
+    "valid": 223,
+    "invalid": 53,
+    "missing": 0,
+    "integrationIssues": 26
+  },
+  "results": {
+    "valid": [
+      {
+        "file": "as/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "as/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "as/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "as/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "as/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "as/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "as/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "as/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "as/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "as/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "as/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "as/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "as/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "as/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "bn/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "bn/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "bn/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "bn/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "bn/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "bn/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "bn/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "bn/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "bn/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "bn/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "bn/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "bn/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "bn/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "bn/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "gu/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "gu/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "gu/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "gu/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "gu/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "gu/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "gu/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "gu/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "gu/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "gu/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "gu/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "gu/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "gu/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "gu/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "hi/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "hi/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "hi/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "hi/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "hi/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "hi/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "hi/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "hi/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "hi/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "hi/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "hi/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "hi/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "hi/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "hi/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "kn/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "kn/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "kn/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "kn/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "kn/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "kn/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "kn/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "kn/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "kn/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "kn/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "kn/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "kn/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "kn/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "kn/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "ml/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "ml/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "ml/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "ml/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "ml/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "ml/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "ml/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "ml/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "ml/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "ml/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "ml/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "ml/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "ml/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "ml/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "mr/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "mr/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "mr/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "mr/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "mr/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "mr/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "mr/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "mr/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "mr/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "mr/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "mr/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "mr/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "mr/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "mr/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "or/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "or/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "or/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "or/common.json",
+        "keysMatched": 138
+      },
+      {
+        "file": "or/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "or/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "or/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "or/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "or/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "or/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "or/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "or/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "or/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "or/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "pa/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "pa/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "pa/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "pa/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "pa/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "pa/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "pa/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "pa/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "pa/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "pa/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "pa/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "pa/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "pa/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "ta/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "ta/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "ta/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "ta/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "ta/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "ta/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "ta/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "ta/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "ta/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "ta/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "ta/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "ta/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "ta/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "te/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "te/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "te/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "te/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "te/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "te/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "te/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "te/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "te/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "te/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "te/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "te/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "te/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "ur/accessibility.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "ur/agent.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "ur/blog.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "ur/contact.json",
+        "keysMatched": 10
+      },
+      {
+        "file": "ur/influencer.json",
+        "keysMatched": 13
+      },
+      {
+        "file": "ur/jobs.json",
+        "keysMatched": 15
+      },
+      {
+        "file": "ur/notFound.json",
+        "keysMatched": 6
+      },
+      {
+        "file": "ur/pixellpay.json",
+        "keysMatched": 16
+      },
+      {
+        "file": "ur/privacy.json",
+        "keysMatched": 11
+      },
+      {
+        "file": "ur/products.json",
+        "keysMatched": 89
+      },
+      {
+        "file": "ur/refund.json",
+        "keysMatched": 8
+      },
+      {
+        "file": "ur/startAtm.json",
+        "keysMatched": 18
+      },
+      {
+        "file": "ur/terms.json",
+        "keysMatched": 11
+      },
+      {
+        "type": "integration",
+        "file": "component/AccessibilityEnhancements.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/AgentFormEnhanced.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/AgentFormSinglePage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/BecomefranchiseHero.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/EnhancedFormWrapper.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/EnquiryFormSinglePage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/ErrorBoundary.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/FAQ.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/Footer.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/FormProgress.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/FranchiseModelsComparison.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/GetStarted.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/Hero.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/InfluencerFormSinglePage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/JobApplicationSinglePage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/JoinUs.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/LanguageSwitcher.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/MicroInteractions.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/OptimizedImage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/PerformanceOptimizations.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/ProgressiveFormWrapper.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/SearchComponent.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/SEOMetaTags.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/Services.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/SocialProofElements.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/StickyHeader.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/StickyMobileCTA.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/StrategicCrossPageLinks.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/SubmitLocationHero.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/SubmitLocationProgressive.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/SubmitLocationSinglePage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/Testimonials.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/TrustSignals.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/UnifiedForm.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/VisualPolish.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/WhyATM.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/WhyATMFranchiseIndia.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "component/WLAOperators.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/AboutUs.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/AccessibilityStatement.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/AgentPage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/BecomefranchisePage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/BlogPage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/ContactUs.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/DesignAudit.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/Home.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/InfluencerPage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/JobsPage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/JoinUsPage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/NotFound.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/OurProducts.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/OurProductsFixed.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/PixellpayAdvantage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/PrivacyPolicy.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/RefundPolicy.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/StartATMPage.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/SubmitLocation.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/TermsConditions.tsx"
+      },
+      {
+        "type": "integration",
+        "file": "page/VisualShowcase.tsx"
+      }
+    ],
+    "invalid": [
+      {
+        "file": "as/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "as/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "as/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "as/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "bn/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "bn/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "bn/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "bn/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "gu/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "gu/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "gu/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "gu/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "hi/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "hi/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "hi/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "hi/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "kn/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "kn/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "kn/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "kn/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "ml/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "ml/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "ml/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "ml/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "mr/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "mr/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "mr/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "mr/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "or/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "or/forms.json",
+        "missingKeys": 190,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "joinUs.title.main",
+            "joinUs.title.highlight"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "or/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "or/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "pa/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "pa/common.json",
+        "missingKeys": 38,
+        "extraKeys": 7,
+        "details": {
+          "missing": [
+            "buttons.continue",
+            "buttons.add",
+            "buttons.update",
+            "buttons.reset",
+            "buttons.clear"
+          ],
+          "extra": [
+            "buttons.viewMore",
+            "buttons.learnMore",
+            "buttons.getStarted",
+            "buttons.download",
+            "buttons.share"
+          ]
+        }
+      },
+      {
+        "file": "pa/forms.json",
+        "missingKeys": 227,
+        "extraKeys": 5,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "placeholders.full_name",
+            "placeholders.full_name_pan"
+          ],
+          "extra": [
+            "options.investment.below1",
+            "options.investment.1to5",
+            "options.investment.5to10",
+            "options.investment.10to25",
+            "options.investment.above25"
+          ]
+        }
+      },
+      {
+        "file": "pa/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "pa/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "ta/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "ta/common.json",
+        "missingKeys": 38,
+        "extraKeys": 7,
+        "details": {
+          "missing": [
+            "buttons.continue",
+            "buttons.add",
+            "buttons.update",
+            "buttons.reset",
+            "buttons.clear"
+          ],
+          "extra": [
+            "buttons.viewMore",
+            "buttons.learnMore",
+            "buttons.getStarted",
+            "buttons.download",
+            "buttons.share"
+          ]
+        }
+      },
+      {
+        "file": "ta/forms.json",
+        "missingKeys": 227,
+        "extraKeys": 5,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "placeholders.full_name",
+            "placeholders.full_name_pan"
+          ],
+          "extra": [
+            "options.investment.below1",
+            "options.investment.1to5",
+            "options.investment.5to10",
+            "options.investment.10to25",
+            "options.investment.above25"
+          ]
+        }
+      },
+      {
+        "file": "ta/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "ta/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "te/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "te/common.json",
+        "missingKeys": 38,
+        "extraKeys": 7,
+        "details": {
+          "missing": [
+            "buttons.continue",
+            "buttons.add",
+            "buttons.update",
+            "buttons.reset",
+            "buttons.clear"
+          ],
+          "extra": [
+            "buttons.viewMore",
+            "buttons.learnMore",
+            "buttons.getStarted",
+            "buttons.download",
+            "buttons.share"
+          ]
+        }
+      },
+      {
+        "file": "te/forms.json",
+        "missingKeys": 227,
+        "extraKeys": 5,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "placeholders.full_name",
+            "placeholders.full_name_pan"
+          ],
+          "extra": [
+            "options.investment.below1",
+            "options.investment.1to5",
+            "options.investment.5to10",
+            "options.investment.10to25",
+            "options.investment.above25"
+          ]
+        }
+      },
+      {
+        "file": "te/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "te/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "ur/about.json",
+        "missingKeys": 2,
+        "extraKeys": 1,
+        "details": {
+          "missing": [
+            "hero.title.middle",
+            "hero.title.suffix"
+          ],
+          "extra": [
+            "hero.title.highlight"
+          ]
+        }
+      },
+      {
+        "file": "ur/common.json",
+        "missingKeys": 38,
+        "extraKeys": 7,
+        "details": {
+          "missing": [
+            "buttons.continue",
+            "buttons.add",
+            "buttons.update",
+            "buttons.reset",
+            "buttons.clear"
+          ],
+          "extra": [
+            "buttons.viewMore",
+            "buttons.learnMore",
+            "buttons.getStarted",
+            "buttons.download",
+            "buttons.share"
+          ]
+        }
+      },
+      {
+        "file": "ur/forms.json",
+        "missingKeys": 227,
+        "extraKeys": 5,
+        "details": {
+          "missing": [
+            "labels.fullName",
+            "labels.email",
+            "labels.phone",
+            "placeholders.full_name",
+            "placeholders.full_name_pan"
+          ],
+          "extra": [
+            "options.investment.below1",
+            "options.investment.1to5",
+            "options.investment.5to10",
+            "options.investment.10to25",
+            "options.investment.above25"
+          ]
+        }
+      },
+      {
+        "file": "ur/franchise.json",
+        "missingKeys": 4,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "content.become_an",
+            "content.partner",
+            "content.trusted_atm_franchise_partner",
+            "content.simple_4step_process"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "file": "ur/home.json",
+        "missingKeys": 38,
+        "extraKeys": 0,
+        "details": {
+          "missing": [
+            "valueProps.title",
+            "valueProps.subtitle",
+            "valueProps.perfectTime",
+            "valueProps.investmentRange",
+            "valueProps.bullets.digitalAdoption"
+          ],
+          "extra": []
+        }
+      },
+      {
+        "type": "build",
+        "error": "Build failed",
+        "details": "Command failed: npm run build\n\u001b[31mx\u001b[39m Build failed in 5.65s\n\u001b[31merror during build:\n\u001b[31m[vite:esbuild] Transform failed with 8 errors:\nC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:563:101: ERROR: The character \">\" is not valid inside a JSX element\nC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:565:20: ERROR: Unexpected closing \"div\" tag does not match opening \"h3\" tag\nC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:1133:16: ERROR: Unexpected closing \"form\" tag does not match opening \"div\" tag\nC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:1134:14: ERROR: Unexpected closing \"CardContent\" tag does not match opening \"form\" tag\nC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:1135:12: ERROR: Unexpected closing \"Card\" tag does not match opening \"CardContent\" tag\n...\u001b[31m\nfile: \u001b[36mC:/Users/arunv/AppData/Local/Programs/Microsoft VS Code/atmfranchiseindia/src/components/AgentFormSinglePage.tsx:563:101\u001b[31m\n\u001b[33m\n\u001b[33mThe character \">\" is not valid inside a JSX element\u001b[33m\n561|                  <div className=\"space-y-6\">\n562|                    <div className=\"border-b pb-3\">\n563|                      <h3 className=\"text-xl font-semibold text-foreground\">{t(\"sections.personal\")}/h3>\n   |                                                                                                       ^\n564|                      <p className=\"text-sm text-muted-foreground mt-1\">Tell us about yourself and provide your basic details</p>\n565|                    </div>\n\n\u001b[33mUnexpected closing \"div\" tag does not match opening \"h3\" tag\u001b[33m\n563|                      <h3 className=\"text-xl font-semibold text-foreground\">{t(\"sections.personal\")}/h3>\n564|                      <p className=\"text-sm text-muted-foreground mt-1\">Tell us about yourself and provide your basic details</p>\n565|                    </div>\n   |                      ^\n566|  \n567|                    <div className=\"grid md:grid-cols-2 gap-4\">\n\n\u001b[33mUnexpected closing \"form\" tag does not match opening \"div\" tag\u001b[33m\n1131|                    )}\n1132|                  </Button>\n1133|                </form>\n   |                  ^\n1134|              </CardContent>\n1135|            </Card>\n\n\u001b[33mUnexpected closing \"CardContent\" tag does not match opening \"form\" tag\u001b[33m\n1132|                  </Button>\n1133|                </form>\n1134|              </CardContent>\n   |                ^\n1135|            </Card>\n1136|          </div>\n\n\u001b[33mUnexpected closing \"Card\" tag does not match opening \"CardContent\" tag\u001b[33m\n1133|                </form>\n1134|              </CardContent>\n1135|            </Card>\n   |              ^\n1136|          </div>\n1137|        </div>\n\n\u001b[33mUnexpected closing \"div\" tag does not match opening \"Card\" tag\u001b[33m\n1134|              </CardContent>\n1135|            </Card>\n1136|          </div>\n   |            ^\n1137|        </div>\n1138|      </div>\n\n\u001b[33mThe character \"}\" is not valid inside a JSX element\u001b[33m\n1138|      </div>\n1139|    );\n1140|  }\n   |  ^\n\n\u001b[33mUnexpected end of file before a closing \"div\" tag\u001b[33m\n1138|      </div>\n1139|    );\n1140|  }\n   |   ^\n\u001b[31m\n    at failureErrorWithLog (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:1472:15)\n    at C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:755:50\n    at responseCallbacks.<computed> (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:622:9)\n    at handleIncomingPacket (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:677:12)\n    at Socket.readFromStdout (C:\\Users\\arunv\\AppData\\Local\\Programs\\Microsoft VS Code\\atmfranchiseindia\\node_modules\\esbuild\\lib\\main.js:600:7)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)\n    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)\u001b[39m\n"
+      }
+    ],
+    "missing": [],
+    "performance": {
+      "as": {
+        "totalSize": 82499,
+        "files": 18
+      },
+      "bn": {
+        "totalSize": 85356,
+        "files": 18
+      },
+      "en": {
+        "totalSize": 61180,
+        "files": 18
+      },
+      "gu": {
+        "totalSize": 78771,
+        "files": 18
+      },
+      "hi": {
+        "totalSize": 81691,
+        "files": 18
+      },
+      "kn": {
+        "totalSize": 86474,
+        "files": 18
+      },
+      "ml": {
+        "totalSize": 93158,
+        "files": 18
+      },
+      "mr": {
+        "totalSize": 81512,
+        "files": 18
+      },
+      "or": {
+        "totalSize": 83607,
+        "files": 18
+      },
+      "pa": {
+        "totalSize": 76758,
+        "files": 18
+      },
+      "ta": {
+        "totalSize": 93605,
+        "files": 18
+      },
+      "te": {
+        "totalSize": 85766,
+        "files": 18
+      },
+      "ur": {
+        "totalSize": 62182,
+        "files": 18
+      },
+      "total": {
+        "size": 1052559,
+        "sizeInMB": "1.00"
+      }
+    },
+    "integration": [
+      {
+        "type": "component",
+        "file": "AccessibilityWrapper.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "AdminTableWithIST.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "AgentFormProgressive.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "BreadcrumbNavigation.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "DirectSheetsForm.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "EnquiryFormProgressive.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "EnsureEnglishDefault.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "FixedLanguageRouter.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "FormSuccessModal.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "Header.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "InfluencerFormProgressive.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "JobApplicationProgressive.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "LanguageSwitcherNew.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "LanguageSwitchTest.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "LazyLoadingWrapper.tsx",
+        "issues": [
+          "Has hardcoded UI strings but no translation"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "LoadingStates.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "MobileNav.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "OptimizedComponents.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "TranslationDebug.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "TranslationTest.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "TranslationValidator.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "UnifiedForm.test.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "component",
+        "file": "UrgencyElements.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "page",
+        "file": "TestTranslation.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "page",
+        "file": "TranslationTest.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      },
+      {
+        "type": "page",
+        "file": "TranslationVerify.tsx",
+        "issues": [
+          "Imports useTranslation but doesn't use t()"
+        ]
+      }
+    ]
+  },
+  "status": "FAIL"
+}

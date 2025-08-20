@@ -82,7 +82,7 @@ const SubmitLocationHero = () => {
           <div className="absolute inset-0">
             <img
               src={passiveIncomeIcon}
-              alt="ATM Location Success"
+              alt={t('prop-string_atm_location_success')}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30"></div>
@@ -94,7 +94,7 @@ const SubmitLocationHero = () => {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 bg-blue-600/20 backdrop-blur-sm border border-blue-400/30 rounded-full px-6 py-3 mb-6">
                 <Target className="w-5 h-5 text-blue-300" />
-                <span className="text-sm font-medium text-blue-100">Expert Location Analysis</span>
+                <span className="text-sm font-medium text-blue-100">{t('jsx-text_expert_location_analysis')}</span>
               </div>
               
               {/* Main Heading */}
@@ -126,7 +126,7 @@ const SubmitLocationHero = () => {
                       <div key={i} className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-2 border-white"></div>
                     ))}
                   </div>
-                  <span className="text-sm">Trusted by 1000+ partners</span>
+                  <span className="text-sm">{t('jsx-text_trusted_by_1000_partners')}</span>
                 </div>
               </div>
             </div>
@@ -136,8 +136,8 @@ const SubmitLocationHero = () => {
           <div className="absolute bottom-8 right-8 hidden lg:block">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <div className="text-center">
-                <div className="text-3xl font-bold text-white mb-1">95%</div>
-                <div className="text-sm text-gray-300">Success Rate</div>
+                <div className="text-3xl font-bold text-white mb-1">{t('jsx-text_95')}</div>
+                <div className="text-sm text-gray-300">{t('jsx-text_success_rate')}</div>
               </div>
             </div>
           </div>
@@ -151,22 +151,22 @@ const SubmitLocationHero = () => {
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Free Expert Analysis</h3>
-                <p className="text-gray-600">Professional evaluation of your location's ATM potential at no cost</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">{t('jsx-text_free_expert_analysis')}</h3>
+                <p className="text-gray-600">{t('jsx-text_professional_evaluation_of_your_location')}</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">ROI Projection</h3>
-                <p className="text-gray-600">Detailed revenue forecasts and potential analysis reports</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">{t('jsx-text_roi_projection')}</h3>
+                <p className="text-gray-600">{t('jsx-text_detailed_revenue_forecasts_and_potential')}</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Zap className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Quick Turnaround</h3>
-                <p className="text-gray-600">Professional response and analysis within 24-48 hours</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">{t('jsx-text_quick_turnaround')}</h3>
+                <p className="text-gray-600">{t('jsx-text_professional_response_and_analysis_withi')}</p>
               </div>
             </div>
           </div>
@@ -181,7 +181,7 @@ const SubmitLocationHero = () => {
               <div className="text-center mb-10">
                 <div className="inline-flex items-center gap-3 bg-blue-600 text-white rounded-full px-8 py-4 mb-6 shadow-lg">
                   <Shield className="w-6 h-6" />
-                  <h2 className="text-2xl font-bold">Why Location Analysis Matters</h2>
+                  <h2 className="text-2xl font-bold">{t('jsx-text_why_location_analysis_matters')}</h2>
                 </div>
                 <p className="text-lg text-blue-800 max-w-3xl mx-auto">
                   Strategic location selection is the foundation of ATM business success. Our data-driven analysis ensures optimal placement for maximum returns.
@@ -193,22 +193,22 @@ const SubmitLocationHero = () => {
                   <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
                     <BarChart3 className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-blue-900 mb-4">3-5x Higher Transactions</h3>
-                  <p className="text-blue-700 leading-relaxed">Strategic locations generate significantly more daily transactions than poorly chosen sites, ensuring better revenue streams.</p>
+                  <h3 className="text-xl font-bold text-blue-900 mb-4">{t('jsx-text_35x_higher_transactions')}</h3>
+                  <p className="text-blue-700 leading-relaxed">{t('jsx-text_strategic_locations_generate_significant')}</p>
                 </div>
                 <div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-blue-100 hover:shadow-xl transition-shadow">
                   <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
                     <TrendingUp className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-blue-900 mb-4">Predictable Revenue</h3>
-                  <p className="text-blue-700 leading-relaxed">Well-positioned ATMs ensure consistent monthly income and faster return on investment with reliable cash flow.</p>
+                  <h3 className="text-xl font-bold text-blue-900 mb-4">{t('jsx-text_predictable_revenue')}</h3>
+                  <p className="text-blue-700 leading-relaxed">{t('jsx-text_wellpositioned_atms_ensure_consistent_mo')}</p>
                 </div>
                 <div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-blue-100 hover:shadow-xl transition-shadow">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
                     <CheckCircle className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-blue-900 mb-4">Risk-Free Validation</h3>
-                  <p className="text-blue-700 leading-relaxed">Avoid costly mistakes by validating location viability before investing, saving thousands in potential losses.</p>
+                  <h3 className="text-xl font-bold text-blue-900 mb-4">{t('jsx-text_riskfree_validation')}</h3>
+                  <p className="text-blue-700 leading-relaxed">{t('jsx-text_avoid_costly_mistakes_by_validating_loca')}</p>
                 </div>
               </div>
               
@@ -229,9 +229,9 @@ const SubmitLocationHero = () => {
             <CardHeader className="text-center pb-8 pt-10">
               <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full px-6 py-3 mb-4">
                 <MapPin className="w-5 h-5 text-blue-600" />
-                <span className="text-sm font-medium text-blue-800">Quick Submission</span>
+                <span className="text-sm font-medium text-blue-800">{t('jsx-text_quick_submission')}</span>
               </div>
-              <CardTitle className="text-3xl font-bold text-gray-900 mb-4">Submit Your Location</CardTitle>
+              <CardTitle className="text-3xl font-bold text-gray-900 mb-4">{t('jsx-text_submit_your_location')}</CardTitle>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Fill out the form below and receive professional analysis within 24-48 hours
               </p>
@@ -240,7 +240,7 @@ const SubmitLocationHero = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-3">
-                    <Label htmlFor="name" className="text-base font-semibold text-gray-800">Full Name</Label>
+                    <Label htmlFor="name" className="text-base font-semibold text-gray-800">{t('jsx-text_full_name')}</Label>
                     <Input 
                       id="name" 
                       value={formData.fullName}
@@ -251,7 +251,7 @@ const SubmitLocationHero = () => {
                     />
                   </div>
                   <div className="space-y-3">
-                    <Label htmlFor="phone" className="text-base font-semibold text-gray-800">Phone Number</Label>
+                    <Label htmlFor="phone" className="text-base font-semibold text-gray-800">{t('jsx-text_phone_number')}</Label>
                     <Input 
                       id="phone" 
                       value={formData.phone}
@@ -264,13 +264,13 @@ const SubmitLocationHero = () => {
                 </div>
 
                 <div className="space-y-3">
-                  <Label htmlFor="email" className="text-base font-semibold text-gray-800">Email Address</Label>
+                  <Label htmlFor="email" className="text-base font-semibold text-gray-800">{t('jsx-text_email_address')}</Label>
                   <Input 
                     id="email" 
                     type="email"
                     value={formData.email}
                     onChange={(e) => handleInputChange('email', e.target.value)}
-                    placeholder="Enter your email address"
+                    placeholder={t('prop-string_enter_your_email_address')}
                     className="h-12 border-2 border-gray-200 focus:border-blue-500 rounded-xl text-base transition-colors"
                     required
                   />
@@ -278,22 +278,22 @@ const SubmitLocationHero = () => {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-3">
-                    <Label className="text-base font-semibold text-gray-800">State</Label>
+                    <Label className="text-base font-semibold text-gray-800">{t('jsx-text_state')}</Label>
                     <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                       <SelectTrigger className="h-12 border-2 border-gray-200 focus:border-blue-500 rounded-xl text-base">
                         <SelectValue placeholder={t('placeholders.state', 'Select your state')} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="maharashtra">Maharashtra</SelectItem>
-                        <SelectItem value="karnataka">Karnataka</SelectItem>
-                        <SelectItem value="kerala">Kerala</SelectItem>
-                        <SelectItem value="tamil-nadu">Tamil Nadu</SelectItem>
-                        <SelectItem value="telangana">Telangana</SelectItem>
+                        <SelectItem value={t('prop-string_maharashtra')}>{t('jsx-text_maharashtra')}</SelectItem>
+                        <SelectItem value={t('prop-string_karnataka')}>{t('jsx-text_karnataka')}</SelectItem>
+                        <SelectItem value={t('prop-string_kerala')}>{t('jsx-text_kerala')}</SelectItem>
+                        <SelectItem value={t('prop-string_tamilnadu')}>{t('jsx-text_tamil_nadu')}</SelectItem>
+                        <SelectItem value={t('prop-string_telangana')}>{t('jsx-text_telangana')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
                   <div className="space-y-3">
-                    <Label htmlFor="city" className="text-base font-semibold text-gray-800">City</Label>
+                    <Label htmlFor="city" className="text-base font-semibold text-gray-800">{t('jsx-text_city')}</Label>
                     <Input 
                       id="city" 
                       value={formData.city}
@@ -306,12 +306,12 @@ const SubmitLocationHero = () => {
                 </div>
 
                 <div className="space-y-3">
-                  <Label htmlFor="location" className="text-base font-semibold text-gray-800">Location Description</Label>
+                  <Label htmlFor="location" className="text-base font-semibold text-gray-800">{t('jsx-text_location_description')}</Label>
                   <Textarea 
                     id="location" 
                     value={formData.locationDescription}
                     onChange={(e) => handleInputChange('locationDescription', e.target.value)}
-                    placeholder="Describe your proposed ATM location with details about footfall, nearby businesses, accessibility, and why you think it's ideal..."
+                    placeholder={t('prop-string_describe_your_proposed_atm_location_with')}s ideal..."
                     className="border-2 border-gray-200 focus:border-blue-500 rounded-xl min-h-[120px] text-base transition-colors resize-none"
                     required
                   />
@@ -334,24 +334,24 @@ const SubmitLocationHero = () => {
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
               ))}
-              <span className="ml-3 text-lg font-semibold text-gray-700">Trusted by 1000+ Partners</span>
+              <span className="ml-3 text-lg font-semibold text-gray-700">{t('jsx-text_trusted_by_1000_partners')}</span>
             </div>
             <blockquote className="text-lg text-gray-700 max-w-3xl mx-auto mb-4 italic">
               "The location analysis was incredibly thorough and professional. My ATM generates 40% more transactions than initially projected. Outstanding service and expertise!"
             </blockquote>
-            <cite className="text-sm text-gray-500 font-medium">— Rajesh Kumar, ATM Franchise Partner, Mumbai</cite>
+            <cite className="text-sm text-gray-500 font-medium">{t('jsx-text__rajesh_kumar_atm_franchise_partner_mumb')}</cite>
             
             {/* Contact Information */}
             <div className="mt-8 p-6 bg-blue-50 rounded-xl border border-blue-200">
-              <h4 className="font-semibold text-blue-900 mb-3">Need Help? Contact Us</h4>
+              <h4 className="font-semibold text-blue-900 mb-3">{t('jsx-text_need_help_contact_us')}</h4>
               <div className="flex flex-col sm:flex-row gap-4 justify-center text-blue-800">
                 <div className="flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>+91 8089447171</span>
+                  <span>{t('jsx-text_91_8089447171')}</span>
                 </div>
                 <div className="flex items-center justify-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>pixellpay.co.in@gmail.com</span>
+                  <span>{t('jsx-text_pixellpaycoingmailcom')}</span>
                 </div>
               </div>
             </div>
