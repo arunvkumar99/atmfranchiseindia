@@ -15,8 +15,8 @@
   },
   "whoWeAre": {
     "title": "हम कौन हैं",
-    "subtitle": "Empowering entrepreneurs with विश्वसनीय एटीएम फ्रैंचाइज़ी opportunities",
-    "description": "ATM Franchise India is a pioneering platform that bridges the gap between aspiring entrepreneurs and RBI-licensed White Label ATM operators. Since 2020, we've been transforming lives by providing accurate information, expert guidance, and comprehensive support for ATM franchise businesses across India.",
+    "subtitle": "विश्वसनीय एटीएम फ्रैंचाइज़ी अवसरों के साथ उद्यमियों को सशक्त बनाना",
+    "description": "एटीएम फ्रैंचाइज़ इंडिया एक अग्रणी मंच है जो इच्छुक उद्यमियों और आरबीआई-लाइसेंस प्राप्त व्हाइट लेबल एटीएम ऑपरेटरों के बीच की खाई को पाटता है। 2020 से, हम भारत भर में एटीएम फ्रैंचाइज़ व्यवसायों के लिए सटीक जानकारी, विशेषज्ञ मार्गदर्शन और व्यापक सहायता प्रदान करके जीवन बदल रहे हैं।",
     "stats": {
       "partners": {
         "number": "5000+",
@@ -24,94 +24,94 @@
       },
       "transactions": {
         "number": "10M+",
-        "label": "Monthly Transactions"
+        "label": "मासिक लेनदेन"
       },
       "coverage": {
         "number": "28",
-        "label": "States Covered"
+        "label": "राज्य कवर"
       },
       "experience": {
         "number": "4+",
-        "label": "Years अनुभव"
+        "label": "वर्षों का अनुभव"
       }
     }
   },
   "mission": {
-    "title": "Our Mission",
+    "title": "हमारा मिशन",
     "items": {
       "accurate": {
-        "title": "Accurate जानकारी",
-        "description": "Provide सत्यापित and transparent जानकारी about एटीएम फ्रैंचाइज़ी opportunities"
+        "title": "सटीक जानकारी",
+        "description": "एटीएम फ्रैंचाइज़ी अवसरों के बारे में सत्यापित और पारदर्शी जानकारी प्रदान करना"
       },
       "simplify": {
-        "title": "Simplify प्रक्रिया",
-        "description": "Make the एटीएम फ्रैंचाइज़ी journey सरल and accessible for everyone"
+        "title": "प्रक्रिया सरल बनाना",
+        "description": "एटीएम फ्रैंचाइज़ी यात्रा को सभी के लिए सरल और सुलभ बनाना"
       },
       "support": {
-        "title": "Continuous सहायता",
-        "description": "ऑफर ongoing मार्गदर्शन from setup to successful operation"
+        "title": "निरंतर सहायता",
+        "description": "सेटअप से सफल संचालन तक निरंतर मार्गदर्शन प्रदान करना"
       },
       "growth": {
-        "title": "सक्षम करें विकास",
-        "description": "मदद partners achieve sustainable आय and व्यवसाय विकास"
+        "title": "विकास सक्षम करें",
+        "description": "भागीदारों को टिकाऊ आय और व्यवसाय विकास प्राप्त करने में मदद करना"
       }
     }
   },
   "services": {
-    "title": "Our सेवाएं",
+    "title": "हमारी सेवाएं",
     "consultation": {
-      "title": "फ्रैंचाइज़ी Consultation",
-      "description": "विशेषज्ञ मार्गदर्शन on choosing the right WLA partner and स्थान"
+      "title": "फ्रैंचाइज़ी परामर्श",
+      "description": "सही डब्ल्यूएलए भागीदार और स्थान चुनने पर विशेषज्ञ मार्गदर्शन"
     },
     "training": {
-      "title": "प्रशिक्षण & सहायता",
-      "description": "Comprehensive प्रशिक्षण programs and ongoing operational सहायता"
+      "title": "प्रशिक्षण और सहायता",
+      "description": "व्यापक प्रशिक्षण कार्यक्रम और निरंतर परिचालन सहायता"
     },
     "digital": {
-      "title": "डिजिटल Marketing",
-      "description": "Boost your ATM's visibility with our digital marketing services"
+      "title": "डिजिटल मार्केटिंग",
+      "description": "हमारी डिजिटल मार्केटिंग सेवाओं से अपने एटीएम की दृश्यता बढ़ाएं"
     },
     "technical": {
-      "title": "Technical सहायता",
-      "description": "24/7 technical support and troubleshooting assistance"
+      "title": "तकनीकी सहायता",
+      "description": "24/7 तकनीकी सहायता और समस्या निवारण सहायता"
     }
   },
   "companies": {
-    "title": "Our समूह कंपनियां",
-    "subtitle": "Part of a विश्वसनीय व्यवसाय ecosystem",
+    "title": "हमारी समूह कंपनियां",
+    "subtitle": "एक विश्वसनीय व्यवसाय पारिस्थितिकी तंत्र का हिस्सा",
     "pixellweb": {
       "name": "Pixellweb",
-      "description": "प्रीमियम web development and डिजिटल समाधान provider",
-      "link": "Visit Website"
+      "description": "प्रीमियम वेब विकास और डिजिटल समाधान प्रदाता",
+      "link": "वेबसाइट पर जाएं"
     },
     "pixellpay": {
       "name": "Pixellpay फायदा",
-      "description": "Financial प्रौद्योगिकी समाधान and payment सेवाएं",
+      "description": "वित्तीय प्रौद्योगिकी समाधान और भुगतान सेवाएं",
       "link": "और जानें"
     }
   },
   "values": {
-    "title": "Our Values",
+    "title": "हमारे मूल्य",
     "transparency": {
-      "title": "Transparency",
-      "description": "पूर्ण करें transparency in सभी व्यवसाय dealings"
+      "title": "पारदर्शिता",
+      "description": "सभी व्यावसायिक लेनदेन में पूर्ण पारदर्शिता"
     },
     "integrity": {
-      "title": "Integrity",
-      "description": "Honest and ethical व्यवसाय practices"
+      "title": "ईमानदारी",
+      "description": "ईमानदार और नैतिक व्यावसायिक प्रथाएं"
     },
     "excellence": {
-      "title": "Excellence",
-      "description": "Commitment to service excellence"
+      "title": "उत्कृष्टता",
+      "description": "सेवा उत्कृष्टता के प्रति प्रतिबद्धता"
     },
     "innovation": {
       "title": "नवाचार",
-      "description": "Continuous improvement and नवाचार"
+      "description": "निरंतर सुधार और नवाचार"
     }
   },
   "cta": {
-    "title": "Ready to Start Your एटीएम फ्रैंचाइज़ी Journey?",
-    "subtitle": "Join thousands of successful फ्रैंचाइज़ी partners across भारत",
-    "button": "शुरू करें Today"
+    "title": "अपनी एटीएम फ्रैंचाइज़ी यात्रा शुरू करने के लिए तैयार हैं?",
+    "subtitle": "भारत भर में हजारों सफल फ्रैंचाइज़ी भागीदारों से जुड़ें",
+    "button": "आज ही शुरू करें"
   }
 }

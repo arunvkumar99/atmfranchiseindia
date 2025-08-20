@@ -1,0 +1,395 @@
+{
+  "about.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [
+        {
+          "key": "companies.pixellpay.name",
+          "value": "Pixellpay फायदा"
+        }
+      ],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 1
+  },
+  "accessibility.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "agent.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "blog.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "common.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [
+        {
+          "key": "footer.copyright",
+          "value": "© 2025 एटीएम फ्रैंचाइज़ी इंडिया। सभी अधिकार सुरक्षित। | केवल RBI लाइसेंस प्राप्त भागीदार"
+        }
+      ],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 1
+  },
+  "components.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [
+        {
+          "key": "enhanced-file-upload.text2",
+          "value": "केवल PDF, JPG, PNG फ़ाइलें"
+        }
+      ],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": [
+        "translationdebug.text1",
+        "translationvalidator.text1",
+        "lazyloadingwrapper.text1",
+        "dialog.text1",
+        "breadcrumb.text1",
+        "captcha-protection.text1",
+        "carousel.text1",
+        "carousel.text2",
+        "file-upload.text1",
+        "file-upload.text2",
+        "file-upload.text3",
+        "file-upload.text4",
+        "enhanced-file-upload.text1",
+        "enhanced-file-upload.text2",
+        "pagination.text1",
+        "pagination.text2",
+        "pagination.text3",
+        "sheet.text1",
+        "sidebar.text1",
+        "searchcomponent.text1"
+      ]
+    },
+    "count": 21
+  },
+  "contact.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "forms.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [
+        {
+          "key": "validation.required",
+          "value": "{{field}} आवश्यक है"
+        },
+        {
+          "key": "validation.minLength",
+          "value": "{{field}} कम से कम {{min}} वर्ण का होना चाहिए"
+        },
+        {
+          "key": "validation.maxLength",
+          "value": "{{field}} {{max}} वर्णों से अधिक नहीं होना चाहिए"
+        },
+        {
+          "key": "validation.fileSize",
+          "value": "फ़ाइल का आकार {{size}}MB से कम होना चाहिए"
+        },
+        {
+          "key": "validation.fileType",
+          "value": "केवल {{types}} फ़ाइलें अनुमत हैं"
+        },
+        {
+          "key": "validation.pan_invalid",
+          "value": "कृपया एक मान्य पैन नंबर दर्ज करें (ABCDE1234F)"
+        },
+        {
+          "key": "validation.min_length",
+          "value": "न्यूनतम {{min}} वर्ण आवश्यक"
+        },
+        {
+          "key": "validation.max_length",
+          "value": "अधिकतम {{max}} वर्ण अनुमत"
+        },
+        {
+          "key": "validation.file_size",
+          "value": "फ़ाइल का आकार {{size}}MB से कम होना चाहिए"
+        },
+        {
+          "key": "validation.file_type",
+          "value": "केवल {{types}} फ़ाइलें अनुमत हैं"
+        },
+        {
+          "key": "joinUs.placeholders.email",
+          "value": "आपका.ईमेल@उदाहरण.com"
+        }
+      ],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 11
+  },
+  "franchise.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [
+        {
+          "key": "comparison.models.enterprise.features.4",
+          "value": "पूर्ण करें marketing पैकेज"
+        },
+        {
+          "key": "wlaOperators.title",
+          "value": "भारत में अग्रणी WLA ऑपरेटर"
+        }
+      ],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 2
+  },
+  "home.json": {
+    "issues": {
+      "englishTerms": [
+        {
+          "key": "faq.items.roi.question",
+          "value": "ROI प्राप्त करने में कितना समय लगता है?",
+          "terms": [
+            "ROI"
+          ]
+        },
+        {
+          "key": "faq.items.roi.answer",
+          "value": "ज़्यादातर पार्टनर 12-18 महीनों में ROI हासिल कर लेते हैं। ज़्यादा ट्रैफ़िक वाले इलाकों में 8-12 महीनों में रिटर्न मिल सकता है, जबकि छोटे शहरों में आमतौर पर 15-20 महीने लगते हैं। हम रिटर्न को बेहतर बनाने के लिए लोकेशन विश्लेषण की सुविधा देते हैं।",
+          "terms": [
+            "ROI"
+          ]
+        },
+        {
+          "key": "faq.stats.proven.description",
+          "value": "12-18 महीनों में औसत ROI के साथ 95% साझेदार सफलता दर।",
+          "terms": [
+            "ROI"
+          ]
+        },
+        {
+          "key": "valueProps.stats.potential.suffix",
+          "value": "% Potential",
+          "terms": [
+            "Potential"
+          ]
+        },
+        {
+          "key": "whyChoose.features.guidance.description",
+          "value": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business.",
+          "terms": [
+            "Let"
+          ]
+        }
+      ],
+      "mixedLanguage": [
+        {
+          "key": "stats.atmsAcrossIndia",
+          "value": "पूरे भारत में ATM"
+        },
+        {
+          "key": "whyAtm.stats.roi.description",
+          "value": "RBI लाइसेंस प्राप्त WLA ATM भागीदारों द्वारा प्राप्त सभी भुगतान"
+        },
+        {
+          "key": "whyAtm.cards.roi.description",
+          "value": "RBI लाइसेंस प्राप्त WLA ATM भागीदारों द्वारा प्राप्त सभी भुगतान"
+        },
+        {
+          "key": "whyAtm.roi.description",
+          "value": "आरबीआई लाइसेंस प्राप्त WLA एटीएम भागीदारों द्वारा प्राप्त सभी भुगतान"
+        },
+        {
+          "key": "faq.items.investment.answer",
+          "value": "WLA पार्टनर और स्थान के आधार पर निवेश आमतौर पर ₹3-8 लाख के बीच होता है। इसमें मशीन की लागत, इंस्टॉलेशन और शुरुआती कार्यशील पूंजी शामिल है। हम प्रत्येक पार्टनर के लिए लागत का विस्तृत विवरण प्रदान करते हैं।"
+        },
+        {
+          "key": "faq.items.roi.question",
+          "value": "ROI प्राप्त करने में कितना समय लगता है?"
+        },
+        {
+          "key": "faq.items.roi.answer",
+          "value": "ज़्यादातर पार्टनर 12-18 महीनों में ROI हासिल कर लेते हैं। ज़्यादा ट्रैफ़िक वाले इलाकों में 8-12 महीनों में रिटर्न मिल सकता है, जबकि छोटे शहरों में आमतौर पर 15-20 महीने लगते हैं। हम रिटर्न को बेहतर बनाने के लिए लोकेशन विश्लेषण की सुविधा देते हैं।"
+        },
+        {
+          "key": "faq.items.technical.answer",
+          "value": "किसी तकनीकी विशेषज्ञता की आवश्यकता नहीं है। WLA के साझेदार पूर्ण प्रशिक्षण, 24/7 तकनीकी सहायता और दूरस्थ निगरानी प्रदान करते हैं। आप मुख्य रूप से नकदी लोडिंग और बुनियादी रखरखाव समन्वय का काम संभालते हैं।"
+        },
+        {
+          "key": "faq.items.cash.answer",
+          "value": "आप उपयोग के पैटर्न के आधार पर नकदी लोड करेंगे (आमतौर पर हर 2-4 दिन में)। WLA के साझेदार नकदी पूर्वानुमान उपकरण प्रदान करते हैं और कुछ नकदी रसद सेवाएँ भी प्रदान करते हैं। बीमा नकदी-पारगमन जोखिमों को कवर करता है।"
+        },
+        {
+          "key": "faq.items.support.answer",
+          "value": "हम निरंतर व्यावसायिक परामर्श, प्रदर्शन अनुकूलन सुझाव, समस्या निवारण सहायता और WLA साझेदार समन्वय में सहायता प्रदान करते हैं। हमारा संबंध सिर्फ़ सेटअप से आगे भी जारी है।"
+        },
+        {
+          "key": "faq.stats.proven.description",
+          "value": "12-18 महीनों में औसत ROI के साथ 95% साझेदार सफलता दर।"
+        },
+        {
+          "key": "services.items.guidance.title",
+          "value": "विशेषज्ञ WLA ऑपरेटर मार्गदर्शन"
+        },
+        {
+          "key": "services.card2.title",
+          "value": "WLA ऑपरेटरों पर विशेषज्ञ मार्गदर्शन"
+        },
+        {
+          "key": "services.card2.description",
+          "value": "आइए हम आपको सही व्हाइट लेबल एटीएम पार्टनर चुनने में मदद करें। कई ऑपरेटर अपनी पेशकशों को बढ़ा-चढ़ाकर पेश करते हैं और निवेशकों को गुमराह करते हैं। हम सभी प्रमुख WLA ऑपरेटरों की निष्पक्ष तुलना प्रदान करते हैं - उनकी ताकत और कमजोरियों को उजागर करते हैं - यह सुनिश्चित करने के लिए कि आप अपने व्यवसाय के लिए सही फिट पाएं।"
+        },
+        {
+          "key": "services.card4.description",
+          "value": "सभी WLA ब्रांडों में 4+ वर्षों के अनुभव के साथ, हम सब कुछ संभालते हैं: फ्रैंचाइज़ी ऑनबोर्डिंग, प्रशिक्षण और परिचालन सेटअप, स्थानीय प्रचार और ब्रांड दृश्यता, तकनीकी सहायता और समस्या निवारण, बैंक खाता निपटान, WLA ऑपरेटरों के साथ विवाद समाधान। हम एटीएम व्यवसाय की सफलता के लिए आपका एक-स्टॉप समाधान हैं।"
+        },
+        {
+          "key": "whyChoose.badge",
+          "value": "Our फायदा"
+        },
+        {
+          "key": "whyChoose.features.guidance.title",
+          "value": "विशेषज्ञ मार्गदर्शन on WLA Operators"
+        },
+        {
+          "key": "whyChoose.features.support.description",
+          "value": "सभी WLA ब्रांडों में 4+ वर्षों के अनुभव के साथ, हम सब कुछ संभालते हैं: फ्रैंचाइज़ी ऑनबोर्डिंग, प्रशिक्षण और परिचालन सेटअप, स्थानीय प्रचार और ब्रांड दृश्यता, तकनीकी सहायता और समस्या निवारण, बैंक खाता निपटान, WLA ऑपरेटरों के साथ विवाद समाधान। हम एटीएम व्यवसाय सफलता के लिए आपका वन-स्टॉप समाधान हैं।"
+        }
+      ],
+      "missingTranslations": [
+        "testimonials.monthsLabel",
+        "testimonials.performance",
+        "services.cta"
+      ],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 26
+  },
+  "influencer.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "jobs.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "notFound.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "pixellpay.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "privacy.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "products.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "refund.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "startAtm.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  },
+  "terms.json": {
+    "issues": {
+      "englishTerms": [],
+      "mixedLanguage": [],
+      "missingTranslations": [],
+      "emptyValues": [],
+      "duplicateKeys": []
+    },
+    "count": 0
+  }
+}

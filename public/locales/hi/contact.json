@@ -3,18 +3,18 @@
   "subtitle": "हम आपकी सहायता के लिए यहाँ हैं",
   "phone": {
     "title": "फोन",
-    "hours": "Mon-Sat: 9 AM - 6 PM IST"
+    "hours": "सोम-शनि: 9 बजे - 6 बजे भारतीय समय"
   },
   "email": {
     "title": "ईमेल",
-    "response": "We उत्तर दें within 24 hours"
+    "response": "हम 24 घंटे के भीतर उत्तर देते हैं"
   },
   "office": {
     "title": "कार्यालय पता",
-    "address": "Bangalore, Karnataka, भारत"
+    "address": "बैंगलोर, कर्नाटक, भारत"
   },
   "form": {
-    "title": "भेजें us a Message",
-    "description": "Fill out the फॉर्म below and our टीम will get वापस to you soon"
+    "title": "हमें संदेश भेजें",
+    "description": "नीचे दिया गया फॉर्म भरें और हमारी टीम जल्द ही आपसे संपर्क करेगी"
   }
 }
