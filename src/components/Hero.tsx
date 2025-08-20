@@ -101,10 +101,10 @@ export const ValuePropsStrip = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-6 animate-fade-in">
-            Why ATM Business?
+            {t('whyAtm.heading', 'Why ATM Business?')}
           </h2>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto opacity-90">
-            Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies
+            {t('whyAtm.subtitle', 'Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies')}
           </p>
         </div>
 
@@ -116,32 +116,32 @@ export const ValuePropsStrip = () => {
               value: 50,
               suffix: '%',
               prefix: t('valueProps.stats.roi.prefix', 'upto '),
-              label: t('valueProps.stats.roi.label', 'Return On Investment'),
-              description: t('valueProps.stats.roi.description', 'All Payout Received by RBI Licensed WLA ATM Partners'),
+              label: t('whyAtm.roi.title', 'Return On Investment'),
+              description: t('whyAtm.roi.description', 'All Payout Received by RBI Licensed WLA ATM Partners'),
               gradient: 'from-emerald-500 to-teal-600'
             },
             {
               icon: <Users className="w-6 h-6" />,
               value: 15,
               suffix: t('valueProps.stats.penetration.suffix', ' Per Lac'),
-              label: t('valueProps.stats.penetration.label', 'ATM Penetration'),
-              description: t('valueProps.stats.penetration.description', 'Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low'),
+              label: t('whyAtm.penetration.title', 'ATM Penetration'),
+              description: t('whyAtm.penetration.description', 'Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low'),
               gradient: 'from-blue-500 to-cyan-600'
             },
             {
               icon: <DollarSign className="w-6 h-6" />,
               value: 75,
               suffix: t('valueProps.stats.cash.suffix', '% Cash'),
-              label: t('valueProps.stats.cash.label', 'Cash Circulation'),
-              description: t('valueProps.stats.cash.description', 'Indian Economy is still Largely Cash based'),
+              label: t('whyAtm.cash.title', 'Cash Circulation'),
+              description: t('whyAtm.cash.description', 'Indian Economy is still Largely Cash based'),
               gradient: 'from-orange-500 to-red-600'
             },
             {
               icon: <Building2 className="w-6 h-6" />,
               value: 90,
               suffix: t('valueProps.stats.potential.suffix', '% Potential'),
-              label: t('valueProps.stats.potential.label', 'Market Opportunity'),
-              description: t('valueProps.stats.potential.description', '90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs'),
+              label: t('whyAtm.market.title', 'Market Opportunity'),
+              description: t('whyAtm.market.description', '90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs'),
               gradient: 'from-purple-500 to-pink-600'
             }
           ].map((stat, index) => (

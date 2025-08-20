@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "ਮੁੱਖ ਪੇਜ",
+    "home": "ਮੁੱਖ ਪੰਨਾ",
     "aboutUs": "ਸਾਡੇ ਬਾਰੇ",
     "ourProducts": "ਸਾਡੇ ਉਤਪਾਦ",
     "becomeAgent": "ਏਜੰਟ ਬਣੋ",
@@ -8,7 +8,7 @@
     "becomeFranchise": "ਫਰੈਂਚਾਇਜ਼ੀ ਬਣੋ",
     "pixellpayAdvantage": "PixellPay ਦਾ ਫਾਇਦਾ",
     "contactUs": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
-    "joinUs": "ਸਾਡੇ ਨਾਲ ਸ਼ਾਮਲ",
+    "joinUs": "ਸਾਡੇ ਨਾਲ ਜੁੜੋ",
     "blog": "ਬਲੌਗ",
     "language": "ਭਾਸ਼ਾ"
   },
@@ -53,11 +53,7 @@
       "location": "ਬੰਗਲੌਰ, ਕਰਨਾਟਕ, ਭਾਰਤ"
     },
     "quickLinksTitle": "ਤੇਜ਼ ਲਿੰਕ",
-    "quickLinks": {
-      "whyAtm": "ਏਟੀਐਮ ਕਾਰੋਬਾਰ ਕਿਉਂ",
-      "services": "ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ",
-      "getStarted": "ਸ਼ੁਰੂ ਕਰੋ"
-    },
+    "quickLinks": "ਤੇਜ਼ ਲਿੰਕ",
     "links": {
       "submitLocation": "ATM ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
       "becomeFranchise": "ਫਰੈਂਚਾਇਜ਼ੀ ਬਣੋ",
@@ -74,12 +70,7 @@
       "technical": "ਤਕਨੀਕੀ ਸਹਾਇਤਾ"
     },
     "legalTitle": "ਕਾਨੂੰਨੀ",
-    "legal": {
-      "privacy": "ਪਰਾਈਵੇਟ ਨੀਤੀ",
-      "terms": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
-      "refund": "ਰਿਫੰਡ ਨੀਤੀ",
-      "accessibility": "ਪਹੁੰਚਯੋਗਤਾ ਬਿਆਨ"
-    },
+    "legal": "ਕਾਨੂੰਨੀ",
     "followUs": "ਸਾਡੇ ਪਿਛੇ ਆਓ",
     "newsletter": {
       "title": "ਅੱਪਡੇਟ ਰਹੋ",
@@ -92,7 +83,18 @@
     "partners": {
       "title": "ਸਾਡੇ ਸਾਥੀ",
       "trusted": "ਭਾਰਤ ਭਰ ਵਿੱਚ 500+ ਫ੍ਰੈਂਚਾਇਜ਼ੀ ਭਾਈਵਾਲਾਂ ਦੁਆਰਾ ਭਰੋਸੇਯੋਗ"
-    }
+    },
+    "ourServices": "ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ",
+    "submitLocation": "ਏਟੀਐਮ ਸਥਾਨ ਸਬਮਿਟ ਕਰੋ",
+    "becomeFranchise": "ਫਰੈਂਚਾਈਜ਼ੀ ਬਣੋ",
+    "agent": "ਏਜੰਟ",
+    "influencer": "ਪ੍ਰਭਾਵਸ਼ਾਲੀ",
+    "privacyPolicy": "ਗੋਪਨੀਯਤਾ ਨੀਤੀ",
+    "termsConditions": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
+    "refundPolicy": "ਰਿਫੰਡ ਨੀਤੀ",
+    "accessibilityStatement": "ਪਹੁੰਚਯੋਗਤਾ ਬਿਆਨ",
+    "aboutUs": "ਸਾਡੇ ਬਾਰੇ",
+    "contactUs": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"
   },
   "errors": {
     "pageNotFound": "ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ",
@@ -152,5 +154,8 @@
   "next": "[PA] Next",
   "previous": "[PA] Previous",
   "close": "[PA] Close",
-  "confirm": "[PA] Confirm"
+  "confirm": "[PA] Confirm",
+  "breadcrumb": {
+    "home": "ਮੁੱਖ ਪੰਨਾ"
+  }
 }

@@ -54,11 +54,7 @@
       "location": "Bangalore, Karnataka, India"
     },
     "quickLinksTitle": "Quick Links",
-    "quickLinks": {
-      "whyAtm": "Why ATM Business",
-      "services": "Our Services",
-      "getStarted": "Get Started"
-    },
+    "quickLinks": "Quick Links",
     "links": {
       "submitLocation": "Submit ATM Location",
       "becomeFranchise": "Become Franchise",
@@ -75,12 +71,7 @@
       "technical": "Technical Assistance"
     },
     "legalTitle": "Legal",
-    "legal": {
-      "privacy": "Privacy Policy",
-      "terms": "Terms & Conditions",
-      "refund": "Refund Policy",
-      "accessibility": "Accessibility Statement"
-    },
+    "legal": "Legal",
     "followUs": "Follow Us",
     "newsletter": {
       "title": "Stay Updated",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "Our Partners",
       "trusted": "Trusted by 500+ franchise partners across India"
-    }
+    },
+    "ourServices": "Our Services",
+    "submitLocation": "Submit ATM Location",
+    "becomeFranchise": "Become Franchise",
+    "agent": "Agent",
+    "influencer": "Influencer",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "refundPolicy": "Refund Policy",
+    "accessibilityStatement": "Accessibility Statement",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us"
   },
   "errors": {
     "pageNotFound": "Page Not Found",
@@ -191,5 +193,8 @@
   "next": "Next",
   "previous": "Previous",
   "close": "Close",
-  "confirm": "Confirm"
+  "confirm": "Confirm",
+  "breadcrumb": {
+    "home": "Home"
+  }
 }

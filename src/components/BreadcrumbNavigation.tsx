@@ -32,7 +32,7 @@ export function BreadcrumbNavigation({ customItems }: BreadcrumbNavigationProps)
     }
 
     const pathSegments = location.pathname.split('/').filter(Boolean);
-    const breadcrumbs: BreadcrumbItem[] = [{ label: 'Home', href: '/' }];
+    const breadcrumbs: BreadcrumbItem[] = [{ label: t('breadcrumb.home', 'Home'), href: '/' }];
     
     // Map of path segments to readable labels
     const pathLabels: Record<string, string> = {

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "ଘର",
+    "home": "ମୂଳ ପୃଷ୍ଠା",
     "aboutUs": "ଆମ ବିଷୟରେ",
     "ourProducts": "ଆମର ଉତ୍ପାଦଗୁଡିକ",
     "becomeAgent": "ଜଣେ ଏଜେଣ୍ଟ ହୁଅନ୍ତୁ",
@@ -8,7 +8,7 @@
     "becomeFranchise": "ଫ୍ରାଞ୍ଚାଇଜ୍ ହୁଅନ୍ତୁ",
     "pixellpayAdvantage": "PixellPay ସୁବିଧା",
     "contactUs": "ଆମ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ",
-    "joinUs": "ଆମ ସହିତ ଯୋଗଦାନ କରନ୍ତୁ",
+    "joinUs": "ଆମ ସହିତ ଯୋଗ ଦିଅନ୍ତୁ",
     "blog": "ବ୍ଲଗ୍",
     "language": "ଭାଷା"
   },
@@ -54,11 +54,7 @@
       "location": "ବାଙ୍ଗାଲୋର, କର୍ଣ୍ଣାଟକ, ଭାରତ"
     },
     "quickLinksTitle": "ଦୃତ ଲିଙ୍କ୍ଗୁଡିକ",
-    "quickLinks": {
-      "whyAtm": "କାହିଁକି ATM ବ୍ୟବସାୟ",
-      "services": "ଆମର ସେବାଗୁଡିକ",
-      "getStarted": "ଆରମ୍ଭ କରନ୍ତୁ"
-    },
+    "quickLinks": "ତ୍ୱରିତ ଲିଙ୍କ୍",
     "links": {
       "submitLocation": "ATM ସ୍ଥାନ ଦାଖଲ କରନ୍ତୁ",
       "becomeFranchise": "ଫ୍ରାଞ୍ଚାଇଜ୍ ହୁଅନ୍ତୁ",
@@ -75,12 +71,7 @@
       "technical": "ଯାନ୍ତ୍ରିକ ସହାୟତା"
     },
     "legalTitle": "ଆଇନଗତ",
-    "legal": {
-      "privacy": "ଗୋପନୀୟତା ନୀତି",
-      "terms": "ନିୟମ ଏବଂ ସର୍ତ୍ତାବଳୀ",
-      "refund": "ଫେରସ୍ତ ନୀତି",
-      "accessibility": "ଆକ୍ସେସିବିଲିଟୀ ବିବୃତ୍ତି"
-    },
+    "legal": "ଆଇନଗତ",
     "followUs": "ଆମକୁ ଅନୁସରଣ କରନ୍ତୁ",
     "newsletter": {
       "title": "ଅପଡେଟ୍ ରୁହନ୍ତୁ",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "ଆମର ସହଭାଗୀମାନେ",
       "trusted": "ସାରା ଭାରତରେ 500+ ଫ୍ରାଞ୍ଚାଇଜ୍ ପାର୍ଟନରଙ୍କ ଦ୍ୱାରା ବିଶ୍ୱସ୍ତ"
-    }
+    },
+    "ourServices": "ଆମର ସେବା",
+    "submitLocation": "ଏଟିଏମ୍ ସ୍ଥାନ ଦାଖଲ କରନ୍ତୁ",
+    "becomeFranchise": "ଫ୍ରାଞ୍ଚାଇଜି ହୁଅନ୍ତୁ",
+    "agent": "ଏଜେଣ୍ଟ",
+    "influencer": "ପ୍ରଭାବଶାଳୀ",
+    "privacyPolicy": "ଗୋପନୀୟତା ନୀତି",
+    "termsConditions": "ନିୟମ ଏବଂ ସର୍ତ୍ତ",
+    "refundPolicy": "ଫେରସ୍ତ ନୀତି",
+    "accessibilityStatement": "ପ୍ରବେଶ ଯୋଗ୍ୟତା ବିବୃତି",
+    "aboutUs": "ଆମ ବିଷୟରେ",
+    "contactUs": "ଆମକୁ ଯୋଗାଯୋଗ କରନ୍ତୁ"
   },
   "errors": {
     "pageNotFound": "ପୃଷ୍ଠା ମିଳିଲା ନାହିଁ",
@@ -191,5 +193,8 @@
   "next": "[OR] Next",
   "previous": "[OR] Previous",
   "close": "[OR] Close",
-  "confirm": "[OR] Confirm"
+  "confirm": "[OR] Confirm",
+  "breadcrumb": {
+    "home": "ମୂଳ ପୃଷ୍ଠା"
+  }
 }

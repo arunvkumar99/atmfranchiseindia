@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "വീട്",
+    "home": "ഹോം",
     "aboutUs": "ഞങ്ങളേക്കുറിച്ച്",
     "ourProducts": "ഞങ്ങളുടെ ഉല്പന്നങ്ങൾ",
     "becomeAgent": "ഒരു ഏജന്റാകുക",
@@ -8,7 +8,7 @@
     "becomeFranchise": "ഫ്രാഞ്ചൈസി ആകുക",
     "pixellpayAdvantage": "പിക്സൽപേ പ്രയോജനം",
     "contactUs": "ഞങ്ങളെ സമീപിക്കുക",
-    "joinUs": "ഞങ്ങൾക്കൊപ്പം ചേരുക",
+    "joinUs": "ഞങ്ങളോടൊപ്പം ചേരുക",
     "blog": "ബ്ലോഗ്",
     "language": "ഭാഷ"
   },
@@ -54,11 +54,7 @@
       "location": "ബാംഗ്ലൂർ, കർണാടക, ഇന്ത്യ"
     },
     "quickLinksTitle": "ദ്രുത ലിങ്കുകൾ",
-    "quickLinks": {
-      "whyAtm": "എന്തുകൊണ്ട് എടിഎം ബിസിനസ്സ്",
-      "services": "ഞങ്ങളുടെ സേവനങ്ങൾ",
-      "getStarted": "ആരംഭിക്കുക"
-    },
+    "quickLinks": "വേഗത്തിലുള്ള ലിങ്കുകൾ",
     "links": {
       "submitLocation": "എടിഎം ലൊക്കേഷൻ സമർപ്പിക്കുക",
       "becomeFranchise": "ഫ്രാഞ്ചൈസി ആകുക",
@@ -75,12 +71,7 @@
       "technical": "സാങ്കേതിക സഹായം"
     },
     "legalTitle": "നിയമപരമായ",
-    "legal": {
-      "privacy": "സ്വകാര്യതാ നയം",
-      "terms": "നിബന്ധനകളും വ്യവസ്ഥകളും",
-      "refund": "റീഫണ്ട് നയം",
-      "accessibility": "പ്രവേശനക്ഷമത പ്രസ്താവന"
-    },
+    "legal": "നിയമപരമായ",
     "followUs": "ഞങ്ങളെ പിന്തുടരുക",
     "newsletter": {
       "title": "അപ്ഡേറ്റ് ചെയ്യാം",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "ഞങ്ങളുടെ പങ്കാളികൾ",
       "trusted": "ഇന്ത്യയിലുടനീളമുള്ള 500+ ഫ്രാഞ്ചൈസി പങ്കാളികൾ വിശ്വസിക്കുന്നു."
-    }
+    },
+    "ourServices": "ഞങ്ങളുടെ സേവനങ്ങൾ",
+    "submitLocation": "എടിഎം സ്ഥലം സമർപ്പിക്കുക",
+    "becomeFranchise": "ഫ്രാഞ്ചൈസി ആകുക",
+    "agent": "ഏജന്റ്",
+    "influencer": "സ്വാധീനക്കാരൻ",
+    "privacyPolicy": "സ്വകാര്യതാ നയം",
+    "termsConditions": "നിബന്ധനകളും വ്യവസ്ഥകളും",
+    "refundPolicy": "റീഫണ്ട് നയം",
+    "accessibilityStatement": "പ്രവേശനക്ഷമത പ്രസ്താവന",
+    "aboutUs": "ഞങ്ങളെക്കുറിച്ച്",
+    "contactUs": "ഞങ്ങളെ ബന്ധപ്പെടുക"
   },
   "errors": {
     "pageNotFound": "പേജ് കണ്ടെത്തിയില്ല",
@@ -191,5 +193,8 @@
   "next": "[ML] Next",
   "previous": "[ML] Previous",
   "close": "[ML] Close",
-  "confirm": "[ML] Confirm"
+  "confirm": "[ML] Confirm",
+  "breadcrumb": {
+    "home": "ഹോം"
+  }
 }

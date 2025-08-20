@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "গৃহ",
+    "home": "মূল পৃষ্ঠা",
     "aboutUs": "আমাৰ বিষয়ে",
     "ourProducts": "আমাৰ প্ৰডাক্টসমূহ",
     "becomeAgent": "এজেন্ট হৈ যাওক",
@@ -8,7 +8,7 @@
     "becomeFranchise": "ফ্ৰেঞ্চাইজি হৈ যাওক",
     "pixellpayAdvantage": "PixellPay সুবিধা",
     "contactUs": "আমাৰ সৈতে যোগাযোগ কৰক",
-    "joinUs": "আমাৰ সৈতে যোগদান কৰক",
+    "joinUs": "আমাৰ লগত যোগদান কৰক",
     "blog": "ব্লগ",
     "language": "ভাষা"
   },
@@ -54,11 +54,7 @@
       "location": "বাংগালুৰু, কৰ্ণাটক, ভাৰত"
     },
     "quickLinksTitle": "দ্ৰুত লিংক",
-    "quickLinks": {
-      "whyAtm": "কিয় এ টি এম ব্যৱসায়",
-      "services": "আমাৰ সেৱাসমূহ",
-      "getStarted": "আৰম্ভ কৰক"
-    },
+    "quickLinks": "দ্ৰুত লিংক",
     "links": {
       "submitLocation": "এটিএমৰ স্থান জমা দিয়ক",
       "becomeFranchise": "ফ্ৰেঞ্চাইজি হৈ যাওক",
@@ -75,12 +71,7 @@
       "technical": "কাৰিকৰী সহায়"
     },
     "legalTitle": "আইনী",
-    "legal": {
-      "privacy": "গোপনীয়তা নীতি",
-      "terms": "চৰ্ত আৰু নিয়ম",
-      "refund": "ৰিফাণ্ড নীতি",
-      "accessibility": "অভিগম্যতা বিবৃতি"
-    },
+    "legal": "আইনী",
     "followUs": "আমাক অনুসৰণ কৰক",
     "newsletter": {
       "title": "আপডেট হৈ থাকক",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "আমাৰ অংশীদাৰসকল",
       "trusted": "সমগ্ৰ ভাৰতৰ ৫০০+ ফ্ৰেঞ্চাইজি অংশীদাৰৰ বিশ্বাস"
-    }
+    },
+    "ourServices": "আমাৰ সেৱাসমূহ",
+    "submitLocation": "এটিএম স্থান জমা দিয়ক",
+    "becomeFranchise": "ফ্ৰেঞ্চাইজী হওক",
+    "agent": "এজেণ্ট",
+    "influencer": "প্ৰভাৱশালী",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsConditions": "নিয়ম আৰু চৰ্তসমূহ",
+    "refundPolicy": "ধন ঘূৰাই দিয়া নীতি",
+    "accessibilityStatement": "প্ৰৱেশযোগ্যতা বিবৃতি",
+    "aboutUs": "আমাৰ বিষয়ে",
+    "contactUs": "আমাৰ সৈতে যোগাযোগ কৰক"
   },
   "errors": {
     "pageNotFound": "পৃষ্ঠা পোৱা নগ'ল",
@@ -191,5 +193,8 @@
   "next": "[AS] Next",
   "previous": "[AS] Previous",
   "close": "[AS] Close",
-  "confirm": "[AS] Confirm"
+  "confirm": "[AS] Confirm",
+  "breadcrumb": {
+    "home": "মূল পৃষ্ঠা"
+  }
 }

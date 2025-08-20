@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "گھر",
+    "home": "ہوم پیج",
     "aboutUs": "ہمارے بارے میں",
     "ourProducts": "ہماری مصنوعات",
     "becomeAgent": "ایجنٹ بنیں۔",
@@ -8,7 +8,7 @@
     "becomeFranchise": "فرنچائز بنیں۔",
     "pixellpayAdvantage": "PixellPay کا فائدہ",
     "contactUs": "ہم سے رابطہ کریں۔",
-    "joinUs": "ہمارے ساتھ شامل ہوں۔",
+    "joinUs": "ہمارے ساتھ شامل ہوں",
     "blog": "بلاگ",
     "language": "زبان"
   },
@@ -53,11 +53,7 @@
       "location": "بنگلور، کرناٹک، انڈیا"
     },
     "quickLinksTitle": "فوری لنکس",
-    "quickLinks": {
-      "whyAtm": "اے ٹی ایم کاروبار کیوں؟",
-      "services": "ہماری خدمات",
-      "getStarted": "شروع کریں"
-    },
+    "quickLinks": "فوری لنکس",
     "links": {
       "submitLocation": "اے ٹی ایم لوکیشن جمع کروائیں۔",
       "becomeFranchise": "فرنچائز بنیں۔",
@@ -74,12 +70,7 @@
       "technical": "تکنیکی مدد"
     },
     "legalTitle": "قانونی",
-    "legal": {
-      "privacy": "رازداری کی پالیسی",
-      "terms": "شرائط و ضوابط",
-      "refund": "رقم کی واپسی کی پالیسی",
-      "accessibility": "رسائی کا بیان"
-    },
+    "legal": "قانونی",
     "followUs": "ہمیں فالو کریں۔",
     "newsletter": {
       "title": "اپ ڈیٹ رہیں",
@@ -92,7 +83,18 @@
     "partners": {
       "title": "ہمارے پارٹنرز",
       "trusted": "پورے ہندوستان میں 500+ فرنچائز پارٹنرز کے ذریعے بھروسہ مند"
-    }
+    },
+    "ourServices": "ہماری خدمات",
+    "submitLocation": "اے ٹی ایم مقام جمع کریں",
+    "becomeFranchise": "فرنچائز بنیں",
+    "agent": "ایجنٹ",
+    "influencer": "اثر و رسوخ والا",
+    "privacyPolicy": "رازداری کی پالیسی",
+    "termsConditions": "شرائط و ضوابط",
+    "refundPolicy": "رقم کی واپسی کی پالیسی",
+    "accessibilityStatement": "رسائی کا بیان",
+    "aboutUs": "ہمارے بارے میں",
+    "contactUs": "ہم سے رابطہ کریں"
   },
   "errors": {
     "pageNotFound": "صفحہ نہیں ملا",
@@ -152,5 +154,8 @@
   "next": "[UR] Next",
   "previous": "[UR] Previous",
   "close": "[UR] Close",
-  "confirm": "[UR] Confirm"
+  "confirm": "[UR] Confirm",
+  "breadcrumb": {
+    "home": "ہوم پیج"
+  }
 }

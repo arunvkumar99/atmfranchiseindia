@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "হোম",
+    "home": "মূল পাতা",
     "aboutUs": "আমাদের সম্পর্কে",
     "ourProducts": "আমাদের পণ্য",
     "becomeAgent": "এজেন্ট হন",
@@ -8,7 +8,7 @@
     "becomeFranchise": "ফ্র্যাঞ্চাইজি হন",
     "pixellpayAdvantage": "পিক্সেলপে সুবিধা",
     "contactUs": "আমাদের সাথে যোগাযোগ করুন",
-    "joinUs": "আমাদের সাথে যোগদান করুন",
+    "joinUs": "আমাদের সাথে যোগ দিন",
     "blog": "ব্লগ",
     "language": "ভাষা"
   },
@@ -54,11 +54,7 @@
       "location": "বেঙ্গালুরু, কর্ণাটক, ভারত"
     },
     "quickLinksTitle": "দ্রুত লিংক",
-    "quickLinks": {
-      "whyAtm": "কেন এটিএম ব্যবসা",
-      "services": "আমাদের সেবাসমূহ",
-      "getStarted": "শুরু করুন"
-    },
+    "quickLinks": "দ্রুত লিঙ্ক",
     "links": {
       "submitLocation": "এটিএম লোকেশন জমা দিন",
       "becomeFranchise": "ফ্র্যাঞ্চাইজি হন",
@@ -75,12 +71,7 @@
       "technical": "কারিগরি সহায়তা"
     },
     "legalTitle": "আইনি",
-    "legal": {
-      "privacy": "গোপনীয়তা নীতি",
-      "terms": "শর্তাবলী",
-      "refund": "রিফান্ড নীতি",
-      "accessibility": "অ্যাক্সেসিবিলিটি স্টেটমেন্ট"
-    },
+    "legal": "আইনি",
     "followUs": "আমাদের অনুসরণ করো",
     "newsletter": {
       "title": "হালনাগাদ থাকা",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "আমাদের অংশীদাররা",
       "trusted": "ভারত জুড়ে ৫০০+ ফ্র্যাঞ্চাইজি অংশীদারদের দ্বারা বিশ্বস্ত"
-    }
+    },
+    "ourServices": "আমাদের পরিষেবা",
+    "submitLocation": "এটিএম অবস্থান জমা দিন",
+    "becomeFranchise": "ফ্র্যাঞ্চাইজি হন",
+    "agent": "এজেন্ট",
+    "influencer": "প্রভাবশালী",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsConditions": "শর্তাবলী",
+    "refundPolicy": "ফেরত নীতি",
+    "accessibilityStatement": "অ্যাক্সেসিবিলিটি বিবৃতি",
+    "aboutUs": "আমাদের সম্পর্কে",
+    "contactUs": "যোগাযোগ করুন"
   },
   "errors": {
     "pageNotFound": "পৃষ্ঠাটি খুঁজে পাওয়া যায়নি",
@@ -191,5 +193,8 @@
   "next": "[BN] Next",
   "previous": "[BN] Previous",
   "close": "[BN] Close",
-  "confirm": "[BN] Confirm"
+  "confirm": "[BN] Confirm",
+  "breadcrumb": {
+    "home": "মূল পাতা"
+  }
 }

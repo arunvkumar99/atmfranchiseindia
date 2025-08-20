@@ -3,15 +3,15 @@ import { TrendingUp, Users, Banknote, Target } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 const WhyATM = () => {
-  const { t } = useTranslation('franchise');
+  const { t } = useTranslation('home');
   
   const stats = [
     {
       icon: TrendingUp,
       value: "50%",
       prefix: t('whyAtm.stats.roi.prefix', 'upto'),
-      label: t('whyAtm.stats.roi.label', 'Return On Investment'),
-      description: t('whyAtm.stats.roi.description', 'All Payout Received by RBI Licensed WLA ATM Partners'),
+      label: t('whyAtm.roi.title', 'Return On Investment'),
+      description: t('whyAtm.roi.description', 'All Payout Received by RBI Licensed WLA ATM Partners'),
       gradient: "bg-gradient-accent-blue"
     },
     {
@@ -19,8 +19,8 @@ const WhyATM = () => {
       value: "15",
       prefix: "",
       suffix: t('whyAtm.stats.penetration.suffix', 'Per Lac'),
-      label: t('whyAtm.stats.penetration.label', 'Only 15 ATMs per 1Lac People'),
-      description: t('whyAtm.stats.penetration.description', 'ATM Penetration in India is very Low'),
+      label: t('whyAtm.penetration.title', 'ATM Penetration'),
+      description: t('whyAtm.penetration.description', 'Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low'),
       gradient: "bg-gradient-accent-purple"
     },
     {
@@ -28,8 +28,8 @@ const WhyATM = () => {
       value: "75%",
       prefix: "",
       suffix: t('whyAtm.stats.cash.suffix', 'Cash'),
-      label: t('whyAtm.stats.cash.label', 'Cash Circulation'),
-      description: t('whyAtm.stats.cash.description', 'Indian Economy is still Largely Cash based'),
+      label: t('whyAtm.cash.title', 'Cash Circulation'),
+      description: t('whyAtm.cash.description', 'Indian Economy is still Largely Cash based'),
       gradient: "bg-gradient-accent-green"
     },
     {
@@ -37,8 +37,8 @@ const WhyATM = () => {
       value: "90%",
       prefix: "",
       suffix: t('whyAtm.stats.potential.suffix', 'Potential'),
-      label: t('whyAtm.stats.potential.label', '90% of Banks Offsite ATMs are closing down'),
-      description: t('whyAtm.stats.potential.description', 'Banks Offsite ATM Closure creates a Large market for ATMs'),
+      label: t('whyAtm.market.title', 'Market Opportunity'),
+      description: t('whyAtm.market.description', '90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs'),
       gradient: "bg-gradient-accent-blue"
     }
   ];
@@ -56,7 +56,7 @@ const WhyATM = () => {
         {/* Header */}
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-4xl md:text-6xl font-black text-white mb-8 leading-tight">
-            {t('whyAtm.title', 'Why ATM Business')}
+            {t('whyAtm.heading', 'Why ATM Business?')}
             <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
               ?
             </span>

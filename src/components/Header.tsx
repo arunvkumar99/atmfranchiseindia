@@ -276,7 +276,7 @@ const Header = () => {
               
               {/* Join Us button */}
               <Button className="bg-gradient-primary text-primary-foreground hover:bg-gradient-accent-crimson transition-all duration-300 min-h-[44px] px-lg" asChild>
-                <Link to="/join-us">{t('cta.joinUs', 'Join Us')}</Link>
+                <Link to="/join-us">{t('nav.joinUs')}</Link>
               </Button>
               
               {/* Search Button */}
@@ -404,7 +404,7 @@ const Header = () => {
                 
                 {/* Join Us button for mobile */}
                 <Button className="bg-gradient-primary text-primary-foreground hover:bg-gradient-accent-crimson transition-all duration-300 min-h-[44px] px-lg justify-start" asChild>
-                  <Link to="/join-us" onClick={() => setIsMenuOpen(false)}>{t('cta.joinUs', 'Join Us')}</Link>
+                  <Link to="/join-us" onClick={() => setIsMenuOpen(false)}>{t('nav.joinUs')}</Link>
                 </Button>
               </div>
             </div>

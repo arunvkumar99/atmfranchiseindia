@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "హొమ్ పేజ్",
+    "home": "హోమ్",
     "aboutUs": "మా గురించి",
     "ourProducts": "మా ఉత్పత్తులు",
     "becomeAgent": "ఏజెంట్ అవ్వండి",
@@ -53,11 +53,7 @@
       "location": "బెంగళూరు, కర్ణాటక, భారతదేశం"
     },
     "quickLinksTitle": "త్వరిత లింకులు",
-    "quickLinks": {
-      "whyAtm": "ఎందుకు ATM వ్యాపారం",
-      "services": "మా సేవలు",
-      "getStarted": "ప్రారంభించడానికి"
-    },
+    "quickLinks": "త్వరిత లింక్‌లు",
     "links": {
       "submitLocation": "ATM స్థానాన్ని సమర్పించండి",
       "becomeFranchise": "ఫ్రాంచైజ్ అవ్వండి",
@@ -74,12 +70,7 @@
       "technical": "సాంకేతిక సహాయం"
     },
     "legalTitle": "చట్టపరమైన",
-    "legal": {
-      "privacy": "గోప్యతా విధానం",
-      "terms": "నిబంధనలు & షరతులు",
-      "refund": "రీఫండ్ పాలసీ",
-      "accessibility": "యాక్సెసిబిలిటీ స్టేట్‌మెంట్"
-    },
+    "legal": "చట్టపరమైన",
     "followUs": "మమ్మల్ని అనుసరించు",
     "newsletter": {
       "title": "ఉండండి",
@@ -92,7 +83,18 @@
     "partners": {
       "title": "మా భాగస్వాములు",
       "trusted": "భారతదేశం అంతటా 500+ ఫ్రాంచైజ్ భాగస్వాములచే విశ్వసించబడింది"
-    }
+    },
+    "ourServices": "మా సేవలు",
+    "submitLocation": "ATM స్థానాన్ని సమర్పించండి",
+    "becomeFranchise": "ఫ్రాంచైజీ అవ్వండి",
+    "agent": "ఏజెంట్",
+    "influencer": "ప్రభావశాలి",
+    "privacyPolicy": "గోప్యతా విధానం",
+    "termsConditions": "నిబంధనలు & షరతులు",
+    "refundPolicy": "రీఫండ్ విధానం",
+    "accessibilityStatement": "యాక్సెసిబిలిటీ ప్రకటన",
+    "aboutUs": "మా గురించి",
+    "contactUs": "మమ్మల్ని సంప్రదించండి"
   },
   "errors": {
     "pageNotFound": "పేజీ కనుగొనబడలేదు",
@@ -152,5 +154,8 @@
   "next": "[TE] Next",
   "previous": "[TE] Previous",
   "close": "[TE] Close",
-  "confirm": "[TE] Confirm"
+  "confirm": "[TE] Confirm",
+  "breadcrumb": {
+    "home": "హోమ్"
+  }
 }

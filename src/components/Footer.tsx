@@ -66,26 +66,26 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-bold text-lg mb-6">{t('quickLinksTitle', 'Quick Links')}</h4>
+            <h4 className="font-bold text-lg mb-6">{t('footer.quickLinks', 'Quick Links')}</h4>
             <div className="space-y-3">
               <Link to="/submit-location" className="block text-background/80 hover:text-primary transition-colors">
-                {t('links.submitLocation', 'Submit ATM Location')}
+                {t('footer.submitLocation', 'Submit ATM Location')}
               </Link>
               <Link to="/become-franchise" className="block text-background/80 hover:text-primary transition-colors">
-                {t('links.becomeFranchise', 'Become Franchise')}
+                {t('footer.becomeFranchise', 'Become Franchise')}
               </Link>
               <Link to="/agent" className="block text-background/80 hover:text-primary transition-colors">
-                {t('links.agent', 'Agent')}
+                {t('footer.agent', 'Agent')}
               </Link>
               <Link to="/influencer" className="block text-background/80 hover:text-primary transition-colors">
-                {t('links.influencer', 'Influencer')}
+                {t('footer.influencer', 'Influencer')}
               </Link>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="font-bold text-lg mb-6">{t('servicesTitle', 'Our Services')}</h4>
+            <h4 className="font-bold text-lg mb-6">{t('footer.ourServices', 'Our Services')}</h4>
             <div className="space-y-3">
               {services.map((service) => (
                 <div key={service} className="text-background/80 text-sm">
@@ -97,19 +97,19 @@ const Footer = () => {
 
           {/* Legal */}
           <div>
-            <h4 className="font-bold text-lg mb-6">{t('legalTitle', 'Legal')}</h4>
+            <h4 className="font-bold text-lg mb-6">{t('footer.legal', 'Legal')}</h4>
             <div className="space-y-3">
               <Link to="/privacy-policy" className="block text-background/80 hover:text-primary transition-colors">
-                {t('legal.privacy', 'Privacy Policy')}
+                {t('footer.privacyPolicy', 'Privacy Policy')}
               </Link>
               <Link to="/terms-conditions" className="block text-background/80 hover:text-primary transition-colors">
-                {t('legal.terms', 'Terms & Conditions')}
+                {t('footer.termsConditions', 'Terms & Conditions')}
               </Link>
               <Link to="/refund-policy" className="block text-background/80 hover:text-primary transition-colors">
-                {t('legal.refund', 'Refund Policy')}
+                {t('footer.refundPolicy', 'Refund Policy')}
               </Link>
               <Link to="/accessibility-statement" className="block text-background/80 hover:text-primary transition-colors">
-                {t('legal.accessibility', 'Accessibility Statement')}
+                {t('footer.accessibilityStatement', 'Accessibility Statement')}
               </Link>
             </div>
           </div>
@@ -124,8 +124,8 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-background/70">
-              <Link to="/about-us" className="hover:text-accent transition-colors font-body">{t('bottomLinks.about', 'About Us')}</Link>
-              <Link to="/contact-us" className="hover:text-accent transition-colors font-body">{t('bottomLinks.contact', 'Contact Us')}</Link>
+              <Link to="/about-us" className="hover:text-accent transition-colors font-body">{t('footer.aboutUs', 'About Us')}</Link>
+              <Link to="/contact-us" className="hover:text-accent transition-colors font-body">{t('footer.contactUs', 'Contact Us')}</Link>
             </div>
           </div>
         </div>

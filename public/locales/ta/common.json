@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "முகப்புப் பக்கம்",
+    "home": "முகப்பு",
     "aboutUs": "எங்களை பற்றி",
     "ourProducts": "எங்கள் தயாரிப்புகள்",
     "becomeAgent": "முகவராகுங்கள்",
@@ -8,7 +8,7 @@
     "becomeFranchise": "உரிமையாளராகுங்கள்",
     "pixellpayAdvantage": "PixellPay நன்மை",
     "contactUs": "எங்களை தொடர்பு கொள்ள",
-    "joinUs": "எங்களுடன் சேருங்கள்",
+    "joinUs": "எங்களுடன் சேரவும்",
     "blog": "வலைப்பதிவு",
     "language": "மொழி"
   },
@@ -53,11 +53,7 @@
       "location": "பெங்களூரு, கர்நாடகா, இந்தியா"
     },
     "quickLinksTitle": "விரைவு இணைப்புகள்",
-    "quickLinks": {
-      "whyAtm": "ஏன் ஏடிஎம் வணிகம்",
-      "services": "எங்கள் சேவைகள்",
-      "getStarted": "தொடங்குங்கள்"
-    },
+    "quickLinks": "விரைவு இணைப்புகள்",
     "links": {
       "submitLocation": "ஏடிஎம் இருப்பிடத்தைச் சமர்ப்பிக்கவும்",
       "becomeFranchise": "உரிமையாளராகுங்கள்",
@@ -74,12 +70,7 @@
       "technical": "தொழில்நுட்ப உதவி"
     },
     "legalTitle": "சட்டம் சார்ந்தது",
-    "legal": {
-      "privacy": "தனியுரிமைக் கொள்கை",
-      "terms": "விதிமுறைகளும் நிபந்தனைகளும்",
-      "refund": "பணத்தைத் திரும்பப்பெறும் கொள்கை",
-      "accessibility": "அணுகல்தன்மை அறிக்கை"
-    },
+    "legal": "சட்டபூர்வ",
     "followUs": "எங்களை பின்தொடரவும்",
     "newsletter": {
       "title": "தொடர்ந்து புதுப்பிக்கவும்",
@@ -92,7 +83,18 @@
     "partners": {
       "title": "எங்கள் கூட்டாளர்கள்",
       "trusted": "இந்தியா முழுவதும் 500+ உரிமையாளர் கூட்டாளர்களால் நம்பப்படுகிறது"
-    }
+    },
+    "ourServices": "எங்கள் சேவைகள்",
+    "submitLocation": "ஏடிஎம் இடத்தை சமர்ப்பிக்கவும்",
+    "becomeFranchise": "ஃபிரான்சைஸ் ஆகுங்கள்",
+    "agent": "முகவர்",
+    "influencer": "செல்வாக்கு மிக்கவர்",
+    "privacyPolicy": "தனியுரிமை கொள்கை",
+    "termsConditions": "விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+    "refundPolicy": "பணத்திருப்பி கொள்கை",
+    "accessibilityStatement": "அணுகல் அறிக்கை",
+    "aboutUs": "எங்களை பற்றி",
+    "contactUs": "எங்களை தொடர்பு கொள்ள"
   },
   "errors": {
     "pageNotFound": "பக்கம் கிடைக்கவில்லை",
@@ -152,5 +154,8 @@
   "next": "[TA] Next",
   "previous": "[TA] Previous",
   "close": "[TA] Close",
-  "confirm": "[TA] Confirm"
+  "confirm": "[TA] Confirm",
+  "breadcrumb": {
+    "home": "முகப்பு"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "ઘર",
+    "home": "મુખ્ય પૃષ્ઠ",
     "aboutUs": "અમારા વિશે",
     "ourProducts": "અમારા ઉત્પાદનો",
     "becomeAgent": "એજન્ટ બનો",
@@ -54,11 +54,7 @@
       "location": "બેંગ્લોર, કર્ણાટક, ભારત"
     },
     "quickLinksTitle": "ઝડપી લિંક્સ",
-    "quickLinks": {
-      "whyAtm": "એટીએમ વ્યવસાય શા માટે?",
-      "services": "અમારી સેવાઓ",
-      "getStarted": "શરૂ કરો"
-    },
+    "quickLinks": "ઝડપી લિંક્સ",
     "links": {
       "submitLocation": "ATM સ્થાન સબમિટ કરો",
       "becomeFranchise": "ફ્રેન્ચાઇઝ બનો",
@@ -75,12 +71,7 @@
       "technical": "ટેકનિકલ સહાય"
     },
     "legalTitle": "કાનૂની",
-    "legal": {
-      "privacy": "ગોપનીયતા નીતિ",
-      "terms": "શરતો અને નિયમો",
-      "refund": "રિફંડ નીતિ",
-      "accessibility": "સુલભતા નિવેદન"
-    },
+    "legal": "કાનૂની",
     "followUs": "અમને અનુસરો",
     "newsletter": {
       "title": "અપડેટ રહો",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "અમારા ભાગીદારો",
       "trusted": "ભારતભરના 500+ ફ્રેન્ચાઇઝ ભાગીદારો દ્વારા વિશ્વસનીય"
-    }
+    },
+    "ourServices": "અમારી સેવાઓ",
+    "submitLocation": "એટીએમ સ્થાન સબમિટ કરો",
+    "becomeFranchise": "ફ્રેન્ચાઇઝી બનો",
+    "agent": "એજન્ટ",
+    "influencer": "પ્રભાવશાળી",
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "termsConditions": "નિયમો અને શરતો",
+    "refundPolicy": "રિફંડ નીતિ",
+    "accessibilityStatement": "સુલભતા નિવેદન",
+    "aboutUs": "અમારા વિશે",
+    "contactUs": "અમારો સંપર્ક કરો"
   },
   "errors": {
     "pageNotFound": "પેજ મળ્યું નથી",
@@ -191,5 +193,8 @@
   "next": "[GU] Next",
   "previous": "[GU] Previous",
   "close": "[GU] Close",
-  "confirm": "[GU] Confirm"
+  "confirm": "[GU] Confirm",
+  "breadcrumb": {
+    "home": "મુખ્ય પૃષ્ઠ"
+  }
 }

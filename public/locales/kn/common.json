@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "ಮರಳಿ ಪ್ರಥಮ ಪುಟಕ್ಕೆ",
+    "home": "ಮುಖಪುಟ",
     "aboutUs": "ನಮ್ಮ ಬಗ್ಗೆ",
     "ourProducts": "ನಮ್ಮ ಉತ್ಪನ್ನಗಳು",
     "becomeAgent": "ಏಜೆಂಟ್ ಆಗಿ",
@@ -54,11 +54,7 @@
       "location": "ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ, ಭಾರತ"
     },
     "quickLinksTitle": "ತ್ವರಿತ ಲಿಂಕ್‌ಗಳು",
-    "quickLinks": {
-      "whyAtm": "ಎಟಿಎಂ ವ್ಯವಹಾರ ಏಕೆ?",
-      "services": "ನಮ್ಮ ಸೇವೆಗಳು",
-      "getStarted": "ಪ್ರಾರಂಭಿಸಲು ಒತ್ತಿ"
-    },
+    "quickLinks": "ತ್ವರಿತ ಲಿಂಕ್‌ಗಳು",
     "links": {
       "submitLocation": "ಎಟಿಎಂ ಸ್ಥಳವನ್ನು ಸಲ್ಲಿಸಿ",
       "becomeFranchise": "ಫ್ರ್ಯಾಂಚೈಸ್ ಆಗಿ",
@@ -75,12 +71,7 @@
       "technical": "ತಾಂತ್ರಿಕ ನೆರವು"
     },
     "legalTitle": "ಕಾನೂನುಬದ್ಧ",
-    "legal": {
-      "privacy": "ಗೌಪ್ಯತಾ ನೀತಿ",
-      "terms": "ನಿಯಮ ಮತ್ತು ಶರತ್ತುಗಳು",
-      "refund": "ಮರುಪಾವತಿ ನೀತಿ",
-      "accessibility": "ಪ್ರವೇಶಿಸುವಿಕೆ ಹೇಳಿಕೆ"
-    },
+    "legal": "ಕಾನೂನು",
     "followUs": "ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ",
     "newsletter": {
       "title": "ನವೀಕರಿಸಿ",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "ನಮ್ಮ ಪಾಲುದಾರರು",
       "trusted": "ಭಾರತದಾದ್ಯಂತ 500+ ಫ್ರ್ಯಾಂಚೈಸ್ ಪಾಲುದಾರರಿಂದ ವಿಶ್ವಾಸಾರ್ಹ"
-    }
+    },
+    "ourServices": "ನಮ್ಮ ಸೇವೆಗಳು",
+    "submitLocation": "ಎಟಿಎಂ ಸ್ಥಳವನ್ನು ಸಲ್ಲಿಸಿ",
+    "becomeFranchise": "ಫ್ರಾಂಚೈಸಿ ಆಗಿ",
+    "agent": "ಏಜೆಂಟ್",
+    "influencer": "ಪ್ರಭಾವಶಾಲಿ",
+    "privacyPolicy": "ಗೌಪ್ಯತಾ ನೀತಿ",
+    "termsConditions": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು",
+    "refundPolicy": "ಮರುಪಾವತಿ ನೀತಿ",
+    "accessibilityStatement": "ಪ್ರವೇಶಿಸುವಿಕೆ ಹೇಳಿಕೆ",
+    "aboutUs": "ನಮ್ಮ ಬಗ್ಗೆ",
+    "contactUs": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ"
   },
   "errors": {
     "pageNotFound": "ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ",
@@ -191,5 +193,8 @@
   "next": "[KN] Next",
   "previous": "[KN] Previous",
   "close": "[KN] Close",
-  "confirm": "[KN] Confirm"
+  "confirm": "[KN] Confirm",
+  "breadcrumb": {
+    "home": "ಮುಖಪುಟ"
+  }
 }

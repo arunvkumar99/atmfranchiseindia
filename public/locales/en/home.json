@@ -199,6 +199,23 @@
         "branches": "Bank Branch Closures"
       },
       "investment": "Investment Range: ₹2-5 Lakhs"
+    },
+    "heading": "Why ATM Business?",
+    "roi": {
+      "title": "Return On Investment",
+      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+    },
+    "penetration": {
+      "title": "ATM Penetration",
+      "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+    },
+    "cash": {
+      "title": "Cash Circulation",
+      "description": "Indian Economy is still Largely Cash based"
+    },
+    "market": {
+      "title": "Market Opportunity",
+      "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
     }
   },
   "faq": {
@@ -397,5 +414,13 @@
   },
   "alt": {
     "atmInIndianSetting": "ATM in Indian semi-urban setting"
+  },
+  "trust": {
+    "heading": "Trusted by Businesses Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM business operations",
+    "activePartners": "Active Partners",
+    "uptimeGuarantee": "Uptime Guarantee",
+    "industryExperience": "Industry Experience",
+    "customerSupport": "Customer Support"
   }
 }

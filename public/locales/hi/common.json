@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "घर",
+    "home": "मुख्य पृष्ठ",
     "aboutUs": "हमारे बारे में",
     "ourProducts": "हमारे उत्पाद",
     "becomeAgent": "एजेंट बनें",
@@ -89,7 +89,7 @@
     "submitLocation": "एटीएम स्थान सबमिट करें",
     "becomeFranchise": "फ्रैंचाइज़ी बनें",
     "agent": "एजेंट",
-    "influencer": "प्रभावकारी",
+    "influencer": "प्रभावशाली",
     "privacyPolicy": "गोपनीयता नीति",
     "termsConditions": "नियम और शर्तें",
     "refundPolicy": "धनवापसी नीति",
@@ -97,7 +97,8 @@
     "aboutUs": "हमारे बारे में",
     "contactUs": "संपर्क करें",
     "tagline": "विश्वसनीय व्यावसायिक भागीदार",
-    "description": "पारदर्शी एटीएम फ्रैंचाइज़ी अवसरों के साथ ग्रामीण उद्यमियों को सशक्त बनाना। भारत भर में समुदायों की सेवा करते हुए निष्क्रिय आय धाराएं बनाना।"
+    "description": "पारदर्शी एटीएम फ्रैंचाइज़ी अवसरों के साथ ग्रामीण उद्यमियों को सशक्त बनाना। भारत भर में समुदायों की सेवा करते हुए निष्क्रिय आय धाराएं बनाना।",
+    "accessibilityStatement": "पहुंच विवरण"
   },
   "errors": {
     "pageNotFound": "पृष्ठ नहीं मिला",
@@ -195,5 +196,8 @@
   "next": "[HI] Next",
   "previous": "[HI] Previous",
   "close": "[HI] Close",
-  "confirm": "[HI] Confirm"
+  "confirm": "[HI] Confirm",
+  "breadcrumb": {
+    "home": "मुख्य पृष्ठ"
+  }
 }

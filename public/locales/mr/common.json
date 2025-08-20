@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "मुखपृष्ठ",
+    "home": "मुख्यपृष्ठ",
     "aboutUs": "आमच्याबद्दल",
     "ourProducts": "आमची उत्पादने",
     "becomeAgent": "एजंट बना",
@@ -8,7 +8,7 @@
     "becomeFranchise": "फ्रँचायझी व्हा",
     "pixellpayAdvantage": "पिक्सेलपेचा फायदा",
     "contactUs": "आमच्याशी संपर्क साधा",
-    "joinUs": "आमच्यात सामील व्हा",
+    "joinUs": "आमच्याशी सामील व्हा",
     "blog": "ब्लॉग",
     "language": "भाषा"
   },
@@ -54,11 +54,7 @@
       "location": "बंगळुरू, कर्नाटक, भारत"
     },
     "quickLinksTitle": "द्रुत दुवे",
-    "quickLinks": {
-      "whyAtm": "एटीएम व्यवसाय का?",
-      "services": "आमच्या सेवा",
-      "getStarted": "सुरुवात करा"
-    },
+    "quickLinks": "त्वरित लिंक",
     "links": {
       "submitLocation": "एटीएम स्थान सबमिट करा",
       "becomeFranchise": "फ्रँचायझी व्हा",
@@ -75,12 +71,7 @@
       "technical": "तांत्रिक सहाय्य"
     },
     "legalTitle": "कायदेशीर",
-    "legal": {
-      "privacy": "गोपनीयता धोरण",
-      "terms": "अटी आणि शर्ती",
-      "refund": "परतावा धोरण",
-      "accessibility": "प्रवेशयोग्यता विधान"
-    },
+    "legal": "कायदेशीर",
     "followUs": "आमच्या मागे या",
     "newsletter": {
       "title": "अपडेट रहा",
@@ -93,7 +84,18 @@
     "partners": {
       "title": "आमचे भागीदार",
       "trusted": "भारतातील ५००+ फ्रँचायझी भागीदारांचा विश्वासू"
-    }
+    },
+    "ourServices": "आमच्या सेवा",
+    "submitLocation": "एटीएम स्थान सबमिट करा",
+    "becomeFranchise": "फ्रँचायझी बना",
+    "agent": "एजंट",
+    "influencer": "प्रभावशाली",
+    "privacyPolicy": "गोपनीयता धोरण",
+    "termsConditions": "अटी आणि शर्ती",
+    "refundPolicy": "परतावा धोरण",
+    "accessibilityStatement": "प्रवेशयोग्यता विधान",
+    "aboutUs": "आमच्याबद्दल",
+    "contactUs": "आमच्याशी संपर्क साधा"
   },
   "errors": {
     "pageNotFound": "पेज सापडले नाही",
@@ -191,5 +193,8 @@
   "next": "[MR] Next",
   "previous": "[MR] Previous",
   "close": "[MR] Close",
-  "confirm": "[MR] Confirm"
+  "confirm": "[MR] Confirm",
+  "breadcrumb": {
+    "home": "मुख्यपृष्ठ"
+  }
 }
