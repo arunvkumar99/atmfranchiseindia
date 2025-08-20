@@ -9,19 +9,19 @@ const Footer = () => {
   const { t } = useTranslation('common');
   
   const quickLinks = [
-    { label: t('quickLinks.home', 'Home'), href: "#home" },
-    { label: t('quickLinks.whyAtm', 'Why ATM Business'), href: "#why-atm" },
-    { label: t('quickLinks.services', 'Our Services'), href: "#services" },
-    { label: t('quickLinks.getStarted', 'Get Started'), href: "#get-started" },
+    { label: t('navigation.home', 'Home'), href: "#home" },
+    { label: t('navigation.whyAtm', 'Why ATM Business'), href: "#why-atm" },
+    { label: t('navigation.services', 'Our Services'), href: "#services" },
+    { label: t('navigation.getStarted', 'Get Started'), href: "#get-started" },
   ];
 
   const services = [
-    t('services.consultation', 'ATM Franchise Consultation'),
-    t('services.comparison', 'WLA Operator Comparison'), 
-    t('services.evaluation', 'Site Evaluation'),
-    t('services.training', 'Training & Support'),
-    t('services.marketing', 'Digital Marketing'),
-    t('services.technical', 'Technical Assistance')
+    t('footer.services.consultation', 'ATM Franchise Consultation'),
+    t('footer.services.comparison', 'WLA Operator Comparison'), 
+    t('footer.services.evaluation', 'Site Evaluation'),
+    t('footer.services.training', 'Training & Support'),
+    t('footer.services.marketing', 'Digital Marketing'),
+    t('footer.services.technical', 'Technical Assistance')
   ];
 
   return (
@@ -39,12 +39,12 @@ const Footer = () => {
                   className="h-12 w-auto object-contain"
                 />
                 <div>
-                  <h3 className="font-bold text-lg">{t('company.name', 'ATM Franchise India')}</h3>
-                  <p className="text-xs text-background/70">{t('company.tagline', 'Trusted Business Partner')}</p>
+                  <h3 className="font-bold text-lg">{t('footer.company.name', 'ATM Franchise India')}</h3>
+                  <p className="text-xs text-background/70">{t('footer.company.tagline', 'Trusted Business Partner')}</p>
                 </div>
               </div>
               <p className="text-background/80 leading-relaxed">
-                {t('company.description', 'Empowering rural entrepreneurs with transparent ATM franchise opportunities. Building passive income streams while serving communities across India.')}
+                {t('footer.company.description', 'Empowering rural entrepreneurs with transparent ATM franchise opportunities. Building passive income streams while serving communities across India.')}
               </p>
             </div>
             
@@ -59,7 +59,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span className="text-background/90">{t('contact.location', 'Bangalore, Karnataka, India')}</span>
+                <span className="text-background/90">{t('footer.contact.location', 'Bangalore, Karnataka, India')}</span>
               </div>
             </div>
           </div>

@@ -25,9 +25,9 @@
     "edit": "संपादित करें",
     "delete": "हटाएं",
     "update": "अपडेट",
-    "apply": "Apply",
+    "apply": "लागू करें",
     "reset": "रीसेट",
-    "clear": "Clear",
+    "clear": "साफ़ करें",
     "register": "पंजीकरण",
     "login": "लॉगिन",
     "finish": "समाप्त"
@@ -121,13 +121,13 @@
   "search": {
     "placeholder": "खोज...",
     "noResults": "कोई परिणाम नहीं मिला",
-    "results": "{{count}} results found",
+    "results": "{{count}} परिणाम मिले",
     "clearSearch": "खोज साफ़ करें"
   },
   "pagination": {
     "page": "पृष्ठ",
     "of": "का",
-    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "showing": "{{total}} में से {{from}} से {{to}} तक दिखा रहे हैं",
     "rowsPerPage": "प्रति पृष्ठ पंक्तियाँ",
     "first": "पहला",
     "last": "अंतिम"
@@ -143,10 +143,10 @@
   "social": {
     "facebook": "फेसबुक",
     "twitter": "ट्विटर",
-    "linkedin": "Linkedin",
-    "instagram": "Instagram",
+    "linkedin": "लिंक्डइन",
+    "instagram": "इंस्टाग्राम",
     "youtube": "यूट्यूब",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "व्हाट्सएप्प"
   },
   "status": {
     "loading": "लोड हो रहा है",
@@ -158,7 +158,7 @@
     "optional": "वैकल्पिक",
     "pending": "लंबित",
     "completed": "पूर्ण",
-    "failed": "Failed"
+    "failed": "विफल"
   },
   "actions": {
     "search": "खोजें",
@@ -170,7 +170,7 @@
     "download": "डाउनलोड करें",
     "preview": "पूर्वावलोकन",
     "select": "चुनें",
-    "choose": "Choose"
+    "choose": "चुनें"
   },
   "confirmation": {
     "yes": "हां",
@@ -184,7 +184,7 @@
     "back": "वापस",
     "next": "अगला",
     "previous": "पिछला",
-    "menu": "Menu"
+    "menu": "मेन्यू"
   },
   "error": "[HI] An error occurred",
   "success": "[HI] Success",

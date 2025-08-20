@@ -41,7 +41,7 @@
     "phone": "10-digit मोबाइल number",
     "message": "प्रकार your message here...",
     "city": "Enter शहर",
-    "state": "Choose your राज्य",
+    "state": "चुनें your राज्य",
     "searchCity": "शहर खोजें...",
     "selectOption": "कोई विकल्प चुनें",
     "uploadFile": "फ़ाइल चुनें या यहाँ खींचें",
@@ -170,7 +170,7 @@
       "highlight": "एटीएम फ्रैंचाइज़ी",
       "revolution": "Revolution"
     },
-    "subtitle": "Choose your path to सफलता with एटीएम फ्रैंचाइज़ी भारत",
+    "subtitle": "चुनें your path to सफलता with एटीएम फ्रैंचाइज़ी भारत",
     "form": {
       "title": "एटीएम फ्रैंचाइज़ी आवेदन फॉर्म",
       "instruction": "Please provide accurate जानकारी. सभी fields marked with * are अनिवार्य.",
@@ -233,7 +233,7 @@
       "preferredLocation": "Area/Village where you want ATM",
       "locationOwnership": "Do you own the स्थान?",
       "expectedFootfall": "Expected daily visitors",
-      "nearbyBanks": "Names of banks within 5km",
+      "nearbyBanks": "नामs of banks within 5km",
       "competitorATMs": "Number of ATMs in 2km radius",
       "bankName": "Bank नाम",
       "accountType": "चुनें account प्रकार",
@@ -332,7 +332,7 @@
     },
     "sidebar": {
       "successStory": {
-        "title": "Join 500+ Successful Franchisees",
+        "title": "Join 500+ सफलताful Franchisees",
         "testimonial": "Starting my एटीएम फ्रैंचाइज़ी was the best व्यवसाय decision I made. The सहायता टीम guided me through every step, and now I earn steady passive आय while serving my समुदाय.",
         "name": "Rajesh Kumar",
         "designation": "एटीएम फ्रैंचाइज़ी मालिक, Bihar"
@@ -396,7 +396,7 @@
         "description": "Please सहमत to नियम और शर्तें to आगे बढ़ें."
       },
       "success": {
-        "title": "आवेदन Submitted Successfully!",
+        "title": "आवेदन जमा करेंted सफलताfully!",
         "description": "Our फ्रैंचाइज़ी टीम will review your आवेदन and contact you within 24-48 hours."
       }
     }

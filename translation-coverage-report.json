@@ -1,0 +1,613 @@
+{
+  "summary": {
+    "totalKeys": 1436,
+    "translatedKeys": 1007,
+    "englishKeys": 251,
+    "mixedLanguageKeys": 178,
+    "translationPercentage": 70.1,
+    "englishPercentage": 17.5,
+    "mixedPercentage": 12.4
+  },
+  "issues": [
+    {
+      "file": "about.json",
+      "key": "whoWeAre.subtitle",
+      "value": "Empowering entrepreneurs with विश्वसनीय एटीएम फ्रैंचाइज़ी opportunities",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "whoWeAre.description",
+      "value": "ATM Franchise India is a pioneering platform that bridges the gap between aspiring entrepreneurs and RBI-licensed White Label ATM operators. Since 2020, we've been transforming lives by providing accurate information, expert guidance, and comprehensive support for ATM franchise businesses across India.",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "whoWeAre.stats.transactions.label",
+      "value": "Monthly Transactions",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "whoWeAre.stats.coverage.label",
+      "value": "States Covered",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "whoWeAre.stats.experience.label",
+      "value": "Years अनुभव",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.title",
+      "value": "Our Mission",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.items.accurate.title",
+      "value": "Accurate जानकारी",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.items.accurate.description",
+      "value": "Provide सत्यापित and transparent जानकारी about एटीएम फ्रैंचाइज़ी opportunities",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.items.simplify.title",
+      "value": "Simplify प्रक्रिया",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.items.simplify.description",
+      "value": "Make the एटीएम फ्रैंचाइज़ी journey सरल and accessible for everyone",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.items.support.title",
+      "value": "Continuous सहायता",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.items.support.description",
+      "value": "ऑफर ongoing मार्गदर्शन from setup to successful operation",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "mission.items.growth.description",
+      "value": "मदद partners achieve sustainable आय and व्यवसाय विकास",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "services.title",
+      "value": "Our सेवाएं",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "services.consultation.title",
+      "value": "फ्रैंचाइज़ी Consultation",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "services.consultation.description",
+      "value": "विशेषज्ञ मार्गदर्शन on choosing the right WLA partner and स्थान",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "services.training.description",
+      "value": "Comprehensive प्रशिक्षण programs and ongoing operational सहायता",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "services.digital.title",
+      "value": "डिजिटल Marketing",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "services.digital.description",
+      "value": "Boost your ATM's visibility with our digital marketing services",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "services.technical.title",
+      "value": "Technical सहायता",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "services.technical.description",
+      "value": "24/7 technical support and troubleshooting assistance",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "companies.title",
+      "value": "Our समूह कंपनियां",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "companies.subtitle",
+      "value": "Part of a विश्वसनीय व्यवसाय ecosystem",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "companies.pixellweb.name",
+      "value": "Pixellweb",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "companies.pixellweb.description",
+      "value": "प्रीमियम web development and डिजिटल समाधान provider",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "companies.pixellweb.link",
+      "value": "Visit Website",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "companies.pixellpay.name",
+      "value": "Pixellpay फायदा",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "companies.pixellpay.description",
+      "value": "Financial प्रौद्योगिकी समाधान and payment सेवाएं",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.title",
+      "value": "Our Values",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.transparency.title",
+      "value": "Transparency",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.transparency.description",
+      "value": "पूर्ण करें transparency in सभी व्यवसाय dealings",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.integrity.title",
+      "value": "Integrity",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.integrity.description",
+      "value": "Honest and ethical व्यवसाय practices",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.excellence.title",
+      "value": "Excellence",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.excellence.description",
+      "value": "Commitment to service excellence",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "values.innovation.description",
+      "value": "Continuous improvement and नवाचार",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "cta.title",
+      "value": "Ready to Start Your एटीएम फ्रैंचाइज़ी Journey?",
+      "issue": "English text"
+    },
+    {
+      "file": "about.json",
+      "key": "cta.subtitle",
+      "value": "Join thousands of successful फ्रैंचाइज़ी partners across भारत",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "about.json",
+      "key": "cta.button",
+      "value": "शुरू करें Today",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "accessibility.json",
+      "key": "standards.wcag",
+      "value": "WCAG 2.1 स्तर AA अनुपालन",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "common.json",
+      "key": "footer.services.comparison",
+      "value": "WLA ऑपरेटर तुलना",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "common.json",
+      "key": "footer.copyright",
+      "value": "© 2025 एटीएम फ्रैंचाइज़ी इंडिया। सभी अधिकार सुरक्षित। | केवल RBI लाइसेंस प्राप्त भागीदार",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "common.json",
+      "key": "search.results",
+      "value": "{{count}} परिणाम मिले",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "common.json",
+      "key": "pagination.showing",
+      "value": "{{total}} में से {{from}} से {{to}} तक दिखा रहे हैं",
+      "issue": "English text"
+    },
+    {
+      "file": "common.json",
+      "key": "confirmation.disagree",
+      "value": "I असहमत",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "common.json",
+      "key": "submit",
+      "value": "[HI] Submit",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text6",
+      "value": "January",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text7",
+      "value": "February",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text8",
+      "value": "March",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text9",
+      "value": "April",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text10",
+      "value": "June",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text11",
+      "value": "July",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text12",
+      "value": "August",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text13",
+      "value": "September",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text14",
+      "value": "October",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text15",
+      "value": "November",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text16",
+      "value": "December",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text17",
+      "value": "Enter exactly 12 digits without spaces or hyphens",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformenhanced.text19",
+      "value": "Individual",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text2",
+      "value": "Agent नेटवर्क",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text3",
+      "value": "Tell us about yourself and provide your बुनियादी विवरण",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text7",
+      "value": "January",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text8",
+      "value": "February",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text9",
+      "value": "March",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text10",
+      "value": "April",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text11",
+      "value": "June",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text12",
+      "value": "July",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text13",
+      "value": "August",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text14",
+      "value": "September",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text15",
+      "value": "October",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text16",
+      "value": "November",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text17",
+      "value": "December",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text18",
+      "value": "साझा करें your पेशेवर जानकारी and अपलोड करें आवश्यक दस्तावेज़",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text19",
+      "value": "Individual",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "agentformsinglepage.text21",
+      "value": "Security सत्यापन",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "directsheetsform.text1",
+      "value": "डेटा Encrypted",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text1",
+      "value": "व्यवसाय Enquiry फॉर्म",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text2",
+      "value": "Enquiry",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text3",
+      "value": "Let us know who you are and how to reach you",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text4",
+      "value": "Tell us about your व्यवसाय interests and निवेश preferences",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text5",
+      "value": "Retail Outlet साझेदारी",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text6",
+      "value": "Distribution साझेदारी",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text8",
+      "value": "Immediately",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text12",
+      "value": "Just Exploring",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text13",
+      "value": "Google खोजें",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text14",
+      "value": "Social Media",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text15",
+      "value": "Advertisement",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text16",
+      "value": "व्यवसाय Event",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text18",
+      "value": "Security सत्यापन",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "enquiryformsinglepage.text19",
+      "value": "पूर्ण करें security सत्यापन to जमा करें",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "errorboundary.text1",
+      "value": "Async त्रुटि",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "formsuccessmodal.text1",
+      "value": "WhatsApp सहायता उपलब्ध",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text1",
+      "value": "Influencer आवेदन फॉर्म",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text2",
+      "value": "Influencer नेटवर्क",
+      "issue": "Mixed language"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text3",
+      "value": "Your बुनियादी विवरण and संपर्क जानकारी",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text7",
+      "value": "January",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text8",
+      "value": "February",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text9",
+      "value": "March",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text10",
+      "value": "April",
+      "issue": "English text"
+    },
+    {
+      "file": "components.json",
+      "key": "influencerformsinglepage.text11",
+      "value": "June",
+      "issue": "English text"
+    }
+  ]
+}

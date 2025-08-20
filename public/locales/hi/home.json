@@ -389,48 +389,48 @@
     "support": "ग्राहक सहायता"
   },
   "valueProps": {
-    "title": "Why एटीएम व्यवसाय?",
-    "subtitle": "Zero Loss and Fully Transparent व्यवसाय अवसर from RBI Licensed Companies",
-    "perfectTime": "Perfect Time for एटीएम व्यवसाय in Rural भारत",
-    "investmentRange": "Investment Range: ₹2-5 Lakhs",
+    "title": "एटीएम व्यवसाय क्यों?",
+    "subtitle": "आरबीआई लाइसेंस प्राप्त कंपनियों से शून्य हानि और पूर्ण पारदर्शी व्यवसाय अवसर",
+    "perfectTime": "ग्रामीण भारत में एटीएम व्यवसाय के लिए सही समय",
+    "investmentRange": "निवेश सीमा: ₹2-5 लाख",
     "bullets": {
-      "digitalAdoption": "डिजिटल Adoption Growing",
-      "governmentPush": "Government Push for Financial Inclusion",
-      "bankClosures": "Bank शाखा Closures"
+      "digitalAdoption": "डिजिटल अपनाना बढ़ रहा है",
+      "governmentPush": "वित्तीय समावेशन के लिए सरकारी प्रयास",
+      "bankClosures": "बैंक शाखा बंद हो रही हैं"
     },
     "stats": {
       "roi": {
         "prefix": "upto ",
         "value": "50",
         "suffix": "%",
-        "label": "Return On निवेश",
-        "description": "सभी Payout Received by RBI Licensed WLA एटीएम Partners"
+        "label": "निवेश पर रिटर्न",
+        "description": "आरबीआई लाइसेंस प्राप्त डब्ल्यूएलए एटीएम भागीदारों द्वारा प्राप्त सभी भुगतान"
       },
       "penetration": {
         "value": "15",
         "suffix": " Per Lac",
-        "label": "एटीएम Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - एटीएम Penetration in भारत is very Low"
+        "label": "एटीएम प्रवेश",
+        "description": "प्रति 1 लाख लोगों पर केवल 15 एटीएम - भारत में एटीएम प्रवेश बहुत कम है"
       },
       "cash": {
         "value": "75",
         "suffix": "% Cash",
-        "label": "Cash Circulation",
-        "description": "Indian Economy is still Largely Cash based"
+        "label": "नकद परिसंचरण",
+        "description": "भारतीय अर्थव्यवस्था अभी भी मुख्य रूप से नकद आधारित है"
       },
       "potential": {
         "value": "90",
         "suffix": "% Potential",
-        "label": "Market अवसर",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite एटीएम Closure creates a Large market for ATMs"
+        "label": "बाजार अवसर",
+        "description": "90% बैंक ऑफसाइट एटीएम बंद हो रहे हैं - बैंक ऑफसाइट एटीएम बंद होने से एटीएम के लिए बड़ा बाजार बनता है"
       }
     }
   },
   "whyChoose": {
     "badge": "Our फायदा",
-    "title": "Why Choose",
+    "title": "क्यों चुनें",
     "titleHighlight": "एटीएम फ्रैंचाइज़ी भारत?",
-    "subtitle": "अनुभव the difference with our comprehensive सहायता system and industry expertise",
+    "subtitle": "हमारी व्यापक सहायता प्रणाली और उद्योग विशेषज्ञता के साथ अंतर का अनुभव करें",
     "cta": {
       "partners": "Join 500+ successful franchise partners"
     },
@@ -459,6 +459,41 @@
   "counter": {
     "title": "पूरे भारत में एटीएम",
     "subtitle": "और बढ़ रहे हैं..."
+  },
+  "testimonials": {
+    "badge": "सफलता की कहानियाँ",
+    "title": "हमारे भागीदारों के वास्तविक परिणाम",
+    "subtitle": "केवल हमारी बात न मानें। यहाँ पूरे भारत में हमारे फ्रैंचाइज़ी भागीदारों की वास्तविक सफलता की कहानियाँ हैं।",
+    "items": {
+      "rajesh": {
+        "name": "राजेश कुमार",
+        "location": "मुंबई, महाराष्ट्र",
+        "business": "ईपीएस एटीएम फ्रैंचाइज़ी",
+        "revenue": "₹45,000/महीना",
+        "testimonial": "एटीएम फ्रैंचाइज़ी इंडिया ने हर कदम पर मार्गदर्शन किया। 8 महीनों के भीतर, मैं न्यूनतम प्रयास से ₹45,000 मासिक कमा रहा हूं। अब तक का सबसे अच्छा निवेश निर्णय!"
+      },
+      "priya": {
+        "name": "प्रिया शर्मा",
+        "location": "बैंगलोर, कर्नाटक",
+        "business": "वक्रांगी पार्टनरशिप",
+        "revenue": "₹38,000/महीना",
+        "testimonial": "डब्ल्यूएलए पार्टनरशिप में टीम की विशेषज्ञता बेजोड़ है। मेरा एटीएम केवल 6 महीनों में लगातार ₹38,000 मासिक आय उत्पन्न कर रहा है।"
+      },
+      "amit": {
+        "name": "अमित पटेल",
+        "location": "अहमदाबाद, गुजरात",
+        "business": "इंडिकैश फ्रैंचाइज़ी",
+        "revenue": "₹52,000/महीना",
+        "testimonial": "पेशेवर मार्गदर्शन और पूर्ण पारदर्शिता। ₹52,000 मासिक निष्क्रिय आय के साथ 14 महीनों में आरओआई प्राप्त किया। अत्यधिक अनुशंसित!"
+      },
+      "sanjay": {
+        "name": "संजय वर्मा",
+        "location": "पुणे, महाराष्ट्र",
+        "business": "हिताची एटीएम पार्टनर",
+        "revenue": "₹42,000/महीना",
+        "testimonial": "शुरू से अंत तक उत्कृष्ट समर्थन। टीम ने मुझे सही स्थान और डब्ल्यूएलए पार्टनर चुनने में मदद की। अब न्यूनतम दैनिक भागीदारी के साथ स्थिर निष्क्रिय आय कमा रहा हूं।"
+      }
+    }
   },
   "trust": {
     "heading": "देशभर के व्यवसायों द्वारा विश्वसनीय",
