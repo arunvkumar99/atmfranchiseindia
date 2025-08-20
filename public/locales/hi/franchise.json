@@ -1,9 +1,9 @@
 {
   "content": {
-    "become_an": "Become an",
-    "partner": "Partner",
-    "trusted_atm_franchise_partner": "विश्वसनीय एटीएम फ्रैंचाइज़ी Partner",
-    "simple_4step_process": "सरल 4-Step प्रक्रिया"
+    "become_an": "बनें",
+    "partner": "साझेदार",
+    "trusted_atm_franchise_partner": "विश्वसनीय एटीएम फ्रैंचाइज़ी साझेदार",
+    "simple_4step_process": "सरल 4-चरण प्रक्रिया"
   },
   "hero": {
     "badge": "विश्वसनीय एटीएम फ्रैंचाइज़ी भागीदार",
@@ -161,8 +161,8 @@
         "support": "मानक समर्थन",
         "features": {
           "0": "Single स्थान setup",
-          "1": "बुनियादी प्रशिक्षण program",
-          "2": "Monthly maintenance",
+          "1": "बुनियादी प्रशिक्षण कार्यक्रम",
+          "2": "मासिक रखरखाव",
           "3": "Regional सहायता टीम"
         }
       },
@@ -173,11 +173,11 @@
         "roi": "18-22% वार्षिक",
         "support": "प्राथमिकता समर्थन",
         "features": {
-          "0": "Multiple स्थान setup",
-          "1": "उन्नत प्रशिक्षण program",
-          "2": "Bi-weekly maintenance",
-          "3": "Dedicated account प्रबंधक",
-          "4": "Marketing सहायता"
+          "0": "बहु स्थान सेटअप",
+          "1": "उन्नत प्रशिक्षण कार्यक्रम",
+          "2": "पाक्षिक रखरखाव",
+          "3": "समर्पित खाता प्रबंधक",
+          "4": "विपणन सहायता"
         },
         "popular": true
       },
@@ -189,8 +189,8 @@
         "support": "प्रीमियम समर्थन",
         "features": {
           "0": "Unlimited locations",
-          "1": "कार्यकारी प्रशिक्षण program",
-          "2": "Weekly maintenance",
+          "1": "कार्यकारी प्रशिक्षण कार्यक्रम",
+          "2": "साप्ताहिक रखरखाव",
           "3": "Personal relationship प्रबंधक",
           "4": "पूर्ण करें marketing पैकेज",
           "5": "Priority placement"

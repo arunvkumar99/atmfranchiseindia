@@ -36,8 +36,8 @@
     "required": "यह फ़ील्ड आवश्यक है",
     "invalidEmail": "कृपया एक मान्य ईमेल पता प्रविष्ट करें",
     "invalidPhone": "एक मान्य दूरभाष क्रमांक दर्ज करे",
-    "minLength": "Minimum {{count}} characters required",
-    "maxLength": "Maximum {{count}} characters allowed",
+    "minLength": "न्यूनतम {{count}} वर्ण आवश्यक",
+    "maxLength": "अधिकतम {{count}} वर्ण की अनुमति",
     "submitSuccess": "फॉर्म सफलतापूर्वक सबमिट किया गया!",
     "submitError": "फॉर्म सबमिट करने में त्रुटि, कृपया फिर से प्रयास करें।",
     "uploading": "अपलोड हो रहा है...",
@@ -177,7 +177,7 @@
     "no": "नहीं",
     "confirm": "पुष्टि करें",
     "agree": "मैं सहमत हूं",
-    "disagree": "I असहमत"
+    "disagree": "मैं असहमत हूं"
   },
   "navigation": {
     "home": "होम",
@@ -186,17 +186,17 @@
     "previous": "पिछला",
     "menu": "मेन्यू"
   },
-  "error": "[HI] An error occurred",
-  "success": "[HI] Success",
-  "submit": "[HI] Submit",
-  "cancel": "[HI] Cancel",
-  "save": "[HI] Save",
-  "delete": "[HI] Delete",
-  "edit": "[HI] Edit",
-  "next": "[HI] Next",
-  "previous": "[HI] Previous",
-  "close": "[HI] Close",
-  "confirm": "[HI] Confirm",
+  "error": "त्रुटि हुई",
+  "success": "सफलता",
+  "submit": "जमा करें",
+  "cancel": "रद्द करें",
+  "save": "सहेजें",
+  "delete": "हटाएं",
+  "edit": "संपादित करें",
+  "next": "अगला",
+  "previous": "पिछला",
+  "close": "बंद करें",
+  "confirm": "पुष्टि करें",
   "breadcrumb": {
     "home": "मुख्य पृष्ठ"
   }

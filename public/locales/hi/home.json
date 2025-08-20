@@ -126,7 +126,7 @@
         "testimonial": "शुरुआत से अंत तक बेहतरीन सहयोग मिला। टीम ने मुझे सही जगह और WLA पार्टनर चुनने में मदद की। अब मैं कम से कम दैनिक भागीदारी के साथ स्थिर निष्क्रिय आय अर्जित कर रहा हूँ।"
       }
     },
-    "monthsLabel": "in {{months}} months",
+    "monthsLabel": "{{months}} महीनों में",
     "performance": {
       "title": "औसत भागीदार प्रदर्शन",
       "income": "औसत मासिक आय",
@@ -437,24 +437,24 @@
     "features": {
       "trusted": {
         "title": "विश्वसनीय एटीएम फ्रैंचाइज़ी जानकारी",
-        "description": "Gain accurate and सत्यापित insights into the एटीएम industry. As a regulated sector, the एटीएम व्यवसाय often sees widespread misinformation. Our representatives ensure you प्राप्त करें भरोसेमंद, fact-based मार्गदर्शन to make informed फ्रैंचाइज़ी decisions."
+        "description": "एटीएम उद्योग में सटीक और सत्यापित जानकारी प्राप्त करें। एक विनियमित क्षेत्र के रूप में, एटीएम व्यवसाय में अक्सर व्यापक गलत जानकारी फैलती है। हमारे प्रतिनिधि सुनिश्चित करते हैं कि आपको भरोसेमंद, तथ्य-आधारित मार्गदर्शन मिले ताकि आप सूचित फ्रैंचाइज़ी निर्णय ले सकें।"
       },
       "guidance": {
         "title": "विशेषज्ञ मार्गदर्शन on WLA Operators",
         "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
       },
       "digital": {
-        "title": "Boost Your डिजिटल Presence",
-        "description": "Already running an एटीएम फ्रैंचाइज़ी? पंजीकरण with us to increase your डिजिटल reach and enhance your ऑनलाइन branding. कनेक्ट करें with अधिक customers and grow your visibility in the market."
+        "title": "अपनी डिजिटल उपस्थिति बढ़ाएं",
+        "description": "पहले से एटीएम फ्रैंचाइज़ी चला रहे हैं? अपनी डिजिटल पहुंच बढ़ाने और ऑनलाइन ब्रांडिंग में सुधार के लिए हमारे साथ पंजीकरण करें। अधिक ग्राहकों से जुड़ें और बाज़ार में अपनी दृश्यता बढ़ाएं।"
       },
       "support": {
-        "title": "End-to-End फ्रैंचाइज़ी सहायता",
-        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
+        "title": "संपूर्ण फ्रैंचाइज़ी सहायता",
+        "description": "सभी WLA ब्रांडों में 4+ वर्षों के अनुभव के साथ, हम सब कुछ संभालते हैं: फ्रैंचाइज़ी ऑनबोर्डिंग, प्रशिक्षण और परिचालन सेटअप, स्थानीय प्रचार और ब्रांड दृश्यता, तकनीकी सहायता और समस्या निवारण, बैंक खाता निपटान, WLA ऑपरेटरों के साथ विवाद समाधान। हम एटीएम व्यवसाय सफलता के लिए आपका वन-स्टॉप समाधान हैं।"
       }
     }
   },
   "alt": {
-    "atmInIndianSetting": "एटीएम in Indian semi-urban setting"
+    "atmInIndianSetting": "भारतीय अर्ध-शहरी परिवेश में एटीएम"
   },
   "counter": {
     "title": "पूरे भारत में एटीएम",
