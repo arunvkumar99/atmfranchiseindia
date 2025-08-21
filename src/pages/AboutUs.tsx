@@ -3,8 +3,11 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Users, Award, TrendingUp, Shield, Building2, Zap, ArrowRight } from "lucide-react";
 import { Link } from "@/hooks/useLanguageRouter";
 import { useTranslation } from 'react-i18next';
-import vakrangeeLogo from "@/assets/vakrangee-logo.png";
-import findiLogo from "@/assets/findi-logo.png";
+// Import actual logo assets
+const vakrangeeLogo = "/assets/Vakrangee_Limited_Logo.png";
+const findiLogo = "/assets/findi.png";
+const epsLogo = "/assets/EPS.png";
+const india1Logo = "/assets/India1Logo.jpg";
 import WLAOperators from "@/components/WLAOperators";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
@@ -185,10 +188,9 @@ const AboutUs = () => {
               <CardContent className="p-8 text-center relative overflow-hidden">
                 <div className="relative z-10">
                   <div className="w-20 h-20 bg-gray-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md">
-                    <img 
-                      src="https://via.placeholder.com/200x80/ffffff/333333?text=PixellPay"
-                      alt={t('alt.pixellpay_logo', 'PixellPay Logo')}
-                      className="w-12 h-12 object-contain"
+                    <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent">
+                      PP
+                    </div>
                     />
                   </div>
                   <h3 className="font-heading font-bold text-2xl md:text-3xl text-purple-600 mb-4">
@@ -220,10 +222,9 @@ const AboutUs = () => {
               <CardContent className="p-8 text-center relative overflow-hidden">
                 <div className="relative z-10">
                   <div className="w-20 h-20 bg-gray-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md">
-                    <img 
-                      src="https://via.placeholder.com/200x80/ffffff/333333?text=Evosyz"
-                      alt={t('alt.evosyz_technology_logo', 'Evosyz Technology Logo')}
-                      className="w-16 h-10 object-contain"
+                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                      EV
+                    </div>
                     />
                   </div>
                   <h3 className="font-heading font-bold text-2xl md:text-3xl text-blue-600 mb-2">
@@ -302,7 +303,7 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="https://via.placeholder.com/200x80/ffffff/333333?text=EPS"
+                    src={epsLogo}
                     alt={t('alt.eps_wla_partner', 'EPS WLA Partner')}
                     className="w-16 h-12 object-contain"
                   />
@@ -322,8 +323,8 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="https://via.placeholder.com/200x80/ffffff/333333?text=India1"
-                    alt={t('alt.india_wla_partner', 'India WLA Partner')}
+                    src={india1Logo}
+                    alt={t('alt.india_wla_partner', 'India One WLA Partner')}
                     className="w-16 h-12 object-contain"
                   />
                 </div>
@@ -342,7 +343,7 @@ const AboutUs = () => {
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="https://via.placeholder.com/200x80/ffffff/333333?text=Indicash"
+                    src="/assets/atm-franchise-logo.png"
                     alt={t('alt.indicash_tata_product', 'Indicash TATA Product')}
                     className="w-16 h-12 object-contain"
                   />

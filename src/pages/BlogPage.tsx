@@ -76,20 +76,20 @@ const BlogPage = () => {
         </div>
 
         {/* Featured Article */}
-        <Card className="mb-16 bg-gradient-hero text-primary-foreground border-0 overflow-hidden">
+        <Card className="mb-16 bg-gradient-to-r from-primary to-primary-hover text-white border-0 overflow-hidden shadow-xl">
           <CardContent className="p-0">
             <div className="grid md:grid-cols-2 gap-0">
               <div className="p-8 md:p-12">
-                <Badge className="mb-4 bg-primary-foreground/20 text-primary-foreground">
+                <Badge className="mb-4 bg-white/20 text-white border-white/30">
                   {t('featured.badge')}
                 </Badge>
                 <h2 className="text-3xl font-bold mb-4">
                   {articles[0].title}
                 </h2>
-                <p className="text-primary-foreground/90 mb-6 leading-relaxed">
+                <p className="text-white/90 mb-6 leading-relaxed">
                   {articles[0].excerpt}
                 </p>
-                <div className="flex items-center gap-4 mb-6 text-primary-foreground/80">
+                <div className="flex items-center gap-4 mb-6 text-white/80">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" />
                     <span>{articles[0].date}</span>
@@ -110,8 +110,8 @@ const BlogPage = () => {
                   </Link>
                 </Button>
               </div>
-              <div className="bg-primary-foreground/10 p-8 md:p-12 flex items-center justify-center">
-                <TrendingUp className="w-32 h-32 text-primary-foreground/30" />
+              <div className="bg-white/10 p-8 md:p-12 flex items-center justify-center">
+                <TrendingUp className="w-32 h-32 text-white/30" />
               </div>
             </div>
           </CardContent>

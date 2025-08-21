@@ -41,9 +41,9 @@ const Hero = () => {
             <Link to="/submit-location">{t('hero.submitLocation', 'Submit ATM Location')}</Link>
           </Button>
           <Button 
-            variant="outline" 
+            variant="secondary" 
             size="lg" 
-            className="border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground font-heading font-semibold min-h-[44px] px-8"
+            className="bg-gradient-to-r from-gold to-gold-dark text-white hover:from-gold-dark hover:to-gold font-heading font-semibold min-h-[44px] px-8 shadow-lg hover:shadow-xl transition-all"
             asChild
           >
             <Link to="/become-franchise">{t('hero.becomeFranchise', 'Become Franchise')}</Link>
