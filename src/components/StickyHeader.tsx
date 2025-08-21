@@ -1,6 +1,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useTranslation } from 'react-i18next';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Shield, LogOut, ChevronDown, Search } from "lucide-react";
 import { useLocation } from "react-router-dom";
@@ -69,22 +70,31 @@ const StickyHeader = () => {
                        location.pathname === "/contact-us";
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <motion.header 
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-background/95 backdrop-blur-sm border-b border-border h-16' 
+        ? 'bg-background/95 backdrop-blur-md border-b border-border h-16 shadow-lg' 
         : 'bg-background/80 backdrop-blur-sm h-20'
     }`}>
       <div className="container mx-auto px-4 h-full flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-3">
-          <img 
-            src="https://via.placeholder.com/150x50/ffffff/333333?text=ATM+Franchise" 
-            alt={t('components.stickyheader.logoAlt', 'ATM Franchise India Logo')} 
-            className={`object-contain transition-all duration-300 ${
-              isScrolled ? 'h-10' : 'h-14'
-            }`}
-          />
-        </Link>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="/assets/atm-franchise-logo.png" 
+              alt={t('components.stickyheader.logoAlt', 'ATM Franchise India Logo')} 
+              className={`object-contain transition-all duration-300 ${
+                isScrolled ? 'h-10' : 'h-14'
+              }`}
+            />
+          </Link>
+        </motion.div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
@@ -110,14 +120,19 @@ const StickyHeader = () => {
                     <ChevronDown className="w-4 h-4 text-foreground hover:text-primary" />
                   </div>
                   
-                  {isAboutDropdownOpen && (
-                    <div 
-                      className="absolute top-full left-0 pt-2 z-50"
-                      onMouseEnter={handleDropdownEnter}
-                      onMouseLeave={handleDropdownLeave}
-                    >
-                      <div className="w-full h-2 bg-transparent" />
-                      <div className="w-56 bg-background border border-border rounded-lg shadow-xl overflow-hidden animate-fade-in">
+                  <AnimatePresence>
+                    {isAboutDropdownOpen && (
+                      <motion.div 
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.2, ease: 'easeOut' }}
+                        className="absolute top-full left-0 pt-2 z-50"
+                        onMouseEnter={handleDropdownEnter}
+                        onMouseLeave={handleDropdownLeave}
+                      >
+                        <div className="w-full h-2 bg-transparent" />
+                        <div className="w-56 bg-background/95 backdrop-blur-md border border-border rounded-lg shadow-2xl overflow-hidden">
                         <div className="py-2">
                           {item.dropdownItems?.map((dropdownItem) => (
                             <Link
@@ -134,9 +149,10 @@ const StickyHeader = () => {
                             </Link>
                           ))}
                         </div>
-                      </div>
-                    </div>
-                  )}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
               ) : (
                 <Link
@@ -209,8 +225,14 @@ const StickyHeader = () => {
       </div>
 
       {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <nav className="md:hidden bg-background/95 backdrop-blur-sm border-t border-border">
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.nav 
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            className="md:hidden bg-background/95 backdrop-blur-md border-t border-border overflow-hidden">
           <div className="container mx-auto px-4 py-4">
             <div className="flex flex-col space-y-3">
               {navItems.map((item) => (
@@ -309,15 +331,16 @@ const StickyHeader = () => {
               )}
             </div>
           </div>
-        </nav>
-      )}
+          </motion.nav>
+        )}
+      </AnimatePresence>
       
       {/* Search Component */}
       <SearchComponent 
         isOpen={isSearchOpen} 
         onClose={() => setIsSearchOpen(false)} 
       />
-    </header>
+    </motion.header>
   );
 };
 
