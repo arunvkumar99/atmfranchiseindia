@@ -21,7 +21,7 @@ import { SecurityHeaders } from "@/components/ui/security-headers";
 import { withLazyLoading, PageLoader } from "@/components/LazyLoadingWrapper";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 // Debug components removed from production
-import { EnsureEnglishDefault } from "@/components/EnsureEnglishDefault";
+// Removed EnsureEnglishDefault - was forcing English and breaking translations
 
 // Lazy load all pages for optimal performance
 const Home = lazy(() => import("./pages/Home"));
@@ -173,7 +173,7 @@ const App = () => {
               <BrowserRouter>
                 <KeyboardNavigationProvider>
                   <AccessibilityWrapper>
-                    <EnsureEnglishDefault />
+                    {/* Removed EnsureEnglishDefault - was breaking translations */}
                     <SkipNavigationLinks />
                     <AccessibilityEnhancements />
                     <ResourceHints />

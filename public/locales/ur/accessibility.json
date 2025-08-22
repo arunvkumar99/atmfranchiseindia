@@ -1,26 +1,60 @@
 {
-  "title": "رسائی کا بیان",
+  "hero": {
+    "backToHome": "Back to Home",
+    "badge": "Accessibility Commitment",
+    "title": "Accessibility Statement",
+    "subtitle": "Making ATM Franchise opportunities accessible to everyone"
+  },
+  "content": {
+    "intro": "ATM Franchise India is committed to ensuring digital accessibility for people with disabilities. We are continuously improving the user experience for everyone and applying the relevant accessibility standards.",
+    "web_accessibility": "Web Accessibility",
+    "visual_accessibility": "Visual Accessibility",
+    "motor_and_cognitive_accessibil": "Motor and Cognitive Accessibility",
+    "hearing_accessibility": "Hearing Accessibility",
+    "feedback_and_support": "Feedback and Support",
+    "email": "Email:",
+    "phone": "Phone:"
+  },
+  "sections": {
+    "web": {
+      "content": "Our website is designed to be compatible with assistive technologies and follows Web Content Accessibility Guidelines (WCAG) 2.1 standards.",
+      "items": [
+        "Keyboard navigation support for all interactive elements",
+        "Screen reader compatibility with proper heading structure",
+        "High contrast color schemes for better visibility",
+        "Alternative text for all images and graphics"
+      ]
+    },
+    "visual": {
+      "content": "We understand that visual impairments can affect how people interact with our platform:",
+      "items": [
+        "Large, readable fonts throughout the website",
+        "Sufficient color contrast ratios meeting WCAG standards"
+      ]
+    }
+  },
+  "title": "Accessibility Statement",
   "commitment": {
-    "title": "ہمارا عزم",
-    "description": "ہم تمام صارفین کے لیے ڈیجیٹل رسائی کو یقینی بنانے کے لیے پرعزم ہیں۔"
+    "title": "Our Commitment",
+    "description": "We are committed to ensuring digital accessibility for all users"
   },
   "standards": {
-    "title": "قابل رسائی معیارات",
-    "wcag": "WCAG 2.1 لیول AA تعمیل",
-    "testing": "باقاعدگی سے رسائی کی جانچ",
-    "feedback": "یوزر فیڈ بیک انٹیگریشن"
+    "title": "Accessibility Standards",
+    "wcag": "WCAG 2.1 Level AA Compliance",
+    "testing": "Regular Accessibility Testing",
+    "feedback": "User Feedback Integration"
   },
   "features": {
-    "title": "قابل رسائی خصوصیات",
-    "keyboard": "کی بورڈ نیویگیشن",
-    "screenReader": "اسکرین ریڈر سپورٹ",
-    "contrast": "ہائی کنٹراسٹ کے اختیارات",
-    "textSize": "سایڈست متن کا سائز"
+    "title": "Accessibility Features",
+    "keyboard": "Keyboard Navigation",
+    "screenReader": "Screen Reader Support",
+    "contrast": "High Contrast Options",
+    "textSize": "Adjustable Text Size"
   },
   "contact": {
-    "title": "قابل رسائی تاثرات",
-    "description": "ہم رسائی کے بارے میں آپ کے تاثرات کا خیرمقدم کرتے ہیں۔",
-    "email": "ہمیں ای میل کریں۔",
-    "phone": "ہمیں کال کریں۔"
+    "title": "Accessibility Feedback",
+    "description": "We welcome your feedback on accessibility",
+    "email": "Email Us",
+    "phone": "Call Us"
   }
 }

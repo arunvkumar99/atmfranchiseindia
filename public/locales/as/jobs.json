@@ -1,23 +1,23 @@
 {
-  "title": "কেৰিয়াৰৰ সুযোগ",
-  "subtitle": "আমাৰ ক্ৰমবৰ্ধমান দলত যোগদান কৰক",
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
   "hero": {
-    "heading": "আমাৰ সৈতে আপোনাৰ কেৰিয়াৰ গঢ়ি তোলক",
-    "description": "এটিএম উদ্যোগত ৰোমাঞ্চকৰ সুযোগসমূহ অন্বেষণ কৰক",
-    "cta": "খোলাসমূহ চাওক"
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
   },
   "positions": {
-    "title": "মুকলি অৱস্থানসমূহ",
-    "location": "অৱস্থান",
-    "type": "চাকৰিৰ ধৰণ",
-    "experience": "অভিজ্ঞতা",
-    "apply": "এতিয়াই আবেদন কৰক"
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
   },
   "benefits": {
-    "title": "আমাৰ লগত কাম কিয়",
-    "growth": "কেৰিয়াৰ বৃদ্ধি",
-    "culture": "মহান সংস্কৃতি",
-    "benefits": "প্ৰতিযোগিতামূলক সুবিধা",
-    "learning": "অবিৰত শিক্ষণ"
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
   }
 }

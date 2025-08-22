@@ -133,5 +133,81 @@
     "support": "Support Level",
     "training": "Training Duration",
     "maintenance": "Maintenance Frequency"
+  },
+  "hero": {
+    "badge": "Premium Business Solutions",
+    "title": {
+      "main": "ATM Business",
+      "rotating": [
+        "Solutions",
+        "Advantage",
+        "Products",
+        "Success",
+        "Excellence"
+      ]
+    },
+    "titles": {
+      "solutions": "Solutions",
+      "advantage": "Advantage",
+      "products": "Products",
+      "success": "Success",
+      "excellence": "Excellence"
+    },
+    "subtitle": "Transform your entrepreneurial dreams into reality with our comprehensive ATM franchise solutions. Experience the perfect blend of technology, support, and profitability.",
+    "buttons": {
+      "explore": "Explore Solutions",
+      "contact": "Contact Us",
+      "franchise": "Become Franchise"
+    },
+    "stats": {
+      "partners": {
+        "value": "4+",
+        "label": "WLA Partners"
+      },
+      "care360": {
+        "value": "₹30K",
+        "label": "Care360 Value"
+      },
+      "visibility": {
+        "value": "₹3K",
+        "label": "Visibility Boost"
+      }
+    }
+  },
+  "partners": {
+    "sectionTitle": "Our Trusted WLA Partners",
+    "badge": "Premium Partnership Network",
+    "title": {
+      "part1": "WLA ATMs",
+      "part2": "Partnership"
+    },
+    "description": "Access India's most trusted White Label ATM operators through our exclusive partnership network. Choose from multiple operators based on your location and investment preferences.",
+    "vakrangee": {
+      "name": "Vakrangee",
+      "tagline": "Market Leader"
+    },
+    "findi": {
+      "name": "Findi",
+      "tagline": "Fast Growing"
+    },
+    "indiaone": {
+      "name": "India One",
+      "tagline": "Reliable Network"
+    },
+    "eps": {
+      "name": "EPS Bancs",
+      "tagline": "Proven Track Record"
+    },
+    "stats": {
+      "roi": {
+        "value": "12-18",
+        "label": "Months ROI"
+      },
+      "income": {
+        "value": "₹15K+",
+        "label": "Monthly Income"
+      }
+    },
+    "cta": "Start Your Franchise"
   }
 }

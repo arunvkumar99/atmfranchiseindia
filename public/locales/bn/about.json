@@ -3,9 +3,8 @@
     "badge": "আমাদের গল্প",
     "title": {
       "prefix": "আমাদের সম্পর্কে",
-      "middle": "ATM Franchise",
-      "suffix": "India",
-      "highlight": "এটিএম ফ্র্যাঞ্চাইজ ইন্ডিয়া"
+      "middle": "এটিএম ফ্র্যাঞ্চাইজি",
+      "suffix": "ভারত"
     },
     "subtitle": "ভারতে এটিএম ফ্র্যাঞ্চাইজ ব্যবসার জন্য আপনার বিশ্বস্ত অংশীদার",
     "buttons": {
@@ -14,6 +13,28 @@
     }
   },
   "whoWeAre": {
+    "badge": "শিল্প দক্ষতা",
+    "heading": "আমরা কে",
+    "content": "এটিএম Franchise India is a leading consultancy specializing in the এটিএম franchise business. With over 5 years of experience and 200+ successful franchise partnerships across all White Label এটিএম (WLA) brands, we provide accurate, verified insights into the এটিএম industry.",
+    "empowering": {
+      "description": "Join thousands of successful young Indians who have built thriving businesses with our এটিএম franchise opportunities"
+    },
+    "features": {
+      "experience": {
+        "title": "5+ বছরের অভিজ্ঞতা",
+        "description": "200+ successful franchise partnerships and proven track record"
+      },
+      "results": {
+        "description": "95% partner success rate with average আরওআই in 12-18 months"
+      },
+      "guidance": {
+        "description": "100% transparent with no hidden costs or surprise fees"
+      }
+    },
+    "path": {
+      "title": "Your Path to আর্থিক স্বাধীনতা",
+      "description": "As a regulated sector, the এটিএম business often sees widespread misinformation. Our mission is to cut through the noise and provide reliable, fact-based guidance to help investors make informed franchise decisions."
+    },
     "title": "Who We Are",
     "subtitle": "Empowering entrepreneurs with trusted ATM franchise opportunities",
     "description": "ATM Franchise India is a pioneering platform that bridges the gap between aspiring entrepreneurs and RBI-licensed White Label ATM operators. Since 2020, we've been transforming lives by providing accurate information, expert guidance, and comprehensive support for ATM franchise businesses across India.",
@@ -36,62 +57,107 @@
       }
     }
   },
+  "groupCompanies": {
+    "badge": "Group Companies",
+    "title": "Part of a Trusted ব্যবসা Group",
+    "subtitle": "এটিএম Franchise India is part of a dynamic group of companies focused on financial technology and business solutions.",
+    "pixellpay": {
+      "name": "PixellPay",
+      "badge": "Payment Solutions",
+      "description": "Innovative payment solutions and financial technology services designed to simplify digital transactions and enhance financial accessibility.",
+      "button": "Visit PixellPay"
+    },
+    "evosyz": {
+      "name": "Evosyz",
+      "badge": "South India's Largest এটিএম Franchise Operator",
+      "description": "Leading এটিএম franchise operations and business solutions across South India with proven expertise and exceptional track record.",
+      "button": "Visit Evosyz"
+    }
+  },
+  "wlaPartners": {
+    "badge": "Trusted ডব্লিউএলএ Network",
+    "subtitle": "We collaborate with India's leading White Label এটিএম operators, each bringing unique strengths and nationwide coverage to provide you with the best franchise opportunities.",
+    "eps": {
+      "badge": "Established ডব্লিউএলএ Operator",
+      "description": "One of India's pioneering WLA operators with extensive network coverage and proven track record in এটিএম deployment and management services."
+    },
+    "india": {
+      "badge": "National Coverage",
+      "description": "Comprehensive এটিএম solutions provider focusing on rural and semi-urban markets, bringing banking services to underserved communities across India."
+    },
+    "indicash": {
+      "badge": "TATA Group Product",
+      "description": "Backed by TATA Group's legacy of trust and excellence, Indicash offers premium এটিএম solutions with cutting-edge technology and reliable service infrastructure."
+    },
+    "vakrangee": {
+      "badge": "Digital Ecosystem Leader",
+      "description": "India's largest network of digital service centers, combining এটিএম services with comprehensive digital solutions for rural and urban communities."
+    },
+    "findi": {
+      "badge": "পরবর্তী-Gen Fintech",
+      "description": "Modern fintech platform revolutionizing এটিএম operations with innovative technology, smart analytics, and customer-centric solutions for the digital age."
+    },
+    "whyMatter": {
+      "title": "Why Our অংশীদারিত্বs Matter",
+      "subtitle": "Our strategic partnerships with leading WLA operators ensure you get access to the best opportunities, technology, and support in the এটিএম franchise business."
+    }
+  },
   "mission": {
-    "title": "Our Mission",
+    "title": "আমাদের লক্ষ্য",
     "items": {
       "accurate": {
-        "title": "Accurate Information",
-        "description": "Provide verified and transparent information about ATM franchise opportunities"
+        "title": "Accurate তথ্য",
+        "description": "Provide verified and transparent information about এটিএম franchise opportunities"
       },
       "simplify": {
         "title": "Simplify Process",
-        "description": "Make the ATM franchise journey simple and accessible for everyone"
+        "description": "Make the এটিএম franchise journey simple and accessible for everyone"
       },
       "support": {
-        "title": "Continuous Support",
+        "title": "Continuous সহায়তা",
         "description": "Offer ongoing guidance from setup to successful operation"
       },
       "growth": {
-        "title": "Enable Growth",
-        "description": "Help partners achieve sustainable income and business growth"
+        "title": "Enable বৃদ্ধি",
+        "description": "সাহায্য partners achieve sustainable income and business growth"
       }
     }
   },
   "services": {
-    "title": "Our Services",
+    "title": "আমাদের সেবা",
     "consultation": {
-      "title": "Franchise Consultation",
-      "description": "Expert guidance on choosing the right WLA partner and location"
+      "title": "ফ্র্যাঞ্চাইজি Consultation",
+      "description": "Expert guidance on choosing the right ডব্লিউএলএ partner and location"
     },
     "training": {
-      "title": "Training & Support",
+      "title": "প্রশিক্ষণ & সহায়তা",
       "description": "Comprehensive training programs and ongoing operational support"
     },
     "digital": {
-      "title": "Digital Marketing",
-      "description": "Boost your ATM's visibility with our digital marketing services"
+      "title": "ডিজিটাল মার্কেটিং",
+      "description": "Boost your এটিএম's visibility with our digital marketing services"
     },
     "technical": {
-      "title": "Technical Assistance",
+      "title": "প্রযুক্তিগত সহায়তা",
       "description": "24/7 technical support and troubleshooting assistance"
     }
   },
   "companies": {
-    "title": "Our Group Companies",
     "subtitle": "Part of a trusted business ecosystem",
+    "pixellpay": {
+      "description": "Financial technology solutions and payment services",
+      "name": "Pixellpay Advantage",
+      "link": "Learn More"
+    },
+    "title": "Our Group Companies",
     "pixellweb": {
       "name": "Pixellweb",
       "description": "Premium web development and digital solutions provider",
       "link": "Visit Website"
-    },
-    "pixellpay": {
-      "name": "Pixellpay Advantage",
-      "description": "Financial technology solutions and payment services",
-      "link": "Learn More"
     }
   },
   "values": {
-    "title": "Our Values",
+    "title": "আমাদের মূল্যবোধ",
     "transparency": {
       "title": "Transparency",
       "description": "Complete transparency in all business dealings"

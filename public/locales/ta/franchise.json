@@ -1,9 +1,9 @@
 {
   "content": {
-    "become_an": "Become an",
-    "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
-    "simple_4step_process": "Simple 4-Step Process"
+    "become_an": "ஒரு",
+    "partner": "பங்குதாரராக",
+    "trusted_atm_franchise_partner": "நம்பகமான ஏடிஎம் உரிமை பங்குதாரர்",
+    "simple_4step_process": "எளிய 4-படி செயல்முறை"
   },
   "hero": {
     "badge": "நம்பகமான ஏடிஎம் ஃபிரான்சைஸ் பார்ட்னர்",
@@ -159,12 +159,12 @@
         "atms": "1-2 ஏடிஎம்கள்",
         "roi": "ஆண்டுக்கு 15-18%",
         "support": "நிலையான ஆதரவு",
-        "features": {
-          "0": "Single location setup",
-          "1": "Basic training program",
-          "2": "Monthly maintenance",
-          "3": "Regional support team"
-        }
+        "features": [
+          "ஒற்றை இடம் அமைப்பு",
+          "அடிப்படை பயிற்சி திட்டம்",
+          "மாதாந்திர பராமரிப்பு",
+          "பிராந்திய ஆதரவு குழு"
+        ]
       },
       "professional": {
         "name": "தொழில்முறை",
@@ -172,13 +172,13 @@
         "atms": "3-5 ஏடிஎம்கள்",
         "roi": "18-22% ஆண்டுக்கு",
         "support": "முன்னுரிமை ஆதரவு",
-        "features": {
-          "0": "Multiple location setup",
-          "1": "Advanced training program",
-          "2": "Bi-weekly maintenance",
-          "3": "Dedicated account manager",
-          "4": "Marketing support"
-        },
+        "features": [
+          "பல இடங்கள் அமைப்பு",
+          "மேம்பட்ட பயிற்சி திட்டம்",
+          "இரு வார பராமரிப்பு",
+          "பிரத்யேக கணக்கு மேலாளர்",
+          "மார்க்கெட்டிங் ஆதரவு"
+        ],
         "popular": true
       },
       "enterprise": {
@@ -187,17 +187,37 @@
         "atms": "6+ ஏடிஎம்கள்",
         "roi": "22-25% ஆண்டுக்கு",
         "support": "பிரீமியம் ஆதரவு",
-        "features": {
-          "0": "Unlimited locations",
-          "1": "Executive training program",
-          "2": "Weekly maintenance",
-          "3": "Personal relationship manager",
-          "4": "Complete marketing package",
-          "5": "Priority placement"
-        }
+        "features": [
+          "வரம்பற்ற இடங்கள்",
+          "நிர்வாக பயிற்சி திட்டம்",
+          "வாராந்திர பராமரிப்பு",
+          "குழு தலைமை ஆதரவு",
+          "முழு மார்க்கெட்டிங் தொகுப்பு",
+          "தனிப்பயனாக்கப்பட்ட தீர்வுகள்"
+        ]
       }
     },
-    "cta": "உங்கள் திட்டத்தைத் தேர்வுசெய்யவும்"
+    "cta": "உங்கள் திட்டத்தைத் தேர்வுசெய்யவும்",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low Investment",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium franchise model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "Investment Details",
+    "revenueStreams": "Revenue Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "Get Started"
   },
   "wlaOperators": {
     "title": "இந்தியாவின் முன்னணி WLA ஆபரேட்டர்கள்",
@@ -242,5 +262,9 @@
       "call": "எங்களை அழைக்கவும்",
       "schedule": "கூட்ட அட்டவணை"
     }
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   }
 }

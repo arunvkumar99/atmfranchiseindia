@@ -1,15 +1,15 @@
 {
-  "title": "नियम आणि अटी",
-  "lastUpdated": "शेवटचे अपडेट केलेले",
+  "title": "Terms and Conditions",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "acceptance": "अटींची स्वीकृती",
-    "services": "सेवांचे वर्णन",
-    "userResponsibilities": "वापरकर्त्याच्या जबाबदाऱ्या",
-    "intellectualProperty": "बौद्धिक संपदा",
-    "limitations": "दायित्वाच्या मर्यादा",
-    "indemnification": "नुकसानभरपाई",
-    "termination": "समाप्त���",
-    "governingLaw": "नियमन कायदा",
-    "contact": "संपर्क माहिती"
+    "acceptance": "Acceptance of Terms",
+    "services": "Services Description",
+    "userResponsibilities": "User Responsibilities",
+    "intellectualProperty": "Intellectual Property",
+    "limitations": "Limitations of Liability",
+    "indemnification": "Indemnification",
+    "termination": "Termination",
+    "governingLaw": "Governing Law",
+    "contact": "Contact Information"
   }
 }

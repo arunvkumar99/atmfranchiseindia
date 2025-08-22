@@ -1,26 +1,60 @@
 {
-  "title": "ಪ್ರವೇಶಿಸುವಿಕೆ ಹೇಳಿಕೆ",
+  "hero": {
+    "backToHome": "Back to Home",
+    "badge": "Accessibility Commitment",
+    "title": "Accessibility Statement",
+    "subtitle": "Making ATM Franchise opportunities accessible to everyone"
+  },
+  "content": {
+    "intro": "ATM Franchise India is committed to ensuring digital accessibility for people with disabilities. We are continuously improving the user experience for everyone and applying the relevant accessibility standards.",
+    "web_accessibility": "Web Accessibility",
+    "visual_accessibility": "Visual Accessibility",
+    "motor_and_cognitive_accessibil": "Motor and Cognitive Accessibility",
+    "hearing_accessibility": "Hearing Accessibility",
+    "feedback_and_support": "Feedback and Support",
+    "email": "Email:",
+    "phone": "Phone:"
+  },
+  "sections": {
+    "web": {
+      "content": "Our website is designed to be compatible with assistive technologies and follows Web Content Accessibility Guidelines (WCAG) 2.1 standards.",
+      "items": [
+        "Keyboard navigation support for all interactive elements",
+        "Screen reader compatibility with proper heading structure",
+        "High contrast color schemes for better visibility",
+        "Alternative text for all images and graphics"
+      ]
+    },
+    "visual": {
+      "content": "We understand that visual impairments can affect how people interact with our platform:",
+      "items": [
+        "Large, readable fonts throughout the website",
+        "Sufficient color contrast ratios meeting WCAG standards"
+      ]
+    }
+  },
+  "title": "Accessibility Statement",
   "commitment": {
-    "title": "ನಮ್ಮ ಬದ್ಧತೆ",
-    "description": "ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೆ ಡಿಜಿಟಲ್ ಪ್ರವೇಶವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನಾವು ಬದ್ಧರಾಗಿದ್ದೇವೆ."
+    "title": "Our Commitment",
+    "description": "We are committed to ensuring digital accessibility for all users"
   },
   "standards": {
-    "title": "ಪ್ರವೇಶಿಸುವಿಕೆ ಮಾನದಂಡಗಳು",
-    "wcag": "WCAG 2.1 ಮಟ್ಟದ AA ಅನುಸರಣೆ",
-    "testing": "ನಿಯಮಿತ ಪ್ರವೇಶಿಸುವಿಕೆ ಪರೀಕ್ಷೆ",
-    "feedback": "ಬಳಕೆದಾರರ ಪ್ರತಿಕ್ರಿಯೆ ಏಕೀಕರಣ"
+    "title": "Accessibility Standards",
+    "wcag": "WCAG 2.1 Level AA Compliance",
+    "testing": "Regular Accessibility Testing",
+    "feedback": "User Feedback Integration"
   },
   "features": {
-    "title": "ಪ್ರವೇಶಿಸುವಿಕೆ ವೈಶಿಷ್ಟ್ಯಗಳು",
-    "keyboard": "ಕೀಬೋರ್ಡ್ ನ್ಯಾವಿಗೇಷನ್",
-    "screenReader": "ಸ್ಕ್ರೀನ್ ರೀಡರ್ ಬೆಂಬಲ",
-    "contrast": "ಹೆಚ್ಚಿನ ಕಾಂಟ್ರಾಸ್ಟ್ ಆಯ್ಕೆಗಳು",
-    "textSize": "ಹೊಂದಾಣಿಕೆ ಮಾಡಬಹುದಾದ ಪಠ್ಯ ಗಾತ್ರ"
+    "title": "Accessibility Features",
+    "keyboard": "Keyboard Navigation",
+    "screenReader": "Screen Reader Support",
+    "contrast": "High Contrast Options",
+    "textSize": "Adjustable Text Size"
   },
   "contact": {
-    "title": "ಪ್ರವೇಶಿಸುವಿಕೆ ಪ್ರತಿಕ್ರಿಯೆ",
-    "description": "ಪ್ರವೇಶಸಾಧ್ಯತೆಯ ಕುರಿತು ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನಾವು ಸ್ವಾಗತಿಸುತ್ತೇವೆ.",
-    "email": "ನಮಗೆ ಇಮೇಲ್ ಮಾಡಿ",
-    "phone": "ನಮಗೆ ಕರೆ ಮಾಡಿ"
+    "title": "Accessibility Feedback",
+    "description": "We welcome your feedback on accessibility",
+    "email": "Email Us",
+    "phone": "Call Us"
   }
 }

@@ -1,36 +1,36 @@
 {
-  "title": "તમારો ATM વ્યવસાય શરૂ કરો",
-  "subtitle": "ભારતમાં ATM વ્યવસાય શરૂ કરવા માટેની સંપૂર્ણ માર્ગદર્શિકા",
+  "title": "Start Your ATM Business",
+  "subtitle": "Complete guide to starting an ATM business in India",
   "hero": {
-    "heading": "આજે જ તમારો ATM વ્યવસાય શરૂ કરો",
-    "description": "ATM વ્યવસાય શરૂ કરવા વિશે તમારે જે જાણવાની જરૂર છે તે બધું",
-    "cta": "શરૂ કરો"
+    "heading": "Start Your ATM Business Today",
+    "description": "Everything you need to know about starting an ATM business",
+    "cta": "Get Started"
   },
   "steps": {
-    "title": "કેવી રીતે શરૂઆત કરવી",
+    "title": "How to Start",
     "research": {
-      "title": "સંશોધન અને આયોજન",
-      "description": "બજારને સમજો અને વ્યવસાય યોજના બનાવો"
+      "title": "Research & Planning",
+      "description": "Understand the market and create a business plan"
     },
     "legal": {
-      "title": "કાનૂની જરૂરિયાતો",
-      "description": "બધી નિયમનકારી અને પાલન આવશ્યકતાઓ પૂર્ણ કરો"
+      "title": "Legal Requirements",
+      "description": "Complete all regulatory and compliance requirements"
     },
     "funding": {
-      "title": "ભંડોળ ગોઠવો",
-      "description": "તમારા ATM વ્યવસાય માટે સુરક્ષિત રોકાણ"
+      "title": "Arrange Funding",
+      "description": "Secure investment for your ATM business"
     },
     "location": {
-      "title": "સ્થાનો શોધો",
-      "description": "ATM માટે વધુ ટ્રાફિકવાળા સ્થળો ઓળખો"
+      "title": "Find Locations",
+      "description": "Identify high-traffic locations for ATMs"
     },
     "launch": {
-      "title": "લોન્ચ ઓપરેશન્સ",
-      "description": "તમારા ATM વ્યવસાયિક કામગીરી શરૂ કરો"
+      "title": "Launch Operations",
+      "description": "Start your ATM business operations"
     }
   },
   "guide": {
-    "title": "સંપૂર્ણ વ્યવસા��� માર્ગદર્શિકા",
-    "download": "માર્ગદર્શિકા ડાઉનલોડ કરો"
+    "title": "Complete Business Guide",
+    "download": "Download Guide"
   }
 }

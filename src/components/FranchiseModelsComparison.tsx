@@ -14,7 +14,7 @@ const FranchiseModelsComparison = () => {
   const franchiseModels = {
     tsifindi: {
       name: "TSI Findi",
-      badge: "Most Popular",
+      badge: t('franchise:comparison.badges.mostPopular'),
       badgeVariant: "default" as const,
       icon: Star,
       color: "text-blue-600",
@@ -30,17 +30,17 @@ const FranchiseModelsComparison = () => {
         adRevenue: "30%"
       },
       features: [
-        "Highest transaction commission rates",
-        "Strong ad revenue sharing",
-        "Established brand presence",
-        "Excellent support system",
-        "Regular training programs"
+        t('franchise:comparison.tsifindi.feature1'),
+        t('franchise:comparison.tsifindi.feature2'),
+        t('franchise:comparison.tsifindi.feature3'),
+        t('franchise:comparison.tsifindi.feature4'),
+        t('franchise:comparison.tsifindi.feature5')
       ],
-      description: "TSI Findi offers the best balance of investment and returns with strong brand backing and comprehensive support."
+      description: t('franchise:comparison.tsifindi.description')
     },
     epsbancs: {
       name: "EPS Bancs",
-      badge: "Best Returns",
+      badge: t('franchise:comparison.badges.bestReturns'),
       badgeVariant: "secondary" as const,
       icon: TrendingUp,
       color: "text-green-600",
@@ -56,17 +56,17 @@ const FranchiseModelsComparison = () => {
         adRevenue: "30%"
       },
       features: [
-        "Variable transaction rates (higher potential)",
-        "Lower initial setup cost",
-        "Good ad revenue sharing",
-        "Flexible payment terms",
-        "Technical support included"
+        t('franchise:comparison.epsbancs.feature1'),
+        t('franchise:comparison.epsbancs.feature2'),
+        t('franchise:comparison.epsbancs.feature3'),
+        t('franchise:comparison.epsbancs.feature4'),
+        t('franchise:comparison.epsbancs.feature5')
       ],
-      description: "EPS Bancs provides competitive returns with flexible commission structures and lower entry barriers."
+      description: t('franchise:comparison.epsbancs.description')
     },
     vakrangee: {
       name: "Vakrangee",
-      badge: "Low Investment",
+      badge: t('franchise:comparison.badges.lowInvestment'),
       badgeVariant: "outline" as const,
       icon: IndianRupee,
       color: "text-purple-600",
@@ -82,17 +82,17 @@ const FranchiseModelsComparison = () => {
         adRevenue: "No ad revenue"
       },
       features: [
-        "Lowest entry investment",
-        "No refundable deposit required",
-        "Good transaction commission",
-        "Simple business model",
-        "Quick setup process"
+        t('franchise:comparison.vakrangee.feature1'),
+        t('franchise:comparison.vakrangee.feature2'),
+        t('franchise:comparison.vakrangee.feature3'),
+        t('franchise:comparison.vakrangee.feature4'),
+        t('franchise:comparison.vakrangee.feature5')
       ],
-      description: "Vakrangee offers the most affordable entry point into ATM business with minimal investment requirements."
+      description: t('franchise:comparison.vakrangee.description')
     },
     india1: {
       name: "India1",
-      badge: "Premium Model",
+      badge: t('franchise:comparison.badges.premiumModel'),
       badgeVariant: "destructive" as const,
       icon: Building,
       color: "text-orange-600",
@@ -108,13 +108,13 @@ const FranchiseModelsComparison = () => {
         adRevenue: "No ad revenue"
       },
       features: [
-        "No working capital required",
-        "Premium franchise model",
-        "Higher investment, stable returns",
-        "Comprehensive business support",
-        "Full refundable deposit"
+        t('franchise:comparison.india1.feature1'),
+        t('franchise:comparison.india1.feature2'),
+        t('franchise:comparison.india1.feature3'),
+        t('franchise:comparison.india1.feature4'),
+        t('franchise:comparison.india1.feature5')
       ],
-      description: "India1 is a premium franchise model suitable for high-investment partners looking for stable, long-term returns."
+      description: t('franchise:comparison.india1.description')
     }
   };
 
@@ -125,9 +125,9 @@ const FranchiseModelsComparison = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-            Franchise Models Comparison
+            {t('franchise:comparison.title')}
           </h2>
-          <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">{t('messages.choose_the_franchise_model_that_best_fits_your_inv')}</p>
+          <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">{t('franchise:comparison.subtitle')}</p>
         </div>
         
         <div className="max-w-4xl mx-auto space-y-8">
@@ -195,19 +195,19 @@ const FranchiseModelsComparison = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-4 flex items-center justify-center gap-2">
                     <span className="text-primary text-lg">₹</span>
-                    Investment Details
+                    {t('franchise:comparison.investmentDetails')}
                   </h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                      <span className="font-medium">{t('labels.onetime_cost')}</span>
+                      <span className="font-medium">{t('common:labels.onetime_cost')}</span>
                       <span className="font-bold text-primary">{selectedModelData.details.oneTimeCost}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                      <span className="font-medium">{t('labels.refundable_deposit')}</span>
+                      <span className="font-medium">{t('common:labels.refundable_deposit')}</span>
                       <span className="font-bold text-primary">{selectedModelData.details.refundableDeposit}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                      <span className="font-medium">{t('labels.clf_working_capital')}</span>
+                      <span className="font-medium">{t('common:labels.clf_working_capital')}</span>
                       <span className="font-bold text-primary">{selectedModelData.details.clf}</span>
                     </div>
                   </div>
@@ -217,19 +217,19 @@ const FranchiseModelsComparison = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-4 flex items-center justify-center gap-2">
                     <TrendingUp className="w-5 h-5 text-green-600" />
-                    Revenue Streams
+                    {t('franchise:comparison.revenueStreams')}
                   </h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                      <span className="font-medium">{t('labels.cash_transaction')}</span>
+                      <span className="font-medium">{t('common:labels.cash_transaction')}</span>
                       <span className="font-bold text-green-600">{selectedModelData.details.cashTxnIncome}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                      <span className="font-medium">{t('labels.noncash_transaction')}</span>
+                      <span className="font-medium">{t('common:labels.noncash_transaction')}</span>
                       <span className="font-bold text-green-600">{selectedModelData.details.nonCashTxnIncome}</span>
                     </div>
                     <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                      <span className="font-medium">{t('labels.ad_revenue_share')}</span>
+                      <span className="font-medium">{t('common:labels.ad_revenue_share')}</span>
                       <span className="font-bold text-green-600">{selectedModelData.details.adRevenue}</span>
                     </div>
                   </div>
@@ -240,7 +240,7 @@ const FranchiseModelsComparison = () => {
               <div className="mt-8">
                 <h4 className="text-lg font-semibold mb-4 flex items-center justify-center gap-2">
                   <Shield className="w-5 h-5 text-blue-600" />
-                  Key Features
+                  {t('franchise:comparison.keyFeatures')}
                 </h4>
                 <div className="grid md:grid-cols-2 gap-3">
                   {selectedModelData.features.map((feature, index) => (
@@ -254,10 +254,10 @@ const FranchiseModelsComparison = () => {
 
               {/* Call to Action */}
               <div className="mt-8 p-6 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg text-center">
-                <h5 className="text-lg font-semibold mb-2">Interested in {selectedModelData.name}?</h5>
-                <p className="text-muted-foreground mb-4">{t('messages.get_detailed_information_and_start_your_franchise_')}</p>
+                <h5 className="text-lg font-semibold mb-2">{t('franchise:comparison.interestedIn', { name: selectedModelData.name })}</h5>
+                <p className="text-muted-foreground mb-4">{t('common:messages.get_detailed_information_and_start_your_franchise_')}</p>
                 <Button className="bg-primary hover:bg-primary/90">
-                  Get Started with {selectedModelData.name}
+                  {t('franchise:comparison.getStartedWith', { name: selectedModelData.name })}
                 </Button>
               </div>
             </CardContent>

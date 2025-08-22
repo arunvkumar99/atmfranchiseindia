@@ -1,426 +1,430 @@
 {
   "hero": {
-    "title": "ਤੁਹਾਡਾ ਏਟੀਐਮ - ਤੁਹਾਡੀ ਆਮਦਨ",
-    "subtitle": "ਘੱਟੋ-ਘੱਟ ਨਿਵੇਸ਼ ਅਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਰਿਟਰਨ ਨਾਲ ਆਪਣਾ ਖੁਦ ਦਾ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰੋ। ਭਾਰਤ ਭਰ ਵਿੱਚ RBI ਲਾਇਸੰਸਸ਼ੁਦਾ ਆਪਰੇਟਰਾਂ ਨਾਲ ਭਾਈਵਾਲੀ ਕਰੋ।",
-    "submitLocation": "ATM ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
-    "becomeFranchise": "ਫਰੈਂਚਾਇਜ਼ੀ ਬਣੋ",
-    "description": "ਭਾਰਤ ਭਰ ਵਿੱਚ ਹਜ਼ਾਰਾਂ ਸਫਲ ਫ੍ਰੈਂਚਾਇਜ਼ੀ ਭਾਈਵਾਲਾਂ ਨਾਲ ਜੁੜੋ। ਘੱਟ ਨਿਵੇਸ਼, ਉੱਚ ਰਿਟਰਨ, ਪੂਰਾ ਸਮਰਥਨ।",
+    "title": "Your ਏਟੀਐਮ – Your Income",
+    "subtitle": "Start your own ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ business with minimal investment and maximum returns. Partner with RBI licensed operators across India.",
+    "submitLocation": "ਏਟੀਐਮ ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
+    "becomeFranchise": "ਫ੍ਰੈਂਚਾਇਜ਼ੀ ਬਣੋ",
+    "description": "Join thousands of successful franchise partners across India. Low ਨਿਵੇਸ਼, high returns, complete support.",
     "cta": {
-      "primary": "ਆਪਣਾ ATM ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰੋ",
-      "secondary": "ਜਿਆਦਾ ਜਾਣੋ"
+      "primary": "Start Your ATM ਕਾਰੋਬਾਰ",
+      "secondary": "Learn More"
     },
     "stats": {
-      "franchises": "5000+ ਸਰਗਰਮ ਫਰੈਂਚਾਇਜ਼ੀ",
-      "transactions": "1 ਕਰੋੜ ਤੋਂ ਵੱਧ ਮਹੀਨਾਵਾਰ ਲੈਣ-ਦੇਣ",
-      "coverage": "ਪੈਨ ਇੰਡੀਆ ਕਵਰੇਜ",
-      "support": "24/7 ਸਹਾਇਤਾ"
+      "franchises": "5000+ Active ਫ੍ਰੈਂਚਾਇਜ਼ੀs",
+      "transactions": "10M+ Monthly Transactions",
+      "coverage": "Pan India Coverage",
+      "support": "24/7 Support"
     }
   },
   "features": {
-    "title": "PixellPay ATM ਫਰੈਂਚਾਇਜ਼ੀ ਕਿਉਂ ਚੁਣੋ?",
-    "subtitle": "ਤੁਹਾਡੇ ਕਾਰੋਬਾਰ ਦੀ ਸਫਲਤਾ ਲਈ ਵਿਆਪਕ ਸਹਾਇਤਾ",
+    "title": "Why Choose PixellPay ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ?",
+    "subtitle": "Comprehensive support for your ਕਾਰੋਬਾਰ success",
     "items": {
       "lowInvestment": {
-        "title": "ਘੱਟ ਨਿਵੇਸ਼",
-        "description": "ਘੱਟੋ-ਘੱਟ ਪੂੰਜੀ ਨਿਵੇਸ਼ ਨਾਲ ਆਪਣਾ ATM ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰੋ"
+        "title": "Low ਨਿਵੇਸ਼",
+        "description": "Start your ATM ਕਾਰੋਬਾਰ with minimal capital investment"
       },
       "highReturns": {
-        "title": "ਉੱਚ ਰਿਟਰਨ",
-        "description": "ਹਰ ਲੈਣ-ਦੇਣ 'ਤੇ ਆਕਰਸ਼ਕ ਕਮਿਸ਼ਨ ਕਮਾਓ"
+        "title": "High Returns",
+        "description": "Earn attractive commissions on every transaction"
       },
       "training": {
-        "title": "ਪੂਰੀ ਸਿਖਲਾਈ",
-        "description": "ਵਿਆਪਕ ਸਿਖਲਾਈ ਅਤੇ ਨਿਰੰਤਰ ਸਹਾਇਤਾ"
+        "title": "Complete Training",
+        "description": "Comprehensive training and ongoing support"
       },
       "technology": {
-        "title": "ਉੱਨਤ ਤਕਨਾਲੋਜੀ",
-        "description": "ਨਵੀਨਤਮ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵਾਲੇ ਅਤਿ-ਆਧੁਨਿਕ ਏਟੀਐਮ ਮਸ਼ੀਨਾਂ"
+        "title": "Advanced Techਨਹੀਂlogy",
+        "description": "ਰਾਜ-of-the-art ATM machines with latest features"
       },
       "security": {
-        "title": "100% ਸੁਰੱਖਿਅਤ",
-        "description": "ਸਾਰੇ ਲੈਣ-ਦੇਣ ਲਈ ਬੈਂਕ-ਗ੍ਰੇਡ ਸੁਰੱਖਿਆ"
+        "title": "100% Secure",
+        "description": "ਬੈਂਕ-grade security for all transactions"
       },
       "support": {
-        "title": "24/7 ਸਹਾਇਤਾ",
-        "description": "24 ਘੰਟੇ ਤਕਨੀਕੀ ਅਤੇ ਵਪਾਰਕ ਸਹਾਇਤਾ"
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical and ਕਾਰੋਬਾਰ support"
       }
     },
     "roi": {
       "title": "upto 50%",
-      "subtitle": "Return On Investment",
-      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      "subtitle": "Return On ਨਿਵੇਸ਼",
+      "description": "All Payout Received by RBI Licensed WLA ਏਟੀਐਮ Partners"
     },
     "penetration": {
       "title": "15 Per Lac",
-      "subtitle": "Only 15 ATMs per 1 Lac People",
-      "description": "ATM Penetration in India is very Low"
+      "subtitle": "Only 15 ਏਟੀਐਮs per 1 Lac People",
+      "description": "ਏਟੀਐਮ Penetration in India is very Low"
     },
     "cash": {
       "title": "75% Cash",
       "subtitle": "Cash Circulation",
-      "description": "Indian Economy is still Largely Cash based"
+      "description": "Indian Ecoਨਹੀਂmy is still Largely Cash based"
     },
     "potential": {
       "title": "90% Potential",
-      "subtitle": "90% of Banks Offsite ATMs are closing down",
-      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
+      "subtitle": "90% of Banks Offsite ਏਟੀਐਮs are closing down",
+      "description": "Banks Offsite ਏਟੀਐਮ Closure creates a Large market for ਏਟੀਐਮs"
     }
   },
   "process": {
-    "title": "5 ਸਧਾਰਨ ਕਦਮਾਂ ਵਿੱਚ ਆਪਣਾ ATM ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰੋ",
-    "subtitle": "ਤੇਜ਼ ਅਤੇ ਮੁਸ਼ਕਲ ਰਹਿਤ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰਕਿਰਿਆ",
+    "title": "Start Your ATM ਕਾਰੋਬਾਰ in 5 Simple Steps",
+    "subtitle": "Quick and hassle-free onboarding process",
     "steps": {
       "apply": {
-        "title": "ਆਨਲਾਈਨ ਅਪਲਾਈ ਕਰੋ",
-        "description": "ਸਧਾਰਨ ਔਨਲਾਈਨ ਅਰਜ਼ੀ ਫਾਰਮ ਭਰੋ।"
+        "title": "ਅਰਜ਼ੀ ਦਿਓ Online",
+        "description": "Fill out the simple online application form"
       },
       "verification": {
-        "title": "ਦਸਤਾਵੇਜ਼ ਤਸਦੀਕ",
-        "description": "ਤਸਦੀਕ ਲਈ ਲੋੜੀਂਦੇ ਦਸਤਾਵੇਜ਼ ਜਮ੍ਹਾਂ ਕਰੋ"
+        "title": "Document Verification",
+        "description": "ਜਮ੍ਹਾਂ ਕਰੋ required documents for verification"
       },
       "agreement": {
-        "title": "ਸਮਝੌਤੇ 'ਤੇ ਦਸਤਖਤ ਕਰੋ",
-        "description": "ਫਰੈਂਚਾਇਜ਼ੀ ਸਮਝੌਤੇ ਦੀ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਉਸ 'ਤੇ ਦਸਤਖਤ ਕਰੋ"
+        "title": "Sign Agreement",
+        "description": "Review and sign the ਫ੍ਰੈਂਚਾਇਜ਼ੀ agreement"
       },
       "setup": {
-        "title": "ਏਟੀਐਮ ਸੈੱਟਅੱਪ",
-        "description": "ਅਸੀਂ ਪੂਰੀ ਏਟੀਐਮ ਸਥਾਪਨਾ ਅਤੇ ਸੈੱਟਅੱਪ ਸੰਭਾਲਦੇ ਹਾਂ"
+        "title": "ਏਟੀਐਮ Setup",
+        "description": "We handle complete ਏਟੀਐਮ installation and setup"
       },
       "earn": {
-        "title": "ਕਮਾਈ ਸ਼ੁਰੂ ਕਰੋ",
-        "description": "ਕੰਮਕਾਜ ਦੇ ਪਹਿਲੇ ਦਿਨ ਤੋਂ ਹੀ ਕਮਾਈ ਸ਼ੁਰੂ ਕਰੋ"
+        "title": "Start Earning",
+        "description": "Begin earning from day one of operations"
       }
     }
   },
   "testimonials": {
-    "badge": "ਸਫਲਤਾ ਦੀਆਂ ਕਹਾਣੀਆਂ",
-    "title": "ਸਾਡੇ ਭਾਈਵਾਲਾਂ ਤੋਂ ਅਸਲ ਨਤੀਜੇ",
-    "subtitle": "ਸਾਡੀ ਗੱਲ 'ਤੇ ਹੀ ਨਾ ਚੱਲੋ। ਇੱਥੇ ਭਾਰਤ ਭਰ ਦੇ ਸਾਡੇ ਫ੍ਰੈਂਚਾਇਜ਼ੀ ਭਾਈਵਾਲਾਂ ਦੀਆਂ ਸੱਚੀਆਂ ਸਫਲਤਾ ਦੀਆਂ ਕਹਾਣੀਆਂ ਹਨ।",
+    "badge": "ਸਫਲਤਾ Stories",
+    "title": "Real Results from Our Partners",
+    "subtitle": "Don't just take our word for it. Here are genuine success stories from our ਫ੍ਰੈਂਚਾਇਜ਼ੀ partners across India.",
     "items": {
       "rajesh": {
-        "name": "ਰਾਜੇਸ਼ ਕੁਮਾਰ",
-        "location": "ਮੁੰਬਈ, ਮਹਾਰਾਸ਼ਟਰ",
-        "business": "EPS ATM ਫਰੈਂਚਾਇਜ਼ੀ",
-        "revenue": "₹45,000/ਮਹੀਨਾ",
-        "testimonial": "ਏਟੀਐਮ ਫਰੈਂਚਾਈਜ਼ ਇੰਡੀਆ ਨੇ ਹਰ ਕਦਮ 'ਤੇ ਮੇਰਾ ਮਾਰਗਦਰਸ਼ਨ ਕੀਤਾ। 8 ਮਹੀਨਿਆਂ ਦੇ ਅੰਦਰ, ਮੈਂ ਘੱਟੋ-ਘੱਟ ਮਿਹਨਤ ਨਾਲ ₹45,000 ਮਹੀਨਾਵਾਰ ਕਮਾ ਰਿਹਾ ਹਾਂ। ਹੁਣ ਤੱਕ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਨਿਵੇਸ਼ ਫੈਸਲਾ!"
+        "name": "Rajesh Kumar",
+        "location": "Mumbai, Maharashtra",
+        "business": "EPS ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
+        "revenue": "₹45,000/month",
+        "testimonial": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
       },
       "priya": {
-        "name": "ਪ੍ਰਿਆ ਸ਼ਰਮਾ",
-        "location": "ਬੰਗਲੌਰ, ਕਰਨਾਟਕ",
-        "business": "ਵਕਰਾਂਗੀ ਭਾਈਵਾਲੀ",
-        "revenue": "₹38,000/ਮਹੀਨਾ",
-        "testimonial": "WLA ਭਾਈਵਾਲੀ ਵਿੱਚ ਟੀਮ ਦੀ ਮੁਹਾਰਤ ਬੇਮਿਸਾਲ ਹੈ। ਮੇਰਾ ATM ਸਿਰਫ਼ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਲਗਾਤਾਰ ₹38,000 ਮਾਸਿਕ ਆਮਦਨ ਪੈਦਾ ਕਰ ਰਿਹਾ ਹੈ।"
+        "name": "Priya Sharma",
+        "location": "Bangalore, Karnataka",
+        "business": "Vakrangee Partnership",
+        "revenue": "₹38,000/month",
+        "testimonial": "The team's expertise in WLA partnerships is unmatched. My ਏਟੀਐਮ is generating consistent ₹38,000 monthly income in just 6 months."
       },
       "amit": {
-        "name": "ਅਮਿਤ ਪਟੇਲ",
-        "location": "ਅਹਿਮਦਾਬਾਦ, ਗੁਜਰਾਤ",
-        "business": "ਇੰਡੀਕੈਸ਼ ਫਰੈਂਚਾਇਜ਼ੀ",
-        "revenue": "₹52,000/ਮਹੀਨਾ",
-        "testimonial": "ਪੇਸ਼ੇਵਰ ਮਾਰਗਦਰਸ਼ਨ ਅਤੇ ਪੂਰੀ ਪਾਰਦਰਸ਼ਤਾ। ₹52,000 ਮਾਸਿਕ ਪੈਸਿਵ ਆਮਦਨ ਨਾਲ 14 ਮਹੀਨਿਆਂ ਵਿੱਚ ROI ਪ੍ਰਾਪਤ ਕੀਤਾ। ਬਹੁਤ ਸਿਫ਼ਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ!"
+        "name": "Amit Patel",
+        "location": "Ahmedabad, Gujarat",
+        "business": "Indicash ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
+        "revenue": "₹52,000/month",
+        "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
       },
       "sanjay": {
-        "name": "ਸੰਜੇ ਵਰਮਾ",
-        "location": "ਪੁਣੇ, ਮਹਾਰਾਸ਼ਟਰ",
-        "business": "ਹਿਟਾਚੀ ਏਟੀਐਮ ਪਾਰਟਨਰ",
-        "revenue": "₹42,000/ਮਹੀਨਾ",
-        "testimonial": "ਸ਼ੁਰੂ ਤੋਂ ਲੈ ਕੇ ਅੰਤ ਤੱਕ ਸ਼ਾਨਦਾਰ ਸਹਾਇਤਾ। ਟੀਮ ਨੇ ਮੈਨੂੰ ਸੰਪੂਰਨ ਸਥਾਨ ਅਤੇ WLA ਸਾਥੀ ਚੁਣਨ ਵਿੱਚ ਮਦਦ ਕੀਤੀ। ਹੁਣ ਘੱਟੋ-ਘੱਟ ਰੋਜ਼ਾਨਾ ਸ਼ਮੂਲੀਅਤ ਨਾਲ ਸਥਿਰ ਪੈਸਿਵ ਆਮਦਨ ਕਮਾ ਰਿਹਾ ਹਾਂ।"
+        "name": "Sanjay Verma",
+        "location": "Pune, Maharashtra",
+        "business": "Hitachi ਏਟੀਐਮ Partner",
+        "revenue": "₹42,000/month",
+        "testimonial": "Excellent support from start to finish. The team helped me select the perfect location and WLA partner. ਨਹੀਂw earning steady passive income with minimal daily involvement."
       }
     },
     "monthsLabel": "in {{months}} months",
     "performance": {
-      "title": "ਔਸਤ ਸਾਥੀ ਪ੍ਰਦਰਸ਼ਨ",
-      "income": "ਔਸਤ ਮਾਸਿਕ ਆਮਦਨ",
-      "roi": "ROI ਤੋਂ ਮਹੀਨੇ",
-      "success": "ਸਫਲਤਾ ਦਰ"
+      "title": "Average Partner Performance",
+      "income": "Avg Monthly Income",
+      "roi": "Months to ROI",
+      "success": "ਸਫਲਤਾ Rate"
     }
   },
   "locations": {
-    "title": "ਭਾਰਤ ਭਰ ਵਿੱਚ ਸਾਡੀ ਮੌਜੂਦਗੀ",
-    "subtitle": "ਆਪਣੇ ਸ਼ਹਿਰ ਵਿੱਚ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਦੇ ਮੌਕੇ ਲੱਭੋ",
-    "searchPlaceholder": "ਆਪਣੇ ਸ਼ਹਿਰ ਦੀ ਖੋਜ ਕਰੋ...",
-    "viewAll": "ਸਾਰੇ ਸਥਾਨ ਵੇਖੋ"
+    "title": "Our Presence Across India",
+    "subtitle": "Find ATM franchise opportunities in your ਸ਼ਹਿਰ",
+    "searchPlaceholder": "Search your ਸ਼ਹਿਰ...",
+    "viewAll": "View All Locations"
   },
   "cta": {
-    "title": "ਕੀ ਤੁਸੀਂ ਆਪਣੀ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ?",
-    "subtitle": "ਭਾਰਤ ਦੇ ਸਭ ਤੋਂ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੇ ATM ਨੈੱਟਵਰਕ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
-    "button": "ਹੁਣ ਲਾਗੂ ਕਰੋ",
-    "contact": "ਜਾਂ ਸਾਨੂੰ ਇਸ ਨੰਬਰ 'ਤੇ ਕਾਲ ਕਰੋ"
+    "title": "Ready to Start Your ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ?",
+    "subtitle": "Join India's fastest growing ਏਟੀਐਮ network",
+    "button": "ਅਰਜ਼ੀ ਦਿਓ Now",
+    "contact": "Or call us at"
   },
   "benefits": {
-    "title": "ਏਟੀਐਮ ਫਰੈਂਚਾਇਜ਼ੀ ਦੇ ਫਾਇਦੇ",
+    "title": "Benefits of ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
     "items": {
-      "passive": "ਪੈਸਿਵ ਇਨਕਮ ਸਟ੍ਰੀਮ",
-      "scalable": "ਸਕੇਲੇਬਲ ਬਿਜ਼ਨਸ ਮਾਡਲ",
-      "proven": "ਸਾਬਤ ਵਪਾਰਕ ਮਾਡਲ",
-      "flexible": "ਲਚਕਦਾਰ ਕੰਮ ਦੇ ਘੰਟੇ",
-      "noInventory": "ਕੋਈ ਵਸਤੂ ਪ੍ਰਬੰਧਨ ਨਹੀਂ",
-      "digitalIndia": "ਡਿਜੀਟਲ ਇੰਡੀਆ ਮਿਸ਼ਨ ਦਾ ਹਿੱਸਾ"
+      "passive": "Passive Income Stream",
+      "scalable": "Scalable ਕਾਰੋਬਾਰ Model",
+      "proven": "Proven ਕਾਰੋਬਾਰ Model",
+      "flexible": "Flexible Working Hours",
+      "noInventory": "ਨਹੀਂ Inventory Management",
+      "digitalIndia": "Part of Digital India Mission"
     }
   },
   "stats": {
-    "title": "ਨੰਬਰਾਂ ਦੁਆਰਾ PixellPay",
-    "activeFranchises": "ਸਰਗਰਮ ਫਰੈਂਚਾਇਜ਼ੀ",
-    "monthlyTransactions": "ਮਹੀਨਾਵਾਰ ਲੈਣ-ਦੇਣ",
-    "citiesCovered": "ਕਵਰ ਕੀਤੇ ਸ਼ਹਿਰ",
-    "yearsExperience": "ਸਾਲਾਂ ਦਾ ਤਜਰਬਾ",
-    "atmsAcrossIndia": "ATMs across India",
+    "title": "PixellPay by Numbers",
+    "activeFranchises": "Active ਫ੍ਰੈਂਚਾਇਜ਼ੀs",
+    "monthlyTransactions": "Monthly Transactions",
+    "citiesCovered": "Cities Covered",
+    "yearsExperience": "Years of Experience",
+    "atmsAcrossIndia": "ਏਟੀਐਮs across India",
     "andCounting": "and counting..."
   },
   "whyAtm": {
-    "title": "ਏਟੀਐਮ ਕਾਰੋਬਾਰ ਕਿਉਂ",
-    "subtitle": "ਆਰਬੀਆਈ ਲਾਇਸੈਂਸਸ਼ੁਦਾ ਕੰਪਨੀਆਂ ਤੋਂ ਜ਼ੀਰੋ ਨੁਕਸਾਨ ਅਤੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਪਾਰਦਰਸ਼ੀ ਕਾਰੋਬਾਰੀ ਮੌਕਾ",
+    "title": "Why ATM ਕਾਰੋਬਾਰ",
+    "subtitle": "Zero Loss and Fully Transparent ਕਾਰੋਬਾਰ Opportunity from RBI Licensed Companies",
     "stats": {
       "roi": {
-        "prefix": "ਤੱਕ",
-        "label": "ਨਿਵੇਸ਼ 'ਤੇ ਵਾਪਸੀ",
-        "description": "RBI ਲਾਇਸੰਸਸ਼ੁਦਾ WLA ATM ਭਾਈਵਾਲਾਂ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਕੀਤੇ ਗਏ ਸਾਰੇ ਭੁਗਤਾਨ"
+        "prefix": "upto",
+        "label": "Return On ਨਿਵੇਸ਼",
+        "description": "All Payout Received by RBI Licensed WLA ਏਟੀਐਮ Partners"
       },
       "penetration": {
-        "suffix": "ਪ੍ਰਤੀ ਲੱਖ",
-        "label": "ਪ੍ਰਤੀ 1 ਲੱਖ ਲੋਕਾਂ ਲਈ ਸਿਰਫ਼ 15 ਏਟੀਐਮ",
-        "description": "ਭਾਰਤ ਵਿੱਚ ਏਟੀਐਮ ਵਿੱਚ ਦਾਖਲ ਹੋਣਾ ਬਹੁਤ ਘੱਟ ਹੈ।"
+        "suffix": "Per Lac",
+        "label": "Only 15 ਏਟੀਐਮs per 1Lac People",
+        "description": "ਏਟੀਐਮ Penetration in India is very Low"
       },
       "cash": {
-        "suffix": "ਨਕਦ",
-        "label": "ਨਕਦੀ ਸਰਕੂਲੇਸ਼ਨ",
-        "description": "ਭਾਰਤੀ ਅਰਥਵਿਵਸਥਾ ਅਜੇ ਵੀ ਮੁੱਖ ਤੌਰ 'ਤੇ ਨਕਦੀ 'ਤੇ ਅਧਾਰਤ ਹੈ।"
+        "suffix": "Cash",
+        "label": "Cash Circulation",
+        "description": "Indian Ecoਨਹੀਂmy is still Largely Cash based"
       },
       "potential": {
-        "suffix": "ਸੰਭਾਵੀ",
-        "label": "90% ਬੈਂਕਾਂ ਦੇ ਆਫਸਾਈਟ ਏਟੀਐਮ ਬੰਦ ਹੋ ਰਹੇ ਹਨ।",
-        "description": "ਬੈਂਕਾਂ ਦੇ ਆਫਸਾਈਟ ਏਟੀਐਮ ਬੰਦ ਹੋਣ ਨਾਲ ਏਟੀਐਮ ਲਈ ਇੱਕ ਵੱਡਾ ਬਾਜ਼ਾਰ ਪੈਦਾ ਹੁੰਦਾ ਹੈ"
+        "suffix": "Potential",
+        "label": "90% of Banks Offsite ਏਟੀਐਮs are closing down",
+        "description": "Banks Offsite ਏਟੀਐਮ Closure creates a Large market for ਏਟੀਐਮs"
       }
     },
     "cta": {
-      "title": "ਪੇਂਡੂ ਭਾਰਤ ਵਿੱਚ ਏਟੀਐਮ ਕਾਰੋਬਾਰ ਲਈ ਸਹੀ ਸਮਾਂ",
+      "title": "Perfect Time for ATM ਕਾਰੋਬਾਰ in Rural India",
       "points": {
-        "digital": "ਡਿਜੀਟਲ ਗੋਦ ਲੈਣ ਵਿੱਚ ਵਾਧਾ",
-        "government": "ਵਿੱਤੀ ਸਮਾਵੇਸ਼ ਲਈ ਸਰਕਾਰ ਦਾ ਜ਼ੋਰ",
-        "branches": "ਬੈਂਕ ਸ਼ਾਖਾਵਾਂ ਬੰਦ ਹੋਣ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ"
+        "digital": "Digital Adoption Growing",
+        "government": "Government Push for Financial Inclusion",
+        "branches": "ਬੈਂਕ Branch Closures"
       },
-      "investment": "ਨਿਵੇਸ਼ ਸੀਮਾ: ₹2-5 ਲੱਖ"
+      "investment": "ਨਿਵੇਸ਼ Range: ₹2-5 Lakhs"
     },
-    "heading": "ਕਿਉਂ ਏਟੀਐਮ ਕਾਰੋਬਾਰ?",
+    "heading": "Why ATM ਕਾਰੋਬਾਰ?",
     "roi": {
-      "title": "ਨਿਵੇਸ਼ ਤੇ ਵਾਪਸੀ",
-      "description": "RBI ਲਾਇਸੈਂਸਸ਼ੁਦਾ WLA ATM ਭਾਈਵਾਲਾਂ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਸਾਰੇ ਭੁਗਤਾਨ"
+      "title": "Return On ਨਿਵੇਸ਼",
+      "description": "All Payout Received by RBI Licensed WLA ਏਟੀਐਮ Partners"
     },
     "penetration": {
-      "title": "ਏਟੀਐਮ ਪ੍ਰਵੇਸ਼",
-      "description": "ਪ੍ਰਤੀ 1 ਲੱਖ ਲੋਕਾਂ ਲਈ ਸਿਰਫ਼ 15 ਏਟੀਐਮ - ਭਾਰਤ ਵਿੱਚ ਏਟੀਐਮ ਪ੍ਰਵੇਸ਼ ਬਹੁਤ ਘੱਟ ਹੈ"
+      "title": "ਏਟੀਐਮ Penetration",
+      "description": "Only 15 ਏਟੀਐਮs per 1 Lac People - ਏਟੀਐਮ Penetration in India is very Low"
     },
     "cash": {
-      "title": "ਨਕਦ ਸੰਚਾਰ",
-      "description": "ਭਾਰਤੀ ਅਰਥਵਿਵਸਥਾ ਅਜੇ ਵੀ ਮੁੱਖ ਤੌਰ ਤੇ ਨਕਦ ਆਧਾਰਿਤ ਹੈ"
+      "title": "Cash Circulation",
+      "description": "Indian Ecoਨਹੀਂmy is still Largely Cash based"
     },
     "market": {
-      "title": "ਬਾਜ਼ਾਰ ਮੌਕਾ",
-      "description": "90% ਬੈਂਕਾਂ ਦੇ ਆਫਸਾਈਟ ਏਟੀਐਮ ਬੰਦ ਹੋ ਰਹੇ ਹਨ - ਬੈਂਕਾਂ ਦੇ ਆਫਸਾਈਟ ਏਟੀਐਮ ਬੰਦ ਹੋਣ ਨਾਲ ਏਟੀਐਮ ਲਈ ਵੱਡਾ ਬਾਜ਼ਾਰ ਬਣਦਾ ਹੈ"
+      "title": "Market Opportunity",
+      "description": "90% of Banks Offsite ਏਟੀਐਮs are closing down - Banks Offsite ਏਟੀਐਮ Closure creates a Large market for ਏਟੀਐਮs"
     }
   },
   "faq": {
-    "badge": "ਅਕਸਰ ਪੁੱਛੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲ",
-    "title": "ਹਰ ਚੀਜ਼ ਜੋ ਤੁਹਾਨੂੰ ਜਾਣਨ ਦੀ ਲੋੜ ਹੈ",
-    "subtitle": "ਆਪਣਾ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰਨ ਬਾਰੇ ਸਭ ਤੋਂ ਆਮ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਪ੍ਰਾਪਤ ਕਰੋ।",
+    "badge": "Frequently Asked Questions",
+    "title": "Everything You Need to Kਨਹੀਂw",
+    "subtitle": "Get answers to the most common questions about starting your ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ business.",
     "items": {
       "investment": {
-        "question": "ATM ਫਰੈਂਚਾਇਜ਼ੀ ਲਈ ਘੱਟੋ-ਘੱਟ ਕਿੰਨਾ ਨਿਵੇਸ਼ ਜ਼ਰੂਰੀ ਹੈ?",
-        "answer": "ਨਿਵੇਸ਼ ਆਮ ਤੌਰ 'ਤੇ WLA ਭਾਈਵਾਲ ਅਤੇ ਸਥਾਨ ਦੇ ਆਧਾਰ 'ਤੇ ₹3-8 ਲੱਖ ਤੱਕ ਹੁੰਦਾ ਹੈ। ਇਸ ਵਿੱਚ ਮਸ਼ੀਨ ਦੀ ਲਾਗਤ, ਇੰਸਟਾਲੇਸ਼ਨ ਅਤੇ ਸ਼ੁਰੂਆਤੀ ਕਾਰਜਸ਼ੀਲ ਪੂੰਜੀ ਸ਼ਾਮਲ ਹੈ। ਅਸੀਂ ਹਰੇਕ ਭਾਈਵਾਲ ਲਈ ਲਾਗਤ ਦਾ ਵਿਸਤ੍ਰਿਤ ਵੇਰਵਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ।"
+        "question": "What is the minimum investment required for an ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ?",
+        "answer": "The ਨਿਵੇਸ਼ typically ranges from ₹3-8 lakhs depending on the WLA partner and location. This includes machine cost, installation, and initial working capital. We provide detailed cost breakdowns for each partner."
       },
       "income": {
-        "question": "ਮੈਨੂੰ ਮਹੀਨਾਵਾਰ ਕਿੰਨੀ ਆਮਦਨ ਦੀ ਉਮੀਦ ਹੋ ਸਕਦੀ ਹੈ?",
-        "answer": "ਸਾਡੇ ਭਾਈਵਾਲ ਆਮ ਤੌਰ 'ਤੇ ₹35,000-60,000 ਮਹੀਨਾਵਾਰ ਕਮਾਉਂਦੇ ਹਨ। ਆਮਦਨ ਸਥਾਨ, ਲੋਕਾਂ ਦੀ ਆਮਦ ਅਤੇ ਲੈਣ-ਦੇਣ ਦੀ ਮਾਤਰਾ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ। ਪੇਂਡੂ ਖੇਤਰਾਂ ਵਿੱਚ ਅਕਸਰ ₹25-40K ਕਮਾਉਂਦੇ ਹਨ ਜਦੋਂ ਕਿ ਸ਼ਹਿਰੀ ਸਥਾਨ ₹50-80K ਮਹੀਨਾਵਾਰ ਕਮਾਉਂਦੇ ਹਨ।"
+        "question": "How much monthly income can I expect?",
+        "answer": "Our partners typically earn ₹35,000-60,000 monthly. Income depends on location, footfall, and transaction volume. Rural areas often see ₹25-40K while urban locations can generate ₹50-80K monthly."
       },
       "roi": {
-        "question": "ROI ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਕਿੰਨਾ ਸਮਾਂ ਲੱਗਦਾ ਹੈ?",
-        "answer": "ਜ਼ਿਆਦਾਤਰ ਭਾਈਵਾਲ 12-18 ਮਹੀਨਿਆਂ ਦੇ ਅੰਦਰ ROI ਪ੍ਰਾਪਤ ਕਰਦੇ ਹਨ। ਜ਼ਿਆਦਾ ਟ੍ਰੈਫਿਕ ਵਾਲੇ ਸਥਾਨ 8-12 ਮਹੀਨਿਆਂ ਵਿੱਚ ਰਿਟਰਨ ਦੇਖ ਸਕਦੇ ਹਨ, ਜਦੋਂ ਕਿ ਛੋਟੇ ਕਸਬੇ ਆਮ ਤੌਰ 'ਤੇ 15-20 ਮਹੀਨੇ ਲੈਂਦੇ ਹਨ। ਅਸੀਂ ਰਿਟਰਨ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉਣ ਲਈ ਸਥਾਨ ਵਿਸ਼ਲੇਸ਼ਣ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ।"
+        "question": "How long does it take to get ROI?",
+        "answer": "Most partners achieve ROI within 12-18 months. High-traffic locations can see returns in 8-12 months, while smaller towns typically take 15-20 months. We provide location analysis to optimize returns."
       },
       "costs": {
-        "question": "ਚੱਲ ਰਹੇ ਸੰਚਾਲਨ ਖਰਚੇ ਕੀ ਹਨ?",
-        "answer": "ਮਹੀਨਾਵਾਰ ਖਰਚਿਆਂ ਵਿੱਚ ਬਿਜਲੀ (₹3-5K), ਨਕਦੀ ਲੋਡਿੰਗ (ਲੈਣ-ਦੇਣ ਦਾ 2-3%), ਰੱਖ-ਰਖਾਅ (₹2-3K), ਅਤੇ ਇੰਟਰਨੈੱਟ (₹1-2K) ਸ਼ਾਮਲ ਹਨ। ਕੁੱਲ ਸੰਚਾਲਨ ਲਾਗਤਾਂ ਆਮ ਤੌਰ 'ਤੇ ਕੁੱਲ ਆਮਦਨ ਦਾ 15-20% ਹੁੰਦੀਆਂ ਹਨ।"
+        "question": "What are the ongoing operational costs?",
+        "answer": "Monthly costs include electriਸ਼ਹਿਰ (₹3-5K), cash loading (2-3% of transactions), maintenance (₹2-3K), and internet (₹1-2K). Total operational costs are typically 15-20% of gross revenue."
       },
       "technical": {
-        "question": "ਕੀ ਮੈਨੂੰ ATM ਚਲਾਉਣ ਲਈ ਤਕਨੀਕੀ ਗਿਆਨ ਦੀ ਲੋੜ ਹੈ?",
-        "answer": "ਕਿਸੇ ਤਕਨੀਕੀ ਮੁਹਾਰਤ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ। WLA ਭਾਈਵਾਲ ਪੂਰੀ ਸਿਖਲਾਈ, 24/7 ਤਕਨੀਕੀ ਸਹਾਇਤਾ, ਅਤੇ ਰਿਮੋਟ ਨਿਗਰਾਨੀ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ। ਤੁਸੀਂ ਮੁੱਖ ਤੌਰ 'ਤੇ ਨਕਦੀ ਲੋਡਿੰਗ ਅਤੇ ਬੁਨਿਆਦੀ ਰੱਖ-ਰਖਾਅ ਤਾਲਮੇਲ ਨੂੰ ਸੰਭਾਲਦੇ ਹੋ।"
+        "question": "Do I need technical knowledge to operate an ਏਟੀਐਮ?",
+        "answer": "ਨਹੀਂ technical expertise required. WLA partners provide complete training, 24/7 technical support, and remote monitoring. You mainly handle cash loading and basic maintenance coordination."
       },
       "cash": {
-        "question": "ਨਕਦੀ ਪ੍ਰਬੰਧਨ ਕਿਵੇਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ?",
-        "answer": "ਤੁਸੀਂ ਵਰਤੋਂ ਦੇ ਪੈਟਰਨਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਨਕਦੀ ਲੋਡ ਕਰੋਗੇ (ਆਮ ਤੌਰ 'ਤੇ ਹਰ 2-4 ਦਿਨਾਂ ਬਾਅਦ)। WLA ਭਾਈਵਾਲ ਨਕਦੀ ਦੀ ਭਵਿੱਖਬਾਣੀ ਕਰਨ ਵਾਲੇ ਟੂਲ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ ਅਤੇ ਕੁਝ ਨਕਦੀ ਲੌਜਿਸਟਿਕਸ ਸੇਵਾਵਾਂ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦੇ ਹਨ। ਬੀਮਾ ਨਕਦੀ-ਇਨ-ਟ੍ਰਾਂਜ਼ਿਟ ਜੋਖਮਾਂ ਨੂੰ ਕਵਰ ਕਰਦਾ ਹੈ।"
+        "question": "How is cash management handled?",
+        "answer": "You'll load cash based on usage patterns (typically every 2-4 days). WLA partners provide cash forecasting tools and some offer cash logistics services. Insurance covers cash-in-transit risks."
       },
       "location": {
-        "question": "ਏਟੀਐਮ ਪਲੇਸਮੈਂਟ ਲਈ ਕਿਹੜੀਆਂ ਥਾਵਾਂ ਸਭ ਤੋਂ ਵਧੀਆ ਕੰਮ ਕਰਦੀਆਂ ਹਨ?",
-        "answer": "ਬਾਜ਼ਾਰ, ਬੱਸ ਸਟੈਂਡ, ਹਸਪਤਾਲ, ਕਾਲਜ ਅਤੇ ਵਪਾਰਕ ਕੰਪਲੈਕਸ ਵਰਗੇ ਜ਼ਿਆਦਾ ਭੀੜ-ਭਾੜ ਵਾਲੇ ਖੇਤਰ ਸਭ ਤੋਂ ਵਧੀਆ ਕੰਮ ਕਰਦੇ ਹਨ। ਅਸੀਂ ਵਿਸਤ੍ਰਿਤ ਸਥਾਨ ਸਰਵੇਖਣ ਕਰਦੇ ਹਾਂ ਅਤੇ ਆਪਣੇ ਤਜ਼ਰਬੇ ਤੋਂ ਸਾਈਟ ਪ੍ਰਵਾਨਗੀ ਮਾਰਗਦਰਸ਼ਨ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ।"
+        "question": "What locations work best for ਏਟੀਐਮ placement?",
+        "answer": "High-footfall areas like markets, bus stands, hospitals, colleges, and commercial complexes work best. We conduct detailed location surveys and provide site approval guidance from our experience."
       },
       "hidden": {
-        "question": "ਕੀ ਕੋਈ ਲੁਕਵੇਂ ਖਰਚੇ ਜਾਂ ਫੀਸਾਂ ਹਨ?",
-        "answer": "ਅਸੀਂ ਪੂਰੀ ਪਾਰਦਰਸ਼ਤਾ ਯਕੀਨੀ ਬਣਾਉਂਦੇ ਹਾਂ। ਮਸ਼ੀਨ ਦੀ ਲਾਗਤ, ਇੰਸਟਾਲੇਸ਼ਨ, ਸਾਲਾਨਾ ਰੱਖ-ਰਖਾਅ, ਅਤੇ ਆਮਦਨ ਵੰਡ ਸਮੇਤ ਸਾਰੀਆਂ ਲਾਗਤਾਂ ਦਾ ਪਹਿਲਾਂ ਹੀ ਖੁਲਾਸਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਕੋਈ ਲੁਕਵੇਂ ਖਰਚੇ ਨਹੀਂ - ਜੋ ਤੁਸੀਂ ਦੇਖਦੇ ਹੋ ਉਹੀ ਤੁਸੀਂ ਭੁਗਤਾਨ ਕਰਦੇ ਹੋ।"
+        "question": "Are there any hidden costs or fees?",
+        "answer": "We ensure complete transparency. All costs are disਬੰਦ ਕਰੋd upfront including machine cost, installation, annual maintenance, and revenue sharing. No hidden charges - what you see is what you pay."
       },
       "support": {
-        "question": "ਫਰੈਂਚਾਇਜ਼ੀ ਸੈੱਟਅੱਪ ਤੋਂ ਬਾਅਦ ਤੁਸੀਂ ਕਿਹੜੀ ਸਹਾਇਤਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹੋ?",
-        "answer": "ਅਸੀਂ ਨਿਰੰਤਰ ਕਾਰੋਬਾਰੀ ਸਲਾਹ-ਮਸ਼ਵਰਾ, ਪ੍ਰਦਰਸ਼ਨ ਅਨੁਕੂਲਨ ਸੁਝਾਅ, ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ ਸਹਾਇਤਾ, ਅਤੇ WLA ਭਾਈਵਾਲ ਤਾਲਮੇਲ ਵਿੱਚ ਸਹਾਇਤਾ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦੇ ਹਾਂ। ਸਾਡਾ ਰਿਸ਼ਤਾ ਸਿਰਫ਼ ਸੈੱਟਅੱਪ ਤੋਂ ਪਰੇ ਜਾਰੀ ਹੈ।"
+        "question": "What support do you provide after ਫ੍ਰੈਂਚਾਇਜ਼ੀ setup?",
+        "answer": "We offer ongoing business consultation, performance optimization tips, troubleshooting support, and assistance with WLA partner coordination. Our relationship ਜਾਰੀ ਰੱਖੋs beyond just setup."
       },
       "multiple": {
-        "question": "ਕੀ ਮੈਂ ਕਈ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਚਲਾ ਸਕਦਾ ਹਾਂ?",
-        "answer": "ਹਾਂ, ਬਹੁਤ ਸਾਰੇ ਸਫਲ ਭਾਈਵਾਲ 2-5 ATM ਚਲਾਉਂਦੇ ਹਨ। ਤੁਹਾਡੇ ਪਹਿਲੇ ATM ਦੇ ਸਥਿਰ ਹੋਣ (6-12 ਮਹੀਨੇ) ਤੋਂ ਬਾਅਦ, ਅਸੀਂ ਵਾਧੂ ਸਥਾਨਾਂ ਦੀ ਪਛਾਣ ਕਰਨ ਅਤੇ ਮਲਟੀ-ਲੋਕੇਸ਼ਨ ਓਪਰੇਸ਼ਨਾਂ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੇ ਹਾਂ।"
+        "question": "Can I operate multiple ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀs?",
+        "answer": "Yes, many successful partners operate 2-5 ਏਟੀਐਮs. After your first ਏਟੀਐਮ stabilizes (6-12 months), we can help identify additional locations and streamline multi-location operations."
       }
     },
     "stats": {
       "transparent": {
-        "title": "100% ਪਾਰਦਰਸ਼ੀ",
-        "description": "ਕੋਈ ਲੁਕਵੇਂ ਖਰਚੇ ਜਾਂ ਹੈਰਾਨੀਜਨਕ ਫੀਸ ਨਹੀਂ। ਸਾਰੇ ਲੈਣ-ਦੇਣ ਵਿੱਚ ਪੂਰੀ ਪਾਰਦਰਸ਼ਤਾ।"
+        "title": "100% Transparent",
+        "description": "ਨਹੀਂ hidden costs or surprise fees. Complete transparency in all dealings."
       },
       "proven": {
-        "title": "ਸਾਬਤ ਨਤੀਜੇ",
-        "description": "12-18 ਮਹੀਨਿਆਂ ਵਿੱਚ ਔਸਤ ROI ਦੇ ਨਾਲ 95% ਸਾਥੀ ਸਫਲਤਾ ਦਰ।"
+        "title": "Proven Results",
+        "description": "95% partner ਸਫਲਤਾ rate with average ROI in 12-18 months."
       },
       "quick": {
-        "title": "ਤੇਜ਼ ਸੈੱਟਅੱਪ",
-        "description": "30-45 ਦਿਨਾਂ ਦੇ ਅੰਦਰ-ਅੰਦਰ ਪ੍ਰਵਾਨਗੀ ਅਤੇ ਸਥਾਪਨਾ ਨੂੰ ਤੇਜ਼ ਕਰੋ।"
+        "title": "Quick Setup",
+        "description": "Fast-track approval and installation within 30-45 days."
       }
     }
   },
   "services": {
-    "title": "ਕਿਉਂ ਚੁਣੋ",
-    "titleHighlight": "ਏਟੀਐਮ ਫਰੈਂਚਾਇਜ਼ੀ ਇੰਡੀਆ?",
-    "subtitle": "ਸਾਰੇ WLA ਬ੍ਰਾਂਡਾਂ ਵਿੱਚ 4+ ਸਾਲਾਂ ਦੇ ਤਜ਼ਰਬੇ ਦੇ ਨਾਲ, ਅਸੀਂ ਪੇਂਡੂ ਭਾਰਤ ਵਿੱਚ ਤੁਹਾਡੇ ATM ਕਾਰੋਬਾਰ ਦੀ ਸਫਲਤਾ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਐਂਡ-ਟੂ-ਐਂਡ ਸਹਾਇਤਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ।",
+    "title": "Why ਚੁਣੋ",
+    "titleHighlight": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ India?",
+    "subtitle": "With 4+ years of experience across all WLA brands, we provide end-to-end support to ensure your ATM ਕਾਰੋਬਾਰ success in rural India.",
     "items": {
       "trusted": {
-        "title": "ਭਰੋਸੇਯੋਗ ਏਟੀਐਮ ਫਰੈਂਚਾਈਜ਼ ਜਾਣਕਾਰੀ",
-        "description": "ਨਿਯੰਤ੍ਰਿਤ ATM ਉਦਯੋਗ ਬਾਰੇ ਸਹੀ, ਪ੍ਰਮਾਣਿਤ ਸੂਝ ਪ੍ਰਾਪਤ ਕਰੋ। ਸਾਡੇ ਮਾਹਰ ਸੂਚਿਤ ਫਰੈਂਚਾਇਜ਼ੀ ਫੈਸਲਿਆਂ ਲਈ ਤੱਥ-ਅਧਾਰਤ ਮਾਰਗਦਰਸ਼ਨ ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਗਲਤ ਜਾਣਕਾਰੀ ਨੂੰ ਦੂਰ ਕਰਦੇ ਹਨ।",
+        "title": "Trusted ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Information",
+        "description": "Get accurate, verified insights into the regulated ਏਟੀਐਮ industry. Our experts cut through misinformation to provide fact-based guidance for informed franchise decisions.",
         "benefits": {
-          "compliance": "ਆਰਬੀਆਈ ਪਾਲਣਾ ਤਸਦੀਕ",
-          "analysis": "ਪਾਰਦਰਸ਼ੀ ਕਾਰੋਬਾਰੀ ਮਾਡਲ ਵਿਸ਼ਲੇਸ਼ਣ",
-          "risk": "ਜੋਖਮ ਮੁਲਾਂਕਣ ਅਤੇ ਘਟਾਉਣਾ",
-          "legal": "ਕਾਨੂੰਨੀ ਦਸਤਾਵੇਜ਼ ਸਹਾਇਤਾ"
+          "compliance": "RBI compliance verification",
+          "analysis": "Transparent ਕਾਰੋਬਾਰ model analysis",
+          "risk": "Risk assessment and mitigation",
+          "legal": "Legal documentation support"
         },
-        "cta": "ਤਸਦੀਕਸ਼ੁਦਾ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰੋ"
+        "cta": "Get Verified Info"
       },
       "guidance": {
-        "title": "ਮਾਹਰ WLA ਆਪਰੇਟਰ ਮਾਰਗਦਰਸ਼ਨ",
-        "description": "ਭਰੋਸੇ ਨਾਲ ਸਹੀ ਵ੍ਹਾਈਟ ਲੇਬਲ ਏਟੀਐਮ ਪਾਰਟਨਰ ਚੁਣੋ। ਅਸੀਂ ਪ੍ਰਮੁੱਖ ਆਪਰੇਟਰਾਂ ਦੀ ਨਿਰਪੱਖ ਤੁਲਨਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ, ਸ਼ਕਤੀਆਂ ਅਤੇ ਕਮਜ਼ੋਰੀਆਂ ਨੂੰ ਉਜਾਗਰ ਕਰਦੇ ਹੋਏ।",
+        "title": "Expert WLA Operator Guidance",
+        "description": "Choose the right White Label ਏਟੀਐਮ partner with confidence. We provide unbiased comparisons of major operators, highlighting strengths and weaknesses.",
         "benefits": {
-          "comparison": "ਓਪਰੇਟਰ ਤੁਲਨਾ ਰਿਪੋਰਟਾਂ",
-          "revenue": "ਆਮਦਨ ਵੰਡ ਵਿਸ਼ਲੇਸ਼ਣ",
-          "technical": "ਤਕਨੀਕੀ ਸਹਾਇਤਾ ਮੁਲਾਂਕਣ",
-          "contract": "ਇਕਰਾਰਨਾਮਾ ਗੱਲਬਾਤ ਸਹਾਇਤਾ"
+          "comparison": "Operator comparison reports",
+          "revenue": "ਆਮਦਨ sharing analysis",
+          "technical": "Technical support evaluation",
+          "contract": "Contract negotiation assistance"
         },
-        "cta": "ਆਪਰੇਟਰਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ"
+        "cta": "Compare Operators"
       },
       "digital": {
-        "title": "ਡਿਜੀਟਲ ਮੌਜੂਦਗੀ ਬੂਸਟ",
-        "description": "ਕੀ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਚਲਾ ਰਹੇ ਹੋ? ਸਾਡੀਆਂ ਡਿਜੀਟਲ ਮਾਰਕੀਟਿੰਗ ਸੇਵਾਵਾਂ ਰਾਹੀਂ ਆਪਣੀ ਔਨਲਾਈਨ ਦਿੱਖ ਵਧਾਓ ਅਤੇ ਹੋਰ ਗਾਹਕਾਂ ਨਾਲ ਜੁੜੋ।",
+        "title": "Digital Presence Boost",
+        "description": "Already running an ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ? Enhance your online visibility and connect with more customers through our digital marketing services.",
         "benefits": {
-          "branding": "ਔਨਲਾਈਨ ਬ੍ਰਾਂਡਿੰਗ ਵਿਕਾਸ",
-          "seo": "ਸਥਾਨਕ SEO ਅਨੁਕੂਲਨ",
-          "acquisition": "ਗਾਹਕ ਪ੍ਰਾਪਤੀ ਰਣਨੀਤੀਆਂ",
-          "analytics": "ਪ੍ਰਦਰਸ਼ਨ ਵਿਸ਼ਲੇਸ਼ਣ"
+          "branding": "Online branding development",
+          "seo": "Local SEO optimization",
+          "acquisition": "Customer acquisition strategies",
+          "analytics": "Performance analytics"
         },
-        "cta": "ਦਿੱਖ ਵਧਾਓ"
+        "cta": "Boost Visibility"
       }
     },
     "support": {
-      "onboarding": "ਫਰੈਂਚਾਈਜ਼ ਆਨਬੋਰਡਿੰਗ ਅਤੇ ਸੈੱਟਅੱਪ",
-      "training": "ਵਿਆਪਕ ਸਿਖਲਾਈ ਪ੍ਰੋਗਰਾਮ",
-      "marketing": "ਸਥਾਨਕ ਮਾਰਕੀਟਿੰਗ ਅਤੇ ਪ੍ਰਚਾਰ",
-      "technical": "24/7 ਤਕਨੀਕੀ ਸਹਾਇਤਾ",
-      "settlement": "ਬੈਂਕ ਸੈਟਲਮੈਂਟ ਸਹਾਇਤਾ",
-      "consultation": "ਚੱਲ ਰਹੀ ਕਾਰੋਬਾਰੀ ਸਲਾਹ-ਮਸ਼ਵਰਾ"
+      "onboarding": "ਫ੍ਰੈਂਚਾਇਜ਼ੀ onboarding & setup",
+      "training": "Comprehensive training programs",
+      "marketing": "Local marketing & promotions",
+      "technical": "24/7 technical support",
+      "settlement": "ਬੈਂਕ settlement assistance",
+      "consultation": "Ongoing ਕਾਰੋਬਾਰ consultation"
     },
     "supportSection": {
-      "title": "ਪੂਰੀ ਫਰੈਂਚਾਈਜ਼ ਸਹਾਇਤਾ",
-      "description": "ਸ਼ੁਰੂਆਤੀ ਸੈੱਟਅੱਪ ਤੋਂ ਲੈ ਕੇ ਚੱਲ ਰਹੇ ਕਾਰਜਾਂ ਤੱਕ, ਅਸੀਂ ਸਭ ਕੁਝ ਸੰਭਾਲਦੇ ਹਾਂ ਤਾਂ ਜੋ ਤੁਸੀਂ ਆਪਣੇ ATM ਕਾਰੋਬਾਰ ਤੋਂ ਆਪਣੀ ਪੈਸਿਵ ਆਮਦਨ ਵਧਾਉਣ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰ ਸਕੋ।"
+      "title": "Complete ਫ੍ਰੈਂਚਾਇਜ਼ੀ Support",
+      "description": "From initial setup to ongoing operations, we handle everything so you can focus on growing your passive income from your ATM ਕਾਰੋਬਾਰ."
     },
     "cta": {
-      "title": "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ?",
-      "description": "ਪੇਂਡੂ ਭਾਰਤ ਵਿੱਚ ਸਾਡੇ ਸਫਲ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਮਾਲਕਾਂ ਦੇ ਨੈੱਟਵਰਕ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
-      "franchisees": "ਹੈਪੀ ਫ੍ਰੈਂਚਾਇਜ਼ੀਜ਼",
-      "button": "ਆਪਣਾ ਸਫ਼ਰ ਸ਼ੁਰੂ ਕਰੋ"
+      "title": "Ready to Start?",
+      "description": "Join our network of successful ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ owners across rural India",
+      "franchisees": "Happy ਫ੍ਰੈਂਚਾਇਜ਼ੀes",
+      "button": "Start Your Journey"
     }
   },
   "trustSignals": {
-    "title": "ਦੇਸ਼ ਭਰ ਦੇ ਕਾਰੋਬਾਰਾਂ ਦੁਆਰਾ ਭਰੋਸੇਯੋਗ",
-    "subtitle": "ਹਜ਼ਾਰਾਂ ਸਫਲ ਭਾਈਵਾਲਾਂ ਨਾਲ ਜੁੜੋ ਜੋ ਆਪਣੇ ATM ਕਾਰੋਬਾਰੀ ਕਾਰਜਾਂ ਵਿੱਚ ਸਾਡੇ 'ਤੇ ਭਰੋਸਾ ਕਰਦੇ ਹਨ।",
+    "title": "Trusted by ਕਾਰੋਬਾਰes Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM ਕਾਰੋਬਾਰ operations",
     "metrics": {
-      "partners": "ਸਰਗਰਮ ਭਾਈਵਾਲ",
-      "uptime": "ਅਪਟਾਈਮ ਗਰੰਟੀ",
-      "experience": "ਉਦਯੋਗ ਦਾ ਤਜਰਬਾ",
-      "support": "ਗਾਹਕ ਸਹਾਇਤਾ"
+      "partners": "Active Partners",
+      "uptime": "Uptime Guarantee",
+      "experience": "Industry Experience",
+      "support": "Customer Support",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ Years",
+      "supportValue": "24/7"
     }
   },
   "valueProps": {
-    "title": "Why ATM Business?",
-    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
-    "perfectTime": "Perfect Time for ATM Business in Rural India",
-    "investmentRange": "Investment Range: ₹2-5 Lakhs",
+    "title": "Why ATM ਕਾਰੋਬਾਰ?",
+    "subtitle": "Zero Loss and Fully Transparent ਕਾਰੋਬਾਰ Opportunity from RBI Licensed Companies",
+    "perfectTime": "Perfect Time for ATM ਕਾਰੋਬਾਰ in Rural India",
+    "investmentRange": "ਨਿਵੇਸ਼ Range: ₹2-5 Lakhs",
     "bullets": {
       "digitalAdoption": "Digital Adoption Growing",
       "governmentPush": "Government Push for Financial Inclusion",
-      "bankClosures": "Bank Branch Closures"
+      "bankClosures": "ਬੈਂਕ Branch Closures"
     },
     "stats": {
       "roi": {
         "prefix": "upto ",
         "value": "50",
         "suffix": "%",
-        "label": "Return On Investment",
-        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+        "label": "Return On ਨਿਵੇਸ਼",
+        "description": "All Payout Received by RBI Licensed WLA ਏਟੀਐਮ Partners"
       },
       "penetration": {
         "value": "15",
         "suffix": " Per Lac",
-        "label": "ATM Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+        "label": "ਏਟੀਐਮ Penetration",
+        "description": "Only 15 ਏਟੀਐਮs per 1 Lac People - ਏਟੀਐਮ Penetration in India is very Low"
       },
       "cash": {
         "value": "75",
         "suffix": "% Cash",
         "label": "Cash Circulation",
-        "description": "Indian Economy is still Largely Cash based"
+        "description": "Indian Ecoਨਹੀਂmy is still Largely Cash based"
       },
       "potential": {
         "value": "90",
         "suffix": "% Potential",
         "label": "Market Opportunity",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+        "description": "90% of Banks Offsite ਏਟੀਐਮs are closing down - Banks Offsite ਏਟੀਐਮ Closure creates a Large market for ਏਟੀਐਮs"
       }
     }
   },
   "whyChoose": {
     "badge": "Our Advantage",
-    "title": "Why Choose",
-    "titleHighlight": "ATM Franchise India?",
+    "title": "Why ਚੁਣੋ",
+    "titleHighlight": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ India?",
     "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
     "cta": {
-      "partners": "Join 500+ successful franchise partners"
+      "partners": "Join 500+ successful ਫ੍ਰੈਂਚਾਇਜ਼ੀ partners"
     },
     "features": {
       "trusted": {
-        "title": "Trusted ATM Franchise Information",
-        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+        "title": "Trusted ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Information",
+        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM ਕਾਰੋਬਾਰ often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
       },
       "guidance": {
         "title": "Expert Guidance on WLA Operators",
-        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
+        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your ਕਾਰੋਬਾਰ."
       },
       "digital": {
         "title": "Boost Your Digital Presence",
-        "description": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+        "description": "Already running an ATM franchise? ਰਜਿਸਟਰ ਕਰੋ with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
       },
       "support": {
-        "title": "End-to-End Franchise Support",
-        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
+        "title": "End-to-End ਫ੍ਰੈਂਚਾਇਜ਼ੀ Support",
+        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM ਕਾਰੋਬਾਰ success."
       }
     }
   },
   "alt": {
-    "atmInIndianSetting": "ATM in Indian semi-urban setting"
+    "atmInIndianSetting": "ਏਟੀਐਮ in Indian semi-urban setting"
   },
   "trust": {
-    "heading": "ਦੇਸ਼ ਭਰ ਦੇ ਕਾਰੋਬਾਰਾਂ ਦੁਆਰਾ ਭਰੋਸੇਮੰਦ",
-    "subtitle": "ਹਜ਼ਾਰਾਂ ਸਫਲ ਭਾਈਵਾਲਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ ਜੋ ਆਪਣੇ ਏਟੀਐਮ ਕਾਰੋਬਾਰੀ ਕਾਰਜਾਂ ਲਈ ਸਾਡੇ ਤੇ ਭਰੋਸਾ ਕਰਦੇ ਹਨ",
-    "activePartners": "ਸਰਗਰਮ ਭਾਈਵਾਲ",
-    "uptimeGuarantee": "ਅੱਪਟਾਈਮ ਗਾਰੰਟੀ",
-    "industryExperience": "ਉਦਯੋਗ ਤਜਰਬਾ",
-    "customerSupport": "ਗਾਹਕ ਸਹਾਇਤਾ"
+    "heading": "Trusted by ਕਾਰੋਬਾਰes Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM ਕਾਰੋਬਾਰ operations",
+    "activePartners": "Active Partners",
+    "uptimeGuarantee": "Uptime Guarantee",
+    "industryExperience": "Industry Experience",
+    "customerSupport": "Customer Support"
   }
 }

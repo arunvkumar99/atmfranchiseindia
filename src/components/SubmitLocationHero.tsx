@@ -8,7 +8,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { MapPin, CheckCircle, TrendingUp, Shield, Award, Star, Users, Zap, Target, BarChart3, ArrowRight, Phone, Mail } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-// Supabase integration removed - now uses Google Sheets
+// Using Google Sheets integration
+import { googleSheetsService } from '@/lib/googleSheetsService';
 import passiveIncomeIcon from "@/assets/passive-income-icon.jpg";
 
 const SubmitLocationHero = () => {
@@ -31,9 +32,9 @@ const SubmitLocationHero = () => {
     e.preventDefault();
     
     try {
-      const { error } = await supabase
-        .from('location_submissions')
-        .insert({
+      const response = await googleSheetsService.submitForm({
+        formType: 'location_submissions',
+        data: {
           full_name: formData.fullName,
           phone: formData.phone,
           email: formData.email,
@@ -46,9 +47,12 @@ const SubmitLocationHero = () => {
           nearby_competition: "Unknown", 
           space_ownership: "Unknown",
           space_size: "Unknown"
-        });
+        }
+      });
 
-      if (error) throw error;
+      if (!response?.success) {
+        throw new Error(response?.error || response?.message || 'Submission failed');
+      }
 
       toast({
         title: "Location Submitted Successfully!",
@@ -311,7 +315,7 @@ const SubmitLocationHero = () => {
                     id="location" 
                     value={formData.locationDescription}
                     onChange={(e) => handleInputChange('locationDescription', e.target.value)}
-                    placeholder={t('prop-string_describe_your_proposed_atm_location_with')}s ideal..."
+                    placeholder={t('prop-string_describe_your_proposed_atm_location_with', 'Describe your proposed ATM location...')}
                     className="border-2 border-gray-200 focus:border-blue-500 rounded-xl min-h-[120px] text-base transition-colors resize-none"
                     required
                   />

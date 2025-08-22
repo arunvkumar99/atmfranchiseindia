@@ -1,15 +1,15 @@
 {
-  "title": "ਪਰਾਈਵੇਟ ਨੀਤੀ",
-  "lastUpdated": "ਆਖਰੀ ਵਾਰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ",
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "introduction": "ਜਾਣ-ਪਛਾਣ",
-    "dataCollection": "ਡਾਟਾ ਇਕੱਠਾ ਕਰਨਾ",
-    "dataUsage": "ਅਸੀਂ ਤੁਹਾਡੇ ਡੇਟਾ ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰਦੇ ਹਾਂ",
-    "dataProtection": "ਡਾਟਾ ਸੁਰੱਖਿਆ",
-    "cookies": "ਕੂਕੀਜ਼ ਨੀਤੀ",
-    "thirdParty": "ਤੀਜੀ ਧਿਰ ਸੇਵਾਵਾਂ",
-    "userRights": "ਤੁਹਾਡੇ ਹੱਕ",
-    "contact": "ਸੰਪਰਕ ਜਾਣਕਾਰੀ",
-    "changes": "ਨੀਤੀ ਵਿੱਚ ਬਦਲਾਅ"
+    "introduction": "Introduction",
+    "dataCollection": "Data Collection",
+    "dataUsage": "How We Use Your Data",
+    "dataProtection": "Data Protection",
+    "cookies": "Cookies Policy",
+    "thirdParty": "Third Party Services",
+    "userRights": "Your Rights",
+    "contact": "Contact Information",
+    "changes": "Changes to Policy"
   }
 }

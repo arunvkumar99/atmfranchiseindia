@@ -1,23 +1,23 @@
 {
-  "title": "کیریئر کے مواقع",
-  "subtitle": "ہماری بڑھتی ہوئی ٹیم میں شامل ہوں۔",
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
   "hero": {
-    "heading": "ہمارے ساتھ اپنا کیریئر بنائیں",
-    "description": "اے ٹی ایم انڈسٹری میں دلچسپ مواقع دریافت کریں۔",
-    "cta": "افتتاحی مناظر دیکھیں"
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
   },
   "positions": {
-    "title": "پوزیشنیں کھولیں۔",
-    "location": "مقام",
-    "type": "ملازمت کی قسم",
-    "experience": "تجربہ",
-    "apply": "ا��ھی اپلائی کریں۔"
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
   },
   "benefits": {
-    "title": "ہمارے ساتھ کیوں کام کریں۔",
-    "growth": "کیریئر کی ترقی",
-    "culture": "عظیم ثقافت",
-    "benefits": "مسابقتی فوائد",
-    "learning": "مسلسل سیکھنا"
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
   }
 }

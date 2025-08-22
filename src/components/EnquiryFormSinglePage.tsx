@@ -416,7 +416,7 @@ export function EnquiryFormSinglePage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label>{t('labels.state') *</Label>
+                      <Label>{t('labels.state')} *</Label>
                       <Select value={formData.state} onValueChange={(value) => handleInputChange('state', value)}>
                         <SelectTrigger className={errors.state ? 'border-red-500' : ''}>
                           <SelectValue placeholder={t('placeholders.chooseState', 'Choose your state')} />

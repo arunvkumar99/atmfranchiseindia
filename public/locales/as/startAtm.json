@@ -1,36 +1,36 @@
 {
-  "title": "আপোনাৰ এটিএম ব্যৱসায় আৰম্ভ কৰক",
-  "subtitle": "ভাৰতত এটিএম ব্যৱসায় আৰম্ভ কৰাৰ সম্পূৰ্ণ গাইড",
+  "title": "Start Your ATM Business",
+  "subtitle": "Complete guide to starting an ATM business in India",
   "hero": {
-    "heading": "আজিয়েই আপোনাৰ এটিএম ব্যৱসায় আৰম্ভ কৰক",
-    "description": "এটিএম ব্যৱসায় আৰম্ভ কৰাৰ বিষয়ে জানিবলগীয়া সকলো কথা",
-    "cta": "আৰম্ভ কৰক"
+    "heading": "Start Your ATM Business Today",
+    "description": "Everything you need to know about starting an ATM business",
+    "cta": "Get Started"
   },
   "steps": {
-    "title": "কেনেকৈ আৰম্ভ কৰিব",
+    "title": "How to Start",
     "research": {
-      "title": "গৱেষণা আৰু পৰিকল্পনা",
-      "description": "বজাৰ বুজিব আৰু ব্যৱসায়িক পৰিকল্পনা তৈয়াৰ কৰক"
+      "title": "Research & Planning",
+      "description": "Understand the market and create a business plan"
     },
     "legal": {
-      "title": "আইনী প্ৰয়োজনীয়তা",
-      "description": "সকলো নিয়ন্ত্ৰণ আৰু অনুসৰণৰ প্ৰয়োজনীয়তা সম্পূৰ্ণ কৰা"
+      "title": "Legal Requirements",
+      "description": "Complete all regulatory and compliance requirements"
     },
     "funding": {
-      "title": "পুঁজিৰ ব্যৱস্থা কৰক",
-      "description": "আপোনাৰ এটিএম ব্যৱসায়ৰ বাবে নিৰাপদ বিনিয়োগ"
+      "title": "Arrange Funding",
+      "description": "Secure investment for your ATM business"
     },
     "location": {
-      "title": "স্থান বিচাৰি উলিয়াওক",
-      "description": "এটিএমৰ বাবে অধিক যাতায়তৰ স্থান চিনাক্ত কৰা"
+      "title": "Find Locations",
+      "description": "Identify high-traffic locations for ATMs"
     },
     "launch": {
-      "title": "লঞ্চ অপাৰেচন",
-      "description": "আপোনাৰ এটিএম ব্যৱসায়িক কাৰ্য্যকলাপ আৰম্ভ কৰক"
+      "title": "Launch Operations",
+      "description": "Start your ATM business operations"
     }
   },
   "guide": {
-    "title": "সম্পূৰ্ণ ব্যৱসায়িক গাইড",
-    "download": "ডাউনলোড গাইড"
+    "title": "Complete Business Guide",
+    "download": "Download Guide"
   }
 }

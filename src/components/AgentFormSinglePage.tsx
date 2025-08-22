@@ -8,7 +8,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
-// Supabase integration removed - now uses Google Sheets
+// Using Google Sheets integration
+import { googleSheetsService } from '@/lib/googleSheetsService';
 import { useFileUploadManager } from "@/components/ui/file-upload-manager";
 import { uploadFile } from "@/lib/fileUpload";
 import { FormProgress } from "@/components/FormProgress";
@@ -21,7 +22,7 @@ import { Loader2, Send } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 export function AgentFormSinglePage() {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation(['forms', 'components']);
   const { toast } = useToast();
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -364,34 +365,20 @@ export function AgentFormSinglePage() {
         photo_url: photoUpload.url,
       };
 
-      console.log('📤 Submitting to Supabase via edge function...');
+      console.log('📤 Submitting to Google Sheets...');
       console.log('Submission data:', submissionData);
       
-      // 6. Submit to Supabase via edge function
-      const { data: response, error: submissionError } = await supabase.functions.invoke('form-submission', {
-        body: {
-          formType: 'agent_submissions',
-          data: submissionData,
-          userAgent: navigator.userAgent,
-          ipAddress: undefined
-        }
+      // 6. Submit to Google Sheets
+      const response = await googleSheetsService.submitForm({
+        formType: 'agent_submissions',
+        data: submissionData
       });
 
-      console.log('Edge function response:', { response, submissionError });
-
-      if (submissionError) {
-        // if (import.meta.env.DEV) { console.error('❌ Edge function error:', submissionError); } // Silenced for production
-        throw new Error(submissionError.message || 'Submission failed via edge function');
-      }
-
-      if (response?.error) {
-        // if (import.meta.env.DEV) { console.error('❌ Response contained error:', response.error); }
-        throw new Error(response.error);
-      }
+      console.log('Google Sheets response:', response);
 
       if (!response?.success) {
-        // if (import.meta.env.DEV) { console.error('❌ Submission was not successful:', response); }
-        throw new Error('Submission was not marked as successful');
+        // if (import.meta.env.DEV) { console.error('❌ Submission failed:', response); }
+        throw new Error(response?.error || response?.message || 'Submission failed');
       }
 
       console.log('✅ Agent application submitted successfully!');
@@ -399,7 +386,7 @@ export function AgentFormSinglePage() {
       
       // 7. Show success message
       toast({
-        title: t('applicationSubmittedSuccessfully', '✅ Application Submitted Successfully!'),
+        title: t('applicationSubmittedSuccessfully'),
         description: "Thank you! We'll contact you within 24 hours.",
         variant: "default",
         duration: 6000
@@ -531,7 +518,7 @@ export function AgentFormSinglePage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-14">
       <div className="bg-white border-b border-gray-100 shadow-sm">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-xl font-bold">{t('components.agentformsinglepage.text1')}</h1>
+          <h1 className="text-xl font-bold">{t('components:agentformsinglepage.text1')}</h1>
         </div>
       </div>
 
@@ -549,7 +536,7 @@ export function AgentFormSinglePage() {
 
           <div className="text-center mb-8">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Join Our <span className="text-gradient">{t('components.agentformsinglepage.text2')}</span>
+              Join Our <span className="text-gradient">{t('components:agentformsinglepage.text2')}</span>
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
               Join our network and start earning commissions by helping entrepreneurs set up ATM franchises
@@ -563,7 +550,7 @@ export function AgentFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">{t("sections.personal")}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">{t('components.agentformsinglepage.text3')}</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components:agentformsinglepage.text3')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -614,15 +601,15 @@ export function AgentFormSinglePage() {
                     >
                       <div className="flex items-center space-x-2">
                         <RadioGroupItem value="male" id="male" />
-                        <Label htmlFor="male">{t('components.agentformsinglepage.text4')}</Label>
+                        <Label htmlFor="male">{t('components:agentformsinglepage.text4')}</Label>
                       </div>
                       <div className="flex items-center space-x-2">
                         <RadioGroupItem value="female" id="female" />
-                        <Label htmlFor="female">{t('components.agentformsinglepage.text5')}</Label>
+                        <Label htmlFor="female">{t('components:agentformsinglepage.text5')}</Label>
                       </div>
                       <div className="flex items-center space-x-2">
                         <RadioGroupItem value="other" id="other" />
-                        <Label htmlFor="other">{t('components.agentformsinglepage.text6')}</Label>
+                        <Label htmlFor="other">{t('components:agentformsinglepage.text6')}</Label>
                       </div>
                     </RadioGroup>
                     {errors.gender && (
@@ -651,18 +638,18 @@ export function AgentFormSinglePage() {
                           <SelectValue placeholder={t('time.month', 'Month')} />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="1">{t('components.agentformsinglepage.text7')}</SelectItem>
-                          <SelectItem value="2">{t('components.agentformsinglepage.text8')}</SelectItem>
-                          <SelectItem value="3">{t('components.agentformsinglepage.text9')}</SelectItem>
-                          <SelectItem value="4">{t('components.agentformsinglepage.text10')}</SelectItem>
+                          <SelectItem value="1">{t('components:agentformsinglepage.text7')}</SelectItem>
+                          <SelectItem value="2">{t('components:agentformsinglepage.text8')}</SelectItem>
+                          <SelectItem value="3">{t('components:agentformsinglepage.text9')}</SelectItem>
+                          <SelectItem value="4">{t('components:agentformsinglepage.text10')}</SelectItem>
                           <SelectItem value="5">{t('forms.months.may')}</SelectItem>
-                          <SelectItem value="6">{t('components.agentformsinglepage.text11')}</SelectItem>
-                          <SelectItem value="7">{t('components.agentformsinglepage.text12')}</SelectItem>
-                          <SelectItem value="8">{t('components.agentformsinglepage.text13')}</SelectItem>
-                          <SelectItem value="9">{t('components.agentformsinglepage.text14')}</SelectItem>
-                          <SelectItem value="10">{t('components.agentformsinglepage.text15')}</SelectItem>
-                          <SelectItem value="11">{t('components.agentformsinglepage.text16')}</SelectItem>
-                          <SelectItem value="12">{t('components.agentformsinglepage.text17')}</SelectItem>
+                          <SelectItem value="6">{t('components:agentformsinglepage.text11')}</SelectItem>
+                          <SelectItem value="7">{t('components:agentformsinglepage.text12')}</SelectItem>
+                          <SelectItem value="8">{t('components:agentformsinglepage.text13')}</SelectItem>
+                          <SelectItem value="9">{t('components:agentformsinglepage.text14')}</SelectItem>
+                          <SelectItem value="10">{t('components:agentformsinglepage.text15')}</SelectItem>
+                          <SelectItem value="11">{t('components:agentformsinglepage.text16')}</SelectItem>
+                          <SelectItem value="12">{t('components:agentformsinglepage.text17')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <Select value={formData.dateOfBirth.year} onValueChange={(value) => handleDateChange('year', value)}>
@@ -851,7 +838,7 @@ export function AgentFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">{t('labels.professionalDetails', 'Professional Details & Documents')}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">{t('components.agentformsinglepage.text18')}</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components:agentformsinglepage.text18')}</p>
                   </div>
 
                   <div className="space-y-2">
@@ -863,11 +850,11 @@ export function AgentFormSinglePage() {
                     >
                       <div className="flex items-center space-x-2">
                         <RadioGroupItem value="individual" id="individual" />
-                        <Label htmlFor="individual">{t('components.agentformsinglepage.text19')}</Label>  
+                        <Label htmlFor="individual">{t('components:agentformsinglepage.text19')}</Label>  
                       </div>
                       <div className="flex items-center space-x-2">
                         <RadioGroupItem value="business-owner" id="business-owner" />
-                        <Label htmlFor="business-owner">{t('components.agentformsinglepage.text20')}</Label>
+                        <Label htmlFor="business-owner">{t('components:agentformsinglepage.text20')}</Label>
                       </div>
                     </RadioGroup>
                     {errors.joiningAs && (
@@ -1107,7 +1094,7 @@ export function AgentFormSinglePage() {
                   </div>
 
                   <div className="space-y-4">
-                    <Label className="text-base font-semibold">{t('components.agentformsinglepage.text21')}</Label>
+                    <Label className="text-base font-semibold">{t('components:agentformsinglepage.text21')}</Label>
                     <CaptchaProtection 
                       onVerify={setCaptchaVerified}
                     />

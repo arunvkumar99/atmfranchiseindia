@@ -5,14 +5,63 @@
     "badge": "এজেন্ট পার্টনারশিপ প্রোগ্রাম",
     "heading": "এটিএম এজেন্ট হোন",
     "description": "আমাদের সফল এজেন্টদের নেটওয়ার্কে যোগদান করুন এবং নিয়মিত কমিশন অর্জন করুন",
-    "cta": "এখনই আবেদন করুন"
+    "cta": "Apply Now"
   },
   "benefits": {
     "title": "এজেন্টের সুবিধা",
-    "commission": "হাই কমিশন",
-    "support": "পূর্ণ সমর্থন",
-    "training": "বিনামূল্যে প্রশিক্ষণ",
-    "flexible": "নমনীয় সময়সূচী"
+    "commission": {
+      "0": "হ",
+      "1": "া",
+      "2": "ই",
+      "3": "h",
+      "4": "ক",
+      "5": "ম",
+      "6": "ি",
+      "7": "শ",
+      "8": "ন",
+      "9": "i",
+      "10": "s",
+      "11": "s",
+      "title": "[NEEDS TRANSLATION: benefits.commission.title]",
+      "description": "[NEEDS TRANSLATION: benefits.commission.description]"
+    },
+    "training": {
+      "0": "ব",
+      "1": "ি",
+      "2": "ন",
+      "3": "া",
+      "4": "ম",
+      "5": "ূ",
+      "6": "ল",
+      "7": "্",
+      "8": "য",
+      "9": "ে",
+      "10": "i",
+      "11": "প",
+      "12": "্",
+      "13": "র",
+      "14": "শ",
+      "title": "[NEEDS TRANSLATION: benefits.training.title]",
+      "description": "[NEEDS TRANSLATION: benefits.training.description]"
+    },
+    "support": {
+      "0": "প",
+      "1": "ূ",
+      "2": "র",
+      "3": "্",
+      "4": "ণ",
+      "5": "S",
+      "6": "স",
+      "7": "ম",
+      "8": "র",
+      "9": "্",
+      "10": "থ",
+      "11": "ন",
+      "12": "ा",
+      "title": "[NEEDS TRANSLATION: benefits.support.title]",
+      "description": "[NEEDS TRANSLATION: benefits.support.description]"
+    },
+    "flexible": "Flexible Hours"
   },
   "form": {
     "title": "এজেন্ট আবেদনপত্র",

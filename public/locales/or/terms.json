@@ -1,15 +1,15 @@
 {
-  "title": "ନିୟମ ଏବଂ ସର୍ତ୍ତାବଳୀ",
-  "lastUpdated": "ଶେଷଥର ଅପଡେଟ୍‌ କରାଗଲା",
+  "title": "Terms and Conditions",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "acceptance": "ସର୍ତ୍ତାବଳୀର ଗ୍ରହଣ",
-    "services": "ସେବା ବର୍ଣ୍ଣନା",
-    "userResponsibilities": "ଉପଯୋଗକର୍ତ୍ତାଙ୍କ ଦାୟିତ୍ୱ",
-    "intellectualProperty": "ବୌଦ୍ଧିକ ସମ୍ପତ୍ତି",
-    "limitations": "ଦାୟିତ୍ୱର ସୀମା",
-    "indemnification": "କ୍ଷତିପୂରଣ",
-    "termination": "ସମାପ���",
-    "governingLaw": "ପରିଚାଳନା ଆଇନ",
-    "contact": "ଯୋଗାଯୋଗ ସୂଚନା"
+    "acceptance": "Acceptance of Terms",
+    "services": "Services Description",
+    "userResponsibilities": "User Responsibilities",
+    "intellectualProperty": "Intellectual Property",
+    "limitations": "Limitations of Liability",
+    "indemnification": "Indemnification",
+    "termination": "Termination",
+    "governingLaw": "Governing Law",
+    "contact": "Contact Information"
   }
 }

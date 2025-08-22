@@ -13,6 +13,21 @@ const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     const path = location.pathname;
+    const searchParams = new URLSearchParams(location.search);
+    const queryLang = searchParams.get('lng');
+    
+    // First check query parameter
+    if (queryLang && (SUPPORTED_LANGUAGE_CODES.includes(queryLang) || queryLang === 'en')) {
+      console.log(`🌍 Detected language from query: ${queryLang}`);
+      if (i18n.language !== queryLang) {
+        setIsChangingLanguage(true);
+        i18n.changeLanguage(queryLang).then(() => {
+          console.log(`✅ Language changed to: ${queryLang}`);
+          setIsChangingLanguage(false);
+        });
+      }
+      return; // Don't process further if query param is set
+    }
     
     // Check if URL starts with a supported language code
     const languageMatch = path.match(/^\/([a-z]{2})(\/.*)?$/);
@@ -51,10 +66,12 @@ const FixedLanguageRouter: React.FC<{ children: React.ReactNode }> = ({ children
         }
       }
       
-      // Apply English as default
-      i18n.changeLanguage('en');
+      // Apply English as default only if no query param
+      if (!queryLang) {
+        i18n.changeLanguage('en');
+      }
     }
-  }, [location.pathname, navigate]);
+  }, [location.pathname, location.search, navigate]);
 
   // Show loading state while language is changing
   if (isChangingLanguage) {

@@ -2,8 +2,40 @@
   "title": "ബ്ലോഗും ഉൾക്കാഴ്ചകളും",
   "subtitle": "എടിഎം വ്യവസായത്തിൽ നിന്നുള്ള ഏറ്റവും പുതിയ വാർത്തകളും ഉൾക്കാഴ്ചകളും",
   "hero": {
+    "badge": "ATM Business Insights",
     "heading": "വ്യവസായ സ്ഥിതിവിവരക്കണക്കുകളും അപ്‌ഡേറ്റുകളും",
     "description": "എടിഎം ബിസിനസ്സിലെ ഏറ്റവും പുതിയ ട്രെൻഡുകളെക്കുറിച്ച് അറിഞ്ഞിരിക്കുക"
+  },
+  "featured": {
+    "badge": "Featured Article",
+    "readArticle": "Read Article"
+  },
+  "articles": {
+    "article1": {
+      "title": "Why 2025 is the Perfect Time to Start Your Side Hustle",
+      "excerpt": "Discover why now is the ideal moment to launch your entrepreneurial journey with an ATM franchise business in India's growing digital economy.",
+      "category": "Business Strategy"
+    },
+    "article2": {
+      "title": "Building Passive Income for Financial Freedom",
+      "excerpt": "Learn how successful entrepreneurs are creating sustainable passive income streams through smart ATM franchise investments.",
+      "category": "Financial Planning"
+    },
+    "article3": {
+      "title": "The Truth About Passive Income Ideas That Actually Work",
+      "excerpt": "Cut through the noise and discover legitimate passive income opportunities that deliver real returns in the Indian market.",
+      "category": "Investment Guide"
+    },
+    "article4": {
+      "title": "ATM Franchise: Your Gateway to Passive Income",
+      "excerpt": "Explore how ATM franchises are becoming the preferred choice for investors seeking reliable passive income in India.",
+      "category": "Franchise Opportunities"
+    },
+    "article5": {
+      "title": "5-Step Guide to Starting Your ATM Business",
+      "excerpt": "A comprehensive roadmap to launching your successful ATM franchise business with minimal investment and maximum returns.",
+      "category": "Getting Started"
+    }
   },
   "categories": {
     "all": "എല്ലാ പോസ്റ്റുകളും",
@@ -17,7 +49,13 @@
     "minRead": "കുറഞ്ഞത് വായിച്ചു",
     "by": "എഴുതിയത്",
     "published": "പ്രസിദ്ധീകരിച്ച തീയതി",
-    "share": "ലേഖനം പങ്കിടുക"
+    "share": "ലേഖനം പങ്കിടുക",
+    "date": "ജനുവരി 2025"
+  },
+  "cta": {
+    "heading": "Ready to Start Your ATM Business Journey?",
+    "description": "Join thousands of successful franchise partners who are building their financial future with India's leading ATM franchise network.",
+    "button": "Become a Franchise Partner"
   },
   "newsletter": {
     "title": "വാർത്താക്കുറിപ്പ് സബ്സ്ക്രൈബ് ചെയ്യുക",

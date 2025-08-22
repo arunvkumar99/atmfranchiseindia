@@ -1,0 +1,114 @@
+[
+  {
+    "file": "about.json",
+    "englishKeys": 1,
+    "samples": [
+      {
+        "path": "whoWeAre.stats.coverage.number",
+        "value": "28"
+      }
+    ]
+  },
+  {
+    "file": "contact.json",
+    "englishKeys": 1,
+    "samples": [
+      {
+        "path": "email.address",
+        "value": "support@atmfranchiseindia.in"
+      }
+    ]
+  },
+  {
+    "file": "forms.json",
+    "englishKeys": 133,
+    "samples": [
+      {
+        "path": "placeholders.ifsc_code",
+        "value": "ABCD0123456"
+      },
+      {
+        "path": "joinUs.form.submitMessage",
+        "value": "Our team will review your application within 24-48..."
+      },
+      {
+        "path": "joinUs.sections.personal",
+        "value": "Personal Information"
+      },
+      {
+        "path": "joinUs.sections.address",
+        "value": "Address Information"
+      },
+      {
+        "path": "joinUs.sections.business",
+        "value": "Business Information"
+      },
+      {
+        "path": "joinUs.sections.franchise",
+        "value": "ATM Franchise Details"
+      },
+      {
+        "path": "joinUs.sections.financial",
+        "value": "Financial Information"
+      },
+      {
+        "path": "joinUs.sections.additional",
+        "value": "Additional Information"
+      },
+      {
+        "path": "joinUs.labels.alternatePhone",
+        "value": "Alternate Phone"
+      },
+      {
+        "path": "joinUs.labels.addressLine2",
+        "value": "Address Line 2"
+      }
+    ]
+  },
+  {
+    "file": "home.json",
+    "englishKeys": 29,
+    "samples": [
+      {
+        "path": "valueProps.stats.roi.value",
+        "value": "50"
+      },
+      {
+        "path": "valueProps.stats.roi.suffix",
+        "value": "%"
+      },
+      {
+        "path": "valueProps.stats.roi.description",
+        "value": "All Payout Received by RBI Licensed WLA ATM Partne..."
+      },
+      {
+        "path": "valueProps.stats.penetration.value",
+        "value": "15"
+      },
+      {
+        "path": "valueProps.stats.penetration.suffix",
+        "value": " Per Lac"
+      },
+      {
+        "path": "valueProps.stats.penetration.label",
+        "value": "ATM Penetration"
+      },
+      {
+        "path": "valueProps.stats.penetration.description",
+        "value": "Only 15 ATMs per 1 Lac People - ATM Penetration in..."
+      },
+      {
+        "path": "valueProps.stats.cash.value",
+        "value": "75"
+      },
+      {
+        "path": "valueProps.stats.cash.suffix",
+        "value": "% Cash"
+      },
+      {
+        "path": "valueProps.stats.cash.label",
+        "value": "Cash Circulation"
+      }
+    ]
+  }
+]

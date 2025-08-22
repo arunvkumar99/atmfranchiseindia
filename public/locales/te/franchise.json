@@ -2,245 +2,269 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "trusted_atm_franchise_partner": "Trusted ఏటీఎం ఫ్రాంచైజీ Partner",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
-    "badge": "విశ్వసనీయ ATM ఫ్రాంచైజ్ భాగస్వామి",
+    "badge": "Trusted ఏటీఎం ఫ్రాంచైజీ Partner",
     "title": {
-      "line1": "అవ్వండి",
-      "line2": "ATM ఫ్రాంచైజ్",
-      "line3": "భాగస్వామి"
+      "line1": "Become an",
+      "line2": "ఏటీఎం ఫ్రాంచైజీ",
+      "line3": "Partner"
     },
     "description": {
-      "part1": "చేరండి",
-      "successfulPartners": "200+ విజయవంతమైన భాగస్వాములు",
-      "part2": "మరియు మీ ప్రారంభించండి",
-      "profitableBusiness": "లాభదాయకమైన ATM వ్యాపారం",
-      "part3": "ఈరోజు",
-      "minimalInvestment": "కనీస పెట్టుబడి"
+      "part1": "Join",
+      "successfulPartners": "200+ విజయంful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM వ్యాపారం",
+      "part3": "today with",
+      "minimalInvestment": "minimal పెట్టుబడి"
     },
     "cta": {
-      "apply": "ఫ్రాంచైజీ కోసం దరఖాస్తు చేసుకోండి",
-      "learnMore": "మరింత తెలుసుకోండి"
+      "apply": "దరఖాస్తు చేయండి for Franchise",
+      "learnMore": "Learn More"
     },
     "benefits": {
       "quickRoi": {
-        "title": "త్వరిత ROI",
-        "description": "నిరూపితమైన వ్యాపార నమూనాతో పెట్టుబడిపై వేగవంతమైన రాబడి"
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven వ్యాపారం model"
       },
       "support": {
-        "title": "అంకితమైన మద్దతు",
-        "description": "మా నిపుణుల బృందం నుండి 24/7 సాంకేతిక మరియు వ్యాపార మద్దతు"
+        "title": "Dedicated Support",
+        "description": "24/7 technical and వ్యాపారం support from our expert team"
       },
       "network": {
-        "title": "నిరూపితమైన నెట్‌వర్క్",
-        "description": "భారతదేశం అంతటా 500+ విజయవంతమైన ఫ్రాంచైజ్ భాగస్వాములతో చేరండి"
+        "title": "Proven Network",
+        "description": "Join 500+ successful ఫ్రాంచైజీ partners across India"
       },
       "training": {
-        "title": "శిక్షణ చేర్చబడింది",
-        "description": "సమగ్ర శిక్షణ మరియు నిరంతర మద్దతు అందించబడింది"
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
       }
     },
     "process": {
-      "title": "ఎలా ప్రారంభించాలి",
+      "title": "How to ప్రారంభించండి",
       "steps": {
         "apply": {
-          "title": "వర్తించు",
-          "description": "మీ ఫ్రాంచైజ్ దరఖాస్తును ఆన్‌లైన్‌లో సమర్పించండి"
+          "title": "దరఖాస్తు చేయండి",
+          "description": "సమర్పించండి your franchise application online"
         },
         "agreement": {
-          "title": "ఒప్పందం",
-          "description": "డాక్యుమెంటేషన్ పూర్తి చేసి ఒప్పందంపై సంతకం చేయండి"
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
         },
         "installation": {
-          "title": "సంస్థాపన",
-          "description": "మేము ATM సెటప్ మరియు ఇన్‌స్టాలేషన్‌ను నిర్వహిస్తాము."
+          "title": "Installation",
+          "description": "We handle ఏటీఎం setup and installation"
         },
         "earn": {
-          "title": "సంపాదించడం ప్రారంభించండి",
-          "description": "నెలవారీ నిష్క్రియాత్మక ఆదాయాన్ని పొందడం ప్రారంభించండి"
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
         }
       }
     },
     "stats": {
-      "partners": "క్రియాశీల భాగస్వాములు",
-      "atms": "ATMలు అమర్చబడ్డాయి",
-      "transactions": "నెలవారీ లావాదేవీలు",
-      "support": "మద్దతు అందుబాటులో ఉంది"
+      "partners": "Active Partners",
+      "atms": "ఏటీఎంs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
     }
   },
   "enquiryForm": {
-    "title": "మీ ATM ఫ్రాంచైజ్ ప్రయాణాన్ని ప్రారంభించండి",
-    "subtitle": "మీ ప్రాంతంలో ATM ఫ్రాంచైజ్ అవకాశాల గురించి వ్యక్తిగతీకరించిన సమాచారాన్ని పొందడానికి మా వివరణాత్మక విచారణ ఫారమ్‌ను పూరించండి.",
+    "title": "Start Your ఏటీఎం ఫ్రాంచైజీ Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about ఏటీఎం ఫ్రాంచైజీ opportunities in your area.",
     "fields": {
       "name": "పూర్తి పేరు",
       "email": "ఇమెయిల్ చిరునామా",
       "phone": "ఫోన్ నంబర్",
       "state": "రాష్ట్రం",
       "city": "నగరం",
-      "investment": "పెట్టుబడి సామర్థ్యం",
-      "experience": "వ్యాపార అనుభవం",
-      "message": "అదనపు సమాచారం",
-      "consent": "ఫ్రాంచైజ్ అవకాశాల గురించి నవీకరణలను స్వీకరించడానికి నేను అంగీకరిస్తున్నాను."
+      "investment": "Investment Capaనగరం",
+      "experience": "వ్యాపారం Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about ఫ్రాంచైజీ opportunities"
     },
-    "submit": "విచారణ సమర్పించండి",
-    "submitting": "సమర్పిస్తోంది...",
-    "success": "ధన్యవాదాలు! మేము 24 గంటల్లోపు మిమ్మల్ని సంప్రదిస్తాము.",
-    "error": "ఏదో తప్పు జరిగింది. దయచేసి మళ్ళీ ప్రయత్నించండి."
+    "submit": "సమర్పించండి Enquiry",
+    "submitting": "సమర్పించండిting...",
+    "success": "ధన్యవాదాలు! We'll contact you within 24 hours.",
+    "error": "Something went wrong. దయచేసి try again."
   },
   "whyAtm": {
-    "title": "ATM ఫ్రాంచైజీని ఎందుకు ఎంచుకోవాలి?",
-    "subtitle": "భారతదేశంలోని ప్రముఖ ATM ఫ్రాంచైజ్ నెట్‌వర్క్‌తో భాగస్వామ్యం వల్ల కలిగే ప్రయోజనాలను కనుగొనండి.",
+    "title": "Why Choose ఏటీఎం ఫ్రాంచైజీ?",
+    "subtitle": "Discover the benefits of partnering with India's leading ఏటీఎం ఫ్రాంచైజీ network",
     "benefits": {
       "highReturns": {
-        "title": "అధిక రాబడి",
-        "description": "మీ పెట్టుబడిపై 20% వరకు వార్షిక రాబడిని పొందండి"
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your పెట్టుబడి"
       },
       "passiveIncome": {
-        "title": "నిష్క్రియాత్మక ఆదాయం",
-        "description": "అతి తక్కువ ప్రయత్నంతో స్థిరమైన నెలవారీ ఆదాయాన్ని సంపాదించండి"
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
       },
       "lowMaintenance": {
-        "title": "తక్కువ నిర్వహణ",
-        "description": "మేము అన్ని సాంకేతిక నిర్వహణ మరియు నగదు నిర్వహణను నిర్వహిస్తాము."
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
       },
       "governmentSupport": {
-        "title": "ప్రభుత్వ మద్దతు",
-        "description": "ఆర్థిక చేరిక కోసం ప్రభుత్వ కార్యక్రమాల నుండి ప్రయోజనం పొందండి"
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
       },
       "growingMarket": {
-        "title": "పెరుగుతున్న మార్కెట్",
-        "description": "భారతదేశంలో వేగంగా విస్తరిస్తున్న డిజిటల్ చెల్లింపు వ్యవస్థలోకి ప్రవేశించండి"
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
       },
       "brandValue": {
-        "title": "బ్రాండ్ విలువ",
-        "description": "మా స్థిరపడిన బ్రాండ్ మరియు నిరూపితమైన వ్యాపార నమూనాను ఉపయోగించుకోండి"
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven వ్యాపారం model"
       }
     }
   },
   "services": {
-    "title": "మా సమగ్ర సేవలు",
-    "subtitle": "విజయవంతమైన ATM ఫ్రాంచైజీని నడపడానికి మీకు కావలసినవన్నీ",
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful ఏటీఎం ఫ్రాంచైజీ",
     "items": {
       "siteSelection": {
-        "title": "స్థల ఎంపిక",
-        "description": "అధిక ట్రాఫిక్ ఉన్న ప్రదేశాలను గుర్తించడంలో నిపుణుల సహాయం"
+        "title": "Site ఎంచుకోండిion",
+        "description": "Expert assistance in identifying high-traffic locations"
       },
       "installation": {
-        "title": "సంస్థాపన",
-        "description": "ATM సెటప్ మరియు కాన్ఫిగరేషన్ పూర్తి చేయండి"
+        "title": "Installation",
+        "description": "Complete ఏటీఎం setup and configuration"
       },
       "cashManagement": {
-        "title": "నగదు నిర్వహణ",
-        "description": "క్రమం తప్పకుండా నగదు నింపడం మరియు సయోధ్య"
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
       },
       "maintenance": {
-        "title": "నిర్వహణ",
-        "description": "24/7 సాంకేతిక మద్దతు మరియు సాధారణ సర్వీసింగ్"
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
       },
       "compliance": {
-        "title": "వర్తింపు",
-        "description": "పూర్తి నియంత్రణ సమ్మతి మరియు డాక్యుమెంటేషన్"
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
       },
       "marketing": {
-        "title": "మార్కెటింగ్ మద్దతు",
-        "description": "ప్రచార సామగ్రి మరియు స్థానిక మార్కెటింగ్ సహాయం"
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
       }
     }
   },
   "comparison": {
-    "title": "ఫ్రాంచైజ్ మోడల్స్ పోలిక",
-    "subtitle": "మీ పెట్టుబడి సామర్థ్యానికి సరిపోయే ఫ్రాంచైజ్ మోడల్‌ను ఎంచుకోండి.",
+    "title": "ఫ్రాంచైజీ Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capaనగరం",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low పెట్టుబడి",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium ఫ్రాంచైజీ model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "పెట్టుబడి Details",
+    "revenueStreams": "ఆదాయం Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "ప్రారంభించండి",
     "models": {
       "basic": {
-        "name": "ప్రాథమిక",
-        "investment": "₹2-5 లక్షలు",
-        "atms": "1-2 ATMలు",
-        "roi": "వార్షికంగా 15-18%",
-        "support": "ప్రామాణిక మద్దతు",
-        "features": {
-          "0": "Single location setup",
-          "1": "Basic training program",
-          "2": "Monthly maintenance",
-          "3": "Regional support team"
-        }
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 ఏటీఎంs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
+        "features": [
+          "Single location setup",
+          "Basic training program",
+          "Monthly maintenance",
+          "Regional support team"
+        ]
       },
       "professional": {
-        "name": "ప్రొఫెషనల్",
-        "investment": "₹5-10 లక్షలు",
-        "atms": "3-5 ATMలు",
-        "roi": "18-22% వార్షికం",
-        "support": "ప్రాధాన్యత మద్దతు",
-        "features": {
-          "0": "Multiple location setup",
-          "1": "Advanced training program",
-          "2": "Bi-weekly maintenance",
-          "3": "Dedicated account manager",
-          "4": "Marketing support"
-        },
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 ఏటీఎంs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
+        "features": [
+          "Multiple location setup",
+          "Advanced training program",
+          "Bi-weekly maintenance",
+          "Dedicated account manager",
+          "Marketing support"
+        ],
         "popular": true
       },
       "enterprise": {
-        "name": "ఎంటర్‌ప్రైజ్",
-        "investment": "₹10+ లక్షలు",
-        "atms": "6+ ATMలు",
-        "roi": "22-25% వార్షికం",
-        "support": "ప్రీమియం మద్దతు",
-        "features": {
-          "0": "Unlimited locations",
-          "1": "Executive training program",
-          "2": "Weekly maintenance",
-          "3": "Personal relationship manager",
-          "4": "Complete marketing package",
-          "5": "Priority placement"
-        }
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ ఏటీఎంs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
+        "features": [
+          "Unlimited locations",
+          "Executive training program",
+          "Weekly maintenance",
+          "Personal relationship manager",
+          "Complete marketing package",
+          "Priority placement"
+        ]
       }
     },
-    "cta": "మీ ప్లాన్‌ను ఎంచుకోండి"
+    "cta": "ఎంచుకోండి Your Plan"
   },
   "wlaOperators": {
-    "title": "భారతదేశంలోని ప్రముఖ WLA ఆపరేటర్లు",
-    "subtitle": "ATM కార్యకలాపాలలో అత్యంత విశ్వసనీయ పేర్లతో భాగస్వామిగా ఉండండి",
-    "description": "మీకు ఉత్తమ అవకాశాలను అందించడానికి మేము అన్ని ప్రధాన వైట్ లేబుల్ ATM ఆపరేటర్లతో కలిసి పని చేస్తాము."
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in ఏటీఎం operations",
+    "description": "We work with all major White Label ఏటీఎం operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
-    "title": "తరచుగా అడుగు ప్రశ్నలు",
-    "subtitle": "ATM ఫ్రాంచైజీ గురించి సాధారణ ప్రశ్నలకు సమాధానాలు పొందండి",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about ఏటీఎం ఫ్రాంచైజీ",
     "questions": {
       "investment": {
-        "question": "అవసరమైన కనీస పెట్టుబడి ఎంత?",
-        "answer": "1-2 ATMలు కలిగిన బేసిక్ ఫ్రాంచైజ్ మోడల్‌కు కనీస పెట్టుబడి ₹2 లక్షల నుండి ప్రారంభమవుతుంది."
+        "question": "What is the minimum పెట్టుబడి required?",
+        "answer": "The minimum పెట్టుబడి starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
-        "question": "నేను ఎలాంటి రాబడిని ఆశించవచ్చు?",
-        "answer": "స్థానం మరియు లావాదేవీ పరిమాణాన్ని బట్టి మీరు 15-25% వార్షిక రాబడిని ఆశించవచ్చు."
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
-        "question": "మీరు ఎలాంటి మద్దతు అందిస్తారు?",
-        "answer": "మేము సైట్ ఎంపిక, సంస్థాపన, నిర్వహణ, నగదు నిర్వహణ మరియు 24/7 సాంకేతిక సహాయంతో సహా పూర్తి మద్దతును అందిస్తాము."
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site ఎంచుకోండిion, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
-        "question": "నాకు ముందస్తు అనుభవం అవసరమా?",
-        "answer": "ముందస్తు అనుభవం అవసరం లేదు. మేము సమగ్ర శిక్షణ మరియు నిరంతర మద్దతును అందిస్తాము."
+        "question": "Do I need prior experience?",
+        "answer": "లేదు prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
-        "question": "నా ATM స్థానాలను నేను ఎంచుకోవచ్చా?",
-        "answer": "అవును, మీరు స్థానాలను సూచించవచ్చు. గరిష్ట రాబడి కోసం ఉత్తమ ప్రదేశాలను మూల్యాంకనం చేసి ఖరారు చేయడంలో మా బృందం సహాయం చేస్తుంది."
+        "question": "Can I choose my ఏటీఎం locations?",
+        "answer": "అవును, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
-        "question": "కాంట్రాక్టు వ్యవధి ఎంత?",
-        "answer": "ప్రామాణిక ఫ్రాంచైజ్ ఒప్పందం 5 సంవత్సరాలు, పునరుద్ధరించుకునే అవకాశం ఉంది."
+        "question": "What is the contract duration?",
+        "answer": "The standard ఫ్రాంచైజీ agreement is for 5 years with an option to renew."
       }
     }
   },
   "getStarted": {
-    "title": "మీ ATM ఫ్రాంచైజీని ప్రారంభించడానికి సిద్ధంగా ఉన్నారా?",
-    "subtitle": "భారతదేశంలో అత్యంత వేగంగా అభివృద్ధి చెందుతున్న ATM నెట్‌వర్క్‌లో ఈరోజే చేరండి",
+    "title": "Ready to Start Your ఏటీఎం ఫ్రాంచైజీ?",
+    "subtitle": "Join India's fastest growing ఏటీఎం network today",
     "cta": {
-      "apply": "ఇప్పుడు దరఖాస్తు చేసుకోండి",
-      "call": "మాకు కాల్ చేయండి",
-      "schedule": "షెడ్యూల్ సమావేశం"
+      "apply": "దరఖాస్తు చేయండి Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
     }
   }
 }

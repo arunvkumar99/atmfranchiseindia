@@ -1,4 +1,19 @@
 {
+  "languages": {
+    "en": "English",
+    "hi": "हिन्दी",
+    "ta": "தமிழ்",
+    "te": "తెలుగు",
+    "bn": "বাংলা",
+    "mr": "मराठी",
+    "gu": "ગુજરાતી",
+    "kn": "ಕನ್ನಡ",
+    "ml": "മലയാളം",
+    "pa": "ਪੰਜਾਬੀ",
+    "or": "ଓଡ଼ିଆ",
+    "as": "অসমীয়া",
+    "ur": "اردو"
+  },
   "nav": {
     "home": "মূল পাতা",
     "aboutUs": "আমাদের সম্পর্কে",
@@ -6,40 +21,40 @@
     "becomeAgent": "এজেন্ট হন",
     "submitLocation": "এটিএম লোকেশন জমা দিন",
     "becomeFranchise": "ফ্র্যাঞ্চাইজি হন",
-    "pixellpayAdvantage": "পিক্সেলপে সুবিধা",
+    "pixellpayAdvantage": "PixellPay সুবিধা",
     "contactUs": "আমাদের সাথে যোগাযোগ করুন",
     "joinUs": "আমাদের সাথে যোগ দিন",
     "blog": "ব্লগ",
     "language": "ভাষা"
   },
   "buttons": {
-    "submit": "Submit",
-    "save": "Save",
-    "cancel": "Cancel",
-    "next": "Next",
-    "previous": "Previous",
+    "submit": "জমা দিন",
+    "save": "সংরক্ষণ",
+    "cancel": "বাতিল",
+    "next": "পরবর্তী",
+    "previous": "পূর্ববর্তী",
     "continue": "Continue",
-    "back": "Back",
-    "close": "Close",
+    "back": "পিছনে",
+    "close": "বন্ধ",
     "add": "Add",
     "edit": "Edit",
     "delete": "Delete",
     "update": "Update",
-    "apply": "Apply",
+    "apply": "প্রয়োগ করুন",
     "reset": "Reset",
     "clear": "Clear",
-    "register": "Register",
-    "login": "Login",
+    "register": "নিবন্ধন",
+    "login": "লগইন",
     "finish": "Finish"
   },
   "forms": {
     "required": "এই ক্ষেত্রটি আবশ্যক",
-    "invalidEmail": "দয়া করে একটি বৈধ ইমেল ঠিকানা লিখুন।",
+    "invalidEmail": "Please enter a valid email address",
     "invalidPhone": "দয়া করে একটি বৈধ ফোন নম্বর লিখুন।",
     "minLength": "Minimum {{count}} characters required",
     "maxLength": "Maximum {{count}} characters allowed",
     "submitSuccess": "ফর্মটি সফলভাবে জমা দেওয়া হয়েছে!",
-    "submitError": "ফর্ম জমা দেওয়ার সময় ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "submitError": "Error submitting form. Please try again.",
     "uploading": "আপলোড হচ্ছে...",
     "uploadSuccess": "ফাইলটি সফলভাবে আপলোড করা হয়েছে",
     "uploadError": "ফাইল আপলোড করার সময় ত্রুটি হয়েছে"
@@ -48,7 +63,7 @@
     "company": {
       "name": "এটিএম ফ্র্যাঞ্চাইজি ভারত",
       "tagline": "বিশ্বস্ত ব্যবসায়িক অংশীদার",
-      "description": "স্বচ্ছ এটিএম ফ্র্যাঞ্চাইজি সুযোগের মাধ্যমে গ্রামীণ উদ্যোক্তাদের ক্ষমতায়ন করা। ভারত জুড়ে সম্প্রদায়ের সেবা করার সময় প্যাসিভ আয়ের উৎস তৈরি করা।"
+      "description": "Empowering rural entrepreneurs with transparent ATM franchise opportunities. Building passive income streams while serving communities across India."
     },
     "contact": {
       "location": "বেঙ্গালুরু, কর্ণাটক, ভারত"
@@ -79,7 +94,7 @@
       "placeholder": "আপনার ইমেল লিখুন",
       "button": "সাবস্ক্রাইব"
     },
-    "copyright": "© ২০২৫ এটিএম ফ্র্যাঞ্চাইজি ইন্ডিয়া। সর্বস্বত্ব সংরক্ষিত।",
+    "copyright": "© 2025 ATM Franchise India. All rights reserved.",
     "poweredBy": "Pixellweb দ্বারা চালিত",
     "partners": {
       "title": "আমাদের অংশীদাররা",
@@ -93,18 +108,18 @@
     "privacyPolicy": "গোপনীয়তা নীতি",
     "termsConditions": "শর্তাবলী",
     "refundPolicy": "ফেরত নীতি",
-    "accessibilityStatement": "অ্যাক্সেসিবিলিটি বিবৃতি",
     "aboutUs": "আমাদের সম্পর্কে",
-    "contactUs": "যোগাযোগ করুন"
+    "contactUs": "যোগাযোগ করুন",
+    "accessibilityStatement": "অ্যাক্সেসিবিলিটি বিবৃতি"
   },
   "errors": {
     "pageNotFound": "পৃষ্ঠাটি খুঁজে পাওয়া যায়নি",
-    "somethingWentWrong": "কিছু সমস্যা হয়েছে।",
+    "somethingWentWrong": "Something went wrong",
     "tryAgain": "আবার চেষ্টা করো",
     "goHome": "হোমপেজে যান",
-    "networkError": "নেটওয়ার্ক ত্রুটি। অনুগ্রহ করে আপনার সংযোগ পরীক্ষা করুন।",
-    "unauthorized": "আপনি এই পৃষ্ঠাটি দেখার জন্য অনুমোদিত নন।",
-    "serverError": "সার্ভার ত্রুটি। অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+    "networkError": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to view this page",
+    "serverError": "Server error. Please try again later."
   },
   "loading": {
     "pleaseWait": "অনুগ্রহ করে অপেক্ষা করুন...",
@@ -117,9 +132,9 @@
   },
   "search": {
     "placeholder": "অনুসন্ধান...",
-    "noResults": "কোন ফলাফল পাওয়া যায়নি",
     "results": "{{count}} results found",
-    "clearSearch": "অনুসন্ধান সাফ করুন"
+    "noResults": "কোন ফলাফল পাওয়া যায়নি",
+    "clearSearch": "Clear search"
   },
   "pagination": {
     "page": "পৃষ্ঠা",
@@ -146,41 +161,41 @@
     "whatsapp": "হোয়াটসঅ্যাপ"
   },
   "status": {
-    "loading": "Loading",
-    "success": "Success",
-    "error": "Error",
-    "warning": "Warning",
-    "info": "Info",
-    "required": "Required",
-    "optional": "Optional",
-    "pending": "Pending",
-    "completed": "Completed",
+    "loading": "লোড হচ্ছে",
+    "success": "সফল",
+    "error": "ত্রুটি",
+    "warning": "সতর্কতা",
+    "info": "তথ্য",
+    "required": "প্রয়োজনীয়",
+    "optional": "ঐচ্ছিক",
+    "pending": "মুলতুবি",
+    "completed": "সম্পন্ন",
     "failed": "Failed"
   },
   "actions": {
-    "search": "Search",
+    "search": "অনুসন্ধান",
     "filter": "Filter",
     "sort": "Sort",
     "export": "Export",
     "import": "Import",
-    "upload": "Upload",
-    "download": "Download",
+    "upload": "আপলোড",
+    "download": "ডাউনলোড",
     "preview": "Preview",
-    "select": "Select",
-    "choose": "Choose"
+    "select": "নির্বাচন করুন",
+    "choose": "পছন্দ করুন"
   },
   "confirmation": {
-    "yes": "Yes",
-    "no": "No",
+    "yes": "হ্যাঁ",
+    "no": "না",
     "confirm": "Confirm",
-    "agree": "I Agree",
+    "agree": "আমি সম্মত",
     "disagree": "I Disagree"
   },
   "navigation": {
-    "home": "Home",
-    "back": "Back",
-    "next": "Next",
-    "previous": "Previous",
+    "home": "হোম",
+    "back": "পিছনে",
+    "next": "পরবর্তী",
+    "previous": "পূর্ববর্তী",
     "menu": "Menu"
   },
   "error": "[BN] An error occurred",
@@ -196,5 +211,46 @@
   "confirm": "[BN] Confirm",
   "breadcrumb": {
     "home": "মূল পাতা"
+  },
+  "content": {
+    "expert_team": "Expert Team",
+    "experienced_professionals_with": "Experienced professionals with deep industry knowledge",
+    "proven_results": "Proven Results",
+    "trusted_guidance": "Trusted নির্দেশনা",
+    "transparent_business_model": "স্বচ্ছ business model",
+    "passive_income_generation": "Passive income generation",
+    "community_service_opportunity": "Community service opportunity",
+    "trusted": "Trusted",
+    "verified_partners": "Verified অংশীদারs",
+    "all_our_wla_partners_are_rbiap": "All our ডব্লিউএলএ partners are RBI-approved and have proven track records",
+    "growth_opportunities": "বৃদ্ধি Opportunities",
+    "access_to_diverse_markets_and_": "Access to diverse markets and expansion opportunities across ভারত",
+    "technology_excellence": "Technology Excellence",
+    "latest_atm_technology_and_digi": "Latest এটিএম technology and digital banking solutions for competitive advantage",
+    "empowering_young_entrepreneurs": "Empowering তরুণ উদ্যোক্তাs"
+  },
+  "alt": {
+    "atm_franchise_india_logo": "এটিএম ফ্র্যাঞ্চাইজি ইন্ডিয়া Logo",
+    "successful_young_entrepreneurs": "সফলful young entrepreneurs celebrating business achievements",
+    "modern_atm_kiosk_representing_": "Modern এটিএম kiosk representing business opportunity",
+    "pixellpay_logo": "PixellPay Logo",
+    "evosyz_technology_logo": "Evosyz Technology Logo",
+    "india_wla_partner": "ভারত ডব্লিউএলএ অংশীদার",
+    "indicash_tata_product": "Indicash TATA Product",
+    "vakrangee_wla_partner": "Vakrangee ডব্লিউএলএ অংশীদার",
+    "findi_atm_wla_partner": "Findi এটিএম ডব্লিউএলএ অংশীদার",
+    "eps_wla_partner": "EPS ডব্লিউএলএ অংশীদার",
+    "atm_agent_network_growth": "ATM Agent Network Growth",
+    "influencer_partnership_growth": "Influencer Partnership Growth",
+    "atmInIndianSetting": "ATM in Indian semi-urban setting",
+    "sales_agent_opportunity": "Sales Agent Opportunity",
+    "young_indian_woman_influencer_": "Young Indian Woman Influencer for ATM Business",
+    "atm_franchise_india_career_opp": "ATM Franchise India Career Opportunity",
+    "young_entrepreneur_succeeding_": "Young entrepreneur succeeding in ATM franchise business",
+    "modern_atm_representing_busine": "Modern ATM representing business opportunity"
+  },
+  "copyright": "© 2025 ATM Franchise India. All rights reserved. | RBI Licensed Partners Only",
+  "messages": {
+    "get_detailed_information_and_start_your_franchise_": "Get detailed information and start your franchise journey today"
   }
 }

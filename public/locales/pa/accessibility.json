@@ -1,26 +1,60 @@
 {
-  "title": "ਪਹੁੰਚਯੋਗਤਾ ਬਿਆਨ",
+  "hero": {
+    "backToHome": "Back to Home",
+    "badge": "Accessibility Commitment",
+    "title": "Accessibility Statement",
+    "subtitle": "Making ATM Franchise opportunities accessible to everyone"
+  },
+  "content": {
+    "intro": "ATM Franchise India is committed to ensuring digital accessibility for people with disabilities. We are continuously improving the user experience for everyone and applying the relevant accessibility standards.",
+    "web_accessibility": "Web Accessibility",
+    "visual_accessibility": "Visual Accessibility",
+    "motor_and_cognitive_accessibil": "Motor and Cognitive Accessibility",
+    "hearing_accessibility": "Hearing Accessibility",
+    "feedback_and_support": "Feedback and Support",
+    "email": "Email:",
+    "phone": "Phone:"
+  },
+  "sections": {
+    "web": {
+      "content": "Our website is designed to be compatible with assistive technologies and follows Web Content Accessibility Guidelines (WCAG) 2.1 standards.",
+      "items": [
+        "Keyboard navigation support for all interactive elements",
+        "Screen reader compatibility with proper heading structure",
+        "High contrast color schemes for better visibility",
+        "Alternative text for all images and graphics"
+      ]
+    },
+    "visual": {
+      "content": "We understand that visual impairments can affect how people interact with our platform:",
+      "items": [
+        "Large, readable fonts throughout the website",
+        "Sufficient color contrast ratios meeting WCAG standards"
+      ]
+    }
+  },
+  "title": "Accessibility Statement",
   "commitment": {
-    "title": "ਸਾਡੀ ਵਚਨਬੱਧਤਾ",
-    "description": "ਅਸੀਂ ਸਾਰੇ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਡਿਜੀਟਲ ਪਹੁੰਚਯੋਗਤਾ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਵਚਨਬੱਧ ਹਾਂ।"
+    "title": "Our Commitment",
+    "description": "We are committed to ensuring digital accessibility for all users"
   },
   "standards": {
-    "title": "ਪਹੁੰਚਯੋਗਤਾ ਮਿਆਰ",
-    "wcag": "WCAG 2.1 ਪੱਧਰ AA ਪਾਲਣਾ",
-    "testing": "ਨਿਯਮਤ ਪਹੁੰਚਯੋਗਤਾ ਜਾਂਚ",
-    "feedback": "ਯੂਜ਼ਰ ਫੀਡਬੈਕ ਏਕੀਕਰਨ"
+    "title": "Accessibility Standards",
+    "wcag": "WCAG 2.1 Level AA Compliance",
+    "testing": "Regular Accessibility Testing",
+    "feedback": "User Feedback Integration"
   },
   "features": {
-    "title": "ਪਹੁੰਚਯੋਗਤਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
-    "keyboard": "ਕੀਬੋਰਡ ਨੈਵੀਗੇਸ਼ਨ",
-    "screenReader": "ਸਕ੍ਰੀਨ ਰੀਡਰ ਸਹਾਇਤਾ",
-    "contrast": "ਉੱਚ ਕੰਟ੍ਰਾਸਟ ਵਿਕਲਪ",
-    "textSize": "ਐਡਜਸਟੇਬਲ ਟੈਕਸਟ ਸਾਈਜ਼"
+    "title": "Accessibility Features",
+    "keyboard": "Keyboard Navigation",
+    "screenReader": "Screen Reader Support",
+    "contrast": "High Contrast Options",
+    "textSize": "Adjustable Text Size"
   },
   "contact": {
-    "title": "ਪਹੁੰਚਯੋਗਤਾ ਫੀਡਬੈਕ",
-    "description": "ਅਸੀਂ ਪਹੁੰਚਯੋਗਤਾ ਬਾਰੇ ਤੁਹਾਡੇ ਫੀਡਬੈਕ ਦਾ ਸਵਾਗਤ ਕਰਦੇ ਹਾਂ।",
-    "email": "ਸਾਨੂੰ ਈਮੇਲ ਕਰੋ",
-    "phone": "ਸਾਨੂੰ ਕਾਲ ਕਰੋ"
+    "title": "Accessibility Feedback",
+    "description": "We welcome your feedback on accessibility",
+    "email": "Email Us",
+    "phone": "Call Us"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "title": "পৃষ্ঠা পোৱা নগ'ল",
-  "heading": "৪০৪ - পৃষ্ঠা পোৱা নগ'ল",
-  "message": "ক্ষমা কৰিব, আপুনি বিচৰা পৃষ্ঠাটোৰ অস্তিত্ব নাই।",
-  "suggestion": "আপুনি ঠিকনাটো ভুলকৈ টাইপ কৰিছে বা পৃষ্ঠাটো স্থানান্তৰিত হ'ব পাৰে।",
+  "title": "Page Not Found",
+  "heading": "404 - Page Not Found",
+  "message": "Sorry, the page you are looking for doesn't exist.",
+  "suggestion": "You may have mistyped the address or the page may have moved.",
   "cta": {
-    "home": "হোমপেজলৈ যাওক",
-    "contact": "সমৰ্থনৰ সৈতে যোগাযোগ কৰক"
+    "home": "Go to Homepage",
+    "contact": "Contact Support"
   }
 }

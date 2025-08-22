@@ -2,163 +2,183 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "trusted_atm_franchise_partner": "Trusted ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Partner",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
-    "badge": "ਭਰੋਸੇਯੋਗ ਏਟੀਐਮ ਫਰੈਂਚਾਈਜ਼ ਪਾਰਟਨਰ",
+    "badge": "Trusted ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Partner",
     "title": {
-      "line1": "ਇੱਕ ਬਣੋ",
-      "line2": "ਏਟੀਐਮ ਫਰੈਂਚਾਇਜ਼ੀ",
-      "line3": "ਸਾਥੀ"
+      "line1": "Become an",
+      "line2": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
+      "line3": "Partner"
     },
     "description": {
-      "part1": "ਸ਼ਾਮਲ ਹੋਵੋ",
-      "successfulPartners": "200+ ਸਫਲ ਸਾਥੀ",
-      "part2": "ਅਤੇ ਸ਼ੁਰੂ ਕਰੋ ਆਪਣਾ",
-      "profitableBusiness": "ਲਾਭਦਾਇਕ ਏਟੀਐਮ ਕਾਰੋਬਾਰ",
-      "part3": "ਅੱਜ ਨਾਲ",
-      "minimalInvestment": "ਘੱਟੋ-ਘੱਟ ਨਿਵੇਸ਼"
+      "part1": "Join",
+      "successfulPartners": "200+ ਸਫਲਤਾful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM ਕਾਰੋਬਾਰ",
+      "part3": "today with",
+      "minimalInvestment": "minimal ਨਿਵੇਸ਼"
     },
     "cta": {
-      "apply": "ਫਰੈਂਚਾਇਜ਼ੀ ਲਈ ਅਰਜ਼ੀ ਦਿਓ",
-      "learnMore": "ਜਿਆਦਾ ਜਾਣੋ"
+      "apply": "ਅਰਜ਼ੀ ਦਿਓ for Franchise",
+      "learnMore": "Learn More"
     },
     "benefits": {
       "quickRoi": {
-        "title": "ਤੇਜ਼ ROI",
-        "description": "ਸਾਬਤ ਹੋਏ ਕਾਰੋਬਾਰੀ ਮਾਡਲ ਨਾਲ ਨਿਵੇਸ਼ 'ਤੇ ਤੇਜ਼ ਵਾਪਸੀ"
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven ਕਾਰੋਬਾਰ model"
       },
       "support": {
-        "title": "ਸਮਰਪਿਤ ਸਹਾਇਤਾ",
-        "description": "ਸਾਡੀ ਮਾਹਰ ਟੀਮ ਵੱਲੋਂ 24/7 ਤਕਨੀਕੀ ਅਤੇ ਵਪਾਰਕ ਸਹਾਇਤਾ"
+        "title": "Dedicated Support",
+        "description": "24/7 technical and ਕਾਰੋਬਾਰ support from our expert team"
       },
       "network": {
-        "title": "ਸਾਬਤ ਨੈੱਟਵਰਕ",
-        "description": "ਭਾਰਤ ਭਰ ਵਿੱਚ 500+ ਸਫਲ ਫ੍ਰੈਂਚਾਇਜ਼ੀ ਭਾਈਵਾਲਾਂ ਨਾਲ ਜੁੜੋ"
+        "title": "Proven Network",
+        "description": "Join 500+ successful ਫ੍ਰੈਂਚਾਇਜ਼ੀ partners across India"
       },
       "training": {
-        "title": "ਸਿਖਲਾਈ ਸ਼ਾਮਲ ਹੈ",
-        "description": "ਵਿਆਪਕ ਸਿਖਲਾਈ ਅਤੇ ਨਿਰੰਤਰ ਸਹਾਇਤਾ ਪ੍ਰਦਾ��� ਕੀਤੀ ਜਾਂਦੀ ਹੈ"
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
       }
     },
     "process": {
-      "title": "ਕਿਵੇਂ ਸ਼ੁਰੂ ਕਰੀਏ",
+      "title": "How to ਸ਼ੁਰੂ ਕਰੋ",
       "steps": {
         "apply": {
-          "title": "ਲਾਗੂ ਕਰੋ",
-          "description": "ਆਪਣੀ ਫਰੈਂਚਾਇਜ਼ੀ ਅਰਜ਼ੀ ਔਨਲਾਈਨ ਜਮ੍ਹਾਂ ਕਰੋ"
+          "title": "ਅਰਜ਼ੀ ਦਿਓ",
+          "description": "ਜਮ੍ਹਾਂ ਕਰੋ your franchise application online"
         },
         "agreement": {
-          "title": "ਸਮਝੌਤਾ",
-          "description": "ਦਸਤਾਵੇਜ਼ ਪੂਰੇ ਕਰੋ ਅਤੇ ਇਕਰਾਰਨਾਮੇ 'ਤੇ ਦਸਤਖਤ ਕਰੋ"
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
         },
         "installation": {
-          "title": "ਸਥਾਪਨਾ",
-          "description": "ਅਸੀਂ ਏਟੀਐਮ ਸੈੱਟਅੱਪ ਅਤੇ ਇੰਸਟਾਲੇਸ਼ਨ ਦਾ ਕੰਮ ਕਰਦੇ ਹਾਂ"
+          "title": "Installation",
+          "description": "We handle ਏਟੀਐਮ setup and installation"
         },
         "earn": {
-          "title": "ਕਮਾਈ ਸ਼ੁਰੂ ਕਰੋ",
-          "description": "ਮਹੀਨਾਵਾਰ ਪੈਸਿਵ ਆਮਦਨ ਪ੍ਰਾਪਤ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ"
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
         }
       }
     },
     "stats": {
-      "partners": "ਸਰਗਰਮ ਭਾਈਵਾਲ",
-      "atms": "ਏਟੀਐਮ ਤਾਇਨਾਤ",
-      "transactions": "ਮਹੀਨਾਵਾਰ ਲੈਣ-ਦੇਣ",
-      "support": "ਸਹਾਇਤਾ ਉਪਲਬਧ ਹੈ"
+      "partners": "Active Partners",
+      "atms": "ਏਟੀਐਮs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
     }
   },
   "enquiryForm": {
-    "title": "ਆਪਣੀ ATM ਫਰੈਂਚਾਈਜ਼ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰੋ",
-    "subtitle": "ਆਪਣੇ ਖੇਤਰ ਵਿੱਚ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਦੇ ਮੌਕਿਆਂ ਬਾਰੇ ਵਿਅਕਤੀਗਤ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਾਡਾ ਵਿਸਤ੍ਰਿਤ ਪੁੱਛਗਿੱਛ ਫਾਰਮ ਭਰੋ।",
+    "title": "Start Your ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ opportunities in your area.",
     "fields": {
-      "name": "ਪੂਰਾ ਨਾਂਮ",
+      "name": "ਪੂਰਾ ਨਾਮ",
       "email": "ਈਮੇਲ ਪਤਾ",
       "phone": "ਫੋਨ ਨੰਬਰ",
       "state": "ਰਾਜ",
       "city": "ਸ਼ਹਿਰ",
-      "investment": "ਨਿਵੇਸ਼ ਸਮਰੱਥਾ",
-      "experience": "ਕਾਰੋਬਾਰੀ ਤਜਰਬਾ",
-      "message": "ਵਧੀਕ ਜਾਣਕਾਰੀ",
-      "consent": "ਮੈਂ ਫਰੈਂਚਾਇਜ਼ੀ ਦੇ ਮੌਕਿਆਂ ਬਾਰੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹਾਂ।"
+      "investment": "Investment Capaਸ਼ਹਿਰ",
+      "experience": "ਕਾਰੋਬਾਰ Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about ਫ੍ਰੈਂਚਾਇਜ਼ੀ opportunities"
     },
-    "submit": "ਪੁੱਛਗਿੱਛ ਜਮ੍ਹਾਂ ਕਰੋ",
-    "submitting": "ਸਪੁਰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
-    "success": "ਧੰਨਵਾਦ! ਅਸੀਂ 24 ਘੰਟਿਆਂ ਦੇ ਅੰਦਰ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।",
-    "error": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+    "submit": "ਜਮ੍ਹਾਂ ਕਰੋ Enquiry",
+    "submitting": "ਜਮ੍ਹਾਂ ਕਰੋting...",
+    "success": "ਧੰਨਵਾਦ! We'll contact you within 24 hours.",
+    "error": "Something went wrong. ਕਿਰਪਾ ਕਰਕੇ try again."
   },
   "whyAtm": {
-    "title": "ਏਟੀਐਮ ਫਰੈਂਚਾਇਜ਼ੀ ਕਿਉਂ ਚੁਣੋ?",
-    "subtitle": "ਭਾਰਤ ਦੇ ਮੋਹਰੀ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਨੈੱਟਵਰਕ ਨਾਲ ਭਾਈਵਾਲੀ ਦੇ ਫਾਇਦਿਆਂ ਦੀ ਖੋਜ ਕਰੋ",
+    "title": "Why Choose ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ?",
+    "subtitle": "Discover the benefits of partnering with India's leading ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ network",
     "benefits": {
       "highReturns": {
-        "title": "ਉ��ਚ ਰਿਟਰਨ",
-        "description": "ਆਪਣੇ ਨਿਵੇਸ਼ 'ਤੇ 20% ਤੱਕ ਸਾਲਾਨਾ ਰਿਟਰਨ ਕਮਾਓ"
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your ਨਿਵੇਸ਼"
       },
       "passiveIncome": {
-        "title": "ਪੈਸਿਵ ਇਨਕਮ",
-        "description": "ਘੱਟੋ-ਘੱਟ ਮਿਹਨਤ ਨਾਲ ਸਥਿਰ ਮਹੀਨਾਵਾਰ ਆਮਦਨ ਪੈਦਾ ਕਰੋ"
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
       },
       "lowMaintenance": {
-        "title": "ਘੱਟ ਰੱਖ-ਰਖਾਅ",
-        "description": "ਅਸੀਂ ਸਾਰੀ ਤਕਨੀਕੀ ਦੇਖਭਾਲ ਅਤੇ ਨਕਦੀ ਪ੍ਰਬੰਧਨ ਕਰਦੇ ਹਾਂ"
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
       },
       "governmentSupport": {
-        "title": "ਸਰਕਾਰੀ ਸਹਾਇਤਾ",
-        "description": "ਵਿੱਤੀ ਸਮਾਵੇਸ਼ ਲਈ ਸਰਕਾਰੀ ਪਹਿਲਕਦਮੀਆਂ ਤੋਂ ਲਾਭ ਉਠਾਓ"
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
       },
       "growingMarket": {
-        "title": "ਵਧਦਾ ਬਾਜ਼ਾਰ",
-        "description": "ਭਾਰਤ ਦੇ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੇ ਡਿਜੀਟਲ ਭੁਗਤਾਨ ਈਕੋਸਿਸਟਮ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ"
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
       },
       "brandValue": {
-        "title": "ਬ੍ਰਾਂਡ ਵੈਲਯੂ",
-        "description": "ਸਾਡੇ ਸਥਾਪਿਤ ਬ੍ਰਾਂਡ ਅਤੇ ਸਾਬਤ ਕਾਰੋਬਾਰੀ ਮਾਡਲ ਦਾ ਲਾਭ ਉਠਾਓ"
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven ਕਾਰੋਬਾਰ model"
       }
     }
   },
   "services": {
-    "title": "ਸਾਡੀਆਂ ਵਿਆਪਕ ਸੇਵਾਵਾਂ",
-    "subtitle": "ਇੱਕ ਸਫਲ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਚਲਾਉਣ ਲਈ ਤੁਹਾਨੂੰ ਲੋੜੀਂਦੀ ਹਰ ਚੀਜ਼",
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
     "items": {
       "siteSelection": {
-        "title": "ਸਾਈਟ ਚੋਣ",
-        "description": "ਜ਼ਿਆਦਾ ਆਵਾਜਾਈ ਵਾਲੇ ਸਥਾਨਾਂ ਦੀ ਪਛਾਣ ਕਰਨ ਵਿੱਚ ਮਾਹਿਰਾਂ ਦੀ ਸਹਾਇਤਾ"
+        "title": "Site ਚੁਣੋion",
+        "description": "Expert assistance in identifying high-traffic locations"
       },
       "installation": {
-        "title": "ਸਥਾਪਨਾ",
-        "description": "ਏਟੀਐਮ ਸੈੱਟਅੱਪ ਅਤੇ ਸੰਰਚਨਾ ਨੂੰ ਪੂਰਾ ਕਰੋ"
+        "title": "Installation",
+        "description": "Complete ਏਟੀਐਮ setup and configuration"
       },
       "cashManagement": {
-        "title": "ਨਕਦ ਪ੍ਰਬੰਧਨ",
-        "description": "ਨਿਯਮਤ ਨਕ��ੀ ਭਰਪਾਈ ਅਤੇ ਸੁਲ੍ਹਾ"
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
       },
       "maintenance": {
-        "title": "ਰੱਖ-ਰਖਾਅ",
-        "description": "24/7 ਤਕਨੀਕੀ ਸਹਾਇਤਾ ਅਤੇ ਨਿਯਮਤ ਸਰਵਿਸਿੰਗ"
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
       },
       "compliance": {
-        "title": "ਪਾਲਣਾ",
-        "description": "ਪੂਰੀ ਰੈਗੂਲੇਟਰੀ ਪਾਲਣਾ ਅਤੇ ਦਸਤਾਵੇਜ਼ੀਕਰਨ"
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
       },
       "marketing": {
-        "title": "ਮਾਰਕੀਟਿੰਗ ਸਹਾਇਤਾ",
-        "description": "ਪ੍ਰਚਾਰ ਸਮੱਗਰੀ ਅਤੇ ਸਥਾਨਕ ਮਾਰਕੀਟਿੰਗ ਸਹਾਇਤਾ"
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
       }
     }
   },
   "comparison": {
-    "title": "ਫਰੈਂਚਾਈਜ਼ ਮਾਡਲਾਂ ਦੀ ਤੁਲਨਾ",
-    "subtitle": "ਆਪਣੀ ਨਿਵੇਸ਼ ਸਮਰੱਥਾ ਦੇ ਅਨੁਕੂਲ ਫਰੈਂਚਾਇਜ਼ੀ ਮਾਡਲ ਚੁਣੋ।",
+    "title": "ਫ੍ਰੈਂਚਾਇਜ਼ੀ Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capaਸ਼ਹਿਰ",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low ਨਿਵੇਸ਼",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium ਫ੍ਰੈਂਚਾਇਜ਼ੀ model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "ਨਿਵੇਸ਼ Details",
+    "revenueStreams": "ਆਮਦਨ Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "ਸ਼ੁਰੂ ਕਰੋ",
     "models": {
       "basic": {
-        "name": "ਮੁੱਢਲਾ",
-        "investment": "₹2-5 ਲੱਖ",
-        "atms": "1-2 ਏਟੀ��ਮ",
-        "roi": "15-18% ਸਾਲਾਨਾ",
-        "support": "ਮਿਆਰੀ ਸਹਾਇਤਾ",
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 ਏਟੀਐਮs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
         "features": [
           "Single location setup",
           "Basic training program",
@@ -167,11 +187,11 @@
         ]
       },
       "professional": {
-        "name": "ਪੇਸ਼ੇਵਰ",
-        "investment": "₹5-10 ਲੱਖ",
-        "atms": "3-5 ਏਟੀਐਮ",
-        "roi": "18-22% ਸਾਲਾਨਾ",
-        "support": "ਤਰਜੀਹੀ ਸਹਾਇਤਾ",
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 ਏਟੀਐਮs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
         "features": [
           "Multiple location setup",
           "Advanced training program",
@@ -182,11 +202,11 @@
         "popular": true
       },
       "enterprise": {
-        "name": "ਐਂਟਰਪ੍ਰਾਈਜ਼",
-        "investment": "₹10+ ਲੱਖ",
-        "atms": "6+ ਏਟੀਐਮ",
-        "roi": "22-25% ਸਾਲਾਨਾ",
-        "support": "ਪ੍ਰੀਮੀਅਮ ਸਹਾਇਤਾ",
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ ਏਟੀਐਮs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
         "features": [
           "Unlimited locations",
           "Executive training program",
@@ -197,50 +217,54 @@
         ]
       }
     },
-    "cta": "ਆਪਣੀ ਯੋਜਨਾ ਚੁਣੋ"
+    "cta": "ਚੁਣੋ Your Plan"
   },
   "wlaOperators": {
-    "title": "ਭਾਰਤ ਵਿੱਚ ਪ੍ਰਮੁੱਖ WLA ਆਪਰੇਟਰ",
-    "subtitle": "ATM ਸੰਚਾਲਨ ਵਿੱਚ ਸਭ ਤੋਂ ਭਰੋਸੇਮੰਦ ��ਾਵਾਂ ਨਾਲ ਭਾਈਵਾਲੀ ਕਰੋ",
-    "description": "ਅਸੀਂ ਤੁਹਾਨੂੰ ਸਭ ਤੋਂ ਵਧੀਆ ਮੌਕੇ ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਸਾਰੇ ਪ੍ਰਮੁੱਖ ਵ੍ਹਾਈਟ ਲੇਬਲ ਏਟੀਐਮ ਆਪਰੇਟਰਾਂ ਨਾਲ ਕੰਮ ਕਰਦੇ ਹਾਂ।"
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in ਏਟੀਐਮ operations",
+    "description": "We work with all major White Label ਏਟੀਐਮ operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
-    "title": "ਅਕਸਰ ਪੁੱਛੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲ",
-    "subtitle": "ATM ਫਰੈਂਚਾਇਜ਼ੀ ਬਾਰੇ ਆਮ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
     "questions": {
       "investment": {
-        "question": "ਘੱਟੋ-ਘੱਟ ਕਿੰਨਾ ਨਿਵੇਸ਼ ਜ਼ਰੂਰੀ ਹੈ?",
-        "answer": "1-2 ATM ਵਾਲੇ ਮੁੱਢਲੇ ਫਰੈਂਚਾਇਜ਼ੀ ਮਾਡਲ ਲਈ ਘੱਟੋ-ਘੱਟ ਨਿਵੇਸ਼ ₹2 ਲੱਖ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"
+        "question": "What is the minimum ਨਿਵੇਸ਼ required?",
+        "answer": "The minimum ਨਿਵੇਸ਼ starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
-        "question": "ਮੈਂ ਕਿਸ ਤਰ੍ਹਾਂ ਦੇ ਰਿਟਰਨ ਦੀ ਉਮੀਦ ਕਰ ਸਕਦਾ ਹਾਂ?",
-        "answer": "ਤੁਸੀਂ ਸਥਾਨ ਅਤੇ ਲੈਣ-ਦੇਣ ਦੀ ਮਾਤਰਾ ਦੇ ਆਧਾਰ 'ਤੇ 15-25% ਸਾਲਾਨਾ ਰਿਟਰਨ ਦੀ ਉਮੀਦ ਕਰ ਸਕਦੇ ਹੋ।"
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
-        "question": "ਤੁਸੀਂ ਕਿਹੜੀ ਸਹਾਇਤਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹੋ?",
-        "answer": "ਅਸੀਂ ਸਾਈਟ ਦੀ ਚੋਣ, ਸਥਾਪਨਾ, ਰੱਖ-ਰਖਾਅ, ਨਕਦ ਪ੍ਰਬੰਧਨ, ਅਤੇ 24/7 ਤਕਨੀਕੀ ਸਹਾਇਤਾ ਸਮੇਤ ਪੂਰੀ ਸਹਾਇਤਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ।"
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site ਚੁਣੋion, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
-        "question": "ਕੀ ਮੈਨੂੰ ਪਹਿਲਾਂ ਦੇ ਤਜਰਬੇ ਦੀ ਲੋੜ ਹੈ?",
-        "answer": "ਕਿਸੇ ਪੁਰਾਣੇ ਤਜਰਬੇ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ। ਅਸੀਂ ਵਿਆਪਕ ਸਿਖਲਾਈ ਅਤੇ ਨਿਰੰਤਰ ਸਹਾਇਤਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ।"
+        "question": "Do I need prior experience?",
+        "answer": "ਨਹੀਂ prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
-        "question": "ਕੀ ਮੈਂ ਆਪਣੇ ATM ਸਥਾਨ ਚੁਣ ਸਕਦਾ ਹਾਂ?",
-        "answer": "ਹਾਂ, ਤੁਸੀਂ ਸਥਾਨਾਂ ਦਾ ਸੁਝਾਅ ਦੇ ਸਕਦੇ ਹੋ। ਸਾਡੀ ਟੀਮ ਵੱਧ ਤੋਂ ਵੱਧ ਰਿਟਰਨ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਸਥਾਨਾਂ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਅਤੇ ਅੰਤਿਮ ਰੂਪ ਦੇਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗੀ।"
+        "question": "Can I choose my ਏਟੀਐਮ locations?",
+        "answer": "ਹਾਂ, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
-        "question": "ਇਕਰਾਰਨਾਮੇ ਦੀ ਮਿਆਦ ਕੀ ਹੈ?",
-        "answer": "ਮਿਆਰੀ ਫਰੈਂਚਾਇਜ਼ੀ ਸਮਝੌਤਾ 5 ਸਾਲਾਂ ਲਈ ਹੈ ਜਿਸ ਵਿੱਚ ਨਵੀਨੀਕਰਨ ਦਾ ਵਿਕਲਪ ਹੈ।"
+        "question": "What is the contract duration?",
+        "answer": "The standard ਫ੍ਰੈਂਚਾਇਜ਼ੀ agreement is for 5 years with an option to renew."
       }
     }
   },
   "getStarted": {
-    "title": "ਕੀ ਤੁਸੀਂ ਆਪਣੀ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ?",
-    "subtitle": "ਅੱਜ ਹੀ ਭਾਰਤ ਦੇ ਸਭ ਤੋਂ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੇ ATM ਨੈੱਟਵਰਕ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।",
+    "title": "Ready to Start Your ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ?",
+    "subtitle": "Join India's fastest growing ਏਟੀਐਮ network today",
     "cta": {
-      "apply": "ਹੁਣ ਲਾਗੂ ਕਰ��",
-      "call": "ਸਾਨੂੰ ਕਾਲ ਕਰੋ",
-      "schedule": "ਮੀਟਿੰਗ ਤਹਿ ਕਰੋ"
+      "apply": "ਅਰਜ਼ੀ ਦਿਓ Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
     }
   }
 }

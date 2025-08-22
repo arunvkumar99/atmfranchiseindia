@@ -1,12 +1,12 @@
 {
-  "title": "రీఫండ్ పాలసీ",
-  "lastUpdated": "చివరిగా నవీకరించబడింది",
+  "title": "Refund Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "overview": "పాలసీ అవలోకనం",
-    "eligibility": "తిరిగి చెల్లింపు అర్హత",
-    "process": "తిరిగి చెల్లింపు ప్రక్రియ",
-    "timeline": "ప్రాసెసింగ్ కాలక్రమం",
-    "exceptions": "మినహాయింపులు",
-    "contact": "తిరిగి చెల్లింపుల కోసం సంప్రదించండి"
+    "overview": "Policy Overview",
+    "eligibility": "Refund Eligibility",
+    "process": "Refund Process",
+    "timeline": "Processing Timeline",
+    "exceptions": "Exceptions",
+    "contact": "Contact for Refunds"
   }
 }

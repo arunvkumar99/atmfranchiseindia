@@ -8,8 +8,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
-// Supabase integration removed - now uses Google Sheets
-
+// Using Google Sheets integration
+import { googleSheetsService } from '@/lib/googleSheetsService';
 import { useFileUploadManager } from "@/components/ui/file-upload-manager";
 import { uploadFile } from "@/lib/fileUpload";
 import { useFormAnalytics } from "@/hooks/useFormAnalytics";
@@ -22,7 +22,7 @@ import { Send, Loader2 } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 export function InfluencerFormSinglePage() {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation(['forms', 'components']);
   const { toast } = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -293,17 +293,13 @@ export function InfluencerFormSinglePage() {
         photo_url: photoUpload.url,
       };
 
-      const { data, error } = await supabase.functions.invoke('form-submission', {
-        body: {
-          formType: 'influencer_submissions',
-          data: submissionData,
-          userAgent: navigator.userAgent,
-          ipAddress: undefined
-        }
+      const response = await googleSheetsService.submitForm({
+        formType: 'influencer_submissions',
+        data: submissionData
       });
 
-      if (error || data?.error) {
-        throw new Error(error?.message || data?.error || 'Submission failed');
+      if (!response?.success) {
+        throw new Error(response?.error || response?.message || 'Submission failed');
       }
 
       trackFormSubmit(true);
@@ -413,7 +409,7 @@ export function InfluencerFormSinglePage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-14">
       <div className="bg-white border-b border-gray-100 shadow-sm">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-xl font-bold">{t('components.influencerformsinglepage.text1')}</h1>
+          <h1 className="text-xl font-bold">{t('components:influencerformsinglepage.text1')}</h1>
         </div>
       </div>
 
@@ -431,7 +427,7 @@ export function InfluencerFormSinglePage() {
 
           <div className="text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-3">
-              Join Our <span className="text-gradient">{t('components.influencerformsinglepage.text2')}</span>
+              Join Our <span className="text-gradient">{t('components:influencerformsinglepage.text2')}</span>
             </h2>
             <p className="font-body text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
               Partner with us to promote financial services and earn commissions
@@ -445,7 +441,7 @@ export function InfluencerFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">{t("sections.personal")}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text3')}</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components:influencerformsinglepage.text3')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -476,15 +472,15 @@ export function InfluencerFormSinglePage() {
                       >
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="male" id="male" />
-                          <Label htmlFor="male">{t('components.influencerformsinglepage.text4')}</Label>
+                          <Label htmlFor="male">{t('components:influencerformsinglepage.text4')}</Label>
                         </div>
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="female" id="female" />
-                          <Label htmlFor="female">{t('components.influencerformsinglepage.text5')}</Label>
+                          <Label htmlFor="female">{t('components:influencerformsinglepage.text5')}</Label>
                         </div>
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="other" id="other" />
-                          <Label htmlFor="other">{t('components.influencerformsinglepage.text6')}</Label>
+                          <Label htmlFor="other">{t('components:influencerformsinglepage.text6')}</Label>
                         </div>
                       </RadioGroup>
                       {errors.gender && (
@@ -514,18 +510,18 @@ export function InfluencerFormSinglePage() {
                           <SelectValue placeholder={t('time.month', 'Month')} />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="1">{t('components.influencerformsinglepage.text7')}</SelectItem>
-                          <SelectItem value="2">{t('components.influencerformsinglepage.text8')}</SelectItem>
-                          <SelectItem value="3">{t('components.influencerformsinglepage.text9')}</SelectItem>
-                          <SelectItem value="4">{t('components.influencerformsinglepage.text10')}</SelectItem>
+                          <SelectItem value="1">{t('components:influencerformsinglepage.text7')}</SelectItem>
+                          <SelectItem value="2">{t('components:influencerformsinglepage.text8')}</SelectItem>
+                          <SelectItem value="3">{t('components:influencerformsinglepage.text9')}</SelectItem>
+                          <SelectItem value="4">{t('components:influencerformsinglepage.text10')}</SelectItem>
                           <SelectItem value="5">{t('months.may')}</SelectItem>
-                          <SelectItem value="6">{t('components.influencerformsinglepage.text11')}</SelectItem>
-                          <SelectItem value="7">{t('components.influencerformsinglepage.text12')}</SelectItem>
-                          <SelectItem value="8">{t('components.influencerformsinglepage.text13')}</SelectItem>
-                          <SelectItem value="9">{t('components.influencerformsinglepage.text14')}</SelectItem>
-                          <SelectItem value="10">{t('components.influencerformsinglepage.text15')}</SelectItem>
-                          <SelectItem value="11">{t('components.influencerformsinglepage.text16')}</SelectItem>
-                          <SelectItem value="12">{t('components.influencerformsinglepage.text17')}</SelectItem>
+                          <SelectItem value="6">{t('components:influencerformsinglepage.text11')}</SelectItem>
+                          <SelectItem value="7">{t('components:influencerformsinglepage.text12')}</SelectItem>
+                          <SelectItem value="8">{t('components:influencerformsinglepage.text13')}</SelectItem>
+                          <SelectItem value="9">{t('components:influencerformsinglepage.text14')}</SelectItem>
+                          <SelectItem value="10">{t('components:influencerformsinglepage.text15')}</SelectItem>
+                          <SelectItem value="11">{t('components:influencerformsinglepage.text16')}</SelectItem>
+                          <SelectItem value="12">{t('components:influencerformsinglepage.text17')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <Select value={formData.dateOfBirth.year} onValueChange={(value) => handleDateChange('year', value)}>
@@ -727,7 +723,7 @@ export function InfluencerFormSinglePage() {
                 <div className="space-y-6">
                   <div className="border-b pb-3">
                     <h3 className="text-xl font-semibold text-foreground">{t('influencerForm.socialMediaSkills', 'Social Media & Skills')}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text18')}</p>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components:influencerformsinglepage.text18')}</p>
                   </div>
 
                   <div className="space-y-3">
@@ -754,7 +750,7 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="facebookLink">{t('components.influencerformsinglepage.text19')}</Label>
+                      <Label htmlFor="facebookLink">{t('components:influencerformsinglepage.text19')}</Label>
                       <Input 
                         id="facebookLink" 
                         value={formData.facebookLink}
@@ -763,7 +759,7 @@ export function InfluencerFormSinglePage() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="instagramLink">{t('components.influencerformsinglepage.text20')}</Label>
+                      <Label htmlFor="instagramLink">{t('components:influencerformsinglepage.text20')}</Label>
                       <Input 
                         id="instagramLink" 
                         value={formData.instagramLink}
@@ -775,7 +771,7 @@ export function InfluencerFormSinglePage() {
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="youtubeLink">{t('components.influencerformsinglepage.text21')}</Label>
+                      <Label htmlFor="youtubeLink">{t('components:influencerformsinglepage.text21')}</Label>
                       <Input 
                         id="youtubeLink" 
                         value={formData.youtubeLink}
@@ -784,7 +780,7 @@ export function InfluencerFormSinglePage() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="linkedinLink">{t('components.influencerformsinglepage.text22')}</Label>
+                      <Label htmlFor="linkedinLink">{t('components:influencerformsinglepage.text22')}</Label>
                       <Input 
                         id="linkedinLink" 
                         value={formData.linkedinLink}
@@ -819,8 +815,8 @@ export function InfluencerFormSinglePage() {
                 {/* Documents */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">{t('components.influencerformsinglepage.text23')}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text24')}</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components:influencerformsinglepage.text23')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components:influencerformsinglepage.text24')}</p>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4">
@@ -1011,8 +1007,8 @@ export function InfluencerFormSinglePage() {
                 {/* Security Verification */}
                 <div className="space-y-6">
                   <div className="border-b pb-3">
-                    <h3 className="text-xl font-semibold text-foreground">{t('components.influencerformsinglepage.text25')}</h3>
-                    <p className="text-sm text-muted-foreground mt-1">{t('components.influencerformsinglepage.text26')}</p>
+                    <h3 className="text-xl font-semibold text-foreground">{t('components:influencerformsinglepage.text25')}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{t('components:influencerformsinglepage.text26')}</p>
                   </div>
                   <CaptchaProtection 
                     onVerify={setIsCaptchaVerified}

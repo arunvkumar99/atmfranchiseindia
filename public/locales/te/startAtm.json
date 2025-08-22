@@ -1,36 +1,36 @@
 {
-  "title": "మీ ATM వ్యాపారాన్ని ప్రారంభించండి",
-  "subtitle": "భారతదేశంలో ATM వ్యాపారాన్ని ప్రారంభించడానికి పూర్తి గైడ్",
+  "title": "Start Your ATM Business",
+  "subtitle": "Complete guide to starting an ATM business in India",
   "hero": {
-    "heading": "ఈరోజే మీ ATM వ్యాపారాన్ని ప్రారంభించండి",
-    "description": "ATM వ్యాపారాన్ని ప్రారంభించడం గురించి మీరు తెలుసుకోవలసిన ప్రతిదీ",
-    "cta": "ప్రారంభించడానికి"
+    "heading": "Start Your ATM Business Today",
+    "description": "Everything you need to know about starting an ATM business",
+    "cta": "Get Started"
   },
   "steps": {
-    "title": "ఎలా ప్రారంభించాలి",
+    "title": "How to Start",
     "research": {
-      "title": "పరిశోధన & ప్రణాళిక",
-      "description": "మార్కెట్‌ను అర్థం చేసుకుని వ్యాపార ప్రణాళికను రూపొందించండి"
+      "title": "Research & Planning",
+      "description": "Understand the market and create a business plan"
     },
     "legal": {
-      "title": "చట్టపరమైన అవసరాలు",
-      "description": "అన్ని నియంత్రణ మరియు సమ్మతి అవసరాలను పూర్తి చేయండి"
+      "title": "Legal Requirements",
+      "description": "Complete all regulatory and compliance requirements"
     },
     "funding": {
-      "title": "నిధులను ఏర్పాటు చేయండి",
-      "description": "మీ ATM వ్యాపారానికి సురక్షితమైన పెట్టుబడి"
+      "title": "Arrange Funding",
+      "description": "Secure investment for your ATM business"
     },
     "location": {
-      "title": "స్థానాలను కనుగొనండి",
-      "description": "ATMల కోసం అధిక ట్రాఫిక్ ఉన్న ప్రదేశాలను గుర్���ించండి"
+      "title": "Find Locations",
+      "description": "Identify high-traffic locations for ATMs"
     },
     "launch": {
-      "title": "కార్యకలాపాలను ప్రారంభించండి",
-      "description": "మీ ATM వ్యాపార కార్యకలాపాలను ప్రారంభించండి"
+      "title": "Launch Operations",
+      "description": "Start your ATM business operations"
     }
   },
   "guide": {
-    "title": "పూర్తి వ్యాపార గైడ్",
-    "download": "గైడ్‌ను డౌన్‌లోడ్ చేసుకోండి"
+    "title": "Complete Business Guide",
+    "download": "Download Guide"
   }
 }

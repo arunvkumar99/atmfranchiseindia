@@ -10,7 +10,7 @@ interface CaptchaProtectionProps {
 }
 
 export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectionProps) {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation(['forms', 'components']);
   const [challenge, setChallenge] = useState({ question: '', answer: 0 });
   const [userAnswer, setUserAnswer] = useState('');
   const [isVerified, setIsVerified] = useState(false);
@@ -92,7 +92,7 @@ export function CaptchaProtection({ onVerify, className = "" }: CaptchaProtectio
           {isVerified ? (
             <div className="text-green-600 text-sm font-medium">✓ {t('captcha.verified', 'Verified')}</div>
           ) : (
-            <div className="text-muted-foreground text-sm">{t('components.captcha-protection.text1')}</div>
+            <div className="text-muted-foreground text-sm">{t('components:captcha-protection.text1')}</div>
           )}
         </div>
       </div>

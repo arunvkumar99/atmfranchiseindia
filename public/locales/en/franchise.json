@@ -152,6 +152,26 @@
   "comparison": {
     "title": "Franchise Models Comparison",
     "subtitle": "Choose the franchise model that suits your investment capacity",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low Investment",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium franchise model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "Investment Details",
+    "revenueStreams": "Revenue Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "Get Started",
     "models": {
       "basic": {
         "name": "Basic",
@@ -203,6 +223,10 @@
     "title": "Leading WLA Operators in India",
     "subtitle": "Partner with the most trusted names in ATM operations",
     "description": "We work with all major White Label ATM operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
     "title": "Frequently Asked Questions",

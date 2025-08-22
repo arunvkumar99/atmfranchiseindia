@@ -2,163 +2,183 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "trusted_atm_franchise_partner": "Trusted एटीएम फ्रँचायझी Partner",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
-    "badge": "विश्वसनीय एटीएम फ्रँचायझी पार्टनर",
+    "badge": "Trusted एटीएम फ्रँचायझी Partner",
     "title": {
-      "line1": "व्हा",
+      "line1": "Become an",
       "line2": "एटीएम फ्रँचायझी",
-      "line3": "जोडीदार"
+      "line3": "Partner"
     },
     "description": {
-      "part1": "सामील व्हा",
-      "successfulPartners": "२००+ यशस्वी भागीदार",
-      "part2": "आणि सुरुवात करा तुमचे",
-      "profitableBusiness": "फायदेशीर एटीएम व्यवसाय",
-      "part3": "आज सह",
-      "minimalInvestment": "किमान गुंतवणूक"
+      "part1": "Join",
+      "successfulPartners": "200+ यशस्वीful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM व्यवसाय",
+      "part3": "today with",
+      "minimalInvestment": "minimal गुंतवणूक"
     },
     "cta": {
-      "apply": "फ्रँचायझीसाठी अर्ज करा",
-      "learnMore": "अधिक जाणून घ्या"
+      "apply": "अर्ज करा for Franchise",
+      "learnMore": "Learn More"
     },
     "benefits": {
       "quickRoi": {
-        "title": "जलद ROI",
-        "description": "सिद्ध व्यवसाय मॉडेलसह गुंतवणुकीवर जलद परतावा"
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven व्यवसाय model"
       },
       "support": {
-        "title": "समर्पित समर्थन",
-        "description": "आमच्या तज्ञ टीमकडून २४/७ तांत्रिक आणि व्यवसायिक सहाय्य"
+        "title": "Dedicated Support",
+        "description": "24/7 technical and व्यवसाय support from our expert team"
       },
       "network": {
-        "title": "सिद्ध नेटवर्क",
-        "description": "भारतातील ५००+ यशस्वी फ्रँचायझी भागीदारांमध्ये सामील व्हा"
+        "title": "Proven Network",
+        "description": "Join 500+ successful फ्रँचायझी partners across India"
       },
       "training": {
-        "title": "प्रशिक्षण समाविष्ट",
-        "description": "व्यापक प्रशिक्षण आणि सतत पाठिंबा दिला जातो"
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
       }
     },
     "process": {
-      "title": "सुरुवात कशी करावी",
+      "title": "How to सुरुवात करा",
       "steps": {
         "apply": {
           "title": "अर्ज करा",
-          "description": "तुमचा फ्रँचायझी अर्ज ऑनलाइन सबमिट करा"
+          "description": "सबमिट करा your franchise application online"
         },
         "agreement": {
-          "title": "करार",
-          "description": "कागदपत्रे पूर्ण करा आणि करारावर स्वाक्षरी करा"
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
         },
         "installation": {
-          "title": "स्थापना",
-          "description": "आम्ही एटीएम सेटअप आणि इन्स्टॉलेशन हाताळतो"
+          "title": "Installation",
+          "description": "We handle एटीएम setup and installation"
         },
         "earn": {
-          "title": "कमाई सुरू करा",
-          "description": "मासिक निष्क्रिय उत्पन्न मिळण्यास सुरुवात करा"
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
         }
       }
     },
     "stats": {
-      "partners": "सक्रिय ���ागीदार",
-      "atms": "एटीएम तैनात",
-      "transactions": "मासिक व्यवहार",
-      "support": "समर्थन उपलब्ध आहे"
+      "partners": "Active Partners",
+      "atms": "एटीएमs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
     }
   },
   "enquiryForm": {
-    "title": "तुमचा एटीएम फ्रँचायझी प्रवास सुरू करा",
-    "subtitle": "तुमच्या क्षेत्रातील एटीएम फ्रँचायझी संधींबद्दल वैयक्तिकृत माहिती मिळविण्यासाठी आमचा तपशीलवार चौकशी फॉर्म भरा.",
+    "title": "Start Your एटीएम फ्रँचायझी Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about एटीएम फ्रँचायझी opportunities in your area.",
     "fields": {
       "name": "पूर्ण नाव",
       "email": "ईमेल पत्ता",
       "phone": "फोन नंबर",
       "state": "राज्य",
       "city": "शहर",
-      "investment": "गुंतवणूक क्षमता",
-      "experience": "व्यवसाय अनुभव",
-      "message": "अतिरिक्त माहिती",
-      "consent": "मी फ्रँचायझी संधींबद्दल अपडेट्स मिळविण्यास सहमत आहे."
+      "investment": "Investment Capaशहर",
+      "experience": "व्यवसाय Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about फ्रँचायझी opportunities"
     },
-    "submit": "चौकशी सबमिट करा",
-    "submitting": "सबमिट करत आहे...",
-    "success": "धन्यवाद! आम्ही २४ तासांच्या आत तुमच्याशी संपर्क साधू.",
-    "error": "काहीतरी चूक झाली. कृपया पुन्हा प्रयत्न करा."
+    "submit": "सबमिट करा Enquiry",
+    "submitting": "सबमिट कराting...",
+    "success": "धन्यवाद! We'll contact you within 24 hours.",
+    "error": "Something went wrong. कृपया try again."
   },
   "whyAtm": {
-    "title": "एटीएम फ्रँचायझी का निवडावी?",
-    "subtitle": "भारतातील आघाडीच्या एटीएम फ्रँचायझी नेटवर्कसोबत भागीदारी करण्���ाचे फायदे शोधा.",
+    "title": "Why Choose एटीएम फ्रँचायझी?",
+    "subtitle": "Discover the benefits of partnering with India's leading एटीएम फ्रँचायझी network",
     "benefits": {
       "highReturns": {
-        "title": "उच्च परतावा",
-        "description": "तुमच्या गुंतवणुकीवर २०% पर्यंत वार्षिक परतावा मिळवा"
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your गुंतवणूक"
       },
       "passiveIncome": {
-        "title": "निष्क्रिय उत्पन्न",
-        "description": "कमीत कमी प्रयत्नात स्थिर मासिक उत्पन्न मिळवा"
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
       },
       "lowMaintenance": {
-        "title": "कमी देखभाल",
-        "description": "आम्ही सर्व तांत्रिक देखभाल आणि रोख व्यवस्थापन हाताळतो."
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
       },
       "governmentSupport": {
-        "title": "सरकारी मदत",
-        "description": "आर्थिक समावेशनासाठी सरकारी उपक्रमांचा लाभ घ्या"
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
       },
       "growingMarket": {
-        "title": "वाढणारी बाजारपेठ",
-        "description": "भारतातील वेगाने विस्तारणाऱ्या डिजिटल पेमेंट इकोसिस्टममध्ये सामील व्हा"
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
       },
       "brandValue": {
-        "title": "ब्रँड व्हॅल्यू",
-        "description": "आमच्या स्थापित ब्रँड आणि सिद्ध व्यवसाय मॉडेलचा फायदा घ्या."
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven व्यवसाय model"
       }
     }
   },
   "services": {
-    "title": "आमच्या सर्वसमावेशक सेवा",
-    "subtitle": "यशस्वी एटीएम फ्रँचायझी चालविण्यासाठी तुम्हाला आवश्यक असलेली प्रत्येक गोष्ट",
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful एटीएम फ्रँचायझी",
     "items": {
       "siteSelection": {
-        "title": "साइट निवड",
-        "description": "जास्त रहदारीची ठिकाणे ओळखण्यासाठी तज्ञांची मदत"
+        "title": "Site निवडाion",
+        "description": "Expert assistance in identifying high-traffic locations"
       },
       "installation": {
-        "title": "स्थापना",
-        "description": "एटीएम सेटअप आणि कॉन्फिगरेशन पूर्ण करा"
+        "title": "Installation",
+        "description": "Complete एटीएम setup and configuration"
       },
       "cashManagement": {
-        "title": "रोख व्यवस्थापन",
-        "description": "नियमित रोख रक्कम भरणे आणि समेट करणे"
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
       },
       "maintenance": {
-        "title": "देखभाल",
-        "description": "२४/७ तांत्रिक सहाय्य आणि नियमित सर्व्हिसिंग"
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
       },
       "compliance": {
-        "title": "अनुपालन",
-        "description": "पूर्ण नियामक अनुपालन आणि कागदपत्रे"
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
       },
       "marketing": {
-        "title": "मार्केटिंग सपोर्ट",
-        "description": "प्रचारात्मक साहित्य आणि स्थानिक विपणन सहाय्य"
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
       }
     }
   },
   "comparison": {
-    "title": "फ्रँचायझी मॉडेल्सची तुलना",
-    "subtitle": "तुमच्या गुंतवणूक क्षमतेला अनुकूल असलेले फ्रँचायझी मॉडेल निवडा.",
+    "title": "फ्रँचायझी Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capaशहर",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low गुंतवणूक",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium फ्रँचायझी model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "गुंतवणूक Details",
+    "revenueStreams": "महसूल Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "सुरुवात करा",
     "models": {
       "basic": {
-        "name": "मूलभूत",
-        "investment": "₹२-५ लाख",
-        "atms": "१-२ एटीएम",
-        "roi": "१५-१८% वार्षिक",
-        "support": "मानक समर्थन",
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 एटीएमs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
         "features": [
           "Single location setup",
           "Basic training program",
@@ -167,11 +187,11 @@
         ]
       },
       "professional": {
-        "name": "व्यावसायिक",
-        "investment": "₹५-१० लाख",
-        "atms": "३-५ एटीएम",
-        "roi": "१८-२२% वार्षिक",
-        "support": "प्राधान्य समर्थन",
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 एटीएमs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
         "features": [
           "Multiple location setup",
           "Advanced training program",
@@ -182,11 +202,11 @@
         "popular": true
       },
       "enterprise": {
-        "name": "एंटरप्राइझ",
-        "investment": "₹१०+ लाख",
-        "atms": "६+ एटीएम",
-        "roi": "२२-२५% वार्षिक",
-        "support": "प्रीमियम सपोर्ट",
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ एटीएमs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
         "features": [
           "Unlimited locations",
           "Executive training program",
@@ -197,50 +217,54 @@
         ]
       }
     },
-    "cta": "तुमचा प्लॅन निवडा"
+    "cta": "निवडा Your Plan"
   },
   "wlaOperators": {
-    "title": "भारतातील आघाडीचे WLA ऑपरेटर",
-    "subtitle": "एटीएम ऑपरेशन्समधील सर्वात विश्वासार्ह नावांसह भागीदारी करा",
-    "description": "तुम्हाला सर्वोत्तम संधी देण्यासाठी आम्ही सर्व प्रमुख व्हाईट लेबल एटीएम ऑपरेटर्ससोबत काम करतो."
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in एटीएम operations",
+    "description": "We work with all major White Label एटीएम operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
-    "title": "सतत विचारले जाणारे प्रश्न",
-    "subtitle": "एटीएम फ्रँचायझीबद्दल सामान्य प्रश्नांची उत्तरे मिळवा",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about एटीएम फ्रँचायझी",
     "questions": {
       "investment": {
-        "question": "किमान कि���ी गुंतवणूक आवश्यक आहे?",
-        "answer": "१-२ एटीएम असलेल्या बेसिक फ्रँचायझी मॉडेलसाठी किमान गुंतवणूक ₹२ लाखांपासून सुरू होते."
+        "question": "What is the minimum गुंतवणूक required?",
+        "answer": "The minimum गुंतवणूक starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
-        "question": "मी कोणत्या प्रकारचे परतावे अपेक्षा करू शकतो?",
-        "answer": "स्थान आणि व्यवहाराच्या प्रमाणात अवलंबून तुम्ही १५-२५% वार्षिक परतावा अपेक्षित ठेवू शकता."
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
-        "question": "तुम्ही कोणता आधार देता?",
-        "answer": "आम्ही साइट निवड, स्थापना, देखभाल, रोख व्यवस्थापन आणि २४/७ तांत्रिक सहाय्य यासह संपूर्ण समर्थन प्रदान ��रतो."
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site निवडाion, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
-        "question": "मला पूर्व अनुभवाची आवश्यकता आहे का?",
-        "answer": "कोणताही पूर्व अनुभव आवश्यक नाही. आम्ही व्यापक प्रशिक्षण आणि सतत समर्थन प्रदान करतो."
+        "question": "Do I need prior experience?",
+        "answer": "नाही prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
-        "question": "मी माझे एटीएम स्थान निवडू शकतो का?",
-        "answer": "हो, तुम्ही ठिकाणे सुचवू शकता. आमचा कार्यसंघ जास्तीत जास्त परतावा मिळवण्यासाठी सर्वोत्तम ठिकाणांचे मूल्यांकन आणि अंतिमीकरण करण्यात मदत करेल."
+        "question": "Can I choose my एटीएम locations?",
+        "answer": "होय, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
-        "question": "कराराचा कालावधी किती आहे?",
-        "answer": "मानक फ्रँचायझी करार ५ वर्षांसाठी आहे आणि त्याचे नूतनीकरण करण्याचा पर्याय आहे."
+        "question": "What is the contract duration?",
+        "answer": "The standard फ्रँचायझी agreement is for 5 years with an option to renew."
       }
     }
   },
   "getStarted": {
-    "title": "तुमची एटीएम फ्रँचायझी सुरू करण्यास तयार आहात का?",
-    "subtitle": "आजच भारतातील सर्वात वेगाने वाढणाऱ्या एटीएम नेटवर्कमध्ये सामील व्हा.",
+    "title": "Ready to Start Your एटीएम फ्रँचायझी?",
+    "subtitle": "Join India's fastest growing एटीएम network today",
     "cta": {
-      "apply": "आत्ताच अर्ज करा",
-      "call": "आम्हाला कॉल करा",
-      "schedule": "बैठकीचे वेळापत्रक तयार करा"
+      "apply": "अर्ज करा Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
     }
   }
 }

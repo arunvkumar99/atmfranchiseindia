@@ -1,12 +1,12 @@
 {
-  "title": "परतावा धोरण",
-  "lastUpdated": "शेवटचे अपडेट केलेले",
+  "title": "Refund Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "overview": "धोरणाचा आढावा",
-    "eligibility": "परतफेड पात्रता",
-    "process": "परतफेड प्रक्रिया",
-    "timeline": "प्रक्रिया टाइमलाइन",
-    "exceptions": "अपवाद",
-    "contact": "परताव्यासाठी संपर्क साधा"
+    "overview": "Policy Overview",
+    "eligibility": "Refund Eligibility",
+    "process": "Refund Process",
+    "timeline": "Processing Timeline",
+    "exceptions": "Exceptions",
+    "contact": "Contact for Refunds"
   }
 }

@@ -1,97 +1,209 @@
 {
   "labels": {
-    "fullName": "Full Name",
-    "email": "Email Address",
-    "phone": "Phone Number"
+    "fullName": "పూర్తి పేరు",
+    "email": "ఇమెయిల్ చిరునామా",
+    "phone": "ఫోన్ నంబర్",
+    "state": "రాష్ట్రం",
+    "city": "నగరం",
+    "message": "సందేశం",
+    "noticePeriod": "లేదుtice Period",
+    "permanentAddress": "Permanent చిరునామా",
+    "currentAddress": "Current చిరునామా",
+    "panDocumentUpload": "PAN పత్రం అప్‌లోడ్",
+    "aadhaarFront": "Aadhaar Front Side",
+    "aadhaarBack": "Aadhaar వెనుకకు Side",
+    "passportPhoto": "Passport Size Photo",
+    "dateOfBirthPan": "పుట్టిన తేదీ as in PAN Card",
+    "districtOfResidence": "District of Residence",
+    "aadhaarNumber": "Aadhaar Card Number (12 digits)",
+    "languagesYouSpeak": "Languages You Can Speak",
+    "whyJoinAgent": "Why do you want to Join Sahasra Network as ఏజెంట్",
+    "joiningAs": "Are you Joining As (దయచేసి choose from Below):",
+    "professionalDetails": "Professional Details & Documents",
+    "onetime_cost": "One-time Cost",
+    "refundable_deposit": "Refundable Deposit",
+    "clf_working_capital": "CLF & Working Capital",
+    "cash_transaction": "Cash Transaction",
+    "noncash_transaction": "లేదుn-cash Transaction",
+    "ad_revenue_share": "Ad ఆదాయం Share"
+  },
+  "buttons": {
+    "submit": "సమర్పించండి",
+    "next": "తదుపరి",
+    "previous": "మునుపటి",
+    "cancel": "రద్దు చేయండి",
+    "saveDraft": "భద్రపరచండి Draft",
+    "submitApplication": "దరఖాస్తు సమర్పించండి",
+    "apply": "దరఖాస్తు చేయండి Now",
+    "register": "నమోదు చేసుకోండి",
+    "continue": "కొనసాగించండి"
   },
   "fields": {
     "fullName": "పూర్తి పేరు",
-    "firstName": "పేరు",
-    "lastName": "ఇంటిపేరు",
+    "firstName": "మొదటి పేరు",
+    "lastName": "చివరి పేరు",
     "email": "ఇమెయిల్ చిరునామా",
     "phone": "ఫోన్ నంబర్",
-    "alternatePhone": "ప్రత్యామ్నాయ ఫోన్ నంబర్",
-    "whatsapp": "వాట్సాప్ నంబర్",
+    "alternatePhone": "Alternate ఫోన్ నంబర్",
+    "whatsapp": "WhatsApp Number",
     "address": "చిరునామా",
-    "street": "వీధి చిరునామా",
+    "street": "Street చిరునామా",
     "city": "నగరం",
     "state": "రాష్ట్రం",
     "pincode": "పిన్ కోడ్",
     "country": "దేశం",
     "message": "సందేశం",
-    "comments": "వ్యాఖ్యలు",
-    "experience": "అనుభవం",
-    "qualification": "అర్హత",
-    "occupation": "ప్రస్తుత వృత్తి",
-    "businessType": "వ్యాపార రకం",
-    "investment": "పెట్టుబడి సామర్థ్యం",
-    "preferredLocation": "ఇష్టపడే స్థానం",
-    "shopName": "దుకాణం/వ్యాపారం పేరు",
-    "shopAddress": "షాపు చిరునామా",
-    "monthlyIncome": "నెలవారీ ఆదాయం",
-    "businessExperience": "వ్యాపార అనుభవం (సంవత్సరాలు)",
-    "howDidYouHear": "మా గురించి నీకు ఎలా తెలిసింది?",
-    "agreeTerms": "నేను నిబంధనలు మరియు షరతులకు అంగీకరిస్తున్నాను.",
-    "newsletter": "వార్తాలేఖకు సభ్యత్వాన్ని పొందండి",
-    "captcha": "కాప్చా ఎంటర్ చేయండి"
+    "comments": "Comments",
+    "experience": "Experience",
+    "qualification": "Qualification",
+    "occupation": "Current Occupation",
+    "businessType": "వ్యాపారం Type",
+    "investment": "Investment Capaనగరం",
+    "preferredLocation": "Preferred Location",
+    "shopName": "Shop/వ్యాపారం Name",
+    "shopAddress": "Shop చిరునామా",
+    "monthlyIncome": "Monthly Income",
+    "businessExperience": "వ్యాపారం Experience (Years)",
+    "howDidYouHear": "How did you hear మా గురించి?",
+    "agreeTerms": "I agree to the terms and conditions",
+    "newsletter": "Subscribe to newsletter",
+    "captcha": "Enter captcha"
+  },
+  "dateOfBirth": {
+    "day": "Day"
+  },
+  "whatsapp": {
+    "placeholder": "WhatsApp active number"
+  },
+  "pan": {
+    "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+    "placeholder": "ABCDE1234F"
+  },
+  "state": {
+    "label": "రాష్ట్రం",
+    "placeholder": "Choose your రాష్ట్రం"
+  },
+  "months": {
+    "may": "May"
+  },
+  "gender": {
+    "label": "ఎంచుకోండి Your Gender"
+  },
+  "error": {
+    "fileUpload": "Unable to upload files. దయచేసి try again.",
+    "network": "Network error. దయచేసి check your connection.",
+    "tryAgainOrContact": "Please try again or మమ్మల్ని సంప్రదించండి directly."
   },
   "placeholders": {
-    "fullName": "మీ పూర్తి పేరు నమోదు చేయండి",
-    "email": "example@email.com",
-    "phone": "+91 98765 43210",
-    "message": "మీ సందేశాన్ని ఇక్కడ టైప్ చేయండి...",
-    "city": "మీ నగరాన్ని ఎంచుకోండి",
-    "state": "మీ రాష్ట్రాన్ని ఎంచుకోండి",
-    "searchCity": "నగరాన్ని శోధించు...",
-    "selectOption": "ఒక ఎంపికను ఎంచుకోండి",
-    "uploadFile": "ఫైల్‌ను ఎంచుకోండి లేదా ఇక్కడికి లాగండి.",
-    "pincode": "6-అంకెల పిన్ కోడ్",
-    "full_name": "Enter your full name",
-    "full_name_pan": "Enter your full name as per PAN card",
+    "fullName": "Enter your పూర్తి పేరు",
+    "email": "Enter your ఇమెయిల్ చిరునామా",
+    "phone": "10-digit mobile number",
+    "message": "Type your సందేశం here...",
+    "city": "Enter నగరం",
+    "state": "Choose your రాష్ట్రం",
+    "searchCity": "Search నగరం...",
+    "selectOption": "ఎంచుకోండి an option",
+    "uploadFile": "ఎంచుకోండి file or drag here",
+    "pincode": "6-digit pincode",
+    "full_name": "Enter your పూర్తి పేరు",
+    "full_name_pan": "Enter your పూర్తి పేరు as per PAN card",
     "phone_primary": "Primary contact number",
     "whatsapp": "WhatsApp number",
     "pan": "ABCDE1234F",
     "aadhaar": "123456789012 (12 digits only)",
-    "address": "Enter complete address",
+    "address": "Enter complete చిరునామా",
     "address_line1": "House/Building number, Street name",
     "address_line2": "Area, Landmark",
-    "your_city": "Your city",
+    "your_city": "Your నగరం",
     "district": "Enter your district",
-    "business_type": "Select business type"
+    "business_type": "Select వ్యాపారం type",
+    "enterYourDistrict": "Enter your district",
+    "enterYourPermanentAddress": "Enter your permanent చిరునామా",
+    "enterYourCurrentAddress": "Enter your current చిరునామా",
+    "motivationAndGoals": "Tell us about your motivation and goals as an ఏజెంట్",
+    "day": "Day",
+    "primaryPhone": "Primary contact number",
+    "whatsappNumber": "WhatsApp active number",
+    "emailAddress": "Enter your ఇమెయిల్ చిరునామా",
+    "panFormat": "ABCDE1234F",
+    "aadhaarNumber": "123456789012",
+    "aadhaarFormat": "123456789012 (12 digits only)",
+    "permanentAddress": "Enter your permanent చిరునామా here",
+    "currentAddress": "Enter your current చిరునామా here",
+    "chooseState": "Choose your రాష్ట్రం",
+    "enterDistrict": "Enter your district",
+    "agentMotivation": "Tell us about your motivation and goals as an ఏజెంట్",
+    "selectJobPosition": "Select the position you're దరఖాస్తు చేయండిing for",
+    "selectNoticePeriod": "Select your లేదుtice period",
+    "firstName": "Enter మొదటి పేరు",
+    "lastName": "Enter చివరి పేరు",
+    "addressLine1": "House/Building number, Street name",
+    "addressLine2": "Area, Landmark",
+    "yourCity": "Your నగరం",
+    "sixDigitPincode": "6-digit pincode",
+    "selectBusinessType": "Select వ్యాపారం type",
+    "selectInvestmentRange": "Select పెట్టుబడి range",
+    "selectTimeline": "ఎంచుకోండి timeline",
+    "selectSource": "ఎంచుకోండి source",
+    "specificQuestions": "Any specific questions or requirements?",
+    "bankName": "బ్యాంకు name",
+    "gstNumber": "GST registration number",
+    "facebookProfile": "https://facebook.com/yourprofile",
+    "instagramProfile": "https://instagram.com/yourprofile",
+    "youtubeChannel": "https://youtube.com/yourchannel",
+    "linkedinProfile": "https://linkedin.com/in/yourprofile",
+    "otherSocialMedia": "Any other social media platform"
   },
   "validation": {
-    "required": "{{field}} is required",
-    "emailInvalid": "దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి.",
-    "phoneInvalid": "దయచేసి చెల్లుబాటు అయ్యే 10-అంకెల ఫోన్ నంబర్‌ను నమోదు చేయండి.",
-    "pincodeInvalid": "దయచేసి చెల్లుబాటు అయ్యే 6-అంకెల పిన్ కోడ్‌ను నమోదు చేయండి.",
+    "required": "{{field}} is అవసరం",
+    "emailInvalid": "Please enter a valid ఇమెయిల్ చిరునామా",
+    "phoneInvalid": "Please enter a valid 10-digit ఫోన్ నంబర్",
+    "pincodeInvalid": "Please enter a valid 6-digit పిన్ కోడ్",
     "minLength": "{{field}} must be at least {{min}} characters",
-    "maxLength": "{{field}} must not exceed {{max}} characters",
-    "numberOnly": "దయచేసి సంఖ్యలను మాత్రమే నమోదు చేయండి.",
-    "lettersOnly": "దయచేసి అక్షరాలను మాత్రమే నమోదు చేయండి.",
+    "maxLength": "{{field}} must లేదుt exceed {{max}} characters",
+    "numberOnly": "దయచేసి enter numbers only",
+    "lettersOnly": "దయచేసి enter letters only",
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
-    "agreeRequired": "మీరు నిబంధనలు మరియు షరతులకు అంగీకరించాలి.",
-    "captchaRequired": "దయచేసి కాప్చా ధృవీకరణను పూర్తి చేయండి.",
-    "email_invalid": "Please enter a valid email address",
-    "phone_invalid": "Please enter a valid 10-digit phone number",
-    "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
-    "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
-    "pincode_invalid": "Please enter a valid 6-digit PIN code",
-    "min_length": "Minimum {{min}} characters required",
+    "agreeRequired": "You must agree to the terms and conditions",
+    "captchaRequired": "దయచేసి complete the captcha verification",
+    "email_invalid": "Please enter a valid ఇమెయిల్ చిరునామా",
+    "phone_invalid": "Please enter a valid 10-digit ఫోన్ నంబర్",
+    "pan_invalid": "దయచేసి enter a valid PAN number (ABCDE1234F)",
+    "aadhaar_invalid": "దయచేసి enter a valid 12-digit Aadhaar number",
+    "pincode_invalid": "Please enter a valid 6-digit పిన్ కోడ్",
+    "min_length": "Minimum {{min}} characters అవసరం",
     "max_length": "Maximum {{max}} characters allowed",
     "file_size": "File size must be less than {{size}}MB",
     "file_type": "Only {{types}} files are allowed",
-    "security_required": "Please complete the security verification before submitting",
-    "try_again": "Please try again or contact us directly"
+    "security_required": "Please complete the security verification before సమర్పించండిting",
+    "try_again": "Please try again or మమ్మల్ని సంప్రదించండి directly",
+    "email": "Please enter a valid ఇమెయిల్ చిరునామా",
+    "phone": "Please enter a valid ఫోన్ నంబర్",
+    "pan": "దయచేసి enter a valid PAN number",
+    "aadhaar": "దయచేసి enter a valid Aadhaar number",
+    "correctFields": "దయచేసి correct the following fields",
+    "enterCompletePermanentAddress": "Please enter complete permanent చిరునామా (minimum 10 characters)",
+    "enterCompleteCurrentAddress": "Please enter complete current చిరునామా (minimum 10 characters)",
+    "validName": "Valid name",
+    "validEmail": "Valid email",
+    "validPhone": "Valid ఫోన్ నంబర్",
+    "selectJobPosition": "దయచేసి select a job position",
+    "enterExperience": "దయచేసి enter your experience",
+    "enterLocation": "దయచేసి enter your current location",
+    "enterSalary": "దయచేసి enter expected salary",
+    "selectNoticePeriod": "దయచేసి select notice period",
+    "securityVerificationRequired": "Security Verification అవసరం",
+    "completeSecurityVerification": "Please complete the security verification before సమర్పించండిting."
   },
   "options": {
     "occupation": {
-      "employed": "ఉద్యోగంలో చేరారు",
-      "selfEmployed": "స్వయం ఉపాధి",
-      "business": "వ్యాపార యజమాని",
-      "student": "విద్యార్థి",
-      "retired": "పదవీ విరమణ చేశారు",
-      "other": "ఇతర"
+      "employed": "Employed",
+      "selfEmployed": "Self Employed",
+      "business": "వ్యాపారం Owner",
+      "student": "Student",
+      "retired": "Retired",
+      "other": "Other"
     },
     "investment": {
       "below_1": "Below ₹1 Lakh",
@@ -104,28 +216,23 @@
       "10_to_25": "₹10-25 Lakhs",
       "15_to_25": "₹15-25 Lakhs",
       "above_5": "₹5+ Lakhs",
-      "above_25": "Above ₹25 Lakhs",
-      "below1": "₹1 లక్ష లోపు",
-      "1to5": "₹1-5 లక్షలు",
-      "5to10": "₹5-10 లక్షలు",
-      "10to25": "₹10-25 లక్షలు",
-      "above25": "₹25 లక్షలకు పైగా"
+      "above_25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
-      "google": "Google శోధన",
-      "facebook": "ఫేస్బుక్",
-      "instagram": "ఇన్స్టాగ్రామ్",
-      "friend": "స్నేహితుడు/సూచన",
-      "newspaper": "వార్తాపత్రిక",
-      "other": "ఇతర"
+      "google": "Google Search",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "friend": "Friend/Reference",
+      "newspaper": "Newspaper",
+      "other": "Other"
     },
     "businessType": {
-      "retail": "రిటైల్ దుకాణం",
-      "service": "సేవా కేంద్రం",
-      "grocery": "కిరాణా దుకాణం",
-      "medical": "మెడికల్ స్టోర్",
-      "restaurant": "రెస్టారెంట్/కేఫ్",
-      "other": "ఇతర"
+      "retail": "Retail Shop",
+      "service": "Service Center",
+      "grocery": "Grocery Store",
+      "medical": "Medical Store",
+      "restaurant": "Restaurant/Cafe",
+      "other": "Other"
     },
     "gender": {
       "male": "Male",
@@ -134,118 +241,118 @@
     }
   },
   "locationForm": {
-    "title": "ATM ఇన్‌స్టాలేషన్ కోసం స్థానాన్ని సమర్పించండి",
-    "subtitle": "కొత్త ATMలకు ఉత్తమమైన ప్రదేశాలను గుర్తించడంలో మాకు సహాయపడండి",
+    "title": "సమర్పించండి Location for ATM Installation",
+    "subtitle": "Help us identify the best locations for new ఏటీఎంs",
     "sections": {
       "personal": "వ్యక్తిగత సమాచారం",
-      "location": "స్థాన వివరాలు",
+      "location": "Location Details",
       "business": "వ్యాపార సమాచారం",
-      "additional": "అదనపు సమాచారం"
+      "additional": "Additional Information"
     },
-    "success": "స్థానం విజయవంతంగా సమర్పించబడింది! మేము త్వరలో మిమ్మల్ని సంప్రదిస్తాము.",
-    "error": "స్థానాన్ని సమర్పించడంలో లోపం ఏర్పడింది. దయచేసి మళ్ళీ ప్రయత్నించండి."
+    "success": "Location సమర్పించండిted successfully! We'll contact you soon.",
+    "error": "Error సమర్పించండిting location. Please try again."
   },
   "agentForm": {
-    "title": "PixellPay ఏజెంట్ అవ్వండి",
-    "subtitle": "మా విజయవంతమైన ఏజెంట్ల నెట్‌వర్క్‌లో చేరండి",
+    "title": "Become a PixellPay ఏజెంట్",
+    "subtitle": "Join our network of successful ఏజెంట్s",
     "sections": {
-      "personal": "వ్యక్తిగత వివరాలు",
-      "professional": "వృత్తిపరమైన సమాచారం",
-      "documents": "డాక్యుమెంట్ అప్‌లోడ్",
-      "agreement": "నిబంధనలు & ఒప్పందం"
+      "personal": "Personal Details",
+      "professional": "Professional Information",
+      "documents": "పత్రం అప్‌లోడ్",
+      "agreement": "Terms & Agreement"
     },
-    "success": "దరఖాస్తు విజయవంతంగా సమర్పించబడింది! మా బృందం 48 గంటల్లోపు మిమ్మల్ని సంప్రదిస్తుంది.",
-    "error": "దరఖాస్తును సమర్పించడంలో లోపం ఏర్పడింది. దయచేసి అన్ని ఫీల్డ్‌లను తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి."
+    "success": "Application సమర్పించండిted successfully! Our team will contact you within 48 hours.",
+    "error": "Error సమర్పించండిting application. Please check all fields and try again."
   },
   "enquiryForm": {
-    "title": "ఫ్రాంచైజ్ విచారణ ఫారం",
-    "subtitle": "మీ ATM ఫ్రాంచైజ్ ప్రయాణాన్ని ప్రారంభించండి",
-    "success": "మీ ఆసక్తికి ధన్యవాదాలు! మేము త్వరలో మిమ్మల్ని సంప్రదిస్తాము.",
-    "error": "విచారణను సమర్పించడంలో లోపం. దయచేసి మళ్ళీ ప్రయత్నించండి."
+    "title": "ఫ్రాంచైజీ Enquiry Form",
+    "subtitle": "Get started with your ఏటీఎం ఫ్రాంచైజీ journey",
+    "success": "Thank you for your interest! We'll get వెనుకకు to you soon.",
+    "error": "Error సమర్పించండిting enquiry. Please try again."
   },
   "contactForm": {
     "title": "మమ్మల్ని సంప్రదించండి",
-    "subtitle": "మేము సహాయం చేయడానికి ఇక్కడ ఉన్నాము",
-    "success": "సందేశం విజయవంతంగా పంపబడింది!",
-    "error": "సందేశం పంపడంలో లోపం. దయచేసి మళ్ళీ ప్రయత్నించండి."
+    "subtitle": "We're here to help",
+    "success": "సందేశం sent successfully!",
+    "error": "Error sending సందేశం. Please try again."
   },
   "joinUs": {
     "title": {
       "main": "Join the",
-      "highlight": "ATM Franchise",
+      "highlight": "ఏటీఎం ఫ్రాంచైజీ",
       "revolution": "Revolution"
     },
-    "subtitle": "Choose your path to success with ATM Franchise India",
+    "subtitle": "Choose your path to success with ఏటీఎం ఫ్రాంచైజీ India",
     "form": {
-      "title": "ATM Franchise Application Form",
-      "instruction": "Please provide accurate information. All fields marked with * are mandatory.",
-      "submitMessage": "Our team will review your application within 24-48 hours and contact you with next steps."
+      "title": "ఏటీఎం ఫ్రాంచైజీ Application Form",
+      "instruction": "దయచేసి provide accurate information. All fields marked with * are mandatory.",
+      "submitMessage": "Our team will review your application within 24-48 hours and contact you with తదుపరి steps."
     },
     "sections": {
-      "personal": "Personal Information",
-      "address": "Address Information",
-      "business": "Business Information",
-      "franchise": "ATM Franchise Details",
-      "financial": "Financial Information",
+      "personal": "వ్యక్తిగత సమాచారం",
+      "address": "చిరునామా Information",
+      "business": "వ్యాపార సమాచారం",
+      "franchise": "ఏటీఎం ఫ్రాంచైజీ Details",
+      "financial": "ఆర్థిక సమాచారం",
       "additional": "Additional Information"
     },
     "labels": {
-      "firstName": "First Name *",
-      "lastName": "Last Name *",
-      "email": "Email Address *",
-      "phone": "Phone Number *",
+      "firstName": "మొదటి పేరు *",
+      "lastName": "చివరి పేరు *",
+      "email": "ఇమెయిల్ చిరునామా *",
+      "phone": "ఫోన్ నంబర్ *",
       "alternatePhone": "Alternate Phone",
-      "dateOfBirth": "Date of Birth *",
-      "addressLine1": "Address Line 1 *",
-      "addressLine2": "Address Line 2",
-      "city": "City *",
-      "state": "State *",
-      "pincode": "PIN Code *",
-      "businessType": "Business Type *",
-      "businessExperience": "Business Experience *",
+      "dateOfBirth": "పుట్టిన తేదీ *",
+      "addressLine1": "చిరునామా Line 1 *",
+      "addressLine2": "చిరునామా Line 2",
+      "city": "నగరం *",
+      "state": "రాష్ట్రం *",
+      "pincode": "పిన్ కోడ్ *",
+      "businessType": "వ్యాపారం Type *",
+      "businessExperience": "వ్యాపారం Experience *",
       "currentOccupation": "Current Occupation *",
       "annualIncome": "Annual Income Range *",
-      "investmentCapacity": "Investment Capacity *",
-      "preferredLocation": "Preferred ATM Location *",
+      "investmentCapacity": "Investment Capaనగరం *",
+      "preferredLocation": "Preferred ఏటీఎం Location *",
       "locationOwnership": "Location Ownership *",
       "expectedFootfall": "Expected Daily Footfall",
-      "nearbyBanks": "Nearby Banks",
-      "competitorATMs": "Competitor ATMs",
-      "primaryBank": "Primary Bank *",
+      "nearbyBanks": "Nearby బ్యాంకుs",
+      "competitorATMs": "Competitor ఏటీఎంs",
+      "primaryBank": "Primary బ్యాంకు *",
       "accountType": "Account Type *",
       "panCard": "PAN Card Number *",
       "gstNumber": "GST Number (if applicable)",
-      "referenceSource": "How did you hear about us? *",
-      "previousFranchise": "Previous Franchise Experience",
+      "referenceSource": "How did you hear మా గురించి? *",
+      "previousFranchise": "మునుపటి Franchise Experience",
       "timelineToStart": "Timeline to Start *",
       "additionalComments": "Additional Comments/Questions"
     },
     "placeholders": {
-      "firstName": "Enter first name",
-      "lastName": "Enter last name",
+      "firstName": "Enter మొదటి పేరు",
+      "lastName": "Enter చివరి పేరు",
       "email": "your.email@example.com",
       "phone": "+91 98765 43210",
       "addressLine1": "House/Building number, Street name",
       "addressLine2": "Area, Landmark",
-      "city": "Enter city",
-      "state": "Select state",
-      "pincode": "Enter 6-digit PIN code",
-      "businessType": "Select business type",
+      "city": "Enter నగరం",
+      "state": "Select రాష్ట్రం",
+      "pincode": "Enter 6-digit పిన్ కోడ్",
+      "businessType": "Select వ్యాపారం type",
       "experienceYears": "Years of experience",
       "currentOccupation": "e.g., Shop Owner, Farmer, Employee",
-      "annualIncome": "Select income range",
-      "investmentCapacity": "Select investment range",
-      "preferredLocation": "Area/Village where you want ATM",
+      "annualIncome": "ఎంచుకోండి income range",
+      "investmentCapacity": "Select పెట్టుబడి range",
+      "preferredLocation": "Area/Village where you want ఏటీఎం",
       "locationOwnership": "Do you own the location?",
       "expectedFootfall": "Expected daily visitors",
-      "nearbyBanks": "Names of banks within 5km",
-      "competitorATMs": "Number of ATMs in 2km radius",
-      "bankName": "Bank name",
-      "accountType": "Select account type",
+      "nearbyBanks": "Names of బ్యాంకుs within 5km",
+      "competitorATMs": "Number of ఏటీఎంs in 2km radius",
+      "bankName": "బ్యాంకు name",
+      "accountType": "ఎంచుకోండి account type",
       "panCard": "ABCDE1234F",
       "gstNumber": "GST registration number",
-      "referenceSource": "Select source",
-      "previousFranchise": "Any previous franchise?",
+      "referenceSource": "ఎంచుకోండి source",
+      "previousFranchise": "Any మునుపటి franchise?",
       "timelineToStart": "When can you start?",
       "additionalComments": "Any specific questions or additional information you'd like to share..."
     },
@@ -318,9 +425,9 @@
       "other": "Other"
     },
     "franchiseExperience": {
-      "yes-successful": "Yes, successful experience",
-      "yes-challenges": "Yes, faced challenges",
-      "no": "No previous experience"
+      "yes-successful": "అవును, successful experience",
+      "yes-challenges": "అవును, faced challenges",
+      "no": "No మునుపటి experience"
     },
     "timelines": {
       "immediate": "Immediately",
@@ -333,19 +440,19 @@
       "agreeText": "I agree to the",
       "termsLink": "Terms & Conditions",
       "disclaimer": "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.",
-      "marketingConsent": "I agree to receive marketing communications and updates about ATM franchise opportunities."
+      "marketingConsent": "I agree to receive marketing communications and updates about ఏటీఎం ఫ్రాంచైజీ opportunities."
     },
     "sidebar": {
       "successStory": {
-        "title": "Join 500+ Successful Franchisees",
-        "testimonial": "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
+        "title": "Join 500+ Successful ఫ్రాంచైజీes",
+        "testimonial": "Starting my ఏటీఎం ఫ్రాంచైజీ was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
         "name": "Rajesh Kumar",
-        "designation": "ATM Franchise Owner, Bihar"
+        "designation": "ఏటీఎం ఫ్రాంచైజీ Owner, Bihar"
       },
       "process": {
         "title": "Application Process",
         "steps": [
-          "Submit detailed application",
+          "సమర్పించండి detailed application",
           "Initial screening & verification",
           "Personal interview & site visit",
           "Approval & agreement signing",
@@ -357,17 +464,17 @@
         "callUs": "Call Us",
         "emailUs": "Email Us",
         "phone": "+91 7003554455",
-        "email": "contact@atmfranchiseindia.in"
+        "email": "contact@ఏటీఎంfranchiseindia.in"
       }
     },
     "benefits": {
       "roi": {
         "title": "High ROI Potential",
-        "description": "Earn up to 50% return on investment with transparent revenue sharing"
+        "description": "Earn up to 50% return on పెట్టుబడి with transparent revenue sharing"
       },
       "competition": {
         "title": "Low Competition",
-        "description": "Only 15 ATMs per 1 lakh people - huge market opportunity"
+        "description": "Only 15 ఏటీఎంs per 1 lakh people - huge market opportunity"
       },
       "support": {
         "title": "Complete Support",
@@ -375,17 +482,17 @@
       },
       "track": {
         "title": "Proven Track Record",
-        "description": "Join 500+ successful franchisees across India"
+        "description": "Join 500+ successful ఫ్రాంచైజీes across India"
       }
     },
     "opportunities": {
       "agent": {
-        "title": "Join as Agent",
-        "description": "Become a field sales agent and earn commission"
+        "title": "Join as ఏజెంట్",
+        "description": "Become a field sales ఏజెంట్ and earn commission"
       },
       "franchise": {
-        "title": "Join as Franchise",
-        "description": "Start your own ATM business"
+        "title": "Join as ఫ్రాంచైజీ",
+        "description": "Start your own ATM వ్యాపారం"
       },
       "employee": {
         "title": "Join as Employee",
@@ -393,45 +500,73 @@
       }
     },
     "buttons": {
-      "submit": "Submit Application"
+      "submit": "దరఖాస్తు సమర్పించండి"
     },
     "toast": {
       "termsRequired": {
-        "title": "Terms & Conditions Required",
-        "description": "Please agree to terms and conditions to proceed."
+        "title": "Terms & Conditions అవసరం",
+        "description": "దయచేసి agree to terms and conditions to proceed."
       },
       "success": {
-        "title": "Application Submitted Successfully!",
-        "description": "Our franchise team will review your application and contact you within 24-48 hours."
+        "title": "Application సమర్పించండిted Successfully!",
+        "description": "Our ఫ్రాంచైజీ team will review your application and contact you within 24-48 hours."
       }
     }
   },
-  "buttons": {
-    "submit": "Submit",
-    "next": "Next",
-    "previous": "Previous",
-    "cancel": "Cancel",
-    "saveDraft": "Save Draft",
-    "submitApplication": "Submit Application",
-    "apply": "Apply Now",
-    "register": "Register",
-    "continue": "Continue"
-  },
   "sections": {
-    "personal": "Personal Information",
-    "contact": "Contact Details",
-    "address": "Address Information",
-    "business": "Business Information",
-    "financial": "Financial Information",
-    "documents": "Document Upload",
+    "personal": "వ్యక్తిగత సమాచారం",
+    "contact": "సంప్రదించడానికి వివరాలు",
+    "address": "చిరునామా Information",
+    "business": "వ్యాపార సమాచారం",
+    "financial": "ఆర్థిక సమాచారం",
+    "documents": "పత్రం అప్‌లోడ్",
     "verification": "Verification",
     "terms": "Terms & Conditions"
   },
   "form": {
     "mandatoryFields": "All fields marked with * are mandatory",
-    "accurateInfo": "Please provide accurate information",
-    "successMessage": "Application submitted successfully!",
-    "errorMessage": "Error submitting application. Please try again.",
-    "reviewInfo": "Please review your information before submitting"
+    "accurateInfo": "దయచేసి provide accurate information",
+    "successMessage": "Application సమర్పించండిted successfully!",
+    "errorMessage": "Error సమర్పించండిting application. Please try again.",
+    "reviewInfo": "Please review your information before సమర్పించండిting"
+  },
+  "forms": {
+    "gender": {
+      "label": "ఎంచుకోండి Your Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "dateOfBirth": {
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "months": {
+      "may": "May"
+    },
+    "whatsapp": {
+      "placeholder": "WhatsApp active number"
+    },
+    "pan": {
+      "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "రాష్ట్రం",
+      "placeholder": "Choose your రాష్ట్రం"
+    },
+    "error": {
+      "fileUpload": "Unable to upload files. దయచేసి try again.",
+      "network": "Network error. దయచేసి check your connection.",
+      "tryAgainOrContact": "Please try again or మమ్మల్ని సంప్రదించండి directly."
+    },
+    "validation": {
+      "email": "Please enter a valid ఇమెయిల్ చిరునామా",
+      "phone": "Please enter a valid ఫోన్ నంబర్",
+      "pan": "దయచేసి enter a valid PAN number",
+      "aadhaar": "దయచేసి enter a valid Aadhaar number",
+      "correctFields": "దయచేసి correct the following fields"
+    }
   }
 }

@@ -1,0 +1,64 @@
+{
+  "badge": "[NEEDS TRANSLATION: badge]",
+  "title": "[NEEDS TRANSLATION: title]",
+  "subtitle": "ఫ్రాంచైజీ",
+  "monthsLabel": "{{months}}",
+  "performance": {
+    "title": "[NEEDS TRANSLATION: performance.title]",
+    "income": "[NEEDS TRANSLATION: performance.income]",
+    "roi": "ROI",
+    "success": "[NEEDS TRANSLATION: performance.success]"
+  },
+  "averagePerformance": {
+    "title": "[NEEDS TRANSLATION: averagePerformance.title]",
+    "subtitle": "ఫ్రాంచైజీ",
+    "metrics": {
+      "monthlyRevenue": {
+        "label": "[NEEDS TRANSLATION: averagePerformance.metrics.monthlyRevenue.label]",
+        "value": "₹42,500"
+      },
+      "roiPeriod": {
+        "label": "[NEEDS TRANSLATION: averagePerformance.metrics.roiPeriod.label]",
+        "value": "12-18"
+      },
+      "successRate": {
+        "label": "[NEEDS TRANSLATION: averagePerformance.metrics.successRate.label]",
+        "value": "95%"
+      },
+      "uptime": {
+        "label": "[NEEDS TRANSLATION: averagePerformance.metrics.uptime.label]",
+        "value": "99.2%"
+      }
+    }
+  },
+  "items": {
+    "rajesh": {
+      "name": "[NEEDS TRANSLATION: items.rajesh.name]",
+      "location": "[NEEDS TRANSLATION: items.rajesh.location]",
+      "business": "EPS ఫ్రాంచైజీ",
+      "revenue": "₹45,000/",
+      "testimonial": "8 , ₹45,000 !"
+    },
+    "priya": {
+      "name": "[NEEDS TRANSLATION: items.priya.name]",
+      "location": "[NEEDS TRANSLATION: items.priya.location]",
+      "business": "[NEEDS TRANSLATION: items.priya.business]",
+      "revenue": "₹38,000/",
+      "testimonial": "WLA 6 ₹38,000"
+    },
+    "amit": {
+      "name": "[NEEDS TRANSLATION: items.amit.name]",
+      "location": "[NEEDS TRANSLATION: items.amit.location]",
+      "business": "ఫ్రాంచైజీ",
+      "revenue": "₹52,000/",
+      "testimonial": "₹52,000 14 ROI !"
+    },
+    "sanjay": {
+      "name": "[NEEDS TRANSLATION: items.sanjay.name]",
+      "location": "[NEEDS TRANSLATION: items.sanjay.location]",
+      "business": "[NEEDS TRANSLATION: items.sanjay.business]",
+      "revenue": "₹42,000/",
+      "testimonial": "WLA"
+    }
+  }
+}

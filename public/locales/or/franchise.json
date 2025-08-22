@@ -2,163 +2,183 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "trusted_atm_franchise_partner": "Trusted ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି Partner",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
-    "badge": "ବିଶ୍ୱସ୍ତ ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ପାର୍ଟନର",
+    "badge": "Trusted ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି Partner",
     "title": {
-      "line1": "ଜଣେ ହୁଅ",
-      "line2": "ଏଟିଏମ୍ ଫ୍ରାଞ୍ଚାଇଜ୍",
-      "line3": "ସହଭାଗୀ"
+      "line1": "Become an",
+      "line2": "ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି",
+      "line3": "Partner"
     },
     "description": {
-      "part1": "ଯୋଗଦାନ କରନ୍ତୁ",
-      "successfulPartners": "୨୦୦+ ସଫଳ ସହଯୋଗୀ",
-      "part2": "ଏବଂ ଆରମ୍ଭ କର ତୁମର",
-      "profitableBusiness": "ଲାଭଜନକ ATM ବ୍ୟବସାୟ",
-      "part3": "ଆଜି ସହିତ",
-      "minimalInvestment": "ସର୍ବନିମ୍ନ ନିବେଶ"
+      "part1": "Join",
+      "successfulPartners": "200+ ସଫଳତାful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM ବ୍ୟବସାୟ",
+      "part3": "today with",
+      "minimalInvestment": "minimal ବିନିଯୋଗ"
     },
     "cta": {
-      "apply": "ଫ୍ରାଞ୍ଚାଇଜ୍ ପାଇଁ ଆବେଦନ କରନ୍ତୁ",
-      "learnMore": "ଅଧିକ ଜାଣନ୍ତୁ"
+      "apply": "ଆବେଦନ କରନ୍ତୁ for Franchise",
+      "learnMore": "Learn More"
     },
     "benefits": {
       "quickRoi": {
-        "title": "ଶୀଘ୍ର ROI",
-        "description": "ପ୍ରମାଣିତ ବ୍ୟବସାୟ ମଡେଲ ସହିତ ନିବେଶ ଉପରେ ଦ୍ରୁତ ଫେରସ୍ତ"
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven ବ୍ୟବସାୟ model"
       },
       "support": {
-        "title": "ଉତ୍ସର୍ଗୀକୃତ ସମର୍ଥନ",
-        "description": "ଆମ ବିଶେଷଜ୍ଞ ଦଳ ତରଫରୁ 24/7 ବୈଷୟିକ ଏବଂ ବ୍ୟବସାୟିକ ସହାୟତା"
+        "title": "Dedicated Support",
+        "description": "24/7 technical and ବ୍ୟବସାୟ support from our expert team"
       },
       "network": {
-        "title": "ପ୍ରମାଣିତ ନେଟୱାର୍କ",
-        "description": "ସାରା ଭାରତରେ 500+ ସଫଳ ଫ୍ରାଞ୍ଚାଇଜ୍ ପାର୍ଟନରଙ୍କ ସହିତ ଯୋଗଦାନ କରନ୍ତୁ"
+        "title": "Proven Network",
+        "description": "Join 500+ successful ଫ୍ରାଞ୍ଚାଇଜି partners across India"
       },
       "training": {
-        "title": "ତାଲିମ ଅନ୍ତର୍ଭୁକ୍ତ",
-        "description": "ବ୍ୟାପକ ତାଲିମ ଏବଂ ନିରନ୍ତର ସହାୟତା ଯୋଗାଇ ଦିଆଯାଇଛି"
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
       }
     },
     "process": {
-      "title": "କିପରି ଆରମ୍ଭ କରିବେ",
+      "title": "How to ଆରମ୍ଭ କରନ୍ତୁ",
       "steps": {
         "apply": {
-          "title": "ପ୍ରୟୋଗ କରନ୍ତୁ",
-          "description": "ଆପଣଙ୍କର ଫ୍ରାଞ୍ଚାଇଜ୍ ଆବେଦନ ଅନଲାଇନରେ ଦାଖଲ କରନ୍ତୁ"
+          "title": "ଆବେଦନ କରନ୍ତୁ",
+          "description": "ଦାଖିଲ କରନ୍ତୁ your franchise application online"
         },
         "agreement": {
-          "title": "ଚୁକ୍ତିନାମା",
-          "description": "ଡକ୍ୟୁମେଣ୍ଟେସନ୍ ପୂରଣ କରନ୍ତୁ ଏବଂ ଚୁକ୍ତିନାମା ସ୍ୱାକ୍ଷର କରନ୍ତୁ"
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
         },
         "installation": {
-          "title": "ସଂସ୍ଥାପନ",
-          "description": "ଆମେ ATM ସେଟଅପ୍ ଏବଂ ସଂସ୍ଥାପନ ପରିଚାଳନା କରୁ"
+          "title": "Installation",
+          "description": "We handle ଏଟିଏମ setup and installation"
         },
         "earn": {
-          "title": "ରୋଜଗାର ଆରମ୍ଭ କରନ୍ତୁ",
-          "description": "ମାସିକ ନିଷ୍କ୍ରିୟ ଆୟ ପାଇବା ଆରମ୍ଭ କରନ୍ତୁ"
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
         }
       }
     },
     "stats": {
-      "partners": "ସକ୍ରିୟ ଅଂଶୀଦାର",
-      "atms": "ଏଟିଏମ୍ ନିୟୋଜିତ ହୋଇଛି",
-      "transactions": "ମାସିକ କାରବାର",
-      "support": "ସମର୍ଥନ ଉପଲବ୍ଧ ଅଛି"
+      "partners": "Active Partners",
+      "atms": "ଏଟିଏମs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
     }
   },
   "enquiryForm": {
-    "title": "ଆପଣଙ୍କର ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ଯାତ୍ରା ଆରମ୍ଭ କରନ୍ତୁ",
-    "subtitle": "ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ସୁଯୋଗ ବିଷୟରେ ବ୍ୟକ୍ତିଗତ ସୂଚନା ପାଇବା ପାଇଁ ଆମର ବିସ୍ତୃତ ଅନୁସନ୍ଧାନ ଫର୍ମ ପୂରଣ କରନ୍ତୁ।",
+    "title": "Start Your ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି opportunities in your area.",
     "fields": {
       "name": "ପୂରା ନାମ",
-      "email": "ଇମେଲ୍ ଠିକଣା",
-      "phone": "ଫୋନ୍ ନମ୍ବର",
+      "email": "ଇମେଲ ଠିକଣା",
+      "phone": "ଫୋନ ନମ୍ବର",
       "state": "ରାଜ୍ୟ",
       "city": "ସହର",
-      "investment": "ନିବେଶ କ୍ଷମତା",
-      "experience": "ବ୍ୟବସାୟିକ ଅଭିଜ୍ଞତା",
-      "message": "ଅତିରିକ୍ତ ସୂଚନା",
-      "consent": "ମୁଁ ଫ୍ରାଞ୍ଚାଇଜ୍ ସୁଯୋଗ ବିଷୟରେ ଅପଡେଟ୍ ପାଇବାକୁ ରାଜି ଅଛି।"
+      "investment": "Investment Capaସହର",
+      "experience": "ବ୍ୟବସାୟ Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about ଫ୍ରାଞ୍ଚାଇଜି opportunities"
     },
-    "submit": "ତଦନ୍ତ ଦାଖଲ କରନ୍ତୁ",
-    "submitting": "ଦାଖଲ କରାଯାଉଛି...",
-    "success": "ଧନ୍ୟବାଦ! ଆମେ 24 ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ସହିତ ଯୋଗାଯୋଗ କରିବୁ।",
-    "error": "କିଛି ଭୁଲ ହୋଇଗଲା। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"
+    "submit": "ଦାଖିଲ କରନ୍ତୁ Enquiry",
+    "submitting": "ଦାଖିଲ କରନ୍ତୁting...",
+    "success": "ଧନ୍ୟବାଦ! We'll contact you within 24 hours.",
+    "error": "Something went wrong. ଦୟାକରି try again."
   },
   "whyAtm": {
-    "title": "କାହିଁକି ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ବାଛନ୍ତୁ?",
-    "subtitle": "ଭାରତର ଅଗ୍ରଣୀ ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ନେଟୱାର୍କ ସହିତ ସହଭାଗୀତାର ଲାଭ ଖୋଜନ୍ତୁ",
+    "title": "Why Choose ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି?",
+    "subtitle": "Discover the benefits of partnering with India's leading ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି network",
     "benefits": {
       "highReturns": {
-        "title": "ଅଧିକ ଲାଭ",
-        "description": "ଆପଣଙ୍କ ନିବେଶ ଉପରେ ବାର୍ଷିକ 20% ପର୍ଯ୍ୟନ୍ତ ରିଟର୍ଣ୍ଣ ପାଆନ୍ତୁ"
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your ବିନିଯୋଗ"
       },
       "passiveIncome": {
-        "title": "ନିଷ୍କ୍ରିୟ ଆୟ",
-        "description": "ସର୍ବନିମ୍ନ ପରିଶ୍ରମ ସହିତ ସ୍ଥିର ମାସିକ ଆୟ ସୃଷ୍ଟି କରନ୍ତୁ"
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
       },
       "lowMaintenance": {
-        "title": "ନିମ୍ନ ରକ୍ଷଣାବେକ୍ଷଣ",
-        "description": "ଆମେ ସମସ୍ତ ବୈଷୟିକ ରକ୍ଷଣାବେକ୍ଷଣ ଏବଂ ନଗଦ ପରିଚାଳନା କରୁ"
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
       },
       "governmentSupport": {
-        "title": "ସରକାରୀ ସମର୍ଥନ",
-        "description": "ଆର୍ଥିକ ଅନ୍ତର୍ଭୁକ୍ତି ପାଇଁ ସରକାରୀ ପଦକ୍ଷେପରୁ ଲାଭ ପାଆନ୍ତୁ"
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
       },
       "growingMarket": {
-        "title": "ବର୍ଦ୍ଧିତ ବଜାର",
-        "description": "ଭାରତର ଦ୍ରୁତ ଗତିରେ ବିସ୍ତାରିତ ଡିଜିଟାଲ୍ ପେମେଣ୍ଟ ଇକୋସିଷ୍ଟମରେ ସାମିଲ ହୁଅନ୍ତୁ"
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
       },
       "brandValue": {
-        "title": "ବ୍ରାଣ୍ଡ ମୂଲ୍ୟ",
-        "description": "ଆମର ପ୍ରତିଷ୍ଠିତ ବ୍ରାଣ୍ଡ ଏବଂ ପ୍ରମାଣିତ ବ୍ୟବସାୟ ମଡେଲକୁ ବ୍ୟବହାର କରନ୍ତୁ"
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven ବ୍ୟବସାୟ model"
       }
     }
   },
   "services": {
-    "title": "ଆମର ବ୍ୟାପକ ସେବା",
-    "subtitle": "ଏକ ସଫଳ ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ଚଲାଇବା ପାଇଁ ଆପଣଙ୍କୁ ଯାହା ଆବଶ୍ୟକ",
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି",
     "items": {
       "siteSelection": {
-        "title": "ସାଇଟ୍ ଚୟନ",
-        "description": "ଅଧିକ ଟ୍ରାଫିକ୍ ସ୍ଥାନ ଚିହ୍ନଟ କରିବାରେ ବ���ଶେଷଜ୍ଞଙ୍କ ସହାୟତା"
+        "title": "Site ବାଛନ୍ତୁion",
+        "description": "Expert assistance in identifying high-traffic locations"
       },
       "installation": {
-        "title": "ସଂସ୍ଥାପନ",
-        "description": "ATM ସେଟଅପ୍ ଏବଂ ବିନ୍ୟାସ ସମ୍ପୂର୍ଣ୍ଣ କରନ୍ତୁ"
+        "title": "Installation",
+        "description": "Complete ଏଟିଏମ setup and configuration"
       },
       "cashManagement": {
-        "title": "ନଗଦ ପରିଚାଳନା",
-        "description": "ନିୟମିତ ନଗଦ ପୁନଃପୂରଣ ଏବଂ ପୁନର୍ମିଳନ"
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
       },
       "maintenance": {
-        "title": "ରକ୍ଷଣାବେକ୍ଷଣ",
-        "description": "24/7 ବୈଷୟିକ ସହାୟତା ଏବଂ ନିୟମିତ ସର୍ଭିସିଂ"
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
       },
       "compliance": {
-        "title": "ଅନୁପାଳନ",
-        "description": "ସମ୍ପୂର୍ଣ୍ଣ ନିୟାମକ ଅନୁପାଳନ ଏବଂ ଡକ୍ୟୁମେଣ୍ଟେସନ୍"
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
       },
       "marketing": {
-        "title": "ମାର୍କେଟିଂ ସମର୍ଥନ",
-        "description": "ପ୍ରଚାରମୂଳକ ସାମଗ୍ରୀ ଏବଂ ସ୍ଥାନୀୟ ମାର୍କେଟିଂ ���ହାୟତା"
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
       }
     }
   },
   "comparison": {
-    "title": "ଫ୍ରାଞ୍ଚାଇଜ୍ ମଡେଲ୍ ତୁଳନା",
-    "subtitle": "ଆପଣଙ୍କ ନିବେଶ କ୍ଷମତା ସହିତ ସୁସଙ୍ଗତ ଫ୍ରାଞ୍ଚାଇଜ୍ ମଡେଲ୍ ବାଛନ୍ତୁ।",
+    "title": "ଫ୍ରାଞ୍ଚାଇଜି Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capaସହର",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low ବିନିଯୋଗ",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium ଫ୍ରାଞ୍ଚାଇଜି model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "ବିନିଯୋଗ Details",
+    "revenueStreams": "ଆୟ Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "ଆରମ୍ଭ କରନ୍ତୁ",
     "models": {
       "basic": {
-        "name": "ମୌଳିକ",
-        "investment": "₹୨-୫ ଲକ୍ଷ",
-        "atms": "୧-୨ଟି ATM",
-        "roi": "ବାର୍ଷିକ ୧୫-୧୮%",
-        "support": "ମାନକ ସମର୍ଥନ",
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 ଏଟିଏମs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
         "features": [
           "Single location setup",
           "Basic training program",
@@ -167,11 +187,11 @@
         ]
       },
       "professional": {
-        "name": "ବୃତ୍ତିଗତ",
-        "investment": "₹୫-୧୦ ଲକ୍ଷ",
-        "atms": "୩-୫ଟି ଏଟିଏମ୍",
-        "roi": "ବାର୍ଷିକ ୧୮-୨୨%",
-        "support": "ପ୍ରାଥମିକତା ସମର୍ଥନ",
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 ଏଟିଏମs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
         "features": [
           "Multiple location setup",
           "Advanced training program",
@@ -182,11 +202,11 @@
         "popular": true
       },
       "enterprise": {
-        "name": "ଏଣ୍ଟରପ୍ରାଇଜ",
-        "investment": "₹୧୦+ ଲକ୍ଷ",
-        "atms": "6+ ATM",
-        "roi": "ବାର୍ଷିକ ୨୨-୨୫%",
-        "support": "ପ୍ରିମିୟମ୍ ସପୋର୍ଟ",
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ ଏଟିଏମs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
         "features": [
           "Unlimited locations",
           "Executive training program",
@@ -197,50 +217,54 @@
         ]
       }
     },
-    "cta": "ଆପଣଙ୍କର ଯୋଜନା ବାଛନ୍ତୁ"
+    "cta": "ବାଛନ୍ତୁ Your Plan"
   },
   "wlaOperators": {
-    "title": "ଭାରତରେ ପ୍ରମୁଖ WLA ଅପରେଟରମାନେ",
-    "subtitle": "ATM କାର୍ଯ୍ୟରେ ସବୁଠାରୁ ବିଶ୍ୱସ୍ତ ନାମ ସହିତ ସହଭାଗୀ ହୁଅନ୍ତୁ",
-    "description": "ଆପଣଙ୍କୁ ସର୍ବୋତ୍ତମ ସୁଯୋଗ ପ୍ରଦାନ କରିବା ପାଇଁ ଆମେ ସମସ୍ତ ପ୍ରମୁଖ ହ୍ୱାଇଟ୍ ଲେବଲ୍ ATM ଅପରେଟରମାନଙ୍କ ସହିତ କାମ କରୁ।"
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in ଏଟିଏମ operations",
+    "description": "We work with all major White Label ଏଟିଏମ operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
-    "title": "ପ୍ରାୟତଃ ପଚରାଯାଉଥିବା ପ୍ରଶ୍ନଗୁଡ଼ିକ",
-    "subtitle": "ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ବିଷୟରେ ସାଧାରଣ ପ୍ରଶ୍ନର ଉତ୍ତର ପାଆନ୍ତୁ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି",
     "questions": {
       "investment": {
-        "question": "ସର୍ବନିମ୍ନ କେତେ ନିବେଶ ଆବଶ୍ୟକ?",
-        "answer": "୧-୨ଟି ATM ସହିତ ଏକ ମୌଳିକ ଫ୍ରାଞ୍ଚାଇଜ୍ ମଡେଲ୍ ପାଇଁ ସର୍ବନିମ୍ନ ନିବେଶ ₹୨ ଲକ୍ଷରୁ ଆରମ୍ଭ ହୁଏ।"
+        "question": "What is the minimum ବିନିଯୋଗ required?",
+        "answer": "The minimum ବିନିଯୋଗ starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
-        "question": "ମୁଁ କି ପ୍ରକାରର ଫେରସ୍ତ ଆଶା କରିପାରିବି?",
-        "answer": "ସ୍ଥାନ ଏବଂ କାରବାର ପରିମାଣ ଉପରେ ନିର୍ଭର କରି ଆପଣ ବାର୍ଷିକ 15-25% ରିଟର୍ଣ୍ଣ ଆଶା କରିପାରିବେ।"
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
-        "question": "ଆପଣ କେଉଁ ପ୍ରକାରର ସମର୍ଥନ ଯୋଗାଇଥାନ୍ତି?",
-        "answer": "ଆମେ ସ୍ଥାନ ଚୟନ, ସଂସ୍ଥାପନ, ରକ୍ଷଣାବେକ୍ଷଣ, ନଗଦ ପରିଚାଳନା ଏବଂ 24/7 ବୈଷୟିକ ସହାୟତା ସମେତ ସମ୍ପୂର୍ଣ୍ଣ ସହାୟତା ପ୍ରଦାନ କରୁ।"
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site ବାଛନ୍ତୁion, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
-        "question": "ମୋତେ ପୂର୍ବ ଅଭିଜ୍ଞତା ଆବଶ୍ୟକ କି?",
-        "answer": "କୌଣସି ପୂର୍ବ ଅଭିଜ୍ଞତାର ଆବଶ୍ୟକତା ନାହିଁ। ଆମେ ବ୍ୟାପକ ତାଲିମ ଏବଂ ନିରନ୍ତର ସହାୟତା ପ୍ରଦାନ କରୁ।"
+        "question": "Do I need prior experience?",
+        "answer": "ନା prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
-        "question": "ମୁଁ କ’ଣ ମୋର ATM ସ୍ଥାନ ବାଛିପାରିବି?",
-        "answer": "ହଁ, ଆପଣ ସ୍ଥାନଗୁଡ଼ିକ ପରାମର୍ଶ ଦେଇପାରିବେ। ଆମର ଦଳ ସର୍ବାଧିକ ରିଟର୍ଣ୍ଣ ପାଇଁ ସର୍ବୋତ୍ତମ ସ୍ଥାନଗୁଡ଼ିକର ମୂଲ୍ୟାଙ୍କନ ଏବଂ ଚୂଡ଼ାନ୍ତ କରିବାରେ ସାହାଯ୍ୟ କରିବ।"
+        "question": "Can I choose my ଏଟିଏମ locations?",
+        "answer": "ହଁ, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
-        "question": "ଚୁକ୍ତିନାମା�� ଅବଧି କେତେ?",
-        "answer": "ମାନକ ଫ୍ରାଞ୍ଚାଇଜ୍ ଚୁକ୍ତିନାମା 5 ବର୍ଷ ପାଇଁ ଏବଂ ନବୀକରଣ କରିବାର ବିକଳ୍ପ ସହିତ।"
+        "question": "What is the contract duration?",
+        "answer": "The standard ଫ୍ରାଞ୍ଚାଇଜି agreement is for 5 years with an option to renew."
       }
     }
   },
   "getStarted": {
-    "title": "ଆପଣଙ୍କର ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ଆରମ୍ଭ କରିବାକୁ ପ୍ରସ୍ତୁତ କି?",
-    "subtitle": "ଆଜି ହିଁ ଭାରତର ଦ୍ରୁତତମ ବୃଦ୍ଧି ପାଉଥିବା ATM ନେଟୱାର୍କରେ ଯୋଗଦାନ କରନ୍ତୁ",
+    "title": "Ready to Start Your ଏଟିଏମ ଫ୍ରାଞ୍ଚାଇଜି?",
+    "subtitle": "Join India's fastest growing ଏଟିଏମ network today",
     "cta": {
-      "apply": "ଏବେ ଆବେଦନ କରନ୍ତୁ",
-      "call": "ଆମକୁ କଲ୍ କରନ୍ତୁ",
-      "schedule": "ମିଟିଂ ସିଡୁଲ୍ କରନ୍ତୁ"
+      "apply": "ଆବେଦନ କରନ୍ତୁ Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
     }
   }
 }

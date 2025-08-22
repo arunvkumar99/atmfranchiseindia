@@ -1,15 +1,15 @@
 {
-  "title": "চৰ্ত আৰু নিয়মসমূহ",
-  "lastUpdated": "শেষবাৰৰ বাবে আপডেট কৰা হৈছে",
+  "title": "Terms and Conditions",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "acceptance": "চৰ্তসমূহ গ্ৰহণ কৰা",
-    "services": "সেৱাসমূহৰ বিৱৰণ",
-    "userResponsibilities": "ব্যৱহাৰকাৰীৰ দায়িত্ব",
-    "intellectualProperty": "বৌদ্ধিক সম্পত্তি",
-    "limitations": "দায়বদ্ধতাৰ সীমাবদ্ধতা",
-    "indemnification": "ক্ষতিপূৰণ",
-    "termination": "টাৰ্মিনেচন",
-    "governingLaw": "শাসকীয় আইন",
-    "contact": "যোগাযোগৰ তথ্য"
+    "acceptance": "Acceptance of Terms",
+    "services": "Services Description",
+    "userResponsibilities": "User Responsibilities",
+    "intellectualProperty": "Intellectual Property",
+    "limitations": "Limitations of Liability",
+    "indemnification": "Indemnification",
+    "termination": "Termination",
+    "governingLaw": "Governing Law",
+    "contact": "Contact Information"
   }
 }

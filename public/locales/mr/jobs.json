@@ -1,23 +1,23 @@
 {
-  "title": "करिअरच्या संधी",
-  "subtitle": "आमच्या वाढत्या टीममध्ये सामील व्हा",
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
   "hero": {
-    "heading": "आमच्यासोबत तुमचे करिअर घडवा",
-    "description": "एटीएम उद्योगातील रोमांचक संधींचा शोध घ्या",
-    "cta": "ओपनिंग्ज पहा"
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
   },
   "positions": {
-    "title": "खुल्या पदे",
-    "location": "स्थान",
-    "type": "नोकरीचा प्रक���र",
-    "experience": "अनुभव",
-    "apply": "आत्ताच अर्ज करा"
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
   },
   "benefits": {
-    "title": "आमच्यासोबत का काम करावे",
-    "growth": "करिअर वाढ",
-    "culture": "उत्तम संस्कृती",
-    "benefits": "स्पर्धात्मक फायदे",
-    "learning": "सतत शिक्षण"
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
   }
 }

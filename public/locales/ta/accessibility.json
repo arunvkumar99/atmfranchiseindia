@@ -22,5 +22,39 @@
     "description": "அணுகல்தன்மை குறித்த உங்கள் கருத்துக்களை வரவேற்கிறோம்.",
     "email": "எங்களுக்கு மின்னஞ்சல் அனுப்புங்கள்",
     "phone": "எங்களை அழைக்கவும்"
+  },
+  "hero": {
+    "backToHome": "Back to Home",
+    "badge": "Accessibility Commitment",
+    "title": "Accessibility Statement",
+    "subtitle": "Making ATM Franchise opportunities accessible to everyone"
+  },
+  "content": {
+    "intro": "ATM Franchise India is committed to ensuring digital accessibility for people with disabilities. We are continuously improving the user experience for everyone and applying the relevant accessibility standards.",
+    "web_accessibility": "Web Accessibility",
+    "visual_accessibility": "Visual Accessibility",
+    "motor_and_cognitive_accessibil": "Motor and Cognitive Accessibility",
+    "hearing_accessibility": "Hearing Accessibility",
+    "feedback_and_support": "Feedback and Support",
+    "email": "Email:",
+    "phone": "Phone:"
+  },
+  "sections": {
+    "web": {
+      "content": "Our website is designed to be compatible with assistive technologies and follows Web Content Accessibility Guidelines (WCAG) 2.1 standards.",
+      "items": [
+        "Keyboard navigation support for all interactive elements",
+        "Screen reader compatibility with proper heading structure",
+        "High contrast color schemes for better visibility",
+        "Alternative text for all images and graphics"
+      ]
+    },
+    "visual": {
+      "content": "We understand that visual impairments can affect how people interact with our platform:",
+      "items": [
+        "Large, readable fonts throughout the website",
+        "Sufficient color contrast ratios meeting WCAG standards"
+      ]
+    }
   }
 }

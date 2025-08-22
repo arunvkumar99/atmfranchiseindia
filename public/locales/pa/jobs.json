@@ -1,23 +1,23 @@
 {
-  "title": "ਕਰੀਅਰ ਦੇ ਮੌਕੇ",
-  "subtitle": "ਸਾਡੀ ਵਧ ਰਹੀ ਟੀਮ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
   "hero": {
-    "heading": "ਸਾਡੇ ਨਾਲ ਆਪਣਾ ਕਰੀਅਰ ਬਣਾਓ",
-    "description": "ATM ਉਦਯੋਗ ਵਿੱਚ ਦਿਲਚਸਪ ਮੌਕਿਆਂ ਦੀ ਪੜਚੋਲ ਕਰੋ",
-    "cta": "ਖੁੱਲ੍ਹੀਆਂ ਥਾਵਾਂ ਵੇਖੋ"
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
   },
   "positions": {
-    "title": "ਖੁੱਲ੍ਹੀਆਂ ਅਸਾਮੀਆਂ",
-    "location": "ਟਿਕਾਣਾ",
-    "type": "ਨੌਕਰੀ ਦੀ ਕ��ਸਮ",
-    "experience": "ਅਨੁਭਵ",
-    "apply": "ਹੁਣ ਲਾਗੂ ਕਰੋ"
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
   },
   "benefits": {
-    "title": "ਸਾਡੇ ਨਾਲ ਕਿਉਂ ਕੰਮ ਕਰੋ",
-    "growth": "ਕਰੀਅਰ ਵਿਕਾਸ",
-    "culture": "ਮਹਾਨ ਸੱਭਿਆਚਾਰ",
-    "benefits": "ਪ੍ਰਤੀਯੋਗੀ ਲਾਭ",
-    "learning": "ਨਿਰੰਤਰ ਸਿਖਲਾਈ"
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
   }
 }

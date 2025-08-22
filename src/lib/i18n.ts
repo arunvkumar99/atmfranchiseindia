@@ -29,7 +29,7 @@ i18n
     debug: false, // Set to true for debugging
     
     // Multiple namespaces for better organization
-    ns: ['common', 'home', 'forms', 'franchise', 'products', 'blog', 'agent', 'influencer', 'jobs', 'about', 'contact'],
+    ns: ['common', 'home', 'forms', 'franchise', 'products', 'blog', 'agent', 'influencer', 'jobs', 'about', 'contact', 'components', 'location'],
     defaultNS: 'common',
     
     interpolation: {
@@ -57,10 +57,7 @@ i18n
       transSupportBasicHtmlNodes: true,
       transKeepBasicHtmlNodesFor: ['br', 'strong', 'i'],
       transWrapTextNodes: ''
-    },
-    
-    // Force English on initialization
-    lng: 'en'
+    }
   });
 
 export default i18n;

@@ -2,163 +2,183 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "trusted_atm_franchise_partner": "Trusted ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ Partner",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
-    "badge": "ವಿಶ್ವಾಸಾರ್ಹ ಎಟಿಎಂ ಫ್ರ್ಯಾಂಚೈಸ್ ಪಾಲುದಾರ",
+    "badge": "Trusted ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ Partner",
     "title": {
-      "line1": "ಆಗಿ",
+      "line1": "Become an",
       "line2": "ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ",
-      "line3": "ಪಾಲುದಾರ"
+      "line3": "Partner"
     },
     "description": {
-      "part1": "ಸೇರಿ",
-      "successfulPartners": "200+ ಯಶಸ್ವಿ ಪಾಲುದಾರರು",
-      "part2": "ಮತ್ತು ನಿಮ್ಮದನ್ನು ಪ್ರಾರಂಭಿಸಿ",
-      "profitableBusiness": "ಲಾಭದಾಯಕ ಎಟಿಎಂ ವ್ಯವಹಾರ",
-      "part3": "ಇಂದ��� ಜೊತೆ",
-      "minimalInvestment": "ಕನಿಷ್ಠ ಹೂಡಿಕೆ"
+      "part1": "Join",
+      "successfulPartners": "200+ ಯಶಸ್ಸುful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM ವ್ಯಾಪಾರ",
+      "part3": "today with",
+      "minimalInvestment": "minimal ಹೂಡಿಕೆ"
     },
     "cta": {
-      "apply": "ಫ್ರ್ಯಾಂಚೈಸ್‌ಗಾಗಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
-      "learnMore": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+      "apply": "ಅರ್ಜಿ ಸಲ್ಲಿಸಿ for Franchise",
+      "learnMore": "Learn More"
     },
     "benefits": {
       "quickRoi": {
-        "title": "ತ್ವರಿತ ROI",
-        "description": "ಸಾಬೀತಾದ ವ್ಯವಹಾರ ಮಾದರಿಯೊಂದಿಗೆ ಹೂಡಿಕೆಯ ಮೇಲೆ ತ್ವರಿತ ಲಾಭ"
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven ವ್ಯಾಪಾರ model"
       },
       "support": {
-        "title": "ಮೀಸಲಾದ ಬೆಂಬಲ",
-        "description": "ನಮ್ಮ ತಜ್ಞರ ತಂಡದಿಂದ 24/7 ತಾಂತ್ರಿಕ ಮತ್ತು ವ್ಯವಹಾರ ಬೆಂಬಲ"
+        "title": "Dedicated Support",
+        "description": "24/7 technical and ವ್ಯಾಪಾರ support from our expert team"
       },
       "network": {
-        "title": "ಸಾಬೀತಾದ ನೆಟ್‌ವರ್ಕ್",
-        "description": "ಭಾರತದಾದ್ಯಂತ 500+ ಯಶಸ್ವಿ ಫ್ರ್ಯಾಂಚೈಸ್ ಪಾಲುದಾರರೊಂದಿಗೆ ಸೇರಿ"
+        "title": "Proven Network",
+        "description": "Join 500+ successful ಫ್ರಾಂಚೈಸಿ partners across India"
       },
       "training": {
-        "title": "ತರಬೇತಿ ಒಳಗೊಂಡಿದೆ",
-        "description": "ಸಮಗ್ರ ತರಬೇತಿ ಮತ್ತು ನಿರಂತರ ಬೆಂಬಲವನ್ನು ಒದಗಿಸಲಾಗಿದೆ"
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
       }
     },
     "process": {
-      "title": "ಹೇಗೆ ಪ್ರಾರಂಭಿಸುವುದು",
+      "title": "How to ಪ್ರಾರಂಭಿಸಿ",
       "steps": {
         "apply": {
-          "title": "ಅನ್ವಯಿಸು",
-          "description": "ನಿಮ್ಮ ಫ್ರ್ಯಾಂಚೈಸ್ ಅರ್ಜಿಯನ್ನು ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಸಲ್ಲಿಸಿ"
+          "title": "ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
+          "description": "ಸಲ್ಲಿಸಿ your franchise application online"
         },
         "agreement": {
-          "title": "ಒಪ್ಪಂದ",
-          "description": "ದಾಖಲೆಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ ಮತ್ತು ಒಪ್ಪಂದಕ್ಕೆ ಸಹಿ ಮಾಡಿ"
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
         },
         "installation": {
-          "title": "ಅನುಸ್ಥಾಪನೆ",
-          "description": "ನಾವು ಎಟಿಎಂ ಸೆಟಪ್ ಮತ್ತು ಸ್ಥಾಪನೆಯನ್ನು ನಿರ್ವಹಿಸುತ್ತೇವೆ."
+          "title": "Installation",
+          "description": "We handle ಎಟಿಎಂ setup and installation"
         },
         "earn": {
-          "title": "ಗಳಿಸಲು ಪ್ರಾರಂಭಿಸಿ",
-          "description": "ಮಾಸಿಕ ನಿಷ್ಕ್ರಿಯ ಆದಾಯವನ್ನು ಪಡೆಯಲು ಪ್ರಾರಂಭಿಸಿ"
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
         }
       }
     },
     "stats": {
-      "partners": "ಸಕ್ರಿಯ ಪಾಲುದಾರರು",
-      "atms": "ಎಟಿಎಂಗಳನ್ನು ನಿಯೋಜಿಸಲಾಗಿದೆ",
-      "transactions": "ಮಾಸಿಕ ವಹಿವಾಟುಗಳು",
-      "support": "ಬೆಂಬಲ ಲಭ್ಯವಿದೆ"
+      "partners": "Active Partners",
+      "atms": "ಎಟಿಎಂs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
     }
   },
   "enquiryForm": {
-    "title": "ನಿಮ್ಮ ಎಟಿಎಂ ಫ್ರ್ಯಾಂಚೈಸ್ ಪ್ರಯಾಣವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
-    "subtitle": "ನಿಮ್ಮ ಪ್ರದೇಶದಲ್ಲಿ ATM ಫ್ರಾಂಚೈಸಿ ಅವಕಾಶಗಳ ಕುರಿತು ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲು ನಮ್ಮ ವಿವರವಾದ ವಿಚಾರಣಾ ಫಾರ್ಮ್ ಅನ್ನು ಭರ್ತಿ ಮಾಡಿ.",
+    "title": "Start Your ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ opportunities in your area.",
     "fields": {
       "name": "ಪೂರ್ಣ ಹೆಸರು",
       "email": "ಇಮೇಲ್ ವಿಳಾಸ",
-      "phone": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+      "phone": "ಫೋನ್ ಸಂಖ್ಯೆ",
       "state": "ರಾಜ್ಯ",
       "city": "ನಗರ",
-      "investment": "ಹೂಡಿಕೆ ಸಾಮರ್ಥ್ಯ",
-      "experience": "ವ್ಯವಹಾರ ಅನುಭವ",
-      "message": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
-      "consent": "ಫ್ರಾಂಚೈಸಿ ಅವಕಾಶಗಳ ಕುರಿತು ನವೀಕರಣಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ನಾನು ಒಪ್ಪುತ್ತೇನೆ."
+      "investment": "Investment Capaನಗರ",
+      "experience": "ವ್ಯಾಪಾರ Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about ಫ್ರಾಂಚೈಸಿ opportunities"
     },
-    "submit": "ವಿಚಾರಣೆ ಸಲ್ಲಿಸಿ",
-    "submitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ...",
-    "success": "ಧನ್ಯವಾದಗಳು! ನಾವು 24 ಗಂಟೆಗಳ ಒಳಗೆ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ.",
-    "error": "���ನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+    "submit": "ಸಲ್ಲಿಸಿ Enquiry",
+    "submitting": "ಸಲ್ಲಿಸಿting...",
+    "success": "ಧನ್ಯವಾದಗಳು! We'll contact you within 24 hours.",
+    "error": "Something went wrong. ದಯವಿಟ್ಟು try again."
   },
   "whyAtm": {
-    "title": "ಎಟಿಎಂ ಫ್ರ್ಯಾಂಚೈಸ್ ಅನ್ನು ಏಕೆ ಆರಿಸಬೇಕು?",
-    "subtitle": "ಭಾರತದ ಪ್ರಮುಖ ATM ಫ್ರಾಂಚೈಸಿ ನೆಟ್‌ವರ್ಕ್‌ನೊಂದಿಗೆ ಪಾಲುದಾರಿಕೆ ಮಾಡಿಕೊಳ್ಳುವ ಪ್ರಯೋಜನಗಳನ್ನು ಅನ್ವೇಷಿಸಿ",
+    "title": "Why Choose ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ?",
+    "subtitle": "Discover the benefits of partnering with India's leading ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ network",
     "benefits": {
       "highReturns": {
-        "title": "ಹೆಚ್ಚಿನ ಲಾಭಗಳು",
-        "description": "ನಿಮ್ಮ ಹೂಡಿಕೆಯ ಮೇಲೆ ವಾರ್ಷಿಕ 20% ವರೆಗೆ ಲಾಭ ಗಳಿಸಿ"
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your ಹೂಡಿಕೆ"
       },
       "passiveIncome": {
-        "title": "ನಿಷ್ಕ್ರಿಯ ಆದಾಯ",
-        "description": "ಕನಿಷ್ಠ ಶ್ರಮದಿಂದ ಸ್ಥಿರವಾದ ಮಾಸಿಕ ಆದಾಯವನ್ನು ಗಳಿಸಿ"
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
       },
       "lowMaintenance": {
-        "title": "ಕಡಿಮೆ ನಿರ್ವಹಣೆ",
-        "description": "ನಾವು ಎಲ್ಲಾ ತಾಂತ್ರಿಕ ನಿರ್ವಹಣೆ ಮತ್ತು ನಗದು ನಿರ್ವಹಣೆಯನ್ನು ನಿರ್ವಹಿಸುತ್ತೇವೆ."
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
       },
       "governmentSupport": {
-        "title": "ಸರ್ಕಾರಿ ಬೆಂಬಲ",
-        "description": "ಆರ್ಥಿಕ ಸೇರ್ಪಡೆಗಾಗಿ ಸರ್ಕಾರದ ಉಪಕ್ರಮಗಳಿಂದ ಲಾಭ ಪಡೆಯಿರಿ."
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
       },
       "growingMarket": {
-        "title": "ಬೆಳೆಯುತ್ತಿರುವ ಮಾರುಕಟ್ಟೆ",
-        "description": "ಭಾರತದ ವೇಗವಾಗಿ ವಿಸ್ತರಿಸುತ್ತಿರುವ ಡಿಜಿಟಲ್ ಪಾವತಿ ಪರಿಸರ ವ್ಯವಸ್ಥೆಯನ್ನು ಬಳಸಿಕೊಳ್ಳಿ."
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
       },
       "brandValue": {
-        "title": "ಬ್ರಾಂಡ್ ಮೌಲ್ಯ",
-        "description": "ನಮ್ಮ ಸ್ಥಾಪಿತ ಬ್ರ್ಯಾಂಡ್ ಮತ್ತು ಸಾಬೀತಾದ ವ್ಯವಹಾರ ಮಾದರಿಯನ್ನು ಬಳಸಿಕೊಳ್ಳಿ"
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven ವ್ಯಾಪಾರ model"
       }
     }
   },
   "services": {
-    "title": "ನಮ್ಮ ಸಮಗ್ರ ಸೇವೆಗಳು",
-    "subtitle": "ಯಶಸ್ವಿ ATM ಫ್ರ್ಯಾಂಚೈಸ್ ಅನ್ನು ನಡೆಸಲು ನಿಮಗೆ ಬೇಕಾಗಿರುವುದು",
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ",
     "items": {
       "siteSelection": {
-        "title": "ಸ್ಥಳ ಆಯ್ಕೆ",
-        "description": "ಹೆಚ್ಚಿನ ದಟ್ಟಣೆ ಇರುವ ಸ್ಥಳಗಳನ್ನು ಗುರುತಿಸುವಲ್ಲಿ ತಜ್ಞರ ನೆರವು"
+        "title": "Site ಆಯ್ಕೆಮಾಡಿion",
+        "description": "Expert assistance in identifying high-traffic locations"
       },
       "installation": {
-        "title": "ಅನುಸ್ಥಾಪನೆ",
-        "description": "ಎಟಿಎಂ ಸೆಟಪ್ ಮತ್ತು ಕಾನ್ಫಿಗರೇಶನ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ"
+        "title": "Installation",
+        "description": "Complete ಎಟಿಎಂ setup and configuration"
       },
       "cashManagement": {
-        "title": "ನಗದು ನಿರ್ವಹಣೆ",
-        "description": "ನಿಯಮಿತ ನಗದು ಮರುಪೂರಣ ಮತ್ತು ಸಮನ್ವಯ"
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
       },
       "maintenance": {
-        "title": "ನಿರ್ವಹಣೆ",
-        "description": "24/7 ತಾಂತ್ರಿಕ ಬೆಂಬಲ ಮತ್ತು ನಿಯಮಿತ ಸೇವೆ"
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
       },
       "compliance": {
-        "title": "ಅನುಸರಣೆ",
-        "description": "ಪೂರ್ಣ ನಿಯಂತ್ರಕ ಅನುಸರಣೆ ಮತ್ತು ದಸ್ತಾವೇಜೀಕರಣ"
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
       },
       "marketing": {
-        "title": "ಮಾರ್ಕೆಟಿಂಗ್ ಬೆಂಬಲ",
-        "description": "ಪ್ರಚಾರ ಸಾಮಗ್ರಿಗಳು ಮತ್ತು ಸ್ಥಳೀಯ ಮಾರುಕಟ್ಟೆ ನೆರವು"
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
       }
     }
   },
   "comparison": {
-    "title": "ಫ್ರ್ಯಾಂಚೈಸ್ ಮಾದರಿಗಳ ಹೋಲಿಕೆ",
-    "subtitle": "ನಿಮ್ಮ ಹೂಡಿಕೆ ಸಾಮರ್ಥ್ಯಕ್ಕೆ ಸೂಕ್ತವಾದ ಫ್ರ್ಯಾಂಚೈಸ್ ಮಾದರಿಯನ್ನು ಆರಿಸಿ.",
+    "title": "ಫ್ರಾಂಚೈಸಿ Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capaನಗರ",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low ಹೂಡಿಕೆ",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium ಫ್ರಾಂಚೈಸಿ model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "ಹೂಡಿಕೆ Details",
+    "revenueStreams": "ಆದಾಯ Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "ಪ್ರಾರಂಭಿಸಿ",
     "models": {
       "basic": {
-        "name": "ಮೂಲಭೂತ",
-        "investment": "₹2-5 ಲಕ್ಷ",
-        "atms": "1-2 ಎಟಿಎಂಗಳು",
-        "roi": "ವಾರ್ಷಿಕ 15-18%",
-        "support": "ಪ್ರಮಾಣಿತ ಬೆಂಬಲ",
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 ಎಟಿಎಂs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
         "features": [
           "Single location setup",
           "Basic training program",
@@ -167,11 +187,11 @@
         ]
       },
       "professional": {
-        "name": "ವೃತ್ತಿಪರ",
-        "investment": "₹5-10 ಲಕ್ಷಗಳು",
-        "atms": "3-5 ಎಟಿಎಂಗಳು",
-        "roi": "18-22% ವಾರ್ಷಿಕ",
-        "support": "ಆದ್ಯತೆಯ ಬೆಂಬಲ",
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 ಎಟಿಎಂs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
         "features": [
           "Multiple location setup",
           "Advanced training program",
@@ -182,11 +202,11 @@
         "popular": true
       },
       "enterprise": {
-        "name": "ಉದ್ಯಮ",
-        "investment": "₹10+ ಲಕ್ಷಗಳು",
-        "atms": "6+ ಎಟಿಎಂಗಳು",
-        "roi": "22-25% ವಾರ್ಷಿಕ",
-        "support": "ಪ್ರೀಮಿಯಂ ಬೆಂಬಲ",
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ ಎಟಿಎಂs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
         "features": [
           "Unlimited locations",
           "Executive training program",
@@ -197,50 +217,54 @@
         ]
       }
     },
-    "cta": "ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಆರಿಸಿ"
+    "cta": "ಆಯ್ಕೆಮಾಡಿ Your Plan"
   },
   "wlaOperators": {
-    "title": "ಭಾರತದ ಪ್ರಮುಖ WLA ನಿರ್ವಾಹಕರು",
-    "subtitle": "ಎಟಿಎಂ ಕಾರ್ಯಾಚರಣೆಗಳಲ್ಲಿ ಅತ್ಯಂತ ವಿಶ್ವಾಸಾರ್ಹ ಹೆಸರುಗಳೊಂದಿಗೆ ಪಾಲುದಾರಿಕೆ",
-    "description": "ನಿಮಗೆ ಉತ್ತಮ ಅವಕಾಶಗಳನ್ನು ಒದಗಿಸಲು ನಾವು ಎಲ್ಲಾ ಪ್ರಮುಖ ವೈಟ್ ಲೇಬಲ್ ಎಟಿಎಂ ಆಪರೇಟರ್‌ಗಳೊಂದಿಗೆ ಕೆಲಸ ಮಾಡುತ್ತೇವೆ."
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in ಎಟಿಎಂ operations",
+    "description": "We work with all major White Label ಎಟಿಎಂ operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
-    "title": "ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು",
-    "subtitle": "ATM ಫ್ರಾಂಚೈಸಿ ಬಗ್ಗೆ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ",
     "questions": {
       "investment": {
-        "question": "ಅಗತ್ಯವಿರುವ ಕನಿಷ್ಠ ಹೂಡಿಕೆ ಎಷ್ಟು?",
-        "answer": "1-2 ಎಟಿಎಂಗಳನ್ನು ಹೊಂದಿರುವ ಮೂಲ ಫ್ರಾಂಚೈಸ್ ಮಾದರಿಗೆ ಕನಿಷ್ಠ ಹೂಡಿಕೆ ₹2 ಲಕ್ಷದಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ."
+        "question": "What is the minimum ಹೂಡಿಕೆ required?",
+        "answer": "The minimum ಹೂಡಿಕೆ starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
-        "question": "ನಾನು ಯಾವ ರೀತಿಯ ಆದಾಯವನ್��ು ನಿರೀಕ್ಷಿಸಬಹುದು?",
-        "answer": "ಸ್ಥಳ ಮತ್ತು ವಹಿವಾಟಿನ ಪ್ರಮಾಣವನ್ನು ಅವಲಂಬಿಸಿ ನೀವು 15-25% ವಾರ್ಷಿಕ ಆದಾಯವನ್ನು ನಿರೀಕ್ಷಿಸಬಹುದು."
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
-        "question": "ನೀವು ಯಾವ ಬೆಂಬಲವನ್ನು ನೀಡುತ್ತೀರಿ?",
-        "answer": "ನಾವು ಸ್ಥಳ ಆಯ್ಕೆ, ಸ್ಥಾಪನೆ, ನಿರ್ವಹಣೆ, ನಗದು ನಿರ್ವಹಣೆ ಮತ್ತು 24/7 ತಾಂತ್ರಿಕ ನೆರವು ಸೇರಿದಂತೆ ಸಂಪೂರ್ಣ ಬೆಂಬಲವನ್ನು ಒದಗಿಸುತ್ತೇವೆ."
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site ಆಯ್ಕೆಮಾಡಿion, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
-        "question": "ನನಗೆ ಪೂರ್ವಾನುಭವ ಬೇಕೇ?",
-        "answer": "ಯಾವುದೇ ಪೂರ್ವ ಅನುಭವದ ಅಗತ್ಯವಿಲ್ಲ. ನಾವು ಸಮಗ್ರ ತರಬೇತಿ ಮತ್ತು ನಿರಂತರ ಬೆಂಬಲವನ್ನು ಒದಗಿಸುತ್ತೇವೆ."
+        "question": "Do I need prior experience?",
+        "answer": "ಇಲ್ಲ prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
-        "question": "ನನ್ನ ಎಟಿಎಂ ಸ್ಥಳಗಳನ್ನು ನಾನು ಆಯ್ಕೆ ಮಾಡಬಹುದೇ?",
-        "answer": "ಹೌದು, ನೀವು ಸ್ಥಳಗಳನ್ನು ಸೂಚಿಸಬಹುದು. ಗರಿಷ್ಠ ಆದಾಯಕ್ಕಾಗಿ ಉತ್ತಮ ಸ್ಥಳಗಳನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ ಅಂತಿಮಗೊಳಿಸಲು ನಮ್ಮ ತಂಡವು ಸಹಾಯ ಮಾಡುತ್ತದೆ."
+        "question": "Can I choose my ಎಟಿಎಂ locations?",
+        "answer": "ಹೌದು, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
-        "question": "ಒಪ್ಪಂದದ ಅವಧಿ ಎಷ್ಟು?",
-        "answer": "ಪ್ರಮಾಣಿತ ಫ್ರ್ಯಾಂಚೈಸ್ ಒಪ್ಪಂದವು 5 ವರ್ಷಗಳ ಅವಧಿಗೆ ಇದ್ದು, ನವೀಕರಿಸುವ ಆಯ್ಕೆಯೂ ಇದೆ."
+        "question": "What is the contract duration?",
+        "answer": "The standard ಫ್ರಾಂಚೈಸಿ agreement is for 5 years with an option to renew."
       }
     }
   },
   "getStarted": {
-    "title": "ನಿಮ್ಮ ಎಟಿಎಂ ಫ್ರ್ಯಾಂಚೈಸ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಾ?",
-    "subtitle": "ಭಾರತದ ಅತ್ಯಂತ ವೇಗವಾಗಿ ಬೆಳೆಯ���ತ್ತಿರುವ ಎಟಿಎಂ ಜಾಲಕ್ಕೆ ಇಂದೇ ಸೇರಿ",
+    "title": "Ready to Start Your ಎಟಿಎಂ ಫ್ರಾಂಚೈಸಿ?",
+    "subtitle": "Join India's fastest growing ಎಟಿಎಂ network today",
     "cta": {
-      "apply": "ಈಗಲೇ ಅನ್ವಯಿಸಿ",
-      "call": "ನಮಗೆ ಕರೆ ಮಾಡಿ",
-      "schedule": "ಸಭೆಯ ವೇಳಾಪಟ್ಟಿ"
+      "apply": "ಅರ್ಜಿ ಸಲ್ಲಿಸಿ Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
     }
   }
 }

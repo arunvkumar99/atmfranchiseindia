@@ -1,12 +1,12 @@
 {
-  "title": "રિફંડ નીતિ",
-  "lastUpdated": "છેલ્લે અપડેટ કરેલ",
+  "title": "Refund Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "overview": "નીતિ ઝાંખી",
-    "eligibility": "રિફંડ પાત્રતા",
-    "process": "રિફંડ પ્રક્રિયા",
-    "timeline": "સમયરેખા પર પ્રક્રિયા કરી રહ્યા છીએ",
-    "exceptions": "અપવાદો",
-    "contact": "રિફંડ માટે સંપર્ક કરો"
+    "overview": "Policy Overview",
+    "eligibility": "Refund Eligibility",
+    "process": "Refund Process",
+    "timeline": "Processing Timeline",
+    "exceptions": "Exceptions",
+    "contact": "Contact for Refunds"
   }
 }

@@ -2,14 +2,26 @@
   "title": "শর্তাবলী",
   "lastUpdated": "শেষ আপডেট করা হয়েছে",
   "sections": {
-    "acceptance": "শর্তাবলীর গ্রহণযোগ্যতা",
-    "services": "পরিষেবার বিবরণ",
+    "acceptance": {
+      "title": "[NEEDS TRANSLATION: sections.acceptance.title]",
+      "content": "[NEEDS TRANSLATION: sections.acceptance.content]",
+      "point1": "[NEEDS TRANSLATION: sections.acceptance.point1]",
+      "point2": "[NEEDS TRANSLATION: sections.acceptance.point2]",
+      "point3": "[NEEDS TRANSLATION: sections.acceptance.point3]"
+    },
     "userResponsibilities": "ব্যবহারকারীর দায়িত্ব",
     "intellectualProperty": "বৌদ্ধিক সম্পত্তি",
     "limitations": "দায়বদ্ধতার সীমাবদ্ধতা",
     "indemnification": "ক্ষতিপূরণ",
     "termination": "সমাপ��তি",
     "governingLaw": "পরিচালনা আইন",
-    "contact": "যোগাযোগের তথ্য"
+    "contact": {
+      "title": "[NEEDS TRANSLATION: sections.contact.title]",
+      "content": ", :",
+      "email": "legal@atmfranchiseindia.com",
+      "phone": "+91 98765 43210",
+      "effective": "2025 -"
+    },
+    "services": "Services Description"
   }
 }

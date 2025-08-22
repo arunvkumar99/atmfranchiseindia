@@ -1,15 +1,15 @@
 {
-  "title": "شرائط و ضوابط",
-  "lastUpdated": "آخری تازہ کاری",
+  "title": "Terms and Conditions",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "acceptance": "شرائط کی قبولیت",
-    "services": "خدمات کی تفصیل",
-    "userResponsibilities": "صارف کی ذمہ داریاں",
-    "intellectualProperty": "انٹلیکچوئل پراپرٹی",
-    "limitations": "ذمہ داری کی حدود",
-    "indemnification": "معاوضہ",
-    "termination": "ختم کرنا",
-    "governingLaw": "گورننگ قانون",
-    "contact": "رابطہ کی معلومات"
+    "acceptance": "Acceptance of Terms",
+    "services": "Services Description",
+    "userResponsibilities": "User Responsibilities",
+    "intellectualProperty": "Intellectual Property",
+    "limitations": "Limitations of Liability",
+    "indemnification": "Indemnification",
+    "termination": "Termination",
+    "governingLaw": "Governing Law",
+    "contact": "Contact Information"
   }
 }

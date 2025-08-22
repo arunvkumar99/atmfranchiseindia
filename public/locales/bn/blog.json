@@ -2,8 +2,40 @@
   "title": "ব্লগ এবং অন্তর্দৃষ্টি",
   "subtitle": "এটিএম শিল্পের সর্বশেষ খবর এবং অন্তর্দৃষ্টি",
   "hero": {
+    "badge": "ATM Business Insights",
     "heading": "শিল্প অন্তর্দৃষ্টি এবং আপডেট",
     "description": "এটিএম ব্যবসার সর্বশেষ প্রবণতা সম্পর্কে অবগত থাকুন"
+  },
+  "featured": {
+    "badge": "Featured Article",
+    "readArticle": "Read Article"
+  },
+  "articles": {
+    "article1": {
+      "title": "Why 2025 is the Perfect Time to Start Your Side Hustle",
+      "excerpt": "Discover why now is the ideal moment to launch your entrepreneurial journey with an ATM franchise business in India's growing digital economy.",
+      "category": "Business Strategy"
+    },
+    "article2": {
+      "title": "Building Passive Income for Financial Freedom",
+      "excerpt": "Learn how successful entrepreneurs are creating sustainable passive income streams through smart ATM franchise investments.",
+      "category": "Financial Planning"
+    },
+    "article3": {
+      "title": "The Truth About Passive Income Ideas That Actually Work",
+      "excerpt": "Cut through the noise and discover legitimate passive income opportunities that deliver real returns in the Indian market.",
+      "category": "Investment Guide"
+    },
+    "article4": {
+      "title": "ATM Franchise: Your Gateway to Passive Income",
+      "excerpt": "Explore how ATM franchises are becoming the preferred choice for investors seeking reliable passive income in India.",
+      "category": "Franchise Opportunities"
+    },
+    "article5": {
+      "title": "5-Step Guide to Starting Your ATM Business",
+      "excerpt": "A comprehensive roadmap to launching your successful ATM franchise business with minimal investment and maximum returns.",
+      "category": "Getting Started"
+    }
   },
   "categories": {
     "all": "সকল পোস্ট",
@@ -17,7 +49,13 @@
     "minRead": "কমপক্ষে পড়া",
     "by": "দ্বারা",
     "published": "প্রকাশিত তারিখ",
-    "share": "নিবন্ধ শেয়ার করুন"
+    "share": "নিবন্ধ শেয়ার করুন",
+    "date": "December 2024"
+  },
+  "cta": {
+    "heading": "Ready to Start Your ATM Business Journey?",
+    "description": "Join thousands of successful franchise partners who are building their financial future with India's leading ATM franchise network.",
+    "button": "Become a Franchise Partner"
   },
   "newsletter": {
     "title": "নিউজলেটার সাবস্ক্রাইব করুন",

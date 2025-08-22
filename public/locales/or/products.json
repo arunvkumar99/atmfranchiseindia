@@ -1,137 +1,213 @@
 {
-  "title": "ଆମର ଉତ୍ପାଦ ଏବଂ ସେବାଗୁଡ଼ିକ",
-  "subtitle": "ଆପଣଙ୍କ ସଫଳତା ପାଇଁ ବ୍ୟାପକ ଆର୍ଥିକ ସମାଧାନ",
+  "title": "Our Products & Services",
+  "subtitle": "Comprehensive financial solutions for your success",
   "atm": {
-    "title": "ଏଟିଏମ୍ ଫ୍ରାଞ୍ଚାଇଜ୍",
-    "description": "ସଂସ୍ଥାପନ, ରକ୍ଷଣାବେକ୍ଷଣ ଏବଂ ସମର୍ଥନ ସହିତ ସମ୍ପୂର୍ଣ୍ଣ ATM ଫ୍ରାଞ୍ଚାଇଜ୍ ସମାଧାନ",
+    "title": "ATM Franchise",
+    "description": "Complete ATM franchise solution with installation, maintenance, and support",
     "features": {
-      "installation": "ମାଗଣା ସଂସ୍ଥାପନ ଏବଂ ସେଟଅପ୍",
-      "maintenance": "ନିୟମିତ ରକ୍ଷଣାବେକ୍ଷଣ",
-      "cash": "ନଗଦ ପରିଚାଳନା ସହାୟତା",
-      "monitoring": "24/7 ରିମୋଟ୍ ମନିଟରିଂ",
-      "insurance": "ବ୍ୟାପକ ବୀମା",
-      "branding": "କଷ୍ଟମ୍ ବ୍ରାଣ୍ଡିଂ ବିକଳ୍ପଗୁଡ଼ିକ"
+      "installation": "Free Installation & Setup",
+      "maintenance": "Regular Maintenance",
+      "cash": "Cash Management Support",
+      "monitoring": "24/7 Remote Monitoring",
+      "insurance": "Comprehensive Insurance",
+      "branding": "Custom Branding Options"
     },
     "benefits": {
-      "title": "ଲାଭ",
-      "passive": "ନିଷ୍କ୍ରିୟ ଆୟ ସୃଷ୍ଟି",
-      "commission": "ଆକର୍ଷଣୀୟ କମିଶନ ଗଠନ",
-      "footfall": "ଆପଣଙ୍କ ବ୍ୟବସାୟରେ ବୃଦ୍ଧି ପାଇଥିବା ଲୋକଙ୍କ ସଂଖ୍ୟା",
-      "community": "ସମ୍ପ୍ରଦାୟ ପାଇଁ ସେବା",
-      "support": "ସମ୍ପୂର୍ଣ୍ଣ ଯାନ୍ତ୍ରିକ ସହାୟତା"
+      "title": "Benefits",
+      "passive": "Passive Income Generation",
+      "commission": "Attractive Commission Structure",
+      "footfall": "Increased Footfall to Your Business",
+      "community": "Service to Community",
+      "support": "Complete Technical Support"
     }
   },
   "microAtm": {
-    "title": "ମାଇକ୍ରୋ ଏଟିଏମ୍ ସେବା",
-    "description": "ଗ୍ରାମୀଣ ଏବଂ ଅର୍ଦ୍ଧ-ସହରୀ ଅଞ୍ଚଳ ପାଇଁ ପୋର୍ଟେବଲ୍ ବ୍ୟାଙ୍କିଂ ସମାଧାନ",
+    "title": "Micro ATM Services",
+    "description": "Portable banking solution for rural and semi-urban areas",
     "features": {
-      "portable": "ପୋର୍ଟେବଲ୍ ଡିଭାଇସ୍",
-      "biometric": "ବାୟୋମେଟ୍ରିକ୍ ପ୍ରମାଣୀକରଣ",
-      "cardless": "କାର୍ଡଲେସ୍ ଟ୍ରାଞ୍ଜାକ୍ସନ୍",
-      "multilingual": "ବହୁଭାଷୀ ସମର୍ଥନ",
-      "offline": "ଅଫଲାଇନ୍ କାରବାର କ୍ଷମତା"
+      "portable": "Portable Device",
+      "biometric": "Biometric Authentication",
+      "cardless": "Cardless Transactions",
+      "multilingual": "Multi-lingual Support",
+      "offline": "Offline Transaction Capability"
     }
   },
   "aeps": {
-    "title": "AEPS ସେବାଗୁଡ଼ିକ",
-    "description": "ଅନ୍ତର୍ଭୁକ୍ତ ବ୍ୟାଙ୍କିଙ୍ଗ ପାଇଁ ଆଧାର ସକ୍ଷମ ପେମେଣ୍ଟ ସିଷ୍ଟମ",
+    "title": "AEPS Services",
+    "description": "Aadhaar Enabled Payment System for inclusive banking",
     "services": {
-      "withdrawal": "ନଗଦ ଉଠାଣ",
-      "deposit": "ନଗଦ ଜମା",
-      "balance": "ବ୍ୟାଲେନ୍ସ ଯାଞ୍ଚ",
-      "miniStatement": "କ୍ଷୁଦ୍ର ବକ୍ତବ୍ୟ",
-      "transfer": "ପାଣ୍ଠି ସ୍ଥାନାନ୍ତର"
+      "withdrawal": "Cash Withdrawal",
+      "deposit": "Cash Deposit",
+      "balance": "Balance Enquiry",
+      "miniStatement": "Mini Statement",
+      "transfer": "Fund Transfer"
     }
   },
   "dmt": {
-    "title": "ଘରୋଇ ଅର୍ଥ ସ୍ଥାନାନ୍ତର",
-    "description": "ସାରା ଭାରତରେ ତୁରନ୍ତ ଟଙ୍କା ସ୍ଥାନାନ୍ତର ସେବା",
+    "title": "Domestic Money Transfer",
+    "description": "Instant money transfer services across India",
     "features": {
-      "instant": "ତୁରନ୍ତ ସ୍ଥାନାନ୍ତର",
-      "secure": "୧୦୦% ସୁରକ୍ଷିତ",
-      "panIndia": "ପ୍ୟାନ୍ ଇଣ୍ଡିଆ କଭରେଜ୍",
-      "limits": "ଉଚ୍ଚ କାରବାର ସୀମା",
-      "tracking": "ରିଅଲ୍-ଟାଇମ୍ ଟ୍ରାକିଂ"
+      "instant": "Instant Transfer",
+      "secure": "100% Secure",
+      "panIndia": "Pan India Coverage",
+      "limits": "High Transaction Limits",
+      "tracking": "Real-time Tracking"
     }
   },
   "billPayment": {
-    "title": "ବିଲ୍ ପେମେଣ୍ଟ ସେବା",
-    "description": "ସମସ୍ତ ଉପଯୋଗୀତା ଦେୟ ପାଇଁ ଏକ-ଷ୍ଟପ୍ ସମାଧାନ",
+    "title": "Bill Payment Services",
+    "description": "One-stop solution for all utility payments",
     "services": {
-      "electricity": "ବିଦ୍ୟୁତ ବିଲ୍",
-      "water": "ଜଳ ବିଲ୍",
-      "gas": "ପେଟ୍ରୋଲ ବିଲ୍",
-      "mobile": "ମୋବାଇଲ୍ ରିଚାର୍ଜ",
-      "dth": "DTH ରିଚାର୍ଜ",
-      "broadband": "ବ୍ରଡବ୍ୟାଣ୍ଡ ବିଲ୍"
+      "electricity": "Electricity Bills",
+      "water": "Water Bills",
+      "gas": "Gas Bills",
+      "mobile": "Mobile Recharge",
+      "dth": "DTH Recharge",
+      "broadband": "Broadband Bills"
     }
   },
   "insurance": {
-    "title": "ବୀମା ସେବାଗୁଡ଼ିକ",
-    "description": "ବ୍ୟାପକ ବୀମା ସମାଧାନ",
+    "title": "Insurance Services",
+    "description": "Comprehensive insurance solutions",
     "types": {
-      "life": "ଜୀବନ ବୀମା",
-      "health": "ସ୍ୱାସ୍ଥ୍ୟ ବୀମା",
-      "vehicle": "ଯାନବାହନ ବୀମା",
-      "shop": "ଦୋକାନ ବୀମା"
+      "life": "Life Insurance",
+      "health": "Health Insurance",
+      "vehicle": "Vehicle Insurance",
+      "shop": "Shop Insurance"
     }
   },
   "packages": {
-    "title": "ଫ୍ରାଞ୍ଚାଇଜ୍ ପ୍ୟାକେଜଗୁଡ଼ିକ",
-    "subtitle": "ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଅନୁଯାୟୀ ପ୍ୟାକେଜ୍ ବାଛନ୍ତୁ।",
+    "title": "Franchise Packages",
+    "subtitle": "Choose the package that suits your needs",
     "basic": {
-      "name": "ମୌଳିକ ପ୍ୟାକେଜ୍",
-      "price": "₹୫୦,୦୦୦",
+      "name": "Basic Package",
+      "price": "₹50,000",
       "features": [
-        "ଏକକ ATM ସଂସ୍ଥାପନ",
-        "ମୌଳିକ ତାଲିମ",
-        "ମାନକ ସମର୍ଥନ",
-        "ମାସିକ ରକ୍ଷଣାବେକ୍ଷଣ"
+        "Single ATM Installation",
+        "Basic Training",
+        "Standard Support",
+        "Monthly Maintenance"
       ]
     },
     "silver": {
-      "name": "ସିଲଭର ପ୍ୟାକେଜ୍",
-      "price": "₹୧,୫୦,୦୦୦",
+      "name": "Silver Package",
+      "price": "₹1,50,000",
       "features": [
-        "୨ଟି ଏଟିଏମ୍ ସଂସ୍ଥାପନ",
-        "ଉନ୍ନତ ତାଲିମ",
-        "ପ୍ରାଥମିକତା ସମର୍ଥନ",
-        "ମାର୍କେଟିଂ ସମର୍ଥନ",
-        "ଦୁଇ-ସାପ୍ତାହିକ ରକ୍ଷଣାବେକ୍ଷଣ"
+        "2 ATM Installations",
+        "Advanced Training",
+        "Priority Support",
+        "Marketing Support",
+        "Bi-weekly Maintenance"
       ]
     },
     "gold": {
-      "name": "ସୁନା ପ୍ୟାକେଜ୍",
-      "price": "₹୩,୦୦,୦୦୦",
+      "name": "Gold Package",
+      "price": "₹3,00,000",
       "features": [
-        "3+ ATM ସଂସ୍ଥାପନ",
-        "ବ୍ୟାପକ ତାଲିମ",
-        "ଉତ୍ସର୍ଗୀକୃତ ସମର୍ଥନ ପରିଚାଳକ",
-        "ପୂର୍ଣ୍ଣ ମାର୍କେଟିଂ ସମର୍ଥନ",
-        "ସାପ୍ତାହିକ ରକ୍ଷଣାବେକ୍ଷଣ",
-        "ଅତିରିକ୍ତ ସେବା ସମନ୍ୱୟ"
+        "3+ ATM Installations",
+        "Comprehensive Training",
+        "Dedicated Support Manager",
+        "Full Marketing Support",
+        "Weekly Maintenance",
+        "Additional Services Integration"
       ]
     },
     "enterprise": {
-      "name": "ଏଣ୍ଟରପ୍ରାଇଜ୍ ପ୍ୟାକେଜ୍",
-      "price": "କଷ୍ଟମ୍",
+      "name": "Enterprise Package",
+      "price": "Custom",
       "features": [
-        "ଏକାଧିକ ATM ନେଟୱାର୍କ",
-        "କଷ୍ଟମ୍ ସମାଧାନ",
-        "ଉତ୍ସର୍ଗୀକୃତ ଦଳ",
-        "ହ୍ୱାଇଟ୍ ଲେବଲ୍ ବିକଳ୍ପଗୁଡ଼ିକ",
-        "API ଏକତ୍ରୀକରଣ",
-        "ରାଜସ୍ୱ ବଣ୍ଟନ ମଡେଲ୍"
+        "Multiple ATM Network",
+        "Custom Solutions",
+        "Dedicated Team",
+        "White Label Options",
+        "API Integration",
+        "Revenue Sharing Model"
       ]
     }
   },
   "comparison": {
-    "title": "ପ୍ୟାକେଜଗୁଡ଼ିକ ତୁଳନା କରନ୍ତୁ",
-    "features": "ବୈଶିଷ୍ଟ୍ୟଗୁଡିକ",
-    "investment": "ନିବେଶ",
-    "returns": "ଆଶାକରାଯାଇଥିବା ଫେରସ୍ତ",
-    "support": "ସମର୍ଥନ ସ୍ତର",
-    "training": "ତାଲିମ ଅବଧି",
-    "maintenance": "ରକ୍ଷଣାବେକ୍ଷଣ ଆବୃତ୍ତି"
+    "title": "Compare Packages",
+    "features": "Features",
+    "investment": "Investment",
+    "returns": "Expected Returns",
+    "support": "Support Level",
+    "training": "Training Duration",
+    "maintenance": "Maintenance Frequency"
+  },
+  "hero": {
+    "badge": "Premium Business Solutions",
+    "title": {
+      "main": "ATM Business",
+      "rotating": [
+        "Solutions",
+        "Advantage",
+        "Products",
+        "Success",
+        "Excellence"
+      ]
+    },
+    "titles": {
+      "solutions": "Solutions",
+      "advantage": "Advantage",
+      "products": "Products",
+      "success": "Success",
+      "excellence": "Excellence"
+    },
+    "subtitle": "Transform your entrepreneurial dreams into reality with our comprehensive ATM franchise solutions. Experience the perfect blend of technology, support, and profitability.",
+    "buttons": {
+      "explore": "Explore Solutions",
+      "contact": "Contact Us",
+      "franchise": "Become Franchise"
+    },
+    "stats": {
+      "partners": {
+        "value": "4+",
+        "label": "WLA Partners"
+      },
+      "care360": {
+        "value": "₹30K",
+        "label": "Care360 Value"
+      },
+      "visibility": {
+        "value": "₹3K",
+        "label": "Visibility Boost"
+      }
+    }
+  },
+  "partners": {
+    "sectionTitle": "Our Trusted WLA Partners",
+    "badge": "Premium Partnership Network",
+    "title": {
+      "part1": "WLA ATMs",
+      "part2": "Partnership"
+    },
+    "description": "Access India's most trusted White Label ATM operators through our exclusive partnership network. Choose from multiple operators based on your location and investment preferences.",
+    "vakrangee": {
+      "name": "Vakrangee",
+      "tagline": "Market Leader"
+    },
+    "findi": {
+      "name": "Findi",
+      "tagline": "Fast Growing"
+    },
+    "indiaone": {
+      "name": "India One",
+      "tagline": "Reliable Network"
+    },
+    "eps": {
+      "name": "EPS Bancs",
+      "tagline": "Proven Track Record"
+    },
+    "stats": {
+      "roi": {
+        "value": "12-18",
+        "label": "Months ROI"
+      },
+      "income": {
+        "value": "₹15K+",
+        "label": "Monthly Income"
+      }
+    },
+    "cta": "Start Your Franchise"
   }
 }

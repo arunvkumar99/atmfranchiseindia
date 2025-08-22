@@ -1,15 +1,15 @@
 {
-  "title": "నిబంధనలు మరియు షరతులు",
-  "lastUpdated": "చివరిగా నవీకరించబడింది",
+  "title": "Terms and Conditions",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "acceptance": "నిబంధనల అంగీకారం",
-    "services": "సేవల వివరణ",
-    "userResponsibilities": "వినియోగదారు బాధ్యతలు",
-    "intellectualProperty": "మేధో సంపత్తి",
-    "limitations": "బాధ్యత పరిమితులు",
-    "indemnification": "నష్టపరిహారం",
-    "termination": "రద్దు",
-    "governingLaw": "పాలక చట్టం",
-    "contact": "సంప్రదింపు సమాచారం"
+    "acceptance": "Acceptance of Terms",
+    "services": "Services Description",
+    "userResponsibilities": "User Responsibilities",
+    "intellectualProperty": "Intellectual Property",
+    "limitations": "Limitations of Liability",
+    "indemnification": "Indemnification",
+    "termination": "Termination",
+    "governingLaw": "Governing Law",
+    "contact": "Contact Information"
   }
 }

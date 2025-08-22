@@ -2,7 +2,45 @@
   "labels": {
     "fullName": "Full Name",
     "email": "Email Address",
-    "phone": "Phone Number"
+    "phone": "Phone Number",
+    "state": "State",
+    "city": "City",
+    "message": "Message",
+    "noticePeriod": "Notice Period",
+    "permanentAddress": "Permanent Address",
+    "currentAddress": "Current Address",
+    "panDocumentUpload": "PAN Document Upload",
+    "aadhaarFront": "Aadhaar Front Side",
+    "aadhaarBack": "Aadhaar Back Side",
+    "passportPhoto": "Passport Size Photo",
+    "dateOfBirthPan": "Date of Birth as in PAN Card",
+    "districtOfResidence": "District of Residence",
+    "aadhaarNumber": "Aadhaar Card Number (12 digits)",
+    "languagesYouSpeak": "Languages You Can Speak",
+    "whyJoinAgent": "Why do you want to Join Sahasra Network as Agent",
+    "joiningAs": "Are you Joining As (Please choose from Below):",
+    "professionalDetails": "Professional Details & Documents",
+    "onetime_cost": "One-time Cost",
+    "refundable_deposit": "Refundable Deposit",
+    "clf_working_capital": "CLF & Working Capital",
+    "cash_transaction": "Cash Transaction",
+    "noncash_transaction": "Non-cash Transaction",
+    "ad_revenue_share": "Ad Revenue Share"
+  },
+  "buttons": {
+    "submit": "Submit Application",
+    "chooseFile": "Choose File",
+    "takePhoto": "Take Photo",
+    "submitAgentApplication": "Submit Agent Application",
+    "submitInfluencerApplication": "Submit Influencer Application",
+    "submitLocationApplication": "Submit Location Application",
+    "submitEnquiry": "Submit Enquiry",
+    "submitJobApplication": "Submit Job Application",
+    "cancel": "Cancel",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "back": "Back"
   },
   "fields": {
     "fullName": "Full Name",
@@ -35,6 +73,31 @@
     "newsletter": "Subscribe to newsletter",
     "captcha": "Enter captcha"
   },
+  "dateOfBirth": {
+    "day": "Day"
+  },
+  "whatsapp": {
+    "placeholder": "WhatsApp active number"
+  },
+  "pan": {
+    "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+    "placeholder": "ABCDE1234F"
+  },
+  "state": {
+    "label": "State",
+    "placeholder": "Choose your state"
+  },
+  "months": {
+    "may": "May"
+  },
+  "gender": {
+    "label": "Select Your Gender"
+  },
+  "error": {
+    "fileUpload": "Unable to upload files. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "tryAgainOrContact": "Please try again or contact us directly."
+  },
   "placeholders": {
     "fullName": "Enter your full name",
     "email": "Enter your email address",
@@ -57,7 +120,43 @@
     "address_line2": "Area, Landmark",
     "your_city": "Your city",
     "district": "Enter your district",
-    "business_type": "Select business type"
+    "business_type": "Select business type",
+    "enterYourDistrict": "Enter your district",
+    "enterYourPermanentAddress": "Enter your permanent address",
+    "enterYourCurrentAddress": "Enter your current address",
+    "motivationAndGoals": "Tell us about your motivation and goals as an agent",
+    "day": "Day",
+    "primaryPhone": "Primary contact number",
+    "whatsappNumber": "WhatsApp active number",
+    "emailAddress": "Enter your email address",
+    "panFormat": "ABCDE1234F",
+    "aadhaarNumber": "123456789012",
+    "aadhaarFormat": "123456789012 (12 digits only)",
+    "permanentAddress": "Enter your permanent address here",
+    "currentAddress": "Enter your current address here",
+    "chooseState": "Choose your state",
+    "enterDistrict": "Enter your district",
+    "agentMotivation": "Tell us about your motivation and goals as an agent",
+    "selectJobPosition": "Select the position you're applying for",
+    "selectNoticePeriod": "Select your notice period",
+    "firstName": "Enter first name",
+    "lastName": "Enter last name",
+    "addressLine1": "House/Building number, Street name", 
+    "addressLine2": "Area, Landmark",
+    "yourCity": "Your city",
+    "sixDigitPincode": "6-digit pincode",
+    "selectBusinessType": "Select business type",
+    "selectInvestmentRange": "Select investment range",
+    "selectTimeline": "Select timeline",
+    "selectSource": "Select source",
+    "specificQuestions": "Any specific questions or requirements?",
+    "bankName": "Bank name",
+    "gstNumber": "GST registration number",
+    "facebookProfile": "https://facebook.com/yourprofile",
+    "instagramProfile": "https://instagram.com/yourprofile",
+    "youtubeChannel": "https://youtube.com/yourchannel",
+    "linkedinProfile": "https://linkedin.com/in/yourprofile",
+    "otherSocialMedia": "Any other social media platform"
   },
   "validation": {
     "required": "{{field}} is required",
@@ -82,7 +181,24 @@
     "file_size": "File size must be less than {{size}}MB",
     "file_type": "Only {{types}} files are allowed",
     "security_required": "Please complete the security verification before submitting",
-    "try_again": "Please try again or contact us directly"
+    "try_again": "Please try again or contact us directly",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "pan": "Please enter a valid PAN number",
+    "aadhaar": "Please enter a valid Aadhaar number",
+    "correctFields": "Please correct the following fields",
+    "enterCompletePermanentAddress": "Please enter complete permanent address (minimum 10 characters)",
+    "enterCompleteCurrentAddress": "Please enter complete current address (minimum 10 characters)",
+    "validName": "Valid name",
+    "validEmail": "Valid email",
+    "validPhone": "Valid phone number",
+    "selectJobPosition": "Please select a job position",
+    "enterExperience": "Please enter your experience",
+    "enterLocation": "Please enter your current location",
+    "enterSalary": "Please enter expected salary",
+    "selectNoticePeriod": "Please select notice period",
+    "securityVerificationRequired": "Security Verification Required",
+    "completeSecurityVerification": "Please complete the security verification before submitting."
   },
   "options": {
     "occupation": {
@@ -443,6 +559,29 @@
     },
     "months": {
       "may": "May"
+    },
+    "whatsapp": {
+      "placeholder": "WhatsApp active number"
+    },
+    "pan": {
+      "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "State",
+      "placeholder": "Choose your state"
+    },
+    "error": {
+      "fileUpload": "Unable to upload files. Please try again.",
+      "network": "Network error. Please check your connection.",
+      "tryAgainOrContact": "Please try again or contact us directly."
+    },
+    "validation": {
+      "email": "Please enter a valid email address",
+      "phone": "Please enter a valid phone number",
+      "pan": "Please enter a valid PAN number",
+      "aadhaar": "Please enter a valid Aadhaar number",
+      "correctFields": "Please correct the following fields"
     }
   }
 }

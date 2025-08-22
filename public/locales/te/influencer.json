@@ -1,21 +1,21 @@
 {
-  "title": "ఇన్ఫ్లుయెన్సర్ ప్రోగ్రామ్",
-  "subtitle": "ATM ఫ్రాంచైజీ అవకాశాలను ప్రోత్సహించడం ద్వారా సంపాదించండి",
+  "title": "Influencer Program",
+  "subtitle": "Earn by promoting ATM franchise opportunities",
   "hero": {
-    "badge": "ఇన్ఫ్లుయెన్సర్ భాగస్వామ్యం",
-    "heading": "ఇన్ఫ్లుయెన్సర్ భాగస్వామి అవ్వండి",
-    "description": "గణనీయమైన కమిషన్లు సంపాదించడానికి మీ ప్రభావాన్ని ఉపయోగించండి.",
-    "cta": "కార్యక్రమంలో చేరండి"
+    "badge": "Influencer Partnership",
+    "heading": "Become an Influencer Partner",
+    "description": "Use your influence to earn substantial commissions",
+    "cta": "Join Program"
   },
   "benefits": {
-    "title": "ఇన్ఫ్లుయెన్సర్‌గా ఎందుకు చేరాలి",
-    "earnings": "అధిక ఆదాయ సంభావ్యత",
-    "support": "మార్కెటింగ్ మద్దతు",
-    "materials": "రెడీ మెటీరియల్స్",
-    "tracking": "రియల్ టైమ్ ట్రాకింగ్"
+    "title": "Why Join as Influencer",
+    "earnings": "High Earnings Potential",
+    "support": "Marketing Support",
+    "materials": "Ready Materials",
+    "tracking": "Real-time Tracking"
   },
   "form": {
-    "title": "ఇన్ఫ్లుయెన్సర్ రిజిస్ట్రేషన్",
-    "submit": "ఇప్పుడే నమోదు చేసుకోండి"
+    "title": "Influencer Registration",
+    "submit": "Register Now"
   }
 }

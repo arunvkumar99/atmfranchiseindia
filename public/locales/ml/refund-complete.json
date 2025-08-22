@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "backToHome": "മുഖ്യ പേജിലേക്ക് മടങ്ങുക",
+    "badge": "[NEEDS TRANSLATION: hero.badge]",
+    "title": "തിരിച്ച്",
+    "subtitle": "[NEEDS TRANSLATION: hero.subtitle]"
+  },
+  "content": {
+    "intro": "[NEEDS TRANSLATION: content.intro]",
+    "intro2": "PixellPay Innovations Pvt Ltd തിരിച്ച് പ്രോസസ്സിംഗ്",
+    "general_refund_terms": "സാധുവായ തിരിച്ച്",
+    "refunds_in_case_of_customer_wi": "ഉപഭോക്താവ് തിരിച്ച്",
+    "refunds_where_principal_servic": "സേവന"
+  },
+  "sections": {
+    "general": {
+      "title": "സാധുവായ തിരിച്ച്",
+      "content": "സേവന സേവന , തിരിച്ച് , :",
+      "point1": "സേവന",
+      "point2": "തിരിച്ച്",
+      "point3": "തിരിച്ച് 60"
+    },
+    "withdrawal": {
+      "title": "ഉപഭോക്താവ് തിരിച്ച്",
+      "content": "ഉപഭോക്താവ് സേവന :",
+      "point1": "GST , തിരിച്ച്",
+      "point2": "കമ്പനി ₹10,000",
+      "point3": "തിരിച്ച്"
+    },
+    "principal": {
+      "title": "സേവന",
+      "content": "സേവന ( RBI- (WLA) TSI Findi, EPS Bancs, Vakrangee, India One):",
+      "point1": "പ്രോസസ്സിംഗ്",
+      "point2": "തിരിച്ച്",
+      "note": "ഉപഭോക്താവ് WLA തിരിച്ച്"
+    },
+    "process": {
+      "title": "തിരിച്ച്",
+      "intro": "തിരിച്ച് തിരിച്ച് , ദയവായി ബന്ധപ്പെടുക:",
+      "withInfo": "[NEEDS TRANSLATION: sections.process.withInfo]",
+      "item1": "[NEEDS TRANSLATION: sections.process.item1]",
+      "item2": "[NEEDS TRANSLATION: sections.process.item2]",
+      "item3": "സേവന",
+      "item4": "തിരിച്ച്",
+      "review": "[NEEDS TRANSLATION: sections.process.review]"
+    },
+    "timelines": {
+      "title": "[NEEDS TRANSLATION: sections.timelines.title]",
+      "content": "60 ,"
+    },
+    "disclaimer": {
+      "title": "[NEEDS TRANSLATION: sections.disclaimer.title]",
+      "content": "തിരിച്ച് ഉപഭോക്താവ് -"
+    }
+  }
+}

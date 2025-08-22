@@ -17,7 +17,6 @@
   },
   "sections": {
     "web": {
-      "title": "वेब पहुंच",
       "content": "हमारी वेबसाइट सहायक तकनीकों के साथ संगत होने के लिए डिज़ाइन की गई है और वेब सामग्री पहुंच दिशानिर्देश (WCAG) 2.1 मानकों का पालन करती है।",
       "items": [
         "सभी इंटरैक्टिव तत्वों के लिए कीबोर्ड नेविगेशन समर्थन",
@@ -27,7 +26,6 @@
       ]
     },
     "visual": {
-      "title": "दृश्य पहुंच",
       "content": "हम समझते हैं कि दृश्य हानि लोगों के हमारे प्लेटफ़ॉर्म के साथ इंटरैक्ट करने के तरीके को प्रभावित कर सकती है:",
       "items": [
         "वेबसाइट भर में बड़े, पढ़ने योग्य फॉन्ट",
@@ -35,30 +33,30 @@
         "केवल रंग के अलावा अन्य माध्यमों से दी गई जानकारी",
         "स्केलेबल टेक्स्ट जिसे कार्यक्षमता के नुकसान के बिना 200% तक बढ़ाया जा सकता है"
       ]
-    },
-    "motor": {
-      "title": "मोटर और संज्ञानात्मक पहुंच",
-      "content": "हम अपने इंटरफ़ेस को विभिन्न मोटर और संज्ञानात्मक क्षमताओं वाले लोगों द्वारा उपयोग करने योग्य बनाने के लिए डिज़ाइन करते हैं:",
-      "items": [
-        "आसान इंटरैक्शन के लिए बड़े क्लिक लक्ष्य",
-        "सरल और स्पष्ट नेविगेशन संरचना",
-        "सुसंगत लेआउट और डिज़ाइन पैटर्न",
-        "पूरे में स्पष्ट और सरल भाषा"
-      ]
-    },
-    "hearing": {
-      "title": "श्रवण पहुंच",
-      "content": "हमारा प्लेटफ़ॉर्म श्रवण हानि वाले उपयोगकर्ताओं के लिए पूरी तरह से सुलभ होने के लिए डिज़ाइन किया गया है:",
-      "items": [
-        "सभी ऑडियो संकेतों के लिए दृश्य संकेतक",
-        "ऑडियो सामग्री के लिए टेक्स्ट-आधारित विकल्प",
-        "कई संपर्क विधियां उपलब्ध"
-      ]
-    },
-    "feedback": {
-      "title": "प्रतिक्रिया और समर्थन",
-      "content": "हम एटीएम फ्रैंचाइज़ इंडिया की पहुंच पर आपकी प्रतिक्रिया का स्वागत करते हैं। यदि आपको पहुंच बाधाओं का सामना करना पड़े तो कृपया हमें बताएं:",
-      "response": "हम 5 व्यावसायिक दिनों के भीतर पहुंच प्रतिक्रिया का जवाब देने का प्रयास करते हैं।"
     }
+  },
+  "title": "Accessibility Statement",
+  "commitment": {
+    "title": "Our Commitment",
+    "description": "We are committed to ensuring digital accessibility for all users"
+  },
+  "standards": {
+    "title": "Accessibility Standards",
+    "wcag": "WCAG 2.1 Level AA Compliance",
+    "testing": "Regular Accessibility Testing",
+    "feedback": "User Feedback Integration"
+  },
+  "features": {
+    "title": "Accessibility Features",
+    "keyboard": "Keyboard Navigation",
+    "screenReader": "Screen Reader Support",
+    "contrast": "High Contrast Options",
+    "textSize": "Adjustable Text Size"
+  },
+  "contact": {
+    "title": "Accessibility Feedback",
+    "description": "We welcome your feedback on accessibility",
+    "email": "Email Us",
+    "phone": "Call Us"
   }
 }

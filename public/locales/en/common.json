@@ -1,4 +1,7 @@
 {
+  "messages": {
+    "get_detailed_information_and_start_your_franchise_": "Get detailed information and start your franchise journey today"
+  },
   "languages": {
     "en": "English",
     "hi": "हिन्दी",
@@ -46,6 +49,43 @@
     "register": "Register",
     "login": "Login",
     "finish": "Finish"
+  },
+  "content": {
+    "empowering_young_entrepreneurs": "Empowering Young Entrepreneurs",
+    "expert_team": "Expert Team",
+    "experienced_professionals_with": "Experienced professionals with deep industry knowledge",
+    "proven_results": "Proven Results",
+    "trusted_guidance": "Trusted Guidance",
+    "transparent_business_model": "Transparent business model",
+    "passive_income_generation": "Passive income generation",
+    "community_service_opportunity": "Community service opportunity",
+    "trusted": "Trusted",
+    "verified_partners": "Verified Partners",
+    "all_our_wla_partners_are_rbiap": "All our WLA partners are RBI-approved and have proven track records",
+    "growth_opportunities": "Growth Opportunities",
+    "access_to_diverse_markets_and_": "Access to diverse markets and expansion opportunities across India",
+    "technology_excellence": "Technology Excellence",
+    "latest_atm_technology_and_digi": "Latest ATM technology and digital banking solutions for competitive advantage"
+  },
+  "alt": {
+    "successful_young_entrepreneurs": "Successful young entrepreneurs celebrating business achievements",
+    "modern_atm_kiosk_representing_": "Modern ATM kiosk representing business opportunity",
+    "pixellpay_logo": "PixellPay Logo",
+    "evosyz_technology_logo": "Evosyz Technology Logo",
+    "eps_wla_partner": "EPS WLA Partner",
+    "india_wla_partner": "India WLA Partner",
+    "indicash_tata_product": "Indicash TATA Product",
+    "vakrangee_wla_partner": "Vakrangee WLA Partner",
+    "findi_atm_wla_partner": "Findi ATM WLA Partner",
+    "atm_agent_network_growth": "ATM Agent Network Growth",
+    "atm_franchise_india_logo": "ATM Franchise India Logo",
+    "influencer_partnership_growth": "Influencer Partnership Growth",
+    "atmInIndianSetting": "ATM in Indian semi-urban setting",
+    "sales_agent_opportunity": "Sales Agent Opportunity",
+    "young_indian_woman_influencer_": "Young Indian Woman Influencer for ATM Business",
+    "atm_franchise_india_career_opp": "ATM Franchise India Career Opportunity",
+    "young_entrepreneur_succeeding_": "Young entrepreneur succeeding in ATM franchise business",
+    "modern_atm_representing_busine": "Modern ATM representing business opportunity"
   },
   "forms": {
     "required": "This field is required",
@@ -211,5 +251,6 @@
   "confirm": "Confirm",
   "breadcrumb": {
     "home": "Home"
-  }
+  },
+  "copyright": "© 2025 ATM Franchise India. All rights reserved. | RBI Licensed Partners Only"
 }

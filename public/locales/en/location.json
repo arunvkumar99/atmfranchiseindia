@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "badge": "Professional Location Analysis",
+    "getYour": "Get Your",
+    "atmLocation": "ATM Location",
+    "analyzedByExperts": "Analyzed by Experts",
+    "description": "Submit your location details and receive a comprehensive analysis report within 24 hours.",
+    "expertEvaluate": "Our experts evaluate",
+    "footTraffic": "foot traffic",
+    "demographics": "demographics",
+    "and": "and",
+    "profitability": "profitability potential",
+    "submitButton": "Submit Location for Analysis"
+  },
+  "stats": {
+    "locations": "500+",
+    "analyzed": "Locations Analyzed",
+    "time": "24hrs",
+    "analysisTime": "Analysis Time",
+    "success": "95%",
+    "successRate": "Success Rate"
+  },
+  "content": {
+    "datadriven_analysis": "Data-Driven Analysis",
+    "professional_evaluation_using_": "Professional evaluation using real market data, advanced analytics and comprehensive demographic research",
+    "location_scoring": "Location Scoring",
+    "comprehensive_scoring_system_b": "Comprehensive scoring system based on foot traffic patterns, accessibility metrics and strategic positioning",
+    "expert_recommendations": "Expert Recommendations",
+    "actionable_insights_from_indus": "Actionable insights from industry experts with 5+ years of experience and proven track record",
+    "why_location_analysis": "Why Location Analysis",
+    "matters": "Matters",
+    "atm_business_success_depends": "The success of your ATM business depends heavily on location. Our expert analysis helps you make informed decisions and maximize your ROI."
+  },
+  "form": {
+    "title": "Submit Your ATM Location",
+    "subtitle": "Share your location details and become part of India's largest ATM network",
+    "agentAssistance": {
+      "title": "Agent Assistance",
+      "question": "Were you assisted by one of our agents?",
+      "yes": "Yes, I was assisted by an agent",
+      "no": "No, I found this independently"
+    },
+    "sections": {
+      "personal": "Personal Information",
+      "location": "Location Information",
+      "photos": "Location Photos",
+      "additional": "Additional Information"
+    },
+    "labels": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "whatsapp": "WhatsApp Number",
+      "state": "State",
+      "city": "City",
+      "district": "District",
+      "pincode": "Pincode",
+      "address": "Complete Address",
+      "locationName": "Location Name",
+      "googleMapsLink": "Google Maps Link",
+      "buildingPhoto": "Building Photo",
+      "roomSpacePhoto": "Room/Space Photo",
+      "additionalNotes": "Additional Notes"
+    },
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "email": "Enter your email address",
+      "phone": "10-digit mobile number",
+      "whatsapp": "WhatsApp number (optional)",
+      "state": "Choose your state",
+      "city": "Enter city name",
+      "district": "Enter district name",
+      "pincode": "6-digit pincode",
+      "address": "Enter complete address",
+      "locationName": "e.g., Shop name, Building name",
+      "googleMapsLink": "Paste Google Maps URL (optional)",
+      "additionalNotes": "Any additional information"
+    },
+    "buttons": {
+      "submit": "Submit Location",
+      "reset": "Reset Form",
+      "chooseFile": "Choose File",
+      "takePhoto": "Take Photo"
+    }
+  },
+  "results": {
+    "title": "Success Rate with Analysis",
+    "successRate": "85%",
+    "successDescription": "Locations analyzed by our experts show 85% higher success rates compared to random selections",
+    "avgRevenue": "Average Monthly Revenue",
+    "avgRevenueAmount": "₹50K",
+    "avgRevenueDescription": "Well-analyzed locations generate an average of ₹50,000+ monthly revenue with consistent growth",
+    "roiTimeline": "ROI Timeline",
+    "roiTimelineMonths": "12M",
+    "roiTimelineDescription": "Recover your investment within 12-15 months with the right location and proper strategy"
+  },
+  "testimonial": {
+    "quote": "Amazing service! They helped me find the perfect ATM location and the analysis was spot-on. The detailed report gave me confidence to invest and the results have exceeded expectations.",
+    "author": "Rajesh Kumar",
+    "role": "Successful ATM Operator"
+  },
+  "security": {
+    "secure": "Secure & Confidential",
+    "expertReview": "Expert Team Review",
+    "quickResponse": "Quick Response"
+  },
+  "contact": {
+    "callNow": "Call Us Now",
+    "emailUs": "Email Us"
+  }
+}

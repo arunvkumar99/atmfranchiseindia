@@ -1,3 +1,5 @@
+import { googleDriveService } from './googleDriveService';
+
 export interface FileUploadResult {
   url: string;
   path: string;
@@ -9,7 +11,7 @@ export const uploadFile = async (
   folder: string = 'documents'
 ): Promise<FileUploadResult> => {
   try {
-    console.log(`File upload disabled: ${file.name} (${file.size} bytes)`);
+    console.log(`Uploading file: ${file.name} (${file.size} bytes)`);
     
     // Validate file
     if (!file) {
@@ -24,48 +26,27 @@ export const uploadFile = async (
       throw new Error('File size exceeds 10MB limit');
     }
 
-    // Generate unique filename for reference
+    // Check file extension
     const fileExt = file.name.split('.').pop()?.toLowerCase();
     if (!fileExt) {
       throw new Error('File has no extension');
     }
-    
-    const timestamp = Date.now();
-    const randomId = Math.random().toString(36).substring(2);
-    const fileName = `${folder}/${timestamp}-${randomId}.${fileExt}`;
 
-    console.log(`File upload simulation: would upload to ${fileName}`);
+    // Upload to Google Drive
+    console.log('Uploading to Google Drive...');
+    const result = await googleDriveService.uploadFile(file, folder);
 
-    // For demo purposes, create a data URL from the file
-    const dataUrl = await new Promise<string>((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = () => resolve(reader.result as string);
-      reader.onerror = reject;
-      reader.readAsDataURL(file);
-    });
+    console.log('File uploaded successfully:', result.url);
 
-    console.log('File converted to data URL for local storage');
-
-    // Store file info in localStorage for demo
-    const fileInfo = {
-      name: file.name,
-      size: file.size,
-      type: file.type,
-      dataUrl,
-      path: fileName,
-      uploadedAt: new Date().toISOString()
-    };
-
-    const storedFiles = JSON.parse(localStorage.getItem('uploaded_files') || '[]');
-    storedFiles.push(fileInfo);
-    localStorage.setItem('uploaded_files', JSON.stringify(storedFiles));
-
+    // Return in expected format
     return {
-      url: dataUrl, // Return data URL instead of public URL
-      path: fileName
+      url: result.url,    // Public Google Drive URL
+      path: result.fileId // Use fileId as path for reference
     };
   } catch (error) {
-    if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('File upload error:', error); }
+    if (import.meta.env?.DEV) { 
+      console.error('File upload error:', error); 
+    }
     throw error;
   }
 };
@@ -75,16 +56,16 @@ export const deleteFile = async (
   bucket: string = 'atmfranchiseforms'
 ): Promise<void> => {
   try {
-    console.log(`File deletion disabled for: ${path}`);
+    console.log(`Deleting file: ${path}`);
     
-    // Remove from localStorage for demo
-    const storedFiles = JSON.parse(localStorage.getItem('uploaded_files') || '[]');
-    const updatedFiles = storedFiles.filter((file: any) => file.path !== path);
-    localStorage.setItem('uploaded_files', JSON.stringify(updatedFiles));
+    // Delete from Google Drive using fileId (stored as path)
+    await googleDriveService.deleteFile(path);
     
-    console.log('File removed from local storage');
+    console.log('File deleted successfully');
   } catch (error) {
-    if (import.meta.env?.DEV) if (import.meta.env.DEV) { console.error('File delete error:', error); }
+    if (import.meta.env?.DEV) { 
+      console.error('File delete error:', error); 
+    }
     throw error;
   }
 };

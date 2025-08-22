@@ -1,21 +1,21 @@
 {
-  "title": "एजंट बना",
-  "subtitle": "एटीएम एजंट म्हणून आमच्यासोबत भागीदारी करा आणि कमिशन मिळवा",
+  "title": "Become an Agent",
+  "subtitle": "Partner with us as an ATM agent and earn commission",
   "hero": {
-    "badge": "एजंट भागीदारी कार्यक्रम",
-    "heading": "एटीएम एजंट बना",
-    "description": "स्थिर कमिशन मिळवणाऱ्या यशस्वी एजंट्सच्या आमच्या नेटवर्कमध्ये सामील व्हा.",
-    "cta": "आत्ताच अर्ज करा"
+    "badge": "Agent Partnership Program",
+    "heading": "Become an ATM Agent",
+    "description": "Join our network of successful agents earning steady commission",
+    "cta": "Apply Now"
   },
   "benefits": {
-    "title": "एजंटचे फायदे",
-    "commission": "उच्चायुक्तालय",
-    "support": "पूर्ण पाठिंबा",
-    "training": "मोफत प्रशिक्षण",
-    "flexible": "लवचिक तास"
+    "title": "Agent Benefits",
+    "commission": "High Commission",
+    "support": "Full Support",
+    "training": "Free Training",
+    "flexible": "Flexible Hours"
   },
   "form": {
-    "title": "एजंट अर्ज फॉर्म",
-    "submit": "अर्ज सबमिट करा"
+    "title": "Agent Application Form",
+    "submit": "Submit Application"
   }
 }

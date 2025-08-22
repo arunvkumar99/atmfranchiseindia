@@ -1,23 +1,23 @@
 {
-  "title": "కెరీర్ అవకాశాలు",
-  "subtitle": "మా పెరుగుతున్న బృందంలో చేరండి",
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
   "hero": {
-    "heading": "మాతో మీ కెరీర్‌ను నిర్మించుకోండి",
-    "description": "ATM పరిశ్రమలో ఉత్తేజకరమైన అవకాశాలను అన్వేషించండి",
-    "cta": "ప్రారంభాలను చూడండి"
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
   },
   "positions": {
-    "title": "ఖాళీ స్థానాలు",
-    "location": "స్థానం",
-    "type": "ఉద్యోగ రకం",
-    "experience": "అనుభవం",
-    "apply": "ఇప్పుడు దరఖాస్తు చేసుకోండి"
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
   },
   "benefits": {
-    "title": "మాతో ఎందుకు పని చేయాలి",
-    "growth": "కెరీర్ వృద్ధి",
-    "culture": "గొప్ప సంస్కృతి",
-    "benefits": "పోటీ ప్రయోజనాలు",
-    "learning": "నిరంతర అభ్యాసం"
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
   }
 }

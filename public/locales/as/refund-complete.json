@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "backToHome": "[NEEDS TRANSLATION: hero.backToHome]",
+    "badge": "[NEEDS TRANSLATION: hero.badge]",
+    "title": "[NEEDS TRANSLATION: hero.title]",
+    "subtitle": "[NEEDS TRANSLATION: hero.subtitle]"
+  },
+  "content": {
+    "intro": "[NEEDS TRANSLATION: content.intro]",
+    "intro2": "PixellPay Innovations Pvt Ltd",
+    "general_refund_terms": "[NEEDS TRANSLATION: content.general_refund_terms]",
+    "refunds_in_case_of_customer_wi": "[NEEDS TRANSLATION: content.refunds_in_case_of_customer_wi]",
+    "refunds_where_principal_servic": "[NEEDS TRANSLATION: content.refunds_where_principal_servic]"
+  },
+  "sections": {
+    "general": {
+      "title": "[NEEDS TRANSLATION: sections.general.title]",
+      "content": ", , :",
+      "point1": "[NEEDS TRANSLATION: sections.general.point1]",
+      "point2": "[NEEDS TRANSLATION: sections.general.point2]",
+      "point3": "[NEEDS TRANSLATION: sections.general.point3]"
+    },
+    "withdrawal": {
+      "title": "[NEEDS TRANSLATION: sections.withdrawal.title]",
+      "content": "[NEEDS TRANSLATION: sections.withdrawal.content]",
+      "point1": "GST ,",
+      "point2": "₹10,000",
+      "point3": "[NEEDS TRANSLATION: sections.withdrawal.point3]"
+    },
+    "principal": {
+      "title": "[NEEDS TRANSLATION: sections.principal.title]",
+      "content": "( RBI- (WLA) TSI Findi, EPS Bancs, Vakrangee, India One):",
+      "point1": "[NEEDS TRANSLATION: sections.principal.point1]",
+      "point2": "[NEEDS TRANSLATION: sections.principal.point2]",
+      "note": "WLA"
+    },
+    "process": {
+      "title": "[NEEDS TRANSLATION: sections.process.title]",
+      "intro": ", :",
+      "withInfo": "[NEEDS TRANSLATION: sections.process.withInfo]",
+      "item1": "[NEEDS TRANSLATION: sections.process.item1]",
+      "item2": "[NEEDS TRANSLATION: sections.process.item2]",
+      "item3": "[NEEDS TRANSLATION: sections.process.item3]",
+      "item4": "[NEEDS TRANSLATION: sections.process.item4]",
+      "review": "[NEEDS TRANSLATION: sections.process.review]"
+    },
+    "timelines": {
+      "title": "[NEEDS TRANSLATION: sections.timelines.title]",
+      "content": "60 ,"
+    },
+    "disclaimer": {
+      "title": "[NEEDS TRANSLATION: sections.disclaimer.title]",
+      "content": "[NEEDS TRANSLATION: sections.disclaimer.content]"
+    }
+  }
+}

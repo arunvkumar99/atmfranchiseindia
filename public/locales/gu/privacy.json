@@ -1,15 +1,15 @@
 {
-  "title": "ગોપનીયતા નીતિ",
-  "lastUpdated": "છેલ્લે અપડેટ કરેલ",
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "introduction": "પરિચય",
-    "dataCollection": "માહિતી સંગ્રહ",
-    "dataUsage": "અમે તમારા ડેટાનો ઉપયોગ કેવી રીતે કરીએ છીએ",
-    "dataProtection": "ડેટા સુરક્ષા",
-    "cookies": "કૂકીઝ નીતિ",
-    "thirdParty": "તૃતીય પક્ષ સેવાઓ",
-    "userRights": "તમારા અધિકારો",
-    "contact": "સંપર્ક માહિતી",
-    "changes": "નીતિમાં ફેરફારો"
+    "introduction": "Introduction",
+    "dataCollection": "Data Collection",
+    "dataUsage": "How We Use Your Data",
+    "dataProtection": "Data Protection",
+    "cookies": "Cookies Policy",
+    "thirdParty": "Third Party Services",
+    "userRights": "Your Rights",
+    "contact": "Contact Information",
+    "changes": "Changes to Policy"
   }
 }

@@ -17,22 +17,7 @@ const LanguageSwitcher: React.FC = () => {
   );
 
   React.useEffect(() => {
-    const handleLanguageChange = (newLang: string) => {
-    // Validate language change
-    if (!newLang || newLang === '') {
-      console.warn('[LanguageSwitcher] Invalid language, defaulting to English');
-      newLang = 'en';
-    }
-    
-    // Clear any invalid stored values
-    if (newLang === 'en') {
-      localStorage.removeItem('i18nextLng');
-      localStorage.setItem('i18nextLng', 'en');
-    }
-    
-    changeLanguage(newLang);
-    console.log('[LanguageSwitcher] Language changed to:', newLang);
-  } = useTranslation();
+    const handleLanguageChange = (event: CustomEvent) => {
       setCurrentLanguage(event.detail.language);
     };
 

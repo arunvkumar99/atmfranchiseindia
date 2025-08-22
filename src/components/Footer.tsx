@@ -34,7 +34,7 @@ const Footer = () => {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <img 
-                  src="https://via.placeholder.com/150x50/ffffff/333333?text=ATM+Franchise" 
+                  src="/assets/atm-franchise-logo.png" 
                   alt={t('alt.atm_franchise_india_logo', 'ATM Franchise India Logo')} 
                   className="h-12 w-auto object-contain"
                 />
@@ -120,12 +120,12 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-background/70 text-sm font-body">
-              {t('copyright', '© 2025 ATM Franchise India. All rights reserved. | RBI Licensed Partners Only')}
+              {t('copyright')}
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-background/70">
-              <Link to="/about-us" className="hover:text-accent transition-colors font-body">{t('footer.aboutUs', 'About Us')}</Link>
-              <Link to="/contact-us" className="hover:text-accent transition-colors font-body">{t('footer.contactUs', 'Contact Us')}</Link>
+              <Link to="/about-us" className="hover:text-accent transition-colors font-body">{t('footer.aboutUs')}</Link>
+              <Link to="/contact-us" className="hover:text-accent transition-colors font-body">{t('footer.contactUs')}</Link>
             </div>
           </div>
         </div>

@@ -1,23 +1,23 @@
 {
-  "title": "ವೃತ್ತಿ ಅವಕಾಶಗಳು",
-  "subtitle": "ನಮ್ಮ ಬೆಳೆಯುತ್ತಿರುವ ತಂಡವನ್ನು ಸೇರಿ",
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
   "hero": {
-    "heading": "ನಮ್ಮೊಂದಿಗೆ ನಿಮ್ಮ ವೃತ್ತಿಜೀವನವನ್ನು ನಿರ್ಮಿಸಿ",
-    "description": "ಎಟಿಎಂ ಉದ್ಯಮದಲ್ಲಿನ ಅತ್ಯಾಕರ್ಷಕ ಅವಕಾಶಗಳನ್ನು ಅನ್ವೇಷಿಸಿ",
-    "cta": "ತೆರೆಯುವಿಕೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
   },
   "positions": {
-    "title": "ಖಾಲಿ ಹುದ್ದೆಗಳು",
-    "location": "ಸ್ಥಳ",
-    "type": "ಕೆಲಸದ ಪ್ರಕಾರ",
-    "experience": "ಅನುಭವ",
-    "apply": "ಈಗಲೇ ಅನ್ವಯಿಸಿ"
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
   },
   "benefits": {
-    "title": "ನಮ್ಮೊಂದಿಗೆ ಏಕೆ ಕೆಲಸ ಮಾಡಬೇಕು",
-    "growth": "ವೃತ್ತಿಜೀವನದ ಬೆಳವಣಿಗೆ",
-    "culture": "ಶ್ರೇಷ್ಠ ಸಂಸ್ಕೃತಿ",
-    "benefits": "ಸ್ಪರ್ಧಾತ್ಮಕ ಪ್ರಯೋಜನಗಳು",
-    "learning": "ನಿರಂತರ ಕಲಿಕೆ"
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
   }
 }

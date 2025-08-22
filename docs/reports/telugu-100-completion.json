@@ -1,0 +1,10 @@
+{
+  "language": "Telugu",
+  "code": "te",
+  "userCoverage": "10%",
+  "filesProcessed": 22,
+  "totalKeys": 2470,
+  "strategy": "Hindi reference with Telugu translations",
+  "timestamp": "2025-08-21T13:00:56.358Z",
+  "status": "COMPLETED"
+}

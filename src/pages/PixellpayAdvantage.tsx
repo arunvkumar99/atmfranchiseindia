@@ -31,7 +31,7 @@ const PixellpayAdvantage = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-3xl mx-auto">
               <img 
                 src={youngEntrepreneurImage}
-                alt={t('alt.young_entrepreneur_succeeding_', 'युवा उद्यमी एटीएम फ्रैंचाइज़ी व्यवसाय में सफलता प्राप्त कर रहा है')}
+                alt={t('alt.young_entrepreneur_succeeding_', 'Young entrepreneur succeeding in ATM franchise business')}
                 className="w-full h-48 md:h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/70 to-purple-600/50 flex items-center justify-center">
@@ -268,7 +268,7 @@ const PixellpayAdvantage = () => {
               <div className="relative">
                 <img 
                   src={modernAtmImage}
-                  alt={t('alt.modern_atm_representing_busine', 'आधुनिक एटीएम व्यावसायिक अवसर का प्रतिनिधित्व करता है')}
+                  alt={t('alt.modern_atm_representing_busine', 'Modern ATM representing business opportunity')}
                   className="w-full h-80 object-cover rounded-3xl shadow-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>

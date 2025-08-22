@@ -1,21 +1,21 @@
 {
-  "title": "ఏజెంట్ అవ్వండి",
-  "subtitle": "ATM ఏజెంట్‌గా మాతో భాగస్వామ్యం ఏర్పరచుకుని కమిషన్ సంపాదించండి",
+  "title": "Become an Agent",
+  "subtitle": "Partner with us as an ATM agent and earn commission",
   "hero": {
-    "badge": "ఏజెంట్ భాగస్వామ్య కార్యక్రమం",
-    "heading": "ATM ఏజెంట్ అవ్వండి",
-    "description": "స్థిరమైన కమిషన్ సంపాదించే మా విజయవంతమైన ఏజెంట్ల నెట్‌వర్క్‌లో చేరండి",
-    "cta": "ఇప్పుడు దరఖాస్తు చేసుకోండి"
+    "badge": "Agent Partnership Program",
+    "heading": "Become an ATM Agent",
+    "description": "Join our network of successful agents earning steady commission",
+    "cta": "Apply Now"
   },
   "benefits": {
-    "title": "ఏజెంట్ ప్రయోజనాలు",
-    "commission": "హై కమిషన్",
-    "support": "పూర్తి మద్దతు",
-    "training": "ఉచిత శిక్షణ",
-    "flexible": "సౌకర్యవంతమైన గంటలు"
+    "title": "Agent Benefits",
+    "commission": "High Commission",
+    "support": "Full Support",
+    "training": "Free Training",
+    "flexible": "Flexible Hours"
   },
   "form": {
-    "title": "ఏజెంట్ దరఖాస్తు ఫారమ్",
-    "submit": "దరఖాస్తును సమర్పించండి"
+    "title": "Agent Application Form",
+    "submit": "Submit Application"
   }
 }

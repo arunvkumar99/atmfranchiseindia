@@ -24,7 +24,7 @@ const Header = () => {
   // Hooks
   const location = useLocation();
   const navigate = useNavigate();
-  const { i18n, t } = useTranslation();
+  const { i18n, t } = useTranslation(['common', 'components']);
 
   // Enhanced dropdown handlers
   const handleDropdownEnter = useCallback(() => {

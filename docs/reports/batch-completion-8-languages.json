@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-08-21T13:03:15.680Z",
+  "languages": [
+    {
+      "language": "Marathi",
+      "code": "mr",
+      "userCoverage": "8%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    },
+    {
+      "language": "Gujarati",
+      "code": "gu",
+      "userCoverage": "5%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    },
+    {
+      "language": "Urdu",
+      "code": "ur",
+      "userCoverage": "4%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    },
+    {
+      "language": "Kannada",
+      "code": "kn",
+      "userCoverage": "3%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    },
+    {
+      "language": "Odia",
+      "code": "or",
+      "userCoverage": "2%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    },
+    {
+      "language": "Punjabi",
+      "code": "pa",
+      "userCoverage": "1.5%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    },
+    {
+      "language": "Assamese",
+      "code": "as",
+      "userCoverage": "1%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    },
+    {
+      "language": "Malayalam",
+      "code": "ml",
+      "userCoverage": "0.5%",
+      "filesProcessed": 22,
+      "totalKeys": 2470,
+      "status": "COMPLETED"
+    }
+  ],
+  "totalUserCoverage": "24.5%",
+  "strategy": "Hindi reference with basic translations"
+}

@@ -1,21 +1,21 @@
 {
-  "title": "ଜଣେ ଏଜେଣ୍ଟ ହୁଅନ୍ତୁ",
-  "subtitle": "ଆମ ସହିତ ଏକ ATM ଏଜେଣ୍ଟ ଭାବରେ ସହଭାଗୀ ହୁଅନ୍ତୁ ଏବଂ କମିଶନ ପାଆନ୍ତୁ।",
+  "title": "Become an Agent",
+  "subtitle": "Partner with us as an ATM agent and earn commission",
   "hero": {
-    "badge": "ଏଜେଣ୍ଟ ସହଭାଗୀତା କାର୍ଯ୍ୟକ୍ରମ",
-    "heading": "ଜଣେ ATM ଏଜେଣ୍ଟ ହୁଅନ୍ତୁ",
-    "description": "ସ୍ଥିର କମିଶନ ଅର୍ଜନ କରୁଥିବା ସଫଳ ଏଜେଣ୍ଟମାନଙ୍କ ନେଟୱାର୍କରେ ଯୋଗଦାନ କରନ୍ତୁ",
-    "cta": "ଏବେ ଆବେଦନ କରନ୍ତୁ"
+    "badge": "Agent Partnership Program",
+    "heading": "Become an ATM Agent",
+    "description": "Join our network of successful agents earning steady commission",
+    "cta": "Apply Now"
   },
   "benefits": {
-    "title": "ଏଜେଣ୍ଟ ଲାଭ",
-    "commission": "ହାଇ କମିଶନ୍",
-    "support": "ପୂର୍ଣ୍ଣ ସମର୍ଥନ",
-    "training": "ମାଗଣା ତାଲିମ",
-    "flexible": "ନମନୀୟ ସମୟ"
+    "title": "Agent Benefits",
+    "commission": "High Commission",
+    "support": "Full Support",
+    "training": "Free Training",
+    "flexible": "Flexible Hours"
   },
   "form": {
-    "title": "ଏଜେଣ୍ଟ ଆବେଦନ ଫର୍ମ",
-    "submit": "ଆବେଦନ ଦାଖଲ କରନ୍ତୁ"
+    "title": "Agent Application Form",
+    "submit": "Submit Application"
   }
 }

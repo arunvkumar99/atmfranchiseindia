@@ -1,426 +1,430 @@
 {
   "hero": {
-    "title": "మీ ATM – మీ ఆదాయం",
-    "subtitle": "తక్కువ పెట్టుబడి మరియు గరిష్ట రాబడితో మీ స్వంత ATM ఫ్రాంచైజ్ వ్యాపారాన్ని ప్రారంభించండి. భారతదేశం అంతటా RBI లైసెన్స్ పొందిన ఆపరేటర్లతో భాగస్వామిగా ఉండండి.",
-    "submitLocation": "ATM స్థానాన్ని సమర్పించండి",
-    "becomeFranchise": "ఫ్రాంచైజ్ అవ్వండి",
-    "description": "భారతదేశం అంతటా వేలాది విజయవంతమైన ఫ్రాంచైజ్ భాగస్వాములతో చేరండి. తక్కువ పెట్టుబడి, అధిక రాబడి, పూర్తి మద్దతు.",
+    "title": "Your ఏటీఎం – Your Income",
+    "subtitle": "Start your own ఏటీఎం ఫ్రాంచైజీ business with minimal investment and maximum returns. Partner with RBI licensed operators across India.",
+    "submitLocation": "ఏటీఎం స్థానాన్ని సమర్పించండి",
+    "becomeFranchise": "ఫ్రాంచైజీ అవ్వండి",
+    "description": "Join thousands of successful franchise partners across India. Low పెట్టుబడి, high returns, complete support.",
     "cta": {
-      "primary": "మీ ATM వ్యాపారాన్ని ప్రారంభించండి",
-      "secondary": "మరింత తెలుసుకోండి"
+      "primary": "Start Your ATM వ్యాపారం",
+      "secondary": "Learn More"
     },
     "stats": {
-      "franchises": "5000+ యాక్టివ్ ఫ్రాంచైజీలు",
-      "transactions": "10M+ నెలవారీ లావాదేవీలు",
-      "coverage": "పాన్ ఇండియా కవరేజ్",
-      "support": "24/7 మద్దతు"
+      "franchises": "5000+ Active ఫ్రాంచైజీs",
+      "transactions": "10M+ Monthly Transactions",
+      "coverage": "Pan India Coverage",
+      "support": "24/7 Support"
     }
   },
   "features": {
-    "title": "PixellPay ATM ఫ్రాంచైజీని ఎందుకు ఎంచుకోవాలి?",
-    "subtitle": "మీ వ్యాపార విజయానికి సమగ్ర మద్దతు",
+    "title": "Why Choose PixellPay ఏటీఎం ఫ్రాంచైజీ?",
+    "subtitle": "Comprehensive support for your వ్యాపారం success",
     "items": {
       "lowInvestment": {
-        "title": "తక్కువ పెట్టుబడి",
-        "description": "కనీస మూలధన పెట్టుబడితో మీ ATM వ్యాపారాన్ని ప్రారంభించండి"
+        "title": "Low పెట్టుబడి",
+        "description": "Start your ATM వ్యాపారం with minimal capital investment"
       },
       "highReturns": {
-        "title": "అధిక రాబడి",
-        "description": "ప్రతి లావాదేవీపై ఆకర్షణీయమైన కమీషన్లు సంపాదించండి"
+        "title": "High Returns",
+        "description": "Earn attractive commissions on every transaction"
       },
       "training": {
-        "title": "పూర్తి శిక్షణ",
-        "description": "సమగ్ర శిక్షణ మరియు కొనసాగుతున్న మద్దతు"
+        "title": "Complete Training",
+        "description": "Comprehensive training and ongoing support"
       },
       "technology": {
-        "title": "అధునాతన సాంకేతికత",
-        "description": "అత్యాధునిక ఫీచర్లతో కూడిన అత్యాధునిక ATM యంత్రాలు"
+        "title": "Advanced Techలేదుlogy",
+        "description": "రాష్ట్రం-of-the-art ATM machines with latest features"
       },
       "security": {
-        "title": "100% సురక్షితం",
-        "description": "అన్ని లావాదేవీలకు బ్యాంక్-గ్రేడ్ భద్రత"
+        "title": "100% Secure",
+        "description": "బ్యాంకు-grade security for all transactions"
       },
       "support": {
-        "title": "24/7 మద్దతు",
-        "description": "24 గంటలూ సాంకేతిక మరియు వ్యాపార మద్దతు"
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical and వ్యాపారం support"
       }
     },
     "roi": {
       "title": "upto 50%",
-      "subtitle": "Return On Investment",
-      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      "subtitle": "Return On పెట్టుబడి",
+      "description": "All Payout Received by RBI Licensed WLA ఏటీఎం Partners"
     },
     "penetration": {
       "title": "15 Per Lac",
-      "subtitle": "Only 15 ATMs per 1 Lac People",
-      "description": "ATM Penetration in India is very Low"
+      "subtitle": "Only 15 ఏటీఎంs per 1 Lac People",
+      "description": "ఏటీఎం Penetration in India is very Low"
     },
     "cash": {
       "title": "75% Cash",
       "subtitle": "Cash Circulation",
-      "description": "Indian Economy is still Largely Cash based"
+      "description": "Indian Ecoలేదుmy is still Largely Cash based"
     },
     "potential": {
       "title": "90% Potential",
-      "subtitle": "90% of Banks Offsite ATMs are closing down",
-      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
+      "subtitle": "90% of Banks Offsite ఏటీఎంs are closing down",
+      "description": "Banks Offsite ఏటీఎం Closure creates a Large market for ఏటీఎంs"
     }
   },
   "process": {
-    "title": "మీ ATM వ్యాపారాన్ని 5 సులభమైన దశల్లో ప్రారంభించండి",
-    "subtitle": "త్వరిత మరియు అవాంతరాలు లేని ఆన్‌బోర్డింగ్ ప్రక్రియ",
+    "title": "Start Your ATM వ్యాపారం in 5 Simple Steps",
+    "subtitle": "Quick and hassle-free onboarding process",
     "steps": {
       "apply": {
-        "title": "ఆన్‌లైన్‌లో దరఖాస్తు చేసుకోండి",
-        "description": "సరళమైన ఆన్‌లైన్ దరఖాస్తు ఫారమ్‌ను పూరించండి"
+        "title": "దరఖాస్తు చేయండి Online",
+        "description": "Fill out the simple online application form"
       },
       "verification": {
-        "title": "పత్ర ధృవీకరణ",
-        "description": "ధృవీకరణ కోసం అవసరమైన పత్రాలను సమర్పించండి"
+        "title": "Document Verification",
+        "description": "సమర్పించండి required documents for verification"
       },
       "agreement": {
-        "title": "ఒప్పందంపై సంతకం చేయండి",
-        "description": "ఫ్రాంచైజ్ ఒప్పందాన్ని సమీక్షించి సంతకం చేయండి"
+        "title": "Sign Agreement",
+        "description": "Review and sign the ఫ్రాంచైజీ agreement"
       },
       "setup": {
-        "title": "ATM సెటప్",
-        "description": "మేము పూర్తి ATM సంస్థాపన మరియు సెటప్‌ను నిర్వహిస్తాము."
+        "title": "ఏటీఎం Setup",
+        "description": "We handle complete ఏటీఎం installation and setup"
       },
       "earn": {
-        "title": "సంపాదించడం ప్రారంభించండి",
-        "description": "కార్యకలాపాల మొదటి రోజు నుండి సంపాదించడం ప్రారంభించండి"
+        "title": "Start Earning",
+        "description": "Begin earning from day one of operations"
       }
     }
   },
   "testimonials": {
-    "badge": "విజయ గాథలు",
-    "title": "మా భాగస్వాముల నుండి నిజమైన ఫలితాలు",
-    "subtitle": "మా మాట నమ్మకండి. భారతదేశం అంతటా మా ఫ్రాంచైజ్ భాగస్వాముల నుండి నిజమైన విజయగాథలు ఇక్కడ ఉన్నాయి.",
+    "badge": "విజయం Stories",
+    "title": "Real Results from Our Partners",
+    "subtitle": "Don't just take our word for it. Here are genuine success stories from our ఫ్రాంచైజీ partners across India.",
     "items": {
       "rajesh": {
-        "name": "రాజేష్ కుమార్",
-        "location": "ముంబై, మహారాష్ట్ర",
-        "business": "EPS ATM ఫ్రాంచైజ్",
-        "revenue": "నెలకు ₹45,000",
-        "testimonial": "ATM ఫ్రాంచైజ్ ఇండియా ప్రతి అడుగులోనూ నాకు మార్గనిర్దేశం చేసింది. 8 నెలల్లో, నేను అతి తక్కువ శ్రమతో నెలకు ₹45,000 సంపాదిస్తున్నాను. ఇప్పటివరకు అత్యుత్తమ పెట్టుబడి నిర్ణయం!"
+        "name": "Rajesh Kumar",
+        "location": "Mumbai, Maharashtra",
+        "business": "EPS ఏటీఎం ఫ్రాంచైజీ",
+        "revenue": "₹45,000/month",
+        "testimonial": "ఏటీఎం ఫ్రాంచైజీ India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
       },
       "priya": {
-        "name": "ప్రియా శర్మ",
-        "location": "బెంగళూరు, కర్ణాటక",
-        "business": "వక్రాంజీ భాగస్వామ్యం",
-        "revenue": "నెలకు ₹38,000",
-        "testimonial": "WLA భాగస్వామ్యాలలో ఈ బృందం యొక్క నైపుణ్యం సాటిలేనిది. నా ATM కేవలం 6 నెలల్లోనే నెలకు ₹38,000 స్థిరమైన ఆదాయాన్ని ఆర్జిస్తోంది."
+        "name": "Priya Sharma",
+        "location": "Bangalore, Karnataka",
+        "business": "Vakrangee Partnership",
+        "revenue": "₹38,000/month",
+        "testimonial": "The team's expertise in WLA partnerships is unmatched. My ఏటీఎం is generating consistent ₹38,000 monthly income in just 6 months."
       },
       "amit": {
-        "name": "అమిత్ పటేల్",
-        "location": "అహ్మదాబాద్, గుజరాత్",
-        "business": "ఇండికాష్ ఫ్రాంచైజ్",
-        "revenue": "నెలకు ₹52,000",
-        "testimonial": "వృత్తిపరమైన మార్గదర్శకత్వం మరియు పూర్తి పారదర్శకత. ₹52,000 నెలవారీ నిష్క్రియాత్మక ఆదాయంతో 14 నెలల్లో ROI సాధించబడింది. బాగా సిఫార్సు చేయబడింది!"
+        "name": "Amit Patel",
+        "location": "Ahmedabad, Gujarat",
+        "business": "Indicash ఫ్రాంచైజీ",
+        "revenue": "₹52,000/month",
+        "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
       },
       "sanjay": {
-        "name": "సంజయ్ వర్మ",
-        "location": "పూణే, మహారాష్ట్ర",
-        "business": "హిటాచీ ATM భాగస్వామి",
-        "revenue": "నెలకు ₹42,000",
-        "testimonial": "ప్రారంభం నుండి ముగింపు వరకు అద్భుతమైన మద్దతు లభించింది. సరైన స్థలాన్ని మరియు WLA భాగస్వామిని ఎంచుకోవడానికి బృందం నాకు సహాయపడింది. ఇప్పుడు కనీస రోజువారీ ప్రమేయంతో స్థిరమైన నిష్క్రియాత్మక ఆదాయాన్ని సంపాదిస్తున్నాను."
+        "name": "Sanjay Verma",
+        "location": "Pune, Maharashtra",
+        "business": "Hitachi ఏటీఎం Partner",
+        "revenue": "₹42,000/month",
+        "testimonial": "Excellent support from start to finish. The team helped me select the perfect location and WLA partner. లేదుw earning steady passive income with minimal daily involvement."
       }
     },
     "monthsLabel": "in {{months}} months",
     "performance": {
-      "title": "సగటు భాగస్వామి పనితీరు",
-      "income": "సగటు నెలవారీ ఆదాయం",
-      "roi": "ROI కి నెలలు",
-      "success": "విజయ రేటు"
+      "title": "Average Partner Performance",
+      "income": "Avg Monthly Income",
+      "roi": "Months to ROI",
+      "success": "విజయం Rate"
     }
   },
   "locations": {
-    "title": "భారతదేశం అంతటా మా ఉనికి",
-    "subtitle": "మీ నగరంలో ATM ఫ్రాంచైజీ అవకాశాలను కనుగొనండి",
-    "searchPlaceholder": "మీ నగరాన్ని శోధించండి...",
-    "viewAll": "అన్ని స్థానాలను చూడండి"
+    "title": "Our Presence Across India",
+    "subtitle": "Find ATM franchise opportunities in your నగరం",
+    "searchPlaceholder": "Search your నగరం...",
+    "viewAll": "View All Locations"
   },
   "cta": {
-    "title": "మీ ATM ఫ్రాంచైజీని ప్రారంభించడానికి సిద్ధంగా ఉన్నారా?",
-    "subtitle": "భారతదేశంలో అత్యంత వేగంగా అభివృద్ధి చెందుతున్న ATM నెట్‌వర్క్‌లో చేరండి",
-    "button": "ఇప్పుడు దరఖాస్తు చేసుకోండి",
-    "contact": "లేదా మాకు కాల్ చేయండి"
+    "title": "Ready to Start Your ఏటీఎం ఫ్రాంచైజీ?",
+    "subtitle": "Join India's fastest growing ఏటీఎం network",
+    "button": "దరఖాస్తు చేయండి Now",
+    "contact": "Or call us at"
   },
   "benefits": {
-    "title": "ATM ఫ్రాంచైజీ యొక్క ప్రయోజనాలు",
+    "title": "Benefits of ఏటీఎం ఫ్రాంచైజీ",
     "items": {
-      "passive": "నిష్క్రియాత్మక ఆదాయ ప్రవాహం",
-      "scalable": "స్కేలబుల్ వ్యాపార నమూనా",
-      "proven": "నిరూపితమైన వ్యాపార నమూనా",
-      "flexible": "సౌకర్యవంతమైన పని గంటలు",
-      "noInventory": "ఇన్వెంటరీ నిర్వహణ లేదు",
-      "digitalIndia": "డిజిటల్ ఇండియా మిషన్‌లో భాగం"
+      "passive": "Passive Income Stream",
+      "scalable": "Scalable వ్యాపారం Model",
+      "proven": "Proven వ్యాపారం Model",
+      "flexible": "Flexible Working Hours",
+      "noInventory": "లేదు Inventory Management",
+      "digitalIndia": "Part of Digital India Mission"
     }
   },
   "stats": {
-    "title": "సంఖ్యల ద్వారా PixellPay",
-    "activeFranchises": "యాక్టివ్ ఫ్రాంచైజీలు",
-    "monthlyTransactions": "నెలవారీ లావాదేవీలు",
-    "citiesCovered": "కవర్ చేయబడిన నగరాలు",
-    "yearsExperience": "సంవత్సరాల అనుభవం",
-    "atmsAcrossIndia": "ATMs across India",
+    "title": "PixellPay by Numbers",
+    "activeFranchises": "Active ఫ్రాంచైజీs",
+    "monthlyTransactions": "Monthly Transactions",
+    "citiesCovered": "Cities Covered",
+    "yearsExperience": "Years of Experience",
+    "atmsAcrossIndia": "ఏటీఎంs across India",
     "andCounting": "and counting..."
   },
   "whyAtm": {
-    "title": "ఎందుకు ATM వ్యాపారం",
-    "subtitle": "RBI లైసెన్స్ పొందిన కంపెనీల నుండి జీరో లాస్ మరియు పూర్తి పారదర్శక వ్యాపార అవకాశం",
+    "title": "Why ATM వ్యాపారం",
+    "subtitle": "Zero Loss and Fully Transparent వ్యాపారం Opportunity from RBI Licensed Companies",
     "stats": {
       "roi": {
-        "prefix": "వరకు",
-        "label": "పెట్టుబడిపై రాబడి",
-        "description": "RBI లైసెన్స్ పొందిన WLA ATM భాగస్వాములు అందుకున్న అన్ని చెల్లింపులు"
+        "prefix": "upto",
+        "label": "Return On పెట్టుబడి",
+        "description": "All Payout Received by RBI Licensed WLA ఏటీఎం Partners"
       },
       "penetration": {
-        "suffix": "లక్షకు",
-        "label": "ప్రతి లక్ష మందికి 15 ఏటీఎంలు మాత్రమే.",
-        "description": "భారతదేశంలో ATM ప్రవేశం చాలా తక్కువ."
+        "suffix": "Per Lac",
+        "label": "Only 15 ఏటీఎంs per 1Lac People",
+        "description": "ఏటీఎం Penetration in India is very Low"
       },
       "cash": {
-        "suffix": "నగదు",
-        "label": "నగదు ప్రసరణ",
-        "description": "భారత ఆర్థిక వ్యవస్థ ఇప్పటికీ ఎక్కువగా నగదు ఆధారితమే"
+        "suffix": "Cash",
+        "label": "Cash Circulation",
+        "description": "Indian Ecoలేదుmy is still Largely Cash based"
       },
       "potential": {
-        "suffix": "సంభావ్యత",
-        "label": "90% బ్యాంకుల ఆఫ్‌సైట్ ATMలు మూసివేయబడుతున్నాయి.",
-        "description": "బ్యాంకుల ఆఫ్‌సైట్ ATM మూసివేత ATMలకు పెద్ద మార్కెట్‌ను సృష్టిస్తుంది."
+        "suffix": "Potential",
+        "label": "90% of Banks Offsite ఏటీఎంs are closing down",
+        "description": "Banks Offsite ఏటీఎం Closure creates a Large market for ఏటీఎంs"
       }
     },
     "cta": {
-      "title": "గ్రామీణ భారతదేశంలో ATM వ్యాపారానికి సరైన సమయం",
+      "title": "Perfect Time for ATM వ్యాపారం in Rural India",
       "points": {
-        "digital": "డిజిటల్ స్వీకరణ పెరుగుతోంది",
-        "government": "ఆర్థిక చేరిక కోసం ప్రభుత్వం ఒత్తిడి",
-        "branches": "బ్యాంక్ బ్రాంచ్ మూసివేతలు"
+        "digital": "Digital Adoption Growing",
+        "government": "Government Push for Financial Inclusion",
+        "branches": "బ్యాంకు Branch Closures"
       },
-      "investment": "పెట్టుబడి పరిధి: ₹2-5 లక్షలు"
+      "investment": "పెట్టుబడి Range: ₹2-5 Lakhs"
     },
-    "heading": "ఎందుకు ATM వ్యాపారం?",
+    "heading": "Why ATM వ్యాపారం?",
     "roi": {
-      "title": "పెట్టుబడిపై రాబడి",
-      "description": "RBI లైసెన్స్ పొందిన WLA ATM భాగస్వాములు అందుకున్న అన్ని చెల్లింపులు"
+      "title": "Return On పెట్టుబడి",
+      "description": "All Payout Received by RBI Licensed WLA ఏటీఎం Partners"
     },
     "penetration": {
-      "title": "ATM వ్యాప్తి",
-      "description": "1 లక్ష మందికి కేవలం 15 ATMలు - భారతదేశంలో ATM వ్యాప్తి చాలా తక్కువ"
+      "title": "ఏటీఎం Penetration",
+      "description": "Only 15 ఏటీఎంs per 1 Lac People - ఏటీఎం Penetration in India is very Low"
     },
     "cash": {
-      "title": "నగదు చలామణి",
-      "description": "భారత ఆర్థిక వ్యవస్థ ఇప్పటికీ ఎక్కువగా నగదు ఆధారితమే"
+      "title": "Cash Circulation",
+      "description": "Indian Ecoలేదుmy is still Largely Cash based"
     },
     "market": {
-      "title": "మార్కెట్ అవకాశం",
-      "description": "90% బ్యాంకుల ఆఫ్‌సైట్ ATMలు మూసివేయబడుతున్నాయి - బ్యాంకుల ఆఫ్‌సైట్ ATM మూసివేత ATMలకు పెద్ద మార్కెట్‌ను సృష్టిస్తుంది"
+      "title": "Market Opportunity",
+      "description": "90% of Banks Offsite ఏటీఎంs are closing down - Banks Offsite ఏటీఎం Closure creates a Large market for ఏటీఎంs"
     }
   },
   "faq": {
-    "badge": "తరచుగా అడుగు ప్రశ్నలు",
-    "title": "మీరు తెలుసుకోవలసిన ప్రతిదీ",
-    "subtitle": "మీ ATM ఫ్రాంచైజ్ వ్యాపారాన్ని ప్రారంభించడం గురించి అత్యంత సాధారణ ప్రశ్నలకు సమాధానాలను పొందండి.",
+    "badge": "Frequently Asked Questions",
+    "title": "Everything You Need to Kలేదుw",
+    "subtitle": "Get answers to the most common questions about starting your ఏటీఎం ఫ్రాంచైజీ business.",
     "items": {
       "investment": {
-        "question": "ATM ఫ్రాంచైజీకి అవసరమైన కనీస పెట్టుబడి ఎంత?",
-        "answer": "పెట్టుబడి సాధారణంగా WLA భాగస్వామి మరియు స్థానాన్ని బట్టి ₹3-8 లక్షల వరకు ఉంటుంది. ఇందులో యంత్ర ఖర్చు, సంస్థాపన మరియు ప్రారంభ పని మూలధనం ఉంటాయి. ప్రతి భాగస్వామికి సంబంధించిన వివరణాత్మక ఖర్చు విభజనలను మేము అందిస్తాము."
+        "question": "What is the minimum investment required for an ఏటీఎం ఫ్రాంచైజీ?",
+        "answer": "The పెట్టుబడి typically ranges from ₹3-8 lakhs depending on the WLA partner and location. This includes machine cost, installation, and initial working capital. We provide detailed cost breakdowns for each partner."
       },
       "income": {
-        "question": "నేను నెలకు ఎంత ఆదాయం ఆశించవచ్చు?",
-        "answer": "మా భాగస్వాములు సాధారణంగా నెలకు ₹35,000-60,000 సంపాదిస్తారు. ఆదాయం స్థానం, జనసంచారం మరియు లావాదేవీల పరిమాణంపై ఆధారపడి ఉంటుంది. గ్రామీణ ప్రాంతాలు తరచుగా ₹25-40 వేలను పొందుతాయి, పట్టణ ప్రాంతాలు నెలకు ₹50-80 వేలను ఉత్పత్తి చేయగలవు."
+        "question": "How much monthly income can I expect?",
+        "answer": "Our partners typically earn ₹35,000-60,000 monthly. Income depends on location, footfall, and transaction volume. Rural areas often see ₹25-40K while urban locations can generate ₹50-80K monthly."
       },
       "roi": {
-        "question": "ROI పొందడానికి ఎంత సమయం పడుతుంది?",
-        "answer": "చాలా మంది భాగస్వాములు 12-18 నెలల్లోపు ROIని సాధిస్తారు. అధిక ట్రాఫిక్ ఉన్న ప్రదేశాలు 8-12 నెలల్లో రాబడిని చూడవచ్చు, చిన్న పట్టణాలు సాధారణంగా 15-20 నెలలు తీసుకుంటాయి. రాబడిని ఆప్టిమైజ్ చేయడానికి మేము స్థాన విశ్లేషణను అందిస్తాము."
+        "question": "How long does it take to get ROI?",
+        "answer": "Most partners achieve ROI within 12-18 months. High-traffic locations can see returns in 8-12 months, while smaller towns typically take 15-20 months. We provide location analysis to optimize returns."
       },
       "costs": {
-        "question": "కొనసాగుతున్న నిర్వహణ ఖర్చులు ఎంత?",
-        "answer": "నెలవారీ ఖర్చులలో విద్యుత్ (₹3-5K), నగదు లోడింగ్ (లావాదేవీలలో 2-3%), నిర్వహణ (₹2-3K) మరియు ఇంటర్నెట్ (₹1-2K) ఉన్నాయి. మొత్తం నిర్వహణ ఖర్చులు సాధారణంగా స్థూల ఆదాయంలో 15-20% ఉంటాయి."
+        "question": "What are the ongoing operational costs?",
+        "answer": "Monthly costs include electriనగరం (₹3-5K), cash loading (2-3% of transactions), maintenance (₹2-3K), and internet (₹1-2K). Total operational costs are typically 15-20% of gross revenue."
       },
       "technical": {
-        "question": "ATM ఆపరేట్ చేయడానికి నాకు సాంకేతిక పరిజ్ఞానం అవసరమా?",
-        "answer": "సాంకేతిక నైపుణ్యం అవసరం లేదు. WLA భాగస్వాములు పూర్తి శిక్షణ, 24/7 సాంకేతిక మద్దతు మరియు రిమోట్ పర్యవేక్షణను అందిస్తారు. మీరు ప్రధానంగా నగదు లోడింగ్ మరియు ప్రాథమిక నిర్వహణ సమన్వయాన్ని నిర్వహిస్తారు."
+        "question": "Do I need technical knowledge to operate an ఏటీఎం?",
+        "answer": "లేదు technical expertise required. WLA partners provide complete training, 24/7 technical support, and remote monitoring. You mainly handle cash loading and basic maintenance coordination."
       },
       "cash": {
-        "question": "నగదు నిర్వహణ ఎలా నిర్వహించబడుతుంది?",
-        "answer": "మీరు వినియోగ విధానాల ఆధారంగా నగదును లోడ్ చేస్తారు (సాధారణంగా ప్రతి 2-4 రోజులకు). WLA భాగస్వాములు నగదు అంచనా సాధనాలను అందిస్తారు మరియు కొందరు నగదు లాజిస్టిక్స్ సేవలను అందిస్తారు. భీమా నగదు-రవాణా ప్రమాదాలను కవర్ చేస్తుంది."
+        "question": "How is cash management handled?",
+        "answer": "You'll load cash based on usage patterns (typically every 2-4 days). WLA partners provide cash forecasting tools and some offer cash logistics services. Insurance covers cash-in-transit risks."
       },
       "location": {
-        "question": "ATM ప్లేస్‌మెంట్‌కు ఏ ప్రదేశాలు ఉత్తమంగా పనిచేస్తాయి?",
-        "answer": "మార్కెట్లు, బస్ స్టాండ్లు, ఆసుపత్రులు, కళాశాలలు మరియు వాణిజ్య సముదాయాలు వంటి జనసమ్మర్ద ప్రాంతాలు ఉత్తమంగా పనిచేస్తాయి. మేము వివరణాత్మక స్థాన సర్వేలను నిర్వహిస్తాము మరియు మా అనుభవం నుండి సైట్ ఆమోద మార్గదర్శకత్వాన్ని అందిస్తాము."
+        "question": "What locations work best for ఏటీఎం placement?",
+        "answer": "High-footfall areas like markets, bus stands, hospitals, colleges, and commercial complexes work best. We conduct detailed location surveys and provide site approval guidance from our experience."
       },
       "hidden": {
-        "question": "ఏవైనా దాచిన ఖర్చులు లేదా రుసుములు ఉన్నాయా?",
-        "answer": "మేము పూర్తి పారదర్శకతను నిర్ధారిస్తాము. యంత్ర ఖర్చు, ఇన్‌స్టాలేషన్, వార్షిక నిర్వహణ మరియు ఆదాయ భాగస్వామ్యంతో సహా అన్ని ఖర్చులు ముందుగానే వెల్లడి చేయబడతాయి. దాచిన ఛార్జీలు లేవు - మీరు చూసేది మీరు చెల్లించేది."
+        "question": "Are there any hidden costs or fees?",
+        "answer": "We ensure complete transparency. All costs are disమూసివేయండిd upfront including machine cost, installation, annual maintenance, and revenue sharing. No hidden charges - what you see is what you pay."
       },
       "support": {
-        "question": "ఫ్రాంచైజ్ సెటప్ తర్వాత మీరు ఎలాంటి మద్దతు అందిస్తారు?",
-        "answer": "మేము కొనసాగుతున్న వ్యాపార సంప్రదింపులు, పనితీరు ఆప్టిమైజేషన్ చిట్కాలు, ట్రబుల్షూటింగ్ మద్దతు మరియు WLA భాగస్వామి సమన్వయంతో సహాయాన్ని అందిస్తున్నాము. మా సంబంధం కేవలం సెటప్‌కు మించి కొనసాగుతుంది."
+        "question": "What support do you provide after ఫ్రాంచైజీ setup?",
+        "answer": "We offer ongoing business consultation, performance optimization tips, troubleshooting support, and assistance with WLA partner coordination. Our relationship కొనసాగించండిs beyond just setup."
       },
       "multiple": {
-        "question": "నేను బహుళ ATM ఫ్రాంచైజీలను నిర్వహించవచ్చా?",
-        "answer": "అవును, చాలా మంది విజయవంతమైన భాగస్వాములు 2-5 ATMలను నిర్వహిస్తారు. మీ మొదటి ATM స్థిరీకరించబడిన తర్వాత (6-12 నెలలు), మేము అదనపు స్థానాలను గుర్తించడంలో మరియు బహుళ-స్థాన కార్యకలాపాలను క్రమబద్ధీకరించడంలో సహాయపడగలము."
+        "question": "Can I operate multiple ఏటీఎం ఫ్రాంచైజీs?",
+        "answer": "Yes, many successful partners operate 2-5 ఏటీఎంs. After your first ఏటీఎం stabilizes (6-12 months), we can help identify additional locations and streamline multi-location operations."
       }
     },
     "stats": {
       "transparent": {
-        "title": "100% పారదర్శకం",
-        "description": "దాచిన ఖర్చులు లేదా ఆశ్చర్యకరమైన రుసుములు లేవు. అన్ని లావాదేవీలలో పూర్తి పారదర్శకత."
+        "title": "100% Transparent",
+        "description": "లేదు hidden costs or surprise fees. Complete transparency in all dealings."
       },
       "proven": {
-        "title": "నిరూపితమైన ఫలితాలు",
-        "description": "12-18 నెలల్లో సగటు ROI తో 95% భాగస్వామి విజయ రేటు."
+        "title": "Proven Results",
+        "description": "95% partner విజయం rate with average ROI in 12-18 months."
       },
       "quick": {
-        "title": "త్వరిత సెటప్",
-        "description": "30-45 రోజుల్లోపు త్వరిత ఆమోదం మరియు సంస్థాపన."
+        "title": "Quick Setup",
+        "description": "Fast-track approval and installation within 30-45 days."
       }
     }
   },
   "services": {
-    "title": "ఎందుకు ఎంచుకోవాలి",
-    "titleHighlight": "ATM ఫ్రాంచైజ్ ఇండియా?",
-    "subtitle": "అన్ని WLA బ్రాండ్లలో 4+ సంవత్సరాల అనుభవంతో, గ్రామీణ భారతదేశంలో మీ ATM వ్యాపార విజయాన్ని నిర్ధారించడానికి మేము పూర్తి మద్దతును అందిస్తాము.",
+    "title": "Why ఎంచుకోండి",
+    "titleHighlight": "ఏటీఎం ఫ్రాంచైజీ India?",
+    "subtitle": "With 4+ years of experience across all WLA brands, we provide end-to-end support to ensure your ATM వ్యాపారం success in rural India.",
     "items": {
       "trusted": {
-        "title": "విశ్వసనీయ ATM ఫ్రాంచైజ్ సమాచారం",
-        "description": "నియంత్రిత ATM పరిశ్రమ గురించి ఖచ్చితమైన, ధృవీకరించబడిన అంతర్దృష్టులను పొందండి. సమాచారంతో కూడిన ఫ్రాంచైజ్ నిర్ణయాలకు వాస్తవ ఆధారిత మార్గదర్శకత్వాన్ని అందించడానికి మా నిపుణులు తప్పుడు సమాచారాన్ని తగ్గించారు.",
+        "title": "Trusted ఏటీఎం ఫ్రాంచైజీ Information",
+        "description": "Get accurate, verified insights into the regulated ఏటీఎం industry. Our experts cut through misinformation to provide fact-based guidance for informed franchise decisions.",
         "benefits": {
-          "compliance": "ఆర్‌బిఐ సమ్మతి ధృవీకరణ",
-          "analysis": "పారదర్శక వ్యాపార నమూనా విశ్లేషణ",
-          "risk": "ప్రమాద అంచనా మరియు తగ్గింపు",
-          "legal": "చట్టపరమైన డాక్యుమెంటేషన్ మద్దతు"
+          "compliance": "RBI compliance verification",
+          "analysis": "Transparent వ్యాపారం model analysis",
+          "risk": "Risk assessment and mitigation",
+          "legal": "Legal documentation support"
         },
-        "cta": "ధృవీకరించబడిన సమాచారాన్ని పొందండి"
+        "cta": "Get Verified Info"
       },
       "guidance": {
-        "title": "నిపుణుల WLA ఆపరేటర్ మార్గదర్శకత్వం",
-        "description": "నమ్మకంగా సరైన వైట్ లేబుల్ ATM భాగస్వామిని ఎంచుకోండి. మేము ప్రధాన ఆపరేటర్ల నిష్పాక్షిక పోలికలను అందిస్తాము, బలాలు మరియు బలహీనతలను హైలైట్ చేస్తాము.",
+        "title": "Expert WLA Operator Guidance",
+        "description": "Choose the right White Label ఏటీఎం partner with confidence. We provide unbiased comparisons of major operators, highlighting strengths and weaknesses.",
         "benefits": {
-          "comparison": "ఆపరేటర్ పోలిక నివేదికలు",
-          "revenue": "ఆదాయ భాగస్వామ్య విశ్లేషణ",
-          "technical": "సాంకేతిక మద్దతు మూల్యాంకనం",
-          "contract": "ఒప్పంద చర్చల సహాయం"
+          "comparison": "Operator comparison reports",
+          "revenue": "ఆదాయం sharing analysis",
+          "technical": "Technical support evaluation",
+          "contract": "Contract negotiation assistance"
         },
-        "cta": "ఆపరేటర్లను పోల్చండి"
+        "cta": "Compare Operators"
       },
       "digital": {
-        "title": "డిజిటల్ ప్రెజెన్స్ బూస్ట్",
-        "description": "ఇప్పటికే ATM ఫ్రాంచైజీని నడుపుతున్నారా? మా డిజిటల్ మార్కెటింగ్ సేవల ద్వారా మీ ఆన్‌లైన్ దృశ్యమానతను పెంచుకోండి మరియు మరిన్ని మంది కస్టమర్‌లతో కనెక్ట్ అవ్వండి.",
+        "title": "Digital Presence Boost",
+        "description": "Already running an ఏటీఎం ఫ్రాంచైజీ? Enhance your online visibility and connect with more customers through our digital marketing services.",
         "benefits": {
-          "branding": "ఆన్‌లైన్ బ్రాండింగ్ అభివృద్ధి",
-          "seo": "స్థానిక SEO ఆప్టిమైజేషన్",
-          "acquisition": "కస్టమర్ సముపార్జన వ్యూహాలు",
-          "analytics": "పనితీరు విశ్లేషణలు"
+          "branding": "Online branding development",
+          "seo": "Local SEO optimization",
+          "acquisition": "Customer acquisition strategies",
+          "analytics": "Performance analytics"
         },
-        "cta": "దృశ్యమానతను పెంచండి"
+        "cta": "Boost Visibility"
       }
     },
     "support": {
-      "onboarding": "ఫ్రాంచైజ్ ఆన్‌బోర్డింగ్ & సెటప్",
-      "training": "సమగ్ర శిక్షణా కార్యక్రమాలు",
-      "marketing": "స్థానిక మార్కెటింగ్ & ప్రమోషన్లు",
-      "technical": "24/7 సాంకేతిక మద్దతు",
-      "settlement": "బ్యాంకు పరిష్కార సహాయం",
-      "consultation": "కొనసాగుతున్న వ్యాపార సంప్రదింపులు"
+      "onboarding": "ఫ్రాంచైజీ onboarding & setup",
+      "training": "Comprehensive training programs",
+      "marketing": "Local marketing & promotions",
+      "technical": "24/7 technical support",
+      "settlement": "బ్యాంకు settlement assistance",
+      "consultation": "Ongoing వ్యాపారం consultation"
     },
     "supportSection": {
-      "title": "పూర్తి ఫ్రాంచైజ్ మద్దతు",
-      "description": "ప్రారంభ సెటప్ నుండి కొనసాగుతున్న కార్యకలాపాల వరకు, మేము ప్రతిదీ నిర్వహిస్తాము, తద్వారా మీరు మీ ATM వ్యాపారం నుండి మీ నిష్క్రియాత్మక ఆదాయాన్ని పెంచుకోవడంపై దృష్టి పెట్టవచ్చు."
+      "title": "Complete ఫ్రాంచైజీ Support",
+      "description": "From initial setup to ongoing operations, we handle everything so you can focus on growing your passive income from your ATM వ్యాపారం."
     },
     "cta": {
-      "title": "ప్రారంభించడానికి సిద్ధంగా ఉన్నారా?",
-      "description": "గ్రామీణ భారతదేశం అంతటా విజయవంతమైన ATM ఫ్రాంచైజ్ యజమానుల మా నెట్‌వర్క్‌లో చేరండి",
-      "franchisees": "హ్యాపీ ఫ్రాంచైజీలు",
-      "button": "మీ ప్రయాణాన్ని ప్రారంభించండి"
+      "title": "Ready to Start?",
+      "description": "Join our network of successful ఏటీఎం ఫ్రాంచైజీ owners across rural India",
+      "franchisees": "Happy ఫ్రాంచైజీes",
+      "button": "Start Your Journey"
     }
   },
   "trustSignals": {
-    "title": "దేశవ్యాప్తంగా వ్యాపారాలచే విశ్వసించబడింది",
-    "subtitle": "మమ్మల్ని విశ్వసించి తమ ATM వ్యాపార కార్యకలాపాలతో విజయవంతమైన వేలాది మంది భాగస్వాములతో చేరండి.",
+    "title": "Trusted by వ్యాపారంes Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM వ్యాపారం operations",
     "metrics": {
-      "partners": "క్రియాశీల భాగస్వాములు",
-      "uptime": "అప్‌టైమ్ గ్యారెంటీ",
-      "experience": "పరిశ్రమ అనుభవం",
-      "support": "కస్టమర్ మద్దతు"
+      "partners": "Active Partners",
+      "uptime": "Uptime Guarantee",
+      "experience": "Industry Experience",
+      "support": "Customer Support",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ Years",
+      "supportValue": "24/7"
     }
   },
   "valueProps": {
-    "title": "Why ATM Business?",
-    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
-    "perfectTime": "Perfect Time for ATM Business in Rural India",
-    "investmentRange": "Investment Range: ₹2-5 Lakhs",
+    "title": "Why ATM వ్యాపారం?",
+    "subtitle": "Zero Loss and Fully Transparent వ్యాపారం Opportunity from RBI Licensed Companies",
+    "perfectTime": "Perfect Time for ATM వ్యాపారం in Rural India",
+    "investmentRange": "పెట్టుబడి Range: ₹2-5 Lakhs",
     "bullets": {
       "digitalAdoption": "Digital Adoption Growing",
       "governmentPush": "Government Push for Financial Inclusion",
-      "bankClosures": "Bank Branch Closures"
+      "bankClosures": "బ్యాంకు Branch Closures"
     },
     "stats": {
       "roi": {
         "prefix": "upto ",
         "value": "50",
         "suffix": "%",
-        "label": "Return On Investment",
-        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+        "label": "Return On పెట్టుబడి",
+        "description": "All Payout Received by RBI Licensed WLA ఏటీఎం Partners"
       },
       "penetration": {
         "value": "15",
         "suffix": " Per Lac",
-        "label": "ATM Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+        "label": "ఏటీఎం Penetration",
+        "description": "Only 15 ఏటీఎంs per 1 Lac People - ఏటీఎం Penetration in India is very Low"
       },
       "cash": {
         "value": "75",
         "suffix": "% Cash",
         "label": "Cash Circulation",
-        "description": "Indian Economy is still Largely Cash based"
+        "description": "Indian Ecoలేదుmy is still Largely Cash based"
       },
       "potential": {
         "value": "90",
         "suffix": "% Potential",
         "label": "Market Opportunity",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+        "description": "90% of Banks Offsite ఏటీఎంs are closing down - Banks Offsite ఏటీఎం Closure creates a Large market for ఏటీఎంs"
       }
     }
   },
   "whyChoose": {
     "badge": "Our Advantage",
-    "title": "Why Choose",
-    "titleHighlight": "ATM Franchise India?",
+    "title": "Why ఎంచుకోండి",
+    "titleHighlight": "ఏటీఎం ఫ్రాంచైజీ India?",
     "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
     "cta": {
-      "partners": "Join 500+ successful franchise partners"
+      "partners": "Join 500+ successful ఫ్రాంచైజీ partners"
     },
     "features": {
       "trusted": {
-        "title": "Trusted ATM Franchise Information",
-        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+        "title": "Trusted ఏటీఎం ఫ్రాంచైజీ Information",
+        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM వ్యాపారం often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
       },
       "guidance": {
         "title": "Expert Guidance on WLA Operators",
-        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
+        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your వ్యాపారం."
       },
       "digital": {
         "title": "Boost Your Digital Presence",
-        "description": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+        "description": "Already running an ATM franchise? నమోదు చేసుకోండి with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
       },
       "support": {
-        "title": "End-to-End Franchise Support",
-        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
+        "title": "End-to-End ఫ్రాంచైజీ Support",
+        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM వ్యాపారం success."
       }
     }
   },
   "alt": {
-    "atmInIndianSetting": "ATM in Indian semi-urban setting"
+    "atmInIndianSetting": "ఏటీఎం in Indian semi-urban setting"
   },
   "trust": {
-    "heading": "దేశవ్యాప్తంగా వ్యాపారాలచే నమ్మకమైనది",
-    "subtitle": "వారి ATM వ్యాపార కార్యకలాపాల కోసం మమ్మల్ని నమ్మే వేలాది విజయవంతమైన భాగస్వాములతో చేరండి",
-    "activePartners": "క్రియాశీల భాగస్వాములు",
-    "uptimeGuarantee": "అప్‌టైమ్ గ్యారెంటీ",
-    "industryExperience": "పరిశ్రమ అనుభవం",
-    "customerSupport": "కస్టమర్ మద్దతు"
+    "heading": "Trusted by వ్యాపారంes Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM వ్యాపారం operations",
+    "activePartners": "Active Partners",
+    "uptimeGuarantee": "Uptime Guarantee",
+    "industryExperience": "Industry Experience",
+    "customerSupport": "Customer Support"
   }
 }

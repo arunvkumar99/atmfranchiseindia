@@ -10,23 +10,23 @@ const BecomefranchiseHero = () => {
   const benefits = [
     {
       icon: TrendingUp,
-      title: t('hero.benefits.quickRoi.title', 'Quick ROI'),
-      description: t('hero.benefits.quickRoi.description', 'Fast return on investment with proven business model')
+      title: t('hero.benefits.quickRoi.title'),
+      description: t('hero.benefits.quickRoi.description')
     },
     {
       icon: Shield,
-      title: t('hero.benefits.support.title', 'Dedicated Support'),
-      description: t('hero.benefits.support.description', '24/7 technical and business support from our expert team')
+      title: t('hero.benefits.support.title'),
+      description: t('hero.benefits.support.description')
     },
     {
       icon: Users,
-      title: t('hero.benefits.network.title', 'Proven Network'),
-      description: t('hero.benefits.network.description', 'Join 500+ successful franchise partners across India')
+      title: t('hero.benefits.network.title'),
+      description: t('hero.benefits.network.description')
     },
     {
       icon: Headphones,
-      title: t('hero.benefits.training.title', 'Training Included'),
-      description: t('hero.benefits.training.description', 'Comprehensive training and ongoing support provided')
+      title: t('hero.benefits.training.title'),
+      description: t('hero.benefits.training.description')
     }
   ];
 

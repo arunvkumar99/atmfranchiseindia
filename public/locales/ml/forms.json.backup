@@ -1,0 +1,572 @@
+{
+  "joinUs": {
+    "placeholders": {
+      "locationOwnership": "നിങ്ങൾ സ്ഥലത്തിന്റെ ഉടമയാണോ?",
+      "expectedFootfall": "പ്രതീക്ഷിക്കുന്ന ദൈനംദിന സന്ദർശകർ",
+      "nearbyBanks": "5km ചുറ്റളവിലുള്ള ബാങ്കുകളുടെ പേരുകൾ",
+      "firstName": "Enter first name",
+      "lastName": "Enter last name",
+      "email": "your.email@example.com",
+      "phone": "+91 98765 43210",
+      "addressLine1": "House/Building number, Street name",
+      "addressLine2": "Area, Landmark",
+      "city": "Enter city",
+      "state": "Select state",
+      "pincode": "Enter 6-digit PIN code",
+      "businessType": "Select business type",
+      "experienceYears": "Years of experience",
+      "currentOccupation": "e.g., Shop Owner, Farmer, Employee",
+      "annualIncome": "Select income range",
+      "investmentCapacity": "Select investment range",
+      "preferredLocation": "Area/Village where you want ATM",
+      "competitorATMs": "Number of ATMs in 2km radius",
+      "bankName": "Bank name",
+      "accountType": "Select account type",
+      "panCard": "ABCDE1234F",
+      "gstNumber": "GST registration number",
+      "referenceSource": "Select source",
+      "previousFranchise": "Any previous franchise?",
+      "timelineToStart": "When can you start?",
+      "additionalComments": "Any specific questions or additional information you'd like to share..."
+    },
+    "title": {
+      "main": "Join the",
+      "highlight": "ATM Franchise",
+      "revolution": "Revolution"
+    },
+    "subtitle": "Choose your path to success with ATM Franchise India",
+    "form": {
+      "title": "ATM Franchise Application Form",
+      "instruction": "Please provide accurate information. All fields marked with * are mandatory.",
+      "submitMessage": "Our team will review your application within 24-48 hours and contact you with next steps."
+    },
+    "sections": {
+      "personal": "Personal Information",
+      "address": "Address Information",
+      "business": "Business Information",
+      "franchise": "ATM Franchise Details",
+      "financial": "Financial Information",
+      "additional": "Additional Information"
+    },
+    "labels": {
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "email": "Email Address *",
+      "phone": "Phone Number *",
+      "alternatePhone": "Alternate Phone",
+      "dateOfBirth": "Date of Birth *",
+      "addressLine1": "Address Line 1 *",
+      "addressLine2": "Address Line 2",
+      "city": "City *",
+      "state": "State *",
+      "pincode": "PIN Code *",
+      "businessType": "Business Type *",
+      "businessExperience": "Business Experience *",
+      "currentOccupation": "Current Occupation *",
+      "annualIncome": "Annual Income Range *",
+      "investmentCapacity": "Investment Capacity *",
+      "preferredLocation": "Preferred ATM Location *",
+      "locationOwnership": "Location Ownership *",
+      "expectedFootfall": "Expected Daily Footfall",
+      "nearbyBanks": "Nearby Banks",
+      "competitorATMs": "Competitor ATMs",
+      "primaryBank": "Primary Bank *",
+      "accountType": "Account Type *",
+      "panCard": "PAN Card Number *",
+      "gstNumber": "GST Number (if applicable)",
+      "referenceSource": "How did you hear about us? *",
+      "previousFranchise": "Previous Franchise Experience",
+      "timelineToStart": "Timeline to Start *",
+      "additionalComments": "Additional Comments/Questions"
+    },
+    "states": {
+      "andhra-pradesh": "Andhra Pradesh",
+      "bihar": "Bihar",
+      "gujarat": "Gujarat",
+      "haryana": "Haryana",
+      "karnataka": "Karnataka",
+      "kerala": "Kerala",
+      "madhya-pradesh": "Madhya Pradesh",
+      "maharashtra": "Maharashtra",
+      "odisha": "Odisha",
+      "punjab": "Punjab",
+      "rajasthan": "Rajasthan",
+      "tamil-nadu": "Tamil Nadu",
+      "telangana": "Telangana",
+      "uttar-pradesh": "Uttar Pradesh",
+      "west-bengal": "West Bengal"
+    },
+    "businessTypes": {
+      "individual": "Individual",
+      "proprietorship": "Proprietorship",
+      "partnership": "Partnership",
+      "private-limited": "Private Limited",
+      "llp": "LLP"
+    },
+    "experienceRanges": {
+      "0-1": "0-1 years",
+      "2-5": "2-5 years",
+      "6-10": "6-10 years",
+      "11-15": "11-15 years",
+      "15+": "15+ years"
+    },
+    "incomeRanges": {
+      "below-2l": "Below ₹2 Lakhs",
+      "2l-5l": "₹2-5 Lakhs",
+      "5l-10l": "₹5-10 Lakhs",
+      "10l-25l": "₹10-25 Lakhs",
+      "25l+": "₹25+ Lakhs"
+    },
+    "investmentRanges": {
+      "2-3l": "₹2-3 Lakhs",
+      "3-4l": "₹3-4 Lakhs",
+      "4-5l": "₹4-5 Lakhs",
+      "5l+": "₹5+ Lakhs"
+    },
+    "locationOwnershipOptions": {
+      "owned": "I own the location",
+      "can-arrange": "I can arrange the location",
+      "need-help": "Need help finding location"
+    },
+    "footfallRanges": {
+      "50-100": "50-100 people",
+      "100-200": "100-200 people",
+      "200-500": "200-500 people",
+      "500+": "500+ people"
+    },
+    "accountTypes": {
+      "savings": "Savings Account",
+      "current": "Current Account",
+      "cc-od": "CC/OD Account"
+    },
+    "referenceSources": {
+      "website": "Website",
+      "social-media": "Social Media",
+      "friend-referral": "Friend/Family Referral",
+      "newspaper": "Newspaper/Magazine",
+      "search-engine": "Search Engine",
+      "other": "Other"
+    },
+    "franchiseExperience": {
+      "yes-successful": "Yes, successful experience",
+      "yes-challenges": "Yes, faced challenges",
+      "no": "No previous experience"
+    },
+    "timelines": {
+      "immediate": "Immediately",
+      "1-month": "Within 1 month",
+      "2-3-months": "2-3 months",
+      "3-6-months": "3-6 months",
+      "6-months+": "6+ months"
+    },
+    "terms": {
+      "agreeText": "I agree to the",
+      "termsLink": "Terms & Conditions",
+      "disclaimer": "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.",
+      "marketingConsent": "I agree to receive marketing communications and updates about ATM franchise opportunities."
+    },
+    "sidebar": {
+      "successStory": {
+        "title": "Join 500+ Successful Franchisees",
+        "testimonial": "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
+        "name": "Rajesh Kumar",
+        "designation": "ATM Franchise Owner, Bihar"
+      },
+      "process": {
+        "title": "Application Process",
+        "steps": [
+          "Submit detailed application",
+          "Initial screening & verification",
+          "Personal interview & site visit",
+          "Approval & agreement signing",
+          "Setup, training & launch"
+        ]
+      },
+      "help": {
+        "title": "Need Help?",
+        "callUs": "Call Us",
+        "emailUs": "Email Us",
+        "phone": "+91 7003554455",
+        "email": "contact@atmfranchiseindia.in"
+      }
+    },
+    "benefits": {
+      "roi": {
+        "title": "High ROI Potential",
+        "description": "Earn up to 50% return on investment with transparent revenue sharing"
+      },
+      "competition": {
+        "title": "Low Competition",
+        "description": "Only 15 ATMs per 1 lakh people - huge market opportunity"
+      },
+      "support": {
+        "title": "Complete Support",
+        "description": "End-to-end assistance from setup to operations"
+      },
+      "track": {
+        "title": "Proven Track Record",
+        "description": "Join 500+ successful franchisees across India"
+      }
+    },
+    "opportunities": {
+      "agent": {
+        "title": "Join as Agent",
+        "description": "Become a field sales agent and earn commission"
+      },
+      "franchise": {
+        "title": "Join as Franchise",
+        "description": "Start your own ATM business"
+      },
+      "employee": {
+        "title": "Join as Employee",
+        "description": "Build your career with full-time positions"
+      }
+    },
+    "buttons": {
+      "submit": "Submit Application"
+    },
+    "toast": {
+      "termsRequired": {
+        "title": "Terms & Conditions Required",
+        "description": "Please agree to terms and conditions to proceed."
+      },
+      "success": {
+        "title": "Application Submitted Successfully!",
+        "description": "Our franchise team will review your application and contact you within 24-48 hours."
+      }
+    }
+  },
+  "labels": {
+    "fullName": "പൂർണ്ണ നാമം",
+    "email": "ഇമെയിൽ വിലാസം",
+    "phone": "ഫോൺ നമ്പർ",
+    "message": "സന്ദേശം",
+    "city": "നഗരം",
+    "state": "സംസ്ഥാനം",
+    "dateOfBirthPan": "PAN കാർഡിൽ ഉള്ളതുപോലെ ജനനത്തീയതി",
+    "aadhaarNumber": "ആധാർ കാർഡ് നമ്പർ (12 അക്കങ്ങൾ)",
+    "districtOfResidence": "താമസ ജില്ല",
+    "permanentAddress": "സ്ഥിര വിലാസം",
+    "currentAddress": "നിലവിലെ വിലാസം",
+    "professionalDetails": "പ്രൊഫഷണൽ വിശദാംശങ്ങളും ഡോക്യുമെന്റുകളും",
+    "joiningAs": "നിങ്ങൾ എന്ത് രീതിയിൽ ചേരുകയാണ് (ദയവായി താഴെ നിന്ന് തിരഞ്ഞെടുക്കുക):",
+    "whyJoinAgent": "ഏജന്റായി സഹസ്ര നെറ്റ്വർക്കിൽ ചേരാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നത് എന്തുകൊണ്ട്",
+    "languagesYouSpeak": "നിങ്ങൾക്ക് സംസാരിക്കാൻ കഴിയുന്ന ഭാഷകൾ",
+    "panDocumentUpload": "PAN ഡോക്യുമെന്റ് അപ്ലോഡ്",
+    "passportPhoto": "പാസ്പോർട്ട് സൈസ് ഫോട്ടോ",
+    "aadhaarFront": "ആധാർ മുൻവശം",
+    "aadhaarBack": "ആധാർ പിൻവശം",
+    "noticePeriod": "Notice Period",
+    "onetime_cost": "One-time Cost",
+    "refundable_deposit": "Refundable Deposit",
+    "clf_working_capital": "CLF & Working Capital",
+    "cash_transaction": "Cash Transaction",
+    "noncash_transaction": "Non-cash Transaction",
+    "ad_revenue_share": "Ad Revenue Share"
+  },
+  "fields": {
+    "fullName": "പൂർണ്ണമായ പേര്",
+    "firstName": "പേരിന്റെ ആദ്യഭാഗം",
+    "lastName": "പേരിന്റെ അവസാന ഭാഗം",
+    "email": "ഇമെയിൽ വിലാസം",
+    "phone": "ഫോൺ നമ്പർ",
+    "alternatePhone": "ഇതര ഫോൺ നമ്പർ",
+    "whatsapp": "വാട്ട്‌സ്ആപ്പ് നമ്പർ",
+    "address": "വിലാസം",
+    "street": "സ്ട്രീറ്റ് വിലാസം",
+    "city": "നഗരം",
+    "state": "സംസ്ഥാനം",
+    "pincode": "പിൻ കോഡ്",
+    "country": "രാജ്യം",
+    "message": "സന്ദേശം",
+    "comments": "അഭിപ്രായങ്ങൾ",
+    "experience": "അനുഭവം",
+    "qualification": "യോഗ്യത",
+    "occupation": "നിലവിലെ തൊഴിൽ",
+    "businessType": "ബിസിനസ് തരം",
+    "investment": "നിക്ഷേപ ശേഷി",
+    "preferredLocation": "ഇഷ്ടപ്പെട്ട സ്ഥലം",
+    "shopName": "കടയുടെ/ബിസിനസ്സിന്റെ പേര്",
+    "shopAddress": "കടയുടെ വിലാസം",
+    "monthlyIncome": "പ്രതിമാസ വരുമാനം",
+    "businessExperience": "ബിസിനസ് പരിചയം (വർഷങ്ങൾ)",
+    "howDidYouHear": "ഞങ്ങളേക്കുറിച്ച് എങ്ങനെ അറിഞ്ഞു?",
+    "agreeTerms": "നിബന്ധനകളും വ്യവസ്ഥകളും ഞാൻ അംഗീകരിക്കുന്നു.",
+    "newsletter": "വാർത്താക്കുറിപ്പ് സബ്‌സ്‌ക്രൈബുചെയ്യുക",
+    "captcha": "കാപ്ച നൽകുക"
+  },
+  "placeholders": {
+    "fullName": "നിങ്ങളുടെ മുഴുവൻ പേര് നൽകുക",
+    "email": "നിങ്ങളുടെ ഇമെയിൽ വിലാസം നൽകുക",
+    "phone": "10-അക്ക മൊബൈൽ നമ്പർ",
+    "message": "നിങ്ങളുടെ സന്ദേശം ഇവിടെ ടൈപ്പ് ചെയ്യുക...",
+    "city": "നഗരം നൽകുക",
+    "state": "നിങ്ങളുടെ സംസ്ഥാനം തിരഞ്ഞെടുക്കുക",
+    "selectOption": "ഒരു ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക",
+    "uploadFile": "ഫയൽ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ഇവിടേക്ക് വലിച്ചിടുക",
+    "pincode": "6-അക്ക പിൻകോഡ്",
+    "bankName": "ബാങ്കിന്റെ പേര്",
+    "panFormat": "ABCDE1234F",
+    "gstNumber": "GST രജിസ്ട്രേഷൻ നമ്പർ",
+    "full_name": "നിങ്ങളുടെ പൂർണ്ണ നാമം നൽകുക",
+    "full_name_pan": "PAN കാർഡ് അനുസരിച്ച് നിങ്ങളുടെ പൂർണ്ണ നാമം നൽകുക",
+    "phone_primary": "പ്രാഥമിക കോൺടാക്റ്റ് നമ്പർ",
+    "whatsapp": "വാട്സ്ആപ്പ് നമ്പർ",
+    "pan": "ABCDE1234F",
+    "aadhaar": "123456789012 (12 അക്കങ്ങൾ മാത്രം)",
+    "address": "പൂർണ്ണ വിലാസം നൽകുക",
+    "address_line1": "വീട്/കെട്ടിട നമ്പർ, സ്ട്രീറ്റ് പേര്",
+    "address_line2": "പ്രദേശം, ലാൻഡ്മാർക്ക്",
+    "your_city": "നിങ്ങളുടെ നഗരം",
+    "district": "നിങ്ങളുടെ ജില്ല നൽകുക",
+    "business_type": "ബിസിനസ് തരം തിരഞ്ഞെടുക്കുക",
+    "firstName": "ആദ്യ പേര് നൽകുക",
+    "lastName": "അവസാന പേര് നൽകുക",
+    "enterYourDistrict": "നിങ്ങളുടെ ജില്ല നൽകുക",
+    "enterYourPermanentAddress": "നിങ്ങളുടെ സ്ഥിര വിലാസം നൽകുക",
+    "enterYourCurrentAddress": "നിങ്ങളുടെ നിലവിലെ വിലാസം നൽകുക",
+    "motivationAndGoals": "ഒരു ഏജന്റെന്ന നിലയിൽ നിങ്ങളുടെ പ്രചോദനത്തെയും ലക്ഷ്യങ്ങളെയും കുറിച്ച് പറയുക",
+    "searchCity": "Search city...",
+    "day": "Day",
+    "primaryPhone": "Primary contact number",
+    "whatsappNumber": "WhatsApp active number",
+    "emailAddress": "Enter your email address",
+    "aadhaarNumber": "123456789012",
+    "aadhaarFormat": "123456789012 (12 digits only)",
+    "permanentAddress": "Enter your permanent address here",
+    "currentAddress": "Enter your current address here",
+    "chooseState": "Choose your state",
+    "enterDistrict": "Enter your district",
+    "agentMotivation": "Tell us about your motivation and goals as an agent",
+    "selectJobPosition": "Select the position you're applying for",
+    "selectNoticePeriod": "Select your notice period",
+    "addressLine1": "House/Building number, Street name",
+    "addressLine2": "Area, Landmark",
+    "yourCity": "Your city",
+    "sixDigitPincode": "6-digit pincode",
+    "selectBusinessType": "Select business type",
+    "selectInvestmentRange": "Select investment range",
+    "selectTimeline": "Select timeline",
+    "selectSource": "Select source",
+    "specificQuestions": "Any specific questions or requirements?",
+    "facebookProfile": "https://facebook.com/yourprofile",
+    "instagramProfile": "https://instagram.com/yourprofile",
+    "youtubeChannel": "https://youtube.com/yourchannel",
+    "linkedinProfile": "https://linkedin.com/in/yourprofile",
+    "otherSocialMedia": "Any other social media platform"
+  },
+  "validation": {
+    "required": "{{field}} ആവശ്യമാണ്",
+    "validName": "സാധുവായ പേര്",
+    "validEmail": "സാധുവായ ഇമെയിൽ",
+    "validPhone": "സാധുവായ ഫോൺ നമ്പർ",
+    "emailInvalid": "സാധുവായ ഒരു ഇമെയിൽ വിലാസം നൽകുക",
+    "phoneInvalid": "ദയവായി സാധുവായ ഒരു 10-അക്ക ഫോൺ നമ്പർ നൽകുക.",
+    "pincodeInvalid": "ദയവായി സാധുവായ ഒരു 6 അക്ക പിൻ കോഡ് നൽകുക.",
+    "minLength": "{{field}} കുറഞ്ഞത് {{min}} അക്ഷരങ്ങൾ ഉണ്ടായിരിക്കണം",
+    "maxLength": "{{field}} {{max}} അക്ഷരങ്ങൾ കവിയരുത്",
+    "numberOnly": "ദയവായി നമ്പറുകൾ മാത്രം നൽകുക.",
+    "lettersOnly": "ദയവായി അക്ഷരങ്ങൾ മാത്രം നൽകുക.",
+    "fileSize": "ഫയൽ വലുപ്പം {{size}}MB-യിൽ കുറവായിരിക്കണം",
+    "fileType": "{{types}} ഫയലുകൾ മാത്രമേ അനുവദിച്ചിട്ടുള്ളൂ",
+    "agreeRequired": "നിങ്ങൾ നിബന്ധനകളും വ്യവസ്ഥകളും അംഗീകരിക്കണം.",
+    "captchaRequired": "ദയവായി കാപ്ച പരിശോധന പൂർത്തിയാക്കുക.",
+    "email_invalid": "ദയവായി സാധുവായ ഇമെയിൽ വിലാസം നൽകുക",
+    "phone_invalid": "ദയവായി സാധുവായ 10-അക്ക ഫോൺ നമ്പർ നൽകുക",
+    "pan_invalid": "ദയവായി സാധുവായ PAN നമ്പർ (ABCDE1234F) നൽകുക",
+    "aadhaar_invalid": "ദയവായി സാധുവായ 12-അക്ക ആധാർ നമ്പർ നൽകുക",
+    "pincode_invalid": "ദയവായി സാധുവായ 6-അക്ക PIN കോഡ് നൽകുക",
+    "min_length": "കുറഞ്ഞത് {{min}} അക്ഷരങ്ങൾ ആവശ്യമാണ്",
+    "max_length": "പരമാവധി {{max}} അക്ഷരങ്ങൾ അനുവദനീയം",
+    "file_size": "ഫയൽ വലുപ്പം {{size}}MB-യിൽ കുറവായിരിക്കണം",
+    "file_type": "{{types}} ഫയലുകൾ മാത്രമേ അനുവദിച്ചിട്ടുള്ളൂ",
+    "security_required": "സമർപ്പിക്കുന്നതിന് മുമ്പ് ദയവായി സുരക്ഷാ സ്ഥിരീകരണം പൂർത്തിയാക്കുക",
+    "try_again": "ദയവായി വീണ്ടും ശ്രമിക്കുക അല്ലെങ്കിൽ ഞങ്ങളെ നേരിട്ട് ബന്ധപ്പെടുക",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "pan": "Please enter a valid PAN number",
+    "aadhaar": "Please enter a valid Aadhaar number",
+    "correctFields": "Please correct the following fields",
+    "enterCompletePermanentAddress": "Please enter complete permanent address (minimum 10 characters)",
+    "enterCompleteCurrentAddress": "Please enter complete current address (minimum 10 characters)",
+    "selectJobPosition": "Please select a job position",
+    "enterExperience": "Please enter your experience",
+    "enterLocation": "Please enter your current location",
+    "enterSalary": "Please enter expected salary",
+    "selectNoticePeriod": "Please select notice period",
+    "securityVerificationRequired": "Security Verification Required",
+    "completeSecurityVerification": "Please complete the security verification before submitting."
+  },
+  "options": {
+    "occupation": {
+      "employed": "ജോലി ചെയ്തു",
+      "selfEmployed": "സ്വയം തൊഴിൽ ചെയ്യുന്നയാൾ",
+      "business": "ബിസിനസ്സ് ഉടമ",
+      "student": "വിദ്യാർത്ഥി",
+      "retired": "വിരമിച്ചു",
+      "other": "മറ്റുള്ളവ"
+    },
+    "investment": {
+      "below_1": "₹1 ലക്ഷത്തിന് താഴെ",
+      "1_to_5": "₹1-5 Lakhs",
+      "2_to_3": "₹2-3 Lakhs",
+      "3_to_4": "₹3-4 Lakhs",
+      "4_to_5": "₹4-5 Lakhs",
+      "5_to_10": "₹5-10 Lakhs",
+      "10_to_15": "₹10-15 Lakhs",
+      "10_to_25": "₹10-25 Lakhs",
+      "15_to_25": "₹15-25 Lakhs",
+      "above_5": "₹5+ Lakhs",
+      "above_25": "₹25 ലക്ഷത്തിന് മുകളിൽ"
+    },
+    "hearAbout": {
+      "google": "Google തിരയൽ",
+      "facebook": "ഫേസ്ബുക്ക്",
+      "instagram": "ഇൻസ്റ്റാഗ്രാം",
+      "friend": "സുഹൃത്ത്/റഫറൻസ്",
+      "newspaper": "പത്രം",
+      "other": "മറ്റുള്ളവ"
+    },
+    "businessType": {
+      "retail": "റീട്ടെയിൽ ഷോപ്പ്",
+      "service": "സർവീസ് സെന്റർ",
+      "grocery": "പലചരക്ക് കട",
+      "medical": "മെഡിക്കൽ സ്റ്റോർ",
+      "restaurant": "റെസ്റ്റോറന്റ്/കഫേ",
+      "other": "മറ്റുള്ളവ"
+    },
+    "gender": {
+      "male": "പുരുഷൻ",
+      "female": "സ്ത്രീ",
+      "other": "മറ്റുള്ളവ"
+    }
+  },
+  "locationForm": {
+    "title": "എടിഎം ഇൻസ്റ്റാളേഷനായി ലൊക്കേഷൻ സമർപ്പിക്കുക",
+    "subtitle": "പുതിയ എടിഎമ്മുകൾക്ക് ഏറ്റവും അനുയോജ്യമായ സ്ഥലങ്ങൾ തിരിച്ചറിയാൻ ഞങ്ങളെ സഹായിക്കൂ.",
+    "sections": {
+      "personal": "സ്വകാര്യ വിവരം",
+      "location": "ലൊക്കേഷൻ വിശദാംശങ്ങൾ",
+      "business": "ബിസിനസ് വിവരങ്ങൾ",
+      "additional": "അധിക വിവരം"
+    },
+    "success": "സ്ഥലം വിജയകരമായി സമർപ്പിച്ചു! ഞങ്ങൾ ഉടൻ നിങ്ങളെ ബന്ധപ്പെടും.",
+    "error": "ലൊക്കേഷൻ സമർപ്പിക്കുന്നതിൽ പിശക്. വീണ്ടും ശ്രമിക്കുക."
+  },
+  "agentForm": {
+    "title": "ഒരു PixellPay ഏജന്റ് ആകുക",
+    "subtitle": "ഞങ്ങളുടെ വിജയകരമായ ഏജന്റുമാരുടെ ശൃംഖലയിൽ ചേരൂ",
+    "sections": {
+      "personal": "വ്യക്തിഗത വിവരങ്ങൾ",
+      "professional": "പ്രൊഫഷണൽ വിവരങ്ങൾ",
+      "documents": "ഡോക്യുമെന്റ് അപ്‌ലോഡ്",
+      "agreement": "നിബന്ധനകളും കരാറും"
+    },
+    "success": "അപേക്ഷ വിജയകരമായി സമർപ്പിച്ചു! ഞങ്ങളുടെ ടീം 48 മണിക്കൂറിനുള്ളിൽ നിങ്ങളെ ബന്ധപ്പെടും.",
+    "error": "അപേക്ഷ സമർപ്പിക്കുന്നതിൽ പിശക്. എല്ലാ ഫീൽഡുകളും പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക."
+  },
+  "enquiryForm": {
+    "title": "Franchise Enquiry Form",
+    "subtitle": "Get started with your ATM franchise journey",
+    "success": "Thank you for your interest! We'll get back to you soon.",
+    "error": "Error submitting enquiry. Please try again."
+  },
+  "contactForm": {
+    "title": "ഞങ്ങളെ സമീപിക്കുക",
+    "subtitle": "സഹായിക്കാൻ ഞങ്ങൾ ഇവിടെയുണ്ട്",
+    "success": "സന്ദേശം വിജയകരമായി അയച്ചു!",
+    "error": "സന്ദേശം അയയ്ക്കുന്നതിൽ പിശക്. വീണ്ടും ശ്രമിക്കുക."
+  },
+  "buttons": {
+    "submit": "സമർപ്പിക്കുക",
+    "next": "അടുത്തത്",
+    "previous": "മുമ്പത്തേത്",
+    "cancel": "റദ്ദാക്കുക",
+    "saveDraft": "ഡ്രാഫ്റ്റ് സേവ് ചെയ്യുക",
+    "submitApplication": "അപേക്ഷ സമർപ്പിക്കുക",
+    "apply": "ഇപ്പോൾ അപേക്ഷിക്കുക",
+    "register": "രജിസ്റ്റർ ചെയ്യുക",
+    "continue": "തുടരുക"
+  },
+  "sections": {
+    "personal": "വ്യക്തിഗത വിവരങ്ങൾ",
+    "contact": "കോൺടാക്റ്റ് വിശദാംശങ്ങൾ",
+    "address": "വിലാസ വിവരങ്ങൾ",
+    "business": "ബിസിനസ് വിവരങ്ങൾ",
+    "financial": "സാമ്പത്തിക വിവരങ്ങൾ",
+    "documents": "ഡോക്യുമെന്റ് അപ്ലോഡ്",
+    "verification": "സ്ഥിരീകരണം",
+    "terms": "നിബന്ധനകളും വ്യവസ്ഥകളും"
+  },
+  "form": {
+    "mandatoryFields": "All fields marked with * are mandatory",
+    "accurateInfo": "Please provide accurate information",
+    "successMessage": "Application submitted successfully!",
+    "errorMessage": "Error submitting application. Please try again.",
+    "reviewInfo": "Please review your information before submitting"
+  },
+  "forms": {
+    "gender": {
+      "label": "നിങ്ങളുടെ ലിംഗം തിരഞ്ഞെടുക്കുക",
+      "male": "പുരുഷൻ",
+      "female": "സ്ത്രീ",
+      "other": "മറ്റുള്ളവ"
+    },
+    "dateOfBirth": {
+      "day": "ദിവസം",
+      "month": "മാസം",
+      "year": "വർഷം"
+    },
+    "months": {
+      "may": "മേയ്"
+    },
+    "whatsapp": {
+      "placeholder": "വാട്സ്ആപ്പ് സജീവ നമ്പർ"
+    },
+    "pan": {
+      "labelWithFormat": "PAN കാർഡ് നമ്പർ (ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "സംസ്ഥാനം",
+      "placeholder": "നിങ്ങളുടെ സംസ്ഥാനം തിരഞ്ഞെടുക്കുക"
+    },
+    "validation": {
+      "correctFields": "ദയവായി താഴെപ്പറയുന്ന ഫീൽഡുകൾ ശരിയാക്കുക",
+      "email": "ദയവായി സാധുവായ ഇമെയിൽ വിലാസം നൽകുക",
+      "phone": "ദയവായി സാധുവായ ഫോൺ നമ്പർ നൽകുക",
+      "pan": "ദയവായി സാധുവായ PAN നമ്പർ നൽകുക",
+      "aadhaar": "ദയവായി സാധുവായ ആധാർ നമ്പർ നൽകുക"
+    },
+    "error": {
+      "tryAgainOrContact": "ദയവായി വീണ്ടും ശ്രമിക്കുക അല്ലെങ്കിൽ ഞങ്ങളെ നേരിട്ട് ബന്ധപ്പെടുക.",
+      "fileUpload": "ഫയലുകൾ അപ്ലോഡ് ചെയ്യാൻ കഴിയുന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
+      "network": "നെറ്റ്വർക്ക് പിശക്. ദയവായി നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക."
+    }
+  },
+  "dateOfBirth": {
+    "day": "Day"
+  },
+  "whatsapp": {
+    "placeholder": "WhatsApp active number"
+  },
+  "pan": {
+    "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+    "placeholder": "ABCDE1234F"
+  },
+  "state": {
+    "label": "State",
+    "placeholder": "Choose your state"
+  },
+  "months": {
+    "may": "May"
+  },
+  "gender": {
+    "label": "Select Your Gender"
+  },
+  "error": {
+    "fileUpload": "Unable to upload files. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "tryAgainOrContact": "Please try again or contact us directly."
+  }
+}

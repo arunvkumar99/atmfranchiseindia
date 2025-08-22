@@ -191,7 +191,6 @@ const AboutUs = () => {
                     <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent">
                       PP
                     </div>
-                    />
                   </div>
                   <h3 className="font-heading font-bold text-2xl md:text-3xl text-purple-600 mb-4">
                     {t('about:groupCompanies.pixellpay.name', 'PixellPay')}
@@ -225,7 +224,6 @@ const AboutUs = () => {
                     <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                       EV
                     </div>
-                    />
                   </div>
                   <h3 className="font-heading font-bold text-2xl md:text-3xl text-blue-600 mb-2">
                     {t('about:groupCompanies.evosyz.name', 'Evosyz')}

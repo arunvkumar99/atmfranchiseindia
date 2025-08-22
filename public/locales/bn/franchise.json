@@ -1,8 +1,8 @@
 {
   "content": {
     "become_an": "Become an",
-    "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "partner": "অংশীদার",
+    "trusted_atm_franchise_partner": "Trusted এটিএম ফ্র্যাঞ্চাইজি অংশীদার",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
@@ -72,7 +72,7 @@
   },
   "enquiryForm": {
     "title": "আপনার এটিএম ফ্র্যাঞ্চাইজি যাত্রা শুরু করুন",
-    "subtitle": "আপনার এলাকায় এটিএম ফ্র্যাঞ্চাইজির সুযোগ সম্পর্কে ব্যক্তিগতকৃত তথ্য পেতে আমাদের বিস্তারিত অনুসন্ধান ফর্মটি পূরণ করুন।",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about ATM franchise opportunities in your area.",
     "fields": {
       "name": "পুরো নাম",
       "email": "ইমেইল ঠিকানা",
@@ -82,12 +82,12 @@
       "investment": "বিনিয়োগ ক্ষমতা",
       "experience": "ব্যবসায়িক অভিজ্ঞতা",
       "message": "অতিরিক্ত তথ্য",
-      "consent": "আমি ফ্র্যাঞ্চাইজি সুযোগ সম্পর্কে আপডেট পেতে সম্মত।"
+      "consent": "I agree to receive updates about franchise opportunities"
     },
     "submit": "তদন্ত জমা দিন",
     "submitting": "জমা দেওয়া হচ্ছে...",
-    "success": "ধন্যবাদ! আমরা ২৪ ঘন্টার মধ্যে আপনার সাথে যোগাযোগ করব।",
-    "error": "কিছু সমস্যা হয়েছে। আবার চেষ্টা করুন।"
+    "success": "Thank you! We'll contact you within 24 hours.",
+    "error": "Something went wrong. Please try again."
   },
   "whyAtm": {
     "title": "কেন এটিএম ফ্র্যাঞ্চাইজি বেছে নেবেন?",
@@ -151,7 +151,7 @@
   },
   "comparison": {
     "title": "ফ্র্যাঞ্চাইজ মডেলের তুলনা",
-    "subtitle": "আপনার বিনিয়োগের ক্ষমতার সাথে মানানসই ফ্র্যাঞ্চাইজি মডেলটি বেছে নিন।",
+    "subtitle": "Choose the franchise model that suits your investment capacity",
     "models": {
       "basic": {
         "name": "মৌলিক",
@@ -197,12 +197,32 @@
         }
       }
     },
-    "cta": "আপনার পরিকল্পনা বেছে নিন"
+    "cta": "আপনার পরিকল্পনা বেছে নিন",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low Investment",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium franchise model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "Investment Details",
+    "revenueStreams": "Revenue Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "Get Started"
   },
   "wlaOperators": {
     "title": "ভারতের শীর্ষস্থানীয় WLA অপারেটররা",
     "subtitle": "এটিএম অপারেশনের সবচেয়ে বিশ্বস্ত নামগুলির সাথে অংশীদার হন",
-    "description": "আমরা আপনাকে সেরা সুযোগ প্রদানের জন্য সমস্ত প্রধান হোয়াইট লেবেল এটিএম অপারেটরদের সাথে কাজ করি।"
+    "description": "We work with all major White Label ATM operators to provide you the best opportunities"
   },
   "faq": {
     "title": "সচরাচর জিজ্ঞাস্য",
@@ -210,27 +230,27 @@
     "questions": {
       "investment": {
         "question": "সর্বনিম্ন কত বিনিয়োগ প্রয়োজন?",
-        "answer": "১-২টি এটিএম সহ একটি বেসিক ফ্র্যাঞ্চাইজি মডেলের জন্য সর্বনিম্ন বিনিয়োগ ₹২ লক্ষ থেকে শুরু হয়।"
+        "answer": "The minimum investment starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
         "question": "আমি কী ধরণের রিটার্ন আশা করতে পারি?",
-        "answer": "অবস্থান এবং লেনদেনের পরিমাণের উপর নির্ভর করে আপনি বার্ষিক ১৫-২৫% রিটার্ন আশা করতে পারেন।"
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
         "question": "আপনি কোন ধরণের সহায়তা প্রদান করেন?",
-        "answer": "আমরা সাইট নির্বাচন, ইনস্টলেশন, রক্ষণাবেক্ষণ, নগদ ব্যবস্থাপনা এবং 24/7 প্রযুক্তিগত সহায়তা সহ সম্পূর্ণ সহায়তা প্রদান করি।"
+        "answer": "We provide complete support including site selection, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
         "question": "আমার কি পূর্ব অভিজ্ঞতার প্রয়োজন?",
-        "answer": "কোনও পূর্ব অভিজ্ঞতার প্রয়োজন নেই। আমরা ব্যাপক প্রশিক্ষণ এবং চলমান সহায়তা প্রদান করি।"
+        "answer": "No prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
         "question": "আমি কি আমার এটিএমের অবস্থান বেছে নিতে পারি?",
-        "answer": "হ্যাঁ, আপনি স্থানগুলি সুপারিশ করতে পারেন। আমাদের দল সর্বাধিক রিটার্নের জন্য সেরা স্থানগুলি মূল্যায়ন এবং চূড়ান্ত করতে সহায়তা করবে।"
+        "answer": "Yes, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
         "question": "চুক্তির মেয়াদ কত?",
-        "answer": "স্ট্যান্ডার্ড ফ্র্যাঞ্চাইজি চুক্তিটি ৫ বছরের জন্য, নবায়নের বিকল্প রয়েছে।"
+        "answer": "The standard franchise agreement is for 5 years with an option to renew."
       }
     }
   },
@@ -242,5 +262,9 @@
       "call": "আমাদের ফোন করুন",
       "schedule": "সভা নির্ধারণ করুন"
     }
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   }
 }

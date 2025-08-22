@@ -1,15 +1,15 @@
 {
-  "title": "ଗୋପନୀୟତା ନୀତି",
-  "lastUpdated": "ଶେଷଥର ଅପଡେଟ୍‌ କରାଗଲା",
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "introduction": "ପରିଚୟ",
-    "dataCollection": "ତଥ୍ୟ ସଂଗ୍ରହ",
-    "dataUsage": "ଆମେ ଆପଣଙ୍କର ଡାଟା କିପରି ବ୍ୟବହାର କରୁ",
-    "dataProtection": "ଡାଟା ସୁରକ୍ଷା",
-    "cookies": "କୁକୀ ନୀତି",
-    "thirdParty": "ତୃତୀୟ ପକ୍ଷ ସେବାଗୁଡ଼ିକ",
-    "userRights": "ତୁମର ଅଧିକାର",
-    "contact": "ଯୋଗାଯୋଗ ସୂଚନା",
-    "changes": "ନୀତିରେ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ"
+    "introduction": "Introduction",
+    "dataCollection": "Data Collection",
+    "dataUsage": "How We Use Your Data",
+    "dataProtection": "Data Protection",
+    "cookies": "Cookies Policy",
+    "thirdParty": "Third Party Services",
+    "userRights": "Your Rights",
+    "contact": "Contact Information",
+    "changes": "Changes to Policy"
   }
 }

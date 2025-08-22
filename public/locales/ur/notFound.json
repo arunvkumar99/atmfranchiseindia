@@ -1,10 +1,10 @@
 {
-  "title": "صفحہ نہیں ملا",
-  "heading": "404 - صفحہ نہیں ملا",
-  "message": "معذرت، آپ جس صفحہ کی تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
-  "suggestion": "ہو سکتا ہے آپ نے پتہ غلط ٹائپ کیا ہو یا صفحہ منتقل ہو گیا ہو۔",
+  "title": "Page Not Found",
+  "heading": "404 - Page Not Found",
+  "message": "Sorry, the page you are looking for doesn't exist.",
+  "suggestion": "You may have mistyped the address or the page may have moved.",
   "cta": {
-    "home": "ہوم پیج پر جائیں۔",
-    "contact": "سپورٹ سے رابطہ کریں۔"
+    "home": "Go to Homepage",
+    "contact": "Contact Support"
   }
 }

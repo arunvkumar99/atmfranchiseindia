@@ -1,26 +1,60 @@
 {
-  "title": "പ്രവേശനക്ഷമത പ്രസ്താവന",
+  "hero": {
+    "backToHome": "ഹോമിലേക്ക് തിരിച്ചുപോകുക",
+    "badge": "പ്രവേശനക്ഷമത പ്രതിബദ്ധത",
+    "title": "പ്രവേശനക്ഷമത പ്രസ്താവന",
+    "subtitle": "എല്ലാവർക്കും ATM ഫ്രാഞ്ചൈസി അവസരങ്ങൾ പ്രാപ്യമാക്കുക"
+  },
+  "content": {
+    "intro": "ATM ഫ്രാഞ്ചൈസി ഇന്ത്യ വൈകല്യമുള്ള ആളുകൾക്ക് ഡിജിറ്റൽ പ്രവേശനക്ഷമത ഉറപ്പാക്കാൻ പ്രതിബദ്ധമാണ്. ഞങ്ങൾ എല്ലാവർക്കുമായി ഉപയോക്തൃ അനുഭവം തുടർച്ചയായി മെച്ചപ്പെടുത്തുകയും പ്രസക്തമായ പ്രവേശനക്ഷമത മാനദണ്ഡങ്ങൾ പ്രയോഗിക്കുകയും ചെയ്യുന്നു.",
+    "web_accessibility": "വെബ് പ്രവേശനക്ഷമത",
+    "visual_accessibility": "ദൃശ്യ പ്രവേശനക്ഷമത",
+    "motor_and_cognitive_accessibil": "മോട്ടോറിയും കോഗ്നിറ്റീവുമായ പ്രവേശനക്ഷമത",
+    "hearing_accessibility": "ശ്രവണ പ്രവേശനക്ഷമത",
+    "feedback_and_support": "ഫീഡ്ബാക്കും പിന്തുണയും",
+    "email": "ഇമെയിൽ:",
+    "phone": "ഫോൺ:"
+  },
+  "sections": {
+    "web": {
+      "content": "ഞങ്ങളുടെ വെബ്സൈറ്റ് അസിസ്റ്റീവ് ടെക്നോളജികളുമായി പൊരുത്തപ്പെടുന്നതും വെബ് ഉള്ളടക്ക പ്രവേശനക്ഷമത മാർഗ്ഗനിർദ്ദേശങ്ങൾ (WCAG) 2.1 മാനദണ്ഡങ്ങൾ പിന്തുടരുന്നതുമാണ്.",
+      "items": [
+        "എല്ലാ ഇന്റരാക്ടീവ് എലമെന്റുകൾക്കുമായി കീബോർഡ് നാവിഗേഷൻ പിന്തുണ",
+        "ശരിയായ ശീർഷക ഘടനയോടുകൂടിയ സ്ക്രീൻ റീഡർ അനുയോജ്യത",
+        "മികച്ച ദൃശ്യപരതയ്ക്കായി ഉയർന്ന കോൺട്രാസ്റ്റ് കളർ സ്കീമുകൾ",
+        "എല്ലാ ചിത്രങ്ങൾക്കും ഗ്രാഫിക്സിനുമായി ബദൽ ടെക്സ്റ്റ്"
+      ]
+    },
+    "visual": {
+      "content": "കാഴ്ച വൈകല്യങ്ങൾ ഞങ്ങളുടെ പ്ലാറ്റ്‌ഫോമുമായി ആളുകൾ എങ്ങനെ ഇടപഴകുന്നതിനെ ബാധിക്കുമെന്ന് ഞങ്ങൾ മനസ്സിലാക്കുന്നു:",
+      "items": [
+        "വെബ്സൈറ്റിലുടനീളം വലിയ, വായനായോഗ്യമായ ഫോണ്ടുകൾ",
+        "WCAG മാനദണ്ഡങ്ങൾ പാലിക്കുന്ന മതിയായ കളർ കോൺട്രാസ്റ്റ് അനുപാതങ്ങൾ"
+      ]
+    }
+  },
+  "title": "Accessibility Statement",
   "commitment": {
-    "title": "ഞങ്ങളുടെ പ്രതിബദ്ധത",
-    "description": "എല്ലാ ഉപയോക്താക്കൾക്കും ഡിജിറ്റൽ പ്രവേശനക്ഷമത ഉറപ്പാക്കാൻ ഞങ്ങൾ പ്രതിജ്ഞാബദ്ധരാണ്."
+    "title": "Our Commitment",
+    "description": "We are committed to ensuring digital accessibility for all users"
   },
   "standards": {
-    "title": "പ്രവേശനക്ഷമത മാനദണ്ഡങ്ങൾ",
-    "wcag": "WCAG 2.1 ലെവൽ AA പാലിക്കൽ",
-    "testing": "പതിവ് പ്രവേശനക്ഷമത പരിശോധന",
-    "feedback": "ഉപയോക്തൃ ഫീഡ്‌ബാക്ക് സംയോജനം"
+    "title": "Accessibility Standards",
+    "wcag": "WCAG 2.1 Level AA Compliance",
+    "testing": "Regular Accessibility Testing",
+    "feedback": "User Feedback Integration"
   },
   "features": {
-    "title": "പ്രവേശനക്ഷമത സവിശേഷതകൾ",
-    "keyboard": "കീബോർഡ് നാവിഗേഷൻ",
-    "screenReader": "സ്ക്രീൻ റീഡർ പിന്തുണ",
-    "contrast": "ഉയർന്ന ദൃശ്യതീവ്രത ഓപ്ഷനുകൾ",
-    "textSize": "ക്രമീകരിക്കാവുന്ന വാചക വലുപ്പം"
+    "title": "Accessibility Features",
+    "keyboard": "Keyboard Navigation",
+    "screenReader": "Screen Reader Support",
+    "contrast": "High Contrast Options",
+    "textSize": "Adjustable Text Size"
   },
   "contact": {
-    "title": "ഉപയോഗസഹായി ഫീഡ്‌ബാക്ക്",
-    "description": "പ്രവേശനക്ഷമതയെക്കുറിച്ചുള്ള നിങ്ങളുടെ ഫീഡ്‌ബാക്ക് ഞങ്ങൾ സ്വാഗതം ചെയ്യുന്നു.",
-    "email": "ഞങ്ങൾക്ക് ഇമെയിൽ അയയ്ക്കുക",
-    "phone": "ഞങ്ങളെ വിളിക്കൂ"
+    "title": "Accessibility Feedback",
+    "description": "We welcome your feedback on accessibility",
+    "email": "Email Us",
+    "phone": "Call Us"
   }
 }

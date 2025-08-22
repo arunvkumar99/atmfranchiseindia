@@ -1,15 +1,15 @@
 {
-  "title": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು",
-  "lastUpdated": "ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+  "title": "Terms and Conditions",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "acceptance": "ನಿಯಮಗಳ ಸ್ವೀಕಾರ",
-    "services": "ಸೇವೆಗಳ ವಿವರಣೆ",
-    "userResponsibilities": "ಬಳಕೆದಾರರ ಜವಾಬ್ದಾರಿಗಳು",
-    "intellectualProperty": "ಬೌದ್ಧಿಕ ಆಸ್ತಿ",
-    "limitations": "ಹೊಣೆಗಾರಿಕೆಯ ಮಿತಿಗಳು",
-    "indemnification": "ನಷ್ಟ ಪರಿಹಾರ",
-    "termination": "ಮುಕ್ತಾಯ",
-    "governingLaw": "ಆಡಳಿತ ಕಾನೂನು",
-    "contact": "ಸಂಪರ್ಕ ಮಾಹಿತಿ"
+    "acceptance": "Acceptance of Terms",
+    "services": "Services Description",
+    "userResponsibilities": "User Responsibilities",
+    "intellectualProperty": "Intellectual Property",
+    "limitations": "Limitations of Liability",
+    "indemnification": "Indemnification",
+    "termination": "Termination",
+    "governingLaw": "Governing Law",
+    "contact": "Contact Information"
   }
 }

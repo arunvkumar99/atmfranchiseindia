@@ -1,21 +1,21 @@
 {
-  "title": "એજન્ટ બનો",
-  "subtitle": "ATM એજન્ટ તરીકે અમારી સાથે ભાગીદારી કરો અને કમિશન કમાઓ",
+  "title": "Become an Agent",
+  "subtitle": "Partner with us as an ATM agent and earn commission",
   "hero": {
-    "badge": "એજન્ટ ભાગીદારી કાર્યક્રમ",
-    "heading": "એટીએમ એજન્ટ બનો",
-    "description": "સ્થિર કમિશન મેળવતા સફળ એજન્ટોના અમારા નેટવર્કમાં જોડાઓ",
-    "cta": "હવે અરજી કરો"
+    "badge": "Agent Partnership Program",
+    "heading": "Become an ATM Agent",
+    "description": "Join our network of successful agents earning steady commission",
+    "cta": "Apply Now"
   },
   "benefits": {
-    "title": "એજન્ટ લાભો",
-    "commission": "ઉચ્ચ આયોગ",
-    "support": "સંપૂર્ણ સપોર્ટ",
-    "training": "મફત તાલીમ",
-    "flexible": "લવચીક કલાકો"
+    "title": "Agent Benefits",
+    "commission": "High Commission",
+    "support": "Full Support",
+    "training": "Free Training",
+    "flexible": "Flexible Hours"
   },
   "form": {
-    "title": "એજન્ટ અરજી ફોર્મ",
-    "submit": "અરજી સબમિટ કરો"
+    "title": "Agent Application Form",
+    "submit": "Submit Application"
   }
 }

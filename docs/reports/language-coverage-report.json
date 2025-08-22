@@ -1,0 +1,122 @@
+{
+  "bn": {
+    "code": "bn",
+    "name": "Bengali",
+    "priority": 1,
+    "users": "12%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "te": {
+    "code": "te",
+    "name": "Telugu",
+    "priority": 2,
+    "users": "10%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1863,
+    "coverage": 105
+  },
+  "mr": {
+    "code": "mr",
+    "name": "Marathi",
+    "priority": 3,
+    "users": "8%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "gu": {
+    "code": "gu",
+    "name": "Gujarati",
+    "priority": 4,
+    "users": "5%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "ur": {
+    "code": "ur",
+    "name": "Urdu",
+    "priority": 5,
+    "users": "4%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "kn": {
+    "code": "kn",
+    "name": "Kannada",
+    "priority": 6,
+    "users": "3%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "or": {
+    "code": "or",
+    "name": "Odia",
+    "priority": 7,
+    "users": "2%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "pa": {
+    "code": "pa",
+    "name": "Punjabi",
+    "priority": 8,
+    "users": "1.5%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "as": {
+    "code": "as",
+    "name": "Assamese",
+    "priority": 9,
+    "users": "1%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1782,
+    "translatedKeys": 1855,
+    "coverage": 104
+  },
+  "ml": {
+    "code": "ml",
+    "name": "Malayalam",
+    "priority": 10,
+    "users": "0.5%",
+    "missingFiles": [],
+    "emptyFiles": [],
+    "incompleteFiles": [],
+    "totalKeys": 1771,
+    "translatedKeys": 1798,
+    "coverage": 102
+  }
+}

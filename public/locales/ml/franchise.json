@@ -1,9 +1,9 @@
 {
   "content": {
-    "become_an": "Become an",
-    "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
-    "simple_4step_process": "Simple 4-Step Process"
+    "become_an": "ഒരു ആകുക",
+    "partner": "പങ്കാളി",
+    "trusted_atm_franchise_partner": "വിശ്വസ്ത എടിഎം ഫ്രാഞ്ചൈസി പങ്കാളി",
+    "simple_4step_process": "ലളിതമായ 4-ഘട്ട പ്രക്രിയ"
   },
   "hero": {
     "badge": "വിശ്വസ്ത എടിഎം ഫ്രാഞ്ചൈസി പങ്കാളി",
@@ -150,15 +150,35 @@
     }
   },
   "comparison": {
-    "title": "ഫ്രാഞ്ചൈസി മോഡലുകളുടെ താരതമ്യം",
-    "subtitle": "നിങ്ങളുടെ നിക്ഷേപ ശേഷിക്ക് അനുയോജ്യമായ ഫ്രാഞ്ചൈസി മോഡൽ തിരഞ്ഞെടുക്കുക.",
+    "title": "ഫ്രാഞ്ചൈസ് മോഡലുകളുടെ താരതമ്യം",
+    "subtitle": "നിങ്ങളുടെ നിക്ഷേപ കഴിവിനും ബിസിനസ് ലക്ഷ്യങ്ങൾക്കും അനുയോജ്യമായ ഫ്രാഞ്ചൈസ് മോഡൽ തിരഞ്ഞെടുക്കുക",
+    "badges": {
+      "mostPopular": "ഏറ്റവും ജനപ്രിയം",
+      "bestReturns": "മികച്ച വരുമാനം",
+      "lowInvestment": "കുറഞ്ഞ നിക്ഷേപം",
+      "premiumModel": "പ്രീമിയം മോഡൽ"
+    },
+    "investmentDetails": "നിക്ഷേപ വിശദാംശങ്ങൾ",
+    "revenueStreams": "വരുമാന സ്രോതസ്സുകൾ",
+    "keyFeatures": "പ്രധാന സവിശേഷതകൾ",
+    "interestedIn": "{{name}}-ൽ താൽപ്പര്യമുണ്ടോ?",
+    "getStartedWith": "{{name}}-മായി ആരംഭിക്കുക",
+    "tsifindi": {
+      "description": "TSI Findi ശക്തമായ ബ്രാൻഡ് പിന്തുണയും സമഗ്ര സഹായവും ഉള്ള നിക്ഷേപത്തിന്റെയും വരുമാനത്തിന്റെയും മികച്ച സന്തുലിതാവസ്ഥ വാഗ്ദാനം ചെയ്യുന്നു.",
+      "feature1": "ഏറ്റവും ഉയർന്ന ഇടപാട് കമ്മീഷൻ നിരക്കുകൾ",
+      "feature2": "ശക്തമായ പരസ്യ വരുമാന പങ്കിടൽ",
+      "feature3": "സ്ഥാപിതമായ ബ്രാൻഡ് സാന്നിധ്യം",
+      "feature4": "മികച്ച സഹായ സംവിധാനം",
+      "feature5": "പതിവ് പരിശീലന പരിപാടികൾ",
+      "name": "TSI/FINDI"
+    },
     "models": {
       "basic": {
-        "name": "അടിസ്ഥാനപരമായ",
-        "investment": "₹2-5 ലക്ഷം",
-        "atms": "1-2 എടിഎമ്മുകൾ",
-        "roi": "15-18% വാർഷികം",
-        "support": "സ്റ്റാൻഡേർഡ് പിന്തുണ",
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 ATMs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
         "features": [
           "Single location setup",
           "Basic training program",
@@ -167,11 +187,11 @@
         ]
       },
       "professional": {
-        "name": "പ്രൊഫഷണൽ",
-        "investment": "₹5-10 ലക്ഷം",
-        "atms": "3-5 എടിഎമ്മുകൾ",
-        "roi": "18-22% വാർഷികം",
-        "support": "മുൻഗണനാ പിന്തുണ",
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 ATMs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
         "features": [
           "Multiple location setup",
           "Advanced training program",
@@ -182,11 +202,11 @@
         "popular": true
       },
       "enterprise": {
-        "name": "എന്റർപ്രൈസ്",
-        "investment": "₹10 ലക്ഷത്തിലധികം",
-        "atms": "6+ എടിഎമ്മുകൾ",
-        "roi": "22-25% വാർഷികം",
-        "support": "പ്രീമിയം പിന്തുണ",
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ ATMs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
         "features": [
           "Unlimited locations",
           "Executive training program",
@@ -197,7 +217,7 @@
         ]
       }
     },
-    "cta": "നിങ്ങളുടെ പ്ലാൻ തിരഞ്ഞെടുക്കുക"
+    "cta": "Choose Your Plan"
   },
   "wlaOperators": {
     "title": "ഇന്ത്യയിലെ മുൻനിര WLA ഓപ്പറേറ്റർമാർ",
@@ -210,7 +230,7 @@
     "questions": {
       "investment": {
         "question": "ആവശ്യമായ ഏറ്റവും കുറഞ്ഞ നിക്ഷേപം എന്താണ്?",
-        "answer": "1-2 എടിഎമ്മുകളുള്ള ഒരു അടിസ്ഥാന ഫ്രാഞ്ചൈസി മോഡലിന് ഏറ്റവും കുറഞ്ഞ നിക്ഷേപം ₹2 ലക്ഷം മുതൽ ആരംഭിക്കുന്നു."
+        "answer": "1-2 എടിഎമ്മുകളുള്ള ഒരു അടിസ്ഥാന ഫ്രാഞ്ചൈസി മോഡലിന് ഏറ്റവും കുറഞ്ഞ നിക്ഷേപം ₹2 Lakhs മുതൽ ആരംഭിക്കുന്നു."
       },
       "returns": {
         "question": "എനിക്ക് എന്ത് തരത്തിലുള്ള വരുമാനം പ്രതീക്ഷിക്കാം?",
@@ -242,5 +262,9 @@
       "call": "ഞങ്ങളെ വിളിക്കൂ",
       "schedule": "ഷെഡ്യൂൾ മീറ്റിംഗ്"
     }
+  },
+  "rbiLicensed": {
+    "title": "RBI ലൈസൻസുള്ള WLA ഓപ്പറേറ്റർമാർ",
+    "subtitle": "കേന്ദ്ര ബാങ്കിന്റെ അംഗീകാരമുള്ള വിശ്വസ്ത പങ്കാളികൾ"
   }
 }

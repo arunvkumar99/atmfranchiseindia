@@ -34,9 +34,9 @@ const WLAOperators = () => {
         <Card className="bg-gradient-to-r from-primary/5 to-secondary/5 border-0">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl md:text-3xl font-bold text-foreground" id="wla-comparison">
-              RBI Licensed WLA Operators
+              {t('franchise:rbiLicensed.title')}
             </CardTitle>
-            <p className="text-muted-foreground mt-2">{t('messages.partner_with_trusted_and_rbi_licensed_white_label_')}</p>
+            <p className="text-muted-foreground mt-2">{t('franchise:rbiLicensed.subtitle')}</p>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-items-center">

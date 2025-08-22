@@ -5,7 +5,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, ArrowRight, CheckCircle } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-// Supabase integration removed - now uses Google Sheets
+// Using Google Sheets integration
+import { googleSheetsService } from '@/lib/googleSheetsService';
 import familyBusiness from "@/assets/family-business.jpg";
 import successfulBusinessman from "@/assets/successful-businessman.jpg";
 import { useTranslation } from 'react-i18next';
@@ -41,21 +42,17 @@ const GetStarted = () => {
       console.log('🚀 Submitting form to edge function...');
       console.log('📋 Submission data:', submissionData);
 
-      // Submit through the form-submission edge function
-      const { data, error } = await supabase.functions.invoke('form-submission', {
-        body: {
-          formType: 'get_started_submissions',
-          data: submissionData,
-          userAgent: navigator.userAgent,
-          ipAddress: undefined // Will be determined server-side
-        }
+      // Submit through Google Sheets
+      const response = await googleSheetsService.submitForm({
+        formType: 'get_started_submissions',
+        data: submissionData
       });
       
-      console.log('📡 Edge function response:', { data, error });
+      console.log('📡 Google Sheets response:', response);
 
-      if (error) {
-        // if (import.meta.env.DEV) { console.error('Form submission error:', error); } // Silenced for production
-        throw error;
+      if (!response?.success) {
+        // if (import.meta.env.DEV) { console.error('Form submission error:', response); } // Silenced for production
+        throw new Error(response?.error || response?.message || 'Submission failed');
       }
 
       toast({

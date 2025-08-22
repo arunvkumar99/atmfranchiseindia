@@ -2,163 +2,183 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "trusted_atm_franchise_partner": "Trusted এটিএম ফ্ৰেঞ্চাইজী Partner",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
-    "badge": "বিশ্বাসযোগ্য এটিএম ফ্ৰেঞ্চাইজি অংশীদাৰ",
+    "badge": "Trusted এটিএম ফ্ৰেঞ্চাইজী Partner",
     "title": {
-      "line1": "হৈ যাওক এক",
-      "line2": "এটিএম ফ্ৰেঞ্চাইজি",
-      "line3": "সংগী"
+      "line1": "Become an",
+      "line2": "এটিএম ফ্ৰেঞ্চাইজী",
+      "line3": "Partner"
     },
     "description": {
-      "part1": "যোগদান কৰক",
-      "successfulPartners": "২০০+ সফল অংশীদাৰ",
-      "part2": "আৰু আপোনাৰ আৰম্ভ কৰক",
-      "profitableBusiness": "লাভজনক এটিএম ব্যৱসায়",
-      "part3": "আজিৰ সৈতে",
-      "minimalInvestment": "নূন্যতম বিনিয়োগ"
+      "part1": "Join",
+      "successfulPartners": "200+ সফলতাful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM ব্যৱসায়",
+      "part3": "today with",
+      "minimalInvestment": "minimal বিনিয়োগ"
     },
     "cta": {
-      "apply": "ফ্ৰেঞ্চাইজিৰ বাবে আবেদন কৰক",
-      "learnMore": "অধিক জানক"
+      "apply": "আবেদন কৰক for Franchise",
+      "learnMore": "Learn More"
     },
     "benefits": {
       "quickRoi": {
-        "title": "দ্ৰুত ROI",
-        "description": "প্ৰমাণিত ব্যৱসায়িক মডেলৰ সৈতে বিনিয়োগৰ দ্ৰুত ৰিটাৰ্ণ"
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven ব্যৱসায় model"
       },
       "support": {
-        "title": "নিবেদিত সমৰ্থন",
-        "description": "আমাৰ বিশেষজ্ঞ দলৰ পৰা ২৪/৭ কাৰিকৰী আৰু ব্যৱসায়িক সহায়"
+        "title": "Dedicated Support",
+        "description": "24/7 technical and ব্যৱসায় support from our expert team"
       },
       "network": {
-        "title": "প্ৰমাণিত নেটৱৰ্ক",
-        "description": "সমগ্ৰ ভাৰতৰ ৫০০+ সফল ফ্ৰেঞ্চাইজি অংশীদাৰৰ সৈতে যোগদান কৰক"
+        "title": "Proven Network",
+        "description": "Join 500+ successful ফ্ৰেঞ্চাইজী partners across India"
       },
       "training": {
-        "title": "প্ৰশিক্ষণ অন্তৰ্ভুক্ত",
-        "description": "বিস্তৃত প্ৰশিক্ষণ আৰু চলিত সহায় আগবঢ়োৱা"
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
       }
     },
     "process": {
-      "title": "কেনেকৈ আৰম্ভ কৰিব",
+      "title": "How to আৰম্ভ কৰক",
       "steps": {
         "apply": {
-          "title": "প্ৰয়োগ কৰক",
-          "description": "আপোনাৰ ফ্ৰেঞ্চাইজি আবেদন অনলাইনত জমা দিয়ক"
+          "title": "আবেদন কৰক",
+          "description": "দাখিল কৰক your franchise application online"
         },
         "agreement": {
-          "title": "চুক্তি",
-          "description": "নথিপত্ৰ সম্পূৰ্ণ কৰক আৰু চুক্তিত স্বাক্ষৰ কৰক"
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
         },
         "installation": {
-          "title": "সংস্থাপন",
-          "description": "আমি ATM ছেটআপ আৰু ইনষ্টলেচন নিয়ন্ত্ৰণ কৰোঁ"
+          "title": "Installation",
+          "description": "We handle এটিএম setup and installation"
         },
         "earn": {
-          "title": "উপাৰ্জন আৰম্ভ কৰক",
-          "description": "মাহেকীয়া নিষ্ক্ৰিয় আয় ��াভ কৰিবলৈ আৰম্ভ কৰক"
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
         }
       }
     },
     "stats": {
-      "partners": "সক্ৰিয় অংশীদাৰ",
-      "atms": "এটিএম নিয়োগ কৰা হৈছে",
-      "transactions": "মাহেকীয়া লেনদেন",
-      "support": "সমৰ্থন উপলব্ধ"
+      "partners": "Active Partners",
+      "atms": "এটিএমs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
     }
   },
   "enquiryForm": {
-    "title": "আপোনাৰ এটিএম ফ্ৰেঞ্চাইজি যাত্ৰা আৰম্ভ কৰক",
-    "subtitle": "আপোনাৰ অঞ্চলৰ এটিএম ফ্ৰেঞ্চাইজিৰ সুযোগৰ বিষয়ে ব্যক্তিগতকৃত তথ্য পাবলৈ আমাৰ বিশদ অনুসন্ধান ফৰ্ম পূৰণ কৰক।",
+    "title": "Start Your এটিএম ফ্ৰেঞ্চাইজী Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about এটিএম ফ্ৰেঞ্চাইজী opportunities in your area.",
     "fields": {
       "name": "সম্পূৰ্ণ নাম",
       "email": "ইমেইল ঠিকনা",
       "phone": "ফোন নম্বৰ",
-      "state": "ৰাজ্���",
+      "state": "ৰাজ্য",
       "city": "চহৰ",
-      "investment": "বিনিয়োগৰ ক্ষমতা",
-      "experience": "ব্যৱসায়িক অভিজ্ঞতা",
-      "message": "অতিৰিক্ত তথ্য",
-      "consent": "ফ্ৰেঞ্চাইজিৰ সুযোগৰ বিষয়ে আপডেট লাভ কৰিবলৈ মই সন্মত"
+      "investment": "Investment Capaচহৰ",
+      "experience": "ব্যৱসায় Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about ফ্ৰেঞ্চাইজী opportunities"
     },
-    "submit": "অনুসন্ধান জমা দিয়ক",
-    "submitting": "জমা দি আছে...",
-    "success": "ধন্যবাদ! ২৪ ঘণ্টাৰ ভিতৰত আমি আপোনাৰ সৈতে যোগাযোগ কৰিম।",
-    "error": "কিবা এটা ভুল হ’ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।"
+    "submit": "দাখিল কৰক Enquiry",
+    "submitting": "দাখিল কৰকting...",
+    "success": "ধন্যবাদ! We'll contact you within 24 hours.",
+    "error": "Something went wrong. অনুগ্ৰহ কৰি try again."
   },
   "whyAtm": {
-    "title": "এটিএম ফ্ৰেঞ্চাইজি কিয় বাছি ল’ব?",
-    "subtitle": "ভাৰতৰ আগশাৰীৰ এটিএম ফ্ৰেঞ্চাইজি নেটৱৰ্কৰ সৈতে অংশীদাৰিত্বৰ সুবিধাসমূহ আৱিষ্কাৰ কৰক",
+    "title": "Why Choose এটিএম ফ্ৰেঞ্চাইজী?",
+    "subtitle": "Discover the benefits of partnering with India's leading এটিএম ফ্ৰেঞ্চাইজী network",
     "benefits": {
       "highReturns": {
-        "title": "উচ্চ ৰিটাৰ্ণ",
-        "description": "আপোনাৰ বিনিয়োগৰ পৰা ২০% পৰ্যন্ত বাৰ্ষিক ৰিটাৰ্ণ লাভ কৰক"
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your বিনিয়োগ"
       },
       "passiveIncome": {
-        "title": "নিষ্ক্ৰিয় আয়",
-        "description": "নূন্যতম প্ৰচেষ্টাৰে স্থিৰ মাহিলী আয় সৃষ্টি কৰা"
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
       },
       "lowMaintenance": {
-        "title": "কম ৰক্ষণাবেক্ষণ",
-        "description": "আমি সকলো কাৰিকৰী ৰক্ষণাবেক্ষণ আৰু নগদ ধন ব্যৱস্থাপনা চম্ভালোঁ"
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
       },
       "governmentSupport": {
-        "title": "চৰকাৰী সমৰ্থন",
-        "description": "আৰ্থিক অন্তৰ্ভুক্তিৰ বাবে চৰকাৰী পদক্ষেপৰ পৰা লাভৱান হওক"
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
       },
       "growingMarket": {
-        "title": "বৃদ্ধি পোৱা বজাৰ",
-        "description": "ভাৰতৰ দ্ৰুতগতিত সম্প্ৰসাৰিত ডিজিটেল পেমেণ্ট ইক’চিষ্টেমৰ টেপ কৰক"
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
       },
       "brandValue": {
-        "title": "ব্ৰেণ্ড মূল্য",
-        "description": "আমাৰ প্ৰতিষ্ঠিত ব্ৰেণ্ড আৰু প্ৰমাণিত ব্যৱসায়িক মডেলৰ লাভ উঠাওক"
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven ব্যৱসায় model"
       }
     }
   },
   "services": {
-    "title": "আমাৰ বিস্তৃত সেৱাসমূহ",
-    "subtitle": "সফল এটিএম ফ্ৰেঞ্চাইজি চলাবলৈ প্ৰয়োজনীয় সকলো বস্তু",
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful এটিএম ফ্ৰেঞ্চাইজী",
     "items": {
       "siteSelection": {
-        "title": "ছাইট নিৰ্বাচন",
-        "description": "অধিক যান-জঁটৰ স্থান চিনাক্তকৰণত বিশেষজ্ঞৰ সহায়"
+        "title": "Site নিৰ্বাচন কৰকion",
+        "description": "Expert assistance in identifying high-traffic locations"
       },
       "installation": {
-        "title": "সংস্থাপন",
-        "description": "সম্পূৰ্ণ ATM ছেটআপ আৰু কনফিগাৰেচন"
+        "title": "Installation",
+        "description": "Complete এটিএম setup and configuration"
       },
       "cashManagement": {
-        "title": "নগদ ধন ব্যৱস্থাপনা",
-        "description": "নিয়মীয়াকৈ নগদ ধন পুনৰ ভৰোৱা আৰু মিলন"
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
       },
       "maintenance": {
-        "title": "ব্যৱস্থাপনা",
-        "description": "২৪/৭ কাৰিকৰী সহায় আৰু নিয়মীয়া চাৰ্ভিচিং"
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
       },
       "compliance": {
-        "title": "অনুবৰ্তী",
-        "description": "সম্পূৰ্ণ নিয়ন্ত্ৰণ অনুসৰণ আৰু নথিপত্ৰ"
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
       },
       "marketing": {
-        "title": "বিপণন সমৰ্থন",
-        "description": "প্ৰচা��� সামগ্ৰী আৰু স্থানীয় বিপণন সহায়"
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
       }
     }
   },
   "comparison": {
-    "title": "ফ্ৰেঞ্চাইজি মডেল তুলনা",
-    "subtitle": "আপোনাৰ বিনিয়োগ ক্ষমতাৰ লগত খাপ খোৱা ফ্ৰেঞ্চাইজি মডেল বাছক",
+    "title": "ফ্ৰেঞ্চাইজী Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capaচহৰ",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low বিনিয়োগ",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium ফ্ৰেঞ্চাইজী model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "বিনিয়োগ Details",
+    "revenueStreams": "আয় Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "আৰম্ভ কৰক",
     "models": {
       "basic": {
-        "name": "প্ৰাথমিক",
-        "investment": "₹২-৫ লাখ টকা",
-        "atms": "১-২ টা এটিএম",
-        "roi": "১৫-১৮% বাৰ্ষিক",
-        "support": "প্ৰামাণিক সমৰ্থন",
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 এটিএমs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
         "features": [
           "Single location setup",
           "Basic training program",
@@ -167,11 +187,11 @@
         ]
       },
       "professional": {
-        "name": "পেশাদাৰী",
-        "investment": "₹৫-১০ লাখ টকা",
-        "atms": "৩-৫ টা এটিএম",
-        "roi": "১৮-২২% বাৰ্ষিক",
-        "support": "অগ্ৰাধিকাৰ সমৰ্থন",
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 এটিএমs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
         "features": [
           "Multiple location setup",
           "Advanced training program",
@@ -182,11 +202,11 @@
         "popular": true
       },
       "enterprise": {
-        "name": "এণ্টাৰপ্ৰাইজ",
-        "investment": "₹১০+ লাখ টকা",
-        "atms": "৬+ এটিএম",
-        "roi": "২২-২৫% বাৰ্ষিক",
-        "support": "প্ৰিমিয়াম সমৰ্থন",
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ এটিএমs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
         "features": [
           "Unlimited locations",
           "Executive training program",
@@ -197,50 +217,54 @@
         ]
       }
     },
-    "cta": "আপোনাৰ পৰিকল্পনা বাছক"
+    "cta": "বাছক Your Plan"
   },
   "wlaOperators": {
-    "title": "ভাৰতৰ আগশাৰীৰ WLA অপাৰেটৰ",
-    "subtitle": "এটিএমৰ কাৰ্য্যকলাপত আটাইতকৈ বিশ্বাসযোগ্য নামৰ সৈতে অংশীদাৰ",
-    "description": "আমি সকলো প্ৰধান হোৱাইট লেবেল এটিএম অপাৰেটৰৰ সৈতে কাম কৰি আপোনালোকক সৰ্বোত্তম সুযোগ প্ৰদান কৰোঁ"
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in এটিএম operations",
+    "description": "We work with all major White Label এটিএম operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
-    "title": "সঘনাই সোধ��� প্ৰশ্ন",
-    "subtitle": "ATM ফ্ৰেঞ্চাইজিৰ বিষয়ে সাধাৰণ প্ৰশ্নৰ উত্তৰ পাওক",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about এটিএম ফ্ৰেঞ্চাইজী",
     "questions": {
       "investment": {
-        "question": "নূন্যতম বিনিয়োগৰ প্ৰয়োজন কিমান?",
-        "answer": "১-২টা এটিএম থকা বেচিক ফ্ৰেঞ্চাইজি মডেলৰ বাবে নূন্যতম বিনিয়োগ ₹২ লাখৰ পৰা আৰম্ভ হয়।"
+        "question": "What is the minimum বিনিয়োগ required?",
+        "answer": "The minimum বিনিয়োগ starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
-        "question": "কেনেধৰণৰ ৰিটাৰ্ণ আশা কৰিব পাৰি?",
-        "answer": "স্থান আৰু লেনদেনৰ পৰিমাণৰ ওপৰত নিৰ্ভৰ কৰি আপুনি ১৫-২৫% বাৰ্ষিক ৰিটাৰ্ণ আশা কৰিব পাৰে।"
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
-        "question": "আপুনি কি সহায় আগবঢ়ায়?",
-        "answer": "আমি চাইট নিৰ্ব���চন, সংস্থাপন, ৰক্ষণাবেক্ষণ, নগদ ধন ব্যৱস্থাপনা, আৰু ২৪/৭ কাৰিকৰী সহায়কে ধৰি সম্পূৰ্ণ সমৰ্থন প্ৰদান কৰোঁ।"
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site নিৰ্বাচন কৰকion, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
-        "question": "মোক পূৰ্বৰ অভিজ্ঞতাৰ প্ৰয়োজন নেকি?",
-        "answer": "কোনো পূৰ্বৰ অভিজ্ঞতাৰ প্ৰয়োজন নাই। আমি বিস্তৃত প্ৰশিক্ষণ আৰু চলিত সহায় আগবঢ়াইছো।"
+        "question": "Do I need prior experience?",
+        "answer": "নহয় prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
-        "question": "মই মোৰ এটিএমৰ স্থান বাছি ল’ব পাৰিমনে?",
-        "answer": "হয়, আপুনি স্থানৰ পৰামৰ্শ দিব পাৰে। আমাৰ দলটোৱে সৰ্বাধিক ৰিটাৰ্ণৰ বাবে শ্ৰেষ্ঠ স্থানসমূহৰ মূল্যায়ন আৰু চূড়ান্ত কৰা�� সহায় কৰিব।"
+        "question": "Can I choose my এটিএম locations?",
+        "answer": "হয়, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
-        "question": "চুক্তিৰ সময়সীমা কিমান?",
-        "answer": "ষ্টেণ্ডাৰ্ড ফ্ৰেঞ্চাইজি চুক্তি ৫ বছৰৰ বাবে আৰু নবীকৰণৰ বিকল্প আছে।"
+        "question": "What is the contract duration?",
+        "answer": "The standard ফ্ৰেঞ্চাইজী agreement is for 5 years with an option to renew."
       }
     }
   },
   "getStarted": {
-    "title": "আপোনাৰ এটিএম ফ্ৰেঞ্চাইজি আৰম্ভ কৰিবলৈ সাজুনে?",
-    "subtitle": "ভাৰতৰ দ্ৰুতগতিত বৃদ্ধি পোৱা এটিএম নেটৱৰ্কত আজিয়েই যোগদান কৰক",
+    "title": "Ready to Start Your এটিএম ফ্ৰেঞ্চাইজী?",
+    "subtitle": "Join India's fastest growing এটিএম network today",
     "cta": {
-      "apply": "এতিয়াই আবেদন কৰক",
-      "call": "আমাক ফোন কৰক",
-      "schedule": "সময়সূচী সভা"
+      "apply": "আবেদন কৰক Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
     }
   }
 }

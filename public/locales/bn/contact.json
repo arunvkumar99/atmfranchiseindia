@@ -2,19 +2,19 @@
   "title": "যোগাযোগ করুন",
   "subtitle": "আমরা আপনাকে সাহায্য করতে এখানে আছি",
   "phone": {
-    "title": "Phone",
+    "title": "ফোন",
     "hours": "Mon-Sat: 9 AM - 6 PM IST"
   },
   "email": {
-    "title": "Email",
+    "title": "ইমেইল",
     "response": "We reply within 24 hours"
   },
   "office": {
-    "title": "Office Address",
-    "address": "Bangalore, Karnataka, India"
+    "title": "Office ঠিকানা",
+    "address": "Bangalore, Karnataka, ভারত"
   },
   "form": {
-    "title": "Send us a Message",
+    "title": "Send us a বার্তা",
     "description": "Fill out the form below and our team will get back to you soon"
   }
 }

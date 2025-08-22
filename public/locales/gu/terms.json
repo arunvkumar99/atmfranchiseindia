@@ -1,15 +1,15 @@
 {
-  "title": "નિયમો અને શરત",
-  "lastUpdated": "છેલ્લે અપડેટ કરેલ",
+  "title": "Terms and Conditions",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "acceptance": "શરતોની સ્વીકૃતિ",
-    "services": "સેવાઓનું વર્ણન",
-    "userResponsibilities": "વપરાશકર્તા જવાબદારીઓ",
-    "intellectualProperty": "બૌદ્ધિક સંપત્તિ",
-    "limitations": "જવાબદારીની મર્યાદાઓ",
-    "indemnification": "વળતર",
-    "termination": "સમાપ્તિ",
-    "governingLaw": "નિયમનકારી કાયદો",
-    "contact": "સંપર્ક માહિતી"
+    "acceptance": "Acceptance of Terms",
+    "services": "Services Description",
+    "userResponsibilities": "User Responsibilities",
+    "intellectualProperty": "Intellectual Property",
+    "limitations": "Limitations of Liability",
+    "indemnification": "Indemnification",
+    "termination": "Termination",
+    "governingLaw": "Governing Law",
+    "contact": "Contact Information"
   }
 }

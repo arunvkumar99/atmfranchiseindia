@@ -1,36 +1,36 @@
 {
-  "title": "ನಿಮ್ಮ ಎಟಿಎಂ ವ್ಯವಹಾರವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
-  "subtitle": "ಭಾರತದಲ್ಲಿ ಎಟಿಎಂ ವ್ಯವಹಾರವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಸಂಪೂರ್ಣ ಮಾರ್ಗದರ್ಶಿ",
+  "title": "Start Your ATM Business",
+  "subtitle": "Complete guide to starting an ATM business in India",
   "hero": {
-    "heading": "ನಿಮ್ಮ ಎಟಿಎಂ ವ್ಯವಹಾರವನ್ನು ಇಂದೇ ಪ್ರಾರಂಭಿಸಿ",
-    "description": "ಎಟಿಎಂ ವ್ಯವಹಾರವನ್ನು ಪ್ರಾರಂಭಿಸುವ ಬಗ್ಗೆ ನೀವು ತಿಳಿದುಕೊಳ್ಳಬೇಕಾದ ಎಲ್ಲವೂ",
-    "cta": "ಪ್ರ��ರಂಭಿಸಲು ಒತ್ತಿ"
+    "heading": "Start Your ATM Business Today",
+    "description": "Everything you need to know about starting an ATM business",
+    "cta": "Get Started"
   },
   "steps": {
-    "title": "ಹೇಗೆ ಪ್ರಾರಂಭಿಸುವುದು",
+    "title": "How to Start",
     "research": {
-      "title": "ಸಂಶೋಧನೆ ಮತ್ತು ಯೋಜನೆ",
-      "description": "ಮಾರುಕಟ್ಟೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ ಮತ್ತು ವ್ಯವಹಾರ ಯೋಜನೆಯನ್ನು ರಚಿಸಿ"
+      "title": "Research & Planning",
+      "description": "Understand the market and create a business plan"
     },
     "legal": {
-      "title": "ಕಾನೂನು ಅವಶ್ಯಕತೆಗಳು",
-      "description": "ಎಲ್ಲಾ ನಿಯಂತ್ರಕ ಮತ್ತು ಅನುಸರಣೆ ಅವಶ್ಯಕತೆಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ"
+      "title": "Legal Requirements",
+      "description": "Complete all regulatory and compliance requirements"
     },
     "funding": {
-      "title": "ಹಣಕಾಸು ವ್ಯವಸ್ಥೆ ಮಾಡಿ",
-      "description": "ನಿಮ್ಮ ಎಟಿಎಂ ವ್ಯವಹಾರಕ್ಕೆ ಸುರಕ್ಷಿತ ಹೂಡಿಕೆ"
+      "title": "Arrange Funding",
+      "description": "Secure investment for your ATM business"
     },
     "location": {
-      "title": "ಸ್ಥಳಗಳನ್ನು ಹುಡುಕಿ",
-      "description": "ಎಟಿಎಂಗಳಿಗಾಗಿ ಹೆಚ���ಚಿನ ದಟ್ಟಣೆಯ ಸ್ಥಳಗಳನ್ನು ಗುರುತಿಸಿ"
+      "title": "Find Locations",
+      "description": "Identify high-traffic locations for ATMs"
     },
     "launch": {
-      "title": "ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಪ್ರಾರಂಭಿಸಿ",
-      "description": "ನಿಮ್ಮ ಎಟಿಎಂ ವ್ಯವಹಾರ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಪ್ರಾರಂಭಿಸಿ"
+      "title": "Launch Operations",
+      "description": "Start your ATM business operations"
     }
   },
   "guide": {
-    "title": "ಸಂಪೂರ್ಣ ವ್ಯವಹಾರ ಮಾರ್ಗದರ್ಶಿ",
-    "download": "ಮಾರ್ಗದರ್ಶಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+    "title": "Complete Business Guide",
+    "download": "Download Guide"
   }
 }

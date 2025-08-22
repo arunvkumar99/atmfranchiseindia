@@ -1,10 +1,10 @@
 {
-  "title": "ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ",
-  "heading": "404 - ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ",
-  "message": "ਮਾਫ਼ ਕਰਨਾ, ਜਿਸ ਪੰਨੇ ਦੀ ਤੁਸੀਂ ਭਾਲ ਕਰ ਰਹੇ ਹੋ ਉਹ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।",
-  "suggestion": "ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਸੀਂ ਪਤਾ ਗਲਤ ਟਾਈਪ ਕੀਤਾ ਹੋਵੇ ਜਾਂ ਪੰਨਾ ਬਦਲ ਗਿਆ ਹੋਵੇ।",
+  "title": "Page Not Found",
+  "heading": "404 - Page Not Found",
+  "message": "Sorry, the page you are looking for doesn't exist.",
+  "suggestion": "You may have mistyped the address or the page may have moved.",
   "cta": {
-    "home": "ਹੋਮਪੇਜ 'ਤੇ ਜਾਓ",
-    "contact": "ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"
+    "home": "Go to Homepage",
+    "contact": "Contact Support"
   }
 }

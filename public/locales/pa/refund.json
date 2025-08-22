@@ -1,12 +1,12 @@
 {
-  "title": "ਰਿਫੰਡ ਨੀਤੀ",
-  "lastUpdated": "ਆਖਰੀ ਵਾਰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ",
+  "title": "Refund Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "overview": "ਨੀਤੀ ਸੰਖੇਪ ਜਾਣਕਾਰੀ",
-    "eligibility": "ਰਿਫੰਡ ਯੋਗਤਾ",
-    "process": "ਰਿਫੰਡ ਪ੍ਰਕਿਰਿਆ",
-    "timeline": "ਸਮਾਂਰੇਖਾ 'ਤੇ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ",
-    "exceptions": "ਅਪਵਾਦ",
-    "contact": "ਰਿਫੰਡ ਲਈ ਸੰਪਰਕ ਕਰੋ"
+    "overview": "Policy Overview",
+    "eligibility": "Refund Eligibility",
+    "process": "Refund Process",
+    "timeline": "Processing Timeline",
+    "exceptions": "Exceptions",
+    "contact": "Contact for Refunds"
   }
 }

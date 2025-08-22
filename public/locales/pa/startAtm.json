@@ -1,36 +1,36 @@
 {
-  "title": "ਆਪਣਾ ATM ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰੋ",
-  "subtitle": "ਭਾਰਤ ਵਿੱਚ ਏਟੀਐਮ ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਪੂਰੀ ਗਾਈਡ",
+  "title": "Start Your ATM Business",
+  "subtitle": "Complete guide to starting an ATM business in India",
   "hero": {
-    "heading": "ਅੱਜ ਹੀ ਆਪਣਾ ATM ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰੋ",
-    "description": "ATM ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰਨ ਬਾਰੇ ਤੁਹਾਨੂੰ ਜੋ ਕੁਝ ਜਾਣਨ ਦੀ ਲੋੜ ਹੈ",
-    "cta": "ਸ਼ੁਰੂ ਕਰੋ"
+    "heading": "Start Your ATM Business Today",
+    "description": "Everything you need to know about starting an ATM business",
+    "cta": "Get Started"
   },
   "steps": {
-    "title": "ਕਿਵੇਂ ਸ਼ੁਰੂ ਕਰੀਏ",
+    "title": "How to Start",
     "research": {
-      "title": "ਖ���ਜ ਅਤੇ ਯੋਜਨਾਬੰਦੀ",
-      "description": "ਬਾਜ਼ਾਰ ਨੂੰ ਸਮਝੋ ਅਤੇ ਇੱਕ ਕਾਰੋਬਾਰੀ ਯੋਜਨਾ ਬਣਾਓ"
+      "title": "Research & Planning",
+      "description": "Understand the market and create a business plan"
     },
     "legal": {
-      "title": "ਕਾਨੂੰਨੀ ਜ਼ਰੂਰਤਾਂ",
-      "description": "ਸਾਰੀਆਂ ਰੈਗੂਲੇਟਰੀ ਅਤੇ ਪਾਲਣਾ ਜ਼ਰੂਰਤਾਂ ਨੂੰ ਪੂਰਾ ਕਰੋ"
+      "title": "Legal Requirements",
+      "description": "Complete all regulatory and compliance requirements"
     },
     "funding": {
-      "title": "ਫੰਡਿੰਗ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ",
-      "description": "ਤੁਹਾਡੇ ATM ਕਾਰੋਬਾਰ ਲਈ ਸੁਰੱਖਿਅਤ ਨਿਵੇਸ਼"
+      "title": "Arrange Funding",
+      "description": "Secure investment for your ATM business"
     },
     "location": {
-      "title": "ਸਥਾਨ ਲੱਭੋ",
-      "description": "ਏਟੀਐਮ ਲਈ ਉੱਚ-ਟ੍ਰੈਫਿਕ ਵਾਲੀਆਂ ਥਾਵਾਂ ਦੀ ਪਛਾਣ ਕਰੋ"
+      "title": "Find Locations",
+      "description": "Identify high-traffic locations for ATMs"
     },
     "launch": {
-      "title": "ਲਾਂਚ ਓਪਰੇਸ਼ਨ",
-      "description": "ਆਪਣੇ ਏਟੀਐਮ ਕਾਰੋਬਾਰੀ ਕਾਰਜ ਸ਼ੁਰੂ ਕਰੋ"
+      "title": "Launch Operations",
+      "description": "Start your ATM business operations"
     }
   },
   "guide": {
-    "title": "ਪੂਰੀ ਕਾਰੋਬਾਰੀ ਗਾਈਡ",
-    "download": "ਗਾਈਡ ਡਾਊਨਲੋਡ ਕਰੋ"
+    "title": "Complete Business Guide",
+    "download": "Download Guide"
   }
 }

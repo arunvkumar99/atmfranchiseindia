@@ -1,36 +1,36 @@
 {
-  "title": "ଆପଣଙ୍କର ATM ବ୍ୟବସାୟ ଆରମ୍ଭ କରନ୍ତୁ",
-  "subtitle": "ଭାରତରେ ଏକ ATM ବ୍ୟବସାୟ ଆରମ୍ଭ କରିବା ପାଇଁ ସମ୍ପୂର୍ଣ୍ଣ ମାର୍ଗଦର୍ଶିକା",
+  "title": "Start Your ATM Business",
+  "subtitle": "Complete guide to starting an ATM business in India",
   "hero": {
-    "heading": "ଆଜି ହିଁ ଆପଣଙ୍କର ATM ବ୍ୟବସାୟ ଆରମ୍ଭ କରନ୍ତୁ",
-    "description": "ଏକ ATM ବ୍ୟବସାୟ ଆରମ୍ଭ କରିବା ବିଷୟରେ ଆପଣଙ୍କୁ ଯାହା ଜାଣିବା ଆବଶ୍ୟକ",
-    "cta": "ଆରମ୍ଭ କରନ୍ତୁ"
+    "heading": "Start Your ATM Business Today",
+    "description": "Everything you need to know about starting an ATM business",
+    "cta": "Get Started"
   },
   "steps": {
-    "title": "କିପରି ଆରମ୍ଭ କରିବେ",
+    "title": "How to Start",
     "research": {
-      "title": "ଗବେଷଣା ଏବଂ ଯୋଜନା",
-      "description": "ବଜାରକୁ ବୁଝନ୍ତୁ ଏବଂ ଏକ ବ୍ୟବସାୟ ଯୋଜନା ପ୍ରସ୍ତୁତ କରନ୍ତୁ"
+      "title": "Research & Planning",
+      "description": "Understand the market and create a business plan"
     },
     "legal": {
-      "title": "ଆଇନଗତ ଆବଶ୍ୟକତା",
-      "description": "ସମସ୍ତ ନିୟାମକ ଏବଂ ଅନୁପାଳନ ଆବଶ୍ୟକତା ପୂରଣ କରନ୍ତୁ"
+      "title": "Legal Requirements",
+      "description": "Complete all regulatory and compliance requirements"
     },
     "funding": {
-      "title": "ପାଣ୍ଠି ବ୍ୟବସ୍ଥା କରନ୍ତୁ",
-      "description": "ଆପଣଙ୍କ ATM ବ୍ୟବସାୟ ପାଇଁ ସୁରକ୍ଷିତ ନିବେଶ"
+      "title": "Arrange Funding",
+      "description": "Secure investment for your ATM business"
     },
     "location": {
-      "title": "ସ୍ଥାନ ଖୋଜନ୍ତୁ",
-      "description": "ଏଟିଏମ୍‌ ପାଇଁ ଅଧିକ ଟ୍ରାଫିକ୍ ସ୍ଥାନ ଚିହ୍ନଟ କରନ୍ତୁ"
+      "title": "Find Locations",
+      "description": "Identify high-traffic locations for ATMs"
     },
     "launch": {
-      "title": "ଲଞ୍ଚ କାର୍ଯ୍ୟ",
-      "description": "ଆପଣଙ୍କର ATM ବ୍ୟବସାୟ କାର୍ଯ୍ୟ ଆରମ୍ଭ କରନ୍ତୁ"
+      "title": "Launch Operations",
+      "description": "Start your ATM business operations"
     }
   },
   "guide": {
-    "title": "ସମ୍ପୂର୍ଣ୍ଣ ବ୍ୟବସାୟ ନିର୍ଦ୍ଦେଶାବଳୀ",
-    "download": "ଗାଇଡ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ"
+    "title": "Complete Business Guide",
+    "download": "Download Guide"
   }
 }

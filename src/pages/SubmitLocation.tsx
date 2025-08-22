@@ -112,8 +112,8 @@ const SubmitLocation = () => {
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-pulse"></div>
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-blue-600 transition-colors duration-300">{t('content.datadriven_analysis', 'डेटा-संचालित विश्लेषण')}</h3>
-              <p className="text-slate-600 leading-relaxed">{t('content.professional_evaluation_using_', 'वास्तविक बाजार डेटा, उन्नत विश्लेषण और व्यापक जनसांख्यिकी अनुसंधान का उपयोग करके पेशेवर मूल्यांकन')}</p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-blue-600 transition-colors duration-300">{t('content.datadriven_analysis', 'Data-Driven Analysis')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.professional_evaluation_using_', 'Professional evaluation using real market data, advanced analytics and comprehensive demographic research')}</p>
             </div>
             
             <div className="group text-center">
@@ -123,8 +123,8 @@ const SubmitLocation = () => {
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full animate-pulse delay-300"></div>
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-purple-600 transition-colors duration-300">{t('content.location_scoring', 'स्थान स्कोरिंग')}</h3>
-              <p className="text-slate-600 leading-relaxed">{t('content.comprehensive_scoring_system_b', 'फुट ट्रैफिक पैटर्न, पहुंच मेट्रिक्स और रणनीतिक स्थिति के आधार पर व्यापक स्कोरिंग सिस्टम')}</p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-purple-600 transition-colors duration-300">{t('content.location_scoring', 'Location Scoring')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.comprehensive_scoring_system_b', 'Comprehensive scoring system based on foot traffic patterns, accessibility metrics and strategic positioning')}</p>
             </div>
             
             <div className="group text-center">
@@ -134,8 +134,8 @@ const SubmitLocation = () => {
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full animate-pulse delay-500"></div>
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-emerald-600 transition-colors duration-300">{t('content.expert_recommendations', 'विशेषज्ञ सिफारिशें')}</h3>
-              <p className="text-slate-600 leading-relaxed">{t('content.actionable_insights_from_indus', '5+ वर्षों के अनुभव और सिद्ध ट्रैक रिकॉर्ड वाले उद्योग विशेषज्ञों से कार्यसाध्य अंतर्दृष्टि')}</p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 group-hover:text-emerald-600 transition-colors duration-300">{t('content.expert_recommendations', 'Expert Recommendations')}</h3>
+              <p className="text-slate-600 leading-relaxed">{t('content.actionable_insights_from_indus', 'Actionable insights from industry experts with 5+ years of experience and proven track record')}</p>
             </div>
           </div>
         </div>
@@ -153,13 +153,13 @@ const SubmitLocation = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center mb-20">
             <h2 className="text-4xl md:text-6xl font-black text-white mb-8 leading-tight">
-              {t('content.why_location_analysis', 'स्थान विश्लेषण क्यों')}
+              {t('content.why_location_analysis', 'Why Location Analysis')}
               <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                {t('content.matters', 'महत्वपूर्ण है')}
+                {t('content.matters', 'Matters')}
               </span>
             </h2>
             <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed opacity-90">
-              {t('content.atm_business_success_depends', 'आपके एटीएम व्यवसाय की सफलता काफी हद तक स्थान पर निर्भर करती है। हमारा विशेषज्ञ विश्लेषण आपको सूचित निर्णय लेने और आपके ROI को अधिकतम करने में मदद करता है।')}
+              {t('content.atm_business_success_depends', 'The success of your ATM business depends heavily on location. Our expert analysis helps you make informed decisions and maximize your ROI.')}
             </p>
           </div>
 

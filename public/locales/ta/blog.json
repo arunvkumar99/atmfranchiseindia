@@ -3,7 +3,8 @@
   "subtitle": "ஏடிஎம் துறையின் சமீபத்திய செய்திகள் மற்றும் நுண்ணறிவுகள்",
   "hero": {
     "heading": "தொழில்துறை நுண்ணறிவு & புதுப்பிப்புகள்",
-    "description": "ஏடிஎம் வணிகத்தில் சமீபத்திய போக்குகள் குறித்து தொடர்ந்து தெரிந்து கொள்ளுங்கள்."
+    "description": "ஏடிஎம் வணிகத்தில் சமீபத்திய போக்குகள் குறித்து தொடர்ந்து தெரிந்து கொள்ளுங்கள்.",
+    "badge": "ATM Business Insights"
   },
   "categories": {
     "all": "அனைத்து இடுகைகளும்",
@@ -17,12 +18,49 @@
     "minRead": "குறைந்தபட்சம் படிக்க",
     "by": "மூலம்",
     "published": "வெளியிடப்பட்ட தேதி",
-    "share": "கட்டுரையைப் பகிரவும்"
+    "share": "கட்டுரையைப் பகிரவும்",
+    "date": "December 2024"
   },
   "newsletter": {
     "title": "செய்திமடலுக்கு குழுசேரவும்",
     "description": "உங்கள் இன்பாக்ஸில் சமீபத்திய புதுப்பிப்புகளைப் பெறுங்கள்",
     "placeholder": "உங்கள் மின்னஞ்சலை உள்ளிடவும்",
     "subscribe": "பதிவு"
+  },
+  "featured": {
+    "badge": "Featured Article",
+    "readArticle": "Read Article"
+  },
+  "articles": {
+    "article1": {
+      "title": "Why 2025 is the Perfect Time to Start Your Side Hustle",
+      "excerpt": "Discover why now is the ideal moment to launch your entrepreneurial journey with an ATM franchise business in India's growing digital economy.",
+      "category": "Business Strategy"
+    },
+    "article2": {
+      "title": "Building Passive Income for Financial Freedom",
+      "excerpt": "Learn how successful entrepreneurs are creating sustainable passive income streams through smart ATM franchise investments.",
+      "category": "Financial Planning"
+    },
+    "article3": {
+      "title": "The Truth About Passive Income Ideas That Actually Work",
+      "excerpt": "Cut through the noise and discover legitimate passive income opportunities that deliver real returns in the Indian market.",
+      "category": "Investment Guide"
+    },
+    "article4": {
+      "title": "ATM Franchise: Your Gateway to Passive Income",
+      "excerpt": "Explore how ATM franchises are becoming the preferred choice for investors seeking reliable passive income in India.",
+      "category": "Franchise Opportunities"
+    },
+    "article5": {
+      "title": "5-Step Guide to Starting Your ATM Business",
+      "excerpt": "A comprehensive roadmap to launching your successful ATM franchise business with minimal investment and maximum returns.",
+      "category": "Getting Started"
+    }
+  },
+  "cta": {
+    "heading": "Ready to Start Your ATM Business Journey?",
+    "description": "Join thousands of successful franchise partners who are building their financial future with India's leading ATM franchise network.",
+    "button": "Become a Franchise Partner"
   }
 }

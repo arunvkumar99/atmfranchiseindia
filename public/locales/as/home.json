@@ -1,426 +1,430 @@
 {
   "hero": {
-    "title": "আপোনাৰ এটিএম – আপোনাৰ আয়",
-    "subtitle": "নূন্যতম বিনিয়োগ আৰু সৰ্বাধিক লাভৰ সৈতে নিজৰ এটিএম ফ্ৰেঞ্চাইজি ব্যৱসায় আৰম্ভ কৰক। সমগ্ৰ ভাৰতত আৰ বি আইৰ অনুজ্ঞাপত্ৰপ্ৰাপ্ত অপাৰেটৰৰ সৈতে অংশীদাৰ।",
-    "submitLocation": "এটিএমৰ স্থান জমা দিয়ক",
-    "becomeFranchise": "ফ্ৰেঞ্চাইজি হৈ যাওক",
-    "description": "সমগ্ৰ ভাৰতৰ হাজাৰ হাজাৰ সফল ফ্ৰেঞ্চাইজি অংশীদাৰৰ সৈতে যোগদান কৰক। কম বিনিয়োগ, উচ্চ ৰিটাৰ্ণ, সম্পূৰ্ণ সমৰ্থন।",
+    "title": "Your এটিএম – Your Income",
+    "subtitle": "Start your own এটিএম ফ্ৰেঞ্চাইজী business with minimal investment and maximum returns. Partner with RBI licensed operators across India.",
+    "submitLocation": "এটিএম স্থান দাখিল কৰক",
+    "becomeFranchise": "ফ্ৰেঞ্চাইজী হওক",
+    "description": "Join thousands of successful franchise partners across India. Low বিনিয়োগ, high returns, complete support.",
     "cta": {
-      "primary": "আপোনাৰ এটিএম ব্যৱসায় আৰম্ভ কৰক",
-      "secondary": "অধিক জানক"
+      "primary": "Start Your ATM ব্যৱসায়",
+      "secondary": "Learn More"
     },
     "stats": {
-      "franchises": "৫০০০+ সক্ৰিয় ফ্ৰেঞ্চাইজি",
-      "transactions": "10M+ মাহিলী লেনদেন",
-      "coverage": "পান ইণ্ডিয়া কভাৰেজ",
-      "support": "২৪/৭ সমৰ্থন"
+      "franchises": "5000+ Active ফ্ৰেঞ্চাইজীs",
+      "transactions": "10M+ Monthly Transactions",
+      "coverage": "Pan India Coverage",
+      "support": "24/7 Support"
     }
   },
   "features": {
-    "title": "PixellPay ATM ফ্ৰেঞ্চাইজি কিয় বাছি লওক?",
-    "subtitle": "আপোনাৰ ব্যৱসায়িক সফলতাৰ বাবে ব্যাপক সমৰ্থন",
+    "title": "Why Choose PixellPay এটিএম ফ্ৰেঞ্চাইজী?",
+    "subtitle": "Comprehensive support for your ব্যৱসায় success",
     "items": {
       "lowInvestment": {
-        "title": "কম বিনিয়োগ",
-        "description": "নূন্যতম মূলধনী বিনিয়োগেৰে আপোনাৰ এটিএম ব্যৱসায় আৰম্ভ কৰক"
+        "title": "Low বিনিয়োগ",
+        "description": "Start your ATM ব্যৱসায় with minimal capital investment"
       },
       "highReturns": {
-        "title": "উচ্চ ৰিটাৰ্ণ",
-        "description": "প্ৰতিটো লেনদেনত আকৰ্ষণীয় কমিচন আদায় কৰক"
+        "title": "High Returns",
+        "description": "Earn attractive commissions on every transaction"
       },
       "training": {
-        "title": "সম্পূৰ্ণ প্ৰশিক্ষণ",
-        "description": "বিস্তৃত প্ৰশিক্ষণ আৰু চলিত সহায়"
+        "title": "Complete Training",
+        "description": "Comprehensive training and ongoing support"
       },
       "technology": {
-        "title": "উন্নত প্ৰযুক্তি",
-        "description": "শেহতীয়া বৈশিষ্ট্যৰ সৈতে অত্যাধুনিক এটিএম মেচিন"
+        "title": "Advanced Techনহয়logy",
+        "description": "ৰাজ্য-of-the-art ATM machines with latest features"
       },
       "security": {
-        "title": "১০০% নিৰাপদ",
-        "description": "সকলো লেনদেনৰ বাবে বেংক গ্ৰেডৰ নিৰাপত্তা"
+        "title": "100% Secure",
+        "description": "বেংক-grade security for all transactions"
       },
       "support": {
-        "title": "২৪/৭ সমৰ্থন",
-        "description": "২৪ ঘণ্টাই কাৰিকৰী আৰু ব্যৱসায়িক সহায়"
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical and ব্যৱসায় support"
       }
     },
     "roi": {
       "title": "upto 50%",
-      "subtitle": "Return On Investment",
-      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      "subtitle": "Return On বিনিয়োগ",
+      "description": "All Payout Received by RBI Licensed WLA এটিএম Partners"
     },
     "penetration": {
       "title": "15 Per Lac",
-      "subtitle": "Only 15 ATMs per 1 Lac People",
-      "description": "ATM Penetration in India is very Low"
+      "subtitle": "Only 15 এটিএমs per 1 Lac People",
+      "description": "এটিএম Penetration in India is very Low"
     },
     "cash": {
       "title": "75% Cash",
       "subtitle": "Cash Circulation",
-      "description": "Indian Economy is still Largely Cash based"
+      "description": "Indian Ecoনহয়my is still Largely Cash based"
     },
     "potential": {
       "title": "90% Potential",
-      "subtitle": "90% of Banks Offsite ATMs are closing down",
-      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
+      "subtitle": "90% of Banks Offsite এটিএমs are closing down",
+      "description": "Banks Offsite এটিএম Closure creates a Large market for এটিএমs"
     }
   },
   "process": {
-    "title": "৫টা সহজ পদক্ষেপত আপোনাৰ এটিএম ব্যৱসায় আৰম্ভ কৰক",
-    "subtitle": "দ্ৰুত আৰু হেঁচামুক্ত অনবৰ্ডিং প্ৰক্ৰিয়া",
+    "title": "Start Your ATM ব্যৱসায় in 5 Simple Steps",
+    "subtitle": "Quick and hassle-free onboarding process",
     "steps": {
       "apply": {
-        "title": "অনলাইন আবেদন কৰক",
-        "description": "সহজ অনলাইন আবেদন পত্ৰ পূৰণ কৰক"
+        "title": "আবেদন কৰক Online",
+        "description": "Fill out the simple online application form"
       },
       "verification": {
-        "title": "নথিপত্ৰ পৰীক্ষণ",
-        "description": "পৰীক্ষণৰ বাবে প্ৰয়োজনীয় নথি-পত্ৰ জমা দিব লাগে"
+        "title": "Document Verification",
+        "description": "দাখিল কৰক required documents for verification"
       },
       "agreement": {
-        "title": "চুক্তি স্বাক্ষৰ কৰক",
-        "description": "ফ্ৰেঞ্চাইজি চুক্তি পৰ্যালোচনা আৰু স্বাক্ষৰ কৰা"
+        "title": "Sign Agreement",
+        "description": "Review and sign the ফ্ৰেঞ্চাইজী agreement"
       },
       "setup": {
-        "title": "এটিএম ছেটআপ",
-        "description": "আমি সম্পূৰ্ণ ATM ইনষ্টলেচন আৰু ছেটআপ নিয়ন্ত্ৰণ কৰোঁ"
+        "title": "এটিএম Setup",
+        "description": "We handle complete এটিএম installation and setup"
       },
       "earn": {
-        "title": "উপাৰ্জন আৰম্ভ কৰক",
-        "description": "অপাৰেচনৰ প্ৰথম দিনাৰ পৰাই উপাৰ্জন আৰম্ভ কৰক"
+        "title": "Start Earning",
+        "description": "Begin earning from day one of operations"
       }
     }
   },
   "testimonials": {
-    "badge": "সফলতাৰ কাহিনী",
-    "title": "আমাৰ অংশীদাৰসকলৰ পৰা প্ৰকৃত ফলাফল",
-    "subtitle": "কেৱল আমাৰ কথাকে গ্ৰহণ নকৰিব। ইয়াত সমগ্ৰ ভাৰতবৰ্ষৰ আমাৰ ফ্ৰেঞ্চাইজি অংশীদাৰসকলৰ প্ৰকৃত সফলতাৰ কাহিনী আগবঢ়োৱা হ’ল।",
+    "badge": "সফলতা Stories",
+    "title": "Real Results from Our Partners",
+    "subtitle": "Don't just take our word for it. Here are genuine success stories from our ফ্ৰেঞ্চাইজী partners across India.",
     "items": {
       "rajesh": {
-        "name": "ৰাজেশ কুমাৰ",
-        "location": "মুম্বাই, মহাৰাষ্ট্ৰ",
-        "business": "ইপিএছ এটিএম ফ্ৰেঞ্চাইজি",
-        "revenue": "₹৪৫,০০০/মাহ",
-        "testimonial": "এ টি এম ফ্ৰেঞ্চাইজি ইণ্ডিয়াই মোক প্ৰতিটো খোজতে পথ প্ৰদৰ্শন কৰিছিল। ৮ মাহৰ ভিতৰত নূন্যতম কষ্টৰে মাহে ৪৫,০০০ ₹ উপাৰ্জন কৰি আছো। এতিয়ালৈকে সৰ্বোত্তম বিনিয়োগৰ সিদ্ধান্ত!"
+        "name": "Rajesh Kumar",
+        "location": "Mumbai, Maharashtra",
+        "business": "EPS এটিএম ফ্ৰেঞ্চাইজী",
+        "revenue": "₹45,000/month",
+        "testimonial": "এটিএম ফ্ৰেঞ্চাইজী India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
       },
       "priya": {
-        "name": "প্ৰিয়া শৰ্মা",
-        "location": "বাংগালুৰু, কৰ্ণাটক",
-        "business": "ভাক্ৰাঞ্জি অংশীদাৰিত্ব",
-        "revenue": "₹৩৮,০০০/মাহ",
-        "testimonial": "ডব্লিউ এল এ অংশীদাৰিত্বৰ ক্ষেত্ৰত দলটোৰ বিশেষজ্ঞতাৰ কোনো তুলনা নাই। মোৰ ATM য়ে মাত্ৰ ৬ মাহত ধাৰাবাহিকভাৱে ₹38,000 মাহিলী আয় কৰিছে।"
+        "name": "Priya Sharma",
+        "location": "Bangalore, Karnataka",
+        "business": "Vakrangee Partnership",
+        "revenue": "₹38,000/month",
+        "testimonial": "The team's expertise in WLA partnerships is unmatched. My এটিএম is generating consistent ₹38,000 monthly income in just 6 months."
       },
       "amit": {
-        "name": "অমিত পেটেল",
-        "location": "আহমেদাবাদ, গুজৰাট",
-        "business": "ইণ্ডিকাচ ফ্ৰেঞ্চাইজি",
-        "revenue": "₹৫২,০০০/মাহ",
-        "testimonial": "পেছাদাৰী নিৰ্দেশনা আৰু সম্পূৰ্ণ স্বচ্ছতা। ₹52,000 মাহিলী নিষ্ক্ৰিয় আয়ৰ সৈতে ১৪ মাহত লাভ কৰা ROI। অতিশয় পৰামৰ্শ দিয়া হৈছে!"
+        "name": "Amit Patel",
+        "location": "Ahmedabad, Gujarat",
+        "business": "Indicash ফ্ৰেঞ্চাইজী",
+        "revenue": "₹52,000/month",
+        "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
       },
       "sanjay": {
-        "name": "সঞ্জয় ভাৰ্মা",
-        "location": "পুনে, মহাৰাষ্ট্ৰ",
-        "business": "হিটাচি এটিএম পাৰ্টনাৰ",
-        "revenue": "₹৪২,০০০/মাহ",
-        "testimonial": "আৰম্ভণিৰ পৰা শেষলৈকে উৎকৃষ্ট সমৰ্থন। দলটোৱে মোক নিখুঁত স্থান আৰু ডব্লিউ এল এৰ অংশীদাৰ নিৰ্বাচন কৰাত সহায় কৰিলে। এতিয়া নূন্যতম দৈনিক জড়িততাৰে স্থিৰ নিষ্ক্ৰিয় আয় অৰ্জন কৰা।"
+        "name": "Sanjay Verma",
+        "location": "Pune, Maharashtra",
+        "business": "Hitachi এটিএম Partner",
+        "revenue": "₹42,000/month",
+        "testimonial": "Excellent support from start to finish. The team helped me select the perfect location and WLA partner. নহয়w earning steady passive income with minimal daily involvement."
       }
     },
     "monthsLabel": "in {{months}} months",
     "performance": {
-      "title": "গড় অংশীদাৰৰ প্ৰদৰ্শন",
-      "income": "গড় মাহিলী আয়",
-      "roi": "মাহৰ পিছত ROI",
-      "success": "সফলতাৰ হাৰ"
+      "title": "Average Partner Performance",
+      "income": "Avg Monthly Income",
+      "roi": "Months to ROI",
+      "success": "সফলতা Rate"
     }
   },
   "locations": {
-    "title": "সমগ্ৰ ভাৰতত আমাৰ উপস্থিতি",
-    "subtitle": "আপোনাৰ চহৰত এটিএম ফ্ৰেঞ্চাইজিৰ সুযোগ বিচাৰি উলিয়াওক",
-    "searchPlaceholder": "আপনার শহর অনুসন্ধান...",
-    "viewAll": "সকলো স্থান চাওক"
+    "title": "Our Presence Across India",
+    "subtitle": "Find ATM franchise opportunities in your চহৰ",
+    "searchPlaceholder": "Search your চহৰ...",
+    "viewAll": "View All Locations"
   },
   "cta": {
-    "title": "আপোনাৰ এটিএম ফ্ৰেঞ্চাইজি আৰম্ভ কৰিবলৈ সাজুনে?",
-    "subtitle": "ভাৰতৰ দ্ৰুতগতিত বৃদ্ধি পোৱা এটিএম নেটৱৰ্কত যোগদান কৰক",
-    "button": "এতিয়াই আবেদন কৰক",
-    "contact": "বা আমাক ফোন কৰক"
+    "title": "Ready to Start Your এটিএম ফ্ৰেঞ্চাইজী?",
+    "subtitle": "Join India's fastest growing এটিএম network",
+    "button": "আবেদন কৰক Now",
+    "contact": "Or call us at"
   },
   "benefits": {
-    "title": "এটিএম ফ্ৰেঞ্চাইজিৰ সুবিধা",
+    "title": "Benefits of এটিএম ফ্ৰেঞ্চাইজী",
     "items": {
-      "passive": "নিষ্ক্ৰিয় আয়ৰ প্ৰবাহ",
-      "scalable": "স্কেলেবল ব্যৱসায়িক মডেল",
-      "proven": "প্ৰমাণিত ব্যৱসায়িক মডেল",
-      "flexible": "নমনীয় কৰ্ম সময়",
-      "noInventory": "কোনো তথ্য ব্যৱস্থাপনা নাই",
-      "digitalIndia": "ডিজিটেল ইণ্ডিয়া মিছনৰ অংশ"
+      "passive": "Passive Income Stream",
+      "scalable": "Scalable ব্যৱসায় Model",
+      "proven": "Proven ব্যৱসায় Model",
+      "flexible": "Flexible Working Hours",
+      "noInventory": "নহয় Inventory Management",
+      "digitalIndia": "Part of Digital India Mission"
     }
   },
   "stats": {
-    "title": "সংখ্যাৰ দ্বাৰা PixellPay",
-    "activeFranchises": "সক্ৰিয় ফ্ৰেঞ্চাইজি",
-    "monthlyTransactions": "মাহেকীয়া লেনদেন",
-    "citiesCovered": "আবৃত চহৰসমূহ",
-    "yearsExperience": "বছৰৰ অভিজ্ঞতা",
-    "atmsAcrossIndia": "ATMs across India",
+    "title": "PixellPay by Numbers",
+    "activeFranchises": "Active ফ্ৰেঞ্চাইজীs",
+    "monthlyTransactions": "Monthly Transactions",
+    "citiesCovered": "Cities Covered",
+    "yearsExperience": "Years of Experience",
+    "atmsAcrossIndia": "এটিএমs across India",
     "andCounting": "and counting..."
   },
   "whyAtm": {
-    "title": "কিয় এ টি এম ব্যৱসায়",
-    "subtitle": "আৰবিআই লাইচেন্সপ্ৰাপ্ত কোম্পানীৰ পৰা শূন্য ক্ষতি আৰু সম্পূৰ্ণ স্বচ্ছ ব্যৱসায়িক সুযোগ",
+    "title": "Why ATM ব্যৱসায়",
+    "subtitle": "Zero Loss and Fully Transparent ব্যৱসায় Opportunity from RBI Licensed Companies",
     "stats": {
       "roi": {
         "prefix": "upto",
-        "label": "ৰিটাৰ্ণ অন ইনভেষ্টমেণ্ট",
-        "description": "আৰ বি আইৰ অনুজ্ঞাপত্ৰপ্ৰাপ্ত ডব্লিউ এল এ এ টি এম অংশীদাৰসকলে লাভ কৰা সকলো পেআউট"
+        "label": "Return On বিনিয়োগ",
+        "description": "All Payout Received by RBI Licensed WLA এটিএম Partners"
       },
       "penetration": {
-        "suffix": "প্ৰতি লেকত",
-        "label": "প্ৰতি ১Lac মানুহৰ বাবে মাত্ৰ ১৫ টা ATM",
-        "description": "ভাৰতত ATM Penetration অতি কম"
+        "suffix": "Per Lac",
+        "label": "Only 15 এটিএমs per 1Lac People",
+        "description": "এটিএম Penetration in India is very Low"
       },
       "cash": {
-        "suffix": "নগদ",
-        "label": "নগদ ধনৰ প্ৰচলন",
-        "description": "ভাৰতীয় অৰ্থনীতি এতিয়াও Largely Cash based"
+        "suffix": "Cash",
+        "label": "Cash Circulation",
+        "description": "Indian Ecoনহয়my is still Largely Cash based"
       },
       "potential": {
-        "suffix": "সম্ভাৱনা",
-        "label": "৯০% বেংকৰ অফছাইট এটিএম বন্ধ হৈ আছে",
-        "description": "বেংক অফছাইট এটিএম বন্ধ হোৱাৰ ফলত এটিএমৰ বাবে এক বৃহৎ বজাৰ সৃষ্টি হয়"
+        "suffix": "Potential",
+        "label": "90% of Banks Offsite এটিএমs are closing down",
+        "description": "Banks Offsite এটিএম Closure creates a Large market for এটিএমs"
       }
     },
     "cta": {
-      "title": "ভাৰতৰ গ্ৰাম্য অঞ্চলত ATM ব্যৱসায়ৰ বাবে নিখুঁত সময়",
+      "title": "Perfect Time for ATM ব্যৱসায় in Rural India",
       "points": {
-        "digital": "ডিজিটেল এডপচন বৃদ্ধি পাইছে",
-        "government": "আৰ্থিক অন্তৰ্ভুক্তিৰ বাবে চৰকাৰী ঠেলা",
-        "branches": "বেংক শাখা বন্ধ"
+        "digital": "Digital Adoption Growing",
+        "government": "Government Push for Financial Inclusion",
+        "branches": "বেংক Branch Closures"
       },
-      "investment": "বিনিয়োগৰ পৰিসৰ: ₹২-৫ লাখ"
+      "investment": "বিনিয়োগ Range: ₹2-5 Lakhs"
     },
-    "heading": "কিয় এটিএম ব্যৱসায়?",
+    "heading": "Why ATM ব্যৱসায়?",
     "roi": {
-      "title": "বিনিয়োগৰ ওপৰত ৰিটাৰ্ণ",
-      "description": "RBI লাইচেন্সপ্ৰাপ্ত WLA ATM অংশীদাৰসকলে লাভ কৰা সকলো পে-আউট"
+      "title": "Return On বিনিয়োগ",
+      "description": "All Payout Received by RBI Licensed WLA এটিএম Partners"
     },
     "penetration": {
-      "title": "এটিএম প্ৰৱেশ",
-      "description": "প্ৰতি ১ লাখ লোকৰ বাবে মাত্ৰ ১৫টা এটিএম - ভাৰতত এটিএম প্ৰৱেশ বহুত কম"
+      "title": "এটিএম Penetration",
+      "description": "Only 15 এটিএমs per 1 Lac People - এটিএম Penetration in India is very Low"
     },
     "cash": {
-      "title": "নগদ প্ৰচলন",
-      "description": "ভাৰতীয় অৰ্থনীতি এতিয়াও মূলতঃ নগদ ভিত্তিক"
+      "title": "Cash Circulation",
+      "description": "Indian Ecoনহয়my is still Largely Cash based"
     },
     "market": {
-      "title": "বজাৰ সুযোগ",
-      "description": "৯০% বেংকৰ অফচাইট এটিএম বন্ধ হৈ আছে - বেংকৰ অফচাইট এটিএম বন্ধ হোৱাই এটিএমৰ বাবে এক ডাঙৰ বজাৰ সৃষ্টি কৰে"
+      "title": "Market Opportunity",
+      "description": "90% of Banks Offsite এটিএমs are closing down - Banks Offsite এটিএম Closure creates a Large market for এটিএমs"
     }
   },
   "faq": {
-    "badge": "সঘনাই সোধা প্ৰশ্ন",
-    "title": "আপুনি জানিবলগীয়া সকলো কথা",
-    "subtitle": "আপোনাৰ এটিএম ফ্ৰেঞ্চাইজি ব্যৱসায় আৰম্ভ কৰাৰ বিষয়ে আটাইতকৈ সাধাৰণ প্ৰশ্নৰ উত্তৰ লাভ কৰক।",
+    "badge": "Frequently Asked Questions",
+    "title": "Everything You Need to Kনহয়w",
+    "subtitle": "Get answers to the most common questions about starting your এটিএম ফ্ৰেঞ্চাইজী business.",
     "items": {
       "investment": {
-        "question": "এটিএম ফ্ৰেঞ্চাইজিৰ বাবে নূন্যতম বিনিয়োগ কিমান?",
-        "answer": "ডব্লিউ এল এৰ অংশীদাৰ আৰু স্থানৰ ওপৰত নিৰ্ভৰ কৰি বিনিয়োগ সাধাৰণতে ৩-৮ লাখ টকাৰ ভিতৰত হয়। ইয়াৰ ভিতৰত মেচিনৰ খৰচ, সংস্থাপন, আৰু প্ৰাৰম্ভিক কাৰ্য্যকৰী মূলধন অন্তৰ্ভুক্ত। আমি প্ৰতিজন অংশীদাৰৰ বাবে বিশদ খৰচৰ বিভাজন প্ৰদান কৰোঁ।"
+        "question": "What is the minimum investment required for an এটিএম ফ্ৰেঞ্চাইজী?",
+        "answer": "The বিনিয়োগ typically ranges from ₹3-8 lakhs depending on the WLA partner and location. This includes machine cost, installation, and initial working capital. We provide detailed cost breakdowns for each partner."
       },
       "income": {
-        "question": "মাহিলী কিমান আয় আশা কৰিব পাৰি?",
-        "answer": "আমাৰ অংশীদাৰসকলে সাধাৰণতে মাহিলী ₹৩৫,০০০-৬০,০০০ টকা উপাৰ্জন কৰে। আয় স্থান, ফুটফল, আৰু লেনদেনৰ পৰিমাণৰ ওপৰত নিৰ্ভৰ কৰে। গ্ৰাম্য অঞ্চলত প্ৰায়ে ₹25-40K দেখা যায় আনহাতে চহৰীয়া স্থানত মাহেকীয়া ₹50-80K উৎপাদন হ’ব পাৰে।"
+        "question": "How much monthly income can I expect?",
+        "answer": "Our partners typically earn ₹35,000-60,000 monthly. Income depends on location, footfall, and transaction volume. Rural areas often see ₹25-40K while urban locations can generate ₹50-80K monthly."
       },
       "roi": {
-        "question": "ROI পাবলৈ কিমান সময় লাগে?",
-        "answer": "বেছিভাগ অংশীদাৰে ১২-১৮ মাহৰ ভিতৰত ROI লাভ কৰে। অধিক যান-জঁটৰ স্থানত ৮-১২ মাহত ঘূৰি অহা দেখা যায়, আনহাতে সৰু চহৰবোৰত সাধাৰণতে ১৫-২০ মাহত সময় লাগে। আমি ৰিটাৰ্ণ অনুকূল কৰিবলৈ অৱস্থান বিশ্লেষণ প্ৰদান কৰোঁ।"
+        "question": "How long does it take to get ROI?",
+        "answer": "Most partners achieve ROI within 12-18 months. High-traffic locations can see returns in 8-12 months, while smaller towns typically take 15-20 months. We provide location analysis to optimize returns."
       },
       "costs": {
-        "question": "চলি থকা কাৰ্য্যকৰী খৰচ কি কি?",
-        "answer": "মাহিলী খৰচৰ ভিতৰত আছে বিদ্যুৎ (₹3-5K), নগদ ধন লোডিং (লেনদেনৰ ২-৩%), ৰক্ষণাবেক্ষণ (₹2-3K), আৰু ইণ্টাৰনেট (₹1-2K)। মুঠ কাৰ্য্যকৰী খৰচ সাধাৰণতে মুঠ ৰাজহৰ ১৫-২০%।"
+        "question": "What are the ongoing operational costs?",
+        "answer": "Monthly costs include electriচহৰ (₹3-5K), cash loading (2-3% of transactions), maintenance (₹2-3K), and internet (₹1-2K). Total operational costs are typically 15-20% of gross revenue."
       },
       "technical": {
-        "question": "এটিএম চলাবলৈ মোক কাৰিকৰী জ্ঞানৰ প্ৰয়োজন নেকি?",
-        "answer": "কোনো কাৰিকৰী বিশেষজ্ঞতাৰ প্ৰয়োজন নাই। WLA অংশীদাৰসকলে সম্পূৰ্ণ প্ৰশিক্ষণ, ২৪/৭ কাৰিকৰী সমৰ্থন, আৰু দূৰৱৰ্তী নিৰীক্ষণ প্ৰদান কৰে। আপুনি মূলতঃ নগদ ধন লোডিং আৰু মৌলিক ৰক্ষণাবেক্ষণ সমন্বয় চম্ভালে।"
+        "question": "Do I need technical knowledge to operate an এটিএম?",
+        "answer": "নহয় technical expertise required. WLA partners provide complete training, 24/7 technical support, and remote monitoring. You mainly handle cash loading and basic maintenance coordination."
       },
       "cash": {
-        "question": "নগদ ধন ব্যৱস্থাপনা কেনেকৈ চম্ভালিব লাগে?",
-        "answer": "আপুনি ব্যৱহাৰৰ আৰ্হিৰ ওপৰত ভিত্তি কৰি নগদ ধন লোড কৰিব (সাধাৰণতে প্ৰতি ২-৪ দিনৰ মূৰে মূৰে)। ডব্লিউ এল এৰ অংশীদাৰসকলে নগদ ধনৰ পূৰ্বাভাস সঁজুলি প্ৰদান কৰে আৰু কিছুমানে নগদ ধনৰ লজিষ্টিক সেৱা আগবঢ়ায়। বীমাই নগদ ধনৰ ট্ৰেনজিটৰ বিপদ সামৰি লয়।"
+        "question": "How is cash management handled?",
+        "answer": "You'll load cash based on usage patterns (typically every 2-4 days). WLA partners provide cash forecasting tools and some offer cash logistics services. Insurance covers cash-in-transit risks."
       },
       "location": {
-        "question": "এটিএম স্থাপনৰ বাবে কি কি স্থানে সৰ্বোত্তম কাম কৰে?",
-        "answer": "বজাৰ, বাছ ষ্টেণ্ড, চিকিৎসালয়, কলেজ, আৰু বাণিজ্যিক কমপ্লেক্সৰ দৰে উচ্চ ফুটফলৰ অঞ্চলে সৰ্বোত্তম কাম কৰে। আমি বিশদ স্থান জৰীপ কৰোঁ আৰু আমাৰ অভিজ্ঞতাৰ পৰা ছাইট অনুমোদনৰ নিৰ্দেশনা প্ৰদান কৰোঁ।"
+        "question": "What locations work best for এটিএম placement?",
+        "answer": "High-footfall areas like markets, bus stands, hospitals, colleges, and commercial complexes work best. We conduct detailed location surveys and provide site approval guidance from our experience."
       },
       "hidden": {
-        "question": "কিবা লুকাই থকা খৰচ বা মাচুল আছেনে?",
-        "answer": "আমি সম্পূৰ্ণ স্বচ্ছতা নিশ্চিত কৰোঁ। মেচিনৰ খৰচ, সংস্থাপন, বাৰ্ষিক ৰক্ষণাবেক্ষণ, আৰু ৰাজহৰ অংশীদাৰিত্বকে ধৰি সকলো খৰচ আগতেই প্ৰকাশ কৰা হয়। কোনো লুকাই থকা চাৰ্জ নাই - আপুনি যি দেখিছে সেয়াই আপুনি দিব।"
+        "question": "Are there any hidden costs or fees?",
+        "answer": "We ensure complete transparency. All costs are disবন্ধ কৰকd upfront including machine cost, installation, annual maintenance, and revenue sharing. No hidden charges - what you see is what you pay."
       },
       "support": {
-        "question": "ফ্ৰেঞ্চাইজি ছেটআপৰ পিছত আপুনি কি সমৰ্থন প্ৰদান কৰে?",
-        "answer": "আমি চলি থকা ব্যৱসায়িক পৰামৰ্শ, পৰিৱেশন অনুকূলন টিপছ, সমস্যা সমাধান সমৰ্থন, আৰু WLA অংশীদাৰ সমন্বয়ৰ সৈতে সহায় আগবঢ়াইছো। কেৱল চেটআপৰ বাহিৰেও আমাৰ সম্পৰ্ক চলি আছে।"
+        "question": "What support do you provide after ফ্ৰেঞ্চাইজী setup?",
+        "answer": "We offer ongoing business consultation, performance optimization tips, troubleshooting support, and assistance with WLA partner coordination. Our relationship অব্যাহত ৰাখকs beyond just setup."
       },
       "multiple": {
-        "question": "মই একাধিক এটিএম ফ্ৰেঞ্চাইজি চলাব পাৰিমনে?",
-        "answer": "হয়, বহু সফল অংশীদাৰে ২-৫ টা এটিএম চলায়। আপোনাৰ প্ৰথম এটিএম সুস্থিৰ হোৱাৰ পিছত (৬-১২ মাহ), আমি অতিৰিক্ত স্থান চিনাক্ত কৰাত সহায় কৰিব পাৰো আৰু বহু-স্থানৰ কাৰ্য্যকলাপ সুশৃংখলিত কৰিব পাৰো।"
+        "question": "Can I operate multiple এটিএম ফ্ৰেঞ্চাইজীs?",
+        "answer": "Yes, many successful partners operate 2-5 এটিএমs. After your first এটিএম stabilizes (6-12 months), we can help identify additional locations and streamline multi-location operations."
       }
     },
     "stats": {
       "transparent": {
-        "title": "১০০% স্বচ্ছ",
-        "description": "কোনো লুকাই থকা খৰচ বা আচৰিত মাচুল। সকলো লেনদেনত সম্পূৰ্ণ স্বচ্ছতা।"
+        "title": "100% Transparent",
+        "description": "নহয় hidden costs or surprise fees. Complete transparency in all dealings."
       },
       "proven": {
-        "title": "প্ৰমাণিত ফলাফল",
-        "description": "১২-১৮ মাহত গড় ROI ৰ সৈতে ৯৫% অংশীদাৰৰ সফলতাৰ হাৰ।"
+        "title": "Proven Results",
+        "description": "95% partner সফলতা rate with average ROI in 12-18 months."
       },
       "quick": {
-        "title": "দ্ৰুত ছেটআপ",
-        "description": "৩০-৪৫ দিনৰ ভিতৰত দ্ৰুত অনুমোদন আৰু সংস্থাপন।"
+        "title": "Quick Setup",
+        "description": "Fast-track approval and installation within 30-45 days."
       }
     }
   },
   "services": {
-    "title": "কিয় বাছি লওক",
-    "titleHighlight": "এটিএম ফ্ৰেঞ্চাইজি ইণ্ডিয়া?",
-    "subtitle": "সকলো WLA ব্ৰেণ্ডতে ৪+ বছৰৰ অভিজ্ঞতাৰ সৈতে, আমি ভাৰতৰ গ্ৰাম্য অঞ্চলত আপোনাৰ এটিএম ব্যৱসায়ৰ সফলতা নিশ্চিত কৰিবলৈ শেষৰ পৰা শেষলৈ সহায় আগবঢ়াইছো।",
+    "title": "Why বাছক",
+    "titleHighlight": "এটিএম ফ্ৰেঞ্চাইজী India?",
+    "subtitle": "With 4+ years of experience across all WLA brands, we provide end-to-end support to ensure your ATM ব্যৱসায় success in rural India.",
     "items": {
       "trusted": {
-        "title": "বিশ্বাসযোগ্য এটিএম ফ্ৰেঞ্চাইজিৰ তথ্য",
-        "description": "নিয়ন্ত্ৰিত এটিএম উদ্যোগৰ সঠিক, পৰীক্ষিত অন্তৰ্দৃষ্টি লাভ কৰক। আমাৰ বিশেষজ্ঞসকলে ভুল তথ্যৰ মাজেৰে কাটি জ্ঞাত ফ্ৰেঞ্চাইজি সিদ্ধান্তৰ বাবে তথ্যভিত্তিক নিৰ্দেশনা প্ৰদান কৰে।",
+        "title": "Trusted এটিএম ফ্ৰেঞ্চাইজী Information",
+        "description": "Get accurate, verified insights into the regulated এটিএম industry. Our experts cut through misinformation to provide fact-based guidance for informed franchise decisions.",
         "benefits": {
-          "compliance": "আৰ বি আইৰ অনুসৰণ পৰীক্ষণ",
-          "analysis": "স্বচ্ছ ব্যৱসায়িক আৰ্হি বিশ্লেষণ",
-          "risk": "বিপদৰ মূল্যায়ন আৰু প্ৰশমন",
-          "legal": "আইনী নথিপত্ৰ সমৰ্থন"
+          "compliance": "RBI compliance verification",
+          "analysis": "Transparent ব্যৱসায় model analysis",
+          "risk": "Risk assessment and mitigation",
+          "legal": "Legal documentation support"
         },
-        "cta": "পৰীক্ষিত তথ্য লাভ কৰক"
+        "cta": "Get Verified Info"
       },
       "guidance": {
-        "title": "বিশেষজ্ঞ WLA অপাৰেটৰ গাইডেন্স",
-        "description": "আত্মবিশ্বাসেৰে সঠিক হোৱাইট লেবেল এটিএম অংশীদাৰ বাছক। আমি প্ৰধান অপাৰেটৰসকলৰ নিৰপেক্ষ তুলনা প্ৰদান কৰোঁ, শক্তি আৰু দুৰ্বলতাসমূহ উজ্জ্বল কৰি তোলোঁ।",
+        "title": "Expert WLA Operator Guidance",
+        "description": "Choose the right White Label এটিএম partner with confidence. We provide unbiased comparisons of major operators, highlighting strengths and weaknesses.",
         "benefits": {
-          "comparison": "অপাৰেটৰ তুলনাৰ প্ৰতিবেদন",
-          "revenue": "ৰাজহ ভাগ-বতৰা বিশ্লেষণ",
-          "technical": "কাৰিকৰী সহায়ৰ মূল্যায়ন",
-          "contract": "চুক্তিৰ আলোচনাৰ সহায়"
+          "comparison": "Operator comparison reports",
+          "revenue": "আয় sharing analysis",
+          "technical": "Technical support evaluation",
+          "contract": "Contract negotiation assistance"
         },
-        "cta": "অপাৰেটৰ তুলনা কৰক"
+        "cta": "Compare Operators"
       },
       "digital": {
-        "title": "ডিজিটেল উপস্থিতি বুষ্ট",
-        "description": "ইতিমধ্যে এটিএম ফ্ৰেঞ্চাইজি চলাই আছেনে? আপোনাৰ অনলাইন দৃশ্যমানতা বৃদ্ধি কৰক আৰু আমাৰ ডিজিটেল বিপণন সেৱাৰ জৰিয়তে অধিক গ্ৰাহকৰ সৈতে সংযোগ স্থাপন কৰক।",
+        "title": "Digital Presence Boost",
+        "description": "Already running an এটিএম ফ্ৰেঞ্চাইজী? Enhance your online visibility and connect with more customers through our digital marketing services.",
         "benefits": {
-          "branding": "অনলাইন ব্ৰেণ্ডিং বিকাশ",
-          "seo": "স্থানীয় SEO অনুকূলন",
-          "acquisition": "গ্ৰাহক আহৰণৰ কৌশল",
-          "analytics": "পৰিৱেশন বিশ্লেষণ"
+          "branding": "Online branding development",
+          "seo": "Local SEO optimization",
+          "acquisition": "Customer acquisition strategies",
+          "analytics": "Performance analytics"
         },
-        "cta": "দৃশ্যমানতা বৃদ্ধি কৰক"
+        "cta": "Boost Visibility"
       }
     },
     "support": {
-      "onboarding": "ফ্ৰেঞ্চাইজি অনবৰ্ডিং আৰু ছেটআপ",
-      "training": "বিস্তৃত প্ৰশিক্ষণ কাৰ্যসূচী",
-      "marketing": "স্থানীয় বিপণন আৰু প্ৰচাৰ",
-      "technical": "২৪/৭ কাৰিকৰী সহায়",
-      "settlement": "বেংক নিষ্পত্তিৰ সহায়",
-      "consultation": "চলি থকা ব্যৱসায়িক পৰামৰ্শ"
+      "onboarding": "ফ্ৰেঞ্চাইজী onboarding & setup",
+      "training": "Comprehensive training programs",
+      "marketing": "Local marketing & promotions",
+      "technical": "24/7 technical support",
+      "settlement": "বেংক settlement assistance",
+      "consultation": "Ongoing ব্যৱসায় consultation"
     },
     "supportSection": {
-      "title": "সম্পূৰ্ণ ফ্ৰেঞ্চাইজি সমৰ্থন",
-      "description": "প্ৰাৰম্ভিক ছেটআপৰ পৰা চলি থকা কাৰ্য্যকলাপলৈকে, আমি সকলো চম্ভালিছো যাতে আপুনি আপোনাৰ এটিএম ব্যৱসায়ৰ পৰা আপোনাৰ নিষ্ক্ৰিয় আয় বৃদ্ধি কৰাত মনোনিৱেশ কৰিব পাৰে।"
+      "title": "Complete ফ্ৰেঞ্চাইজী Support",
+      "description": "From initial setup to ongoing operations, we handle everything so you can focus on growing your passive income from your ATM ব্যৱসায়."
     },
     "cta": {
-      "title": "আৰম্ভ কৰিবলৈ সাজুনে?",
-      "description": "সমগ্ৰ ভাৰতৰ গ্ৰাম্য অঞ্চলৰ সফল এটিএম ফ্ৰেঞ্চাইজি মালিকৰ আমাৰ নেটৱৰ্কত যোগদান কৰক",
-      "franchisees": "শুভ ফ্ৰেঞ্চাইজি",
-      "button": "আপোনাৰ যাত্ৰা আৰম্ভ কৰক"
+      "title": "Ready to Start?",
+      "description": "Join our network of successful এটিএম ফ্ৰেঞ্চাইজী owners across rural India",
+      "franchisees": "Happy ফ্ৰেঞ্চাইজীes",
+      "button": "Start Your Journey"
     }
   },
   "trustSignals": {
-    "title": "ব্যৱসায়ৰ দ্বাৰা বিশ্বাসযোগ্য",
-    "subtitle": "তেওঁলোকৰ এটিএম ব্যৱসায়িক কাৰ্য্যকলাপৰ সৈতে আমাক বিশ্বাস কৰা হাজাৰ হাজাৰ সফল অংশীদাৰৰ সৈতে যোগদান কৰক",
+    "title": "Trusted by ব্যৱসায়es Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM ব্যৱসায় operations",
     "metrics": {
-      "partners": "সক্ৰিয় অংশীদাৰ",
-      "uptime": "আপটাইম নিশ্চয়তা",
-      "experience": "উদ্যোগৰ অভিজ্ঞতা",
-      "support": "গ্ৰাহক সমৰ্থন"
+      "partners": "Active Partners",
+      "uptime": "Uptime Guarantee",
+      "experience": "Industry Experience",
+      "support": "Customer Support",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ Years",
+      "supportValue": "24/7"
     }
   },
   "valueProps": {
-    "title": "Why ATM Business?",
-    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
-    "perfectTime": "Perfect Time for ATM Business in Rural India",
-    "investmentRange": "Investment Range: ₹2-5 Lakhs",
+    "title": "Why ATM ব্যৱসায়?",
+    "subtitle": "Zero Loss and Fully Transparent ব্যৱসায় Opportunity from RBI Licensed Companies",
+    "perfectTime": "Perfect Time for ATM ব্যৱসায় in Rural India",
+    "investmentRange": "বিনিয়োগ Range: ₹2-5 Lakhs",
     "bullets": {
       "digitalAdoption": "Digital Adoption Growing",
       "governmentPush": "Government Push for Financial Inclusion",
-      "bankClosures": "Bank Branch Closures"
+      "bankClosures": "বেংক Branch Closures"
     },
     "stats": {
       "roi": {
         "prefix": "upto ",
         "value": "50",
         "suffix": "%",
-        "label": "Return On Investment",
-        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+        "label": "Return On বিনিয়োগ",
+        "description": "All Payout Received by RBI Licensed WLA এটিএম Partners"
       },
       "penetration": {
         "value": "15",
         "suffix": " Per Lac",
-        "label": "ATM Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+        "label": "এটিএম Penetration",
+        "description": "Only 15 এটিএমs per 1 Lac People - এটিএম Penetration in India is very Low"
       },
       "cash": {
         "value": "75",
         "suffix": "% Cash",
         "label": "Cash Circulation",
-        "description": "Indian Economy is still Largely Cash based"
+        "description": "Indian Ecoনহয়my is still Largely Cash based"
       },
       "potential": {
         "value": "90",
         "suffix": "% Potential",
         "label": "Market Opportunity",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+        "description": "90% of Banks Offsite এটিএমs are closing down - Banks Offsite এটিএম Closure creates a Large market for এটিএমs"
       }
     }
   },
   "whyChoose": {
     "badge": "Our Advantage",
-    "title": "Why Choose",
-    "titleHighlight": "ATM Franchise India?",
+    "title": "Why বাছক",
+    "titleHighlight": "এটিএম ফ্ৰেঞ্চাইজী India?",
     "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
     "cta": {
-      "partners": "Join 500+ successful franchise partners"
+      "partners": "Join 500+ successful ফ্ৰেঞ্চাইজী partners"
     },
     "features": {
       "trusted": {
-        "title": "Trusted ATM Franchise Information",
-        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+        "title": "Trusted এটিএম ফ্ৰেঞ্চাইজী Information",
+        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM ব্যৱসায় often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
       },
       "guidance": {
         "title": "Expert Guidance on WLA Operators",
-        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
+        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your ব্যৱসায়."
       },
       "digital": {
         "title": "Boost Your Digital Presence",
-        "description": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+        "description": "Already running an ATM franchise? পঞ্জীয়ন কৰক with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
       },
       "support": {
-        "title": "End-to-End Franchise Support",
-        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
+        "title": "End-to-End ফ্ৰেঞ্চাইজী Support",
+        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM ব্যৱসায় success."
       }
     }
   },
   "alt": {
-    "atmInIndianSetting": "ATM in Indian semi-urban setting"
+    "atmInIndianSetting": "এটিএম in Indian semi-urban setting"
   },
   "trust": {
-    "heading": "দেশজুৰি ব্যৱসায়সমূহৰ দ্বাৰা বিশ্বাসযোগ্য",
-    "subtitle": "হাজাৰ হাজাৰ সফল অংশীদাৰৰ সৈতে যোগদান কৰক যিসকলে তেওঁলোকৰ এটিএম ব্যৱসায় কাৰ্যৰ বাবে আমাক বিশ্বাস কৰে",
-    "activePartners": "সক্ৰিয় অংশীদাৰ",
-    "uptimeGuarantee": "আপটাইম গেৰাণ্টি",
-    "industryExperience": "উদ্যোগ অভিজ্ঞতা",
-    "customerSupport": "গ্ৰাহক সহায়তা"
+    "heading": "Trusted by ব্যৱসায়es Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM ব্যৱসায় operations",
+    "activePartners": "Active Partners",
+    "uptimeGuarantee": "Uptime Guarantee",
+    "industryExperience": "Industry Experience",
+    "customerSupport": "Customer Support"
   }
 }

@@ -1,23 +1,23 @@
 {
-  "title": "କ୍ୟାରିଅର ସୁଯୋଗ",
-  "subtitle": "ଆମର ବୃଦ୍ଧି ପାଉଥିବା ଦଳରେ ଯୋଗଦାନ କରନ୍ତୁ",
+  "title": "Career Opportunities",
+  "subtitle": "Join our growing team",
   "hero": {
-    "heading": "ଆମ ସହିତ ଆପଣଙ୍କର କ୍ୟାରିଅର ଗଢ଼ି ତୋଳିବା",
-    "description": "ATM ଶିଳ୍ପରେ ଆକର୍ଷଣୀୟ ସୁଯୋଗ ଅନୁସନ୍ଧାନ କରନ୍ତୁ",
-    "cta": "ଖୋଲା ସ୍ଥାନଗୁଡ଼ିକ ଦେଖନ୍ତୁ"
+    "heading": "Build Your Career With Us",
+    "description": "Explore exciting opportunities in the ATM industry",
+    "cta": "View Openings"
   },
   "positions": {
-    "title": "ଖୋଲା ପଦବୀଗୁଡ଼ିକ",
-    "location": "ଲୋକେସ��୍",
-    "type": "ଚାକିରିର ପ୍ରକାର",
-    "experience": "ଅଭିଜ୍ଞତା",
-    "apply": "ଏବେ ଆବେଦନ କରନ୍ତୁ"
+    "title": "Open Positions",
+    "location": "Location",
+    "type": "Job Type",
+    "experience": "Experience",
+    "apply": "Apply Now"
   },
   "benefits": {
-    "title": "ଆମ ସହିତ କାହିଁକି କାମ କରିବେ?",
-    "growth": "କ୍ୟାରିଅରର ଅଭିବୃଦ୍ଧି",
-    "culture": "ମହାନ ସଂସ୍କୃତି",
-    "benefits": "ପ୍ରତିଯୋଗିତାମୂଳକ ଲାଭ",
-    "learning": "ନିରନ୍ତର ଶିକ୍ଷଣ"
+    "title": "Why Work With Us",
+    "growth": "Career Growth",
+    "culture": "Great Culture",
+    "benefits": "Competitive Benefits",
+    "learning": "Continuous Learning"
   }
 }

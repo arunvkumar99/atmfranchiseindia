@@ -1,10 +1,10 @@
 {
-  "title": "ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ",
-  "heading": "404 - ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ",
-  "message": "ಕ್ಷಮಿಸಿ, ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
-  "suggestion": "ನೀವು ವಿಳಾಸವನ್ನು ತಪ್ಪಾಗಿ ಟೈಪ್ ಮಾಡಿರಬಹುದು ಅಥವಾ ಪುಟ ಸ್ಥಳಾಂತರಗೊಂಡಿರಬಹುದು.",
+  "title": "Page Not Found",
+  "heading": "404 - Page Not Found",
+  "message": "Sorry, the page you are looking for doesn't exist.",
+  "suggestion": "You may have mistyped the address or the page may have moved.",
   "cta": {
-    "home": "ಮುಖಪುಟಕ್ಕೆ ಹೋಗಿ",
-    "contact": "ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ"
+    "home": "Go to Homepage",
+    "contact": "Contact Support"
   }
 }

@@ -1,8 +1,8 @@
 {
   "title": "পৃষ্ঠাটি খুঁজে পাওয়া যায়নি",
   "heading": "৪০৪ - পৃষ্ঠাটি পাওয়া যায়নি",
-  "message": "দুঃখিত, আপনি যে পৃষ্ঠাটি খুঁজছেন তা বিদ্যমান নেই।",
-  "suggestion": "আপনি হয়তো ঠিকানা ভুল টাইপ করেছেন অথবা পৃষ্ঠাটি সরে গেছে।",
+  "message": "Sorry, the page you are looking for doesn't exist.",
+  "suggestion": "You may have mistyped the address or the page may have moved.",
   "cta": {
     "home": "হোমপেজে যান",
     "contact": "সহায়তার সাথে যোগাযোগ ��রুন"

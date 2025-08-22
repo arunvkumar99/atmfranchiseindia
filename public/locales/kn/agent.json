@@ -1,21 +1,21 @@
 {
-  "title": "ಏಜೆಂಟ್ ಆಗಿ",
-  "subtitle": "ATM ಏಜೆಂಟ್ ಆಗಿ ನಮ್ಮೊಂದಿಗೆ ಪಾಲುದಾರಿಕೆ ಮಾಡಿಕೊಂಡು ಕಮಿಷನ್ ಗಳಿಸಿ",
+  "title": "Become an Agent",
+  "subtitle": "Partner with us as an ATM agent and earn commission",
   "hero": {
-    "badge": "ಏಜೆಂಟ್ ಪಾಲುದಾರಿಕೆ ಕಾರ್ಯಕ್ರಮ",
-    "heading": "ಎಟಿಎಂ ಏಜೆಂಟ್ ಆಗಿ",
-    "description": "ಸ್ಥಿರ ಕಮಿಷನ್ ಗಳಿಸುವ ಯಶಸ್ವಿ ಏಜೆಂಟರ ನಮ್ಮ ಜಾಲಕ್ಕೆ ಸೇರಿ.",
-    "cta": "ಈಗಲೇ ಅನ್ವಯಿಸಿ"
+    "badge": "Agent Partnership Program",
+    "heading": "Become an ATM Agent",
+    "description": "Join our network of successful agents earning steady commission",
+    "cta": "Apply Now"
   },
   "benefits": {
-    "title": "ಏಜೆಂಟ್ ಪ್ರಯೋಜನಗಳು",
-    "commission": "ಹೈ ಕಮಿಷನ್",
-    "support": "ಪೂರ್ಣ ಬೆಂಬಲ",
-    "training": "ಉಚಿತ ತರಬೇತಿ",
-    "flexible": "ಹೊಂದಿಕೊಳ್ಳುವ ಸಮಯಗಳು"
+    "title": "Agent Benefits",
+    "commission": "High Commission",
+    "support": "Full Support",
+    "training": "Free Training",
+    "flexible": "Flexible Hours"
   },
   "form": {
-    "title": "ಏಜೆಂಟ್ ಅರ್ಜಿ ನಮೂನೆ",
-    "submit": "ಅರ್ಜಿ ಸಲ್ಲಿಸಿ"
+    "title": "Agent Application Form",
+    "submit": "Submit Application"
   }
 }

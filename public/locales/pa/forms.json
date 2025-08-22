@@ -1,97 +1,209 @@
 {
   "labels": {
-    "fullName": "Full Name",
-    "email": "Email Address",
-    "phone": "Phone Number"
-  },
-  "fields": {
-    "fullName": "ਪੂਰਾ ਨਾਂਮ",
-    "firstName": "ਪਹਿਲਾ ਨਾਂ",
-    "lastName": "ਆਖਰੀ ਨਾਂਮ",
+    "fullName": "ਪੂਰਾ ਨਾਮ",
     "email": "ਈਮੇਲ ਪਤਾ",
     "phone": "ਫੋਨ ਨੰਬਰ",
-    "alternatePhone": "ਵਿਕਲਪਿਕ ਫ਼ੋਨ ਨੰਬਰ",
-    "whatsapp": "ਵਟਸਐਪ ਨੰਬਰ",
+    "state": "ਰਾਜ",
+    "city": "ਸ਼ਹਿਰ",
+    "message": "ਸੰਦੇਸ਼",
+    "noticePeriod": "ਨਹੀਂtice Period",
+    "permanentAddress": "Permanent ਪਤਾ",
+    "currentAddress": "Current ਪਤਾ",
+    "panDocumentUpload": "PAN ਦਸਤਾਵੇਜ਼ ਅੱਪਲੋਡ",
+    "aadhaarFront": "Aadhaar Front Side",
+    "aadhaarBack": "Aadhaar ਪਿਛੇ Side",
+    "passportPhoto": "Passport Size Photo",
+    "dateOfBirthPan": "ਜਨਮ ਤਾਰੀਖ as in PAN Card",
+    "districtOfResidence": "District of Residence",
+    "aadhaarNumber": "Aadhaar Card Number (12 digits)",
+    "languagesYouSpeak": "Languages You Can Speak",
+    "whyJoinAgent": "Why do you want to Join Sahasra Network as ਏਜੰਟ",
+    "joiningAs": "Are you Joining As (ਕਿਰਪਾ ਕਰਕੇ choose from Below):",
+    "professionalDetails": "Professional Details & Documents",
+    "onetime_cost": "One-time Cost",
+    "refundable_deposit": "Refundable Deposit",
+    "clf_working_capital": "CLF & Working Capital",
+    "cash_transaction": "Cash Transaction",
+    "noncash_transaction": "ਨਹੀਂn-cash Transaction",
+    "ad_revenue_share": "Ad ਆਮਦਨ Share"
+  },
+  "buttons": {
+    "submit": "ਜਮ੍ਹਾਂ ਕਰੋ",
+    "next": "ਅੱਗੇ",
+    "previous": "ਪਿਛਲਾ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "saveDraft": "ਸੇਵ ਕਰੋ Draft",
+    "submitApplication": "ਅਰਜ਼ੀ ਜਮ੍ਹਾਂ ਕਰੋ",
+    "apply": "ਅਰਜ਼ੀ ਦਿਓ Now",
+    "register": "ਰਜਿਸਟਰ ਕਰੋ",
+    "continue": "ਜਾਰੀ ਰੱਖੋ"
+  },
+  "fields": {
+    "fullName": "ਪੂਰਾ ਨਾਮ",
+    "firstName": "ਪਹਿਲਾ ਨਾਮ",
+    "lastName": "ਆਖਰੀ ਨਾਮ",
+    "email": "ਈਮੇਲ ਪਤਾ",
+    "phone": "ਫੋਨ ਨੰਬਰ",
+    "alternatePhone": "Alternate ਫੋਨ ਨੰਬਰ",
+    "whatsapp": "WhatsApp Number",
     "address": "ਪਤਾ",
-    "street": "ਸੜਕ ਦਾ ਪਤਾ",
+    "street": "Street ਪਤਾ",
     "city": "ਸ਼ਹਿਰ",
     "state": "ਰਾਜ",
     "pincode": "ਪਿੰਨ ਕੋਡ",
     "country": "ਦੇਸ਼",
-    "message": "ਸੁਨੇਹਾ",
-    "comments": "ਟਿੱਪਣੀਆਂ",
-    "experience": "ਅਨੁਭਵ",
-    "qualification": "ਯੋਗਤਾ",
-    "occupation": "ਮੌਜੂਦਾ ਕਿੱਤਾ",
-    "businessType": "ਕਾਰੋਬਾਰ ਦੀ ਕਿਸਮ",
-    "investment": "ਨਿਵੇਸ਼ ਸਮਰੱਥਾ",
-    "preferredLocation": "ਪਸੰਦੀਦਾ ਸਥਾਨ",
-    "shopName": "ਦੁਕਾਨ/ਕਾਰੋਬਾਰ ਦਾ ਨਾਮ",
-    "shopAddress": "ਦੁਕਾਨ ਦਾ ਪਤਾ",
-    "monthlyIncome": "ਮਾਸਿਕ ਆਮਦਨ",
-    "businessExperience": "ਕਾਰੋਬਾਰੀ ਤਜਰਬਾ (ਸਾਲ)",
-    "howDidYouHear": "ਤੁਹਾਨੂੰ ਸਾਡੇ ਬਾਰੇ ਕਿਵੇਂ ਪਾ ਲੱਗਿਆ?",
-    "agreeTerms": "ਮੈਂ ਨਿਯਮਾਂ ਅਤੇ ਸ਼ਰਤਾਂ ਨਾਲ ਸਹਿਮਤ ਹਾਂ।",
-    "newsletter": "ਨਿਊਜ਼ਲੈਟਰ ਦੇ ਗਾਹਕ ਬਣੋ",
-    "captcha": "ਕੈਪਚਾ ਦਰਜ ਕਰੋ"
+    "message": "ਸੰਦੇਸ਼",
+    "comments": "Comments",
+    "experience": "Experience",
+    "qualification": "Qualification",
+    "occupation": "Current Occupation",
+    "businessType": "ਕਾਰੋਬਾਰ Type",
+    "investment": "Investment Capaਸ਼ਹਿਰ",
+    "preferredLocation": "Preferred Location",
+    "shopName": "Shop/ਕਾਰੋਬਾਰ Name",
+    "shopAddress": "Shop ਪਤਾ",
+    "monthlyIncome": "Monthly Income",
+    "businessExperience": "ਕਾਰੋਬਾਰ Experience (Years)",
+    "howDidYouHear": "How did you hear ਸਾਡੇ ਬਾਰੇ?",
+    "agreeTerms": "I agree to the terms and conditions",
+    "newsletter": "Subscribe to newsletter",
+    "captcha": "Enter captcha"
+  },
+  "dateOfBirth": {
+    "day": "Day"
+  },
+  "whatsapp": {
+    "placeholder": "WhatsApp active number"
+  },
+  "pan": {
+    "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+    "placeholder": "ABCDE1234F"
+  },
+  "state": {
+    "label": "ਰਾਜ",
+    "placeholder": "Choose your ਰਾਜ"
+  },
+  "months": {
+    "may": "May"
+  },
+  "gender": {
+    "label": "ਚੁਣੋ Your Gender"
+  },
+  "error": {
+    "fileUpload": "Unable to upload files. ਕਿਰਪਾ ਕਰਕੇ try again.",
+    "network": "Network error. ਕਿਰਪਾ ਕਰਕੇ check your connection.",
+    "tryAgainOrContact": "Please try again or ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ directly."
   },
   "placeholders": {
-    "fullName": "ਆਪਣਾ ਪੂਰਾ ਨਾਮ ਦਰਜ ਕਰੋ",
-    "email": "example@email.com",
-    "phone": "+91 98765 43210",
-    "message": "ਆਪਣਾ ਸੁਨੇਹਾ ਇੱਥੇ ਟਾਈਪ ਕਰੋ...",
-    "city": "ਆਪਣਾ ਸ਼ਹਿਰ ਚੁਣੋ",
-    "state": "ਆਪਣਾ ਰਾਜ ਚੁਣੋ",
-    "searchCity": "ਸ਼ਹਿਰ ਖੋਜੋ...",
-    "selectOption": "ਕੋਈ ਵਿਕਲਪ ਚੁਣੋ",
-    "uploadFile": "ਫਾਈਲ ਚੁਣੋ ਜਾਂ ਇੱਥੇ ਘਸੀਟੋ",
-    "pincode": "6-ਅੰਕਾਂ ਵਾਲਾ ਪਿੰਨ ਕੋਡ",
-    "full_name": "Enter your full name",
-    "full_name_pan": "Enter your full name as per PAN card",
+    "fullName": "Enter your ਪੂਰਾ ਨਾਮ",
+    "email": "Enter your ਈਮੇਲ ਪਤਾ",
+    "phone": "10-digit mobile number",
+    "message": "Type your ਸੰਦੇਸ਼ here...",
+    "city": "Enter ਸ਼ਹਿਰ",
+    "state": "Choose your ਰਾਜ",
+    "searchCity": "Search ਸ਼ਹਿਰ...",
+    "selectOption": "ਚੁਣੋ an option",
+    "uploadFile": "ਚੁਣੋ file or drag here",
+    "pincode": "6-digit pincode",
+    "full_name": "Enter your ਪੂਰਾ ਨਾਮ",
+    "full_name_pan": "Enter your ਪੂਰਾ ਨਾਮ as per PAN card",
     "phone_primary": "Primary contact number",
     "whatsapp": "WhatsApp number",
     "pan": "ABCDE1234F",
     "aadhaar": "123456789012 (12 digits only)",
-    "address": "Enter complete address",
+    "address": "Enter complete ਪਤਾ",
     "address_line1": "House/Building number, Street name",
     "address_line2": "Area, Landmark",
-    "your_city": "Your city",
+    "your_city": "Your ਸ਼ਹਿਰ",
     "district": "Enter your district",
-    "business_type": "Select business type"
+    "business_type": "Select ਕਾਰੋਬਾਰ type",
+    "enterYourDistrict": "Enter your district",
+    "enterYourPermanentAddress": "Enter your permanent ਪਤਾ",
+    "enterYourCurrentAddress": "Enter your current ਪਤਾ",
+    "motivationAndGoals": "Tell us about your motivation and goals as an ਏਜੰਟ",
+    "day": "Day",
+    "primaryPhone": "Primary contact number",
+    "whatsappNumber": "WhatsApp active number",
+    "emailAddress": "Enter your ਈਮੇਲ ਪਤਾ",
+    "panFormat": "ABCDE1234F",
+    "aadhaarNumber": "123456789012",
+    "aadhaarFormat": "123456789012 (12 digits only)",
+    "permanentAddress": "Enter your permanent ਪਤਾ here",
+    "currentAddress": "Enter your current ਪਤਾ here",
+    "chooseState": "Choose your ਰਾਜ",
+    "enterDistrict": "Enter your district",
+    "agentMotivation": "Tell us about your motivation and goals as an ਏਜੰਟ",
+    "selectJobPosition": "Select the position you're ਅਰਜ਼ੀ ਦਿਓing for",
+    "selectNoticePeriod": "Select your ਨਹੀਂtice period",
+    "firstName": "Enter ਪਹਿਲਾ ਨਾਮ",
+    "lastName": "Enter ਆਖਰੀ ਨਾਮ",
+    "addressLine1": "House/Building number, Street name",
+    "addressLine2": "Area, Landmark",
+    "yourCity": "Your ਸ਼ਹਿਰ",
+    "sixDigitPincode": "6-digit pincode",
+    "selectBusinessType": "Select ਕਾਰੋਬਾਰ type",
+    "selectInvestmentRange": "Select ਨਿਵੇਸ਼ range",
+    "selectTimeline": "ਚੁਣੋ timeline",
+    "selectSource": "ਚੁਣੋ source",
+    "specificQuestions": "Any specific questions or requirements?",
+    "bankName": "ਬੈਂਕ name",
+    "gstNumber": "GST registration number",
+    "facebookProfile": "https://facebook.com/yourprofile",
+    "instagramProfile": "https://instagram.com/yourprofile",
+    "youtubeChannel": "https://youtube.com/yourchannel",
+    "linkedinProfile": "https://linkedin.com/in/yourprofile",
+    "otherSocialMedia": "Any other social media platform"
   },
   "validation": {
-    "required": "{{field}} is required",
-    "emailInvalid": "ਇੱਕ ਜਾਇਜ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ",
-    "phoneInvalid": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ 10-ਅੰਕਾਂ ਵਾਲਾ ਫ਼ੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ।",
-    "pincodeInvalid": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ 6-ਅੰਕਾਂ ਵਾਲਾ ਪਿੰਨ ਕੋਡ ਦਾਖਲ ਕਰੋ।",
+    "required": "{{field}} is ਲੋੜੀਂਦਾ",
+    "emailInvalid": "Please enter a valid ਈਮੇਲ ਪਤਾ",
+    "phoneInvalid": "Please enter a valid 10-digit ਫੋਨ ਨੰਬਰ",
+    "pincodeInvalid": "Please enter a valid 6-digit ਪਿੰਨ ਕੋਡ",
     "minLength": "{{field}} must be at least {{min}} characters",
-    "maxLength": "{{field}} must not exceed {{max}} characters",
-    "numberOnly": "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ਼ ਨੰਬਰ ਦਰਜ ਕਰੋ",
-    "lettersOnly": "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ਼ ਅੱਖਰ ਦਰਜ ਕਰੋ",
+    "maxLength": "{{field}} must ਨਹੀਂt exceed {{max}} characters",
+    "numberOnly": "ਕਿਰਪਾ ਕਰਕੇ enter numbers only",
+    "lettersOnly": "ਕਿਰਪਾ ਕਰਕੇ enter letters only",
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
-    "agreeRequired": "ਤੁਹਾਨੂੰ ਨਿਯਮਾਂ ਅਤੇ ਸ਼ਰਤਾਂ ਨਾਲ ਸਹਿਮਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
-    "captchaRequired": "ਕਿਰਪਾ ਕਰਕੇ ਕੈਪਚਾ ਤਸਦੀਕ ਨੂੰ ਪੂਰਾ ਕਰੋ।",
-    "email_invalid": "Please enter a valid email address",
-    "phone_invalid": "Please enter a valid 10-digit phone number",
-    "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
-    "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
-    "pincode_invalid": "Please enter a valid 6-digit PIN code",
-    "min_length": "Minimum {{min}} characters required",
+    "agreeRequired": "You must agree to the terms and conditions",
+    "captchaRequired": "ਕਿਰਪਾ ਕਰਕੇ complete the captcha verification",
+    "email_invalid": "Please enter a valid ਈਮੇਲ ਪਤਾ",
+    "phone_invalid": "Please enter a valid 10-digit ਫੋਨ ਨੰਬਰ",
+    "pan_invalid": "ਕਿਰਪਾ ਕਰਕੇ enter a valid PAN number (ABCDE1234F)",
+    "aadhaar_invalid": "ਕਿਰਪਾ ਕਰਕੇ enter a valid 12-digit Aadhaar number",
+    "pincode_invalid": "Please enter a valid 6-digit ਪਿੰਨ ਕੋਡ",
+    "min_length": "Minimum {{min}} characters ਲੋੜੀਂਦਾ",
     "max_length": "Maximum {{max}} characters allowed",
     "file_size": "File size must be less than {{size}}MB",
     "file_type": "Only {{types}} files are allowed",
-    "security_required": "Please complete the security verification before submitting",
-    "try_again": "Please try again or contact us directly"
+    "security_required": "Please complete the security verification before ਜਮ੍ਹਾਂ ਕਰੋting",
+    "try_again": "Please try again or ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ directly",
+    "email": "Please enter a valid ਈਮੇਲ ਪਤਾ",
+    "phone": "Please enter a valid ਫੋਨ ਨੰਬਰ",
+    "pan": "ਕਿਰਪਾ ਕਰਕੇ enter a valid PAN number",
+    "aadhaar": "ਕਿਰਪਾ ਕਰਕੇ enter a valid Aadhaar number",
+    "correctFields": "ਕਿਰਪਾ ਕਰਕੇ correct the following fields",
+    "enterCompletePermanentAddress": "Please enter complete permanent ਪਤਾ (minimum 10 characters)",
+    "enterCompleteCurrentAddress": "Please enter complete current ਪਤਾ (minimum 10 characters)",
+    "validName": "Valid name",
+    "validEmail": "Valid email",
+    "validPhone": "Valid ਫੋਨ ਨੰਬਰ",
+    "selectJobPosition": "ਕਿਰਪਾ ਕਰਕੇ select a job position",
+    "enterExperience": "ਕਿਰਪਾ ਕਰਕੇ enter your experience",
+    "enterLocation": "ਕਿਰਪਾ ਕਰਕੇ enter your current location",
+    "enterSalary": "ਕਿਰਪਾ ਕਰਕੇ enter expected salary",
+    "selectNoticePeriod": "ਕਿਰਪਾ ਕਰਕੇ select notice period",
+    "securityVerificationRequired": "Security Verification ਲੋੜੀਂਦਾ",
+    "completeSecurityVerification": "Please complete the security verification before ਜਮ੍ਹਾਂ ਕਰੋting."
   },
   "options": {
     "occupation": {
-      "employed": "ਨੌਕਰੀ ਕਰਦਾ ਹੈ",
-      "selfEmployed": "ਆਪਣੇ ਆਪ ਨੌਕਰੀ ਪੇਸ਼ਾ",
-      "business": "ਕਾਰੋਬਾਰੀ ਮਾਲਕ",
-      "student": "ਵਿਦਿਆਰਥੀ",
-      "retired": "ਸੇਵਾਮੁਕਤ",
-      "other": "ਹੋਰ"
+      "employed": "Employed",
+      "selfEmployed": "Self Employed",
+      "business": "ਕਾਰੋਬਾਰ Owner",
+      "student": "Student",
+      "retired": "Retired",
+      "other": "Other"
     },
     "investment": {
       "below_1": "Below ₹1 Lakh",
@@ -104,28 +216,23 @@
       "10_to_25": "₹10-25 Lakhs",
       "15_to_25": "₹15-25 Lakhs",
       "above_5": "₹5+ Lakhs",
-      "above_25": "Above ₹25 Lakhs",
-      "below1": "₹1 ਲੱਖ ਤੋਂ ਘੱਟ",
-      "1to5": "₹1-5 ਲੱਖ",
-      "5to10": "₹5-10 ਲੱਖ",
-      "10to25": "₹10-25 ਲੱਖ",
-      "above25": "₹25 ਲੱਖ ਤੋਂ ਵੱਧ"
+      "above_25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
-      "google": "ਗੂਗਲ ਸਰਚ",
-      "facebook": "ਫੇਸਬੁੱਕ",
-      "instagram": "ਇੰਸਟਾਗ੍ਰਾਮ",
-      "friend": "ਦੋਸਤ/ਹਵਾਲਾ",
-      "newspaper": "ਅਖ਼ਬਾਰ",
-      "other": "ਹੋਰ"
+      "google": "Google Search",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "friend": "Friend/Reference",
+      "newspaper": "Newspaper",
+      "other": "Other"
     },
     "businessType": {
-      "retail": "ਪ੍ਰਚੂਨ ਦੁਕਾਨ",
-      "service": "ਸੇਵਾ ਕੇਂਦਰ",
-      "grocery": "ਕਰਿਆਨੇ ਦੀ ਦੁਕਾਨ",
-      "medical": "ਮੈਡੀਕਲ ਸਟੋਰ",
-      "restaurant": "ਰੈਸਟੋਰੈਂਟ/ਕੈਫੇ",
-      "other": "ਹੋਰ"
+      "retail": "Retail Shop",
+      "service": "Service Center",
+      "grocery": "Grocery Store",
+      "medical": "Medical Store",
+      "restaurant": "Restaurant/Cafe",
+      "other": "Other"
     },
     "gender": {
       "male": "Male",
@@ -134,118 +241,118 @@
     }
   },
   "locationForm": {
-    "title": "ATM ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਸਥਾਨ ਜਮ੍ਹਾਂ ਕਰੋ",
-    "subtitle": "ਨਵੇਂ ATM ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਸਥਾਨਾਂ ਦੀ ਪਛਾਣ ਕਰਨ ਵਿੱਚ ਸਾਡੀ ਮਦਦ ਕਰੋ।",
+    "title": "ਜਮ੍ਹਾਂ ਕਰੋ Location for ATM Installation",
+    "subtitle": "Help us identify the best locations for new ਏਟੀਐਮs",
     "sections": {
-      "personal": "ਵਿਅਕਤੀਗਤ ਜਾਣਕਾਰੀ",
-      "location": "ਸਥਾਨ ਵੇਰਵੇ",
+      "personal": "ਨਿੱਜੀ ਜਾਣਕਾਰੀ",
+      "location": "Location Details",
       "business": "ਕਾਰੋਬਾਰੀ ਜਾਣਕਾਰੀ",
-      "additional": "ਵਧੀਕ ਜਾਣਕਾਰੀ"
+      "additional": "Additional Information"
     },
-    "success": "ਟਿਕਾਣਾ ਸਫਲਤਾਪੂਰਵਕ ਸਪੁਰਦ ਕੀਤਾ ਗਿਆ! ਅਸੀਂ ਜਲਦੀ ਹੀ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।",
-    "error": "ਟਿਕਾਣਾ ਸਪੁਰਦ ਕਰਨ ਵਿੱਚ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+    "success": "Location ਜਮ੍ਹਾਂ ਕਰੋted successfully! We'll contact you soon.",
+    "error": "Error ਜਮ੍ਹਾਂ ਕਰੋting location. Please try again."
   },
   "agentForm": {
-    "title": "PixellPay ਏਜੰਟ ਬਣੋ",
-    "subtitle": "ਸਾਡੇ ਸਫਲ ਏਜੰਟਾਂ ਦੇ ਨੈੱਟਵਰਕ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
+    "title": "Become a PixellPay ਏਜੰਟ",
+    "subtitle": "Join our network of successful ਏਜੰਟs",
     "sections": {
-      "personal": "ਨਿੱਜੀ ਵੇਰਵੇ",
-      "professional": "ਪੇਸ਼ੇਵਰ ਜਾਣਕਾਰੀ",
+      "personal": "Personal Details",
+      "professional": "Professional Information",
       "documents": "ਦਸਤਾਵੇਜ਼ ਅੱਪਲੋਡ",
-      "agreement": "ਨਿਯਮ ਅਤੇ ਇਕਰਾਰਨਾਮਾ"
+      "agreement": "Terms & Agreement"
     },
-    "success": "ਅਰਜ਼ੀ ਸਫਲਤਾਪੂਰਵਕ ਜਮ੍ਹਾਂ ਹੋ ਗਈ! ਸਾਡੀ ਟੀਮ 48 ਘੰਟਿਆਂ ਦੇ ਅੰਦਰ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੇਗੀ।",
-    "error": "ਅਰਜ਼ੀ ਜਮ੍ਹਾਂ ਕਰਨ ਵਿੱਚ ਗੜਬੜ। ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਖੇਤਰਾਂ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+    "success": "Application ਜਮ੍ਹਾਂ ਕਰੋted successfully! Our team will contact you within 48 hours.",
+    "error": "Error ਜਮ੍ਹਾਂ ਕਰੋting application. Please check all fields and try again."
   },
   "enquiryForm": {
-    "title": "ਫਰੈਂਚਾਈਜ਼ ਪੁੱਛਗਿੱਛ ਫਾਰਮ",
-    "subtitle": "ਆਪਣੀ ATM ਫਰੈਂਚਾਇਜ਼ੀ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰੋ",
-    "success": "ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਲਈ ਧੰਨਵਾਦ! ਅਸੀਂ ਜਲਦੀ ਹੀ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।",
-    "error": "ਪੁੱਛਗਿੱਛ ਸਪੁਰਦ ਕਰਨ ਵਿੱਚ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+    "title": "ਫ੍ਰੈਂਚਾਇਜ਼ੀ Enquiry Form",
+    "subtitle": "Get started with your ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ journey",
+    "success": "Thank you for your interest! We'll get ਪਿਛੇ to you soon.",
+    "error": "Error ਜਮ੍ਹਾਂ ਕਰੋting enquiry. Please try again."
   },
   "contactForm": {
     "title": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
-    "subtitle": "ਅਸੀਂ ਮਦਦ ਲਈ ਇੱਥੇ ਹਾਂ।",
-    "success": "ਸੁਨੇਹਾ ਸਫਲਤਾਪੂਰਵਕ ਭੇਜਿਆ ਗਿਆ!",
-    "error": "ਸੁਨੇਹਾ ਭੇਜਣ ਵਿੱਚ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+    "subtitle": "We're here to help",
+    "success": "ਸੰਦੇਸ਼ sent successfully!",
+    "error": "Error sending ਸੰਦੇਸ਼. Please try again."
   },
   "joinUs": {
     "title": {
       "main": "Join the",
-      "highlight": "ATM Franchise",
+      "highlight": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
       "revolution": "Revolution"
     },
-    "subtitle": "Choose your path to success with ATM Franchise India",
+    "subtitle": "Choose your path to success with ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ India",
     "form": {
-      "title": "ATM Franchise Application Form",
-      "instruction": "Please provide accurate information. All fields marked with * are mandatory.",
-      "submitMessage": "Our team will review your application within 24-48 hours and contact you with next steps."
+      "title": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Application Form",
+      "instruction": "ਕਿਰਪਾ ਕਰਕੇ provide accurate information. All fields marked with * are mandatory.",
+      "submitMessage": "Our team will review your application within 24-48 hours and contact you with ਅੱਗੇ steps."
     },
     "sections": {
-      "personal": "Personal Information",
-      "address": "Address Information",
-      "business": "Business Information",
-      "franchise": "ATM Franchise Details",
-      "financial": "Financial Information",
+      "personal": "ਨਿੱਜੀ ਜਾਣਕਾਰੀ",
+      "address": "ਪਤਾ Information",
+      "business": "ਕਾਰੋਬਾਰੀ ਜਾਣਕਾਰੀ",
+      "franchise": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Details",
+      "financial": "ਵਿੱਤੀ ਜਾਣਕਾਰੀ",
       "additional": "Additional Information"
     },
     "labels": {
-      "firstName": "First Name *",
-      "lastName": "Last Name *",
-      "email": "Email Address *",
-      "phone": "Phone Number *",
+      "firstName": "ਪਹਿਲਾ ਨਾਮ *",
+      "lastName": "ਆਖਰੀ ਨਾਮ *",
+      "email": "ਈਮੇਲ ਪਤਾ *",
+      "phone": "ਫੋਨ ਨੰਬਰ *",
       "alternatePhone": "Alternate Phone",
-      "dateOfBirth": "Date of Birth *",
-      "addressLine1": "Address Line 1 *",
-      "addressLine2": "Address Line 2",
-      "city": "City *",
-      "state": "State *",
-      "pincode": "PIN Code *",
-      "businessType": "Business Type *",
-      "businessExperience": "Business Experience *",
+      "dateOfBirth": "ਜਨਮ ਤਾਰੀਖ *",
+      "addressLine1": "ਪਤਾ Line 1 *",
+      "addressLine2": "ਪਤਾ Line 2",
+      "city": "ਸ਼ਹਿਰ *",
+      "state": "ਰਾਜ *",
+      "pincode": "ਪਿੰਨ ਕੋਡ *",
+      "businessType": "ਕਾਰੋਬਾਰ Type *",
+      "businessExperience": "ਕਾਰੋਬਾਰ Experience *",
       "currentOccupation": "Current Occupation *",
       "annualIncome": "Annual Income Range *",
-      "investmentCapacity": "Investment Capacity *",
-      "preferredLocation": "Preferred ATM Location *",
+      "investmentCapacity": "Investment Capaਸ਼ਹਿਰ *",
+      "preferredLocation": "Preferred ਏਟੀਐਮ Location *",
       "locationOwnership": "Location Ownership *",
       "expectedFootfall": "Expected Daily Footfall",
-      "nearbyBanks": "Nearby Banks",
-      "competitorATMs": "Competitor ATMs",
-      "primaryBank": "Primary Bank *",
+      "nearbyBanks": "Nearby ਬੈਂਕs",
+      "competitorATMs": "Competitor ਏਟੀਐਮs",
+      "primaryBank": "Primary ਬੈਂਕ *",
       "accountType": "Account Type *",
       "panCard": "PAN Card Number *",
       "gstNumber": "GST Number (if applicable)",
-      "referenceSource": "How did you hear about us? *",
-      "previousFranchise": "Previous Franchise Experience",
+      "referenceSource": "How did you hear ਸਾਡੇ ਬਾਰੇ? *",
+      "previousFranchise": "ਪਿਛਲਾ Franchise Experience",
       "timelineToStart": "Timeline to Start *",
       "additionalComments": "Additional Comments/Questions"
     },
     "placeholders": {
-      "firstName": "Enter first name",
-      "lastName": "Enter last name",
+      "firstName": "Enter ਪਹਿਲਾ ਨਾਮ",
+      "lastName": "Enter ਆਖਰੀ ਨਾਮ",
       "email": "your.email@example.com",
       "phone": "+91 98765 43210",
       "addressLine1": "House/Building number, Street name",
       "addressLine2": "Area, Landmark",
-      "city": "Enter city",
-      "state": "Select state",
-      "pincode": "Enter 6-digit PIN code",
-      "businessType": "Select business type",
+      "city": "Enter ਸ਼ਹਿਰ",
+      "state": "Select ਰਾਜ",
+      "pincode": "Enter 6-digit ਪਿੰਨ ਕੋਡ",
+      "businessType": "Select ਕਾਰੋਬਾਰ type",
       "experienceYears": "Years of experience",
       "currentOccupation": "e.g., Shop Owner, Farmer, Employee",
-      "annualIncome": "Select income range",
-      "investmentCapacity": "Select investment range",
-      "preferredLocation": "Area/Village where you want ATM",
+      "annualIncome": "ਚੁਣੋ income range",
+      "investmentCapacity": "Select ਨਿਵੇਸ਼ range",
+      "preferredLocation": "Area/Village where you want ਏਟੀਐਮ",
       "locationOwnership": "Do you own the location?",
       "expectedFootfall": "Expected daily visitors",
-      "nearbyBanks": "Names of banks within 5km",
-      "competitorATMs": "Number of ATMs in 2km radius",
-      "bankName": "Bank name",
-      "accountType": "Select account type",
+      "nearbyBanks": "Names of ਬੈਂਕs within 5km",
+      "competitorATMs": "Number of ਏਟੀਐਮs in 2km radius",
+      "bankName": "ਬੈਂਕ name",
+      "accountType": "ਚੁਣੋ account type",
       "panCard": "ABCDE1234F",
       "gstNumber": "GST registration number",
-      "referenceSource": "Select source",
-      "previousFranchise": "Any previous franchise?",
+      "referenceSource": "ਚੁਣੋ source",
+      "previousFranchise": "Any ਪਿਛਲਾ franchise?",
       "timelineToStart": "When can you start?",
       "additionalComments": "Any specific questions or additional information you'd like to share..."
     },
@@ -318,9 +425,9 @@
       "other": "Other"
     },
     "franchiseExperience": {
-      "yes-successful": "Yes, successful experience",
-      "yes-challenges": "Yes, faced challenges",
-      "no": "No previous experience"
+      "yes-successful": "ਹਾਂ, successful experience",
+      "yes-challenges": "ਹਾਂ, faced challenges",
+      "no": "No ਪਿਛਲਾ experience"
     },
     "timelines": {
       "immediate": "Immediately",
@@ -333,19 +440,19 @@
       "agreeText": "I agree to the",
       "termsLink": "Terms & Conditions",
       "disclaimer": "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.",
-      "marketingConsent": "I agree to receive marketing communications and updates about ATM franchise opportunities."
+      "marketingConsent": "I agree to receive marketing communications and updates about ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ opportunities."
     },
     "sidebar": {
       "successStory": {
-        "title": "Join 500+ Successful Franchisees",
-        "testimonial": "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
+        "title": "Join 500+ Successful ਫ੍ਰੈਂਚਾਇਜ਼ੀes",
+        "testimonial": "Starting my ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
         "name": "Rajesh Kumar",
-        "designation": "ATM Franchise Owner, Bihar"
+        "designation": "ਏਟੀਐਮ ਫ੍ਰੈਂਚਾਇਜ਼ੀ Owner, Bihar"
       },
       "process": {
         "title": "Application Process",
         "steps": [
-          "Submit detailed application",
+          "ਜਮ੍ਹਾਂ ਕਰੋ detailed application",
           "Initial screening & verification",
           "Personal interview & site visit",
           "Approval & agreement signing",
@@ -357,17 +464,17 @@
         "callUs": "Call Us",
         "emailUs": "Email Us",
         "phone": "+91 7003554455",
-        "email": "contact@atmfranchiseindia.in"
+        "email": "contact@ਏਟੀਐਮfranchiseindia.in"
       }
     },
     "benefits": {
       "roi": {
         "title": "High ROI Potential",
-        "description": "Earn up to 50% return on investment with transparent revenue sharing"
+        "description": "Earn up to 50% return on ਨਿਵੇਸ਼ with transparent revenue sharing"
       },
       "competition": {
         "title": "Low Competition",
-        "description": "Only 15 ATMs per 1 lakh people - huge market opportunity"
+        "description": "Only 15 ਏਟੀਐਮs per 1 lakh people - huge market opportunity"
       },
       "support": {
         "title": "Complete Support",
@@ -375,17 +482,17 @@
       },
       "track": {
         "title": "Proven Track Record",
-        "description": "Join 500+ successful franchisees across India"
+        "description": "Join 500+ successful ਫ੍ਰੈਂਚਾਇਜ਼ੀes across India"
       }
     },
     "opportunities": {
       "agent": {
-        "title": "Join as Agent",
-        "description": "Become a field sales agent and earn commission"
+        "title": "Join as ਏਜੰਟ",
+        "description": "Become a field sales ਏਜੰਟ and earn commission"
       },
       "franchise": {
-        "title": "Join as Franchise",
-        "description": "Start your own ATM business"
+        "title": "Join as ਫ੍ਰੈਂਚਾਇਜ਼ੀ",
+        "description": "Start your own ATM ਕਾਰੋਬਾਰ"
       },
       "employee": {
         "title": "Join as Employee",
@@ -393,45 +500,73 @@
       }
     },
     "buttons": {
-      "submit": "Submit Application"
+      "submit": "ਅਰਜ਼ੀ ਜਮ੍ਹਾਂ ਕਰੋ"
     },
     "toast": {
       "termsRequired": {
-        "title": "Terms & Conditions Required",
-        "description": "Please agree to terms and conditions to proceed."
+        "title": "Terms & Conditions ਲੋੜੀਂਦਾ",
+        "description": "ਕਿਰਪਾ ਕਰਕੇ agree to terms and conditions to proceed."
       },
       "success": {
-        "title": "Application Submitted Successfully!",
-        "description": "Our franchise team will review your application and contact you within 24-48 hours."
+        "title": "Application ਜਮ੍ਹਾਂ ਕਰੋted Successfully!",
+        "description": "Our ਫ੍ਰੈਂਚਾਇਜ਼ੀ team will review your application and contact you within 24-48 hours."
       }
     }
   },
-  "buttons": {
-    "submit": "Submit",
-    "next": "Next",
-    "previous": "Previous",
-    "cancel": "Cancel",
-    "saveDraft": "Save Draft",
-    "submitApplication": "Submit Application",
-    "apply": "Apply Now",
-    "register": "Register",
-    "continue": "Continue"
-  },
   "sections": {
-    "personal": "Personal Information",
-    "contact": "Contact Details",
-    "address": "Address Information",
-    "business": "Business Information",
-    "financial": "Financial Information",
-    "documents": "Document Upload",
+    "personal": "ਨਿੱਜੀ ਜਾਣਕਾਰੀ",
+    "contact": "ਸੰਪਰਕ ਵੇਰਵੇ",
+    "address": "ਪਤਾ Information",
+    "business": "ਕਾਰੋਬਾਰੀ ਜਾਣਕਾਰੀ",
+    "financial": "ਵਿੱਤੀ ਜਾਣਕਾਰੀ",
+    "documents": "ਦਸਤਾਵੇਜ਼ ਅੱਪਲੋਡ",
     "verification": "Verification",
     "terms": "Terms & Conditions"
   },
   "form": {
     "mandatoryFields": "All fields marked with * are mandatory",
-    "accurateInfo": "Please provide accurate information",
-    "successMessage": "Application submitted successfully!",
-    "errorMessage": "Error submitting application. Please try again.",
-    "reviewInfo": "Please review your information before submitting"
+    "accurateInfo": "ਕਿਰਪਾ ਕਰਕੇ provide accurate information",
+    "successMessage": "Application ਜਮ੍ਹਾਂ ਕਰੋted successfully!",
+    "errorMessage": "Error ਜਮ੍ਹਾਂ ਕਰੋting application. Please try again.",
+    "reviewInfo": "Please review your information before ਜਮ੍ਹਾਂ ਕਰੋting"
+  },
+  "forms": {
+    "gender": {
+      "label": "ਚੁਣੋ Your Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "dateOfBirth": {
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "months": {
+      "may": "May"
+    },
+    "whatsapp": {
+      "placeholder": "WhatsApp active number"
+    },
+    "pan": {
+      "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "ਰਾਜ",
+      "placeholder": "Choose your ਰਾਜ"
+    },
+    "error": {
+      "fileUpload": "Unable to upload files. ਕਿਰਪਾ ਕਰਕੇ try again.",
+      "network": "Network error. ਕਿਰਪਾ ਕਰਕੇ check your connection.",
+      "tryAgainOrContact": "Please try again or ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ directly."
+    },
+    "validation": {
+      "email": "Please enter a valid ਈਮੇਲ ਪਤਾ",
+      "phone": "Please enter a valid ਫੋਨ ਨੰਬਰ",
+      "pan": "ਕਿਰਪਾ ਕਰਕੇ enter a valid PAN number",
+      "aadhaar": "ਕਿਰਪਾ ਕਰਕੇ enter a valid Aadhaar number",
+      "correctFields": "ਕਿਰਪਾ ਕਰਕੇ correct the following fields"
+    }
   }
 }

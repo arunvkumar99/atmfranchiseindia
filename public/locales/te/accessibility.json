@@ -1,26 +1,60 @@
 {
-  "title": "యాక్సెసిబిలిటీ స్టేట్‌మెంట్",
+  "hero": {
+    "backToHome": "Back to Home",
+    "badge": "Accessibility Commitment",
+    "title": "Accessibility Statement",
+    "subtitle": "Making ATM Franchise opportunities accessible to everyone"
+  },
+  "content": {
+    "intro": "ATM Franchise India is committed to ensuring digital accessibility for people with disabilities. We are continuously improving the user experience for everyone and applying the relevant accessibility standards.",
+    "web_accessibility": "Web Accessibility",
+    "visual_accessibility": "Visual Accessibility",
+    "motor_and_cognitive_accessibil": "Motor and Cognitive Accessibility",
+    "hearing_accessibility": "Hearing Accessibility",
+    "feedback_and_support": "Feedback and Support",
+    "email": "Email:",
+    "phone": "Phone:"
+  },
+  "sections": {
+    "web": {
+      "content": "Our website is designed to be compatible with assistive technologies and follows Web Content Accessibility Guidelines (WCAG) 2.1 standards.",
+      "items": [
+        "Keyboard navigation support for all interactive elements",
+        "Screen reader compatibility with proper heading structure",
+        "High contrast color schemes for better visibility",
+        "Alternative text for all images and graphics"
+      ]
+    },
+    "visual": {
+      "content": "We understand that visual impairments can affect how people interact with our platform:",
+      "items": [
+        "Large, readable fonts throughout the website",
+        "Sufficient color contrast ratios meeting WCAG standards"
+      ]
+    }
+  },
+  "title": "Accessibility Statement",
   "commitment": {
-    "title": "మా నిబద్ధత",
-    "description": "అందరు వినియోగదారులకు డిజిటల్ యాక్సెసిబిలిటీని నిర్ధారించడానికి మేము కట్టుబడి ఉన్నాము."
+    "title": "Our Commitment",
+    "description": "We are committed to ensuring digital accessibility for all users"
   },
   "standards": {
-    "title": "యాక్సెసిబిలిటీ ప్రమాణాలు",
-    "wcag": "WCAG 2.1 స్థాయి AA వర్తింపు",
-    "testing": "రెగ్యులర్ యాక్సెసిబిలిటీ టెస్టింగ్",
-    "feedback": "వినియోగదారు అభిప్రాయ ఇంటిగ్రేషన్"
+    "title": "Accessibility Standards",
+    "wcag": "WCAG 2.1 Level AA Compliance",
+    "testing": "Regular Accessibility Testing",
+    "feedback": "User Feedback Integration"
   },
   "features": {
-    "title": "యాక్సెసిబిలిటీ ఫీచర్లు",
-    "keyboard": "కీబోర్డ్ నావిగేషన్",
-    "screenReader": "స్క్రీన్ రీడర్ మద్దతు",
-    "contrast": "అధిక కాంట్రాస్ట్ ఎంపికలు",
-    "textSize": "సర్దుబాటు చేయగల వచన పరిమాణం"
+    "title": "Accessibility Features",
+    "keyboard": "Keyboard Navigation",
+    "screenReader": "Screen Reader Support",
+    "contrast": "High Contrast Options",
+    "textSize": "Adjustable Text Size"
   },
   "contact": {
-    "title": "యాక్సెసిబిలిటీ అభిప్రాయం",
-    "description": "యాక్సెసిబిలిటీపై మీ అభిప్రాయాన్ని మేము స్వాగతిస్తున్నాము.",
-    "email": "మాకు ఇమెయిల్ చేయండి",
-    "phone": "మాకు కాల్ చేయండి"
+    "title": "Accessibility Feedback",
+    "description": "We welcome your feedback on accessibility",
+    "email": "Email Us",
+    "phone": "Call Us"
   }
 }

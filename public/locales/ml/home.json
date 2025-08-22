@@ -17,7 +17,7 @@
     }
   },
   "features": {
-    "title": "എന്തുകൊണ്ടാണ് പിക്സൽപേ എടിഎം ഫ്രാഞ്ചൈസി തിരഞ്ഞെടുക്കുന്നത്?",
+    "title": "എന്തുകൊണ്ടാണ് PixellPay എടിഎം ഫ്രാഞ്ചൈസി തിരഞ്ഞെടുക്കുന്നത്?",
     "subtitle": "നിങ്ങളുടെ ബിസിനസ് വിജയത്തിന് സമഗ്രമായ പിന്തുണ",
     "items": {
       "lowInvestment": {
@@ -46,24 +46,24 @@
       }
     },
     "roi": {
-      "title": "upto 50%",
-      "subtitle": "Return On Investment",
-      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      "title": "50% വരെ",
+      "subtitle": "നിക്ഷേപത്തിൽ നിന്നുള്ള വരുമാനം",
+      "description": "RBI ലൈസൻസുള്ള WLA ATM പങ്കാളികൾക്ക് ലഭിക്കുന്ന എല്ലാ പേഔട്ടും"
     },
     "penetration": {
-      "title": "15 Per Lac",
-      "subtitle": "Only 15 ATMs per 1 Lac People",
-      "description": "ATM Penetration in India is very Low"
+      "title": "ലക്ഷത്തിന് 15",
+      "subtitle": "ഒരു ലക്ഷം ആളുകൾക്ക് 15 എടിഎമ്മുകൾ മാത്രം",
+      "description": "ഇന്ത്യയിൽ എടിഎം വ്യാപനം വളരെ കുറവാണ്"
     },
     "cash": {
-      "title": "75% Cash",
-      "subtitle": "Cash Circulation",
-      "description": "Indian Economy is still Largely Cash based"
+      "title": "75% പണം",
+      "subtitle": "പണ വിതരണം",
+      "description": "ഇന്ത്യൻ സമ്പദ്‌വ്യവസ്ഥ ഇപ്പോഴും പ്രധാനമായും പണാധിഷ്ഠിതമാണ്"
     },
     "potential": {
-      "title": "90% Potential",
-      "subtitle": "90% of Banks Offsite ATMs are closing down",
-      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
+      "title": "90% സാധ്യത",
+      "subtitle": "ബാങ്കുകളുടെ 90% ഓഫ്‌സൈറ്റ് എടിഎമ്മുകൾ അടച്ചുപൂട്ടുന്നു",
+      "description": "ബാങ്കുകളുടെ ഓഫ്‌സൈറ്റ് എടിഎം അടച്ചുപൂട്ടൽ എടിഎമ്മുകൾക്ക് വലിയ വിപണി സൃഷ്ടിക്കുന്നു"
     }
   },
   "process": {
@@ -128,8 +128,8 @@
     },
     "monthsLabel": "in {{months}} months",
     "performance": {
-      "title": "പങ്കാളിയുടെ ശരാശരി പ്രകടനം",
-      "income": "ശരാശരി പ്രതിമാസ വരുമാനം",
+      "title": "ശരാശരി പങ്കാളി പ്രകടനം",
+      "income": "ശരാശരി മാസിക വരുമാനം",
       "roi": "ROI-യിലേക്കുള്ള മാസങ്ങൾ",
       "success": "വിജയ നിരക്ക്"
     }
@@ -143,7 +143,7 @@
   "cta": {
     "title": "നിങ്ങളുടെ എടിഎം ഫ്രാഞ്ചൈസി ആരംഭിക്കാൻ തയ്യാറാണോ?",
     "subtitle": "ഇന്ത്യയിലെ ഏറ്റവും വേഗത്തിൽ വളരുന്ന എടിഎം ശൃംഖലയിൽ ചേരൂ",
-    "button": "ഇപ്പോൾ പ്രയോഗിക്കുക",
+    "button": "ഇപ്പോൾ അപേക്ഷിക്കുക",
     "contact": "അല്ലെങ്കിൽ ഞങ്ങളെ വിളിക്കൂ"
   },
   "benefits": {
@@ -163,12 +163,12 @@
     "monthlyTransactions": "പ്രതിമാസ ഇടപാടുകൾ",
     "citiesCovered": "ഉൾപ്പെടുത്തിയ നഗരങ്ങൾ",
     "yearsExperience": "വർഷങ്ങളുടെ പരിചയം",
-    "atmsAcrossIndia": "ATMs across India",
-    "andCounting": "and counting..."
+    "atmsAcrossIndia": "ഇന്ത്യയിലുടനീളമുള്ള ATM-കൾ",
+    "andCounting": "എണ്ണം വർദ്ധിച്ചുകൊണ്ടിരിക്കുന്നു..."
   },
   "whyAtm": {
     "title": "എന്തുകൊണ്ട് എടിഎം ബിസിനസ്സ്",
-    "subtitle": "ആർബിഐ ലൈസൻസുള്ള കമ്പനികളിൽ നിന്ന് പൂജ്യം നഷ്ടവും പൂർണ്ണ സുതാര്യവുമായ ബിസിനസ് അവസരം",
+    "subtitle": "RBI ലൈസൻസുള്ള കമ്പനികളിൽ നിന്ന് പൂജ്യം നഷ്ടവും പൂർണ്ണ സുതാര്യവുമായ ബിസിനസ് അവസരം",
     "stats": {
       "roi": {
         "prefix": "വരെ",
@@ -198,7 +198,7 @@
         "government": "സാമ്പത്തിക ഉൾപ്പെടുത്തലിനായി സർക്കാർ സമ്മർദ്ദം",
         "branches": "ബാങ്ക് ശാഖകൾ അടച്ചുപൂട്ടൽ"
       },
-      "investment": "നിക്ഷേപ പരിധി: ₹2-5 ലക്ഷം"
+      "investment": "നിക്ഷേപ പരിധി: ₹2-5 Lakhs"
     },
     "heading": "എന്തുകൊണ്ട് എടിഎം ബിസിനസ്?",
     "roi": {
@@ -207,7 +207,7 @@
     },
     "penetration": {
       "title": "എടിഎം വ്യാപനം",
-      "description": "1 ലക്ഷം ആളുകൾക്ക് 15 എടിഎമുകൾ മാത്രം - ഇന്ത്യയിൽ എടിഎം വ്യാപനം വളരെ കുറവാണ്"
+      "description": "1 Lakhs ആളുകൾക്ക് 15 എടിഎമുകൾ മാത്രം - ഇന്ത്യയിൽ എടിഎം വ്യാപനം വളരെ കുറവാണ്"
     },
     "cash": {
       "title": "പണം വിതരണം",
@@ -225,7 +225,7 @@
     "items": {
       "investment": {
         "question": "ഒരു ATM ഫ്രാഞ്ചൈസിക്ക് ആവശ്യമായ ഏറ്റവും കുറഞ്ഞ നിക്ഷേപം എത്രയാണ്?",
-        "answer": "WLA പങ്കാളിയെയും സ്ഥലത്തെയും ആശ്രയിച്ച് സാധാരണയായി നിക്ഷേപം ₹3 മുതൽ 8 ലക്ഷം വരെയാണ്. ഇതിൽ മെഷീൻ ചെലവ്, ഇൻസ്റ്റാളേഷൻ, പ്രാരംഭ പ്രവർത്തന മൂലധനം എന്നിവ ഉൾപ്പെടുന്നു. ഓരോ പങ്കാളിക്കും ഞങ്ങൾ വിശദമായ ചെലവ് വിഭജനം നൽകുന്നു."
+        "answer": "WLA പങ്കാളിയെയും സ്ഥലത്തെയും ആശ്രയിച്ച് സാധാരണയായി നിക്ഷേപം ₹3 മുതൽ 8 Lakhs വരെയാണ്. ഇതിൽ മെഷീൻ ചെലവ്, ഇൻസ്റ്റാളേഷൻ, പ്രാരംഭ പ്രവർത്തന മൂലധനം എന്നിവ ഉൾപ്പെടുന്നു. ഓരോ പങ്കാളിക്കും ഞങ്ങൾ വിശദമായ ചെലവ് വിഭജനം നൽകുന്നു."
       },
       "income": {
         "question": "എനിക്ക് എത്ര പ്രതിമാസ വരുമാനം പ്രതീക്ഷിക്കാം?",
@@ -332,9 +332,9 @@
     },
     "cta": {
       "title": "ആരംഭിക്കാൻ തയ്യാറാണോ?",
-      "description": "ഗ്രാമീണ ഇന്ത്യയിലുടനീളമുള്ള വിജയകരമായ എടിഎം ഫ്രാഞ്ചൈസി ഉടമകളുടെ ഞങ്ങളുടെ ശൃംഖലയിൽ ചേരൂ",
-      "franchisees": "ഹാപ്പി ഫ്രാഞ്ചൈസീസ്",
-      "button": "നിങ്ങളുടെ യാത്ര ആരംഭിക്കൂ"
+      "description": "ഗ്രാമീണ ഇന്ത്യയിലുടനീളമുള്ള വിജയകരമായ എടിഎം ഫ്രാഞ്ചൈസി ഉടമകളുടെ ഞങ്ങളുടെ ശൃംഖലയിൽ ചേരുക",
+      "franchisees": "സംതുഷ്ട ഫ്രാഞ്ചൈസികൾ",
+      "button": "നിങ്ങളുടെ യാത്ര ആരംഭിക്കുക"
     }
   },
   "trustSignals": {
@@ -344,71 +344,75 @@
       "partners": "സജീവ പങ്കാളികൾ",
       "uptime": "അപ്‌ടൈം ഗ്യാരണ്ടി",
       "experience": "വ്യവസായ പരിചയം",
-      "support": "ഉപഭോക്തൃ പിന്തുണ"
+      "support": "ഉപഭോക്തൃ പിന്തുണ",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ വർഷം",
+      "supportValue": "24/7"
     }
   },
   "valueProps": {
-    "title": "Why ATM Business?",
-    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
-    "perfectTime": "Perfect Time for ATM Business in Rural India",
-    "investmentRange": "Investment Range: ₹2-5 Lakhs",
+    "title": "എന്തുകൊണ്ട് എടിഎം ബിസിനസ്?",
+    "subtitle": "RBI ലൈസൻസുള്ള കമ്പനികളിൽ നിന്ന് പൂജ്യം നഷ്ടവും പൂർണ്ണ സുതാര്യതയുമുള്ള ബിസിനസ് അവസരം",
+    "perfectTime": "ഗ്രാമീണ ഇന്ത്യയിൽ എടിഎം ബിസിനസിന് അനുയോജ്യമായ സമയം",
+    "investmentRange": "നിക്ഷേപ പരിധി: ₹2-5 Lakhs",
     "bullets": {
-      "digitalAdoption": "Digital Adoption Growing",
-      "governmentPush": "Government Push for Financial Inclusion",
-      "bankClosures": "Bank Branch Closures"
+      "digitalAdoption": "ഡിജിറ്റൽ സ്വീകാര്യത വർദ്ധിക്കുന്നു",
+      "governmentPush": "സാമ്പത്തിക ഉൾപ്പെടുത്തലിനായി സർക്കാർ സമ്മർദ്ദം",
+      "bankClosures": "ബാങ്ക് ശാഖ അടച്ചുപൂട്ടലുകൾ"
     },
     "stats": {
       "roi": {
-        "prefix": "upto ",
+        "prefix": "വരെ",
         "value": "50",
         "suffix": "%",
-        "label": "Return On Investment",
-        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+        "label": "നിക്ഷേപത്തിൽ നിന്നുള്ള വരുമാനം",
+        "description": "RBI ലൈസൻസുള്ള WLA ATM പങ്കാളികൾക്ക് ലഭിക്കുന്ന എല്ലാ പേഔട്ടും"
       },
       "penetration": {
         "value": "15",
-        "suffix": " Per Lac",
-        "label": "ATM Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+        "suffix": "ലക്ഷത്തിന്",
+        "label": "എടിഎം വ്യാപനം",
+        "description": "ഒരു ലക്ഷം ആളുകൾക്ക് 15 എടിഎമ്മുകൾ മാത്രം - ഇന്ത്യയിൽ എടിഎം വ്യാപനം വളരെ കുറവാണ്"
       },
       "cash": {
         "value": "75",
-        "suffix": "% Cash",
-        "label": "Cash Circulation",
-        "description": "Indian Economy is still Largely Cash based"
+        "suffix": "% പണം",
+        "label": "പണ വിതരണം",
+        "description": "ഇന്ത്യൻ സമ്പദ്‌വ്യവസ്ഥ ഇപ്പോഴും പ്രധാനമായും പണാധിഷ്ഠിതമാണ്"
       },
       "potential": {
         "value": "90",
-        "suffix": "% Potential",
-        "label": "Market Opportunity",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+        "suffix": "% സാധ്യത",
+        "label": "വിപണി അവസരം",
+        "description": "90% ബാങ്കുകളുടെ ഓഫ്‌സൈറ്റ് എടിഎമ്മുകൾ അടച്ചുപൂട്ടുന്നു - ബാങ്കുകളുടെ ഓഫ്‌സൈറ്റ് എടിഎം അടച്ചുപൂട്ടൽ എടിഎമ്മുകൾക്ക് വലിയ വിപണി സൃഷ്ടിക്കുന്നു"
       }
     }
   },
   "whyChoose": {
-    "badge": "Our Advantage",
-    "title": "Why Choose",
-    "titleHighlight": "ATM Franchise India?",
-    "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
+    "badge": "ഞങ്ങളുടെ നേട്ടം",
+    "title": "എന്തുകൊണ്ട് തിരഞ്ഞെടുക്കണം",
+    "titleHighlight": "എടിഎം ഫ്രാഞ്ചൈസി ഇന്ത്യയെ?",
+    "subtitle": "ഞങ്ങളുടെ സമഗ്ര പിന്തുണാ സംവിധാനവും വ്യവസായ വൈദഗ്ധ്യവും ഉപയോഗിച്ച് വ്യത്യാസം അനുഭവിക്കുക",
     "cta": {
-      "partners": "Join 500+ successful franchise partners"
+      "partners": "500+ വിജയകരമായ ഫ്രാഞ്ചൈസി പങ്കാളികളിൽ ചേരുക"
     },
     "features": {
       "trusted": {
-        "title": "Trusted ATM Franchise Information",
-        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+        "title": "വിശ്വസ്ത എടിഎം ഫ്രാഞ്ചൈസി വിവരങ്ങൾ",
+        "description": "എടിഎം വ്യവസായത്തെക്കുറിച്ച് കൃത്യവും പരിശോധിച്ചുറപ്പിച്ചതുമായ ഉൾക്കാഴ്ചകൾ നേടുക. നിയന്ത്രിത മേഖല എന്ന നിലയിൽ, എടിഎം ബിസിനസിൽ പലപ്പോഴും വ്യാപകമായ തെറ്റായ വിവരങ്ങൾ കാണപ്പെടുന്നു. അറിവുള്ള ഫ്രാഞ്ചൈസി തീരുമാനങ്ങൾ എടുക്കാൻ നിങ്ങൾക്ക് വിശ്വസനീയവും വസ്തുതാധിഷ്ഠിതവുമായ മാർഗ്ഗനിർദ്ദേശം ലഭിക്കുന്നുവെന്ന് ഞങ്ങളുടെ പ്രതിനിധികൾ ഉറപ്പാക്കുന്നു."
       },
       "guidance": {
-        "title": "Expert Guidance on WLA Operators",
-        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
+        "title": "WLA ഓപ്പറേറ്റർമാരെക്കുറിച്ചുള്ള വിദഗ്ധ മാർഗ്ഗനിർദ്ദേശം",
+        "description": "ശരിയായ വൈറ്റ് ലേബൽ എടിഎം പങ്കാളിയെ തിരഞ്ഞെടുക്കാൻ ഞങ്ങൾ നിങ്ങളെ സഹായിക്കട്ടെ. നിരവധി ഓപ്പറേറ്റർമാർ അവരുടെ ഓഫറുകൾ അതിശയോക്തിപരമാക്കുകയും നിക്ഷേപകരെ തെറ്റിദ്ധരിപ്പിക്കുകയും ചെയ്യുന്നു. നിങ്ങളുടെ ബിസിനസിന് അനുയോജ്യമായ പങ്കാളിയെ കണ്ടെത്തുന്നതിന് ഞങ്ങൾ എല്ലാ പ്രധാന WLA ഓപ്പറേറ്റർമാരുടെയും പക്ഷപാതമില്ലാത്ത താരതമ്യം നൽകുന്നു - അവരുടെ ശക്തികളും ബലഹീനതകളും എടുത്തുകാണിക്കുന്നു."
       },
       "digital": {
-        "title": "Boost Your Digital Presence",
-        "description": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+        "title": "നിങ്ങളുടെ ഡിജിറ്റൽ സാന്നിധ്യം വർദ്ധിപ്പിക്കുക",
+        "description": "ഇതിനകം ഒരു എടിഎം ഫ്രാഞ്ചൈസി നടത്തുന്നുണ്ടോ? നിങ്ങളുടെ ഡിജിറ്റൽ എത്തിച്ചേരൽ വർദ്ധിപ്പിക്കാനും നിങ്ങളുടെ ഓൺലൈൻ ബ്രാൻഡിംഗ് മെച്ചപ്പെടുത്താനും ഞങ്ങളുടെ പക്കൽ രജിസ്റ്റർ ചെയ്യുക. കൂടുതൽ ഉപഭോക്താക്കളുമായി ബന്ധപ്പെടുകയും വിപണിയിൽ നിങ്ങളുടെ ദൃശ്യപരത വർദ്ധിപ്പിക്കുകയും ചെയ്യുക."
       },
       "support": {
-        "title": "End-to-End Franchise Support",
-        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
+        "title": "എൻഡ്-ടു-എൻഡ് ഫ്രാഞ്ചൈസി പിന്തുണ",
+        "description": "എല്ലാ WLA ബ്രാൻഡുകളിലുമായി 4+ വർഷത്തെ അനുഭവസമ്പത്തോടെ, ഞങ്ങൾ എല്ലാം കൈകാര്യം ചെയ്യുന്നു: ഫ്രാഞ്ചൈസി ഓൺബോർഡിംഗ്, പരിശീലനവും പ്രവർത്തന സജ്ജീകരണവും, പ്രാദേശിക പ്രമോഷനുകളും ബ്രാൻഡ് ദൃശ്യപരതയും, സാങ്കേതിക പിന്തുണയും ട്രബിൾഷൂട്ടിംഗും, ബാങ്ക് അക്കൗണ്ട് സെറ്റിൽമെന്റുകൾ, WLA ഓപ്പറേറ്റർമാരുമായുള്ള തർക്ക പരിഹാരം. എടിഎം ബിസിനസ് വിജയത്തിനുള്ള നിങ്ങളുടെ ഒറ്റസ്റ്റോപ്പ് പരിഹാരമാണ് ഞങ്ങൾ."
       }
     }
   },

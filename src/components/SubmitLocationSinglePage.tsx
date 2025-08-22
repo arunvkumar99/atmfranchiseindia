@@ -17,13 +17,14 @@ import { useFormProgress } from "@/hooks/useFormProgress";
 import { useFormValidation, FULL_NAME_VALIDATION, EMAIL_VALIDATION, PHONE_VALIDATION, WHATSAPP_VALIDATION, CITY_VALIDATION, STATE_VALIDATION, PINCODE_VALIDATION } from "@/hooks/useFormValidation";
 import { useRateLimitedSubmission } from "@/hooks/useRateLimitedSubmission";
 import { useFormAnalytics } from "@/hooks/useFormAnalytics";
-// Supabase integration removed - now uses Google Sheets
+// Using Google Sheets integration
+import { googleSheetsService } from '@/lib/googleSheetsService';
 import { uploadFile } from "@/lib/fileUpload";
 import { INDIAN_STATES } from "@/lib/stateOptions";
 import { useTranslation } from 'react-i18next';
 
 const SubmitLocationSinglePage = () => {
-  const { t } = useTranslation('forms');
+  const { t } = useTranslation(['forms', 'components']);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
   const [formData, setFormData] = useState({
@@ -245,20 +246,16 @@ const SubmitLocationSinglePage = () => {
           additional_info: formData.additionalInfo
         };
 
-        const { data, error } = await supabase.functions.invoke('form-submission', {
-          body: {
-            formType: 'location_submissions',
-            data: submissionData,
-            userAgent: navigator.userAgent,
-            ipAddress: undefined
-          }
+        const response = await googleSheetsService.submitForm({
+          formType: 'location_submissions',
+          data: submissionData
         });
 
-        if (error) {
-          // if (import.meta.env.DEV) { console.error('Submission error:', error); }
+        if (!response?.success) {
+          // if (import.meta.env.DEV) { console.error('Submission error:', response); }
           toast({
             title: "Submission Failed",
-            description: `There was an error submitting your application: ${error.message}. Please try again.`,
+            description: `There was an error submitting your application: ${response?.error || response?.message || 'Unknown error'}. Please try again.`,
             variant: "destructive",
           });
           return false;
@@ -399,7 +396,7 @@ const SubmitLocationSinglePage = () => {
               
               {/* Agent Assistance Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text1')}</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components:submitlocationsinglepage.text1')}</h3>
                 <div className="space-y-4">
                   <div className="space-y-3">
                     <Label className="text-sm font-medium text-foreground">
@@ -442,7 +439,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Personal Information Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text2')}</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components:submitlocationsinglepage.text2')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="fullName" className="text-sm font-medium text-foreground">
@@ -519,7 +516,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Location Information Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text3')}</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components:submitlocationsinglepage.text3')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="state" className="text-sm font-medium text-foreground">
@@ -645,7 +642,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Photo Upload Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text4')}</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components:submitlocationsinglepage.text4')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-3">
                     <Label htmlFor="buildingPhoto" className="flex items-center gap-2">
@@ -741,7 +738,7 @@ const SubmitLocationSinglePage = () => {
 
               {/* Additional Information Section */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components.submitlocationsinglepage.text5')}</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">{t('components:submitlocationsinglepage.text5')}</h3>
                 <div className="space-y-2">
                   <Label htmlFor="additionalInfo" className="text-sm font-medium text-foreground">
                     {t('labels.additionalNotes', 'Additional Notes')}
@@ -804,13 +801,13 @@ const SubmitLocationSinglePage = () => {
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
               <Users className="w-6 h-6 text-primary" />
             </div>
-            <p className="text-sm text-muted-foreground">{t('components.submitlocationsinglepage.text6')}</p>
+            <p className="text-sm text-muted-foreground">{t('components:submitlocationsinglepage.text6')}</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
               <CheckCircle className="w-6 h-6 text-primary" />
             </div>
-            <p className="text-sm text-muted-foreground">{t('components.submitlocationsinglepage.text7')}</p>
+            <p className="text-sm text-muted-foreground">{t('components:submitlocationsinglepage.text7')}</p>
           </div>
         </div>
       </div>

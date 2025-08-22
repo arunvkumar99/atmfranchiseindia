@@ -1,15 +1,19 @@
 {
-  "title": "গোপনীয়তা নীতি",
-  "lastUpdated": "শেষ আপডেট করা হয়েছে",
   "sections": {
-    "introduction": "ভূমিকা",
-    "dataCollection": "তথ্য সংগ্রহ",
-    "dataUsage": "আমরা আপনার ডেটা কীভাবে ব্যবহার করি",
-    "dataProtection": "তথ্য সুরক্ষা",
-    "cookies": "কুকিজ নীতি",
-    "thirdParty": "তৃতীয় পক্ষের পরিষেবা",
-    "userRights": "তোমার অধিকার",
-    "contact": "যোগাযোগের তথ্য",
-    "changes": "নীতিতে পরিবর্তন"
-  }
+    "contact": {
+      "title": "[NEEDS TRANSLATION: sections.contact.title]",
+      "content": ", :",
+      "updates": "- \" \""
+    },
+    "introduction": "Introduction",
+    "dataCollection": "Data Collection",
+    "dataUsage": "How We Use Your Data",
+    "dataProtection": "Data Protection",
+    "cookies": "Cookies Policy",
+    "thirdParty": "Third Party Services",
+    "userRights": "Your Rights",
+    "changes": "Changes to Policy"
+  },
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated"
 }

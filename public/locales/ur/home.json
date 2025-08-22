@@ -1,358 +1,430 @@
 {
   "hero": {
-    "title": "آپ کا ATM - آپ کی آمدنی",
-    "subtitle": "کم سے کم سرمایہ کاری اور زیادہ سے زیادہ منافع کے ساتھ اپنا اے ٹی ایم فرنچائز کاروبار شروع کریں۔ ہندوستان بھر میں RBI کے لائسنس یافتہ آپریٹرز کے ساتھ شراکت دار۔",
-    "submitLocation": "اے ٹی ایم لوکیشن جمع کروائیں۔",
-    "becomeFranchise": "فرنچائز بنیں۔",
-    "description": "ہندوستان بھر میں ہزاروں کامیاب فرنچائز پارٹنرز میں شامل ہوں۔ کم سرمایہ کاری، زیادہ منافع، مکمل تعاون۔",
+    "title": "Your اے ٹی ایم – Your Income",
+    "subtitle": "Start your own اے ٹی ایم فرنچائز business with minimal investment and maximum returns. Partner with RBI licensed operators across India.",
+    "submitLocation": "اے ٹی ایم مقام جمع کریں",
+    "becomeFranchise": "فرنچائز بنیں",
+    "description": "Join thousands of successful franchise partners across India. Low سرمایہ کاری, high returns, complete support.",
     "cta": {
-      "primary": "اپنا ATM کاروبار شروع کریں۔",
-      "secondary": "مزید جانیں"
+      "primary": "Start Your ATM کاروبار",
+      "secondary": "Learn More"
     },
     "stats": {
-      "franchises": "5000+ فعال فرنچائزز",
-      "transactions": "10M+ ماہانہ لین دین",
-      "coverage": "پین انڈیا کوریج",
-      "support": "24/7 سپورٹ"
+      "franchises": "5000+ Active فرنچائزs",
+      "transactions": "10M+ Monthly Transactions",
+      "coverage": "Pan India Coverage",
+      "support": "24/7 Support"
     }
   },
   "features": {
-    "title": "PixellPay ATM فرنچائز کیوں منتخب کریں؟",
-    "subtitle": "آپ کی کاروباری کامیابی کے لیے جامع تعاون",
+    "title": "Why Choose PixellPay اے ٹی ایم فرنچائز?",
+    "subtitle": "Comprehensive support for your کاروبار success",
     "items": {
       "lowInvestment": {
-        "title": "کم سرمایہ کاری",
-        "description": "کم سے کم سرمایہ کاری کے ساتھ اپنا ATM کاروبار شروع کریں۔"
+        "title": "Low سرمایہ کاری",
+        "description": "Start your ATM کاروبار with minimal capital investment"
       },
       "highReturns": {
-        "title": "ہائی ریٹرن",
-        "description": "ہر لین دین پر پرکشش کمیشن حاصل کریں۔"
+        "title": "High Returns",
+        "description": "Earn attractive commissions on every transaction"
       },
       "training": {
-        "title": "مکمل تربیت",
-        "description": "جامع تربیت اور جاری تعاون"
+        "title": "Complete Training",
+        "description": "Comprehensive training and ongoing support"
       },
       "technology": {
-        "title": "اعلی درجے کی ٹیکنالوجی",
-        "description": "جدید ترین خصوصیات کے ساتھ جدید ترین اے ٹی ایم مشینیں۔"
+        "title": "Advanced Techنہیںlogy",
+        "description": "ریاست-of-the-art ATM machines with latest features"
       },
       "security": {
-        "title": "100% محفوظ",
-        "description": "تمام لین دین کے لیے بینک گریڈ سیکیورٹی"
+        "title": "100% Secure",
+        "description": "بینک-grade security for all transactions"
       },
       "support": {
-        "title": "24/7 سپورٹ",
-        "description": "چوبیس گھنٹے تکنیکی اور کاروباری معاونت"
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical and کاروبار support"
       }
     },
     "roi": {
       "title": "upto 50%",
-      "subtitle": "Return On Investment",
-      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      "subtitle": "Return On سرمایہ کاری",
+      "description": "All Payout Received by RBI Licensed WLA اے ٹی ایم Partners"
     },
     "penetration": {
       "title": "15 Per Lac",
-      "subtitle": "Only 15 ATMs per 1 Lac People",
-      "description": "ATM Penetration in India is very Low"
+      "subtitle": "Only 15 اے ٹی ایمs per 1 Lac People",
+      "description": "اے ٹی ایم Penetration in India is very Low"
     },
     "cash": {
       "title": "75% Cash",
       "subtitle": "Cash Circulation",
-      "description": "Indian Economy is still Largely Cash based"
+      "description": "Indian Ecoنہیںmy is still Largely Cash based"
     },
     "potential": {
       "title": "90% Potential",
-      "subtitle": "90% of Banks Offsite ATMs are closing down",
-      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
+      "subtitle": "90% of Banks Offsite اے ٹی ایمs are closing down",
+      "description": "Banks Offsite اے ٹی ایم Closure creates a Large market for اے ٹی ایمs"
     }
   },
   "process": {
-    "title": "اپنا ATM کاروبار 5 آسان مراحل میں شروع کریں۔",
-    "subtitle": "فوری اور پریشانی سے پاک آن بورڈنگ کا عمل",
+    "title": "Start Your ATM کاروبار in 5 Simple Steps",
+    "subtitle": "Quick and hassle-free onboarding process",
     "steps": {
       "apply": {
-        "title": "آن لائن اپلائی کریں۔",
-        "description": "سادہ آن لائن درخواست فارم پُر کریں۔"
+        "title": "درخواست کریں Online",
+        "description": "Fill out the simple online application form"
       },
       "verification": {
-        "title": "دستاویز کی تصدیق",
-        "description": "تصدیق کے لیے مطلوبہ دستاویزات جمع کروائیں۔"
+        "title": "Document Verification",
+        "description": "جمع کریں required documents for verification"
       },
       "agreement": {
-        "title": "معاہدے پر دستخط کریں۔",
-        "description": "فرنچائز معاہدے کا جائزہ لیں اور اس پر دستخط کریں۔"
+        "title": "Sign Agreement",
+        "description": "Review and sign the فرنچائز agreement"
       },
       "setup": {
-        "title": "اے ٹی ایم سیٹ اپ",
-        "description": "ہم ATM کی مکمل تنصیب اور سیٹ اپ کو سنبھالتے ہیں۔"
+        "title": "اے ٹی ایم Setup",
+        "description": "We handle complete اے ٹی ایم installation and setup"
       },
       "earn": {
-        "title": "کمانا شروع کریں۔",
-        "description": "آپریشن کے پہلے دن سے کمانا شروع کریں۔"
+        "title": "Start Earning",
+        "description": "Begin earning from day one of operations"
       }
     }
   },
   "testimonials": {
-    "badge": "کامیابی کی کہانیاں",
-    "title": "ہمارے شراکت داروں کے حقیقی نتائج",
-    "subtitle": "اس کے لیے صرف ہماری بات نہ لیں۔ یہاں پورے ہندوستان میں ہمارے فرنچائز پارٹنرز کی کامیابی کی حقیقی کہانیاں ہیں۔",
+    "badge": "کامیابی Stories",
+    "title": "Real Results from Our Partners",
+    "subtitle": "Don't just take our word for it. Here are genuine success stories from our فرنچائز partners across India.",
     "items": {
       "rajesh": {
-        "name": "راجیش کمار",
-        "location": "ممبئی، مہاراشٹر",
-        "business": "ای پی ایس اے ٹی ایم فرنچائز",
-        "revenue": "₹45,000/ماہ",
-        "testimonial": "اے ٹی ایم فرنچائز انڈیا نے ہر قدم پر میری رہنمائی کی۔ 8 ماہ کے اندر، میں کم سے کم کوشش کے ساتھ ماہانہ ₹45,000 کما رہا ہوں۔ سرمایہ کاری کا اب تک کا بہترین فیصلہ!"
+        "name": "Rajesh Kumar",
+        "location": "Mumbai, Maharashtra",
+        "business": "EPS اے ٹی ایم فرنچائز",
+        "revenue": "₹45,000/month",
+        "testimonial": "اے ٹی ایم فرنچائز India guided me through every step. Within 8 months, I'm earning ₹45,000 monthly with minimal effort. Best investment decision ever!"
       },
       "priya": {
-        "name": "پریا شرما",
-        "location": "بنگلور، کرناٹک",
-        "business": "وکرنگی پارٹنرشپ",
-        "revenue": "₹38,000/ماہ",
-        "testimonial": "ڈبلیو ایل اے کی شراکت میں ٹیم کی مہارت بے مثال ہے۔ میرا ATM صرف 6 مہینوں میں مسلسل ₹38,000 ماہانہ آمدنی پیدا کر رہا ہے۔"
+        "name": "Priya Sharma",
+        "location": "Bangalore, Karnataka",
+        "business": "Vakrangee Partnership",
+        "revenue": "₹38,000/month",
+        "testimonial": "The team's expertise in WLA partnerships is unmatched. My اے ٹی ایم is generating consistent ₹38,000 monthly income in just 6 months."
       },
       "amit": {
-        "name": "امیت پٹیل",
-        "location": "احمد آباد، گجرات",
-        "business": "انڈیکیش فرنچائز",
-        "revenue": "₹52,000/ماہ",
-        "testimonial": "پیشہ ورانہ رہنمائی اور مکمل شفافیت۔ ROI ₹52,000 ماہانہ غیر فعال آمدنی کے ساتھ 14 مہینوں میں حاصل کیا۔ انتہائی سفارش کی جاتی ہے!"
+        "name": "Amit Patel",
+        "location": "Ahmedabad, Gujarat",
+        "business": "Indicash فرنچائز",
+        "revenue": "₹52,000/month",
+        "testimonial": "Professional guidance and complete transparency. ROI achieved in 14 months with ₹52,000 monthly passive income. Highly recommended!"
       },
       "sanjay": {
-        "name": "سنجے ورما",
-        "location": "پونے، مہاراشٹر",
-        "business": "ہٹاچی اے ٹی ایم پارٹنر",
-        "revenue": "₹42,000/ماہ",
-        "testimonial": "شروع سے آخر تک بہترین سپورٹ۔ ٹیم نے بہترین مقام اور WLA پارٹنر کو منتخب کرنے میں میری مدد کی۔ اب کم سے کم روزانہ کی شمولیت کے ساتھ مستحکم غیر فعال آمدنی حاصل کرنا۔"
+        "name": "Sanjay Verma",
+        "location": "Pune, Maharashtra",
+        "business": "Hitachi اے ٹی ایم Partner",
+        "revenue": "₹42,000/month",
+        "testimonial": "Excellent support from start to finish. The team helped me select the perfect location and WLA partner. نہیںw earning steady passive income with minimal daily involvement."
       }
     },
     "monthsLabel": "in {{months}} months",
     "performance": {
-      "title": "پارٹنر کی اوسط کارکردگی",
-      "income": "اوسط ماہانہ آمدنی",
-      "roi": "ROI کے لیے مہینے",
-      "success": "کامیابی کی شرح"
+      "title": "Average Partner Performance",
+      "income": "Avg Monthly Income",
+      "roi": "Months to ROI",
+      "success": "کامیابی Rate"
     }
   },
   "locations": {
-    "title": "ہندوستان بھر میں ہماری موجودگی",
-    "subtitle": "اپنے شہر میں اے ٹی ایم فرنچائز کے مواقع تلاش کریں۔",
-    "searchPlaceholder": "اپنا شہر تلاش کریں...",
-    "viewAll": "تمام مقامات دیکھیں"
+    "title": "Our Presence Across India",
+    "subtitle": "Find ATM franchise opportunities in your شہر",
+    "searchPlaceholder": "Search your شہر...",
+    "viewAll": "View All Locations"
   },
   "cta": {
-    "title": "اپنی ATM فرنچائز شروع کرنے کے لیے تیار ہیں؟",
-    "subtitle": "ہندوستان کے سب سے تیزی سے بڑھتے ہوئے ATM نیٹ ورک میں شامل ہوں۔",
-    "button": "ابھی اپلائی کریں۔",
-    "contact": "یا ہمیں کال کریں۔"
+    "title": "Ready to Start Your اے ٹی ایم فرنچائز?",
+    "subtitle": "Join India's fastest growing اے ٹی ایم network",
+    "button": "درخواست کریں Now",
+    "contact": "Or call us at"
   },
   "benefits": {
-    "title": "اے ٹی ایم فرنچائز کے فوائد",
+    "title": "Benefits of اے ٹی ایم فرنچائز",
     "items": {
-      "passive": "غیر فعال آمدنی کا سلسلہ",
-      "scalable": "توسیع پذیر کاروباری ماڈل",
-      "proven": "ثابت شدہ بزنس ماڈل",
-      "flexible": "لچکدار کام کے اوقات",
-      "noInventory": "کوئی انوینٹری مینجمنٹ نہیں۔",
-      "digitalIndia": "ڈیجیٹل انڈیا مشن کا حصہ"
+      "passive": "Passive Income Stream",
+      "scalable": "Scalable کاروبار Model",
+      "proven": "Proven کاروبار Model",
+      "flexible": "Flexible Working Hours",
+      "noInventory": "نہیں Inventory Management",
+      "digitalIndia": "Part of Digital India Mission"
     }
   },
   "stats": {
-    "title": "نمبرز کے لحاظ سے PixellPay",
-    "activeFranchises": "فعال فرنچائزز",
-    "monthlyTransactions": "ماہانہ لین دین",
-    "citiesCovered": "ڈھکے ہوئے شہر",
-    "yearsExperience": "برسوں کا تجربہ",
-    "atmsAcrossIndia": "ATMs across India",
+    "title": "PixellPay by Numbers",
+    "activeFranchises": "Active فرنچائزs",
+    "monthlyTransactions": "Monthly Transactions",
+    "citiesCovered": "Cities Covered",
+    "yearsExperience": "Years of Experience",
+    "atmsAcrossIndia": "اے ٹی ایمs across India",
     "andCounting": "and counting..."
   },
   "whyAtm": {
-    "title": "اے ٹی ایم کاروبار کیوں؟",
-    "subtitle": "آر بی آئی لائسنس یافتہ کمپنیوں سے صفر نقصان اور مکمل شفاف کاروباری موقع",
+    "title": "Why ATM کاروبار",
+    "subtitle": "Zero Loss and Fully Transparent کاروبار Opportunity from RBI Licensed Companies",
     "stats": {
       "roi": {
-        "prefix": "تک",
-        "label": "سرمایہ کاری پر واپسی",
-        "description": "RBI کے لائسنس یافتہ WLA ATM پارٹنرز کے ذریعے موصول ہونے والی تمام ادائیگی"
+        "prefix": "upto",
+        "label": "Return On سرمایہ کاری",
+        "description": "All Payout Received by RBI Licensed WLA اے ٹی ایم Partners"
       },
       "penetration": {
-        "suffix": "فی لاکھ",
-        "label": "صرف 15 اے ٹی ایم فی 1 لاکھ افراد",
-        "description": "ہندوستان میں اے ٹی ایم کی رسائی بہت کم ہے۔"
+        "suffix": "Per Lac",
+        "label": "Only 15 اے ٹی ایمs per 1Lac People",
+        "description": "اے ٹی ایم Penetration in India is very Low"
       },
       "cash": {
-        "suffix": "کیش",
-        "label": "کیش سرکولیشن",
-        "description": "ہندوستانی معیشت اب بھی بڑی حد تک نقد پر مبنی ہے۔"
+        "suffix": "Cash",
+        "label": "Cash Circulation",
+        "description": "Indian Ecoنہیںmy is still Largely Cash based"
       },
       "potential": {
-        "suffix": "ممکنہ",
-        "label": "90% بینک آف سائٹ اے ٹی ایم بند ہو رہے ہیں۔",
-        "description": "بینکوں کی آف سائٹ اے ٹی ایم کی بندش سے اے ٹی ایم کے لیے ایک بڑی مارکیٹ بنتی ہے۔"
+        "suffix": "Potential",
+        "label": "90% of Banks Offsite اے ٹی ایمs are closing down",
+        "description": "Banks Offsite اے ٹی ایم Closure creates a Large market for اے ٹی ایمs"
       }
     },
     "cta": {
-      "title": "دیہی ہندوستان میں اے ٹی ایم کاروبار کے لیے بہترین وقت",
+      "title": "Perfect Time for ATM کاروبار in Rural India",
       "points": {
-        "digital": "ڈیجیٹل اپنانے میں اضافہ",
-        "government": "مالی شمولیت کے لیے حکومت کا دباؤ",
-        "branches": "بینک برانچ کی بندش"
+        "digital": "Digital Adoption Growing",
+        "government": "Government Push for Financial Inclusion",
+        "branches": "بینک Branch Closures"
       },
-      "investment": "سرمایہ کاری کی حد: ₹2-5 لاکھ"
+      "investment": "سرمایہ کاری Range: ₹2-5 Lakhs"
     },
-    "heading": "کیوں اے ٹی ایم کاروبار؟",
+    "heading": "Why ATM کاروبار?",
     "roi": {
-      "title": "سرمایہ کاری پر واپسی",
-      "description": "RBI لائسنس یافتہ WLA ATM پارٹنرز کی طرف سے موصول تمام ادائیگیاں"
+      "title": "Return On سرمایہ کاری",
+      "description": "All Payout Received by RBI Licensed WLA اے ٹی ایم Partners"
     },
     "penetration": {
-      "title": "اے ٹی ایم رسائی",
-      "description": "فی 1 لاکھ افراد صرف 15 اے ٹی ایم - ہندوستان میں اے ٹی ایم کی رسائی بہت کم ہے"
+      "title": "اے ٹی ایم Penetration",
+      "description": "Only 15 اے ٹی ایمs per 1 Lac People - اے ٹی ایم Penetration in India is very Low"
     },
     "cash": {
-      "title": "نقد گردش",
-      "description": "ہندوستانی معیشت اب بھی بڑی حد تک نقد پر مبنی ہے"
+      "title": "Cash Circulation",
+      "description": "Indian Ecoنہیںmy is still Largely Cash based"
     },
     "market": {
-      "title": "مارکیٹ موقع",
-      "description": "90٪ بینکوں کے آف سائٹ اے ٹی ایم بند ہو رہے ہیں - بینکوں کے آف سائٹ اے ٹی ایم بند ہونے سے اے ٹی ایم کے لیے بڑی مارکیٹ بنتی ہے"
+      "title": "Market Opportunity",
+      "description": "90% of Banks Offsite اے ٹی ایمs are closing down - Banks Offsite اے ٹی ایم Closure creates a Large market for اے ٹی ایمs"
     }
   },
   "faq": {
-    "badge": "اکثر پوچھے گئے سوالات",
-    "title": "ہر چیز جو آپ کو جاننے کی ضرورت ہے۔",
-    "subtitle": "اپنا ATM فرنچائز کاروبار شروع کرنے کے بارے میں سب سے عام سوالات کے جوابات حاصل کریں۔",
+    "badge": "Frequently Asked Questions",
+    "title": "Everything You Need to Kنہیںw",
+    "subtitle": "Get answers to the most common questions about starting your اے ٹی ایم فرنچائز business.",
     "items": {
       "investment": {
-        "question": "اے ٹی ایم فرنچائز کے لیے کم از کم کتنی سرمایہ کاری کی ضرورت ہے؟",
-        "answer": "WLA پارٹنر اور مقام کے لحاظ سے سرمایہ کاری عام طور پر ₹3-8 لاکھ تک ہوتی ہے۔ اس میں مشین کی لاگت، تنصیب، اور ابتدائی ورکنگ کیپٹل شامل ہیں۔ ہم ہر پارٹنر کے لیے لاگت کی تفصیلی تفصیلات فراہم کرتے ہیں۔"
+        "question": "What is the minimum investment required for an اے ٹی ایم فرنچائز?",
+        "answer": "The سرمایہ کاری typically ranges from ₹3-8 lakhs depending on the WLA partner and location. This includes machine cost, installation, and initial working capital. We provide detailed cost breakdowns for each partner."
       },
       "income": {
-        "question": "میں کتنی ماہانہ آمدنی کی توقع کر سکتا ہوں؟",
-        "answer": "ہمارے پارٹنرز عام طور پر ₹35,000-60,000 ماہانہ کماتے ہیں۔ آمدنی کا انحصار مقام، قدموں اور لین دین کے حجم پر ہوتا ہے۔ دیہی علاقوں میں اکثر ₹25-40K نظر آتے ہیں جبکہ شہری مقامات ماہانہ ₹50-80K پیدا کر سکتے ہیں۔"
+        "question": "How much monthly income can I expect?",
+        "answer": "Our partners typically earn ₹35,000-60,000 monthly. Income depends on location, footfall, and transaction volume. Rural areas often see ₹25-40K while urban locations can generate ₹50-80K monthly."
       },
       "roi": {
-        "question": "ROI حاصل کرنے میں کتنا وقت لگتا ہے؟",
-        "answer": "زیادہ تر شراکت دار 12-18 ماہ کے اندر ROI حاصل کر لیتے ہیں۔ زیادہ ٹریفک والے مقامات 8-12 ماہ میں واپسی دیکھ سکتے ہیں، جب کہ چھوٹے قصبوں میں عام طور پر 15-20 مہینے لگتے ہیں۔ ہم ریٹرن کو بہتر بنانے کے لیے مقام کا تجزیہ فراہم کرتے ہیں۔"
+        "question": "How long does it take to get ROI?",
+        "answer": "Most partners achieve ROI within 12-18 months. High-traffic locations can see returns in 8-12 months, while smaller towns typically take 15-20 months. We provide location analysis to optimize returns."
       },
       "costs": {
-        "question": "جاری آپریشنل اخراجات کیا ہیں؟",
-        "answer": "ماہانہ اخراجات میں بجلی (₹3-5K)، کیش لوڈنگ (2-3% لین دین)، دیکھ بھال (₹2-3K)، اور انٹرنیٹ (₹1-2K) شامل ہیں۔ کل آپریشنل اخراجات عام طور پر مجموعی آمدنی کا 15-20% ہوتے ہیں۔"
+        "question": "What are the ongoing operational costs?",
+        "answer": "Monthly costs include electriشہر (₹3-5K), cash loading (2-3% of transactions), maintenance (₹2-3K), and internet (₹1-2K). Total operational costs are typically 15-20% of gross revenue."
       },
       "technical": {
-        "question": "کیا مجھے اے ٹی ایم چلانے کے لیے تکنیکی علم کی ضرورت ہے؟",
-        "answer": "تکنیکی مہارت کی ضرورت نہیں ہے۔ WLA شراکت دار مکمل تربیت، 24/7 تکنیکی مدد، اور دور دراز کی نگرانی فراہم کرتے ہیں۔ آپ بنیادی طور پر کیش لوڈنگ اور مینٹیننس کوآرڈینیشن کو سنبھالتے ہیں۔"
+        "question": "Do I need technical knowledge to operate an اے ٹی ایم?",
+        "answer": "نہیں technical expertise required. WLA partners provide complete training, 24/7 technical support, and remote monitoring. You mainly handle cash loading and basic maintenance coordination."
       },
       "cash": {
-        "question": "نقدی کا انتظام کیسے کیا جاتا ہے؟",
-        "answer": "آپ استعمال کے نمونوں کی بنیاد پر نقد لوڈ کریں گے (عام طور پر ہر 2-4 دن بعد)۔ WLA پارٹنرز نقد پیشن گوئی کے اوزار فراہم کرتے ہیں اور کچھ نقد لاجسٹکس خدمات پیش کرتے ہیں. بیمہ کیش ان ٹرانزٹ خطرات کا احاطہ کرتا ہے۔"
+        "question": "How is cash management handled?",
+        "answer": "You'll load cash based on usage patterns (typically every 2-4 days). WLA partners provide cash forecasting tools and some offer cash logistics services. Insurance covers cash-in-transit risks."
       },
       "location": {
-        "question": "اے ٹی ایم کی جگہ کے لیے کون سے مقامات بہترین کام کرتے ہیں؟",
-        "answer": "بازاروں، بس سٹینڈز، ہسپتالوں، کالجوں، اور تجارتی کمپلیکس جیسے اونچے پیدل چلنے والے علاقے بہترین کام کرتے ہیں۔ ہم مقام کے تفصیلی سروے کرتے ہیں اور اپنے تجربے سے سائٹ کی منظوری کی رہنمائی فراہم کرتے ہیں۔"
+        "question": "What locations work best for اے ٹی ایم placement?",
+        "answer": "High-footfall areas like markets, bus stands, hospitals, colleges, and commercial complexes work best. We conduct detailed location surveys and provide site approval guidance from our experience."
       },
       "hidden": {
-        "question": "کیا کوئی پوشیدہ اخراجات یا فیسیں ہیں؟",
-        "answer": "ہم مکمل شفافیت کو یقینی بناتے ہیں۔ مشین کی لاگت، تنصیب، سالانہ دیکھ بھال، اور آمدنی کا اشتراک سمیت تمام اخراجات پہلے سے ظاہر کیے جاتے ہیں۔ کوئی پوشیدہ چارجز نہیں - آپ جو دیکھتے ہیں وہی آپ ادا کرتے ہیں۔"
+        "question": "Are there any hidden costs or fees?",
+        "answer": "We ensure complete transparency. All costs are disبند کریںd upfront including machine cost, installation, annual maintenance, and revenue sharing. No hidden charges - what you see is what you pay."
       },
       "support": {
-        "question": "فرنچائز سیٹ اپ کے بعد آپ کیا مدد فراہم کرتے ہیں؟",
-        "answer": "ہم جاری کاروباری مشاورت، کارکردگی کو بہتر بنانے کی تجاویز، ٹربل شوٹنگ سپورٹ، اور WLA پارٹنر کوآرڈینیشن کے ساتھ مدد پیش کرتے ہیں۔ ہمارا رشتہ صرف سیٹ اپ سے آگے جاری ہے۔"
+        "question": "What support do you provide after فرنچائز setup?",
+        "answer": "We offer ongoing business consultation, performance optimization tips, troubleshooting support, and assistance with WLA partner coordination. Our relationship جاری رکھیںs beyond just setup."
       },
       "multiple": {
-        "question": "کیا میں متعدد ATM فرنچائزز چلا سکتا ہوں؟",
-        "answer": "ہاں، بہت سے کامیاب شراکت دار 2-5 اے ٹی ایم چلاتے ہیں۔ آپ کے پہلے اے ٹی ایم کے مستحکم ہونے کے بعد (6-12 ماہ)، ہم اضافی مقامات کی شناخت اور کثیر مقام کے آپریشنز کو ہموار کرنے میں مدد کر سکتے ہیں۔"
+        "question": "Can I operate multiple اے ٹی ایم فرنچائزs?",
+        "answer": "Yes, many successful partners operate 2-5 اے ٹی ایمs. After your first اے ٹی ایم stabilizes (6-12 months), we can help identify additional locations and streamline multi-location operations."
       }
     },
     "stats": {
       "transparent": {
-        "title": "100% شفاف",
-        "description": "کوئی پوشیدہ اخراجات یا سرپرائز فیس نہیں۔ تمام معاملات میں مکمل شفافیت۔"
+        "title": "100% Transparent",
+        "description": "نہیں hidden costs or surprise fees. Complete transparency in all dealings."
       },
       "proven": {
-        "title": "ثابت شدہ نتائج",
-        "description": "12-18 ماہ میں اوسط ROI کے ساتھ 95% پارٹنر کی کامیابی کی شرح۔"
+        "title": "Proven Results",
+        "description": "95% partner کامیابی rate with average ROI in 12-18 months."
       },
       "quick": {
-        "title": "فوری سیٹ اپ",
-        "description": "30-45 دنوں کے اندر فاسٹ ٹریک کی منظوری اور تنصیب۔"
+        "title": "Quick Setup",
+        "description": "Fast-track approval and installation within 30-45 days."
       }
     }
   },
   "services": {
-    "title": "کیوں منتخب کریں",
-    "titleHighlight": "اے ٹی ایم فرنچائز انڈیا؟",
-    "subtitle": "تمام WLA برانڈز میں 4+ سال کے تجربے کے ساتھ، ہم دیہی ہندوستان میں آپ کے ATM کاروبار کی کامیابی کو یقینی بنانے کے لیے آخر تک سپورٹ فراہم کرتے ہیں۔",
+    "title": "Why منتخب کریں",
+    "titleHighlight": "اے ٹی ایم فرنچائز India?",
+    "subtitle": "With 4+ years of experience across all WLA brands, we provide end-to-end support to ensure your ATM کاروبار success in rural India.",
     "items": {
       "trusted": {
-        "title": "قابل اعتماد اے ٹی ایم فرنچائز کی معلومات",
-        "description": "ریگولیٹڈ ATM انڈسٹری میں درست، تصدیق شدہ بصیرت حاصل کریں۔ ہمارے ماہرین باخبر فرنچائز کے فیصلوں کے لیے حقائق پر مبنی رہنمائی فراہم کرنے کے لیے غلط معلومات کو کاٹتے ہیں۔",
+        "title": "Trusted اے ٹی ایم فرنچائز Information",
+        "description": "Get accurate, verified insights into the regulated اے ٹی ایم industry. Our experts cut through misinformation to provide fact-based guidance for informed franchise decisions.",
         "benefits": {
-          "compliance": "آر بی آئی کی تعمیل کی تصدیق",
-          "analysis": "کاروباری ماڈل کا شفاف تجزیہ",
-          "risk": "خطرے کی تشخیص اور تخفیف",
-          "legal": "قانونی دستاویزات کی حمایت"
+          "compliance": "RBI compliance verification",
+          "analysis": "Transparent کاروبار model analysis",
+          "risk": "Risk assessment and mitigation",
+          "legal": "Legal documentation support"
         },
-        "cta": "تصدیق شدہ معلومات حاصل کریں۔"
+        "cta": "Get Verified Info"
       },
       "guidance": {
-        "title": "ماہر WLA آپریٹر گائیڈنس",
-        "description": "اعتماد کے ساتھ صحیح وائٹ لیبل اے ٹی ایم پارٹنر کا انتخاب کریں۔ ہم بڑے آپریٹرز کا غیر جانبدارانہ موازنہ فراہم کرتے ہیں، طاقتوں اور کمزوریوں کو اجاگر کرتے ہیں۔",
+        "title": "Expert WLA Operator Guidance",
+        "description": "Choose the right White Label اے ٹی ایم partner with confidence. We provide unbiased comparisons of major operators, highlighting strengths and weaknesses.",
         "benefits": {
-          "comparison": "آپریٹر کے مقابلے کی رپورٹس",
-          "revenue": "ریونیو شیئرنگ کا تجزیہ",
-          "technical": "تکنیکی مدد کی تشخیص",
-          "contract": "معاہدہ مذاکرات میں مدد"
+          "comparison": "Operator comparison reports",
+          "revenue": "آمدنی sharing analysis",
+          "technical": "Technical support evaluation",
+          "contract": "Contract negotiation assistance"
         },
-        "cta": "آپریٹرز کا موازنہ کریں۔"
+        "cta": "Compare Operators"
       },
       "digital": {
-        "title": "ڈیجیٹل موجودگی کو فروغ دینا",
-        "description": "پہلے سے ہی اے ٹی ایم فرنچائز چلا رہے ہیں؟ اپنی آن لائن مرئیت کو بہتر بنائیں اور ہماری ڈیجیٹل مارکیٹنگ سروسز کے ذریعے مزید صارفین سے جڑیں۔",
+        "title": "Digital Presence Boost",
+        "description": "Already running an اے ٹی ایم فرنچائز? Enhance your online visibility and connect with more customers through our digital marketing services.",
         "benefits": {
-          "branding": "آن لائن برانڈنگ کی ترقی",
-          "seo": "مقامی SEO کی اصلاح",
-          "acquisition": "گاہک کے حصول کی حکمت عملی",
-          "analytics": "کارکردگی کے تجزیات"
+          "branding": "Online branding development",
+          "seo": "Local SEO optimization",
+          "acquisition": "Customer acquisition strategies",
+          "analytics": "Performance analytics"
         },
-        "cta": "مرئیت کو بڑھانا"
+        "cta": "Boost Visibility"
       }
     },
     "support": {
-      "onboarding": "فرنچائز آن بورڈنگ اور سیٹ اپ",
-      "training": "جامع تربیتی پروگرام",
-      "marketing": "مقامی مارکیٹنگ اور پروموشنز",
-      "technical": "24/7 تکنیکی مدد",
-      "settlement": "بینک سیٹلمنٹ امداد",
-      "consultation": "جاری کاروباری مشاورت"
+      "onboarding": "فرنچائز onboarding & setup",
+      "training": "Comprehensive training programs",
+      "marketing": "Local marketing & promotions",
+      "technical": "24/7 technical support",
+      "settlement": "بینک settlement assistance",
+      "consultation": "Ongoing کاروبار consultation"
     },
     "supportSection": {
-      "title": "مکمل فرنچائز سپورٹ",
-      "description": "ابتدائی سیٹ اپ سے لے کر جاری آپریشنز تک، ہم سب کچھ سنبھالتے ہیں تاکہ آپ اپنے ATM کاروبار سے اپنی غیر فعال آمدنی بڑھانے پر توجہ مرکوز کر سکیں۔"
+      "title": "Complete فرنچائز Support",
+      "description": "From initial setup to ongoing operations, we handle everything so you can focus on growing your passive income from your ATM کاروبار."
     },
     "cta": {
-      "title": "شروع کرنے کے لیے تیار ہیں؟",
-      "description": "دیہی ہندوستان میں کامیاب اے ٹی ایم فرنچائز مالکان کے ہمارے نیٹ ورک میں شامل ہوں۔",
-      "franchisees": "خوش فرنچائزز",
-      "button": "اپنا سفر شروع کریں۔"
+      "title": "Ready to Start?",
+      "description": "Join our network of successful اے ٹی ایم فرنچائز owners across rural India",
+      "franchisees": "Happy فرنچائزes",
+      "button": "Start Your Journey"
     }
   },
   "trustSignals": {
-    "title": "ملک بھر میں کاروبار کے ذریعے بھروسہ مند",
-    "subtitle": "ان ہزاروں کامیاب شراکت داروں میں شامل ہوں جو اپنے ATM کاروباری آپریشنز کے ساتھ ہم پر بھروسہ کرتے ہیں۔",
+    "title": "Trusted by کاروبارes Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM کاروبار operations",
     "metrics": {
-      "partners": "ایکٹو پارٹنرز",
-      "uptime": "اپ ٹائم گارنٹی",
-      "experience": "صنعت کا تجربہ",
-      "support": "کسٹمر سپورٹ"
+      "partners": "Active Partners",
+      "uptime": "Uptime Guarantee",
+      "experience": "Industry Experience",
+      "support": "Customer Support",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ Years",
+      "supportValue": "24/7"
     }
   },
+  "valueProps": {
+    "title": "Why ATM کاروبار?",
+    "subtitle": "Zero Loss and Fully Transparent کاروبار Opportunity from RBI Licensed Companies",
+    "perfectTime": "Perfect Time for ATM کاروبار in Rural India",
+    "investmentRange": "سرمایہ کاری Range: ₹2-5 Lakhs",
+    "bullets": {
+      "digitalAdoption": "Digital Adoption Growing",
+      "governmentPush": "Government Push for Financial Inclusion",
+      "bankClosures": "بینک Branch Closures"
+    },
+    "stats": {
+      "roi": {
+        "prefix": "upto ",
+        "value": "50",
+        "suffix": "%",
+        "label": "Return On سرمایہ کاری",
+        "description": "All Payout Received by RBI Licensed WLA اے ٹی ایم Partners"
+      },
+      "penetration": {
+        "value": "15",
+        "suffix": " Per Lac",
+        "label": "اے ٹی ایم Penetration",
+        "description": "Only 15 اے ٹی ایمs per 1 Lac People - اے ٹی ایم Penetration in India is very Low"
+      },
+      "cash": {
+        "value": "75",
+        "suffix": "% Cash",
+        "label": "Cash Circulation",
+        "description": "Indian Ecoنہیںmy is still Largely Cash based"
+      },
+      "potential": {
+        "value": "90",
+        "suffix": "% Potential",
+        "label": "Market Opportunity",
+        "description": "90% of Banks Offsite اے ٹی ایمs are closing down - Banks Offsite اے ٹی ایم Closure creates a Large market for اے ٹی ایمs"
+      }
+    }
+  },
+  "whyChoose": {
+    "badge": "Our Advantage",
+    "title": "Why منتخب کریں",
+    "titleHighlight": "اے ٹی ایم فرنچائز India?",
+    "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
+    "cta": {
+      "partners": "Join 500+ successful فرنچائز partners"
+    },
+    "features": {
+      "trusted": {
+        "title": "Trusted اے ٹی ایم فرنچائز Information",
+        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM کاروبار often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+      },
+      "guidance": {
+        "title": "Expert Guidance on WLA Operators",
+        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your کاروبار."
+      },
+      "digital": {
+        "title": "Boost Your Digital Presence",
+        "description": "Already running an ATM franchise? رجسٹر کریں with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+      },
+      "support": {
+        "title": "End-to-End فرنچائز Support",
+        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM کاروبار success."
+      }
+    }
+  },
+  "alt": {
+    "atmInIndianSetting": "اے ٹی ایم in Indian semi-urban setting"
+  },
   "trust": {
-    "heading": "ملک بھر میں کاروباروں کی طرف سے قابل اعتماد",
-    "subtitle": "ہزاروں کامیاب شراکت داروں میں شامل ہوں جو اپنے اے ٹی ایم کاروباری کاموں کے لیے ہم پر بھروسہ کرتے ہیں",
-    "activePartners": "فعال شراکت دار",
-    "uptimeGuarantee": "اپ ٹائم گارنٹی",
-    "industryExperience": "صنعت کا تجربہ",
-    "customerSupport": "کسٹمر سپورٹ"
+    "heading": "Trusted by کاروبارes Nationwide",
+    "subtitle": "Join thousands of successful partners who trust us with their ATM کاروبار operations",
+    "activePartners": "Active Partners",
+    "uptimeGuarantee": "Uptime Guarantee",
+    "industryExperience": "Industry Experience",
+    "customerSupport": "Customer Support"
   }
 }

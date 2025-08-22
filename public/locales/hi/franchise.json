@@ -20,7 +20,6 @@
       "part3": "आज के साथ",
       "minimalInvestment": "न्यूनतम निवेश"
     },
-    "applyNow": "अभी आवेदन करें",
     "cta": {
       "apply": "फ्रैंचाइज़ी के लिए आवेदन करें",
       "learnMore": "और अधिक जानें"
@@ -69,9 +68,7 @@
       "atms": "एटीएम तैनात",
       "transactions": "मासिक लेनदेन",
       "support": "सहायता उपलब्ध है"
-    },
-    "partners": "सफल भागीदार",
-    "joinToday": "आज ही जुड़ें"
+    }
   },
   "enquiryForm": {
     "title": "अपनी एटीएम फ्रैंचाइज़ी यात्रा शुरू करें",
@@ -158,7 +155,7 @@
     "models": {
       "basic": {
         "name": "बुनियादी",
-        "investment": "₹2-5 लाख",
+        "investment": "₹2-5 Lakhs",
         "atms": "1-2 एटीएम",
         "roi": "15-18% वार्षिक",
         "support": "मानक समर्थन",
@@ -171,7 +168,7 @@
       },
       "professional": {
         "name": "पेशेवर",
-        "investment": "₹5-10 लाख",
+        "investment": "₹5-10 Lakhs",
         "atms": "3-5 एटीएम",
         "roi": "18-22% वार्षिक",
         "support": "प्राथमिकता समर्थन",
@@ -200,7 +197,27 @@
         }
       }
     },
-    "cta": "अपनी योजना चुनें"
+    "cta": "अपनी योजना चुनें",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low Investment",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium franchise model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "Investment Details",
+    "revenueStreams": "Revenue Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "Get Started"
   },
   "wlaOperators": {
     "title": "भारत में अग्रणी WLA ऑपरेटर",
@@ -213,7 +230,7 @@
     "questions": {
       "investment": {
         "question": "न्यूनतम निवेश कितना आवश्यक है?",
-        "answer": "1-2 एटीएम वाले बेसिक फ्रैंचाइज़ी मॉडल के लिए न्यूनतम निवेश ₹2 लाख से शुरू होता है।"
+        "answer": "1-2 एटीएम वाले बेसिक फ्रैंचाइज़ी मॉडल के लिए न्यूनतम निवेश ₹2 Lakhs से शुरू होता है।"
       },
       "returns": {
         "question": "मैं किस प्रकार के रिटर्न की उम्मीद कर सकता हूं?",
@@ -246,10 +263,8 @@
       "schedule": "बैठक का समय निर्धारित करें"
     }
   },
-  "process": {
-    "apply": "आवेदन करें",
-    "agreement": "अनुबंध",
-    "installation": "स्थापना",
-    "startEarning": "कमाई शुरू करें"
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   }
 }

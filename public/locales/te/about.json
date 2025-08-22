@@ -1,19 +1,40 @@
 {
   "hero": {
-    "badge": "మా కథ",
+    "badge": "Trusted Business Partner Since 2020",
     "title": {
-      "prefix": "మా గురించి",
+      "prefix": "About",
       "middle": "ATM Franchise",
-      "suffix": "India",
-      "highlight": "ఏటిఎం ఫ్రాంచైజ్ ఇండియా"
+      "suffix": "India"
     },
-    "subtitle": "భారతదేశంలో ఏటిఎం ఫ్రాంచైజ్ వ్యాపారం కోసం మీ నమ్మకమైన భాగస్వామి",
+    "subtitle": "Your trusted partner in the ATM franchise business, providing reliable guidance and comprehensive support across India.",
     "buttons": {
       "expertise": "Our Expertise",
       "companies": "Group Companies"
     }
   },
   "whoWeAre": {
+    "badge": "Industry Expertise",
+    "heading": "Who We Are",
+    "content": "ATM Franchise India is a leading consultancy specializing in the ATM franchise business. With over 5 years of experience and 200+ successful franchise partnerships across all White Label ATM (WLA) brands, we provide accurate, verified insights into the ATM industry.",
+    "empowering": {
+      "description": "Join thousands of successful young Indians who have built thriving businesses with our ATM franchise opportunities"
+    },
+    "features": {
+      "experience": {
+        "title": "5+ Years Experience",
+        "description": "200+ successful franchise partnerships and proven track record"
+      },
+      "results": {
+        "description": "95% partner success rate with average ROI in 12-18 months"
+      },
+      "guidance": {
+        "description": "100% transparent with no hidden costs or surprise fees"
+      }
+    },
+    "path": {
+      "title": "Your Path to Financial Independence",
+      "description": "As a regulated sector, the ATM business often sees widespread misinformation. Our mission is to cut through the noise and provide reliable, fact-based guidance to help investors make informed franchise decisions."
+    },
     "title": "Who We Are",
     "subtitle": "Empowering entrepreneurs with trusted ATM franchise opportunities",
     "description": "ATM Franchise India is a pioneering platform that bridges the gap between aspiring entrepreneurs and RBI-licensed White Label ATM operators. Since 2020, we've been transforming lives by providing accurate information, expert guidance, and comprehensive support for ATM franchise businesses across India.",
@@ -110,8 +131,53 @@
     }
   },
   "cta": {
-    "title": "Ready to Start Your ATM Franchise Journey?",
-    "subtitle": "Join thousands of successful franchise partners across India",
-    "button": "Get Started Today"
+    "title": "Ready to Join Our Success Story?",
+    "subtitle": "Become part of our trusted network and start your ATM franchise journey today.",
+    "button": "Get Started Now"
+  },
+  "groupCompanies": {
+    "badge": "Group Companies",
+    "title": "Part of a Trusted Business Group",
+    "subtitle": "ATM Franchise India is part of a dynamic group of companies focused on financial technology and business solutions.",
+    "pixellpay": {
+      "name": "PixellPay",
+      "badge": "Payment Solutions",
+      "description": "Innovative payment solutions and financial technology services designed to simplify digital transactions and enhance financial accessibility.",
+      "button": "Visit PixellPay"
+    },
+    "evosyz": {
+      "name": "Evosyz",
+      "badge": "South India's Largest ATM Franchise Operator",
+      "description": "Leading ATM franchise operations and business solutions across South India with proven expertise and exceptional track record.",
+      "button": "Visit Evosyz"
+    }
+  },
+  "wlaPartners": {
+    "badge": "Trusted WLA Network",
+    "subtitle": "We collaborate with India's leading White Label ATM operators, each bringing unique strengths and nationwide coverage to provide you with the best franchise opportunities.",
+    "eps": {
+      "badge": "Established WLA Operator",
+      "description": "One of India's pioneering WLA operators with extensive network coverage and proven track record in ATM deployment and management services."
+    },
+    "india": {
+      "badge": "National Coverage",
+      "description": "Comprehensive ATM solutions provider focusing on rural and semi-urban markets, bringing banking services to underserved communities across India."
+    },
+    "indicash": {
+      "badge": "TATA Group Product",
+      "description": "Backed by TATA Group's legacy of trust and excellence, Indicash offers premium ATM solutions with cutting-edge technology and reliable service infrastructure."
+    },
+    "vakrangee": {
+      "badge": "Digital Ecosystem Leader",
+      "description": "India's largest network of digital service centers, combining ATM services with comprehensive digital solutions for rural and urban communities."
+    },
+    "findi": {
+      "badge": "Next-Gen Fintech",
+      "description": "Modern fintech platform revolutionizing ATM operations with innovative technology, smart analytics, and customer-centric solutions for the digital age."
+    },
+    "whyMatter": {
+      "title": "Why Our Partnerships Matter",
+      "subtitle": "Our strategic partnerships with leading WLA operators ensure you get access to the best opportunities, technology, and support in the ATM franchise business."
+    }
   }
 }

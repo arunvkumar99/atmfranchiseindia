@@ -1,21 +1,21 @@
 {
-  "title": "ایجنٹ بنیں۔",
-  "subtitle": "اے ٹی ایم ایجنٹ کے طور پر ہمارے ساتھ شراکت کریں اور کمیشن حاصل کریں۔",
+  "title": "Become an Agent",
+  "subtitle": "Partner with us as an ATM agent and earn commission",
   "hero": {
-    "badge": "ایجنٹ پارٹنرشپ پروگرام",
-    "heading": "اے ٹی ایم ایجنٹ بنیں۔",
-    "description": "مستقل کمیشن حاصل کرنے والے کامیاب ایجنٹوں کے ہمارے نیٹ ورک میں شامل ہوں۔",
-    "cta": "ابھی اپلائی کریں۔"
+    "badge": "Agent Partnership Program",
+    "heading": "Become an ATM Agent",
+    "description": "Join our network of successful agents earning steady commission",
+    "cta": "Apply Now"
   },
   "benefits": {
-    "title": "ایجنٹ کے فوائد",
-    "commission": "ہائی کمیشن",
-    "support": "مکمل سپورٹ",
-    "training": "مفت تربیت",
-    "flexible": "لچکدار گھنٹے"
+    "title": "Agent Benefits",
+    "commission": "High Commission",
+    "support": "Full Support",
+    "training": "Free Training",
+    "flexible": "Flexible Hours"
   },
   "form": {
-    "title": "ایجنٹ درخواست فارم",
-    "submit": "درخواست جمع کروائیں۔"
+    "title": "Agent Application Form",
+    "submit": "Submit Application"
   }
 }

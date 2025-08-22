@@ -1,12 +1,12 @@
 {
-  "title": "رقم کی واپسی کی پالیسی",
-  "lastUpdated": "آخری تازہ کاری",
+  "title": "Refund Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "overview": "پالیسی کا جائزہ",
-    "eligibility": "رقم کی واپسی کی اہلیت",
-    "process": "رقم کی واپسی کا عمل",
-    "timeline": "پروسیسنگ ٹائم لائن",
-    "exceptions": "مستثنیات",
-    "contact": "رقم کی واپسی کے لیے رابطہ کریں۔"
+    "overview": "Policy Overview",
+    "eligibility": "Refund Eligibility",
+    "process": "Refund Process",
+    "timeline": "Processing Timeline",
+    "exceptions": "Exceptions",
+    "contact": "Contact for Refunds"
   }
 }

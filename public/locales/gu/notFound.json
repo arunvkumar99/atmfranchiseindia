@@ -1,10 +1,10 @@
 {
-  "title": "પેજ મળ્યું નથી",
-  "heading": "404 - પેજ મળ્યું નથી",
-  "message": "માફ કરશો, તમે જે પૃષ્ઠ શોધી રહ્યા છો તે અસ્તિત્વમાં નથી.",
-  "suggestion": "તમે કદાચ સરનામું ખોટું લખ્યું હશે અથવા પૃષ્ઠ ખસેડ્યું હશે.",
+  "title": "Page Not Found",
+  "heading": "404 - Page Not Found",
+  "message": "Sorry, the page you are looking for doesn't exist.",
+  "suggestion": "You may have mistyped the address or the page may have moved.",
   "cta": {
-    "home": "હોમપેજ પર જાઓ",
-    "contact": "સપોર્ટનો સંપર્ક કરો"
+    "home": "Go to Homepage",
+    "contact": "Contact Support"
   }
 }

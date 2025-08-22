@@ -1,8 +1,53 @@
 {
   "labels": {
-    "fullName": "Full Name",
-    "email": "Email Address",
-    "phone": "Phone Number"
+    "fullName": "முழு பெயர்",
+    "email": "மின்னஞ்சல் முகவரி",
+    "phone": "தொலைபேசி எண்",
+    "city": "நகரம்",
+    "state": "மாநிலம்",
+    "message": "செய்தி",
+    "noticePeriod": "Notice Period",
+    "permanentAddress": "நிரந்தர முகவரி",
+    "currentAddress": "தற்போதைய முகவரி",
+    "panDocumentUpload": "PAN Document Upload",
+    "aadhaarFront": "Aadhaar Front Side",
+    "aadhaarBack": "Aadhaar Back Side",
+    "passportPhoto": "Passport Size Photo",
+    "dateOfBirthPan": "Date of Birth as in PAN Card",
+    "districtOfResidence": "District of Residence",
+    "aadhaarNumber": "ஆதார் எண் (12 இலக்கங்கள்)",
+    "languagesYouSpeak": "Languages You Can Speak",
+    "whyJoinAgent": "Why do you want to Join Sahasra Network as Agent",
+    "joiningAs": "Are you Joining As (Please choose from Below):",
+    "professionalDetails": "Professional Details & Documents",
+    "onetime_cost": "One-time Cost",
+    "refundable_deposit": "Refundable Deposit",
+    "clf_working_capital": "CLF & Working Capital",
+    "cash_transaction": "Cash Transaction",
+    "noncash_transaction": "Non-cash Transaction",
+    "ad_revenue_share": "Ad Revenue Share",
+    "firstName": "முதல் பெயர்",
+    "lastName": "கடைசி பெயர்",
+    "alternatePhone": "மாற்று தொலைபேசி",
+    "whatsapp": "வாட்ஸ்அப் எண்",
+    "pincode": "பின் குறியீடு",
+    "addressLine1": "முகவரி வரி 1",
+    "addressLine2": "முகவரி வரி 2",
+    "dateOfBirth": "பிறந்த தேதி",
+    "businessType": "வணிக வகை",
+    "investmentCapacity": "முதலீட்டு திறன்",
+    "preferredLocation": "விருப்பமான இடம்",
+    "panCard": "பான் கார்டு எண்",
+    "gstNumber": "ஜிஎஸ்டி எண்",
+    "occupation": "தொழில்",
+    "experience": "அனுபவம்",
+    "qualification": "தகுதி",
+    "monthlyIncome": "மாத வருமானம்",
+    "bankName": "வங்கி பெயர்",
+    "accountType": "கணக்கு வகை",
+    "referenceSource": "எங்களைப் பற்றி எப்படி கேள்விப்பட்டீர்கள்?",
+    "timelineToStart": "எப்போது தொடங்க முடியும்?",
+    "additionalComments": "கூடுதல் கருத்துகள்"
   },
   "fields": {
     "fullName": "முழு பெயர்",
@@ -36,53 +81,125 @@
     "captcha": "கேப்ட்சாவை உள்ளிடவும்"
   },
   "placeholders": {
-    "fullName": "உங்கள் முழுப் பெயரை உள்ளிடவும்",
-    "email": "example@email.com",
-    "phone": "+91 98765 43210",
-    "message": "உங்கள் செய்தியை இங்கே தட்டச்சு செய்யவும்...",
-    "city": "உங்கள் நகரத்தைத் தேர்ந்தெடுக்கவும்",
-    "state": "உங்கள் மாநிலத்தைத் தேர்ந்தெடுக்கவும்",
+    "fullName": "உங்கள் முழு பெயரை உள்ளிடவும்",
+    "email": "உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "phone": "10 இலக்க மொபைல் எண்",
+    "message": "உங்கள் செய்தியை இங்கே எழுதவும்",
+    "city": "உங்கள் நகரத்தை உள்ளிடவும்",
+    "state": "மாநிலத்தை தேர்ந்தெடுக்கவும்",
     "searchCity": "நகரத்தைத் தேடு...",
     "selectOption": "ஒரு விருப்பத்தைத் தேர்ந்தெடுக்கவும்",
     "uploadFile": "கோப்பைத் தேர்ந்தெடுக்கவும் அல்லது இங்கே இழுக்கவும்.",
     "pincode": "6 இலக்க பின் குறியீடு",
-    "full_name": "Enter your full name",
-    "full_name_pan": "Enter your full name as per PAN card",
-    "phone_primary": "Primary contact number",
-    "whatsapp": "WhatsApp number",
-    "pan": "ABCDE1234F",
-    "aadhaar": "123456789012 (12 digits only)",
-    "address": "Enter complete address",
-    "address_line1": "House/Building number, Street name",
-    "address_line2": "Area, Landmark",
-    "your_city": "Your city",
-    "district": "Enter your district",
-    "business_type": "Select business type"
+    "full_name": "உங்கள் முழு பெயரை உள்ளிடவும்",
+    "full_name_pan": "பான் அட்டையின்படி உங்கள் முழு பெயரை உள்ளிடவும்",
+    "phone_primary": "முதன்மை தொடர்பு எண்",
+    "whatsapp": "வாட்ஸ்அப் எண்ணை உள்ளிடவும்",
+    "pan": "பான் கார்டு எண்",
+    "aadhaar": "12 இலக்க ஆதார் எண்",
+    "address": "முழு முகவரியை உள்ளிடவும்",
+    "address_line1": "வீடு/கட்டிட எண், தெரு பெயர்",
+    "address_line2": "பகுதி, மைல்கல்",
+    "your_city": "உங்கள் நகரம்",
+    "district": "உங்கள் மாவட்டத்தை உள்ளிடவும்",
+    "business_type": "வணிக வகையைத் தேர்ந்தெடுக்கவும்",
+    "enterYourDistrict": "Enter your district",
+    "enterYourPermanentAddress": "Enter your permanent address",
+    "enterYourCurrentAddress": "Enter your current address",
+    "motivationAndGoals": "Tell us about your motivation and goals as an agent",
+    "day": "Day",
+    "primaryPhone": "Primary contact number",
+    "whatsappNumber": "WhatsApp active number",
+    "emailAddress": "Enter your email address",
+    "panFormat": "ABCDE1234F",
+    "aadhaarNumber": "123456789012",
+    "aadhaarFormat": "123456789012 (12 digits only)",
+    "permanentAddress": "Enter your permanent address here",
+    "currentAddress": "Enter your current address here",
+    "chooseState": "Choose your state",
+    "enterDistrict": "Enter your district",
+    "agentMotivation": "Tell us about your motivation and goals as an agent",
+    "selectJobPosition": "Select the position you're applying for",
+    "selectNoticePeriod": "Select your notice period",
+    "firstName": "முதல் பெயர்",
+    "lastName": "கடைசி பெயர்",
+    "addressLine1": "வீடு/கட்டிட எண், தெரு பெயர்",
+    "addressLine2": "பகுதி, அடையாளம்",
+    "yourCity": "Your city",
+    "sixDigitPincode": "6-digit pincode",
+    "selectBusinessType": "Select business type",
+    "selectInvestmentRange": "Select investment range",
+    "selectTimeline": "Select timeline",
+    "selectSource": "Select source",
+    "specificQuestions": "Any specific questions or requirements?",
+    "bankName": "வங்கி பெயர்",
+    "gstNumber": "ஜிஎஸ்டி பதிவு எண்",
+    "facebookProfile": "https://facebook.com/yourprofile",
+    "instagramProfile": "https://instagram.com/yourprofile",
+    "youtubeChannel": "https://youtube.com/yourchannel",
+    "linkedinProfile": "https://linkedin.com/in/yourprofile",
+    "otherSocialMedia": "Any other social media platform",
+    "businessType": "வணிக வகையை தேர்ந்தெடுக்கவும்",
+    "investmentCapacity": "முதலீட்டு வரம்பை தேர்ந்தெடுக்கவும்",
+    "preferredLocation": "ATM தேவையான பகுதி/கிராமம்",
+    "panCard": "ABCDE1234F",
+    "accountType": "கணக்கு வகையை தேர்ந்தெடுக்கவும்",
+    "referenceSource": "மூலத்தை தேர்ந்தெடுக்கவும்",
+    "timelineToStart": "எப்போது தொடங்கலாம்?",
+    "additionalComments": "உங்கள் கேள்விகள் அல்லது கூடுதல் தகவல்கள்..."
   },
   "validation": {
-    "required": "{{field}} is required",
+    "required": "இந்த புலம் அவசியம்",
     "emailInvalid": "தயவுசெய்து ஒரு செல்லுபடியாகும் மின்னஞ்சல் முகவரியை உள்ளிடவும்.",
     "phoneInvalid": "தயவுசெய்து செல்லுபடியாகும் 10 இலக்க தொலைபேசி எண்ணை உள்ளிடவும்.",
     "pincodeInvalid": "தயவுசெய்து செல்லுபடியாகும் 6 இலக்க PIN குறியீட்டை உள்ளிடவும்.",
-    "minLength": "{{field}} must be at least {{min}} characters",
-    "maxLength": "{{field}} must not exceed {{max}} characters",
+    "minLength": "குறைந்தபட்சம் {min} எழுத்துக்கள் தேவை",
+    "maxLength": "அதிகபட்சம் {max} எழுத்துக்கள் மட்டுமே",
     "numberOnly": "எண்களை மட்டும் உள்ளிடவும்.",
     "lettersOnly": "தயவுசெய்து எழுத்துக்களை மட்டும் உள்ளிடவும்.",
-    "fileSize": "File size must be less than {{size}}MB",
-    "fileType": "Only {{types}} files are allowed",
+    "fileSize": "கோப்பு அளவு {{size}}MB க்கும் குறைவாக இருக்க வேண்டும்",
+    "fileType": "{{types}} கோப்புகள் மட்டுமே அனுமதிக்கப்படும்",
     "agreeRequired": "நீங்கள் விதிமுறைகள் மற்றும் நிபந்தனைகளுக்கு உடன்பட வேண்டும்.",
     "captchaRequired": "கேப்ட்சா சரிபார்ப்பை முடிக்கவும்.",
-    "email_invalid": "Please enter a valid email address",
-    "phone_invalid": "Please enter a valid 10-digit phone number",
-    "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
-    "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
-    "pincode_invalid": "Please enter a valid 6-digit PIN code",
-    "min_length": "Minimum {{min}} characters required",
-    "max_length": "Maximum {{max}} characters allowed",
+    "email_invalid": "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "phone_invalid": "சரியான 10 இலக்க தொலைபேசி எண்ணை உள்ளிடவும்",
+    "pan_invalid": "சரியான PAN எண்ணை உள்ளிடவும் (ABCDE1234F)",
+    "aadhaar_invalid": "சரியான 12 இலக்க ஆதார் எண்ணை உள்ளிடவும்",
+    "pincode_invalid": "சரியான 6 இலக்க பின் குறியீட்டை உள்ளிடவும்",
+    "min_length": "குறைந்தபட்சம் {{min}} எழுத்துக்கள் தேவை",
+    "max_length": "அதிகபட்சம் {{max}} எழுத்துக்கள் அனுமதிக்கப்படுகின்றன",
     "file_size": "File size must be less than {{size}}MB",
     "file_type": "Only {{types}} files are allowed",
-    "security_required": "Please complete the security verification before submitting",
-    "try_again": "Please try again or contact us directly"
+    "security_required": "சமர்ப்பிக்கும் முன் பாதுகாப்பு சரிபார்ப்பை முடிக்கவும்",
+    "try_again": "மீண்டும் முயற்சிக்கவும் அல்லது நேரடியாக எங்களை தொடர்பு கொள்ளவும்",
+    "email": "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "phone": "சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்",
+    "aadhaar": "சரியான 12 இலக்க ஆதார் எண்ணை உள்ளிடவும்",
+    "pan": "சரியான பான் எண்ணை உள்ளிடவும் (எ.கா. ABCDE1234F)",
+    "correctFields": "Please correct the following fields",
+    "enterCompletePermanentAddress": "Please enter complete permanent address (minimum 10 characters)",
+    "enterCompleteCurrentAddress": "Please enter complete current address (minimum 10 characters)",
+    "validName": "Valid name",
+    "validEmail": "Valid email",
+    "validPhone": "Valid phone number",
+    "selectJobPosition": "Please select a job position",
+    "enterExperience": "Please enter your experience",
+    "enterLocation": "Please enter your current location",
+    "enterSalary": "Please enter expected salary",
+    "selectNoticePeriod": "Please select notice period",
+    "securityVerificationRequired": "Security Verification Required",
+    "completeSecurityVerification": "Please complete the security verification before submitting.",
+    "min": "குறைந்தபட்சம் {{min}} எழுத்துகள் தேவை",
+    "max": "அதிகபட்சம் {{max}} எழுத்துகள் அனுமதிக்கப்படும்",
+    "pattern": "சரியான வடிவத்தில் உள்ளிடவும்",
+    "number": "சரியான எண்ணை உள்ளிடவும்",
+    "url": "சரியான URL ஐ உள்ளிடவும்",
+    "date": "சரியான தேதியை உள்ளிடவும்",
+    "alphanumeric": "எழுத்துகள் மற்றும் எண்கள் மட்டுமே அனுமதிக்கப்படும்",
+    "password": "கடவுச்சொல் குறைந்தது 8 எழுத்துகள் இருக்க வேண்டும்",
+    "confirmPassword": "கடவுச்சொற்கள் பொருந்தவில்லை",
+    "gst": "சரியான ஜிஎஸ்டி எண்ணை உள்ளிடவும்",
+    "pincode": "6 இலக்க பின் குறியீட்டை உள்ளிடவும்"
   },
   "options": {
     "occupation": {
@@ -94,22 +211,17 @@
       "other": "மற்றவை"
     },
     "investment": {
-      "below_1": "Below ₹1 Lakh",
-      "1_to_5": "₹1-5 Lakhs",
-      "2_to_3": "₹2-3 Lakhs",
-      "3_to_4": "₹3-4 Lakhs",
-      "4_to_5": "₹4-5 Lakhs",
-      "5_to_10": "₹5-10 Lakhs",
-      "10_to_15": "₹10-15 Lakhs",
-      "10_to_25": "₹10-25 Lakhs",
-      "15_to_25": "₹15-25 Lakhs",
-      "above_5": "₹5+ Lakhs",
-      "above_25": "Above ₹25 Lakhs",
-      "below1": "₹1 லட்சத்திற்கும் குறைவானது",
-      "1to5": "₹1-5 லட்சம்",
-      "5to10": "₹5-10 லட்சம்",
-      "10to25": "₹10-25 லட்சம்",
-      "above25": "₹25 லட்சத்திற்கு மேல்"
+      "below_1": "₹1 லட்சத்திற்கு கீழ்",
+      "1_to_5": "₹1-5 லட்சம்",
+      "2_to_3": "₹2-3 லட்சம்",
+      "3_to_4": "₹3-4 லட்சம்",
+      "4_to_5": "₹4-5 லட்சம்",
+      "5_to_10": "₹5-10 லட்சம்",
+      "10_to_15": "₹10-15 லட்சம்",
+      "10_to_25": "₹10-25 லட்சம்",
+      "15_to_25": "₹15-25 லட்சம்",
+      "above_5": "₹5+ லட்சம்",
+      "above_25": "₹25 லட்சத்திற்கு மேல்"
     },
     "hearAbout": {
       "google": "கூகிள் தேடல்",
@@ -128,9 +240,9 @@
       "other": "மற்றவை"
     },
     "gender": {
-      "male": "Male",
-      "female": "Female",
-      "other": "Other"
+      "male": "ஆண்",
+      "female": "பெண்",
+      "other": "மற்றவை"
     }
   },
   "locationForm": {
@@ -171,18 +283,18 @@
   },
   "joinUs": {
     "title": {
-      "main": "Join the",
-      "highlight": "ATM Franchise",
-      "revolution": "Revolution"
+      "main": "சேரவும்",
+      "highlight": "ஏடிஎம் உரிமை",
+      "revolution": "புரட்சி"
     },
-    "subtitle": "Choose your path to success with ATM Franchise India",
+    "subtitle": "ஏடிஎம் உரிமை இந்தியாவுடன் வெற்றிக்கான உங்கள் பாதையைத் தேர்ந்தெடுக்கவும்",
     "form": {
-      "title": "ATM Franchise Application Form",
+      "title": "ஏடிஎம் உரிமை விண்ணப்பப் படிவம்",
       "instruction": "Please provide accurate information. All fields marked with * are mandatory.",
       "submitMessage": "Our team will review your application within 24-48 hours and contact you with next steps."
     },
     "sections": {
-      "personal": "Personal Information",
+      "personal": "தனிப்பட்ட தகவல்",
       "address": "Address Information",
       "business": "Business Information",
       "franchise": "ATM Franchise Details",
@@ -225,7 +337,7 @@
       "lastName": "Enter last name",
       "email": "your.email@example.com",
       "phone": "+91 98765 43210",
-      "addressLine1": "House/Building number, Street name",
+      "addressLine1": "வீடு/கட்டிட எண், தெரு பெயர்",
       "addressLine2": "Area, Landmark",
       "city": "Enter city",
       "state": "Select state",
@@ -281,17 +393,17 @@
       "15+": "15+ years"
     },
     "incomeRanges": {
-      "below-2l": "Below ₹2 Lakhs",
-      "2l-5l": "₹2-5 Lakhs",
-      "5l-10l": "₹5-10 Lakhs",
-      "10l-25l": "₹10-25 Lakhs",
-      "25l+": "₹25+ Lakhs"
+      "below-2l": "₹2 லட்சத்திற்கு கீழ்",
+      "2l-5l": "₹2-5 லட்சம்",
+      "5l-10l": "₹5-10 லட்சம்",
+      "10l-25l": "₹10-25 லட்சம்",
+      "25l+": "₹25+ லட்சம்"
     },
     "investmentRanges": {
-      "2-3l": "₹2-3 Lakhs",
-      "3-4l": "₹3-4 Lakhs",
-      "4-5l": "₹4-5 Lakhs",
-      "5l+": "₹5+ Lakhs"
+      "2-3l": "₹2-3 லட்சம்",
+      "3-4l": "₹3-4 லட்சம்",
+      "4-5l": "₹4-5 லட்சம்",
+      "5l+": "₹5+ லட்சம்"
     },
     "locationOwnershipOptions": {
       "owned": "I own the location",
@@ -337,7 +449,7 @@
     },
     "sidebar": {
       "successStory": {
-        "title": "Join 500+ Successful Franchisees",
+        "title": "500+ வெற்றிகரமான உரிமையாளர்களுடன் இணையுங்கள்",
         "testimonial": "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
         "name": "Rajesh Kumar",
         "designation": "ATM Franchise Owner, Bihar"
@@ -375,7 +487,7 @@
       },
       "track": {
         "title": "Proven Track Record",
-        "description": "Join 500+ successful franchisees across India"
+        "description": "இந்தியா முழுவதும் 500+ வெற்றிகரமான உரிமையாளர்களுடன் இணையுங்கள்"
       }
     },
     "opportunities": {
@@ -393,7 +505,7 @@
       }
     },
     "buttons": {
-      "submit": "Submit Application"
+      "submit": "விண்ணப்பத்தை சமர்ப்பிக்கவும்"
     },
     "toast": {
       "termsRequired": {
@@ -407,25 +519,38 @@
     }
   },
   "buttons": {
-    "submit": "Submit",
-    "next": "Next",
-    "previous": "Previous",
-    "cancel": "Cancel",
-    "saveDraft": "Save Draft",
-    "submitApplication": "Submit Application",
-    "apply": "Apply Now",
-    "register": "Register",
-    "continue": "Continue"
+    "submit": "சமர்ப்பிக்கவும்",
+    "next": "அடுத்து",
+    "previous": "முந்தைய",
+    "cancel": "ரத்து செய்யவும்",
+    "saveDraft": "வரைவாக சேமிக்கவும்",
+    "submitApplication": "விண்ணப்பத்தை சமர்ப்பிக்கவும்",
+    "apply": "இப்போது விண்ணப்பிக்கவும்",
+    "register": "பதிவு செய்",
+    "continue": "தொடரவும்",
+    "save": "சேமி",
+    "delete": "நீக்கு",
+    "edit": "திருத்து",
+    "upload": "பதிவேற்று",
+    "download": "பதிவிறக்கு",
+    "search": "தேடு",
+    "filter": "வடிகட்டு",
+    "reset": "மீட்டமை",
+    "confirm": "உறுதிப்படுத்து",
+    "close": "மூடு",
+    "back": "பின்",
+    "start": "தொடங்கு",
+    "finish": "முடி"
   },
   "sections": {
-    "personal": "Personal Information",
-    "contact": "Contact Details",
-    "address": "Address Information",
-    "business": "Business Information",
-    "financial": "Financial Information",
-    "documents": "Document Upload",
-    "verification": "Verification",
-    "terms": "Terms & Conditions"
+    "personal": "தனிப்பட்ட தகவல்",
+    "contact": "தொடர்பு விவரங்கள்",
+    "address": "முகவரி தகவல்",
+    "business": "வணிக தகவல்",
+    "financial": "நிதி தகவல்",
+    "documents": "ஆவணங்களை பதிவேற்றவும்",
+    "verification": "சரிபார்ப்பு",
+    "terms": "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
   },
   "form": {
     "mandatoryFields": "All fields marked with * are mandatory",
@@ -433,5 +558,91 @@
     "successMessage": "Application submitted successfully!",
     "errorMessage": "Error submitting application. Please try again.",
     "reviewInfo": "Please review your information before submitting"
+  },
+  "dateOfBirth": {
+    "day": "Day"
+  },
+  "whatsapp": {
+    "placeholder": "WhatsApp active number"
+  },
+  "pan": {
+    "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+    "placeholder": "ABCDE1234F"
+  },
+  "state": {
+    "label": "State",
+    "placeholder": "Choose your state"
+  },
+  "months": {
+    "may": "May"
+  },
+  "gender": {
+    "label": "Select Your Gender"
+  },
+  "error": {
+    "fileUpload": "Unable to upload files. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "tryAgainOrContact": "Please try again or contact us directly."
+  },
+  "forms": {
+    "gender": {
+      "label": "Select Your Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "dateOfBirth": {
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "months": {
+      "may": "May"
+    },
+    "whatsapp": {
+      "placeholder": "WhatsApp active number"
+    },
+    "pan": {
+      "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "State",
+      "placeholder": "Choose your state"
+    },
+    "error": {
+      "fileUpload": "Unable to upload files. Please try again.",
+      "network": "Network error. Please check your connection.",
+      "tryAgainOrContact": "Please try again or contact us directly."
+    },
+    "validation": {
+      "email": "Please enter a valid email address",
+      "phone": "Please enter a valid phone number",
+      "pan": "Please enter a valid PAN number",
+      "aadhaar": "Please enter a valid Aadhaar number",
+      "correctFields": "Please correct the following fields"
+    }
+  },
+  "errors": {
+    "generic": "ஏதோ தவறு நடந்துள்ளது. மீண்டும் முயற்சிக்கவும்.",
+    "network": "நெட்வொர்க் பிழை. உங்கள் இணைய இணைப்பைச் சரிபார்க்கவும்.",
+    "server": "சர்வர் பிழை. பின்னர் மீண்டும் முயற்சிக்கவும்.",
+    "unauthorized": "இந்த செயலுக்கு நீங்கள் அங்கீகரிக்கப்படவில்லை.",
+    "notFound": "கோரிய வளம் கிடைக்கவில்லை.",
+    "timeout": "கோரிக்கை நேரம் முடிந்தது. மீண்டும் முயற்சிக்கவும்.",
+    "fileUpload": "கோப்பு பதிவேற்றம் தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+    "invalidData": "தவறான தரவு வழங்கப்பட்டது.",
+    "sessionExpired": "உங்கள் அமர்வு முடிந்துவிட்டது. மீண்டும் உள்நுழையவும்."
+  },
+  "success": {
+    "saved": "வெற்றிகரமாக சேமிக்கப்பட்டது",
+    "submitted": "வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது",
+    "updated": "வெற்றிகரமாக புதுப்பிக்கப்பட்டது",
+    "deleted": "வெற்றிகரமாக நீக்கப்பட்டது",
+    "uploaded": "வெற்றிகரமாக பதிவேற்றப்பட்டது",
+    "sent": "வெற்றிகரமாக அனுப்பப்பட்டது",
+    "copied": "கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது",
+    "registered": "வெற்றிகரமாக பதிவு செய்யப்பட்டது",
+    "verified": "வெற்றிகரமாக சரிபார்க்கப்பட்டது"
   }
 }

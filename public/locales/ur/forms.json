@@ -1,128 +1,572 @@
 {
+  "labels": {
+    "fullName": "مکمل نام",
+    "email": "ای میل ایڈریس",
+    "phone": "فون نمبر",
+    "state": "ریاست",
+    "city": "شہر",
+    "message": "پیغام",
+    "noticePeriod": "نہیںtice Period",
+    "permanentAddress": "Permanent پتہ",
+    "currentAddress": "Current پتہ",
+    "panDocumentUpload": "PAN دستاویز اپ لوڈ",
+    "aadhaarFront": "Aadhaar Front Side",
+    "aadhaarBack": "Aadhaar واپس Side",
+    "passportPhoto": "Passport Size Photo",
+    "dateOfBirthPan": "تاریخ پیدائش as in PAN Card",
+    "districtOfResidence": "District of Residence",
+    "aadhaarNumber": "Aadhaar Card Number (12 digits)",
+    "languagesYouSpeak": "Languages You Can Speak",
+    "whyJoinAgent": "Why do you want to Join Sahasra Network as ایجنٹ",
+    "joiningAs": "Are you Joining As (براہ کرم choose from Below):",
+    "professionalDetails": "Professional Details & Documents",
+    "onetime_cost": "One-time Cost",
+    "refundable_deposit": "Refundable Deposit",
+    "clf_working_capital": "CLF & Working Capital",
+    "cash_transaction": "Cash Transaction",
+    "noncash_transaction": "نہیںn-cash Transaction",
+    "ad_revenue_share": "Ad آمدنی Share"
+  },
+  "buttons": {
+    "submit": "جمع کریں",
+    "next": "اگلا",
+    "previous": "پچھلا",
+    "cancel": "منسوخ کریں",
+    "saveDraft": "محفوظ کریں Draft",
+    "submitApplication": "درخواست جمع کریں",
+    "apply": "درخواست کریں Now",
+    "register": "رجسٹر کریں",
+    "continue": "جاری رکھیں"
+  },
   "fields": {
-    "fullName": "پورا نام",
+    "fullName": "مکمل نام",
     "firstName": "پہلا نام",
     "lastName": "آخری نام",
     "email": "ای میل ایڈریس",
     "phone": "فون نمبر",
-    "alternatePhone": "متبادل فون نمبر",
-    "whatsapp": "واٹس ایپ نمبر",
+    "alternatePhone": "Alternate فون نمبر",
+    "whatsapp": "WhatsApp Number",
     "address": "پتہ",
-    "street": "گلی کا پتہ",
+    "street": "Street پتہ",
     "city": "شہر",
     "state": "ریاست",
     "pincode": "پن کوڈ",
     "country": "ملک",
     "message": "پیغام",
-    "comments": "تبصرے",
-    "experience": "تجربہ",
-    "qualification": "قابلیت",
-    "occupation": "موجودہ پیشہ",
-    "businessType": "کاروبار کی قسم",
-    "investment": "سرمایہ کاری کی صلاحیت",
-    "preferredLocation": "ترجیحی مقام",
-    "shopName": "دکان/کاروبار کا نام",
-    "shopAddress": "دکان کا پتہ",
-    "monthlyIncome": "ماہانہ آمدنی",
-    "businessExperience": "کاروباری تجربہ (سال)",
-    "howDidYouHear": "آپ نے ہمارے بارے میں کیسے سنا؟",
-    "agreeTerms": "میں شرائط و ضوابط سے اتفاق کرتا ہوں۔",
-    "newsletter": "نیوز لیٹر کو سبسکرائب کریں۔",
-    "captcha": "کیپچا درج کریں۔"
+    "comments": "Comments",
+    "experience": "Experience",
+    "qualification": "Qualification",
+    "occupation": "Current Occupation",
+    "businessType": "کاروبار Type",
+    "investment": "Investment Capaشہر",
+    "preferredLocation": "Preferred Location",
+    "shopName": "Shop/کاروبار Name",
+    "shopAddress": "Shop پتہ",
+    "monthlyIncome": "Monthly Income",
+    "businessExperience": "کاروبار Experience (Years)",
+    "howDidYouHear": "How did you hear ہمارے بارے میں?",
+    "agreeTerms": "I agree to the terms and conditions",
+    "newsletter": "Subscribe to newsletter",
+    "captcha": "Enter captcha"
+  },
+  "dateOfBirth": {
+    "day": "Day"
+  },
+  "whatsapp": {
+    "placeholder": "WhatsApp active number"
+  },
+  "pan": {
+    "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+    "placeholder": "ABCDE1234F"
+  },
+  "state": {
+    "label": "ریاست",
+    "placeholder": "Choose your ریاست"
+  },
+  "months": {
+    "may": "May"
+  },
+  "gender": {
+    "label": "منتخب کریں Your Gender"
+  },
+  "error": {
+    "fileUpload": "Unable to upload files. براہ کرم try again.",
+    "network": "Network error. براہ کرم check your connection.",
+    "tryAgainOrContact": "Please try again or ہم سے رابطہ کریں directly."
   },
   "placeholders": {
-    "fullName": "اپنا پورا نام درج کریں۔",
-    "email": "example@email.com",
-    "phone": "+91 98765 43210",
-    "message": "اپنا پیغام یہاں ٹائپ کریں...",
-    "city": "اپنا شہر منتخب کریں۔",
-    "state": "اپنی ریاست منتخب کریں۔",
-    "searchCity": "شہر تلاش کریں...",
-    "selectOption": "ایک آپشن منتخب کریں۔",
-    "uploadFile": "فائل کا انتخاب کریں یا یہاں گھسیٹیں۔",
-    "pincode": "6 ہندسوں کا پن کوڈ"
+    "fullName": "Enter your مکمل نام",
+    "email": "Enter your ای میل ایڈریس",
+    "phone": "10-digit mobile number",
+    "message": "Type your پیغام here...",
+    "city": "Enter شہر",
+    "state": "Choose your ریاست",
+    "searchCity": "Search شہر...",
+    "selectOption": "منتخب کریں an option",
+    "uploadFile": "منتخب کریں file or drag here",
+    "pincode": "6-digit pincode",
+    "full_name": "Enter your مکمل نام",
+    "full_name_pan": "Enter your مکمل نام as per PAN card",
+    "phone_primary": "Primary contact number",
+    "whatsapp": "WhatsApp number",
+    "pan": "ABCDE1234F",
+    "aadhaar": "123456789012 (12 digits only)",
+    "address": "Enter complete پتہ",
+    "address_line1": "House/Building number, Street name",
+    "address_line2": "Area, Landmark",
+    "your_city": "Your شہر",
+    "district": "Enter your district",
+    "business_type": "Select کاروبار type",
+    "enterYourDistrict": "Enter your district",
+    "enterYourPermanentAddress": "Enter your permanent پتہ",
+    "enterYourCurrentAddress": "Enter your current پتہ",
+    "motivationAndGoals": "Tell us about your motivation and goals as an ایجنٹ",
+    "day": "Day",
+    "primaryPhone": "Primary contact number",
+    "whatsappNumber": "WhatsApp active number",
+    "emailAddress": "Enter your ای میل ایڈریس",
+    "panFormat": "ABCDE1234F",
+    "aadhaarNumber": "123456789012",
+    "aadhaarFormat": "123456789012 (12 digits only)",
+    "permanentAddress": "Enter your permanent پتہ here",
+    "currentAddress": "Enter your current پتہ here",
+    "chooseState": "Choose your ریاست",
+    "enterDistrict": "Enter your district",
+    "agentMotivation": "Tell us about your motivation and goals as an ایجنٹ",
+    "selectJobPosition": "Select the position you're درخواست کریںing for",
+    "selectNoticePeriod": "Select your نہیںtice period",
+    "firstName": "Enter پہلا نام",
+    "lastName": "Enter آخری نام",
+    "addressLine1": "House/Building number, Street name",
+    "addressLine2": "Area, Landmark",
+    "yourCity": "Your شہر",
+    "sixDigitPincode": "6-digit pincode",
+    "selectBusinessType": "Select کاروبار type",
+    "selectInvestmentRange": "Select سرمایہ کاری range",
+    "selectTimeline": "منتخب کریں timeline",
+    "selectSource": "منتخب کریں source",
+    "specificQuestions": "Any specific questions or requirements?",
+    "bankName": "بینک name",
+    "gstNumber": "GST registration number",
+    "facebookProfile": "https://facebook.com/yourprofile",
+    "instagramProfile": "https://instagram.com/yourprofile",
+    "youtubeChannel": "https://youtube.com/yourchannel",
+    "linkedinProfile": "https://linkedin.com/in/yourprofile",
+    "otherSocialMedia": "Any other social media platform"
   },
   "validation": {
-    "required": "{{field}} is required",
-    "emailInvalid": "براہ کرم ایک درست ای میل ایڈریس درج کریں۔",
-    "phoneInvalid": "براہ کرم ایک درست 10 ہندسوں والا فون نمبر درج کریں۔",
-    "pincodeInvalid": "براہ کرم ایک درست 6 ہندسوں والا پن کوڈ درج کریں۔",
+    "required": "{{field}} is ضروری",
+    "emailInvalid": "Please enter a valid ای میل ایڈریس",
+    "phoneInvalid": "Please enter a valid 10-digit فون نمبر",
+    "pincodeInvalid": "Please enter a valid 6-digit پن کوڈ",
     "minLength": "{{field}} must be at least {{min}} characters",
-    "maxLength": "{{field}} must not exceed {{max}} characters",
-    "numberOnly": "براہ کرم صرف نمبر درج کریں۔",
-    "lettersOnly": "براہ کرم صرف حروف درج کریں۔",
+    "maxLength": "{{field}} must نہیںt exceed {{max}} characters",
+    "numberOnly": "براہ کرم enter numbers only",
+    "lettersOnly": "براہ کرم enter letters only",
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
-    "agreeRequired": "آپ کو شرائط و ضوابط سے اتفاق کرنا ہوگا۔",
-    "captchaRequired": "براہ کرم کیپچا کی توثیق مکمل کریں۔"
+    "agreeRequired": "You must agree to the terms and conditions",
+    "captchaRequired": "براہ کرم complete the captcha verification",
+    "email_invalid": "Please enter a valid ای میل ایڈریس",
+    "phone_invalid": "Please enter a valid 10-digit فون نمبر",
+    "pan_invalid": "براہ کرم enter a valid PAN number (ABCDE1234F)",
+    "aadhaar_invalid": "براہ کرم enter a valid 12-digit Aadhaar number",
+    "pincode_invalid": "Please enter a valid 6-digit پن کوڈ",
+    "min_length": "Minimum {{min}} characters ضروری",
+    "max_length": "Maximum {{max}} characters allowed",
+    "file_size": "File size must be less than {{size}}MB",
+    "file_type": "Only {{types}} files are allowed",
+    "security_required": "Please complete the security verification before جمع کریںting",
+    "try_again": "Please try again or ہم سے رابطہ کریں directly",
+    "email": "Please enter a valid ای میل ایڈریس",
+    "phone": "Please enter a valid فون نمبر",
+    "pan": "براہ کرم enter a valid PAN number",
+    "aadhaar": "براہ کرم enter a valid Aadhaar number",
+    "correctFields": "براہ کرم correct the following fields",
+    "enterCompletePermanentAddress": "Please enter complete permanent پتہ (minimum 10 characters)",
+    "enterCompleteCurrentAddress": "Please enter complete current پتہ (minimum 10 characters)",
+    "validName": "Valid name",
+    "validEmail": "Valid email",
+    "validPhone": "Valid فون نمبر",
+    "selectJobPosition": "براہ کرم select a job position",
+    "enterExperience": "براہ کرم enter your experience",
+    "enterLocation": "براہ کرم enter your current location",
+    "enterSalary": "براہ کرم enter expected salary",
+    "selectNoticePeriod": "براہ کرم select notice period",
+    "securityVerificationRequired": "Security Verification ضروری",
+    "completeSecurityVerification": "Please complete the security verification before جمع کریںting."
   },
   "options": {
     "occupation": {
-      "employed": "ملازم",
-      "selfEmployed": "سیلف ایمپلائیڈ",
-      "business": "کاروبار کا مالک",
-      "student": "طالب علم",
-      "retired": "ریٹائرڈ",
-      "other": "دیگر"
+      "employed": "Employed",
+      "selfEmployed": "Self Employed",
+      "business": "کاروبار Owner",
+      "student": "Student",
+      "retired": "Retired",
+      "other": "Other"
     },
     "investment": {
-      "below1": "₹1 لاکھ سے کم",
-      "1to5": "₹1-5 لاکھ",
-      "5to10": "₹5-10 لاکھ",
-      "10to25": "₹10-25 لاکھ",
-      "above25": "₹25 لاکھ سے زیادہ"
+      "below_1": "Below ₹1 Lakh",
+      "1_to_5": "₹1-5 Lakhs",
+      "2_to_3": "₹2-3 Lakhs",
+      "3_to_4": "₹3-4 Lakhs",
+      "4_to_5": "₹4-5 Lakhs",
+      "5_to_10": "₹5-10 Lakhs",
+      "10_to_15": "₹10-15 Lakhs",
+      "10_to_25": "₹10-25 Lakhs",
+      "15_to_25": "₹15-25 Lakhs",
+      "above_5": "₹5+ Lakhs",
+      "above_25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
-      "google": "گوگل سرچ",
-      "facebook": "فیس بک",
-      "instagram": "انسٹاگرام",
-      "friend": "دوست/حوالہ",
-      "newspaper": "اخبار",
-      "other": "دیگر"
+      "google": "Google Search",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "friend": "Friend/Reference",
+      "newspaper": "Newspaper",
+      "other": "Other"
     },
     "businessType": {
-      "retail": "پرچون کی دکان",
-      "service": "سروس سینٹر",
-      "grocery": "گروسری اسٹور",
-      "medical": "میڈیکل سٹور",
-      "restaurant": "ریستوراں/کیفے",
-      "other": "دیگر"
+      "retail": "Retail Shop",
+      "service": "Service Center",
+      "grocery": "Grocery Store",
+      "medical": "Medical Store",
+      "restaurant": "Restaurant/Cafe",
+      "other": "Other"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
     }
   },
   "locationForm": {
-    "title": "اے ٹی ایم کی تنصیب کے لیے مقام جمع کروائیں۔",
-    "subtitle": "نئے ATMs کے لیے بہترین مقامات کی نشاندہی کرنے میں ہماری مدد کریں۔",
+    "title": "جمع کریں Location for ATM Installation",
+    "subtitle": "Help us identify the best locations for new اے ٹی ایمs",
     "sections": {
       "personal": "ذاتی معلومات",
-      "location": "مقام کی تفصیلات",
+      "location": "Location Details",
       "business": "کاروباری معلومات",
-      "additional": "اضافی معلومات"
+      "additional": "Additional Information"
     },
-    "success": "مقام کامیابی کے ساتھ جمع کرایا گیا! ہم جلد ہی آپ سے رابطہ کریں گے۔",
-    "error": "مقام جمع کرانے میں خرابی۔ براہ کرم دوبارہ کوشش کریں۔"
+    "success": "Location جمع کریںted successfully! We'll contact you soon.",
+    "error": "Error جمع کریںting location. Please try again."
   },
   "agentForm": {
-    "title": "PixellPay ایجنٹ بنیں۔",
-    "subtitle": "ہمارے کامیاب ایجنٹوں کے نیٹ ورک میں شامل ہوں۔",
+    "title": "Become a PixellPay ایجنٹ",
+    "subtitle": "Join our network of successful ایجنٹs",
     "sections": {
-      "personal": "ذاتی تفصیلات",
-      "professional": "پیشہ ورانہ معلومات",
-      "documents": "دستاویز اپ لوڈ کریں۔",
-      "agreement": "شرائط اور معاہدہ"
+      "personal": "Personal Details",
+      "professional": "Professional Information",
+      "documents": "دستاویز اپ لوڈ",
+      "agreement": "Terms & Agreement"
     },
-    "success": "درخواست کامیابی کے ساتھ جمع کرائی گئی! ہماری ٹیم 48 گھنٹوں کے اندر آپ سے رابطہ کرے گی۔",
-    "error": "درخواست جمع کرانے میں خرابی۔ براہ کرم تمام فیلڈز کو چیک کریں اور دوبارہ کوشش کریں۔"
+    "success": "Application جمع کریںted successfully! Our team will contact you within 48 hours.",
+    "error": "Error جمع کریںting application. Please check all fields and try again."
   },
   "enquiryForm": {
-    "title": "فرنچائز انکوائری فارم",
-    "subtitle": "اپنے ATM فرنچائز کے سفر کے ساتھ شروع کریں۔",
-    "success": "آپ کی دلچسپی کا شکریہ! ہم جلد ہی آپ سے رابطہ کریں گے۔",
-    "error": "انکوائری جمع کرانے میں خرابی۔ براہ کرم دوبارہ کوشش کریں۔"
+    "title": "فرنچائز Enquiry Form",
+    "subtitle": "Get started with your اے ٹی ایم فرنچائز journey",
+    "success": "Thank you for your interest! We'll get واپس to you soon.",
+    "error": "Error جمع کریںting enquiry. Please try again."
   },
   "contactForm": {
-    "title": "ہم سے رابطہ کریں۔",
-    "subtitle": "ہم مدد کے لیے حاضر ہیں۔",
-    "success": "پیغام کامیابی سے بھیج دیا گیا!",
-    "error": "پیغام بھیجنے میں خرابی براہ کرم دوبارہ کوشش کریں۔"
+    "title": "ہم سے رابطہ کریں",
+    "subtitle": "We're here to help",
+    "success": "پیغام sent successfully!",
+    "error": "Error sending پیغام. Please try again."
+  },
+  "joinUs": {
+    "title": {
+      "main": "Join the",
+      "highlight": "اے ٹی ایم فرنچائز",
+      "revolution": "Revolution"
+    },
+    "subtitle": "Choose your path to success with اے ٹی ایم فرنچائز India",
+    "form": {
+      "title": "اے ٹی ایم فرنچائز Application Form",
+      "instruction": "براہ کرم provide accurate information. All fields marked with * are mandatory.",
+      "submitMessage": "Our team will review your application within 24-48 hours and contact you with اگلا steps."
+    },
+    "sections": {
+      "personal": "ذاتی معلومات",
+      "address": "پتہ Information",
+      "business": "کاروباری معلومات",
+      "franchise": "اے ٹی ایم فرنچائز Details",
+      "financial": "مالی معلومات",
+      "additional": "Additional Information"
+    },
+    "labels": {
+      "firstName": "پہلا نام *",
+      "lastName": "آخری نام *",
+      "email": "ای میل ایڈریس *",
+      "phone": "فون نمبر *",
+      "alternatePhone": "Alternate Phone",
+      "dateOfBirth": "تاریخ پیدائش *",
+      "addressLine1": "پتہ Line 1 *",
+      "addressLine2": "پتہ Line 2",
+      "city": "شہر *",
+      "state": "ریاست *",
+      "pincode": "پن کوڈ *",
+      "businessType": "کاروبار Type *",
+      "businessExperience": "کاروبار Experience *",
+      "currentOccupation": "Current Occupation *",
+      "annualIncome": "Annual Income Range *",
+      "investmentCapacity": "Investment Capaشہر *",
+      "preferredLocation": "Preferred اے ٹی ایم Location *",
+      "locationOwnership": "Location Ownership *",
+      "expectedFootfall": "Expected Daily Footfall",
+      "nearbyBanks": "Nearby بینکs",
+      "competitorATMs": "Competitor اے ٹی ایمs",
+      "primaryBank": "Primary بینک *",
+      "accountType": "Account Type *",
+      "panCard": "PAN Card Number *",
+      "gstNumber": "GST Number (if applicable)",
+      "referenceSource": "How did you hear ہمارے بارے میں? *",
+      "previousFranchise": "پچھلا Franchise Experience",
+      "timelineToStart": "Timeline to Start *",
+      "additionalComments": "Additional Comments/Questions"
+    },
+    "placeholders": {
+      "firstName": "Enter پہلا نام",
+      "lastName": "Enter آخری نام",
+      "email": "your.email@example.com",
+      "phone": "+91 98765 43210",
+      "addressLine1": "House/Building number, Street name",
+      "addressLine2": "Area, Landmark",
+      "city": "Enter شہر",
+      "state": "Select ریاست",
+      "pincode": "Enter 6-digit پن کوڈ",
+      "businessType": "Select کاروبار type",
+      "experienceYears": "Years of experience",
+      "currentOccupation": "e.g., Shop Owner, Farmer, Employee",
+      "annualIncome": "منتخب کریں income range",
+      "investmentCapacity": "Select سرمایہ کاری range",
+      "preferredLocation": "Area/Village where you want اے ٹی ایم",
+      "locationOwnership": "Do you own the location?",
+      "expectedFootfall": "Expected daily visitors",
+      "nearbyBanks": "Names of بینکs within 5km",
+      "competitorATMs": "Number of اے ٹی ایمs in 2km radius",
+      "bankName": "بینک name",
+      "accountType": "منتخب کریں account type",
+      "panCard": "ABCDE1234F",
+      "gstNumber": "GST registration number",
+      "referenceSource": "منتخب کریں source",
+      "previousFranchise": "Any پچھلا franchise?",
+      "timelineToStart": "When can you start?",
+      "additionalComments": "Any specific questions or additional information you'd like to share..."
+    },
+    "states": {
+      "andhra-pradesh": "Andhra Pradesh",
+      "bihar": "Bihar",
+      "gujarat": "Gujarat",
+      "haryana": "Haryana",
+      "karnataka": "Karnataka",
+      "kerala": "Kerala",
+      "madhya-pradesh": "Madhya Pradesh",
+      "maharashtra": "Maharashtra",
+      "odisha": "Odisha",
+      "punjab": "Punjab",
+      "rajasthan": "Rajasthan",
+      "tamil-nadu": "Tamil Nadu",
+      "telangana": "Telangana",
+      "uttar-pradesh": "Uttar Pradesh",
+      "west-bengal": "West Bengal"
+    },
+    "businessTypes": {
+      "individual": "Individual",
+      "proprietorship": "Proprietorship",
+      "partnership": "Partnership",
+      "private-limited": "Private Limited",
+      "llp": "LLP"
+    },
+    "experienceRanges": {
+      "0-1": "0-1 years",
+      "2-5": "2-5 years",
+      "6-10": "6-10 years",
+      "11-15": "11-15 years",
+      "15+": "15+ years"
+    },
+    "incomeRanges": {
+      "below-2l": "Below ₹2 Lakhs",
+      "2l-5l": "₹2-5 Lakhs",
+      "5l-10l": "₹5-10 Lakhs",
+      "10l-25l": "₹10-25 Lakhs",
+      "25l+": "₹25+ Lakhs"
+    },
+    "investmentRanges": {
+      "2-3l": "₹2-3 Lakhs",
+      "3-4l": "₹3-4 Lakhs",
+      "4-5l": "₹4-5 Lakhs",
+      "5l+": "₹5+ Lakhs"
+    },
+    "locationOwnershipOptions": {
+      "owned": "I own the location",
+      "can-arrange": "I can arrange the location",
+      "need-help": "Need help finding location"
+    },
+    "footfallRanges": {
+      "50-100": "50-100 people",
+      "100-200": "100-200 people",
+      "200-500": "200-500 people",
+      "500+": "500+ people"
+    },
+    "accountTypes": {
+      "savings": "Savings Account",
+      "current": "Current Account",
+      "cc-od": "CC/OD Account"
+    },
+    "referenceSources": {
+      "website": "Website",
+      "social-media": "Social Media",
+      "friend-referral": "Friend/Family Referral",
+      "newspaper": "Newspaper/Magazine",
+      "search-engine": "Search Engine",
+      "other": "Other"
+    },
+    "franchiseExperience": {
+      "yes-successful": "ہاں, successful experience",
+      "yes-challenges": "ہاں, faced challenges",
+      "no": "No پچھلا experience"
+    },
+    "timelines": {
+      "immediate": "Immediately",
+      "1-month": "Within 1 month",
+      "2-3-months": "2-3 months",
+      "3-6-months": "3-6 months",
+      "6-months+": "6+ months"
+    },
+    "terms": {
+      "agreeText": "I agree to the",
+      "termsLink": "Terms & Conditions",
+      "disclaimer": "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.",
+      "marketingConsent": "I agree to receive marketing communications and updates about اے ٹی ایم فرنچائز opportunities."
+    },
+    "sidebar": {
+      "successStory": {
+        "title": "Join 500+ Successful فرنچائزes",
+        "testimonial": "Starting my اے ٹی ایم فرنچائز was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
+        "name": "Rajesh Kumar",
+        "designation": "اے ٹی ایم فرنچائز Owner, Bihar"
+      },
+      "process": {
+        "title": "Application Process",
+        "steps": [
+          "جمع کریں detailed application",
+          "Initial screening & verification",
+          "Personal interview & site visit",
+          "Approval & agreement signing",
+          "Setup, training & launch"
+        ]
+      },
+      "help": {
+        "title": "Need Help?",
+        "callUs": "Call Us",
+        "emailUs": "Email Us",
+        "phone": "+91 7003554455",
+        "email": "contact@اے ٹی ایمfranchiseindia.in"
+      }
+    },
+    "benefits": {
+      "roi": {
+        "title": "High ROI Potential",
+        "description": "Earn up to 50% return on سرمایہ کاری with transparent revenue sharing"
+      },
+      "competition": {
+        "title": "Low Competition",
+        "description": "Only 15 اے ٹی ایمs per 1 lakh people - huge market opportunity"
+      },
+      "support": {
+        "title": "Complete Support",
+        "description": "End-to-end assistance from setup to operations"
+      },
+      "track": {
+        "title": "Proven Track Record",
+        "description": "Join 500+ successful فرنچائزes across India"
+      }
+    },
+    "opportunities": {
+      "agent": {
+        "title": "Join as ایجنٹ",
+        "description": "Become a field sales ایجنٹ and earn commission"
+      },
+      "franchise": {
+        "title": "Join as فرنچائز",
+        "description": "Start your own ATM کاروبار"
+      },
+      "employee": {
+        "title": "Join as Employee",
+        "description": "Build your career with full-time positions"
+      }
+    },
+    "buttons": {
+      "submit": "درخواست جمع کریں"
+    },
+    "toast": {
+      "termsRequired": {
+        "title": "Terms & Conditions ضروری",
+        "description": "براہ کرم agree to terms and conditions to proceed."
+      },
+      "success": {
+        "title": "Application جمع کریںted Successfully!",
+        "description": "Our فرنچائز team will review your application and contact you within 24-48 hours."
+      }
+    }
+  },
+  "sections": {
+    "personal": "ذاتی معلومات",
+    "contact": "رابطہ کی تفصیلات",
+    "address": "پتہ Information",
+    "business": "کاروباری معلومات",
+    "financial": "مالی معلومات",
+    "documents": "دستاویز اپ لوڈ",
+    "verification": "Verification",
+    "terms": "Terms & Conditions"
+  },
+  "form": {
+    "mandatoryFields": "All fields marked with * are mandatory",
+    "accurateInfo": "براہ کرم provide accurate information",
+    "successMessage": "Application جمع کریںted successfully!",
+    "errorMessage": "Error جمع کریںting application. Please try again.",
+    "reviewInfo": "Please review your information before جمع کریںting"
+  },
+  "forms": {
+    "gender": {
+      "label": "منتخب کریں Your Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "dateOfBirth": {
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "months": {
+      "may": "May"
+    },
+    "whatsapp": {
+      "placeholder": "WhatsApp active number"
+    },
+    "pan": {
+      "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "ریاست",
+      "placeholder": "Choose your ریاست"
+    },
+    "error": {
+      "fileUpload": "Unable to upload files. براہ کرم try again.",
+      "network": "Network error. براہ کرم check your connection.",
+      "tryAgainOrContact": "Please try again or ہم سے رابطہ کریں directly."
+    },
+    "validation": {
+      "email": "Please enter a valid ای میل ایڈریس",
+      "phone": "Please enter a valid فون نمبر",
+      "pan": "براہ کرم enter a valid PAN number",
+      "aadhaar": "براہ کرم enter a valid Aadhaar number",
+      "correctFields": "براہ کرم correct the following fields"
+    }
   }
 }

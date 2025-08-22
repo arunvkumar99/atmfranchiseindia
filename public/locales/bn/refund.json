@@ -4,7 +4,16 @@
   "sections": {
     "overview": "নীতির সারসংক্ষেপ",
     "eligibility": "ফেরতের যোগ্যতা",
-    "process": "রিফান্ড প্রক্রিয়া",
+    "process": {
+      "title": "[NEEDS TRANSLATION: sections.process.title]",
+      "intro": ", :",
+      "withInfo": "[NEEDS TRANSLATION: sections.process.withInfo]",
+      "item1": "[NEEDS TRANSLATION: sections.process.item1]",
+      "item2": "[NEEDS TRANSLATION: sections.process.item2]",
+      "item3": "[NEEDS TRANSLATION: sections.process.item3]",
+      "item4": "[NEEDS TRANSLATION: sections.process.item4]",
+      "review": "[NEEDS TRANSLATION: sections.process.review]"
+    },
     "timeline": "সময়রেখা প্রক্রিয়াকরণ",
     "exceptions": "ব্যতিক্রম",
     "contact": "রিফান্ডের জন্য যোগাযোগ করুন"

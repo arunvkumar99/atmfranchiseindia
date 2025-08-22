@@ -1,12 +1,12 @@
 {
-  "title": "ଫେରସ୍ତ ନୀତି",
-  "lastUpdated": "ଶେଷଥର ଅପଡେଟ୍‌ କରାଗଲା",
+  "title": "Refund Policy",
+  "lastUpdated": "Last Updated",
   "sections": {
-    "overview": "ନୀତିର ସାରାଂଶ",
-    "eligibility": "ରିଫଣ୍ଡ ଯୋଗ୍ୟତା",
-    "process": "ରିଫଣ୍ଡ ପ୍ରକ୍ରିୟା",
-    "timeline": "ପ୍ରକ୍ରିୟାକରଣ ସମୟସୀମା",
-    "exceptions": "ବ୍ୟତିକ୍ରମଗୁଡ଼ିକ",
-    "contact": "ରିଫଣ୍ଡ ପାଇଁ ଯୋଗାଯୋଗ କରନ୍ତୁ"
+    "overview": "Policy Overview",
+    "eligibility": "Refund Eligibility",
+    "process": "Refund Process",
+    "timeline": "Processing Timeline",
+    "exceptions": "Exceptions",
+    "contact": "Contact for Refunds"
   }
 }

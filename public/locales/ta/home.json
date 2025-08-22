@@ -46,37 +46,37 @@
       }
     },
     "roi": {
-      "title": "upto 50%",
-      "subtitle": "Return On Investment",
-      "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+      "title": "50% வரை",
+      "subtitle": "முதலீட்டின் மீதான வருமானம்",
+      "description": "RBI உரிமம் பெற்ற WLA ஏடிஎம் பங்குதாரர்களால் பெறப்பட்ட அனைத்து பணம்"
     },
     "penetration": {
-      "title": "15 Per Lac",
-      "subtitle": "Only 15 ATMs per 1 Lac People",
-      "description": "ATM Penetration in India is very Low"
+      "title": "லட்சத்திற்கு 15",
+      "subtitle": "1 லட்சம் மக்களுக்கு 15 ஏடிஎம்கள் மட்டுமே",
+      "description": "இந்தியாவில் ஏடிஎம் ஊடுருவல் மிகவும் குறைவு"
     },
     "cash": {
-      "title": "75% Cash",
-      "subtitle": "Cash Circulation",
-      "description": "Indian Economy is still Largely Cash based"
+      "title": "75% பணம்",
+      "subtitle": "பண சுழற்சி",
+      "description": "இந்திய பொருளாதாரம் இன்னும் பெரும்பாலும் பண அடிப்படையிலானது"
     },
     "potential": {
-      "title": "90% Potential",
-      "subtitle": "90% of Banks Offsite ATMs are closing down",
-      "description": "Banks Offsite ATM Closure creates a Large market for ATMs"
+      "title": "90% சாத்தியம்",
+      "subtitle": "வங்கிகளின் 90% ஆஃப்சைட் ஏடிஎம்கள் மூடப்படுகின்றன",
+      "description": "வங்கிகளின் ஆஃப்சைட் ஏடிஎம் மூடல் WLA ஏடிஎம்களுக்கு பெரிய சந்தையை உருவாக்குகிறது"
     }
   },
   "process": {
-    "title": "உங்கள் ஏடிஎம் தொழிலை 5 எளிய படிகளில் தொடங்குங்கள்.",
-    "subtitle": "விரைவான மற்றும் தொந்தரவு இல்லாத ஆன்போர்டிங் செயல்முறை",
+    "title": "எளிமையான 4-படி செயல்முறை",
+    "subtitle": "உங்கள் ஏடிஎம் உரிமை பயணத்தைத் தொடங்குங்கள்",
     "steps": {
       "apply": {
-        "title": "ஆன்லைனில் விண்ணப்பிக்கவும்",
-        "description": "எளிய ஆன்லைன் விண்ணப்பப் படிவத்தை நிரப்பவும்."
+        "title": "ஆன்லைன் விண்ணப்பிக்கவும்",
+        "description": "எளிய ஆன்லைன் படிவத்தை நிரப்பவும்"
       },
       "verification": {
-        "title": "ஆவண சரிபார்ப்பு",
-        "description": "சரிபார்ப்புக்குத் தேவையான ஆவணங்களைச் சமர்ப்பிக்கவும்."
+        "title": "சரிபார்ப்பு",
+        "description": "ஆவணங்கள் மற்றும் இட சரிபார்ப்பு"
       },
       "agreement": {
         "title": "ஒப்பந்தத்தில் கையெழுத்திடுங்கள்",
@@ -84,11 +84,11 @@
       },
       "setup": {
         "title": "ஏடிஎம் அமைப்பு",
-        "description": "முழுமையான ஏடிஎம் நிறுவல் மற்றும் அமைப்பை நாங்கள் கையாளுகிறோம்."
+        "description": "இடம் தயாரிப்பு மற்றும் நிறுவல்"
       },
       "earn": {
-        "title": "சம்பாதிக்கத் தொடங்குங்கள்",
-        "description": "செயல்பாடுகளின் முதல் நாளிலிருந்தே சம்பாதிக்கத் தொடங்குங்கள்."
+        "title": "சம்பாதிக்க தொடங்குங்கள்",
+        "description": "மாதாந்திர வருமானம் பெறுங்கள்"
       }
     }
   },
@@ -102,7 +102,7 @@
         "location": "மும்பை, மகாராஷ்டிரா",
         "business": "EPS ATM உரிமை",
         "revenue": "₹45,000/மாதம்",
-        "testimonial": "ATM Franchise India ஒவ்வொரு அடியிலும் எனக்கு வழிகாட்டியது. 8 மாதங்களுக்குள், குறைந்தபட்ச முயற்சியுடன் மாதந்தோறும் ₹45,000 சம்பாதிக்கிறேன். இதுவரை இல்லாத சிறந்த முதலீட்டு முடிவு!"
+        "testimonial": "ஏடிஎம் பிரான்சைஸ் இந்தியா ஒவ்வொரு அடியிலும் எனக்கு வழிகாட்டியது. 8 மாதங்களுக்குள், குறைந்தபட்ச முயற்சியுடன் மாதந்தோறும் ₹45,000 சம்பாதிக்கிறேன். இதுவரை இல்லாத சிறந்த முதலீட்டு முடிவு!"
       },
       "priya": {
         "name": "பிரியா சர்மா",
@@ -147,7 +147,7 @@
     "contact": "அல்லது எங்களை அழைக்கவும்"
   },
   "benefits": {
-    "title": "ஏடிஎம் உரிமையின் நன்மைகள்",
+    "title": "ஏன் ஏடிஎம் உரிமையாளராக வேண்டும்?",
     "items": {
       "passive": "செயலற்ற வருமான ஸ்ட்ரீம்",
       "scalable": "அளவிடக்கூடிய வணிக மாதிரி",
@@ -163,8 +163,8 @@
     "monthlyTransactions": "மாதாந்திர பரிவர்த்தனைகள்",
     "citiesCovered": "உள்ளடக்கப்பட்ட நகரங்கள்",
     "yearsExperience": "அனுபவ ஆண்டுகள்",
-    "atmsAcrossIndia": "ATMs across India",
-    "andCounting": "and counting..."
+    "atmsAcrossIndia": "இந்தியா முழுவதும் ஏடிஎம்கள்",
+    "andCounting": "மற்றும் எண்ணிக்கை அதிகரிக்கிறது..."
   },
   "whyAtm": {
     "title": "ஏன் ஏடிஎம் வணிகம்",
@@ -220,7 +220,7 @@
   },
   "faq": {
     "badge": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
-    "title": "நீங்கள் தெரிந்து கொள்ள வேண்டிய அனைத்தும்",
+    "title": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
     "subtitle": "உங்கள் ATM உரிமையாளர் தொழிலைத் தொடங்குவது பற்றிய பொதுவான கேள்விகளுக்கான பதில்களைப் பெறுங்கள்.",
     "items": {
       "investment": {
@@ -344,71 +344,75 @@
       "partners": "செயலில் உள்ள கூட்டாளர்கள்",
       "uptime": "இயக்க நேர உத்தரவாதம்",
       "experience": "தொழில் அனுபவம்",
-      "support": "வாடிக்கையாளர் ஆதரவு"
+      "support": "வாடிக்கையாளர் ஆதரவு",
+      "partnersValue": "1000+",
+      "uptimeValue": "99.9%",
+      "experienceValue": "5+ Years",
+      "supportValue": "24/7"
     }
   },
   "valueProps": {
-    "title": "Why ATM Business?",
-    "subtitle": "Zero Loss and Fully Transparent Business Opportunity from RBI Licensed Companies",
-    "perfectTime": "Perfect Time for ATM Business in Rural India",
-    "investmentRange": "Investment Range: ₹2-5 Lakhs",
+    "title": "ஏடிஎம் வணிகம் ஏன்?",
+    "subtitle": "பூஜ்ஜிய இழப்பு மற்றும் முழுமையான வெளிப்படையான வணிக வாய்ப்பு",
+    "perfectTime": "கிராமப்புற இந்தியாவில் ஏடிஎம் வணிகத்திற்கான சரியான நேரம்",
+    "investmentRange": "முதலீட்டு வரம்பு: ₹2-5 லட்சம்",
     "bullets": {
-      "digitalAdoption": "Digital Adoption Growing",
-      "governmentPush": "Government Push for Financial Inclusion",
-      "bankClosures": "Bank Branch Closures"
+      "digitalAdoption": "டிஜிட்டல் ஏற்றுக்கொள்ளல் வளர்ந்து வருகிறது",
+      "governmentPush": "நிதி உள்ளடக்கத்திற்கான அரசாங்க உந்துதல்",
+      "bankClosures": "வங்கி கிளை மூடல்கள்"
     },
     "stats": {
       "roi": {
-        "prefix": "upto ",
+        "prefix": "வரை ",
         "value": "50",
         "suffix": "%",
-        "label": "Return On Investment",
-        "description": "All Payout Received by RBI Licensed WLA ATM Partners"
+        "label": "வருவாய் மீதான வருமானம்",
+        "description": "RBI உரிமம் பெற்ற WLA ATM கூட்டாளர்களால் பெறப்பட்ட அனைத்து பணம்"
       },
       "penetration": {
         "value": "15",
         "suffix": " Per Lac",
-        "label": "ATM Penetration",
-        "description": "Only 15 ATMs per 1 Lac People - ATM Penetration in India is very Low"
+        "label": "ஏடிஎம் ஊடுருவல்",
+        "description": "1 லட்சம் மக்களுக்கு 15 ஏடிஎம்கள் மட்டுமே - இந்தியாவில் ஏடிஎம் ஊடுருவல் மிகவும் குறைவு"
       },
       "cash": {
         "value": "75",
         "suffix": "% Cash",
-        "label": "Cash Circulation",
-        "description": "Indian Economy is still Largely Cash based"
+        "label": "பண புழக்கம்",
+        "description": "இந்திய பொருளாதாரம் இன்னும் பெரும்பாலும் பண அடிப்படையிலானது"
       },
       "potential": {
         "value": "90",
         "suffix": "% Potential",
-        "label": "Market Opportunity",
-        "description": "90% of Banks Offsite ATMs are closing down - Banks Offsite ATM Closure creates a Large market for ATMs"
+        "label": "சந்தை வாய்ப்பு",
+        "description": "90% வங்கிகளின் ஆஃப்சைட் ஏடிஎம்கள் மூடப்படுகின்றன - வங்கிகளின் ஆஃப்சைட் ஏடிஎம் மூடல் ஏடிஎம்களுக்கு பெரிய சந்தையை உருவாக்குகிறது"
       }
     }
   },
   "whyChoose": {
-    "badge": "Our Advantage",
-    "title": "Why Choose",
-    "titleHighlight": "ATM Franchise India?",
-    "subtitle": "Experience the difference with our comprehensive support system and industry expertise",
+    "badge": "எங்கள் நன்மை",
+    "title": "ஏன் தேர்வு செய்ய வேண்டும்",
+    "titleHighlight": "ஏடிஎம் பிரான்சைஸ் இந்தியா?",
+    "subtitle": "எங்கள் விரிவான ஆதரவு அமைப்பு மற்றும் தொழில் நிபுணத்துவத்துடன் வித்தியாசத்தை அனுபவிக்கவும்",
     "cta": {
-      "partners": "Join 500+ successful franchise partners"
+      "partners": "500+ வெற்றிகரமான உரிமை கூட்டாளர்களுடன் இணையுங்கள்"
     },
     "features": {
       "trusted": {
-        "title": "Trusted ATM Franchise Information",
-        "description": "Gain accurate and verified insights into the ATM industry. As a regulated sector, the ATM business often sees widespread misinformation. Our representatives ensure you receive reliable, fact-based guidance to make informed franchise decisions."
+        "title": "நம்பகமான ஏடிஎம் உரிமை தகவல்",
+        "description": "ஏடிஎம் தொழிலில் துல்லியமான மற்றும் சரிபார்க்கப்பட்ட நுண்ணறிவுகளைப் பெறுங்கள். ஒழுங்குபடுத்தப்பட்ட துறையாக, ஏடிஎம் வணிகம் பெரும்பாலும் பரவலான தவறான தகவல்களைக் காண்கிறது. எங்கள் பிரதிநிதிகள் நீங்கள் தகவலறிந்த உரிமை முடிவுகளை எடுக்க நம்பகமான, உண்மை அடிப்படையிலான வழிகாட்டுதலைப் பெறுவதை உறுதி செய்கிறார்கள்."
       },
       "guidance": {
-        "title": "Expert Guidance on WLA Operators",
-        "description": "Let us help you choose the right White Label ATM partner. Many operators exaggerate their offerings and mislead investors. We provide unbiased comparisons of all major WLA operators—highlighting their strengths and weaknesses—to ensure you find the perfect fit for your business."
+        "title": "WLA ஆபரேட்டர்கள் குறித்த நிபுணர் வழிகாட்டுதல்",
+        "description": "சரியான வெள்ளை லேபிள் ஏடிஎம் கூட்டாளரைத் தேர்ந்தெடுக்க உங்களுக்கு உதவுகிறோம். பல ஆபரேட்டர்கள் தங்கள் சலுகைகளை மிகைப்படுத்தி முதலீட்டாளர்களை தவறாக வழிநடத்துகின்றனர். அனைத்து முக்கிய WLA ஆபரேட்டர்களின் பாரபட்சமற்ற ஒப்பீடுகளை வழங்குகிறோம் - அவர்களின் பலம் மற்றும் பலவீனங்களை எடுத்துக்காட்டுகிறோம் - உங்கள் வணிகத்திற்கு சரியான பொருத்தத்தைக் கண்டறிய உறுதி செய்கிறோம்."
       },
       "digital": {
-        "title": "Boost Your Digital Presence",
-        "description": "Already running an ATM franchise? Register with us to increase your digital reach and enhance your online branding. Connect with more customers and grow your visibility in the market."
+        "title": "உங்கள் டிஜிட்டல் இருப்பை அதிகரிக்கவும்",
+        "description": "ஏற்கனவே ஏடிஎம் உரிமை நடத்துகிறீர்களா? உங்கள் டிஜிட்டல் அணுகலை அதிகரிக்கவும் உங்கள் ஆன்லைன் பிராண்டிங்கை மேம்படுத்தவும் எங்களுடன் பதிவு செய்யுங்கள். அதிக வாடிக்கையாளர்களுடன் இணையுங்கள் மற்றும் சந்தையில் உங்கள் தெரிவுநிலையை வளர்த்துக் கொள்ளுங்கள்."
       },
       "support": {
-        "title": "End-to-End Franchise Support",
-        "description": "With 4+ years of experience across all WLA brands, we handle everything: Franchise onboarding, Training & operational setup, Local promotions & brand visibility, Technical support & troubleshooting, Bank account settlements, Dispute resolution with WLA operators. We're your one-stop solution for ATM business success."
+        "title": "முழுமையான உரிமை ஆதரவு",
+        "description": "அனைத்து WLA பிராண்டுகளிலும் 4+ ஆண்டுகள் அனுபவத்துடன், நாங்கள் அனைத்தையும் கையாளுகிறோம்: உரிமை ஆன்போர்டிங், பயிற்சி & செயல்பாட்டு அமைப்பு, உள்ளூர் விளம்பரங்கள் & பிராண்ட் தெரிவுநிலை, தொழில்நுட்ப ஆதரவு & சரிசெய்தல், வங்கிக் கணக்கு தீர்வுகள், WLA ஆபரேட்டர்களுடன் சர்ச்சை தீர்வு. ஏடிஎம் வணிக வெற்றிக்கு நாங்கள் உங்கள் ஒரே நிறுத்த தீர்வு."
       }
     }
   },

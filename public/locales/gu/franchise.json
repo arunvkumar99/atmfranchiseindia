@@ -2,163 +2,183 @@
   "content": {
     "become_an": "Become an",
     "partner": "Partner",
-    "trusted_atm_franchise_partner": "Trusted ATM Franchise Partner",
+    "trusted_atm_franchise_partner": "Trusted એટીએમ ફ્રાન્ચાઇઝી Partner",
     "simple_4step_process": "Simple 4-Step Process"
   },
   "hero": {
-    "badge": "વિશ્વસનીય ATM ફ્રેન્ચાઇઝ પાર્ટનર",
+    "badge": "Trusted એટીએમ ફ્રાન્ચાઇઝી Partner",
     "title": {
-      "line1": "બનો",
-      "line2": "એટીએમ ફ્રેન્ચાઇઝ",
-      "line3": "જીવનસાથી"
+      "line1": "Become an",
+      "line2": "એટીએમ ફ્રાન્ચાઇઝી",
+      "line3": "Partner"
     },
     "description": {
-      "part1": "જોડાઓ",
-      "successfulPartners": "૨૦૦+ સફળ ભાગીદારો",
-      "part2": "અને શરૂ કરો તમારું",
-      "profitableBusiness": "નફાકારક એટીએમ વ્યવસાય",
-      "part3": "આજે સાથે",
-      "minimalInvestment": "ન્યૂનતમ રોકાણ"
+      "part1": "Join",
+      "successfulPartners": "200+ સફળતાful partners",
+      "part2": "and start your",
+      "profitableBusiness": "profitable ATM વ્યવસાય",
+      "part3": "today with",
+      "minimalInvestment": "minimal રોકાણ"
     },
     "cta": {
-      "apply": "ફ્રેન્ચાઇઝ માટે અરજી કરો",
-      "learnMore": "વધુ જાણો"
+      "apply": "અરજી કરો for Franchise",
+      "learnMore": "Learn More"
     },
     "benefits": {
       "quickRoi": {
-        "title": "ઝડપી ROI",
-        "description": "સાબિત બિઝનેસ મોડેલ સાથે રોકાણ પર ઝડપી વળતર"
+        "title": "Quick ROI",
+        "description": "Fast return on investment with proven વ્યવસાય model"
       },
       "support": {
-        "title": "સમર્પિત સપોર્ટ",
-        "description": "અમારી નિષ્ણાત ટીમ તરફથી 24/7 ટેકનિકલ અને બિઝનેસ સપોર્ટ"
+        "title": "Dedicated Support",
+        "description": "24/7 technical and વ્યવસાય support from our expert team"
       },
       "network": {
-        "title": "સાબિત નેટવર્ક",
-        "description": "ભારતભરના 500+ સફળ ફ્રેન્ચાઇઝ ભાગીદારો સાથે જોડાઓ"
+        "title": "Proven Network",
+        "description": "Join 500+ successful ફ્રાન્ચાઇઝી partners across India"
       },
       "training": {
-        "title": "તાલીમ શામેલ છે",
-        "description": "વ્યાપક તાલીમ અને ચાલુ સહાય પૂરી પાડવ���માં આવે છે"
+        "title": "Training Included",
+        "description": "Comprehensive training and ongoing support provided"
       }
     },
     "process": {
-      "title": "કેવી રીતે શરૂઆત કરવી",
+      "title": "How to શરૂ કરો",
       "steps": {
         "apply": {
           "title": "અરજી કરો",
-          "description": "તમારી ફ્રેન્ચાઇઝ અરજી ઓનલાઈન સબમિટ કરો"
+          "description": "સબમિટ કરો your franchise application online"
         },
         "agreement": {
-          "title": "કરાર",
-          "description": "દસ્તાવેજો પૂર્ણ કરો અને કરાર પર સહી કરો"
+          "title": "Agreement",
+          "description": "Complete documentation and sign agreement"
         },
         "installation": {
-          "title": "ઇન્સ્ટોલેશન",
-          "description": "અમે ATM સેટઅપ અને ઇન્સ્ટોલેશનનું સંચાલન કરીએ છીએ"
+          "title": "Installation",
+          "description": "We handle એટીએમ setup and installation"
         },
         "earn": {
-          "title": "કમાણી શરૂ કરો",
-          "description": "માસિક નિષ્ક્રિય આવક મેળવવાનું શરૂ કરો"
+          "title": "Start Earning",
+          "description": "Begin receiving monthly passive income"
         }
       }
     },
     "stats": {
-      "partners": "સક્રિય ભાગીદારો",
-      "atms": "એટીએમ તૈનાત",
-      "transactions": "માસિક વ્યવહારો",
-      "support": "સપોર્ટ ઉપલબ્ધ છે"
+      "partners": "Active Partners",
+      "atms": "એટીએમs Deployed",
+      "transactions": "Monthly Transactions",
+      "support": "Support Available"
     }
   },
   "enquiryForm": {
-    "title": "તમારી ATM ફ્રેન્ચાઇઝ જર્ની શરૂ કરો",
-    "subtitle": "તમારા વિસ્તારમાં ATM ફ્રેન્ચાઇઝીની તકો વિશે વ્યક્તિગત માહિતી મેળવવા માટે અમારું વિગતવાર પૂછપરછ ફોર્મ ભરો.",
+    "title": "Start Your એટીએમ ફ્રાન્ચાઇઝી Journey",
+    "subtitle": "Fill out our detailed enquiry form to get personalized information about એટીએમ ફ્રાન્ચાઇઝી opportunities in your area.",
     "fields": {
       "name": "પૂરું નામ",
-      "email": "ઇમેઇલ સરનામું",
+      "email": "ઈમેલ સરનામું",
       "phone": "ફોન નંબર",
       "state": "રાજ્ય",
       "city": "શહેર",
-      "investment": "રોકાણ ક્ષમતા",
-      "experience": "વ્યવસાયિક અનુભવ",
-      "message": "વધા��ાની માહિતી",
-      "consent": "હું ફ્રેન્ચાઇઝ તકો વિશે અપડેટ્સ મેળવવા માટે સંમત છું."
+      "investment": "Investment Capaશહેર",
+      "experience": "વ્યવસાય Experience",
+      "message": "Additional Information",
+      "consent": "I agree to receive updates about ફ્રાન્ચાઇઝી opportunities"
     },
-    "submit": "પૂછપરછ સબમિટ કરો",
-    "submitting": "સબમિટ કરી રહ્યું છે...",
-    "success": "આભાર! અમે 24 કલાકની અંદર તમારો સંપર્ક કરીશું.",
-    "error": "કંઈક ખોટું થયું. કૃપા કરીને ફરી પ્રયાસ કરો."
+    "submit": "સબમિટ કરો Enquiry",
+    "submitting": "સબમિટ કરોting...",
+    "success": "આભાર! We'll contact you within 24 hours.",
+    "error": "Something went wrong. કૃપા કરીને try again."
   },
   "whyAtm": {
-    "title": "એટીએમ ફ્રેન્ચાઇઝ શા માટે પસંદ કરવી?",
-    "subtitle": "ભારતના અગ્રણી ATM ફ્રેન્ચાઇઝ નેટવર્ક સાથે ભાગીદારીના ફાયદાઓ શોધો",
+    "title": "Why Choose એટીએમ ફ્રાન્ચાઇઝી?",
+    "subtitle": "Discover the benefits of partnering with India's leading એટીએમ ફ્રાન્ચાઇઝી network",
     "benefits": {
       "highReturns": {
-        "title": "ઉચ્ચ વળતર",
-        "description": "ત���ારા રોકાણ પર 20% સુધી વાર્ષિક વળતર મેળવો"
+        "title": "High Returns",
+        "description": "Earn up to 20% annual returns on your રોકાણ"
       },
       "passiveIncome": {
-        "title": "નિષ્ક્રિય આવક",
-        "description": "ઓછામાં ઓછા પ્રયત્નો સાથે સ્થિર માસિક આવક મેળવો"
+        "title": "Passive Income",
+        "description": "Generate steady monthly income with minimal effort"
       },
       "lowMaintenance": {
-        "title": "ઓછી જાળવણી",
-        "description": "અમે તમામ ટેકનિકલ જાળવણી અને રોકડ વ્યવસ્થાપન સંભાળીએ છીએ."
+        "title": "Low Maintenance",
+        "description": "We handle all technical maintenance and cash management"
       },
       "governmentSupport": {
-        "title": "સરકારી સહાય",
-        "description": "નાણાકીય સમાવેશ માટે સરકારી પહેલનો લાભ મેળવો"
+        "title": "Government Support",
+        "description": "Benefit from government initiatives for financial inclusion"
       },
       "growingMarket": {
-        "title": "વિકસતું બજાર",
-        "description": "ભારતના ઝડપથી વિકસતા ડિજિટલ પેમેન્ટ ઇકોસિસ્ટમનો લાભ લો"
+        "title": "Growing Market",
+        "description": "Tap into India's rapidly expanding digital payment ecosystem"
       },
       "brandValue": {
-        "title": "બ્રાન���ડ વેલ્યુ",
-        "description": "અમારા સ્થાપિત બ્રાન્ડ અને સાબિત બિઝનેસ મોડેલનો લાભ લો"
+        "title": "Brand Value",
+        "description": "Leverage our established brand and proven વ્યવસાય model"
       }
     }
   },
   "services": {
-    "title": "અમારી વ્યાપક સેવાઓ",
-    "subtitle": "સફળ ATM ફ્રેન્ચાઇઝી ચલાવવા માટે તમારે જે જોઈએ છે તે બધું",
+    "title": "Our Comprehensive Services",
+    "subtitle": "Everything you need to run a successful એટીએમ ફ્રાન્ચાઇઝી",
     "items": {
       "siteSelection": {
-        "title": "સાઇટ પસંદગી",
-        "description": "વધુ ટ્રાફિકવાળા સ્થળો ઓળખવામાં નિષ્ણાતની સહાય"
+        "title": "Site પસંદ કરોion",
+        "description": "Expert assistance in identifying high-traffic locations"
       },
       "installation": {
-        "title": "ઇન્સ્ટોલેશન",
-        "description": "ATM સેટઅપ અને ગોઠવણી પૂર્ણ કરો"
+        "title": "Installation",
+        "description": "Complete એટીએમ setup and configuration"
       },
       "cashManagement": {
-        "title": "રોકડ વ્યવસ્થાપન",
-        "description": "નિયમિત રોકડ ભરપાઈ અને સમાધાન"
+        "title": "Cash Management",
+        "description": "Regular cash replenishment and reconciliation"
       },
       "maintenance": {
-        "title": "જાળવણી",
-        "description": "24/7 ટેકનિકલ સપોર્ટ અને નિયમિત સર્વિસિંગ"
+        "title": "Maintenance",
+        "description": "24/7 technical support and regular servicing"
       },
       "compliance": {
-        "title": "પાલન",
-        "description": "સંપૂર્ણ નિયમનકારી પાલન અને દસ્તાવેજીકરણ"
+        "title": "Compliance",
+        "description": "Full regulatory compliance and documentation"
       },
       "marketing": {
-        "title": "માર્કેટિંગ સપોર્ટ",
-        "description": "પ્રમોશનલ સામગ્રી અને સ્થાનિક માર્કેટિંગ સહાય"
+        "title": "Marketing Support",
+        "description": "Promotional materials and local marketing assistance"
       }
     }
   },
   "comparison": {
-    "title": "ફ્રેન્ચાઇઝ મોડેલ્સની સરખામણી",
-    "subtitle": "તમારી રોકાણ ક્ષમતાને અનુરૂપ ફ્રેન્ચાઇઝ મોડેલ પસંદ કરો",
+    "title": "ફ્રાન્ચાઇઝી Models Comparison",
+    "subtitle": "Choose the franchise model that suits your investment capaશહેર",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "bestReturns": "Best Returns",
+      "lowInvestment": "Low રોકાણ",
+      "premiumModel": "Premium Model"
+    },
+    "tsifindi": {
+      "name": "TSI/FINDI",
+      "description": "Premium ફ્રાન્ચાઇઝી model with highest returns",
+      "feature1": "Complete training & support",
+      "feature2": "Marketing assistance",
+      "feature3": "Priority locations",
+      "feature4": "Dedicated manager",
+      "feature5": "24/7 technical support"
+    },
+    "investmentDetails": "રોકાણ Details",
+    "revenueStreams": "આવક Streams",
+    "keyFeatures": "Key Features",
+    "interestedIn": "Interested in this model?",
+    "getStartedWith": "શરૂ કરો",
     "models": {
       "basic": {
-        "name": "મૂળભૂત",
-        "investment": "₹2-5 લાખ",
-        "atms": "૧-૨ એટીએમ",
-        "roi": "૧૫-૧૮% વાર્ષિક",
-        "support": "માનક સપોર્ટ",
+        "name": "Basic",
+        "investment": "₹2-5 Lakhs",
+        "atms": "1-2 એટીએમs",
+        "roi": "15-18% Annual",
+        "support": "Standard Support",
         "features": [
           "Single location setup",
           "Basic training program",
@@ -167,11 +187,11 @@
         ]
       },
       "professional": {
-        "name": "વ્યાવસાયિક",
-        "investment": "₹૫-૧૦ લાખ",
-        "atms": "૩-૫ એટીએમ",
-        "roi": "૧૮-૨૨% વાર્ષિક",
-        "support": "પ્રાથમિકતા સપોર્ટ",
+        "name": "Professional",
+        "investment": "₹5-10 Lakhs",
+        "atms": "3-5 એટીએમs",
+        "roi": "18-22% Annual",
+        "support": "Priority Support",
         "features": [
           "Multiple location setup",
           "Advanced training program",
@@ -182,11 +202,11 @@
         "popular": true
       },
       "enterprise": {
-        "name": "એન્ટરપ્રાઇઝ",
-        "investment": "₹૧૦+ લાખ",
-        "atms": "6+ એટીએમ",
-        "roi": "૨૨-૨૫% વાર્ષિક",
-        "support": "પ્રીમિયમ સપોર્ટ",
+        "name": "Enterprise",
+        "investment": "₹10+ Lakhs",
+        "atms": "6+ એટીએમs",
+        "roi": "22-25% Annual",
+        "support": "Premium Support",
         "features": [
           "Unlimited locations",
           "Executive training program",
@@ -197,50 +217,54 @@
         ]
       }
     },
-    "cta": "તમારો પ્લાન પસંદ કરો"
+    "cta": "પસંદ કરો Your Plan"
   },
   "wlaOperators": {
-    "title": "ભારતમાં અગ્રણી WLA ઓપરેટરો",
-    "subtitle": "ATM કામગીરીમાં સૌથી વિશ્વસનીય નામો સાથે ભાગીદારી કરો",
-    "description": "અમે તમને શ્રેષ્ઠ તકો પૂરી પાડવા માટે તમામ મુખ્ય વ્હાઇટ લેબલ એટીએમ ઓપરેટરો સાથે કામ કરીએ છીએ."
+    "title": "Leading WLA Operators in India",
+    "subtitle": "Partner with the most trusted names in એટીએમ operations",
+    "description": "We work with all major White Label એટીએમ operators to provide you the best opportunities"
+  },
+  "rbiLicensed": {
+    "title": "RBI Licensed WLA Operators",
+    "subtitle": "Partner with authorized and regulated operators"
   },
   "faq": {
-    "title": "વારંવાર પૂછાતા પ્રશ્નો",
-    "subtitle": "ATM ફ્રેન્ચાઇઝી વિશેના સામાન્ય પ્રશ્નોના જવાબો મેળવો",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about એટીએમ ફ્રાન્ચાઇઝી",
     "questions": {
       "investment": {
-        "question": "ઓછામાં ઓછું કેટલું રોકાણ જરૂરી છે?",
-        "answer": "૧-૨ એટીએમ ધરાવતા બેઝિક ફ્રેન્ચાઇઝ મોડેલ માટે લઘુત્તમ રોકાણ ₹૨ લાખથી શરૂ થાય છે."
+        "question": "What is the minimum રોકાણ required?",
+        "answer": "The minimum રોકાણ starts from ₹2 lakhs for a basic franchise model with 1-2 ATMs."
       },
       "returns": {
-        "question": "હું કેવા પ્રકારના વળતરની અપેક્ષા રાખી શકું છું?",
-        "answer": "સ્થાન અને વ્યવહારના જથ્થાના આધારે તમે 15-25% વાર્ષિક વળતરની અપેક્ષા રાખી શકો છો."
+        "question": "What kind of returns can I expect?",
+        "answer": "You can expect 15-25% annual returns depending on location and transaction volume."
       },
       "support": {
-        "question": "તમે કઈ સહાય પૂરી પાડો છો?",
-        "answer": "અમે સાઇટ પસંદગી, ઇન્સ્ટોલેશન, જાળવણી, રોકડ વ્યવસ્થાપન અને 24/7 તકનીકી સહાય સહિત સંપૂર્ણ સહાય પૂરી પાડીએ છીએ."
+        "question": "What support do you provide?",
+        "answer": "We provide complete support including site પસંદ કરોion, installation, maintenance, cash management, and 24/7 technical assistance."
       },
       "experience": {
-        "question": "શું મને પહેલાના અનુભવની જરૂર છે?",
-        "answer": "કોઈ પૂર્વ અનુભવ જરૂરી નથી. અમે વ્યાપક તાલીમ અને સતત સહાય પૂરી પાડીએ છીએ."
+        "question": "Do I need prior experience?",
+        "answer": "ના prior experience is required. We provide comprehensive training and ongoing support."
       },
       "locations": {
-        "question": "શું હું મારા ATM સ્થાનો પસંદ કરી શ��ું?",
-        "answer": "હા, તમે સ્થાનો સૂચવી શકો છો. અમારી ટીમ મહત્તમ વળતર માટે શ્રેષ્ઠ સ્થાનોનું મૂલ્યાંકન અને અંતિમ સ્વરૂપ આપવામાં મદદ કરશે."
+        "question": "Can I choose my એટીએમ locations?",
+        "answer": "હા, you can suggest locations. Our team will help evaluate and finalize the best spots for maximum returns."
       },
       "contract": {
-        "question": "કરારનો સમયગાળો કેટલો છે?",
-        "answer": "માનક ફ્રેન્ચાઇઝ કરાર 5 વર્ષ માટે છે જેમાં રિન્યુ કરવાનો વિકલ્પ છે."
+        "question": "What is the contract duration?",
+        "answer": "The standard ફ્રાન્ચાઇઝી agreement is for 5 years with an option to renew."
       }
     }
   },
   "getStarted": {
-    "title": "તમારી ATM ફ્રેન્ચાઇઝી શરૂ કરવા માટે તૈયાર છો?",
-    "subtitle": "આજે જ ભારતના સૌથી ઝડપથી વિકસતા ATM નેટવર્કમાં જોડાઓ",
+    "title": "Ready to Start Your એટીએમ ફ્રાન્ચાઇઝી?",
+    "subtitle": "Join India's fastest growing એટીએમ network today",
     "cta": {
-      "apply": "હવે અરજી કરો",
-      "call": "અમને કૉલ કરો",
-      "schedule": "મીટિંગ શેડ્યૂલ કરો"
+      "apply": "અરજી કરો Now",
+      "call": "Call Us",
+      "schedule": "Schedule Meeting"
     }
   }
 }

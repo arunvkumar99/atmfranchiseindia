@@ -1,97 +1,209 @@
 {
   "labels": {
-    "fullName": "Full Name",
-    "email": "Email Address",
-    "phone": "Phone Number"
+    "fullName": "પૂરું નામ",
+    "email": "ઈમેલ સરનામું",
+    "phone": "ફોન નંબર",
+    "state": "રાજ્ય",
+    "city": "શહેર",
+    "message": "સંદેશ",
+    "noticePeriod": "નાtice Period",
+    "permanentAddress": "Permanent સરનામું",
+    "currentAddress": "Current સરનામું",
+    "panDocumentUpload": "PAN દસ્તાવેજ અપલોડ",
+    "aadhaarFront": "Aadhaar Front Side",
+    "aadhaarBack": "Aadhaar પાછળ Side",
+    "passportPhoto": "Passport Size Photo",
+    "dateOfBirthPan": "જન્મ તારીખ as in PAN Card",
+    "districtOfResidence": "District of Residence",
+    "aadhaarNumber": "Aadhaar Card Number (12 digits)",
+    "languagesYouSpeak": "Languages You Can Speak",
+    "whyJoinAgent": "Why do you want to Join Sahasra Network as એજન્ટ",
+    "joiningAs": "Are you Joining As (કૃપા કરીને choose from Below):",
+    "professionalDetails": "Professional Details & Documents",
+    "onetime_cost": "One-time Cost",
+    "refundable_deposit": "Refundable Deposit",
+    "clf_working_capital": "CLF & Working Capital",
+    "cash_transaction": "Cash Transaction",
+    "noncash_transaction": "નાn-cash Transaction",
+    "ad_revenue_share": "Ad આવક Share"
+  },
+  "buttons": {
+    "submit": "સબમિટ કરો",
+    "next": "આગળ",
+    "previous": "અગાઉનું",
+    "cancel": "રદ કરો",
+    "saveDraft": "સેવ કરો Draft",
+    "submitApplication": "અરજી સબમિટ કરો",
+    "apply": "અરજી કરો Now",
+    "register": "નોંધણી કરો",
+    "continue": "ચાલુ રાખો"
   },
   "fields": {
     "fullName": "પૂરું નામ",
     "firstName": "પ્રથમ નામ",
     "lastName": "છેલ્લું નામ",
-    "email": "ઇમેઇલ સરનામું",
+    "email": "ઈમેલ સરનામું",
     "phone": "ફોન નંબર",
-    "alternatePhone": "વૈકલ્પિક ફોન નંબર",
-    "whatsapp": "વોટ્સએપ નંબર",
+    "alternatePhone": "Alternate ફોન નંબર",
+    "whatsapp": "WhatsApp Number",
     "address": "સરનામું",
-    "street": "શેરીનું સરનામું",
+    "street": "Street સરનામું",
     "city": "શહેર",
     "state": "રાજ્ય",
     "pincode": "પિન કોડ",
     "country": "દેશ",
     "message": "સંદેશ",
-    "comments": "ટિપ્પણીઓ",
-    "experience": "અનુભવ",
-    "qualification": "લાયકાત",
-    "occupation": "વર્તમાન વ્યવસાય",
-    "businessType": "વ્યવસાયનો પ્રકાર",
-    "investment": "રોકાણ ક્ષમતા",
-    "preferredLocation": "પસંદગીનું સ્થાન",
-    "shopName": "દુકાન/વ્યવસાયનું નામ",
-    "shopAddress": "દુકાનનું સરનામું",
-    "monthlyIncome": "માસિક આવક",
-    "businessExperience": "વ્યવસાયિક અનુભવ (વર્ષો)",
-    "howDidYouHear": "તમને અમારા વિશે કેવી રીતે ખબર પડી?",
-    "agreeTerms": "હું નિયમો અને શરતો સાથે સંમત છું.",
-    "newsletter": "ન્યૂઝલેટર પર સબ્સ્ક્રાઇબ કરો",
-    "captcha": "કેપ્ચા દાખલ કરો"
+    "comments": "Comments",
+    "experience": "Experience",
+    "qualification": "Qualification",
+    "occupation": "Current Occupation",
+    "businessType": "વ્યવસાય Type",
+    "investment": "Investment Capaશહેર",
+    "preferredLocation": "Preferred Location",
+    "shopName": "Shop/વ્યવસાય Name",
+    "shopAddress": "Shop સરનામું",
+    "monthlyIncome": "Monthly Income",
+    "businessExperience": "વ્યવસાય Experience (Years)",
+    "howDidYouHear": "How did you hear અમારા વિશે?",
+    "agreeTerms": "I agree to the terms and conditions",
+    "newsletter": "Subscribe to newsletter",
+    "captcha": "Enter captcha"
+  },
+  "dateOfBirth": {
+    "day": "Day"
+  },
+  "whatsapp": {
+    "placeholder": "WhatsApp active number"
+  },
+  "pan": {
+    "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+    "placeholder": "ABCDE1234F"
+  },
+  "state": {
+    "label": "રાજ્ય",
+    "placeholder": "Choose your રાજ્ય"
+  },
+  "months": {
+    "may": "May"
+  },
+  "gender": {
+    "label": "પસંદ કરો Your Gender"
+  },
+  "error": {
+    "fileUpload": "Unable to upload files. કૃપા કરીને try again.",
+    "network": "Network error. કૃપા કરીને check your connection.",
+    "tryAgainOrContact": "Please try again or અમારો સંપર્ક કરો directly."
   },
   "placeholders": {
-    "fullName": "તમારું પૂરું નામ દાખલ કરો",
-    "email": "Enter your email address",
+    "fullName": "Enter your પૂરું નામ",
+    "email": "Enter your ઈમેલ સરનામું",
     "phone": "10-digit mobile number",
-    "message": "Type your message here...",
-    "city": "Enter city",
-    "state": "Choose your state",
-    "searchCity": "શહેર શોધો...",
-    "selectOption": "એક વિકલ્પ પસંદ કરો",
-    "uploadFile": "ફાઇલ પસંદ કરો અથવા અહીં ખેંચો",
+    "message": "Type your સંદેશ here...",
+    "city": "Enter શહેર",
+    "state": "Choose your રાજ્ય",
+    "searchCity": "Search શહેર...",
+    "selectOption": "પસંદ કરો an option",
+    "uploadFile": "પસંદ કરો file or drag here",
     "pincode": "6-digit pincode",
-    "full_name": "Enter your full name",
-    "full_name_pan": "Enter your full name as per PAN card",
+    "full_name": "Enter your પૂરું નામ",
+    "full_name_pan": "Enter your પૂરું નામ as per PAN card",
     "phone_primary": "Primary contact number",
     "whatsapp": "WhatsApp number",
     "pan": "ABCDE1234F",
     "aadhaar": "123456789012 (12 digits only)",
-    "address": "Enter complete address",
+    "address": "Enter complete સરનામું",
     "address_line1": "House/Building number, Street name",
     "address_line2": "Area, Landmark",
-    "your_city": "Your city",
+    "your_city": "Your શહેર",
     "district": "Enter your district",
-    "business_type": "Select business type"
+    "business_type": "Select વ્યવસાય type",
+    "enterYourDistrict": "Enter your district",
+    "enterYourPermanentAddress": "Enter your permanent સરનામું",
+    "enterYourCurrentAddress": "Enter your current સરનામું",
+    "motivationAndGoals": "Tell us about your motivation and goals as an એજન્ટ",
+    "day": "Day",
+    "primaryPhone": "Primary contact number",
+    "whatsappNumber": "WhatsApp active number",
+    "emailAddress": "Enter your ઈમેલ સરનામું",
+    "panFormat": "ABCDE1234F",
+    "aadhaarNumber": "123456789012",
+    "aadhaarFormat": "123456789012 (12 digits only)",
+    "permanentAddress": "Enter your permanent સરનામું here",
+    "currentAddress": "Enter your current સરનામું here",
+    "chooseState": "Choose your રાજ્ય",
+    "enterDistrict": "Enter your district",
+    "agentMotivation": "Tell us about your motivation and goals as an એજન્ટ",
+    "selectJobPosition": "Select the position you're અરજી કરોing for",
+    "selectNoticePeriod": "Select your નાtice period",
+    "firstName": "Enter પ્રથમ નામ",
+    "lastName": "Enter છેલ્લું નામ",
+    "addressLine1": "House/Building number, Street name",
+    "addressLine2": "Area, Landmark",
+    "yourCity": "Your શહેર",
+    "sixDigitPincode": "6-digit pincode",
+    "selectBusinessType": "Select વ્યવસાય type",
+    "selectInvestmentRange": "Select રોકાણ range",
+    "selectTimeline": "પસંદ કરો timeline",
+    "selectSource": "પસંદ કરો source",
+    "specificQuestions": "Any specific questions or requirements?",
+    "bankName": "બેંક name",
+    "gstNumber": "GST registration number",
+    "facebookProfile": "https://facebook.com/yourprofile",
+    "instagramProfile": "https://instagram.com/yourprofile",
+    "youtubeChannel": "https://youtube.com/yourchannel",
+    "linkedinProfile": "https://linkedin.com/in/yourprofile",
+    "otherSocialMedia": "Any other social media platform"
   },
   "validation": {
-    "required": "{{field}} is required",
-    "emailInvalid": "કૃપા કરીને માન્ય ઇમેઇલ સરનામું દાખલ કરો.",
-    "phoneInvalid": "કૃપા કરીને માન્ય 10-અંકનો ફોન નંબર દાખલ કરો.",
-    "pincodeInvalid": "કૃપા કરીને માન્ય 6-અંકનો પિન કોડ દાખલ કરો.",
+    "required": "{{field}} is આવશ્યક",
+    "emailInvalid": "Please enter a valid ઈમેલ સરનામું",
+    "phoneInvalid": "Please enter a valid 10-digit ફોન નંબર",
+    "pincodeInvalid": "Please enter a valid 6-digit પિન કોડ",
     "minLength": "{{field}} must be at least {{min}} characters",
-    "maxLength": "{{field}} must not exceed {{max}} characters",
-    "numberOnly": "કૃપા કરીને ફક્ત નંબરો દાખલ કરો",
-    "lettersOnly": "કૃપા કરીને ફક્ત અક્ષરો દાખલ કરો",
+    "maxLength": "{{field}} must નાt exceed {{max}} characters",
+    "numberOnly": "કૃપા કરીને enter numbers only",
+    "lettersOnly": "કૃપા કરીને enter letters only",
     "fileSize": "File size must be less than {{size}}MB",
     "fileType": "Only {{types}} files are allowed",
-    "agreeRequired": "તમારે નિયમો અને શરતો સાથે સંમત થવું આવશ્યક છે",
-    "captchaRequired": "કૃપા કરીને કેપ્ચા ચકાસણી પૂર્ણ કરો.",
-    "email_invalid": "Please enter a valid email address",
-    "phone_invalid": "Please enter a valid 10-digit phone number",
-    "pan_invalid": "Please enter a valid PAN number (ABCDE1234F)",
-    "aadhaar_invalid": "Please enter a valid 12-digit Aadhaar number",
-    "pincode_invalid": "Please enter a valid 6-digit PIN code",
-    "min_length": "Minimum {{min}} characters required",
+    "agreeRequired": "You must agree to the terms and conditions",
+    "captchaRequired": "કૃપા કરીને complete the captcha verification",
+    "email_invalid": "Please enter a valid ઈમેલ સરનામું",
+    "phone_invalid": "Please enter a valid 10-digit ફોન નંબર",
+    "pan_invalid": "કૃપા કરીને enter a valid PAN number (ABCDE1234F)",
+    "aadhaar_invalid": "કૃપા કરીને enter a valid 12-digit Aadhaar number",
+    "pincode_invalid": "Please enter a valid 6-digit પિન કોડ",
+    "min_length": "Minimum {{min}} characters આવશ્યક",
     "max_length": "Maximum {{max}} characters allowed",
     "file_size": "File size must be less than {{size}}MB",
     "file_type": "Only {{types}} files are allowed",
-    "security_required": "Please complete the security verification before submitting",
-    "try_again": "Please try again or contact us directly"
+    "security_required": "Please complete the security verification before સબમિટ કરોting",
+    "try_again": "Please try again or અમારો સંપર્ક કરો directly",
+    "email": "Please enter a valid ઈમેલ સરનામું",
+    "phone": "Please enter a valid ફોન નંબર",
+    "pan": "કૃપા કરીને enter a valid PAN number",
+    "aadhaar": "કૃપા કરીને enter a valid Aadhaar number",
+    "correctFields": "કૃપા કરીને correct the following fields",
+    "enterCompletePermanentAddress": "Please enter complete permanent સરનામું (minimum 10 characters)",
+    "enterCompleteCurrentAddress": "Please enter complete current સરનામું (minimum 10 characters)",
+    "validName": "Valid name",
+    "validEmail": "Valid email",
+    "validPhone": "Valid ફોન નંબર",
+    "selectJobPosition": "કૃપા કરીને select a job position",
+    "enterExperience": "કૃપા કરીને enter your experience",
+    "enterLocation": "કૃપા કરીને enter your current location",
+    "enterSalary": "કૃપા કરીને enter expected salary",
+    "selectNoticePeriod": "કૃપા કરીને select notice period",
+    "securityVerificationRequired": "Security Verification આવશ્યક",
+    "completeSecurityVerification": "Please complete the security verification before સબમિટ કરોting."
   },
   "options": {
     "occupation": {
-      "employed": "કાર્યરત",
-      "selfEmployed": "સ્વ-રોજગાર",
-      "business": "વ્યવસાય માલિક",
-      "student": "વિદ્યાર્થી",
-      "retired": "નિવૃત્ત",
-      "other": "અન્ય"
+      "employed": "Employed",
+      "selfEmployed": "Self Employed",
+      "business": "વ્યવસાય Owner",
+      "student": "Student",
+      "retired": "Retired",
+      "other": "Other"
     },
     "investment": {
       "below_1": "Below ₹1 Lakh",
@@ -107,12 +219,12 @@
       "above_25": "Above ₹25 Lakhs"
     },
     "hearAbout": {
-      "google": "ગુગલ શોધ",
-      "facebook": "ફેસબુક",
-      "instagram": "ઇન્સ્ટાગ્રામ",
-      "friend": "મિત્ર/સંદર્ભ",
-      "newspaper": "અખબાર",
-      "other": "અન્ય"
+      "google": "Google Search",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "friend": "Friend/Reference",
+      "newspaper": "Newspaper",
+      "other": "Other"
     },
     "businessType": {
       "retail": "Retail Shop",
@@ -129,118 +241,118 @@
     }
   },
   "locationForm": {
-    "title": "ATM ઇન્સ્ટોલેશન માટે સ્થાન સબમિટ કરો",
-    "subtitle": "નવા ATM માટે શ્રેષ્ઠ સ્થાનો ઓળખવામાં અમારી સહાય કરો.",
+    "title": "સબમિટ કરો Location for ATM Installation",
+    "subtitle": "Help us identify the best locations for new એટીએમs",
     "sections": {
       "personal": "વ્યક્તિગત માહિતી",
-      "location": "સ્થાન વિગતો",
-      "business": "વ્યવસાય માહિતી",
-      "additional": "વધારાની માહિતી"
+      "location": "Location Details",
+      "business": "વ્યવસાયિક માહિતી",
+      "additional": "Additional Information"
     },
-    "success": "સ્થાન સફળતાપૂર્વક સબમિટ થયું! અમે ટૂંક સમયમાં તમારો સંપર્ક કરીશું.",
-    "error": "સ્થાન સબમિટ કરવામાં ભૂલ. કૃપા કરીને ફરી પ્રયાસ કરો."
+    "success": "Location સબમિટ કરોted successfully! We'll contact you soon.",
+    "error": "Error સબમિટ કરોting location. Please try again."
   },
   "agentForm": {
-    "title": "PixellPay એજન્ટ બનો",
-    "subtitle": "અમારા સફળ એજન્ટોના નેટવર્કમાં જોડાઓ",
+    "title": "Become a PixellPay એજન્ટ",
+    "subtitle": "Join our network of successful એજન્ટs",
     "sections": {
-      "personal": "વ્યક્તિગત વિગતો",
-      "professional": "વ્યાવસાયિક માહિતી",
+      "personal": "Personal Details",
+      "professional": "Professional Information",
       "documents": "દસ્તાવેજ અપલોડ",
-      "agreement": "શરતો અને કરાર"
+      "agreement": "Terms & Agreement"
     },
-    "success": "અરજી સફળતાપૂર્વક સબમિટ થઈ! અમારી ટીમ 48 કલાકની અંદર તમારો સંપર્ક કરશે.",
-    "error": "અરજી સબમિટ કરવામાં ભૂલ. કૃપા કરીને બધા ફીલ્ડ તપાસો અને ફરી પ્રયાસ કરો."
+    "success": "Application સબમિટ કરોted successfully! Our team will contact you within 48 hours.",
+    "error": "Error સબમિટ કરોting application. Please check all fields and try again."
   },
   "enquiryForm": {
-    "title": "ફ્રેન્ચાઇઝ પૂછપરછ ફોર્મ",
-    "subtitle": "તમારી ATM ફ્રેન્ચાઇઝ યાત્રા શરૂ કરો",
-    "success": "તમારી રુચિ બદલ આભાર! અમે ટૂંક સમયમાં તમારો સંપર્ક કરીશું.",
-    "error": "પૂછપરછ સબમિટ કરવામાં ભૂલ. કૃપા કરીને ફરી પ્રયાસ કરો."
+    "title": "ફ્રાન્ચાઇઝી Enquiry Form",
+    "subtitle": "Get started with your એટીએમ ફ્રાન્ચાઇઝી journey",
+    "success": "Thank you for your interest! We'll get પાછળ to you soon.",
+    "error": "Error સબમિટ કરોting enquiry. Please try again."
   },
   "contactForm": {
     "title": "અમારો સંપર્ક કરો",
-    "subtitle": "અમે મદદ કરવા માટે અહીં છીએ",
-    "success": "સંદેશ સફળતાપૂર્વક મોકલ્યો!",
-    "error": "સંદેશ મોકલવામાં ભૂલ. કૃપા કરીને ફરી પ્રયાસ કરો."
+    "subtitle": "We're here to help",
+    "success": "સંદેશ sent successfully!",
+    "error": "Error sending સંદેશ. Please try again."
   },
   "joinUs": {
     "title": {
       "main": "Join the",
-      "highlight": "ATM Franchise",
+      "highlight": "એટીએમ ફ્રાન્ચાઇઝી",
       "revolution": "Revolution"
     },
-    "subtitle": "Choose your path to success with ATM Franchise India",
+    "subtitle": "Choose your path to success with એટીએમ ફ્રાન્ચાઇઝી India",
     "form": {
-      "title": "ATM Franchise Application Form",
-      "instruction": "Please provide accurate information. All fields marked with * are mandatory.",
-      "submitMessage": "Our team will review your application within 24-48 hours and contact you with next steps."
+      "title": "એટીએમ ફ્રાન્ચાઇઝી Application Form",
+      "instruction": "કૃપા કરીને provide accurate information. All fields marked with * are mandatory.",
+      "submitMessage": "Our team will review your application within 24-48 hours and contact you with આગળ steps."
     },
     "sections": {
-      "personal": "Personal Information",
-      "address": "Address Information",
-      "business": "Business Information",
-      "franchise": "ATM Franchise Details",
-      "financial": "Financial Information",
+      "personal": "વ્યક્તિગત માહિતી",
+      "address": "સરનામું Information",
+      "business": "વ્યવસાયિક માહિતી",
+      "franchise": "એટીએમ ફ્રાન્ચાઇઝી Details",
+      "financial": "નાણાકીય માહિતી",
       "additional": "Additional Information"
     },
     "labels": {
-      "firstName": "First Name *",
-      "lastName": "Last Name *",
-      "email": "Email Address *",
-      "phone": "Phone Number *",
+      "firstName": "પ્રથમ નામ *",
+      "lastName": "છેલ્લું નામ *",
+      "email": "ઈમેલ સરનામું *",
+      "phone": "ફોન નંબર *",
       "alternatePhone": "Alternate Phone",
-      "dateOfBirth": "Date of Birth *",
-      "addressLine1": "Address Line 1 *",
-      "addressLine2": "Address Line 2",
-      "city": "City *",
-      "state": "State *",
-      "pincode": "PIN Code *",
-      "businessType": "Business Type *",
-      "businessExperience": "Business Experience *",
+      "dateOfBirth": "જન્મ તારીખ *",
+      "addressLine1": "સરનામું Line 1 *",
+      "addressLine2": "સરનામું Line 2",
+      "city": "શહેર *",
+      "state": "રાજ્ય *",
+      "pincode": "પિન કોડ *",
+      "businessType": "વ્યવસાય Type *",
+      "businessExperience": "વ્યવસાય Experience *",
       "currentOccupation": "Current Occupation *",
       "annualIncome": "Annual Income Range *",
-      "investmentCapacity": "Investment Capacity *",
-      "preferredLocation": "Preferred ATM Location *",
+      "investmentCapacity": "Investment Capaશહેર *",
+      "preferredLocation": "Preferred એટીએમ Location *",
       "locationOwnership": "Location Ownership *",
       "expectedFootfall": "Expected Daily Footfall",
-      "nearbyBanks": "Nearby Banks",
-      "competitorATMs": "Competitor ATMs",
-      "primaryBank": "Primary Bank *",
+      "nearbyBanks": "Nearby બેંકs",
+      "competitorATMs": "Competitor એટીએમs",
+      "primaryBank": "Primary બેંક *",
       "accountType": "Account Type *",
       "panCard": "PAN Card Number *",
       "gstNumber": "GST Number (if applicable)",
-      "referenceSource": "How did you hear about us? *",
-      "previousFranchise": "Previous Franchise Experience",
+      "referenceSource": "How did you hear અમારા વિશે? *",
+      "previousFranchise": "અગાઉનું Franchise Experience",
       "timelineToStart": "Timeline to Start *",
       "additionalComments": "Additional Comments/Questions"
     },
     "placeholders": {
-      "firstName": "Enter first name",
-      "lastName": "Enter last name",
+      "firstName": "Enter પ્રથમ નામ",
+      "lastName": "Enter છેલ્લું નામ",
       "email": "your.email@example.com",
       "phone": "+91 98765 43210",
       "addressLine1": "House/Building number, Street name",
       "addressLine2": "Area, Landmark",
-      "city": "Enter city",
-      "state": "Select state",
-      "pincode": "Enter 6-digit PIN code",
-      "businessType": "Select business type",
+      "city": "Enter શહેર",
+      "state": "Select રાજ્ય",
+      "pincode": "Enter 6-digit પિન કોડ",
+      "businessType": "Select વ્યવસાય type",
       "experienceYears": "Years of experience",
       "currentOccupation": "e.g., Shop Owner, Farmer, Employee",
-      "annualIncome": "Select income range",
-      "investmentCapacity": "Select investment range",
-      "preferredLocation": "Area/Village where you want ATM",
+      "annualIncome": "પસંદ કરો income range",
+      "investmentCapacity": "Select રોકાણ range",
+      "preferredLocation": "Area/Village where you want એટીએમ",
       "locationOwnership": "Do you own the location?",
       "expectedFootfall": "Expected daily visitors",
-      "nearbyBanks": "Names of banks within 5km",
-      "competitorATMs": "Number of ATMs in 2km radius",
-      "bankName": "Bank name",
-      "accountType": "Select account type",
+      "nearbyBanks": "Names of બેંકs within 5km",
+      "competitorATMs": "Number of એટીએમs in 2km radius",
+      "bankName": "બેંક name",
+      "accountType": "પસંદ કરો account type",
       "panCard": "ABCDE1234F",
       "gstNumber": "GST registration number",
-      "referenceSource": "Select source",
-      "previousFranchise": "Any previous franchise?",
+      "referenceSource": "પસંદ કરો source",
+      "previousFranchise": "Any અગાઉનું franchise?",
       "timelineToStart": "When can you start?",
       "additionalComments": "Any specific questions or additional information you'd like to share..."
     },
@@ -313,9 +425,9 @@
       "other": "Other"
     },
     "franchiseExperience": {
-      "yes-successful": "Yes, successful experience",
-      "yes-challenges": "Yes, faced challenges",
-      "no": "No previous experience"
+      "yes-successful": "હા, successful experience",
+      "yes-challenges": "હા, faced challenges",
+      "no": "No અગાઉનું experience"
     },
     "timelines": {
       "immediate": "Immediately",
@@ -328,19 +440,19 @@
       "agreeText": "I agree to the",
       "termsLink": "Terms & Conditions",
       "disclaimer": "and confirm that all information provided is accurate and complete. I understand that providing false information may result in application rejection.",
-      "marketingConsent": "I agree to receive marketing communications and updates about ATM franchise opportunities."
+      "marketingConsent": "I agree to receive marketing communications and updates about એટીએમ ફ્રાન્ચાઇઝી opportunities."
     },
     "sidebar": {
       "successStory": {
-        "title": "Join 500+ Successful Franchisees",
-        "testimonial": "Starting my ATM franchise was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
+        "title": "Join 500+ Successful ફ્રાન્ચાઇઝીes",
+        "testimonial": "Starting my એટીએમ ફ્રાન્ચાઇઝી was the best business decision I made. The support team guided me through every step, and now I earn steady passive income while serving my community.",
         "name": "Rajesh Kumar",
-        "designation": "ATM Franchise Owner, Bihar"
+        "designation": "એટીએમ ફ્રાન્ચાઇઝી Owner, Bihar"
       },
       "process": {
         "title": "Application Process",
         "steps": [
-          "Submit detailed application",
+          "સબમિટ કરો detailed application",
           "Initial screening & verification",
           "Personal interview & site visit",
           "Approval & agreement signing",
@@ -352,17 +464,17 @@
         "callUs": "Call Us",
         "emailUs": "Email Us",
         "phone": "+91 7003554455",
-        "email": "contact@atmfranchiseindia.in"
+        "email": "contact@એટીએમfranchiseindia.in"
       }
     },
     "benefits": {
       "roi": {
         "title": "High ROI Potential",
-        "description": "Earn up to 50% return on investment with transparent revenue sharing"
+        "description": "Earn up to 50% return on રોકાણ with transparent revenue sharing"
       },
       "competition": {
         "title": "Low Competition",
-        "description": "Only 15 ATMs per 1 lakh people - huge market opportunity"
+        "description": "Only 15 એટીએમs per 1 lakh people - huge market opportunity"
       },
       "support": {
         "title": "Complete Support",
@@ -370,17 +482,17 @@
       },
       "track": {
         "title": "Proven Track Record",
-        "description": "Join 500+ successful franchisees across India"
+        "description": "Join 500+ successful ફ્રાન્ચાઇઝીes across India"
       }
     },
     "opportunities": {
       "agent": {
-        "title": "Join as Agent",
-        "description": "Become a field sales agent and earn commission"
+        "title": "Join as એજન્ટ",
+        "description": "Become a field sales એજન્ટ and earn commission"
       },
       "franchise": {
-        "title": "Join as Franchise",
-        "description": "Start your own ATM business"
+        "title": "Join as ફ્રાન્ચાઇઝી",
+        "description": "Start your own ATM વ્યવસાય"
       },
       "employee": {
         "title": "Join as Employee",
@@ -388,45 +500,73 @@
       }
     },
     "buttons": {
-      "submit": "Submit Application"
+      "submit": "અરજી સબમિટ કરો"
     },
     "toast": {
       "termsRequired": {
-        "title": "Terms & Conditions Required",
-        "description": "Please agree to terms and conditions to proceed."
+        "title": "Terms & Conditions આવશ્યક",
+        "description": "કૃપા કરીને agree to terms and conditions to proceed."
       },
       "success": {
-        "title": "Application Submitted Successfully!",
-        "description": "Our franchise team will review your application and contact you within 24-48 hours."
+        "title": "Application સબમિટ કરોted Successfully!",
+        "description": "Our ફ્રાન્ચાઇઝી team will review your application and contact you within 24-48 hours."
       }
     }
   },
-  "buttons": {
-    "submit": "Submit",
-    "next": "Next",
-    "previous": "Previous",
-    "cancel": "Cancel",
-    "saveDraft": "Save Draft",
-    "submitApplication": "Submit Application",
-    "apply": "Apply Now",
-    "register": "Register",
-    "continue": "Continue"
-  },
   "sections": {
-    "personal": "Personal Information",
-    "contact": "Contact Details",
-    "address": "Address Information",
-    "business": "Business Information",
-    "financial": "Financial Information",
-    "documents": "Document Upload",
+    "personal": "વ્યક્તિગત માહિતી",
+    "contact": "સંપર્ક વિગતો",
+    "address": "સરનામું Information",
+    "business": "વ્યવસાયિક માહિતી",
+    "financial": "નાણાકીય માહિતી",
+    "documents": "દસ્તાવેજ અપલોડ",
     "verification": "Verification",
     "terms": "Terms & Conditions"
   },
   "form": {
     "mandatoryFields": "All fields marked with * are mandatory",
-    "accurateInfo": "Please provide accurate information",
-    "successMessage": "Application submitted successfully!",
-    "errorMessage": "Error submitting application. Please try again.",
-    "reviewInfo": "Please review your information before submitting"
+    "accurateInfo": "કૃપા કરીને provide accurate information",
+    "successMessage": "Application સબમિટ કરોted successfully!",
+    "errorMessage": "Error સબમિટ કરોting application. Please try again.",
+    "reviewInfo": "Please review your information before સબમિટ કરોting"
+  },
+  "forms": {
+    "gender": {
+      "label": "પસંદ કરો Your Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "dateOfBirth": {
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "months": {
+      "may": "May"
+    },
+    "whatsapp": {
+      "placeholder": "WhatsApp active number"
+    },
+    "pan": {
+      "labelWithFormat": "PAN Card Number (ABCDE1234F)",
+      "placeholder": "ABCDE1234F"
+    },
+    "state": {
+      "label": "રાજ્ય",
+      "placeholder": "Choose your રાજ્ય"
+    },
+    "error": {
+      "fileUpload": "Unable to upload files. કૃપા કરીને try again.",
+      "network": "Network error. કૃપા કરીને check your connection.",
+      "tryAgainOrContact": "Please try again or અમારો સંપર્ક કરો directly."
+    },
+    "validation": {
+      "email": "Please enter a valid ઈમેલ સરનામું",
+      "phone": "Please enter a valid ફોન નંબર",
+      "pan": "કૃપા કરીને enter a valid PAN number",
+      "aadhaar": "કૃપા કરીને enter a valid Aadhaar number",
+      "correctFields": "કૃપા કરીને correct the following fields"
+    }
   }
 }

@@ -1,32 +1,88 @@
 {
-  "title": "Pixellpay کا فائدہ",
-  "subtitle": "جدید بینکنگ کے لیے ادائیگی کے جدید حل",
+  "title": "Pixellpay Advantage",
+  "subtitle": "Advanced payment solutions for modern banking",
   "hero": {
-    "heading": "Pixellpay کا فائدہ",
-    "description": "ہموار لین دین کے لیے جدید ٹیکنالوجی",
-    "cta": "مزید جانیں"
+    "heading": "The Pixellpay Advantage",
+    "description": "Cutting-edge technology for seamless transactions",
+    "cta": "Learn More"
   },
   "features": {
-    "title": "کلیدی خصوصیات",
+    "title": "Key Features",
     "security": {
-      "title": "بہتر سیکورٹی",
-      "description": "تمام لین دین کے لیے بینک گریڈ سیکیورٹی"
+      "title": "Enhanced Security",
+      "description": "Bank-grade security for all transactions"
     },
     "speed": {
-      "title": "بجلی تیز",
-      "description": "سیکنڈوں میں لین دین پر عمل کریں۔"
+      "title": "Lightning Fast",
+      "description": "Process transactions in seconds"
     },
     "reliability": {
-      "title": "99.9% اپ ٹائم",
-      "description": "قابل اعتماد سروس جس پر آپ اعتماد کر سکتے ہیں۔"
+      "title": "99.9% Uptime",
+      "description": "Reliable service you can count on"
     },
     "support": {
-      "title": "24/7 سپورٹ",
-      "description": "چوبیس گھنٹے تکنیکی مدد"
+      "title": "24/7 Support",
+      "description": "Round-the-clock technical assistance"
     }
   },
   "technology": {
-    "title": "ہماری ٹیکنالوجی",
-    "description": "جدید ترین فنٹیک ایجادات کے ساتھ بنایا گیا ہے۔"
+    "title": "Our Technology",
+    "description": "Built with latest fintech innovations"
+  },
+  "content": {
+    "powered_by_pixellpay": "Powered by PixellPay",
+    "pixellpay": "PixellPay",
+    "advantage": "Advantage",
+    "comprehensive_atm_franchise_se": "Comprehensive ATM Franchise Services with Expert Support & Guaranteed Results",
+    "your_success_starts_here": "Your Success Starts Here",
+    "join_successful_entrepreneurs_": "Join 500+ successful entrepreneurs building passive income with ATM franchise",
+    "atm_franchise_india_your_trust": "ATM Franchise India - Your Trusted Partner",
+    "our_key_services": "Our Key Services",
+    "powered_by_pixellpay_partnered": "Powered by PixellPay, partnered with India's leading WLA operators",
+    "google_gmb_profile_location_boo": "Google GMB Profile & Location Boost",
+    "enhance_your_atm_visibility_an": "Enhance your ATM's visibility and attract more customers with professional Google Business Profile management",
+    "creation_of_google_my_business": "Creation of Google My Business profile for your ATM location",
+    "location_verification_on_google": "Location verification on Google Maps for better visibility",
+    "photo_uploads_for_enhanced_visi": "Photo uploads for enhanced visibility and credibility",
+    "seo_optimization_meta_tagging_t": "SEO optimization & meta tagging to rank higher locally",
+    "settlement_dispute_resolution": "Settlement & Dispute Resolution",
+    "smooth_handling_of_operational": "Smooth handling of operational challenges with expert assistance",
+    "assistance_in_resolving_settlem": "Assistance in resolving settlement discrepancies with WLA operators",
+    "customer_dispute_support_for_fa": "Customer dispute support for faster resolution",
+    "payout_delay_calculation_discre": "Payout Delay & Calculation Discrepancies",
+    "ensure_you_receive_your_rightfu": "Ensure you receive your rightful earnings on time, every time",
+    "liaison_with_wla_companies_for": "Liaison with WLA companies for timely payouts",
+    "clarification_and_resolution_of": "Clarification and resolution of calculation discrepancies",
+    "atm_asset_troubleshooting": "ATM Asset Troubleshooting",
+    "endtoend_support_for_atm_hardw": "End-to-end support for ATM hardware and software issues",
+    "call_log_creation_and_tracking": "Call log creation and tracking with service providers",
+    "assistance_with_escalations_in": "Assistance with escalations in case of delayed resolutions",
+    "coordination_with_atm_upsbatter": "Coordination with ATM, UPS, battery, and router service teams",
+    "insurance_claim_settlement_assi": "Insurance Claim Settlement Assistance",
+    "your_backup_during_unforeseen_i": "Your backup during unforeseen incidents and losses",
+    "support_in_case_of_theft_or_ass": "Support in case of theft or asset damage",
+    "documentation_coordination_with": "Documentation & coordination with insurance companies",
+    "194n_tds_tagging_compliance": "194N TDS Tagging & Compliance",
+    "avoid_unnecessary_tds_deduction": "Avoid unnecessary TDS deductions and maintain compliance",
+    "assistance_with_tds_exemption_t": "Assistance with TDS exemption tagging under Section 194N",
+    "monthlyyearly_tds_tagging_with": "Monthly/yearly TDS tagging with all leading WLA companies",
+    "facilitation_of_form_194n194_td": "Facilitation of Form 194N/194 TDS requirements",
+    "prompt_support": "Prompt Support",
+    "247_assistance_for_all_your_atm": "24/7 assistance for all your ATM franchise needs",
+    "quick_response_to_operational_q": "Quick response to operational queries",
+    "realtime_assistance_for_urgent": "Real-time assistance for urgent issues",
+    "dedicated_support_team_for_fran": "Dedicated support team for franchise partners",
+    "settlement_account_opening": "Settlement Account Opening",
+    "get_your_atm_current_account_re": "Get your ATM current account ready without hassles",
+    "liaising_with_bank_officials_fo": "Liaising with bank officials for smooth account opening",
+    "documentation_and_procedural_su": "Documentation and procedural support",
+    "why_choose_atm_franchise_india": "Why Choose ATM Franchise India?",
+    "with_deep_expertise_a_vast_supp": "With deep expertise, a vast support network, and PixellPay's advanced technology, we ensure that your ATM franchise journey is smooth, profitable, and hassle-free.",
+    "we_help_navigate_the_complex_ba": "We help navigate the complex banking ecosystem while you focus on growing your business and earning passive income.",
+    "important_disclaimer": "Important Disclaimer",
+    "atm_franchise_india_is_an_assis": "ATM Franchise India is an assistance and consultancy service provider. We help entrepreneurs navigate the ATM franchise business by providing expert guidance, documentation support, and liaison services with WLA operators and banks. We are not a White Label ATM operator ourselves and do not directly deploy ATMs. Our role is to facilitate and support your ATM franchise journey through our expertise and network."
+  },
+  "alt": {
+    "young_entrepreneur_succeeding_": "Young entrepreneur succeeding in ATM franchise business"
   }
 }

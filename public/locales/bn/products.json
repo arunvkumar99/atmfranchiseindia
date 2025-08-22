@@ -83,45 +83,45 @@
       "name": "বেসিক প্যাকেজ",
       "price": "₹৫০,০০০",
       "features": [
-        "একক এটিএম ইনস্টলেশন",
-        "মৌলিক প্রশিক্ষণ",
-        "স্ট্যান্ডার্ড সাপোর্ট",
-        "মাসিক রক্ষণাবেক্ষণ"
+        "Single ATM Installation",
+        "Basic Training",
+        "Standard Support",
+        "Monthly Maintenance"
       ]
     },
     "silver": {
       "name": "সিলভার প্যাকেজ",
       "price": "₹১,৫০,০০০",
       "features": [
-        "২টি এটিএম ইনস্টলেশন",
-        "উন্নত প্রশিক্ষণ",
-        "অগ্রাধিকার সহায়তা",
-        "মার্কেটিং সাপোর্ট",
-        "দ্বি-সাপ্তাহিক রক্ষণাবেক্ষণ"
+        "2 ATM Installations",
+        "Advanced Training",
+        "Priority Support",
+        "Marketing Support",
+        "Bi-weekly Maintenance"
       ]
     },
     "gold": {
       "name": "সোনার প্যাকেজ",
       "price": "₹৩,০০,০০০",
       "features": [
-        "৩+ এটিএম ইনস্টলেশন",
-        "ব্যাপক প্রশিক্ষণ",
-        "ডেডিকেটেড সাপোর্ট ম্যানেজার",
-        "সম্পূর্ণ মার্কেটিং সাপোর্ট",
-        "সাপ্তাহিক রক্ষণাবেক্ষণ",
-        "অতিরিক্ত পরিষেবা ইন্টিগ্রেশন"
+        "3+ ATM Installations",
+        "Comprehensive Training",
+        "Dedicated Support Manager",
+        "Full Marketing Support",
+        "Weekly Maintenance",
+        "Additional Services Integration"
       ]
     },
     "enterprise": {
       "name": "এন্টারপ্রাইজ প্যাকেজ",
       "price": "কাস্টম",
       "features": [
-        "একাধিক এটিএম নেটওয়ার্ক",
-        "কাস্টম সমাধান",
-        "নিবেদিতপ্রাণ দল",
-        "হোয়াইট লেবেল বিকল্পগুলি",
-        "এপিআই ইন্টিগ্রেশন",
-        "রাজস্ব ভাগাভাগি মডেল"
+        "Multiple ATM Network",
+        "Custom Solutions",
+        "Dedicated Team",
+        "White Label Options",
+        "API Integration",
+        "Revenue Sharing Model"
       ]
     }
   },
@@ -133,5 +133,81 @@
     "support": "সাপোর্ট লেভেল",
     "training": "প্রশিক্ষণের সময়কাল",
     "maintenance": "রক্ষণাবেক্ষণ ফ্রিকোয়েন্সি"
+  },
+  "hero": {
+    "badge": "Premium ব্যবসা Solutions",
+    "title": {
+      "main": "এটিএম ব্যবসা",
+      "rotating": [
+        "Solutions",
+        "Advantage",
+        "Products",
+        "Success",
+        "Excellence"
+      ]
+    },
+    "titles": {
+      "solutions": "Solutions",
+      "advantage": "Advantage",
+      "products": "পণ্য",
+      "success": "সফল",
+      "excellence": "Excellence"
+    },
+    "subtitle": "Transform your entrepreneurial dreams into reality with our comprehensive এটিএম franchise solutions. Experience the perfect blend of technology, support, and profitability.",
+    "buttons": {
+      "explore": "Explore Solutions",
+      "franchise": "Become ফ্র্যাঞ্চাইজি",
+      "contact": "Contact Us"
+    },
+    "stats": {
+      "partners": {
+        "value": "4+",
+        "label": "ডব্লিউএলএ অংশীদারs"
+      },
+      "care360": {
+        "value": "₹30K",
+        "label": "Care360 Value"
+      },
+      "visibility": {
+        "value": "₹3K",
+        "label": "Visibility Boost"
+      }
+    }
+  },
+  "partners": {
+    "sectionTitle": "Our Trusted ডব্লিউএলএ অংশীদারs",
+    "badge": "Premium অংশীদারিত্ব Network",
+    "title": {
+      "part1": "ডব্লিউএলএ এটিএমs",
+      "part2": "অংশীদারিত্ব"
+    },
+    "description": "Access ভারত's most trusted হোয়াইট লেবেল এটিএম operators through our exclusive partnership network. পছন্দ করুন from multiple operators based on your location and investment preferences.",
+    "vakrangee": {
+      "name": "Vakrangee",
+      "tagline": "Market Leader"
+    },
+    "findi": {
+      "name": "Findi",
+      "tagline": "Fast Growing"
+    },
+    "indiaone": {
+      "name": "ভারত One",
+      "tagline": "Reliable Network"
+    },
+    "eps": {
+      "name": "EPS Bancs",
+      "tagline": "Proven Track Record"
+    },
+    "stats": {
+      "roi": {
+        "value": "12-18",
+        "label": "Months আরওআই"
+      },
+      "income": {
+        "value": "₹15K+",
+        "label": "মাসিক আয়"
+      }
+    },
+    "cta": "Start Your ফ্র্যাঞ্চাইজি"
   }
 }

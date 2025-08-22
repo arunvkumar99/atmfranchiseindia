@@ -4,16 +4,37 @@
     "title": {
       "prefix": "ഞങ്ങളെക്കുറിച്ച്",
       "middle": "ATM Franchise",
-      "suffix": "India",
-      "highlight": "എടിഎം ഫ്രാഞ്ചൈസ് ഇന്ത്യ"
+      "suffix": "India"
     },
     "subtitle": "ഇന്ത്യയിലെ എടിഎം ഫ്രാഞ്ചൈസ് ബിസിനസിനുള്ള നിങ്ങളുടെ വിശ്വസനീയ പങ്കാളി",
     "buttons": {
-      "expertise": "Our Expertise",
-      "companies": "Group Companies"
+      "expertise": "ഞങ്ങളുടെ വിദഗ്ധത",
+      "companies": "ഗ്രൂപ്പ് കമ്പനികൾ"
     }
   },
   "whoWeAre": {
+    "badge": "വ്യവസായ വൈദഗ്ധ്യം",
+    "heading": "ഞങ്ങൾ ആരാണ്",
+    "content": "ATM Franchise India എന്നത് എടിഎം ഫ്രാഞ്ചൈസ് ബിസിനസിൽ വൈദഗ്ധ്യമുള്ള ഒരു പ്രമുഖ കൺസൾട്ടൻസി കമ്പനിയാണ്. എല്ലാ വൈറ്റ് ലേബൽ എടിഎം (ഡബ്ല്യുഎൽഎ) ബ്രാൻഡുകളിലുടനീളം 5 വർഷത്തിലധികം അനുഭവവും 200+ വിജയകരമായ ഫ്രാഞ്ചൈസ് പങ്കാളിത്തവും ഉള്ള ഞങ്ങൾ എടിഎം വ്യവസായത്തെക്കുറിച്ച് കൃത്യവും സത്യാപിതവുമായ ഉൾക്കാഴ്ചകൾ നൽകുന്നു.",
+    "empowering": {
+      "description": "ഞങ്ങളുടെ എടിഎം ഫ്രാഞ്ചൈസ് അവസരങ്ങളുമായി അഭിവൃദ്ധിപ്പെടുന്ന ബിസിനസുകൾ കെട്ടിപ്പടുത്ത ആയിരക്കണക്കിന് വിജയികളായ ഇന്ത്യൻ യുവാക്കളോടൊപ്പം ചേരുക"
+    },
+    "features": {
+      "experience": {
+        "title": "5+ വർഷത്തെ അനുഭവം",
+        "description": "200+ വിജയകരമായ ഫ്രാഞ്ചൈസ് പങ്കാളിത്തവും സിദ്ധമായ ട്രാക്ക് റെക്കോർഡും"
+      },
+      "results": {
+        "description": "12-18 മാസത്തിനുള്ളിൽ ശരാശരി ROI സഹിതം 95% പങ്കാളി വിജയ നിരക്ക്"
+      },
+      "guidance": {
+        "description": "മറഞ്ഞിരിക്കുന്ന ചിലവുകളോ അപ്രതീക്ഷിത ഫീസോ ഇല്ലാതെ 100% സുതാര്യത"
+      }
+    },
+    "path": {
+      "title": "സാമ്പത്തിക സ്വാതന്ത്ര്യത്തിലേക്കുള്ള നിങ്ങളുടെ പാത",
+      "description": "നിയന്ത്രിത മേഖല എന്ന നിലയിൽ, എടിഎം ബിസിനസിൽ പലപ്പോഴും വ്യാപകമായ തെറ്റായ വിവരങ്ങൾ കാണാറുണ്ട്. നിക്ഷേപകരെ വിവരമുള്ള ഫ്രാഞ്ചൈസ് തീരുമാനങ്ങൾ എടുക്കാൻ സഹായിക്കുന്നതിന് വിശ്വസനീയവും വസ്തുതാധിഷ്ഠിതവുമായ മാർഗദർശനം നൽകുകയാണ് ഞങ്ങളുടെ ലക്ഷ്യം."
+    },
     "title": "Who We Are",
     "subtitle": "Empowering entrepreneurs with trusted ATM franchise opportunities",
     "description": "ATM Franchise India is a pioneering platform that bridges the gap between aspiring entrepreneurs and RBI-licensed White Label ATM operators. Since 2020, we've been transforming lives by providing accurate information, expert guidance, and comprehensive support for ATM franchise businesses across India.",
@@ -36,82 +57,127 @@
       }
     }
   },
+  "groupCompanies": {
+    "badge": "ഗ്രൂപ്പ് കമ്പനികൾ",
+    "title": "വിശ്വസനീയമായ ബിസിനസ് ഗ്രൂപ്പിന്റെ ഭാഗം",
+    "subtitle": "ATM Franchise India സാമ്പത്തിക സാങ്കേതികവിദ്യയിലും ബിസിനസ് സൊല്യൂഷനുകളിലും ശ്രദ്ധ കേന്ദ്രീകരിച്ചുള്ള ചലനാത്മക കമ്പനികളുടെ ഒരു ഗ്രൂപ്പിന്റെ ഭാഗമാണ്.",
+    "pixellpay": {
+      "name": "PixellPay",
+      "badge": "പെയ്മെന്റ് സൊല്യൂഷനുകൾ",
+      "description": "ഡിജിറ്റൽ ഇടപാടുകൾ ലളിതമാക്കാനും സാമ്പത്തിക പ്രവേശനക്ഷമത വർദ്ധിപ്പിക്കാനും രൂപകൽപ്പന ചെയ്ത നൂതനമായ പെയ്മെന്റ് സൊല്യൂഷനുകളും സാമ്പത്തിക സാങ്കേതിക സേവനങ്ങളും.",
+      "button": "PixellPay സന്ദർശിക്കുക"
+    },
+    "evosyz": {
+      "name": "Evosyz",
+      "badge": "ദക്ഷിണേന്ത്യയിലെ ഏറ്റവും വലിയ എടിഎം ഫ്രാഞ്ചൈസ് ഓപ്പറേറ്റർ",
+      "description": "സിദ്ധമായ വൈദഗ്ധ്യവും അസാധാരണമായ ട്രാക്ക് റെക്കോർഡും ഉള്ള ദക്ഷിണേന്ത്യയിലുടനീളം പ്രമുഖ എടിഎം ഫ്രാഞ്ചൈസ് പ്രവർത്തനങ്ങളും ബിസിനസ് സൊല്യൂഷനുകളും.",
+      "button": "Evosyz സന്ദർശിക്കുക"
+    }
+  },
+  "wlaPartners": {
+    "badge": "വിശ്വസനീയ WLA നെറ്റ്‌വർക്ക്",
+    "subtitle": "നിങ്ങൾക്ക് മികച്ച ഫ്രാഞ്ചൈസ് അവസരങ്ങൾ നൽകുന്നതിനായി അതുല്യമായ ശക്തികളും രാജ്യവ്യാപക കവറേജും കൊണ്ടുവരുന്ന ഇന്ത്യയിലെ പ്രമുഖ വൈറ്റ് ലേബൽ എടിഎം ഓപ്പറേറ്റർമാരുമായി ഞങ്ങൾ സഹകരിക്കുന്നു.",
+    "eps": {
+      "badge": "സ്ഥാപിത WLA ഓപ്പറേറ്റർ",
+      "description": "വിപുലമായ നെറ്റ്‌വർക്ക് കവറേജും എടിഎം വിന്യാസത്തിലും മാനേജ്മെന്റ് സേവനങ്ങളിലും സിദ്ധമായ ട്രാക്ക് റെക്കോർഡും ഉള്ള ഇന്ത്യയിലെ പയനിയറിംഗ് WLA ഓപ്പറേറ്റർമാരിലൊരാൾ."
+    },
+    "india": {
+      "badge": "ദേശീയ കവറേജ്",
+      "description": "ഇന്ത്യയിലുടനീളം അപര്യാപ്തമായ സേവനമുള്ള കമ്മ്യൂണിറ്റികൾക്ക് ബാങ്കിംഗ് സേവനങ്ങൾ കൊണ്ടുവരുന്ന, ഗ്രാമീണ, അർദ്ധ നഗര വിപണികളിൽ ശ്രദ്ധ കേന്ദ്രീകരിച്ചുള്ള വിപുലമായ എടിഎം സൊല്യൂഷൻ പ്രൊവൈഡർ."
+    },
+    "indicash": {
+      "badge": "TATA ഗ്രൂപ്പ് ഉൽപ്പന്നം",
+      "description": "TATA ഗ്രൂപ്പിന്റെ വിശ്വാസത്തിന്റെയും മികവിന്റെയും പൈതൃകത്താൽ പിന്തുണയ്ക്കപ്പെടുന്ന, അത്യാധുനിക സാങ്കേതികവിദ്യയും വിശ്വസനീയമായ സേവന അടിസ്ഥാന സൗകര്യങ്ങളും ഉള്ള പ്രീമിയം എടിഎം സൊല്യൂഷനുകൾ Indicash വാഗ്ദാനം ചെയ്യുന്നു."
+    },
+    "vakrangee": {
+      "badge": "ഡിജിറ്റൽ ഇക്കോസിസ്റ്റം ലീഡർ",
+      "description": "ഗ്രാമീണ, നഗര കമ്മ്യൂണിറ്റികൾക്കായി എടിഎം സേവനങ്ങളെ സമഗ്രമായ ഡിജിറ്റൽ സൊല്യൂഷനുകളുമായി സംയോജിപ്പിക്കുന്ന ഇന്ത്യയിലെ ഏറ്റവും വലിയ ഡിജിറ്റൽ സേവന കേന്ദ്രങ്ങളുടെ ശൃംഖല."
+    },
+    "findi": {
+      "badge": "നെക്സ്റ്റ് ജെൻ ഫിൻടെക്",
+      "description": "ഡിജിറ്റൽ യുഗത്തിനായി നൂതനമായ സാങ്കേതികവിദ്യ, സ്മാർട്ട് അനലിറ്റിക്സ്, ഉപഭോക്താവ് കേന്ദ്രീകൃത സൊല്യൂഷനുകൾ എന്നിവ ഉപയോഗിച്ച് എടിഎം പ്രവർത്തനങ്ങളിൽ വിപ്ലവം വരുത്തുന്ന ആധുനിക ഫിൻടെക് പ്ലാറ്റ്ഫോം."
+    },
+    "whyMatter": {
+      "title": "ഞങ്ങളുടെ പങ്കാളിത്തം എന്തുകൊണ്ട് പ്രധാനം",
+      "subtitle": "പ്രമുഖ WLA ഓപ്പറേറ്റർമാരുമായുള്ള ഞങ്ങളുടെ തന്ത്രപരമായ പങ്കാളിത്തം എടിഎം ഫ്രാഞ്ചൈസ് ബിസിനസിൽ നിങ്ങൾക്ക് മികച്ച അവസരങ്ങൾ, സാങ്കേതികവിദ്യ, പിന്തുണ എന്നിവയിലേക്കുള്ള പ്രവേശനം നിങ്ങൾക്ക് ഉറപ്പാക്കുന്നു."
+    }
+  },
   "mission": {
-    "title": "Our Mission",
+    "title": "ഞങ്ങളുടെ ദൗത്യം",
     "items": {
       "accurate": {
-        "title": "Accurate Information",
-        "description": "Provide verified and transparent information about ATM franchise opportunities"
+        "title": "കൃത്യമായ വിവരങ്ങൾ",
+        "description": "എടിഎം ഫ്രാഞ്ചൈസ് അവസരങ്ങളെക്കുറിച്ച് സത്യാപിതവും സുതാര്യവുമായ വിവരങ്ങൾ നൽകുക"
       },
       "simplify": {
-        "title": "Simplify Process",
-        "description": "Make the ATM franchise journey simple and accessible for everyone"
+        "title": "പ്രക്രിയ ലളിതമാക്കുക",
+        "description": "എടിഎം ഫ്രാഞ്ചൈസ് യാത്ര എല്ലാവർക്കും ലളിതവും ആക്സസ് ചെയ്യാവുന്നതുമാക്കുക"
       },
       "support": {
-        "title": "Continuous Support",
-        "description": "Offer ongoing guidance from setup to successful operation"
+        "title": "തുടർ പിന്തുണ",
+        "description": "സെറ്റപ്പ് മുതൽ വിജയകരമായ പ്രവർത്തനം വരെ തുടർച്ചയായ മാർഗദർശനം നൽകുക"
       },
       "growth": {
-        "title": "Enable Growth",
-        "description": "Help partners achieve sustainable income and business growth"
+        "title": "വളർച്ച സാധ്യമാക്കുക",
+        "description": "സുസ്ഥിരമായ വരുമാനവും ബിസിനസ് വളർച്ചയും കൈവരിക്കാൻ പങ്കാളികളെ സഹായിക്കുക"
       }
     }
   },
   "services": {
-    "title": "Our Services",
+    "title": "ഞങ്ങളുടെ സേവനങ്ങൾ",
     "consultation": {
-      "title": "Franchise Consultation",
-      "description": "Expert guidance on choosing the right WLA partner and location"
+      "title": "ഫ്രാഞ്ചൈസ് കൺസൾട്ടേഷൻ",
+      "description": "ശരിയായ WLA പങ്കാളിയും സ്ഥലവും തിരഞ്ഞെടുക്കുന്നതിനുള്ള വിദഗ്ധ മാർഗദർശനം"
     },
     "training": {
-      "title": "Training & Support",
-      "description": "Comprehensive training programs and ongoing operational support"
+      "title": "പരിശീലനവും പിന്തുണയും",
+      "description": "സമഗ്രമായ പരിശീലന പ്രോഗ്രാമുകളും തുടർച്ചയായ പ്രവർത്തന പിന്തുണയും"
     },
     "digital": {
-      "title": "Digital Marketing",
-      "description": "Boost your ATM's visibility with our digital marketing services"
+      "title": "ഡിജിറ്റൽ മാർക്കറ്റിംഗ്",
+      "description": "ഞങ്ങളുടെ ഡിജിറ്റൽ മാർക്കറ്റിംഗ് സേവനങ്ങൾ ഉപയോഗിച്ച് നിങ്ങളുടെ എടിഎമ്മിന്റെ ദൃശ്യപരത വർദ്ധിപ്പിക്കുക"
     },
     "technical": {
-      "title": "Technical Assistance",
-      "description": "24/7 technical support and troubleshooting assistance"
+      "title": "സാങ്കേതിക സഹായം",
+      "description": "24/7 സാങ്കേതിക പിന്തുണയും ട്രബിൾഷൂട്ടിംഗ് സഹായവും"
     }
   },
   "companies": {
+    "subtitle": "വിശ്വസനീയമായ ബിസിനസ് ഇക്കോസിസ്റ്റത്തിന്റെ ഭാഗം",
+    "pixellpay": {
+      "description": "സാമ്പത്തിക സാങ്കേതിക വിദ്യ സൊല്യൂഷനുകളും പേയ്മെന്റ് സേവനങ്ങളും",
+      "name": "Pixellpay Advantage",
+      "link": "Learn More"
+    },
     "title": "Our Group Companies",
-    "subtitle": "Part of a trusted business ecosystem",
     "pixellweb": {
       "name": "Pixellweb",
       "description": "Premium web development and digital solutions provider",
       "link": "Visit Website"
-    },
-    "pixellpay": {
-      "name": "Pixellpay Advantage",
-      "description": "Financial technology solutions and payment services",
-      "link": "Learn More"
     }
   },
   "values": {
-    "title": "Our Values",
+    "title": "ഞങ്ങളുടെ മൂല്യങ്ങൾ",
     "transparency": {
-      "title": "Transparency",
-      "description": "Complete transparency in all business dealings"
+      "title": "സുതാര്യത",
+      "description": "എല്ലാ ബിസിനസ് ഇടപാടുകളിലും പൂർണ്ണ സുതാര്യത"
     },
     "integrity": {
-      "title": "Integrity",
-      "description": "Honest and ethical business practices"
+      "title": "സത്യസന്ധത",
+      "description": "സത്യസന്ധവും ധാർമ്മികവുമായ ബിസിനസ് രീതികൾ"
     },
     "excellence": {
-      "title": "Excellence",
-      "description": "Commitment to service excellence"
+      "title": "മികവ്",
+      "description": "സേവന മികവിലുള്ള പ്രതിബദ്ധത"
     },
     "innovation": {
-      "title": "Innovation",
-      "description": "Continuous improvement and innovation"
+      "title": "നൂതനത്വം",
+      "description": "തുടർച്ചയായ പുരോഗതിയും നവീകരണവും"
     }
   },
   "cta": {
-    "title": "Ready to Start Your ATM Franchise Journey?",
-    "subtitle": "Join thousands of successful franchise partners across India",
-    "button": "Get Started Today"
+    "title": "നിങ്ങളുടെ എടിഎം ഫ്രാഞ്ചൈസ് യാത്ര ആരംഭിക്കാൻ തയ്യാറാണോ?",
+    "subtitle": "ഇന്ത്യയിലുടനീളമുള്ള ആയിരക്കണക്കിന് വിജയകരമായ ഫ്രാഞ്ചൈസ് പങ്കാളികളോടൊപ്പം ചേരുക",
+    "button": "ഇന്ന് തന്നെ ആരംഭിക്കുക"
   }
 }
